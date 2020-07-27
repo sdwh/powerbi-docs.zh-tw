@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: be945d1d9612804a90c14c47d2c468f5ed5a843f
-ms.sourcegitcommit: 008467dc9d4f88f91728c59caeb68b7db94f267c
+ms.openlocfilehash: 5522d84cab235270a2eb368be02cfa0fb4e5eaa9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "82885022"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557133"
 ---
 # <a name="introduction-to-deployment-pipelines-preview"></a>部署管線簡介 (預覽)
 
@@ -40,7 +40,7 @@ ms.locfileid: "82885022"
 
     測試內容之後，請使用生產階段來與組織中的商務使用者共用內容的最終版本。
 
-![部署管線](media/deployment-pipelines-overview/deployment-pipelines.png)
+![運作中部署管線的螢幕擷取畫面，其全部三個階段 ([開發]、[測試] 與 [生產環境]) 皆已經填入。](media/deployment-pipelines-overview/deployment-pipelines.png)
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 01/08/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b4146cef6ae34c7c6e5eb9713242c3a2cb0257ee
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9a3e393fa02d0bccc3e966c467b41883e72ae05e
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237762"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459638"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>搭配內部部署資料來源使用資料流程
 
@@ -69,6 +69,7 @@ ms.locfileid: "85237762"
 * 變更閘道會影響整個資料流程。
 * 如果需要數個閘道，最佳做法是建置數個資料流程 (每個閘道各一個)，並使用計算或實體參考功能來整合資料。
 * 資料流程只能使用企業閘道來支援。 您將無法在下拉式清單和設定畫面中選取個人閘道。
+* 資料流程中不支援使用 [[透過 Kerberos 使用 SSO 進行 DirectQuery 和 Import 查詢](../connect-data/service-gateway-sso-kerberos.md#run-a-power-bi-report)] 選項進行設定的內部部署資料來源。
 
 
 ## <a name="next-steps"></a>後續步驟
@@ -76,7 +77,7 @@ ms.locfileid: "85237762"
 此文章提供了如何針對資料流程使用內部部署資料來源，以及如何使用和設定閘道來存取這類資料的相關資訊。 下列文章可能也很實用
 
 * [使用資料流程的自助資料準備](service-dataflows-overview.md)
-* [建立 Power BI 中的資料流程](service-dataflows-create-use.md)
+* [在 Power BI 中建立及使用資料流程](service-dataflows-create-use.md)
 * [在 Power BI Premium 上使用計算實體](service-dataflows-computed-entities-premium.md)
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 

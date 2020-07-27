@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 05/01/2020
-ms.openlocfilehash: d7e11b40c3a0257e090812ff15f31916cea509f9
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: fd92e64ac04a31446214bd6f1661d9ba5c1358d9
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84336766"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557096"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
 
@@ -81,9 +81,17 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 - WORDOPENXML (WORD) 
 - CSV 
 - PDF 
+- ACCESSIBLEPDF (PDF)
 - XML 
 
-**參數面板狀態**：指定當載入報表時，要關閉或開啟參數面板，或一起隱藏。
+**報表檢視**：指定用來顯示報表的檢視類型。
+
+-   rdl:reportView
+
+    - 'interactive' (預設)：以互動模式載入報表。
+    - 'pageView'：以頁面檢視模式載入報表。
+
+**參數面板狀態**：指定當載入報表時，參數面板應該要關閉或開啟，或是一起隱藏。
 
 -   rdl:parameterPanelState
 
@@ -93,7 +101,7 @@ Power BI 租用戶的 Web 服務 URL。 例如：
 
 **裝置資訊** 您可以為下列匯出格式指定額外的輸出參數。 
 
-PDF：
+PDF / ACCESSIBLEPDF：
 
 - rdl:AccessiblePDF=true/false
 - rdl:Columns=integer

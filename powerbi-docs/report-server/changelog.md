@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 8b777cba35f32dcf2d6561b73c350d047d473223
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
+ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162267"
+ms.lasthandoff: 07/18/2020
+ms.locfileid: "86459592"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -52,11 +52,12 @@ ms.locfileid: "86162267"
 
 
 - **Power BI Desktop (針對 Power BI 報表伺服器最佳化)**
-    - *版本：2.81.5831.941 (2020 年 5 月) 發行日期：2020 年 5 月 27 日* (新組建及新版本)
+   - *版本：2.81.5831.1181 (2020 年 5 月)，發行日期：2020 年 6 月 9 日*
+        - 錯誤 (Bug) 修正
+           -  Marketplace 視覺效果修正
+   - *版本：2.81.5831.941 (2020 年 5 月) 發行日期：2020 年 5 月 27 日* (新組建及新版本)
         - 包含與 Power BI 報表伺服器連接所需的變更 (2020 年 5 月)        
-
-
-
+   
 ## <a name="january-2020"></a>2020 年 1 月
 - **Power BI 報表伺服器**
     - *版本：1.6.7364.4075 (組建 15.0.1102.777)，發行日期：2020 年 3 月 2 日*

@@ -1,5 +1,5 @@
 ---
-title: 匯出 Power BI 報表 API
+title: 匯出 Power BI 編頁報表 API
 description: 了解如何匯出內嵌 Power BI 分頁報表
 author: KesemSharabi
 ms.author: kesharab
@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: ed3193e586dc05fe92d9c429584080ac80d86a17
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237165"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86556880"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 

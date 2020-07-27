@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: e76d820e804a19db148e0db4c2702e002ee2c017
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275907"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557177"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>部署管線最佳做法 (預覽)
 
@@ -140,7 +140,7 @@ ms.locfileid: "83275907"
 
 測試時，您可以使用與生產階段相同的容量。 不過，在負載測試期間，這可能會使生產環境不穩定。 若要避免不穩定的生產環境，請在資源中使用與生產容量類似的另一個容量來進行測試。 若要避免額外的成本，您可以使用 [Azure A 容量](../developer/embedded/azure-pbie-create-capacity.md)，以僅支付測試期間的費用。
 
-![部署管線最佳做法圖表](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
+![顯示部署管線的圖表，其中具有模擬生產環境的測試環境。](media/deployment-pipelines-best-practices/deployment-pipelines-best-practices-diagram.png)
 
 ### <a name="use-dataset-rules-with-a-real-life-data-source"></a>使用資料集規則搭配實際資料來源
 

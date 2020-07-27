@@ -6,13 +6,13 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 03/24/2020
-ms.openlocfilehash: 5763c3fc72632e6e734e0dc0a32854e719709d01
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.date: 07/13/2020
+ms.openlocfilehash: 04dae0a59391ba48c7a8b6858c98ed11490ca946
+ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034489"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86557088"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -117,9 +117,10 @@ ms.locfileid: "86034489"
 
 當您建立匯出作業時，有三個要遵循的步驟：
 
-1. 傳送匯出要求。
-2. 輪詢。
-3. 取得檔案。
+1. [傳送匯出要求](#step-1---sending-an-export-request)。
+2. [輪詢](#step-2---polling)。
+3. [取得檔案](#step-3---getting-the-file)。
+4. [使用檔案資料流](#step-4---using-the-file-stream)。
 
 此節提供每個步驟的範例。
 
@@ -231,6 +232,10 @@ public class ExportedFile
     public string FileSuffix;
 }
 ```
+
+### <a name="step-4---using-the-file-stream"></a>步驟 4 - 使用檔案資料流
+
+當您有檔案資料流時，您可以使用最符合您需求的方法來加以處理。 例如，您可以使用電子郵件來加以傳送，或是將其用來下載匯出的報表。
 
 ### <a name="end-to-end-example"></a>端對端範例
 

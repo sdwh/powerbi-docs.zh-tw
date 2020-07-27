@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/04/2020
+ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: dc71bff7cd27ec369899a02cc9da0f916a043af1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
+ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225243"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86437234"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
 當您在 Power BI 服務中開啟報表時，每頁報表各有其唯一的 URL。 若要篩選該報表頁面，您可以使用報表畫布上的 [篩選] 窗格。  或者您也可以將查詢字串參數新增至 URL，以預先篩選報表。 您可能有想要向同事展示的報表，並想要預先為他們篩選。 其中一個篩選方式是從報表的預設 URL 著手、將篩選參數新增至 URL，然後用電子郵件將整個新的 URL 寄送給他們。
 
-![服務中的 Power BI 報表](media/service-url-filters/power-bi-report2.png)
+此文章使用「零售分析範例」報表。 如果您想要跟著操作，您可以[下載範例報表](../create-reports/sample-retail-analysis.md#get-the-sample)。
+
+![服務中 Power BI 報表的螢幕擷取畫面。](media/service-url-filters/power-bi-retail-analysis-sample.png)
 
 ## <a name="uses-for-query-string-parameters"></a>用於查詢字串參數
 
@@ -35,18 +37,10 @@ ms.locfileid: "85225243"
 
 *URL*?filter=*資料表*/*欄位* eq '*值*'
 
-![具篩選的 URL](media/service-url-filters/power-bi-filter-urls7b.png)
+![螢幕擷取畫面，其中顯示具有篩選條件的 URL。](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **資料表**和**欄位**名稱區分大小寫，**值**則無。
 * 從報表檢視中隱藏的欄位仍可篩選。
-
-### <a name="reports-in-apps"></a>應用程式中的報表
-
-如果要將 URL 篩選器新增至應用程式的報表中，則格式會略有不同。 應用程式中報表的連結具有新增至 URL 的查詢參數 (ctid)。 以 & 符號分隔查詢參數。 保留 "?filter=" 並將 ctid 參數移至 URL 結尾，在前面加上 & 符號。 
-
-如下列範例中：
-
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*'&ctid=*ctid*
 
 ### <a name="field-types"></a>欄位類型
 
@@ -62,27 +56,19 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 假設報表的 URL 如下所示。
 
-![起始 URL](media/service-url-filters/power-bi-filter-urls6.png)
+![起始 URL 的螢幕擷取畫面。](media/service-url-filters/power-bi-filter-urls6.png)
 
-而我們可以從地圖視覺效果 (上方) 看到，我們有門市位於北卡羅萊納州。
+而我們可以從上方的地圖視覺效果看到，我們有門市位於北卡羅來納州。 *NC* 在 [Store] 資料表 [Territory] 欄位中是代表北卡羅來那州的值。 因此若要篩選報表，使其只顯示 "NC" 中門市的資料，我們會將此字串附加到 URL：
 
->[!NOTE]
->本範例以[零售分析範例](../create-reports/sample-datasets.md)為依據。
-> 
-
-若要篩選報表，使其只顯示 "NC" (北卡羅萊納州) 門市的資料，請將下列內容加到 URL 後；
-
+```
 ?filter=Store/Territory eq 'NC'
+```
 
-![具篩選的 URL](media/service-url-filters/power-bi-filter-urls7.png)
+![螢幕擷取畫面，其中顯示具有篩選條件的 URL。](media/service-url-filters/power-bi-filter-urls7.png)
 
->[!NOTE]
->NC  是儲存在 [Store]  資料表 [Territory]  欄位中的值。
-> 
+我們的報表現在已篩選出北卡羅來納州；報表上的所有視覺效果都只會顯示北卡羅來納州的資料。
 
-我們的報表已篩選出北卡羅萊納州；報表頁面上的所有視覺效果都只會顯示北卡羅萊納州的資料。
-
-![針對北卡羅來納州篩選的報表](media/service-url-filters/power-bi-report4.png)
+![螢幕擷取畫面，其中顯示針對北卡羅來納州篩選的報表。](media/service-url-filters/power-bi-url-filter-nc.png)
 
 ## <a name="filter-on-more-than-one-value-in-a-field"></a>依欄位中多個值篩選
 
@@ -92,7 +78,9 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 
 使用相同的範例，若要篩選報表，使其只顯示 "NC" (北卡羅萊納州) 或 "TN" (田納西州) 門市的資料，請將下列內容加到 URL 後；
 
+```
 ?filter=Store/Territory in ('NC', 'TN')
+```
 
 如需其他有用運算子的清單，請參閱本文稍後的[運算子](#operators)表格。
 
@@ -119,10 +107,10 @@ app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter
 |**and**     | 和 |  是      | 是 |  是|  product/price le 200 and price gt 3.5 |
 |**eq**     | 等於 |  是      | 是   |  是       | Address/City eq 'Redmond' |
 |**ne**     | 不等於 |   是      | 是  | 是        |  Address/City ne 'London' |
-|**ge**     |  大於或等於       | 不可以 | 是 |是 |  product/price ge 10
-|**gt**     | 大於        |不可以 | 是 | 是  | product/price gt 20
-|**le**     |   小於或等於      | 不可以 | 是 | 是  | product/price le 100
-|**lt**     |  小於       | 不可以 | 是 | 是 |  product/price lt 20
+|**ge**     |  大於或等於       | 否 | 是 |是 |  product/price ge 10
+|**gt**     | 大於        |否 | 是 | 是  | product/price gt 20
+|**le**     |   小於或等於      | 否 | 是 | 是  | product/price le 100
+|**lt**     |  小於       | 否 | 是 | 是 |  product/price lt 20
 |**in\*\***     |  含       | 是 | 是 |  是 | Student/Age in (27, 29)
 
 
@@ -158,7 +146,7 @@ V3 和 V4 之間還有其他差異。 OData V3 不支援日期，只有 DateTime
 
 ### <a name="special-characters-in-table-and-column-names"></a>資料表和資料行名稱中的特殊字元
 
-資料表和資料行名稱中的特殊字元和空格需要一些額外格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」  ，開頭為底線，並加上一個 X ( **_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
+資料表和資料行名稱中的特殊字元和空格需要一些額外格式設定。 當您的查詢包含空格、破折號或其他非 ASCII 字元時，請在這些特殊字元前面加上「逸出代碼」，開頭為底線，並加上一個 X ( **_x**) 和四位數 **Unicode**，再接上另一個底線。 如果 Unicode 少於四個字元，您必須以零填補。 以下是一些範例。
 
 |識別碼  |Unicode  | 適用於 Power BI 的編碼  |
 |---------|---------|---------|
@@ -167,10 +155,10 @@ V3 和 V4 之間還有其他差異。 OData V3 不支援日期，只有 DateTime
 |**[Column]**     |  [ 是 0x005B ] 是 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![螢幕擷取畫面，其中顯示轉譯特殊字元的資料表視覺效果。](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![呈現特殊字元的資料表視覺效果](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![螢幕擷取畫面，其中顯示轉譯特殊字元的資料表視覺效果。](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>值中的特殊字元
 
@@ -200,7 +188,9 @@ TerritoryChain = [Territory] & " - " & [Chain]
 
 將報表發佈到 Power BI 服務，然後使用 URL 查詢字串篩選成只顯示 NC 的 Lindseys 門市資料。
 
-    https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
+https://app.powerbi.com/groups/me/reports/8d6e300b-696f-498e-b611-41ae03366851/ReportSection3?filter=Store/TerritoryChain eq 'NC – Lindseys'
+```
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>從篩選的報表釘選磚
 
@@ -216,6 +206,7 @@ TerritoryChain = [Territory] & " - " & [Chain]
 * Power BI 報表伺服器也支援使用 "filter" URL 參數指定其他篩選條件。 以下範例是 URL 在 Power BI 報表伺服器中可能呈現的樣子：`https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'`
 * 報表 URL 篩選條件有 10 個運算式的限制 (以 AND 連接的 10 個篩選條件)。
 * 由於 JavaScript 限制，長整數資料類型為 (2^53-1)。
+* Power BI 不會限制 URL 查詢字串中的字元數目。 不同的瀏覽器具有不同的長度限制。
 
 URL 篩選條件在一些內嵌案例中受到支援，但在其他案例中則不受支援。
 

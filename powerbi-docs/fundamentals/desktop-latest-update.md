@@ -6,21 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/10/2020
+ms.date: 07/15/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c5d8fc3eb74acb32364754385f4458f6b9441e87
-ms.sourcegitcommit: c006d7aabf90c7b29fb05641d1f94f1ee7132943
+ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
+ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "84684654"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "86409321"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
-## <a name="june-2020-update-2825858301"></a>2020 年 6 月更新 (2.82.5858.301)
+## <a name="july-2020-update-2835894661"></a>2020 年 7 月更新 (2.83.5894.661)
 
-我們的 6 月 Power BI Desktop 感覺就像是全新的應用程式一般，具有許多新的能力、正式推出的功能，以及許多能讓您踏入資料世界並互動的機會。 
+我們的 7 月 Power BI Desktop 更新充滿了值得用煙火、野餐與社區烤肉派對來慶祝的新功能與能力。 
 
 您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 [Microsoft Store](https://aka.ms/pbidesktopstore) 取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
 
@@ -41,41 +41,38 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="reporting"></a>報告
-* 行動裝置版面配置撰寫的功能增強 [[影片]](https://youtu.be/WUo8TnHNHYM?t=15) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_mobile) \(英文\) 
-* 自動重新整理頁面現已正式推出 [[影片]](https://youtu.be/WUo8TnHNHYM?t=266) \(英文\) [[文章]](../create-reports/desktop-automatic-page-refresh.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_APR) \(英文\) 
-* 階層式交叉分析篩選器現已正式推出 [[影片]](https://youtu.be/WUo8TnHNHYM?t=819) \(英文\) [[文章]](../create-reports/desktop-drill-through-buttons.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Hierarchical_slicer) \(英文\) 
-* 新式功能區現已正式推出 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1057) \(英文\) [[文章]](../create-reports/desktop-ribbon.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_ribbon) \(英文\) 
-* 現已針對 Excel [資料類型] 資源庫中的 [精選資料表] 支援 RLS [[影片]](https://youtu.be/WUo8TnHNHYM?t=1075) \(英文\) [[文章]](../collaborate-share/service-excel-featured-tables.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_RLS) \(英文\) 
-
+* 漸層版面配置 [[影片]](https://youtu.be/BCNYMJKyjEo?t=15) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Gradient_legend) \(英文\) 
+* 進一步自訂交叉分析篩選器標頭文字的能力 [[影片]](https://youtu.be/BCNYMJKyjEo?t=159) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Ability_to_further) \(英文\) 
+* 相對時間篩選現已正式推出 [[影片]](https://youtu.be/BCNYMJKyjEo?t=195) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Relative_time_filter) \(英文\) 
 
 
 ### <a name="analytics"></a>分析
-* AI 見解現已正式推出 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1106) \(英文\) [[文章]](../transform-model/desktop-ai-insights.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_AI) \(英文\) 
+* 問與答的功能增強 [[影片]](https://youtu.be/BCNYMJKyjEo?t=214) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Enhancements_to_QA) \(英文\) 
 
 
 ### <a name="visuals"></a>視覺效果
-* 折線圖點格式設定選項 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1262) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Line_chart) \(英文\)
-* 來自多家廠商的許多新視覺效果 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1342) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Radar) \(英文\)
-
-### <a name="template-apps"></a>範本應用程式
-* Agile HR Analytics [[影片]](https://youtu.be/WUo8TnHNHYM?t=1482) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Agile_HR_Analytics) \(英文\)
-* Uber 使用者資料報表 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1507) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Uber_User_Data) \(英文\)
+* Azure 地圖服務視覺效果 (預覽) [[影片]](https://youtu.be/BCNYMJKyjEo?t=390) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Azure_Maps_visual) \(英文\)
+* 由 XViz 提供的多軸圖表更新 [[影片]](https://youtu.be/BCNYMJKyjEo?t=783) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Updates_to_Multi_Axis) \(英文\)
 
 
 ### <a name="modeling"></a>模型化
-* 針對即時連線啟用的 [模型] 檢視 (預覽) [[影片]](https://youtu.be/WUo8TnHNHYM?t=1527) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Model_view_enabled) \(英文\)
-* [模型] 檢視的更新 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1624) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Updates_to_Model) \(英文\)
+* 對 Excel 財務函數的支援 [[影片]](https://youtu.be/BCNYMJKyjEo?t=812) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Support_for_Excel) \(英文\)
+* 針對 Live Connect 啟用的 [模型] 檢視現已正式推出 [[影片]](https://youtu.be/BCNYMJKyjEo?t=956) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Model_view_enabled) \(英文\)
 
 
-### <a name="data-connectivity"></a>資料連線
-* Palantir Foundry 連接器 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1700) \(英文\) [[文章]](../connect-data/desktop-data-sources.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_Palantir) \(英文\) 
+### <a name="data-preparation"></a>資料準備
+* 停用自動類型偵測的全域選項 [[影片]](https://youtu.be/BCNYMJKyjEo?t=989) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Global_option_to) \(英文\) 
+
+
+### <a name="template-apps"></a>範本應用程式
+* 由 MAQ Software 提供的 YouTube 分析 [[影片]](https://youtu.be/BCNYMJKyjEo?t=1035) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_YouTube_Analytics_by) \(英文\)
 
 
 ### <a name="other-features"></a>其他功能
-* 新的 Power BI 訓練 [[影片]](https://youtu.be/WUo8TnHNHYM?t=1722) \(英文\) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/#_pbi_training) \(英文\) 
+* 從 Power BI Desktop 啟動外部工具 (預覽) [[影片]](https://youtu.be/BCNYMJKyjEo?t=1066) \(英文\) [[文章]](../create-reports/desktop-external-tools.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/#_Launch_external_tools) \(英文\) 
 
 
-如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2020-feature-summary/)。
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-2020-feature-summary/)。
 
 請查看 [Power BI 服務新功能](service-whats-new.md)及 [Power BI 行動裝置應用程式新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
 
@@ -86,7 +83,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
 下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
 
-> [!VIDEO https://www.youtube.com/embed/WUo8TnHNHYM]
+> [!VIDEO https://www.youtube.com/embed/BCNYMJKyjEo]
 
 ## <a name="more-videos"></a>更多影片
 
