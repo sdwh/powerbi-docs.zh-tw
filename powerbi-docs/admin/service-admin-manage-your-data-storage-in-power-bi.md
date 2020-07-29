@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 02/25/2020
+ms.date: 07/27/2020
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 50d3adef65791c3fecd1a2125f67318fb8ab0298
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eb59359497dec351c960ce0c6a3ce11b4f6eab0d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214260"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252099"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>管理 Power BI 工作區中的資料儲存體
 
@@ -28,7 +28,7 @@ ms.locfileid: "86214260"
 ### <a name="shared-capacity-limits"></a>共用容量限制
 針對共用容量中的工作區： 
 
-- 每個工作區的儲存體限制為 100 GB。
+- 每個工作區的儲存空間限制為 10 GB。
 - 針對應用程式工作區，總使用量不能超過 10 GB 租用戶儲存體限制乘以租用戶中的 Pro 授權數目。
 
 ### <a name="premium-capacity-limits"></a>Premium 容量限制

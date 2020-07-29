@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3cf9d59926c1a38d83f386c7ae01fbdcf1a7fc95
-ms.sourcegitcommit: a58d10ca62bc55e83b58cf8e8495ac01a4bd6532
+ms.openlocfilehash: 4af8f9edd3d51214aaa766219e4903eb4b26b813
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/20/2020
-ms.locfileid: "85120409"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252536"
 ---
 # <a name="ways-to-collaborate-and-share-in-power-bi"></a>在 Power BI 中共同作業和共用的方式
 
@@ -73,7 +73,7 @@ ms.locfileid: "85120409"
 
 :::image type="content" source="media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-teams-conversation-tab.png" alt-text="Microsoft Teams 交談索引標籤":::
 
-深入了解如何[在 Microsoft Teams 中使用 Power BI 共同作業](service-embed-report-microsoft-teams.md)。
+深入了解如何[在 Microsoft Teams 中使用 Power BI 共同作業](service-collaborate-microsoft-teams.md)。
 
 ## <a name="share-dashboards-and-reports"></a>共用儀表板和報表
 

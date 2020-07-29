@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b43d52445c9a5232ba1747a9dae9333da8697f84
-ms.sourcegitcommit: 49daa8964c6e30347e29e7bfc015762e2cf494b3
+ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84273061"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252766"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
@@ -42,7 +42,7 @@ ms.locfileid: "84273061"
 
 ### <a name="february-2020"></a>2020 年 2 月
 * 在 Power BI 首頁推廣儀表板、報表及應用程式的功能。
-* 可在 Microsoft Teams 中內嵌報表的新 [Power BI 索引標籤](../collaborate-share/service-embed-report-microsoft-teams.md)。
+* 可在 Microsoft Teams 中內嵌報表的新 [Power BI 索引標籤](../collaborate-share/service-collaborate-microsoft-teams.md)。
 * 正式推出[累加式重新整理](../admin/service-premium-incremental-refresh.md)且支援 Power BI Pro 使用者。
 * 支援外部電子郵件地址的電子郵件訂閱。
 * 針對 Power BI Premium 正式推出[攜帶您自己的金鑰 (BYOK)](../admin/service-encryption-byok.md) 功能。
