@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d4bfb6de39f0a8dee678e8224cca1cb03646abca
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226983"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952709"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 透過 [使用 Excel 分析]，即可將 Power BI 資料集帶入 Excel 中，然後使用樞紐分析表、圖表、交叉分析篩選器和其他 Excel 功能加以查看並進行互動。 若要使用 [使用 Excel 分析]，則必須先從 Power BI 下載此功能、加以安裝，然後選取要在 Excel 中使用的一或多個資料集。 
@@ -62,36 +62,41 @@ ms.locfileid: "85226983"
 
 ## <a name="connect-to-power-bi-data"></a>連接到 Power BI 資料
 
-在 Power BI 服務中，巡覽至要在 Excel 中分析的資料集或報表，然後選取 [更多選項] 功能表 (...)，以尋找 [使用 Excel 分析] 功能表選項。 下圖顯示選取報表。
-
-![更新安裝](media/service-analyze-in-excel/analyze-excel-06.png)
-
-有一些步驟可將資料集從 Power BI 服務擷取到 Excel：
+在 Power BI 服務中，巡覽至想要使用 Excel 分析的資料集或報表，然後：
 
 1. 選取 [更多選項] 功能表。
-2. 從出現的功能表項目中，選取 [使用 Excel 分析]。
 
-    接著，Power BI 服務會建立一個資料集檔案，該檔案是設計 (並結構化) 成與 [使用 Excel 分析] 搭配使用，副檔名為 .ODC。 該檔案隨即建立，然後在瀏覽器中自動開始下載程序。
+1. 從出現的功能表項目中，選取 [使用 Excel 分析]。
+
+    下圖顯示選取報表。
+
+    ![更新安裝](media/service-analyze-in-excel/analyze-excel-06.png)
     
-    ![下載 ODC 檔案](media/service-analyze-in-excel/analyze-excel-07.png)
+    >[!NOTE]
+    >請記住，如果從 [報表] 功能表中選取 [使用 Excel 分析]，則其為帶入 Excel 的報表基礎資料集。
+
+    接著，Power BI 服務會建立為供 [使用 Excel 分析] 利用所設計 (且結構化) 資料集的 Excel 檔案，並在瀏覽器中開始下載流程。
     
-    檔案名稱符合從中衍生檔案名稱的資料集 (或報表或其他資料來源)。 因此，如果報表稱為 *Latest-Sales*，下載的檔案將會是 **Latest-Sales.ODC**。
+    ![正在下載 Excel 檔案](media/service-analyze-in-excel/analyze-in-excel-download-xlsx.png)
 
-3. 啟動 .ODC 檔案
+    檔案名稱符合從中衍生檔案名稱的資料集 (或報表或其他資料來源)。 因此，如果報表先前稱為「季報表」，則下載的檔案就會是**季報表.xlsx**。
 
-該檔案已經與 [使用 Excel 分析] 建立關聯，因此當選取或啟動該 .ODC 檔案時，Excel 隨即啟動，並自動開始載入 .ODC 檔案。 不過，您可能會看到關於外部資料來源威脅的警告：
+3. 啟動 Excel 檔案。
 
-![安全性警告](media/service-analyze-in-excel/analyze-excel-08.png)
+    >[!NOTE]
+    >第一次開啟檔案時，您可能必須 [啟用編輯]，然後 [啟用內容]，視[受保護的檢視](https://support.microsoft.com/en-gb/office/what-is-protected-view-d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653?ui=en-us&rs=en-gb&ad=gb)和[信任的文件](https://support.microsoft.com/en-us/office/trusted-documents-cf872bd8-47ec-4c02-baa5-1fdba1a11b53)其設定而定。
+    >
+    >![啟用編輯橫幅其 [受保護的檢視] 的螢幕擷取畫面](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
+    >
+    >![啟用內容橫幅其 [信任的文件] 的螢幕擷取畫面](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-選取 [啟用] 以載入 .ODC 檔案進行 [使用 Excel 分析]，Excel 隨即會載入該檔案。 
+## <a name="use-excel-to-analyze-the-data"></a>使用 Excel-to-analyze-the-data
 
-## <a name="use-excel-to-analyze-the-data"></a>使用 Excel 分析資料
+啟用編輯及內容後，Excel 即會顯示空的**樞紐分析表**和 Power BI 資料集的 [欄位] 清單，並準備開始分析。
 
-一旦從安全性通知中選取 [啟用] 來允許載入 .ODC 檔案，Excel 即會顯示空的**樞紐分析表**和 Power BI 資料集中的**欄位**清單，準備好進行分析。
+![已連接資料的 Excel](media/service-analyze-in-excel/analyze-in-excel-connected.png)
 
-![已連接資料的 Excel](media/service-analyze-in-excel/analyze-excel-09.png)
-
-.ODC 檔案具有 MSOLAP 連接字串，會連接到您在 Power BI 中的資料集。 當您分析或處理資料時，Excel 會查詢 Power BI 中的該資料集，並將結果傳回 Excel。 如果該資料集使用 DirectQuery 連接到即時資料來源，Power BI 會查詢資料來源，並將結果傳回 Excel。
+Excel 檔案的 MSOLAP 連接字串會連接到您在 Power BI 中資料集。 當您分析或處理資料時，Excel 會查詢 Power BI 中的該資料集，並將結果傳回 Excel。 如果該資料集使用 DirectQuery 連接到即時資料來源，Power BI 會查詢資料來源，並將結果傳回 Excel。
 
 目前在與 Power BI 資料建立連線之後，如同可在 Excel 中使用本機資料集工作一樣，您可建立樞紐分析表、圖表並分析該資料集。
 
@@ -107,7 +112,7 @@ ms.locfileid: "85226983"
 
 
 ### <a name="sign-in-to-power-bi"></a>登入 Power BI
-即使您已經在瀏覽器中登入 Power BI，第一次在 Excel 中開啟新的 .ODC 檔案時，可能會要求您使用 Power BI 帳戶登入 Power BI。 這會驗證從 Excel 到 Power BI 的連線。
+即使您已經在瀏覽器中登入了 Power BI，但第一次在 Excel 中開啟新的 Excel 檔案時，系統可能仍會要求使用 Power BI 帳戶登入 Power BI。 這會驗證從 Excel 到 Power BI 的連線。
 
 ### <a name="users-with-multiple-power-bi-accounts"></a>使用多個 Power BI 帳戶的使用者
 有些使用者有多個 Power BI 帳戶。 如果是這樣，您可能會使用其中一個帳戶登入 Power BI，但另一個帳戶可存取 [使用 Excel 分析] 中使用的資料集。 在這種情況下，若嘗試存取用於 [使用 EXCEL 分析] 活頁簿中的資料集，可能會看到**禁止**錯誤或登入失敗。

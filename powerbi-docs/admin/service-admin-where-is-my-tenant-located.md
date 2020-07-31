@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a797547562a8968591ca6551f85a56e0da98d680
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: ee123bed8940b52a66f3b0f860671a87210c261f
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83793273"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952677"
 ---
 # <a name="where-is-my-power-bi-tenant-located"></a>我的 Power BI 租用戶位於何處？
 
@@ -34,7 +34,7 @@ ms.locfileid: "83793273"
 
 ## <a name="how-the-data-region-is-selected"></a>資料區域的選取方式
 
-資料區域是取決於您建立租用戶時所選取的國家/地區。 因為此資訊是共用的，所以此選取項目也適用於註冊 Microsoft 365 和 Power BI。 如果這是新的租用戶，當您註冊時請從清單中選取最適當的國家/地區。
+資料區域是取決於您建立租用戶時所選取的國家/地區。 因為此資訊是共用的，所以此選取項目也適用於註冊 Microsoft 365 和 Power BI。 如果這是新的租用戶，請在註冊時從清單中選取最適當的國家/地區。
 
 ![國家/地區選取項目](media/service-admin-where-is-my-tenant-located/sign-up-country-selection.png)
 
@@ -44,4 +44,3 @@ Power BI 會挑選最接近此選取項目的資料區域，以決定租用戶�
 > 在您建立租用戶之後，就無法變更此選取項目。
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: ae9a3695c8db084d9c65871314edfef34cde1cb6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238471"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952999"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -54,7 +54,7 @@ Power BI Desktop 中的查詢編輯器與 Excel 2013 中的 Power Query 增益�
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>透過對 Bing 的建議更輕鬆地建立地圖
 Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編碼)，因此可讓您更輕鬆地建立地圖。 Bing 使用一些演算法和建議來嘗試取得正確的位置，但這是它所能做出的最佳猜測。 若要提高正確地理編碼的可能性，您可以使用下列秘訣：
 
-當您建立地圖時，通常會繪製國家/地區、州/省和縣/市。 在 Power BI Desktop 中，如果您以地理位置替資料行命名，將有助於 Bing 猜測您想要顯示的項目。 例如，如果您有一個名為「加利福尼亞」及「華盛頓」的美國州名欄位，則 Bing 可能會針對「華盛頓」一字傳回華盛頓特區，而不是華盛頓州。 將資料行命名為「州」可改善地理編碼。 同樣的方法也適用於名為「國家/地區」和「縣/市」的資料行。 
+當建立地圖時，您通常會想要繪製國家/地區、州/省和縣/市。 在 Power BI Desktop 中，如果您以地理位置替資料行命名，將有助於 Bing 猜測您想要顯示的項目。 例如，如果您有一個名為「加利福尼亞」及「華盛頓」的美國州名欄位，則 Bing 可能會針對「華盛頓」一字傳回華盛頓特區，而不是華盛頓州。 將資料行命名為「州」可改善地理編碼。 同樣的方法也適用於名為「國家/地區」和「縣/市」的資料行。 
 
 某些名稱放在多個國家/地區內容中考量時會有模稜兩可的情況。 某個國家/地區視為「州」的位置，在某些情況下可能會被視為「省」、「郡/縣市」或其他名稱。 您可以建立同時附加多個欄位的資料行來提高地理編碼的精確度，並使用這些資料行來繪製資料位置。 例如，與其只傳遞「威爾特郡」，您可以傳遞「英國威爾特郡」以取得更精確的地理編碼結果。 
 

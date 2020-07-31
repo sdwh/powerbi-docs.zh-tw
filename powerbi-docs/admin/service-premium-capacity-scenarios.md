@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 9b3e06172d29f218f9234cf1f3d7e1f623495001
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: dc5f952aa38e2ab36887ec3f2727e2e253389460
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83135282"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952654"
 ---
 # <a name="premium-capacity-scenarios"></a>Premium 容量案例
 
@@ -67,7 +67,7 @@ Power BI 管理員可以採取下列步驟來嘗試解決此問題，以確保�
 
 ## <a name="identifying-slow-responding-datasets"></a>識別回應緩慢的資料集
 
-在此案例中，當使用者抱怨特定報表花太多時間開啟，而且有時會停止回應時，就會開始調查。
+在此案例中，當使用者抱怨特定報表花太多時間開啟，且有時會停止回應時，即會開始調查。
 
 Power BI 管理員可以使用應用程式中的 [查詢持續時間]  視覺效果，依遞減的 [平均持續期間]  來排序資料集，藉此判斷效能最差的資料集。 此視覺效果也會顯示資料集查詢計數，讓您可以查看資料集的查詢頻率。
 
@@ -115,7 +115,7 @@ Power BI 管理員可以使用應用程式中的 [查詢持續時間]  視覺效
 
 ## <a name="determining-whether-there-is-enough-memory"></a>判斷是否有足夠的記憶體
 
-若要判斷是否有足夠的記憶體容量可完成其工作負載，Power BI 管理員可以參考應用程式的 [資料集]  索引標籤中 [耗用的記憶體百分比]  視覺效果。 [全部]  (總計) 記憶體代表載入記憶體中的資料集所耗用的記憶體，不論它們是否為主動查詢或處理。 [使用中]  記憶體代表目前正在主動處理之資料集所耗用的記憶體。
+若要判斷是否有足夠的記憶體容量可完成其工作負載，Power BI 管理員可以參考應用程式的 [資料集] 索引標籤中 [耗用的記憶體百分比] 視覺效果。 [全部]  (總計) 記憶體代表載入記憶體中的資料集所耗用的記憶體，不論它們是否為主動查詢或處理。 [使用中]  記憶體代表目前正在主動處理之資料集所耗用的記憶體。
 
 狀況良好的容量，視覺效果看起來會像這樣，顯示 [全部] (總計) 和 [使用中] 記憶體之間的差距：
 
@@ -141,7 +141,7 @@ CPU 飽和會表現在作業花費的時間比所需的更長，因為 CPU 嘗�
 
 在某些情況下，Power BI 管理員可以藉由建立儀表板 (會以任何資料集重新整理定期查詢快取的圖格) 而不是報表，來要求資料集擁有者建立較穩定的查詢工作負載。 這有助於避免儀表板載入時的尖峰。 對於指定的商務需求，此解決方案可能不一定可行，不過，它可以是不需要變更資料集就避免 CPU 飽和的有效方式。
 
-## <a name="acknowledgements"></a>通知
+## <a name="acknowledgments"></a>通知
 
 本文是由資料平台 MVP 暨 [Bitwise Solutions](https://www.bitwisesolutions.com.au/) 的獨立 BI 專家 Peter Myers 所撰寫。
 

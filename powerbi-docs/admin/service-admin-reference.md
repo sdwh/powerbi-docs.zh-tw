@@ -1,5 +1,5 @@
 ---
-title: 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET SDK
+title: 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET 用戶端程式庫
 description: 了解透過指令碼和程式設計 API 管理 Power BI 的方式。
 author: kfollis
 ms.reviewer: ''
@@ -9,23 +9,23 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: b4f4227a53a87cd831962bc5c944a569531b8232
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83136304"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952608"
 ---
-# <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>用於管理 Power BI 的 PowerShell Cmdlet、REST API 和 .NET SDK
-Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 它也會公開 REST API 並提供 .NET SDK 來開發管理解決方案。 本主題顯示 Cmdlet 清單以及對應 SDK 方法和 REST API 端點。 如需詳細資訊，請參閱：
+# <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET 用戶端程式庫
+Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 其同時公開 REST API 並提供 .NET 用戶端程式庫來開發管理解決方案。 本主題說明 Cmdlet 清單以及對應的 API 和 REST API 端點。 如需詳細資訊，請參閱：
 
 - PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
 - REST API [文件](https://docs.microsoft.com/rest/api/power-bi/admin)
-- .NET SDK [下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
+- .NET 用戶端程式庫[下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
 > 下列 Cmdlet 須搭配 `-Scope Organization` 呼叫，才能用來對租用戶進行管理。
 
-| **Cmdlet 名稱** | **別名** | **SDK 方法** | **REST API 端點** | **描述** |
+| **Cmdlet 名稱** | **別名** | **API** | **REST API 端點** | **描述** |
 | --- | --- | --- | --- | --- |
 | `Get-PowerBIDatasource` | N/A | `Datasets_GetDataSourcesAsAdmin` | /v1.0/myorg/admin/datasets/{datasetkey}/datasources | 取得指定資料集的資料來源。 |
 | `Get-PowerBIDataset` | N/A | `Datasets_GetDatasetsAsAdmin` | /v1.0/myorg/admin/datasets | 取得 Power BI 租用戶中的完整資料集清單。 |

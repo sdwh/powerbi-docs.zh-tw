@@ -8,13 +8,13 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.date: 07/08/2020
-ms.openlocfilehash: 34f4265444d030902474c740dda91f8431d36625
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.date: 07/27/2020
+ms.openlocfilehash: c91642a08642a52b333ccba14078068eaa9ba616
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216527"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252858"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -48,6 +48,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 編頁報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../create-reports/service-set-data-alerts.md)
 | 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br><br>[Power BI 服務](../admin/service-admin-rls.md)中的資料列層級安全性 <br><br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
+| 跨報表鑽研 | 否 | 是 | [使用跨報表鑽研](../create-reports/desktop-cross-report-drill-through.md) |
 | 全螢幕模式 | 否 | 是 | [Power BI 服務](../consumer/end-user-focus.md)中的全螢幕模式 |
 | 進階 Microsoft 365 共同作業 | 否 | 是 | 使用 Microsoft 365 [在工作區中共同作業](../collaborate-share/service-collaborate-power-bi-workspace.md) |
 | R 指令碼和視覺效果 | 否 | 是 | 在 Power BI Desktop 中[建立 R 視覺效果](../create-reports/desktop-r-visuals.md)和執行 R 指令碼，並將其發佈至 Power BI 服務。 您無法將具有 R 指令碼或視覺效果的 Power BI 報表儲存至 Power BI 報表伺服器。  |

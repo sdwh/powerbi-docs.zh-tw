@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 03/13/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ec716f0824ce083b034dc8fd459f00fdb7768ac4
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215577"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252789"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 Power BI Desktop 使用者入門指南。 此導覽說明 Power BI Desktop 的運作方式和功能，並說明如何建置穩固的資料模型和令人讚嘆的報表，來增強您的商業智慧。
@@ -24,6 +24,11 @@ ms.locfileid: "86215577"
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示範例工作項目。](media/desktop-getting-started/hero-02.png)
 
 您也可以觀看 [Getting Started with the Power BI Desktop](https://www.youtube.com/watch?v=Qgam9M8I0xA) (開始使用 Power BI Desktop) 影片，並下載 [Financial Sample](https://go.microsoft.com/fwlink/?LinkID=521962) (財務範例) Excel 活頁簿以跟著影片進行。
+
+
+> [!IMPORTANT]
+> Power BI Desktop 會每月更新及釋出，並納入客戶意見反應與新功能。 僅支援最新版本的 Power BI Desktop；系統會要求連絡 Power BI Desktop 支援人員的客戶升級至最新版本。 您可從 [Windows Store](https://aka.ms/pbidesktopstore) 取得最新版本的 Power BI Desktop，或作為單一可執行檔，其中包含所[下載](https://www.microsoft.com/download/details.aspx?id=58494)及安裝在電腦上的所有支援語言。
+
 
 ## <a name="how-power-bi-desktop-works"></a>Power BI Desktop 的運作方式
 使用 Power BI Desktop，您可以：

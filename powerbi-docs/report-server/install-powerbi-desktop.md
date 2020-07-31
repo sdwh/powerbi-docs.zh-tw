@@ -7,58 +7,58 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 02/13/2020
-ms.openlocfilehash: 3f4538639765f62387fe6b4e493886f85ba22c3d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.date: 07/24/2020
+ms.openlocfilehash: d361430387d9c24b8b4ef0b673c50cf4cec5a24b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239365"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252584"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop
 
-若要建立 Power BI 報表伺服器的 Power BI 報表，您必須下載並安裝已針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本。 此版本與搭配 Power BI 服務使用的 Power BI Desktop 不同。 例如，Power BI 服務的 Power BI Desktop 版本包含 Power BI 報表伺服器版本正式推出後才擁有的預覽功能。 使用此版本可確保報表伺服器可與已知版本的報告和模型互動。 
+若要建立 Power BI 報表伺服器的 Power BI 報表，您必須下載並安裝已針對 Power BI 報表伺服器最佳化的 Power BI Desktop 版本。 此版本與搭配 Power BI 服務使用的 Power BI Desktop 不同。 例如，Power BI 服務的 Power BI Desktop 版本包含預覽功能。 這些功能在正式推出之前無法在 Power BI 報表伺服器版本中提供使用。 使用此版本可確保報表伺服器可與已知版本的報告和模型互動。 
 
-好消息是，您可以將 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop，並排安裝在同一部電腦上。
+別擔心。 您可將 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop 並排安裝在相同電腦上。
 
 ## <a name="download-and-install-power-bi-desktop"></a>下載及安裝 Power BI Desktop
 
 要確定您所擁有的針對 Power BI 報表伺服器最佳化之最新版 Power BI Desktop 最簡單的方式，是從報表伺服器的 web 入口網站開始。
 
-1. 在報表伺服器 web 入口網站中，選取 [下載]  箭號 > [Power BI Desktop]  。
+1. 在報表伺服器 web 入口網站中，選取 [下載] 箭號 > [Power BI Desktop]。
 
     ![從 Web 入口網站下載 Power BI Desktop](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    或移至 [Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)首頁，然後選取 [進階下載選項]  。
+    或移至 [Power BI 報表伺服器](https://powerbi.microsoft.com/report-server/)首頁，然後選取 [進階下載選項]。
 
-2. 在 [下載中心] 頁面上，選取語言，然後選取 [下載]  。
+2. 在 [下載中心] 頁面上，選取語言，然後選取 [下載]。
 
 3. 根據您的電腦，選取： 
 
     - **PBIDesktopRS.msi** (32 位元版本) 或
     - **PBIDesktopRS_x64.msi** (64 位元版本)。
 
-1. 下載安裝程式之後，執行 Power BI Desktop (2019 年 9 月) 安裝精靈。
+1. 下載安裝程式之後，請執行 [Power BI Desktop 安裝精靈]。
 
-2. 在安裝結束時，請選取 [啟動 Power BI Desktop]  。
+2. 在安裝結束時，請選取 [啟動 Power BI Desktop]。
 
     其會自動啟動，一切即就緒。
 
 ## <a name="verify-youre-using-the-correct-version"></a>確認您使用的版本正確
-確認您使用正確 Power BI Desktop 的方式非常簡單：請查看 Power BI Desktop 中的啟動畫面或標題列。 **Power BI Desktop (2019 年 9 月)** 出現在標題列中即表示版本正確。 而且，Power BI 標誌的色彩也會反轉，從黃底黑圖案變成黑底黃圖案。
+確認您使用正確 Power BI Desktop 的方式非常簡單：請查看 Power BI Desktop 中的啟動畫面或標題列。 **Power BI Desktop (2020 年 5 月)** 出現在標題列中即表示版本正確。 而且，Power BI 標誌的色彩也會反轉，從黃底黑圖案變成黑底黃圖案。
 
-![Power BI Desktop 2019 年 9 月](media/install-powerbi-desktop/power-bi-report-server-desktop-sept-2019.png)
+![Power BI Desktop 2020 年 5 月](media/install-powerbi-desktop/power-bi-report-server-desktop-may-2020.png)
 
 Power BI 服務的 Power BI Desktop 版本不會在標題列中顯示年份和月份。
 
 ## <a name="file-extension-association"></a>副檔名關聯
-如果在同一部電腦上，同時安裝 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop，則最近安裝的 Power BI Desktop 會與 .pbix 檔案有檔案關聯。 因此，當您按兩下 .pbix 檔案時，便會啟動最近安裝的 Power BI Desktop。
+假設您已經將 Power BI Desktop 和針對 Power BI 報表伺服器最佳化的 Power BI Desktop 安裝在相同電腦上。 您最近安裝的 Power BI Desktop 具有與 .pbix 檔案的檔案關聯。 因此，當您按兩下 .pbix 檔案時，便會啟動最近安裝的 Power BI Desktop。
 
 如果您擁有 Power BI Desktop，並接著安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop，則所有 .pbix 檔案都會預設在後者中開啟。 如果您偏好在開啟 .pbix 檔案時，預設啟動 Power BI Desktop，那麼請[從 Microsoft Store 重新安裝 Power BI Desktop](https://aka.ms/pbidesktopstore)。
 
 您隨時可以開啟您想要先用的 Power BI Desktop 版本， 然後再從 Power BI Desktop 中開啟檔案。
 
-無論是從 Power BI 報表伺服器內編輯 Power BI 報表，還是從入口網站建立新的 Power BI 報表，都會一律開啟正確的 Power BI Desktop 版本。
+以下是確保開啟正確版本 Power BI Desktop 的最安全方式。 從 Power BI 報表伺服器內開始編輯 Power BI 報表，或從 Power BI 服務建立新的 Power BI 報表。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 
@@ -100,12 +100,6 @@ Power BI 報表伺服器報表不支援 Power BI 行動裝置應用程式中的�
 ### <a name="saving-reports-to-a-power-bi-report-server-in-a-different-domain"></a>將報表儲存到不同網域中的 Power BI 報表伺服器
 
 當將 Power BI 報表儲存到 Power BI 報表伺服器時會使用 Windows 認證。 不支援直接儲存到與 Windows 認證不同個網域中的報表伺服器。 您可使用網頁瀏覽器來檢視報表伺服器，並改為從電腦手動上傳檔案。
-
-## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>適用於舊版 Power BI 報表伺服器的 Power BI Desktop
-
-如果您的報表伺服器是舊版，則需要 Power BI Desktop 的對應版本。 以下是舊版的下載連結。
-
-- Microsoft Power BI Desktop ([已針對 Power BI 報表伺服器最佳化 - 2019 年 9 月](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>後續步驟
 

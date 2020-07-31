@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 01/29/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 3038463a9e3447ee9b38ae3cb178f3486d21bc80
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: ab1dd7be867d886f4944e9771be5c9ff188d2037
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215110"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252628"
 ---
 # <a name="get-power-bi-desktop"></a>取得 Power BI Desktop
 Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化的報表。 透過 Power BI Desktop，您可以建置資料模型、建立報表，並將成果發佈到 Power BI 服務與他人共用。 Power BI Desktop 為免費下載。
@@ -25,6 +25,11 @@ Power BI Desktop 可讓您建立進階查詢、模型，以及將資料視覺化
 * [直接下載，以可執行檔形式下載並安裝在電腦上](#download-power-bi-desktop-directly)。
 
 任一方法皆可為電腦取得最新版的 Power BI Desktop，但仍需注意下列各節描述的部分差異。
+
+
+> [!IMPORTANT]
+> Power BI Desktop 會每月更新及釋出，並納入客戶意見反應與新功能。 僅支援最新版本的 Power BI Desktop；系統會要求連絡 Power BI Desktop 支援人員的客戶升級至最新版本。 您可從 [Windows Store](https://aka.ms/pbidesktopstore) 取得最新版本的 Power BI Desktop，或作為單一可執行檔，其中包含所[下載](https://www.microsoft.com/download/details.aspx?id=58494)及安裝在電腦上的所有支援語言。
+
 
 ## <a name="install-as-an-app-from-the-microsoft-store"></a>從 Microsoft Store 作為應用程式安裝
 有幾種方式可從 Microsoft Store 存取最新版本的 Power BI Desktop。 

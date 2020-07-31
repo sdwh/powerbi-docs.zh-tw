@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 06/01/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 48ff2852f2c7df3a1b005d730a3f91dc9e434f62
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232250"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364092"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 
@@ -43,6 +43,9 @@ ms.locfileid: "85232250"
 * [匯入自訂主題 JSON 檔案](#import-custom-report-theme-files)。
 
 我們會依序說明每個選項。
+
+> [!NOTE]
+> 主題只能在使用 Power BI Desktop 時套用。 您不能將主題套用於 Power BI 服務中的現有報表。 
 
 ### <a name="built-in-report-themes"></a>內建報表主題
 
@@ -198,6 +201,15 @@ ms.locfileid: "85232250"
 在此處的範例中，當您從聖派翠克節報表主題中套用數種綠色和棕色色彩之後，請檢視主題色彩。 看到所有綠色嗎？ 這是因為這些色彩已包含在我們匯入並套用的報表主題中。
 
 色彩調色盤中的色彩也會與目前的主題相對應。 例如，假設您為資料點選取了頂端列的第三個色彩。 之後，如果您變更為不同的主題，該資料點色彩將會自動更新為新主題中頂端列的第三個色彩，如同在 Microsoft Office 中變更主題時所看到的一樣。
+
+設定報表主題會變更整個報表視覺效果中使用的預設色彩。 Power BI 會維護包含數百種色彩的清單，以確保視覺效果有許多獨特的色彩可顯示在報表中。 當 Power BI 將色彩指派給視覺效果的數列時，會根據指派數列色彩的先後順序來選取色彩。 當匯入主題時，會重設資料數列的色彩對應。 
+
+Power BI 會追蹤動態數列的色彩，並針對其他視覺效果中的值使用相同色彩。 在「動態數列」中，視覺效果中所呈現的數列個數可能會根據量值、值或其他層面而變更。 例如，如果您在報表中「依區域顯示利潤」，則銷售區域數目可能是 5，或可能是 9。 區域數目是動態的，因此會被視為動態數列。 
+
+相反地，對於「靜態數列」，數列數目為已知。 例如，「收益」和「營收」是靜態數列。 在靜態數列中，Power BI 會透過主題調色盤中的索引來指派色彩。 您可從 [資料色彩] 底下的 [格式化] 窗格中選取色彩，以覆寫預設的色彩指派。 您可能必須變更交叉分析篩選器選取項目，才能查看所有可能的數列值，並同時設定其色彩。 如果使用 [屬性] 窗格明確設定單一視覺效果，則所匯入主題不會套用至任何明確定義的色彩。 
+
+若要允許主題套用至這些明確選取的色彩，請針對已明確設定色彩的視覺效果，使用 [資料色彩] 區段中的 [還原為預設]，以復原明確的色彩應用程式，並允許套用主題。
+
 
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>您的報表未保有報表主題色彩的情況
 

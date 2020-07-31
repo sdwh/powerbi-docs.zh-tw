@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6a1fd2ee46edd2447e7cf5096307f9d4947168a6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: fd31c3b97eef80b0e4457fe6e61c1a8bf101db7b
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236732"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252651"
 ---
 # <a name="share-a-dataset"></a>共用資料集
 
@@ -54,7 +54,7 @@ ms.locfileid: "85236732"
 ## <a name="limitations-and-considerations"></a>限制與考量
 共用資料集的注意事項︰
 
-* 當您透過管理權限、共用報表/儀表板，或發佈應用程式來共用資料集時，即會授與整個資料集的存取權 (除非您利用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 來限制其存取權)。 報表作者可以使用相關功能，來自訂使用者的報表檢視或報表互動體驗，例如隱藏資料行、限制對視覺效果的動作等。 這些自訂的使用者體驗，不會限制使用者在資料集中可以存取哪些資料。 您可以在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，根據每個人的認證來判斷其可存取哪些資料。
+* 當透過管理權限、共用報表或儀表板，或發佈應用程式來共用資料集時，除非使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md) 限制存取權，否則即會授與整個資料集的存取權。 報表作者可以使用相關功能，來自訂使用者的報表檢視或報表互動體驗，例如隱藏資料行、限制對視覺效果的動作等。 這些自訂的使用者體驗，不會限制使用者在資料集中可以存取哪些資料。 您可以在資料集內使用[資料列層級安全性 (RLS)](../admin/service-admin-rls.md)，根據每個人的認證來判斷其可存取哪些資料。
 
 ## <a name="next-steps"></a>後續步驟
 

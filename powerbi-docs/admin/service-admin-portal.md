@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f2fb659188a5c413ec7a203c6f1a55bb24826c15
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85228749"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252473"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -185,6 +185,7 @@ ms.locfileid: "85228749"
 
 - 建立新的工作區體驗。
 - 跨工作區使用資料集。
+- 禁止建立典型工作區。
 
 ### <a name="create-the-new-workspaces"></a>建立新的工作區
 
@@ -213,6 +214,13 @@ ms.locfileid: "85228749"
 
 如需詳細資訊，請參閱[跨工作區的資料集簡介](../connect-data/service-datasets-across-workspaces.md)。
 
+### <a name="block-classic-workspace-creation"></a>禁止建立典型工作區
+
+系統管理員可控制組織能否建立典型工作區。 啟用此設定後，建立工作區的使用者將只能建立新工作區體驗工作區。 
+
+![禁止建立典型工作區](media/service-admin-portal/power-bi-admin-block-classic-workspaces.png)
+
+啟用後，新建立的 Office 365 群組不會顯示在 Power BI 工作區清單中。 清單仍會繼續顯示現有的典型工作區。 停用此設定後，使用者為所屬成員的所有 Office 365 群組都會出現在工作區的清單中。 深入了解[新工作區體驗工作區](../collaborate-share/service-new-workspaces.md)。
 
 ## <a name="export-and-sharing-settings"></a>匯出及共用設定
 
@@ -369,6 +377,15 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 如果 [匯出資料] 租用戶設定設為 [停用]，則也會停用對精選資料表的連線。
 
 深入閱讀 [Excel 中的 Power BI 精選資料表](../collaborate-share/service-excel-featured-tables.md)。
+
+## <a name="share-to-teams-tenant-setting"></a>[共用到 Teams] 租用戶設定
+
+[共用到 Teams] 設定位於 Power BI 管理入口網站的 [租用戶設定] 區段中。 此設定可供組織將 [共用到 Teams] 按鈕隱藏在 Power BI 服務中。 設定為停用時，使用者在 Power BI 服務中檢視報表和儀表板時，不會在動作列或操作功能表中看見 [共用到 Teams] 按鈕。
+
+![Power BI 管理入口網站中 [共用到 Teams] 租用戶設定的螢幕擷取畫面。](media/service-admin-portal/service-teams-share-to-teams-tenant-setting.png)
+
+深入了解[將 Power BI 內容共用到 Teams](../collaborate-share/service-share-report-teams.md)。
+
 
 ## <a name="power-bi-visuals-settings"></a>Power BI 視覺效果設定
 
@@ -591,7 +608,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 作為系統管理員，您可以檢視存在於租用戶中的工作區。 您可以排序和篩選工作區的清單，及顯示各工作區的詳細資料。 資料表資料行對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
 
-系統管理員也可以使用系統管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
+系統管理員也可使用管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
 

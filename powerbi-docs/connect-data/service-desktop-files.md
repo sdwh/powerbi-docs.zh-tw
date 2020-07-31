@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c34244669b538a5c3138536adbfd022eb00e646d
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 3022c43f4c1af3098b24148ccb0bdadf6e0da521
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263034"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363977"
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>從 Power BI Desktop 檔案取得資料
 ![Power BI Desktop 檔案圖示](media/service-desktop-files/pbid_file_icon.png)
@@ -30,7 +30,7 @@ ms.locfileid: "86263034"
 
 **OneDrive - 個人** - 如果您將檔案儲存到自己的 OneDrive 帳戶，則可以利用許多與使用商務用 OneDrive 相同的優點。 最大的差異是當您第一次連接到檔案時 (使用 [取得資料] > [檔案] > [OneDrive - 個人])，需要使用 Microsoft 帳戶登入 OneDrive，這通常與用來登入 Power BI 的帳戶不同。 當您使用 Microsoft 帳戶登入 OneDrive 時，請務必選取 [讓我保持登入] 選項。 如此一來，Power BI 每隔約一小時就會連接到您的檔案，以確保您在 Power BI 中的資料集保持同步。
 
-**SharePoint 小組網站** - 將 Power BI Desktop 檔案儲存到 SharePoint - 小組網站與儲存到商務用 OneDrive 大致相同。 最大的差異是從 Power BI 連接到檔案的方式。 您可以指定 URL 或連接到根資料夾。
+**SharePoint 小組網站** - 將 Power BI Desktop 檔案儲存到 SharePoint - 小組網站與儲存到商務用 OneDrive 大致相同。 最大的差異是從 Power BI 連接到檔案的方式。 您可以指定 URL 或連接到根資料夾。 您也可以<a href="https://support.microsoft.com/office/sync-sharepoint-and-teams-files-with-the-onedrive-sync-app-6de9ede8-5b6e-4503-80b2-6190f3354a88">設定同步資料夾</a>，以指向 SharePoint 資料夾；該處的檔案會與 SharePoint 上主要複本同步。
 
 ## <a name="import-or-connect-to-a-power-bi-desktop-file-from-power-bi"></a>從 Power BI 匯入或連接到 Power BI Desktop 檔案
 >[!IMPORTANT]

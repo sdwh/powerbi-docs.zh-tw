@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 04/28/2020
-ms.openlocfilehash: 865b60800b68aed410f10964148afdf2791b1ae1
-ms.sourcegitcommit: 9c72ec6b2d6d4574c86e976a65c076764473482d
+ms.date: 07/27/2020
+ms.openlocfilehash: 4f4650d47e420313075509301e940bf7092d4d5a
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "83279150"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252835"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Power BI 編頁報表支援的資料來源
 
@@ -29,7 +29,7 @@ ms.locfileid: "83279150"
 | Azure SQL 受控執行個體 | 基本 | 透過公用或私人端點 (私人端點必須透過企業閘道路由)  |
 | Azure Analysis Services | SSO, OAuth2 | 必須停用 AAS 防火牆或加以設定以允許所有 IP 範圍。|
 | Power BI 資料集 | SSO | Premium 和非 Premium Power BI 資料集。 需要讀取權限 |
-| Premium Power BI 資料集 (XMLA) | SSO |   |
+| Premium Power BI 資料集 (XMLA) | SSO | 不支援 Power BI 資料集作為內嵌編頁報表的資料來源。  |
 | 輸入資料 | N/A | 資料會內嵌在報表中。 |
 
 在您將報表上傳至 Power BI 服務之後，即可使用所有資料來源，但 Azure SQL Database 除外。 資料來源預設為使用單一登入 (SSO) (若適用)。 針對 Azure Analysis Services，您可以將驗證類型變更為 OAuth2。 不過，一旦指定資料來源的驗證類型變更為 OAuth2 之後，就無法還原回使用 SSO。  此外，這項變更適用於所有在指定租用戶所有工作區上使用該資料來源的報表。  除非使用者選擇 SSO 作為驗證類型，否則分頁報表中的資料列層級安全性將無法使用。
@@ -53,11 +53,11 @@ ms.locfileid: "83279150"
 
 ![正在發行至 Power BI](media/paginated-reports-data-sources/power-bi-paginated-publishing.png)
 
-如果您未提供任何認證，在執行報表時就會發生錯誤。 選取 [繼續]  前往您剛上傳報表的 [資料來源認證]  頁面：
+如果您未提供任何認證，在執行報表時就會發生錯誤。 選取 [繼續] 前往您剛上傳報表的 [資料來源認證] 頁面：
 
 ![Azure SQL Database 的設定](media/paginated-reports-data-sources/power-bi-paginated-settings-azure-sql.png)
 
-針對指定資料來源，選取 [編輯認證]  連結，以顯示 [設定]  對話方塊：
+針對指定資料來源，選取 [編輯認證] 連結，以顯示 [設定] 對話方塊：
 
 ![設定 Azure SQL Database](media/paginated-reports-data-sources/power-bi-paginated-configure-azure-sql.png)
 
@@ -67,7 +67,7 @@ ms.locfileid: "83279150"
 - SSO (單一登入)
 - OAuth2 (預存 AAD 權杖)
 
-若要讓 SSO 和 OAuth2 正常運作，資料來源連接的 Azure SQL Database 伺服器必須[啟用 AAD 驗證支援](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure)。 針對 OAuth2 驗證方法，AAD 會產生權杖並加以儲存以用於未來的資料來源存取。 若要改為使用 [SSO 驗證方法](https://docs.microsoft.com/power-bi/service-azure-sql-database-with-direct-connect#single-sign-on)，請選取正下方的 SSO 選項 [終端使用者在透過 DirectQuery 存取此資料來源時，使用自己的 OAuth2 認證]  。
+若要讓 SSO 和 OAuth2 正常運作，資料來源連接的 Azure SQL Database 伺服器必須[啟用 AAD 驗證支援](https://docs.microsoft.com/azure/sql-database/sql-database-aad-authentication-configure)。 針對 OAuth2 驗證方法，AAD 會產生權杖並加以儲存以用於未來的資料來源存取。 若要改為使用 [SSO 驗證方法](https://docs.microsoft.com/power-bi/service-azure-sql-database-with-direct-connect#single-sign-on)，請選取正下方的 SSO 選項 [終端使用者在透過 DirectQuery 存取此資料來源時，使用自己的 OAuth2 認證] 。
   
 ## <a name="next-steps"></a>後續步驟
 

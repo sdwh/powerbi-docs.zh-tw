@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/24/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4d752a49587e611c3f42de3f40c68437f36fe3a9
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86411829"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252881"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具 (預覽)
 
@@ -23,6 +23,13 @@ ms.locfileid: "86411829"
 Power BI Desktop 中的 [外部工具] 功能區包含已安裝在電腦上，並已向 Power BI Desktop 註冊之外部工具的按鈕。 從 Power BI Desktop 啟動的外部工具會自動連線至作為 Power BI Desktop 一部分運作的 Analysis Services 引擎，為使用者提供順暢的體驗。
 
 ![Power BI Desktop 中的 [外部工具] 功能區](media/desktop-external-tools/desktop-external-tools-01.png)
+
+這些精選外部工具包含下列各項，以及其安裝位置的連結。 每個外部工具皆由各自的工具作者所支援：
+
+* [Tabular Editor](https://tabulareditor.com/)
+* [DAX Studio](https://daxstudio.org)
+* [ALM Toolkit](http://alm-toolkit.com)
+
 
 下列各節說明外部工具支援的作業、Power BI Desktop 中包含的精選工具清單，以及如何註冊其他工具的指示。
 
@@ -43,7 +50,7 @@ Power BI Desktop 中的 [外部工具] 功能區包含已安裝在電腦上，�
 
 ## <a name="featured-external-tools"></a>精選外部工具
 
-下列開放原始碼的社群工具可與 Power BI Desktop 搭配使用。 每個工具的個別安裝程式都會在安裝時向 Power BI Desktop 註冊該工具：
+下列開放原始碼的社群工具可與 Power BI Desktop 搭配使用。 這些外部工具皆由各自的工具作者所支援。 每個工具的個別安裝程式都會在安裝時向 Power BI Desktop 註冊該工具：
 
 * Tabular Editor
 * DAX Studio
@@ -122,6 +129,18 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 * **Program Files (x86)\Common Files\Microsoft Shared\Power BI Desktop\External Tools**
 
 啟動時，Power BI Desktop 將會載入該指定位置中副檔名為 **.pbitool.json** 的檔案。
+
+## <a name="disabling-external-tools-using-the-registry"></a>使用登錄停用外部工具
+
+您可使用 [群組原則] 或編輯登錄來停用外部工具，此動作與停用 [自訂視覺效果] 的程序類似。
+
+    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+
+    Registry value: ```EnableExternalTools```
+
+值為 1 (十進位) 則可使用 Power BI 中的外部工具 (此為預設值)。
+
+值為 0 (十進位) 則無法使用 Power BI 中的外部工具。
 
 
 ## <a name="next-steps"></a>後續步驟

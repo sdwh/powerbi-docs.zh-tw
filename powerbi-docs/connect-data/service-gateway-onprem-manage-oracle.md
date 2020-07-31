@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc9a36b4a4e54d6388625921c98c571859568f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0b617afdeb69f2367b83ad40b2146f5ce78cdc89
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237584"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364000"
 ---
 # <a name="manage-your-data-source---oracle"></a>管理您的資料來源 - Oracle
 
@@ -22,44 +22,22 @@ ms.locfileid: "85237584"
 
 在您[安裝內部部署資料閘道](/data-integration/gateway/service-gateway-install)後，您需要[新增資料來源](service-gateway-data-sources.md#add-a-data-source)，其可與閘道搭配使用。 本文會探討如何針對已排程重新整理或 DirectQuery 使用閘道和 Oracle 資料來源。
 
+## <a name="connect-to-an-oracle-database"></a>連接到 Oracle 資料庫
+若要使用內部部署的資料閘道連接到 Oracle 資料庫，則執行閘道的電腦上必須安裝正確的 Oracle 用戶端軟體。 您所使用的 Oracle 用戶端軟體取決於 Oracle 伺服器版本，但一律符合 64 位元閘道。
+
+支援的 Oracle 版本： 
+- Oracle Server 9 與更新版本
+- Oracle 資料存取用戶端 (ODAC) 軟體 11.2 與更新版本
+
 ## <a name="install-the-oracle-client"></a>安裝 Oracle 用戶端
+- [下載及安裝 64 位元 Oracle 用戶端](https://www.oracle.com/database/technologies/odac-downloads.html)。
 
-若要將閘道連接至您的 Oracle 伺服器，必須先安裝及設定 .Net 的 Oracle 資料提供者 (ODP.NET)。 ODP.NET 是 Oracle 資料存取元件 (ODAC) 的一部分。
-
-針對 32 位元版本的 Power BI Desktop，請使用下列連結來下載並安裝 32 位元的 Oracle 用戶端：
-
-* [32 位元的 Oracle Access Components (ODAC) 與 Oracle Developer Tools for Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
-
-針對 64 位元版本的 Power BI Desktop 或內部部署資料閘道，請使用下列連結來下載並安裝 64 位元的 Oracle 用戶端：
-
-* [適用於 Windows x64 的 64 位元 ODAC 12.2c Release 1 (12.2.0.1.0)](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
-
-安裝用戶端之後，請使用您資料庫的適當資訊來設定 tnsnames.ora 檔案。 Power BI Desktop 和閘道將會離開 tnsnames.ora 檔案中定義的 net_service_name。 如果未設定 net_service_name，您就無法連接。 tnsnames.ora 的預設路徑為 `[Oracle Home Directory]\Network\Admin\tnsnames.ora`。 如需如何設定 tnsnames.ora 檔案的詳細資訊，請參閱 [Oracle:本機命名引數 (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm)。
-
-### <a name="example-tnsnamesora-file-entry"></a>範例 tnsnames.ora 檔案項目
-
-以下是 tnsname.ora 中的項目基本格式：
-
-```
-net_service_name=
- (DESCRIPTION=
-   (ADDRESS=(protocol_address_information))
-   (CONNECT_DATA=
-     (SERVICE_NAME=service_name)))
-```
-
-以下是填入的伺服器及連接埠資訊範例：
-
-```
-CONTOSO =
-  (DESCRIPTION =
-    (ADDRESS = (PROTOCOL = TCP)(HOST = oracleserver.contoso.com)(PORT = 1521))
-    (CONNECT_DATA =
-      (SERVER = DEDICATED)
-      (SERVICE_NAME = CONTOSO)
-    )
-  )
-```
+> [!NOTE]
+> 選擇與 Oracle Server 相容的 Oracle 資料存取用戶端 (ODAC) 版本。 例如，ODAC 12.x 不一定都支援 Oracle Server 第 9 版。
+> 選擇 Oracle 用戶端的 Windows Installer。
+> 在設定 Oracle 用戶端期間，請務必在安裝精靈期間選取對應的核取方塊，以啟用「在全機器層級設定適用於 ASP.NET 的 ODP.NET 和/或 Oracle 提供者」。 有些 Oracle 用戶端精靈版本根據預設會選取核取方塊，其他則否。 請務必確認已選取核取方塊，讓 Power BI 能夠連線到 Oracle 資料庫。
+ 
+在安裝用戶端及正確設定 ODAC 之後，建議使用 PowerBI Desktop 或其他測試用戶端，以驗證閘道上的安裝與設定為正確。
 
 ## <a name="add-a-data-source"></a>加入資料來源
 
@@ -111,7 +89,7 @@ CONTOSO =
 
 ## <a name="troubleshooting"></a>疑難排解
 
-當命名語法不正確或未正確設定時，可能會遇到來自 Oracle 的多種錯誤：
+當命名語法不正確或未正確設定時，可能會遇到來自 Oracle 的任一種錯誤：
 
 * ORA-12154:TNS：無法解析指定的連接識別碼。
 * ORA-12514:TNS：接聽程式目前不了解連接描述元中要求的服務。
@@ -121,8 +99,9 @@ CONTOSO =
 
 若未安裝或未正確設定 Oracle 用戶端，便可能會發生這些錯誤。 若已安裝，請驗證 tnsnames.ora 檔案已正確設定，且您使用的是適當的 net_service_name。 您也必須確定使用 Power BI Desktop 的電腦與執行閘道的電腦所使用的 net_service_name 相同。 如需詳細資訊，請參閱[安裝 Oracle 用戶端](#install-the-oracle-client)。
 
-> [!NOTE]
-> 您也可能遭遇 Oracle 伺服器版本與 Oracle 用戶端版本之間的相容性問題。 一般而言，這些版本應當相符。
+您也可能遇到 Oracle Server 版本與 Oracle 資料存取用戶端版本之間的相容性問題。 一般而言，因為某些組合不相容，所以您會希望這些版本能夠相符。 例如，ODAC 12.x 不支援 Oracle Server 第 9 版。
+
+若要診斷資料來源伺服器與閘道電腦之間的連線問題，建議在閘道電腦上安裝用戶端 (例如 PowerBI Desktop 或 Oracle ODBC 測試)。 您可使用用戶端來檢查資料來源伺服器的連線。
 
 如何與閘道相關的其他疑難排解資訊，請參閱[為內部部署資料閘道進行疑難排解](/data-integration/gateway/service-gateway-tshoot)。
 

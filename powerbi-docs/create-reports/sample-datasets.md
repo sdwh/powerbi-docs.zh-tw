@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/27/2020
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 305da7339159500a8e6de410bb4bf7f0b06d10e0
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: a268247d13fdfe71e17e5c0a6fafeeb635b96984
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349624"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953045"
 ---
 # <a name="get-samples-for-power-bi"></a>取得 Power BI 範例
 您是否剛接觸 Power BI 並想要試用，但沒有任何資料；  或者，您可能想要查看說明 Power BI 功能的報表。 交給我們吧。
@@ -25,7 +25,7 @@ Power BI 提供不同類型的範例，適用於不同的用途：
 - 一種 **[範例應用程式](#sample-app-from-appsource)** ，您可以從 AppSource 下載，也可直接在 Power BI 服務中進行。 包含儀表板、報表和資料集的應用程式。 您可以進行修改，然後將其散發給您的同事。
 - Power BI 服務中 **[有八個原始內建範例](#eight-original-samples)** 作為「內容套件」  ，具有儀表板、報表和資料集。 您可以直接在 Power BI 服務中加以安裝。 內建範例也可以作為 Power BI 報表 (.pbix) 和 Excel 活頁簿 (.xlsx)。
 - **[Excel 活頁簿](#download-sample-excel-files)** 版本的內建範例版本，其中包含資料模型和 Power View 工作表。 您可以在 Excel 中探索或編輯資料模型，使用 Excel 活頁簿作為 Power BI 報表的資料來源。 您也可以將活頁簿上傳為 Excel 檔案，並在 Power BI 報表中顯示 Excel 視覺效果和樞紐分析表。 
-- 此外還有 **[財務資料範例活頁簿](sample-financial-download.md)** ，可供下載的 Excel 檔案中簡單平面資料表。 其包含具有虛構產品的匿名資料，並以區段和國家 (地區) 分割銷售。 其會為 Power BI 報表提供有用的基本資料來源。
+- 此外還有 **[財務資料範例活頁簿](sample-financial-download.md)** ，可供下載的 Excel 檔案中簡單平面資料表。 此範例包含虛構產品的匿名資料，並以市場區隔和國家/地區來區分銷售。 其會為 Power BI 報表提供有用的基本資料來源。
 
 我們的線上文件會在教學課程和範例中使用這些相同範例，讓您能夠跟著進行。
 
@@ -33,7 +33,7 @@ Power BI 提供不同類型的範例，適用於不同的用途：
 
 :::image type="content" source="media/sample-datasets/sales-returns-sample-pbix.png" alt-text="銷售與退貨範例 .pbix 檔案":::
 
-銷售與退貨範例報表 
+銷售與退貨範例報表
 
 Power BI 報表設計師 Miguel Myers 和 Chris Hamill 建立銷售與退貨 .pbix 檔案，以示範 Power BI 中的許多新功能，包括按鈕、鑽研、條件式格式設定、假設和自訂工具提示。 
 

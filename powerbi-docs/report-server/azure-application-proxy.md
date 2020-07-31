@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
-ms.date: 05/27/2020
+ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: f4237379ffefeeb7ba9d105f5fbd61ff84959807
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239512"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87364069"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 
@@ -110,7 +110,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 3. 我們想要使用通訊協定傳輸來設定限制委派。 使用限制委派時，我們必須明確指出要委派的目標服務。
 4. 以滑鼠右鍵按一下**報表伺服器服務帳戶**，然後選取 [內容]。
 5. 選取 [委派] 索引標籤。
-6. 選取 [信任這台電腦，但只委派指定的服務]。
+6. 選取 [信任這個使用者，但只委派指定的服務]。
 7. 選取 [使用任何驗證通訊協定]。
 8. 在 [這個帳戶可以呈送委派認證的服務:] 下方，選取 [新增]。
 9. 在新的對話方塊中，選取 [使用者或電腦]。

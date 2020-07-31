@@ -1,5 +1,5 @@
 ---
-title: 在新的工作區體驗中監視使用計量
+title: 在新的工作區體驗中監視使用計量 (預覽)
 description: 如何在新的工作區體驗中檢視、儲存及使用 Power BI 儀表板與報表的使用計量。
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/22/2020
+ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 380fe94a123c26d7502ce68bc21372f791a3508f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162035"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86953022"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作區體驗中監視使用計量
 
@@ -65,6 +65,9 @@ ms.locfileid: "86162035"
 ### <a name="usage-metrics-report-dataset"></a>使用計量報表資料集
 
 改良的使用計量報表仰賴使用計量報表資料集，Power BI 會在您第一次啟動改良的使用計量報表時自動建立此資料集。 Power BI 接著會每天重新整理此資料集。 雖然您無法變更重新整理排程，但您可以更新 Power BI 用來重新整理使用計量資料的認證。 如果您從資料集所在的工作區中移除第一次啟動使用計量報表的使用者，則可能需要在認證過期時繼續進行排程的重新整理。
+
+> [!NOTE]
+> 使用計量資料集目前仍處於預覽階段，因此可能會出現少許變更並影響自訂報表。  
 
 ### <a name="usage-metrics-report-pages"></a>使用計量報表頁面
 

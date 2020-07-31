@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7108ed95e28819bf90eacab86caf90dd13fa645c
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: f8d9ef38e56e22fb84175ebe5ec97eee2d123023
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409321"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252697"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
@@ -25,8 +25,7 @@ ms.locfileid: "86409321"
 您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 [Microsoft Store](https://aka.ms/pbidesktopstore) 取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
 
 > [!IMPORTANT]
-> 從 2019 年 9 月版本開始，Power BI Desktop 僅發行為單一 .exe 檔案，其中包含所有支援的語言。 .msi 版本已不再發行。
-
+> Power BI Desktop 會每月更新及釋出，並納入客戶意見反應與新功能。 僅支援最新版本的 Power BI Desktop；系統會要求連絡 Power BI Desktop 支援人員的客戶升級至最新版本。 您可從 [Windows Store](https://aka.ms/pbidesktopstore) 取得最新版本的 Power BI Desktop，或作為單一可執行檔，其中包含所[下載](https://www.microsoft.com/download/details.aspx?id=58494)及安裝在電腦上的所有支援語言。
 
 Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯：
 

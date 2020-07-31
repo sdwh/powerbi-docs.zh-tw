@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: troubleshooting
-ms.date: 07/16/2020
+ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 5d6e3af615a73f8e4a3db42406bf94e33f16a2a3
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
+ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459661"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87363954"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -135,6 +135,10 @@ XMLA 端點可讓您針對表格式模型以及 Power BI Desktop 中建立的資
 在 Power BI 中觸發已排程的重新整理或視需要重新整理時，Power BI 通常會重新整理整個資料集。 在許多情況下，以更有選擇性的方式再次執行重新整理會更有效率。 您可以在 SQL Server Management Studio (SSMS) 中 (如下所示)，或是使用協力廠商工具或指令碼，來執行更精細的處理工作。
 
 :::image type="content" source="media/troubleshoot-xmla-endpoint/process-tables.png" alt-text="在 SSMS 中處理資料表":::
+
+### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的覆寫
+
+[Refresh 命令 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) 中的覆寫，可供使用者選擇不同磁碟分割查詢定義或重新整理作業的資料來源定義。 目前，Power BI Premium 中**不支援覆寫**。 Power BI Premium 中不允許「非正規繫結」錯誤。 如需其他資訊，請參閱產品文件中的「XMLA 讀取/寫入支援」。 」錯誤訊息。
 
 ## <a name="see-also"></a>另請參閱
 

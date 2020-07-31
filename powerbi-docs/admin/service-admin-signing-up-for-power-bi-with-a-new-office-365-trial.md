@@ -10,12 +10,12 @@ ms.date: 05/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: a3df69e52614fba3152f6539b2c4cbcf4f5c87d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8f79037c4117baaba1a50b6fe4e728b57fad362f
+ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227672"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87252076"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-microsoft-365-trial"></a>使用新的 Microsoft 365 試用版註冊 Power BI
 
@@ -25,7 +25,7 @@ ms.locfileid: "85227672"
 
 ## <a name="sign-up-for-a-microsoft-365-trial-of-office"></a>註冊 Office 的 Microsoft 365 試用版
 
-請在 [Microsoft 365 網站](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)上註冊 Microsoft 365 試用版。 若還沒有帳戶，Microsoft 將會帶您逐步進行建立帳戶的步驟。 由於商業電子郵件帳戶 (例如 Hotmail 和 Gmail) 無法搭配 Microsoft 365 運作，因此您將需要建立新的帳戶以搭配 Microsoft 365 運作。  該電子郵件帳戶看起來會像是 *zalan@onmicrosoft.com* 。
+請在 [Microsoft 365 網站](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans)上註冊 Microsoft 365 試用版。 若還沒有帳戶，Microsoft 將會帶您逐步進行建立帳戶的步驟。 由於商業電子郵件帳戶 (例如 Hotmail 和 Gmail) 無法搭配 Microsoft 365 運作，因此您將需要建立新的帳戶以搭配 Microsoft 365 運作。  該電子郵件帳戶看起來會像是 *zalan\@onmicrosoft.com*。
 
 ![選取 [免費試用]](media/service-admin-signing-up-for-power-bi-with-a-new-office-365-trial/power-bi-try-free.png)
 

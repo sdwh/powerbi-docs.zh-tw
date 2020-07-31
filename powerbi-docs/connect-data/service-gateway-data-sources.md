@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: how-to
-ms.date: 07/16/2020
+ms.date: 07/22/2020
 ms.author: arthii
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7fecec5ed41f0de9227cf30ed3ba4f39b23f21e9
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 92c3a65b11435403b61a06324f534e6d82e4b7cb
+ms.sourcegitcommit: efe11c819be75887c4242afa64d32bb0698da569
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459546"
+ms.lasthandoff: 07/24/2020
+ms.locfileid: "87123480"
 ---
 # <a name="manage-data-sources"></a>管理資料來源
 
@@ -44,6 +44,9 @@ Power BI 支援許多的[內部部署資料來源](power-bi-data-sources.md)，�
     ![資料來源設定](media/service-gateway-data-sources/data-source-settings.png)
 
 5. 針對 SQL Server，您可以選擇 [Window]**s** 或 [基本] (SQL 驗證) **驗證方法**。 如果您選擇**基本**，請輸入資料來源的認證。
+
+    > [!NOTE]
+    > 如果選取的驗證方法是 OAuth，則所有執行時間超過 OAuth 權杖到期原則的查詢皆可能會失敗。
 
 6. 您可以在 [進階設定]  中，為資料來源設定[單一登入 (SSO)](service-gateway-sso-overview.md)。 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/28/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d388127ab42c4f60d1e08efea6b3fdbbbf7045b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ca04a5404f0868f85a9c7ed840109efe6d213760
+ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238822"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "86952631"
 ---
 # <a name="consume-power-bi-reports-by-using-accessibility-features"></a>使用協助工具功能來取用 Power BI 報表
 Power BI 有許多內建功能，可協助行動不便人士更輕鬆地取用 Power BI 報表並與其互動。 這些工具可協助使用者從報表中取得的資訊，與未使用輔助技術的人員相同。
@@ -30,7 +30,7 @@ Power BI 有許多內建功能，可協助行動不便人士更輕鬆地取用 P
 
 ## <a name="keyboard-navigation"></a>鍵盤導覽
 
-當您啟動 Power BI Desktop 或 Power BI 服務時，只要按下 **Tab** 鍵，右上角就會出現工具提示。 標題為 [如何搭配使用 Power BI 與螢幕助讀程式的提示]  的連結可引導您前往本文，提供如何使用協助工具來取用報表的相關資訊。 按一下 [跳至主要內容]  連結會將您帶至報表畫布。
+當啟動 Power BI Desktop 或 Power BI 服務時，只要按下 **Tab** 鍵，右上角就會出現工具提示。 標題為 [如何搭配使用 Power BI 與螢幕助讀程式的提示]  的連結可引導您前往本文，提供如何使用協助工具來取用報表的相關資訊。 按一下 [跳至主要內容]  連結會將您帶至報表畫布。
 
 ![可查看協助工具提示的類型索引標籤](media/desktop-accessibility/accessibility-consuming-tools-02.png)
 
@@ -114,5 +114,3 @@ Power BI 協助工具的文章集合如下：
 * [使用協助工具來建立 Power BI 報表](desktop-accessibility-creating-tools.md)
 * [Power BI 報表的協助工具鍵盤快速鍵](desktop-accessibility-keyboard-shortcuts.md)
 * [報表協助工具檢查清單](desktop-accessibility-creating-reports.md#report-accessibility-checklist)
-
-
