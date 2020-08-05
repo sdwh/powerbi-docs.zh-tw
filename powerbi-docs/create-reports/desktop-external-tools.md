@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2020
+ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c1d483b6a29d2463af05cd224ac6b03dd149eb33
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252881"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411949"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具 (預覽)
 
@@ -42,8 +42,6 @@ Power BI Desktop 中的 [外部工具] 功能區包含已安裝在電腦上，�
 * [檢視方塊](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) \(部分機器翻譯\)，可定義資料集中繼資料的焦點性企業網域特定檢視
 
 可能可以使用外部工具管理中繼資料翻譯，但此預覽版本目前不支援此功能。 如果目前使用者的地區設定是已翻譯的地區設定，則使用目前版本的 Power BI Desktop 編輯欄位清單中的物件將無法正常運作。 
-
-當您針對已定義計算群組的模型建立報表時，會發生已知問題。 如果計算群組定義根據所選取計算/量值的動態格式設定，這類格式設定目前僅適用於資料表、矩陣與卡片視覺效果。
 
 所有[表格式物件模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) \(部分機器翻譯\) 資料集中繼資料都可以針對唯讀目的進行存取，但是在 Power BI Desktop Analysis Services 執行個體中，尚不支援編輯未涵蓋在[表格式物件模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) \(部分機器翻譯\) 文章所述之清單中的物件。
 
@@ -134,9 +132,9 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 
 您可使用 [群組原則] 或編輯登錄來停用外部工具，此動作與停用 [自訂視覺效果] 的程序類似。
 
-    Registry key: ```Software\Policies\Microsoft\Power BI Desktop\```
+    Registry key: *Software\Policies\Microsoft\Power BI Desktop\*
 
-    Registry value: ```EnableExternalTools```
+    Registry value: *EnableExternalTools*
 
 值為 1 (十進位) 則可使用 Power BI 中的外部工具 (此為預設值)。
 

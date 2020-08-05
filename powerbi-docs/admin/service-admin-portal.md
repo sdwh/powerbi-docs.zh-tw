@@ -10,12 +10,12 @@ ms.date: 05/12/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 90cd12bc7d8d7261e25edd32c5afa7cf144e8202
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252473"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537496"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -43,8 +43,8 @@ ms.locfileid: "87252473"
 * [租用戶設定](#tenant-settings)
 * [容量設定](#capacity-settings)
 * [內嵌程式碼](#embed-codes)
-* [組織視覺效果](#organizational-visuals)
-* [資料流程儲存體 (預覽)](#dataflowStorage)
+* [組織視覺效果](organizational-visuals.md#organizational-visuals)
+* [資料流程儲存體 (預覽)](#dataflow-storage-preview)
 * [工作區](#workspaces)
 * [自訂商標](#custom-branding)
 
@@ -386,55 +386,6 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 深入了解[將 Power BI 內容共用到 Teams](../collaborate-share/service-share-report-teams.md)。
 
-
-## <a name="power-bi-visuals-settings"></a>Power BI 視覺效果設定
-
-### <a name="add-and-use-power-bi-visuals"></a>新增和使用 Power BI 視覺效果
-
-組織中的使用者可以共用 Power BI 視覺效果，並與其互動。 [深入了解](../developer/visuals/power-bi-custom-visuals.md)
-
-> [!NOTE]
-> 這項設定可以套用於整個組織，也可以限於特定群組。
-
-Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用 Power BI 視覺效果。
-
-<table>
-<tr><th>屬性</th><th>值</th>
-</tr>
-<td>索引鍵</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableCustomVisuals</td>
-</tr>
-</table>
-
-值為 1 (十進位) 會使 Power BI 中的 Power BI 視覺效果可用 (此為預設)。
-
-值為 0 (十進位) 會使 Power BI 中的 Power BI 視覺效果無法使用。
-
-### <a name="allow-only-certified-visuals"></a>僅允許認證的視覺效果
-
-組織中已獲得新增和使用 Power BI 視覺效果權限的使用者 (由「新增和使用 Power BI 視覺效果」設定表示)，將只能使用[經認證的 Power BI 視覺效果](https://go.microsoft.com/fwlink/?linkid=2002010) (未經認證的視覺效果將遭封鎖，並在使用時顯示錯誤訊息)。 
-
-
-Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組織的部署電腦無法使用未經認證的 Power BI 視覺效果。
-
-<table>
-<tr><th>屬性</th><th>值</th>
-</tr>
-<td>索引鍵</td>
-    <td>Software\Policies\Microsoft\Power BI Desktop\</td>
-<tr>
-<td>valueName</td>
-<td>EnableUncertifiedVisuals</td>
-</tr>
-</table>
-
-值為 1 (十進位) 會使 Power BI 中未經認證的 Power BI 視覺效果可用 (此為預設)。
-
-值為 0 (十進位) 會使 Power BI 中未經認證的 Power BI 視覺效果無法使用 (此選項僅會使[經認證的 Power BI 視覺效果可用](https://go.microsoft.com/fwlink/?linkid=2002010))。
-
 ## <a name="r-visuals-settings"></a>R 視覺效果設定
 
 ### <a name="interact-with-and-share-r-visuals"></a>共用 R 視覺效果並與其互動
@@ -540,67 +491,7 @@ Power BI Desktop (自 3 月 19 日版起) 支援使用**群組原則**，讓組�
 
 ![Power BI 管理入口網站中的內嵌程式碼](media/service-admin-portal/embed-codes.png)
 
- ## <a name=""></a><a name="organizational-visuals">組織視覺效果</a> 
-
-[組織視覺效果] 索引標籤可供部署及管理組織內的 Power BI 視覺效果。 使用組織視覺效果時，您可以輕鬆地在您的組織中部署專屬視覺效果，供報表作者從 Power BI Desktop 探索並匯入到其報表。 [深入了解](../developer/visuals/power-bi-custom-visuals-organization.md)
-
-> [!WARNING]
-> 自訂視覺效果可能包含具有安全性或隱私權風險的程式碼；在您將自訂視覺效果部署到組織存放庫之前，請確定您信任自訂視覺效果的作者與來源。
-
-下圖顯示目前部署在組織存放庫中的所有 Power BI 視覺效果。
-
-![組織系統管理視覺效果](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
-
-### <a name="add-a-new-custom-visual"></a>新增自訂視覺效果
-
-若要將新的自訂視覺效果新增到清單中，請依照下列步驟執行。 
-
-1. 在右窗格中，選取 [新增自訂視覺效果]。
-
-    ![Power BI 視覺效果表單](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
-
-1. 填寫 [新增自訂視覺效果] 表單：
-
-    * [選擇 .pbiviz 檔案] (必要)：選取要上傳的自訂視覺效果。 僅支援已建立版本的 API Power BI 視覺效果 (請參閱此處以了解其意義)。
-
-    上傳自訂視覺效果之前，您應該先檢閱該視覺效果的安全性和隱私權，確定它符合組織的標準。
-
-    * [命名您的自訂視覺效果] (必要)：提供視覺效果一個簡短標題，以便 Power BI Desktop 使用者了解其用途
-
-    * **圖示**：在 Power BI Desktop UI 中顯示的圖示檔案。
-
-    * [描述]：視覺效果的簡短描述，以提供使用者更多相關內容與資訊
-
-1. 選取 [新增] 以起始上傳要求。 如果成功，您可以在清單中看到新項目。 如果失敗，您會收到一則適當的錯誤訊息
-
-### <a name="delete-a-custom-visual-from-the-list"></a>從清單刪除自訂視覺效果
-
-若要永久刪除視覺效果，請為存放庫中的視覺效果選取資源回收筒圖示。
-
-> [!IMPORTANT]
-> 刪除動作無法復原。 一旦刪除，視覺效果會立即停止在現有的報表中轉譯。 即使您重新上傳相同的視覺效果，它也不會取代已刪除的先前視覺效果。 不過，使用者可以重新匯入新視覺效果，並取代他們報表中的執行個體。
-
-### <a name="disable-a-custom-visual-in-the-list"></a>刪除清單中的自訂視覺效果
-
-若要從組織市集停用視覺效果，請選取齒輪圖示。 在 [存取] 區段中，停用自訂視覺效果。
-
-停用視覺效果之後，視覺效果將不會在現有報表中轉譯，而且它會顯示下面的錯誤訊息。
-
-*此自訂視覺效果已無法使用。如需詳細資訊，請連絡您的系統管理員。*
-
-不過，已加入書籤的視覺效果仍會繼續運作。
-
-進行任何更新或系統管理員變更之後， Power BI Desktop 使用者應該在 Power BI 服務中重新啟動應用程式或重新整理瀏覽器以查看更新。
-
-### <a name="update-a-visual"></a>更新視覺效果
-
-若要從組織市集更新視覺效果，請選取齒輪圖示。 瀏覽並上傳視覺效果的新版本。
-
-確定視覺效果識別碼會維持不變。 新檔案會取代先前的檔案，供整個組織內的所有報表使用。 不過，如果新版的視覺效果可能會中斷舊版視覺效果的任何使用方式或資料結構，則不要取代舊版。 您應該改以為新版視覺效果建立新的清單。 例如，將新的版本號碼 (版本 X.X) 新增至最新列出的視覺效果標題中。 透過這種方法，可以很清楚地表示它只是具有更新版本號碼的相同視覺效果，讓現有的報表不會中斷其功能。 再次提醒，請確定視覺效果識別碼維持不變。 之後，當使用者下一次從 Power BI Desktop 進入組織存放庫時，就能匯入新版本，這會提示他們取代報表中的目前版本。
-
-如需詳細資訊，請參閱[組織 Power BI 視覺效果的常見問題集](../developer/visuals/power-bi-custom-visuals-faq.md#organizational-power-bi-visuals)
-
-## <a name=""></a><a name="dataflowStorage">資料流程儲存體 (預覽)</a>
+## <a name="dataflow-storage-preview"></a>資料流程儲存體 (預覽)
 
 根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 如需詳細資訊，請參閱[資料流程及 Azure Data Lake 整合 (預覽)](../transform-model/service-dataflows-azure-data-lake-integration.md)。
 

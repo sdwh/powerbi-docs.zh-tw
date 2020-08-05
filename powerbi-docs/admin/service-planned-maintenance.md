@@ -11,12 +11,12 @@ ms.author: kfollis
 ms.custom: MC
 ROBOTS: NOINDEX
 LocalizationGroup: Admin
-ms.openlocfilehash: 099cd750328bed0b23524d6119c4d7ce91548a23
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 13bbf23c075fb1f58c2af71ae0a082d4e539d023
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252030"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537680"
 ---
 # <a name="power-bi-planned-maintenance"></a>Power BI 計劃性維護
 
@@ -35,7 +35,7 @@ ms.locfileid: "87252030"
 
 * 使用者應該重新整理任何開啟的瀏覽器視窗。
 * Power BI 行動裝置應用程式使用者將必須確認其使用的是最新版本並登出，然後重新登入應用程式。 請檢查您手機的應用程式市集或查看我們的 [Power BI 行動版](https://powerbi.microsoft.com/mobile/)頁面。
-* 主動編輯或發佈使用組織視覺效果之報表的客戶 (無論是在本機或從 OneDrive 和 SharePoint 位置)，都將必須透過組織的視覺效果存放區重新匯入視覺效果，或在重新發佈之前下載已更新的 PBIX。 如需取得組織視覺效果的詳細資訊，請參閱[組織視覺效果](service-admin-portal.md#organization-visuals)。
+* 主動編輯或發佈使用組織視覺效果之報表的客戶 (無論是在本機或從 OneDrive 和 SharePoint 位置)，都將必須透過組織的視覺效果存放區重新匯入視覺效果，或在重新發佈之前下載已更新的 PBIX。 如需取得組織視覺效果的詳細資訊，請參閱[組織視覺效果](organizational-visuals.md)。
 * 如果使用 [使用 Excel 分析] 功能的 Excel 活頁簿並未重新整理，您可能需要更新連接字串，或重新下載該資料集的 ODC 連線。 如需詳細資訊，請參閱[使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md#connect-to-power-bi-data)。
 * 完成維護時，連結至內容中內嵌的 Power BI 可能無法連線。 例如，SharePoint 或 Teams 中的內嵌連結可能會導致使用者錯誤。 若要解決此問題，您必須在 Power BI 中重新產生內嵌連結，然後更新其使用位置。 如需內嵌連結的詳細資訊，請參閱[在 SharePoint Online 中嵌入報表網頁組件](../collaborate-share/service-embed-report-spo.md)和[使用 Power BI 在 Microsoft Teams 中共同作業](../collaborate-share/service-collaborate-microsoft-teams.md)。
 
