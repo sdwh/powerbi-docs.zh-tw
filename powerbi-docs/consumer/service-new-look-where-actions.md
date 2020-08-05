@@ -2,19 +2,19 @@
 title: 「新外觀」：動作跑到哪裡了？
 description: Power BI 服務 (app.powerbi.com) 有新的外觀，而且許多動作都已移動。 此文章包含對應就位置到新位置的圖表。
 author: maggiesMSFT
-ms.reviewer: ''
+ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 04/15/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 779c480cd029f6f2bb4ef7d52d49115ff348eb11
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: c184fa19c2d94690f8609871babf5b60b2855b99
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83813845"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538048"
 ---
 # <a name="the-new-look-where-did-the-actions-go"></a>「新外觀」：動作跑到哪裡了？
 
