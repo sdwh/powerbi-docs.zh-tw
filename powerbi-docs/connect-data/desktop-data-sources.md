@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9d20f9aa5311d8ee96246ab8b3ed832330742973
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
+ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223925"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87411972"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -73,7 +73,7 @@ ms.locfileid: "85223925"
 * Access 資料庫
 * SQL Server Analysis Services 資料庫
 * Oracle 資料庫
-* IBM DB2 資料庫
+* IBM Db2 資料庫
 * IBM Informix 資料庫 (搶鮮版 (Beta))
 * IBM Netezza
 * MySQL 資料庫
@@ -116,7 +116,7 @@ ms.locfileid: "85223925"
 * Power BI 資料集
 * Power BI 資料流程
 * Common Data Service
-* Power Platform 資料流程
+* Power Platform 資料流程 (搶鮮版 (Beta))
 
 下圖顯示 **Power Platform** 的 [取得資料] 視窗。
 
@@ -133,6 +133,7 @@ ms.locfileid: "85223925"
 * Azure Blob 儲存體
 * Azure 表格儲存體
 * Azure Cosmos DB
+* Azure 資料總管 (Kusto)
 * Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -171,21 +172,19 @@ ms.locfileid: "85223925"
 * Merketo (搶鮮版 (Beta))
 * Mixpanel (搶鮮版 (Beta))
 * Planview Enterprise One - PRM (搶鮮版 (Beta))
-* Planview Projectplace (搶鮮版 (Beta))
 * QuickBooks Online (搶鮮版 (Beta))
 * Smartsheet
 * SparkPost (搶鮮版 (Beta))
 * SweetIQ (搶鮮版 (Beta))
 * Planview Enterprise One - CTM (搶鮮版 (Beta))
 * Twilio (搶鮮版 (Beta))
-* tyGraph (Beta)
-* Webtrends (Beta)
 * Zendesk (搶鮮版 (Beta))
 * Asana (搶鮮版 (Beta))
 * Dynamics 365 Customer Insights (搶鮮版 (Beta))
 * Emigo 資料來源
 * Entersoft 商務套件 (搶鮮版 (Beta))
-* FactSet Analytics (搶鮮版 (Beta))
+* FactSet Analytics
+* Palantir Foundry
 * 企業 App Store
 * Intune 資料倉儲 (搶鮮版 (Beta))
 * Microsoft Graph 安全性 搶鮮版 (Beta)
@@ -218,7 +217,10 @@ ms.locfileid: "85223925"
 * Python 指令碼
 * ODBC
 * OLE DB
+* Acterys：模型自動化與規劃 (搶鮮版 (Beta))
+* Automation Anywhere (搶鮮版 (Beta))
 * Solver
+* Cherwell (搶鮮版 (Beta))
 * Cognite Data Fusion (搶鮮版 (Beta))
 * FHIR
 * Information Grid (搶鮮版 (Beta))
@@ -233,6 +235,7 @@ ms.locfileid: "85223925"
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (搶鮮版 (Beta))
 * Vena (搶鮮版 (Beta))
+* Vessel 見解 (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
 * Zucchetti HR Infinity (搶鮮版 (Beta))
 * 空白查詢

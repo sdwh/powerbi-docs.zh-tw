@@ -9,17 +9,17 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 17a0879dac416a98d214ed11861947cb2c311487
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253883"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478030"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>在 Microsoft Teams 中使用 Power BI 共同作業
 
-您有數個選項可與 Microsoft Teams 頻道和聊天室中的互動式 Power BI 內容共用和共同作業。 
+隨著分散式和遠端工作人員成為常態，越來越多組織依賴 Microsoft Teams 使員工保持同步。Power BI 提供數個選項，以供共用 Microsoft Teams 頻道和聊天室中的互動式 Power BI 內容並對其進行共同作業。 
 
 - 使用 Microsoft Teams 的 [Power BI] 索引標籤，即可[在 Microsoft Teams 頻道和聊天中內嵌互動式報表](service-embed-report-microsoft-teams.md)。 [Power BI] 索引標籤可協助同事尋找小組資料，並討論小組頻道內的資料。 
 - 當將報表、儀表板和應用程式的連結貼到 Microsoft Teams 訊息方塊時，請建立[連結預覽](service-teams-link-preview.md)。 連結預覽會顯示連結的相關資訊。 
@@ -34,17 +34,6 @@ ms.locfileid: "87253883"
 - 您擁有 Power BI Pro 授權，或報表包含於具備 Power BI 授權的 [Power BI Premium 容量 (EM 或 P SKU)](../admin/service-premium-what-is.md) 中。
 - 使用者必須登入 Power BI 服務，才能啟用 Power BI 授權。
 - 使用者符合使用 Microsoft Teams 中 [Power BI] 索引標籤的需求。
-
-若要使用 Microsoft Teams 中的 [Power BI] 索引標籤，請確定下列項目：
-
-- Microsoft Teams 具有 [Power BI] 索引標籤。
-- 若要在具備 [Power BI] 索引標籤的 Microsoft Teams 中新增報表，則在裝載報表的工作區中至少必須具備「檢閱者」角色。 如需不同角色的相關資訊，請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
-- 若要在 Microsoft Teams 的 [Power BI] 索引標籤中查看報表，使用者必須具備檢視報表的權限。
-- 使用者必須是有權存取頻道和聊天的 Microsoft Teams 使用者。
-
-若要在 Power BI 中使用 [共用至 Teams] 功能，請確定此設定：
-
-- Power BI 系統管理員尚未停用 Power BI 系統管理員入口網站中的 [共用至 Teams] 租用戶設定。 此設定可供組織隱藏 [共用至 Teams] 按鈕。 如需詳細資料，請參閱 [Power BI 管理入口網站](../admin/service-admin-portal.md#share-to-teams-tenant-setting)一文。
 
 ## <a name="grant-access-to-reports"></a>授與報告存取權
 

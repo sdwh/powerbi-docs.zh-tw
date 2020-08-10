@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 6b130016bf4514b817edbf8c91cfb24d2063e6f1
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: ac5eb41aa248eeebf2cbfb6d53e327e2a3e83fdd
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215456"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537611"
 ---
 # <a name="dax-avoid-converting-blanks-to-values"></a>DAX：避免將 BLANK 轉換成值
 
@@ -79,4 +79,6 @@ DIVIDE([Profit], [Sales])
 如需本文的詳細資訊，請參閱下列資源︰
 
 - [資料分析運算式 (DAX) 參考](/dax/)
+- 學習路徑：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/) (英文)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

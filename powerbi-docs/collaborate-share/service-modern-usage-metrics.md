@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7c8c1744c8ecbbf170ae073d2e302fe55faea55b
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86953022"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478145"
 ---
-# <a name="monitor-usage-metrics-in-the-new-workspace-experience"></a>在新的工作區體驗中監視使用計量
+# <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作區體驗中監視使用計量 (預覽)
 
 了解您內容的使用方法，可協助您展示您的影響力及優先處理方向。 使用計量可能顯示組織的大型部門每天都使用您的某份報表，也可能會顯示您建立的儀表板完全無人檢視。 這種類型的意見反應對指引工作投入方向毫無價值。
 
@@ -81,7 +81,7 @@ ms.locfileid: "86953022"
 
 | **頁面** | **計量** | **描述** |
 | --- | --- | --- |
-| 報告使用方式 | 報表檢視 | 每次有人開啟報表時，就會記錄報表檢視。 請注意，檢視的定義與先前的使用計量報表不同。 變更報表頁面不再被視為額外的檢視。 |
+| 報告使用方式 | 報表檢視 | 每次有人開啟報表時，就會記錄報表檢視。 請注意，檢視的定義與先前的使用計量報表不同。 變更報表頁面不再被視為額外的檢視。 活動 (例如共用和釘選) 不再被視為使用計量。|
 | 報告使用方式 | 唯一檢視人員 | 檢視人員是在一段時間內 (以 AAD 使用者帳戶為基礎) 至少開啟一次報表的人員。 |
 | 報告使用方式 | 檢視趨勢 | 檢視趨勢反映了一段時間的檢視計數變更。 這會比較所選時段的前半段與後半段。 |
 | 報告使用方式 | 日期交叉分析篩選器 | 您可以在 [報表使用量] 頁面上變更時間間隔，例如計算每週或每兩週的趨勢。 在 [報表使用量] 頁面的左下角，您可以判斷所選報表之可用使用量資料的最早和最晚日期。 |

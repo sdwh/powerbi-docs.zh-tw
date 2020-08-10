@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b792c7d9f6200544188e9f9fe711cd1394e8b921
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2c3733f98c278895102165e9d2db52f0e9318903
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279564"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537519"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX：DIVIDE 函式與除法運算子 (/) 的比較
 
@@ -65,5 +65,6 @@ DIVIDE([Profit], [Sales])
 如需本文的詳細資訊，請參閱下列資源︰
 
 - [資料分析運算式 (DAX) 參考](/dax/)
+- 學習路徑：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/) (英文)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

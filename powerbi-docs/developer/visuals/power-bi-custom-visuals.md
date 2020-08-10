@@ -1,6 +1,6 @@
 ---
 title: Power BI 的視覺效果
-description: Power BI 中的自訂視覺效果
+description: 本文描述如何自訂 Power BI 視覺效果
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -8,20 +8,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 01/03/2019
+ms.date: 07/14/2020
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9dc53eb3f49a1ef62e4e3539ac7eb6d92b317af
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e56b03eeccc3140709fb458d4e42a9065a4da5d4
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561631"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87538002"
 ---
 # <a name="visuals-in-power-bi"></a>Power BI 的視覺效果
 
 Power BI 隨附許多現成的 Power BI 視覺效果。 這些視覺效果可在 [Power BI Desktop](https://powerbi.microsoft.com/desktop/) 和 [Power BI 服務](https://app.powerbi.com)的 [視覺效果] 窗格中取得，而且可用於建立和編輯 Power BI 內容。
 
-![視覺效果](media/power-bi-custom-visuals/power-bi-visualizations.png)
+![Power BI [視覺效果] 窗格的螢幕擷取畫面，該窗格出現在 Power BI Desktop 和 Power BI 服務中。](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
 您可以從 Microsoft [AppSource](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fmarketplace%2Fapps%3Fpage%3D1%26product%3Dpower-bi-visuals&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C6d9286afacb3468d4cde08d740b76694%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637049028749147718&sdata=igWm0e1vXdgGcbyvngQBrHQVAkahPnxPC1ZhUPntGI8%3D&reserved=0) 或透過 Power BI，取得更多 Power BI 視覺效果。 這些視覺效果是由 Microsoft 和 Microsoft 合作夥伴所建立，並由 AppSource 驗證小組進行測試和驗證。
 
@@ -38,6 +38,11 @@ Power BI 隨附許多現成的 Power BI 視覺效果。 這些視覺效果可在
 ## <a name="appsource-power-bi-visuals"></a>AppSource Power BI 視覺效果
 
 Microsoft 和社群成員貢獻出 Power BI 視覺效果以造福大眾，並將其發佈至 [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals)。 您可以下載這些視覺效果並將其新增至 Power BI 報表。 Microsoft 已測試並核准這些 Power BI 視覺效果的功能與品質。
+
+>[!NOTE]
+>* 藉由使用以 SDK 建立的 Power BI 視覺效果，您可從 Power BI 租用戶的地理區域、合規性界限或國家雲端執行個體外部協力廠商或其他服務匯入資料，或將資料傳送到其中。
+>* Power BI 認證的視覺效果是 AppSource 中視覺效果，其已經過進一步測試來確認視覺效果不會存取外部服務或資源。
+>* 匯入來自 AppSource 的 Power BI 視覺效果之後，視覺效果可能會自動更新，而不會有任何額外的通知。
 
 ### <a name="what-is-appsource"></a>什麼是 AppSource？
 
@@ -74,10 +79,17 @@ Power BI 視覺效果是一種套件，其中所包含程式碼可用來轉譯�
 
 ## <a name="next-steps"></a>後續步驟
 
-* 如果您是開發人員，請從[開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)教學課程著手。
+>[!div class="nextstepaction"]
+>[開發 Power BI 視覺效果](custom-visual-develop-tutorial.md)
 
-* 了解 [Power BI 視覺效果專案的架構方式](visual-project-structure.md)。
+>[!div class="nextstepaction"]
+>[Power BI 視覺效果專案結構](visual-project-structure.md)
 
-* 探索 [Power BI 視覺效果指南](guidelines-powerbi-visuals.md)。
+>[!div class="nextstepaction"]
+>[Power BI 視覺效果指南](guidelines-powerbi-visuals.md)
 
-有其他問題嗎？ 請嘗試 [Power BI 視覺效果的常見問題集](power-bi-custom-visuals-faq.md)頁面，或 [Power BI 社群](https://community.powerbi.com/)。
+>[!div class="nextstepaction"]
+>[常見問題集](power-bi-custom-visuals-faq.md)
+
+>[!div class="nextstepaction"]
+>[Power BI 社群](https://community.powerbi.com/)

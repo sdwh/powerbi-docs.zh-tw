@@ -6,24 +6,26 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/24/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e39d2fe11a58691b259784c292fec6e5ee6cb322
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253884"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478076"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中設定精選表格 (預覽)
 
 在 Excel 的資料類型庫中，使用者可在 Power BI 資料集的「精選表格」中尋找資料。 在本文中，您會了解如何在資料集中將表格設為「精選」。 這些標記可讓使用者更輕鬆地將企業資料新增至 Excel 工作表。 以下是設定與共用精選表格的基本步驟。
 
-1. 您要[在 Power BI 中升級或認證資料集](../connect-data/service-datasets-promote.md)。 
 1. 您可在 Power BI Desktop 中找到自己資料集中的精選表格 (本文)
 1. 將包含精選表格的這些資料集儲存到其中一個新工作區。 報表建立者可使用這些精選表格來建立報表。 
 1. 組織的其他部門可連線到這些精選表格 (在 Excel 中稱為「資料類型」)，以取得相關和可重新整理的資料。 [在 Excel 中存取 Power BI 的精選表格 (預覽)](service-excel-featured-tables.md) 一文描述如何在 Excel 中使用這些精選表格。
+
+> [!NOTE]
+> 您可[在 Power BI 中升級或認證資料集](../connect-data/service-datasets-promote.md)。 這稱為「背書」。 Excel 會優先處理資料類型資源庫中背書資料集內的表格。 Excel 會先列出認證資料集中的精選表格，然後列出升級資料集中的表格。 之後，Excel 會列出未背書資料集中的精選表格。 
 
 ## <a name="turn-on-the-featured-table-preview"></a>開啟精選表格預覽
 
@@ -31,6 +33,8 @@ ms.locfileid: "87253884"
 2. 選取 [Featured tables] \(精選表格\) 核取方塊。
 
     :::image type="content" source="media/service-excel-featured-tables/power-bi-preview-featured-tables.png" alt-text="預覽 [Featured tables] \(精選表格\) 選項":::
+
+3. 重新啟動 Power BI Desktop。
 
 ## <a name="select-a-table"></a>選取資料表
 

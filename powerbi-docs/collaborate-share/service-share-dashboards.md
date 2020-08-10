@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/26/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d09ebee0cc22c7037db437e1c7a46a3d19ff36fd
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 68d6a399a5ecccf07aaa71f74b18fd4ddd6082f5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485570"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768491"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>與同事和其他人共用 Power BI 儀表板和報表
 「共用」是讓使用者在 Power BI 服務中存取您儀表板和報表的最簡單方式。 您可以與組織內部或外部人員共用。
@@ -34,7 +34,7 @@ Power BI 服務還會提供其他方式，來對您的儀表板和報表進行�
 
 ## <a name="share-a-dashboard-or-report"></a>共用儀表板或報表
 
-1. 在儀表板或報表清單中，或是在開啟的儀表板或報表中，選取 [共用] ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。
+1. 在儀表板或報表清單中，或是在開啟的儀表板或報表中，選取 [共用] :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::。
 
 2. 在頂端的方塊中，輸入個人、通訊群組或安全性群組的完整電子郵件地址。 您無法共用動態通訊清單。 
    
@@ -67,7 +67,7 @@ Power BI 服務還會提供其他方式，來對您的儀表板和報表進行�
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>查看誰可以存取儀表板或報表
 有時您需要查看您已共用內容的人員，以及這些人已共用內容的其他人員。
 
-1. 在儀表板或報表清單中，或在儀表板或報表本身中，選取 [共用] ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
+1. 在儀表板或報表清單中，或在儀表板或報表本身中，選取 [共用] :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::。 
 2. 在 [共用儀表板] 或 [共用報表] 對話方塊中，選取 [存取]。
    
     ![[共用儀表板] 對話方塊的 [存取] 索引標籤](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -110,7 +110,7 @@ Power BI 系統管理員可以允許外部來賓使用者編輯和管理組織�
 * 在傳送邀請之前，清除邀請底部的 [允許收件者共用您的儀表板 (或報表)] 核取方塊。
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>如果您已共用儀表板或報表
-1. 在儀表板或報表清單中，或在儀表板或報表本身中，選取 [共用] ![共用圖示](media/service-share-dashboards/power-bi-share-icon.png)。 
+1. 在儀表板或報表清單中，或在儀表板或報表本身中，選取 [共用] :::image type="icon" source="../media/power-bi-share-icon.png" border="false":::。 
 2. 在 [共用儀表板] 或 [共用報表] 對話方塊中，選取 [存取]。
    
     ![[共用儀表板] 對話方塊的 [存取] 索引標籤](media/service-share-dashboards/power-bi-share-dialog-access.png)

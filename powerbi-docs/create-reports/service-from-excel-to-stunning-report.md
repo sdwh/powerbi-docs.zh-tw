@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 07/23/2020
+ms.date: 07/30/2020
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: f901dcad1743383b85db3935ede8fddf8a4ed492
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ccf8b5fa8f1c4d18a25767ff11f035304b339de0
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87251777"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478122"
 ---
 # <a name="tutorial-from-excel-workbook-to-a-report-in-the-power-bi-service-to-microsoft-teams"></a>教學課程：從 Excel 活頁簿到 Power BI 服務，再到 Microsoft Teams
 管理員想要在一天結束時，查看最新銷售與收益圖表的報表。 但最新資料都在各種第三方系統與您膝上型電腦的檔案上。 在過去，需要好幾個小時的時間才能建立視覺效果並將報表格式化，所以您覺得有點焦慮。
@@ -204,8 +204,6 @@ Power BI 服務可連接至許多資料來源，包括您電腦上的 Excel 檔�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [開始使用 Power BI 服務](../fundamentals/service-get-started.md)
-* [開始使用 Power BI Desktop](../fundamentals/desktop-getting-started.md)
-* [Power BI 服務中的設計工具基本概念](../fundamentals/service-basic-concepts.md)
+* 現在您已在 Power BI 服務中建立基本報表，接著如何在 Power BI Desktop 中建立報表？ 請嘗試使用下列教學課程：[將 Excel 活頁簿轉變為令人驚豔的 Power BI Desktop 報表](desktop-excel-stunning-report.md)。
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)。

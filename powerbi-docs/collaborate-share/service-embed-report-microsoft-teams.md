@@ -9,19 +9,28 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/22/2020
-ms.openlocfilehash: 68459deb29c59af3b9e2b185d54cf4e523d555d8
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.date: 07/31/2020
+ms.openlocfilehash: 53126fe044f65740b9dac072422f749312b960da
+ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252559"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "87478007"
 ---
 # <a name="embed-power-bi-content-in-microsoft-teams"></a>在 Microsoft Teams 中內嵌 Power BI 內容
 
 您可在 Microsoft Teams 的頻道和聊天中，輕鬆內嵌互動式 Power BI 報表。 
 
-如需 Power BI 和 Teams 如何共同合作的背景資訊，包括所需符合的要求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-embed-report-microsoft-teams.md)。
+## <a name="requirements"></a>需求
+
+若要使用 Microsoft Teams 中的 [Power BI] 索引標籤，請確定下列項目：
+
+- Microsoft Teams 具有 [Power BI] 索引標籤。
+- 若要在具備 [Power BI] 索引標籤的 Microsoft Teams 中新增報表，則在裝載報表的工作區中至少必須具備「檢閱者」角色。 如需不同角色的相關資訊，請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
+- 若要在 Microsoft Teams 的 [Power BI] 索引標籤中查看報表，使用者必須具備檢視報表的權限。
+- 使用者必須是有權存取頻道和聊天的 Microsoft Teams 使用者。
+
+如需 Power BI 和 Teams 如何共同合作的背景資訊，包括其他需求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-embed-report-microsoft-teams.md)。
 
 ## <a name="embed-a-report-in-teams"></a>在 Teams 中內嵌報表
 

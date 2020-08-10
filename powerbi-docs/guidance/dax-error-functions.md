@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4730e835c511153232f79c193de5bbd56d63b963
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f00f554a35c4e92328b1ea1017baf7d8006386a0
+ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74410917"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87537473"
 ---
 # <a name="dax-appropriate-use-of-error-functions"></a>DAX：誤差函數的適當用法
 
@@ -64,4 +64,7 @@ Profit Margin
 如需本文的詳細資訊，請參閱下列資源︰
 
 - [資料分析運算式 (DAX) 參考](/dax/)
+
+- 學習路徑：[在 Power BI Desktop 中使用 DAX](https://docs.microsoft.com/learn/paths/dax-power-bi/) (英文)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com)

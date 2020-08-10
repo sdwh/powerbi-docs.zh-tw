@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/15/2020
+ms.date: 08/03/2020
 ms.author: kfollis
-ms.openlocfilehash: 34c46f97128d1229f46eeed254bdecee58a32aaf
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
+ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409459"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "87768393"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
@@ -27,6 +27,10 @@ ms.locfileid: "86409459"
 ## <a name="featured-webinars"></a>精選的網路研討會
 
 開始使用這些熱門的隨選網路研討會
+
+**使用管理 BI 內容的最佳做法來提升使用者滿意度**  
+由 Nimrod Shalit 主持  
+[立即觀看](https://info.microsoft.com/ww-landing-Boost-User-Satisfaction-with-Best-Practices-for-Managing-BI-Content.html?lcid=en-us)
 
 **從見解到動作：使用 Power BI 來驅動資料文化**  
 由 Arun Ulagaratchagan 與 Amir Netz 主持  
