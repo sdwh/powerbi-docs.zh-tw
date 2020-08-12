@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 3cf415cbd14da28d523a042fdf4099fe464a4a8b
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739176"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878579"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 視覺效果 API 變更記錄
 此頁面包含 API 版本的快速摘要。 此處所列的版本會視為穩定，且不會變更。
@@ -91,7 +91,7 @@ ms.locfileid: "84739176"
 
 ## <a name="api-v162"></a>API 1.6.2 版
 * 支援 **[編輯模式](./advanced-edit-mode.md)** ，讓視覺效果進入視覺化編輯模式
-* 支援以 html 為基礎的 **[互動式 (html) R Power BI 視覺效果](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)**
+* 支援以 html 為基礎的 **[互動式 (html) R Power BI 視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
 ## <a name="api-v150"></a>API 1.5.0 版
 * 支援 **[允許互動](./visuals-interactions.md)** 以實現視覺效果互動性
@@ -105,7 +105,7 @@ ms.locfileid: "84739176"
 ## <a name="api-v120"></a>API 1.2.0 版
 * 新增 **colorPalette**，以管理您視覺效果上所使用的色彩。
 * 支援**多重選取項目** - selectionManager 可以接受 `SelectionId` 的陣列。
-* 支援使用 R 指令碼的 **[R 視覺效果](https://microsoft.github.io/PowerBI-visuals/tutorials/building-r-powered-custom-visual/creating-r-visuals.md)**
+* 支援使用 R 指令碼的 **[R 視覺效果](https://github.com/Microsoft/PowerBI-visuals/blob/master/RVisualTutorial/CreateRHTML.md)**
 
 ## <a name="api-v110"></a>API 1.1.0 版
 * 支援在 iFrame 中針對視覺效果進行偵錯

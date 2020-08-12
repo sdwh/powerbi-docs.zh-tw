@@ -6,14 +6,14 @@ ms.author: kesharab
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: aed8317c36cdd118b03bff2db93788f493ac9ad2
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380517"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878605"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>新增 Power BI 視覺效果的書籤支援
 
@@ -49,9 +49,9 @@ ms.locfileid: "79380517"
 
 如果您的視覺效果使用[選取項目](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md) \(英文\) 與其他視覺效果互動，您可以透過下列兩種方式之一來新增書簽：
 
-* 如果視覺效果尚未使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) \(英文\)，您可以使用 `FilterManager.restoreSelectionIds` 方法。
+* 如果視覺效果尚未使用 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) \(英文\)，您可以使用 `FilterManager.restoreSelectionIds` 方法。
 
-* 如果視覺效果已經使用 [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) \(英文\) 來管理選取項目，您應該使用 `InteractivityService` 執行個體中的 `applySelectionFromFilter` 方法。
+* 如果視覺效果已經使用 [InteractivityService](https://github.com/microsoft/powerbi-visuals-utils-interactivityutils/blob/master/src/interactivityService.ts) \(英文\) 來管理選取項目，您應該使用 `InteractivityService` 執行個體中的 `applySelectionFromFilter` 方法。
 
 #### <a name="use-iselectionmanagerregisteronselectcallback"></a>使用 ISelectionManager.registerOnSelectCallback
 

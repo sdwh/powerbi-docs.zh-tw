@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: cbc8f6366e23aa7fbfb447bbfe56909c09f3e3fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354470"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878696"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教學課程：從 R 指令碼到 R 視覺效果 - 建置漏斗圖
 本文逐步說明如何在 R 視覺效果中使用 R 指令碼來建置漏斗圖。
@@ -75,7 +75,7 @@ ms.locfileid: "85354470"
 1. 使用 `pbiviz package` 命令重新封裝視覺效果，並嘗試將其匯入 Power BI。
 
 > [!NOTE]
-> 請參閱 [PBIX](https://github.com/microsoft/PowerBI-visuals/raw/master/RVisualTutorial/TutorialFunnelPlot/chapter3-RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[原始程式碼](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)以進行下載。
+> 請參閱 [PBIX](https://github.com/microsoft/PowerBI-visuals/blob/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelPlot_RCustomVisual.pbix) 和[原始程式碼](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter3_RCustomVisual/funnelRvisual_v01/)以進行下載。
 
 ## <a name="make-r-based-visual-improvements"></a>進行以 R 為基礎的視覺效果改進
 
@@ -274,7 +274,7 @@ ms.locfileid: "85354470"
 
 * 每個 R 視覺效果都會將 `unique` 運算子套用至其輸入資料表。 為了避免移除相同的資料列，請考慮使用唯一識別碼來新增額外的輸入欄位，並在 R 程式碼中予以忽略。   
 
-* 如果您有 Power BI 帳戶，請使用 Power BI 服務來[即時](/PowerBI-visuals/docs/step-by-step-lab/creating-a-custom-visual/#testing-the-custom-visual)開發視覺效果，而不使用 `pbiviz package` 命令將其重新封裝。
+* 如果您有 Power BI 帳戶，請使用 Power BI 服務來[即時](/power-bi/developer/visuals/custom-visual-develop-tutorial/)開發視覺效果，而不使用 `pbiviz package` 命令將其重新封裝。
 
 ### <a name="html-widgets-gallery"></a>HTML Widget 資源庫
 瀏覽 [HTML Widget 資源庫](http://gallery.htmlwidgets.org/)中的視覺效果，以用於您的下一個視覺效果。 為了方便起見，我們建立了[視覺效果專案存放庫](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，有超過 20 個互動式 HTML 視覺效果可供您選擇！

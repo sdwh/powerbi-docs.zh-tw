@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0a09311c5fdb1a8b2e008996d993015f33ee9b5f
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739245"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878446"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增強型資料集中繼資料 (預覽)
 
 當 Power BI Desktop 建立報表時，也會在對應的 PBIX 和 PBIT 檔案中建立資料集中繼資料。 之前中繼資料是儲存在 Power BI Desktop 特定的格式中。 其先前使用了 Base 64 編碼 M 運算式及資料來源，並假設了儲存中繼資料的方式。
 
-隨著**增強型資料集中繼資料**功能的發行，我們克服了許多其中的限制。 啟用**增強型資料集中繼資料**功能，由 Power BI Desktop 所建立中繼資料即會使用與用於 Analysis Services 表格式模型格式相似的格式，以[表格式物件模型](https://docs.microsoft.com/bi-reference/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)為基礎。
+隨著**增強型資料集中繼資料**功能的發行，我們克服了許多其中的限制。 啟用**增強型資料集中繼資料**功能，由 Power BI Desktop 所建立中繼資料即會使用與用於 Analysis Services 表格式模型格式相似的格式，以[表格式物件模型](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo)為基礎。
 
 
 **增強型資料集中繼資料**功能是一種策略性及基礎功能，因為未來的 Power BI 功能都會以這項中繼資料為基礎建置。 其中一部分可獲益於增強型資料集中繼資料的額外功能，包括 Power BI 資料集管理的 [XMLA 讀取/寫入](https://docs.microsoft.com/power-platform-release-plan/2019wave2/business-intelligence/xmla-readwrite)，以及將 Analysis Services 工作負載移轉至 Power BI，使其獲益於下一代的功能。

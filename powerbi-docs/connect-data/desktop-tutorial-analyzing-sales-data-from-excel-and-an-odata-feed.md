@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: bf4a4ba9c816aaca19e04d0061df7316ffcc7a2b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2ef73377728703926ac6bc51f847a54451e1321e
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83287295"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878727"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 
@@ -273,6 +273,6 @@ Power BI Desktop 不需要您結合查詢來建立報表。 不過，您可以�
 ## <a name="next-steps"></a>後續步驟
 
 * [閱讀其他 Power BI Desktop 教學課程](/power-bi/guided-learning/)
-* [觀看 Power BI Desktop 影片](/power-bi/desktop-videos)
+* [觀看 Power BI Desktop 影片](/power-bi/fundamentals/desktop-videos)
 * [瀏覽 Power BI 論壇](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](https://go.microsoft.com/fwlink/?LinkID=519327)

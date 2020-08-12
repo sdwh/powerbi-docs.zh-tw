@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 72e2744fc325f5e5b36f3abcf4a6d3d71767fbd4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227647"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878348"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
@@ -29,7 +29,7 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 此文章說明如何在 Microsoft 365 系統管理中心內購買 Power BI Pro 使用者授權。 購買授權之後，您可以在 Microsoft 365 系統管理中心或 Azure 入口網站中將其指派給使用者。
 
 > [!NOTE]
-> 自 2020 年 1 月 14 日起，商業雲端客戶可使用 Power Platform 產品 (Power BI、Power Apps 和 Power Automate) 的自助式購買、訂閱和授權管理功能。 如需詳細資訊，請參閱[自助式購買常見問題集](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) \(部分機器翻譯\)。 若要啟用或停用自助式購買功能，請參閱[啟用或停用自助式註冊與購買](/service-admin-disable-self-service.md)。
+> 自 2020 年 1 月 14 日起，商業雲端客戶可使用 Power Platform 產品 (Power BI、Power Apps 和 Power Automate) 的自助式購買、訂閱和授權管理功能。 如需詳細資訊，請參閱[自助式購買常見問題集](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) \(部分機器翻譯\)。 若要啟用或停用自助式購買功能，請參閱[啟用或停用自助式註冊與購買](/power-bi/admin/service-admin-disable-self-service)。
 
 ### <a name="prerequisites"></a>必要條件
 
