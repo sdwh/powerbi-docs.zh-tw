@@ -114,6 +114,8 @@
               href: service-admin-premium-multi-geo.md
             - name: 攜帶您自己的加密金鑰
               href: service-encryption-byok.md
+            - name: 使用客戶管理的金鑰
+              href: service-encryption-customer-managed-keys.md
             - name: 重新啟動 Premium 容量
               href: service-admin-premium-restart.md
             - name: 使用 XMLA 端點連線至資料集

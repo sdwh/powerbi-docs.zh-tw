@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: f92d10fdff880049460d24c714201d9a433745d8
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: be2f98341abd581cd2df717d19b3a9110548a2ec
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86035013"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049199"
 ---
 # <a name="how-to-apply-sensitivity-labels-in-power-bi"></a>如何在 Power BI 中套用敏感度標籤
 
@@ -21,8 +21,8 @@ Microsoft 資訊保護提供報表、儀表板、資料集和資料流程的敏�
 
 若要在 Power BI 中套用敏感度標籤：
 * 您必須擁有 Power BI Pro 授權，以及所要標示的內容編輯權限。
-* 您必須屬於有權套用敏感度標籤的安全性群組 (如[在 Power BI 中啟用敏感度標籤](./service-security-enable-data-sensitivity-labels.md#enable-sensitivity-labels)一文中所述)。
-* 您必須符合所有[必要條件](./service-security-sensitivity-label-overview.md#requirements-for-using-sensitivity-labels-in-power-bi)和[授權需求](./service-security-data-protection-overview.md#licensing)。
+* 您必須屬於有權套用敏感度標籤的安全性群組 (如[在 Power BI 中啟用敏感度標籤](./service-security-enable-data-sensitivity-labels.md)一文中所述)。
+* 您必須符合所有[授權和其他需求](./service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)。
 
 如需 Power BI 中敏感度標籤的詳細資訊，請參閱 [Power BI 中的敏感度標籤](service-security-sensitivity-label-overview.md)。
 

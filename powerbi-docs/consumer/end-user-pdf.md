@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ec45d971855aefe35161f2b10fecd483f0345a46
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
+ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768795"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87837489"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -52,6 +52,7 @@ ms.locfileid: "87768795"
 ## <a name="limitations-and-considerations"></a>限制與考量
 當您使用 [匯出至 PDF]  功能時，需牢記幾項考量與限制。
 
+* PDF 將包含 Power BI 畫布上顯示的資料與視覺效果。 如果視覺效果包含捲軸，PDF 將會包含其無法捲動之預設狀態的視覺效果。  
 * 目前不支援 R 視覺效果與 Python 視覺效果。 在 PDF 中，這些視覺效果會是空白，並顯示錯誤訊息。 
 * 目前支援經認證的 Power BI 視覺效果。 如需認證 Power BI 視覺效果 (包括如何使 Power BI 視覺效果獲得認證) 的詳細資訊，請參閱[讓 Power BI 視覺效果獲得認證](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支援未經認證的 Power BI 視覺效果。 在 PDF 中，將會顯示它們並出現錯誤訊息。
 * 不支援 ESRI 視覺效果

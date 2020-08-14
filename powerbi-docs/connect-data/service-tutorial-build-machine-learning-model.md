@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/29/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d65b63238009c5a743d83a13d596f36aad4b2a3
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 9f25c9ffc294a1733a3dba5818dc00bd23124837
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281683"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878911"
 ---
 # <a name="tutorial-build-a-machine-learning-model-in-power-bi"></a>教學課程：在 Power BI 中建置機器學習模型
 
@@ -154,6 +154,26 @@ Power Query 會自動推斷資料行的類型。 您可以按一下資料行標�
 在完成資料流程重新整理後，您可以選取**線上訪客擴充購買意圖預測**實體來檢視結果。
 
 ![檢視結果](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-21.png)
+
+您也可以直接從資料流程中的 Power Query 編輯器，叫用工作區中的任何 AutoML 模型。 若要存取 AutoML 模型，請針對要從您的 AutoML 模型豐富見解的實體選取 [編輯] 按鈕，如下列影像所示。
+
+![編輯實體](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-22.png)
+
+選取 [編輯] 按鈕以針對您資料流程中的實體開啟 Power Query 編輯器。 選取功能區中的 [AI 見解] 按鈕。
+
+![AI 見解](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-23.png)
+
+ 從瀏覽窗格功能表中，選取 [Power BI 機器學習模型] 資料夾。 您擁有存取權的所有 AutoML 模型都會在這裡列為 Power Query 函式。 此外，AutoML 模型的輸入參數會自動對應為相對應 Power Query 函式的參數。 請注意，只有當參數的名稱與資料類型相同時，才會自動對應參數。
+ 
+若要叫用 AutoML 模型，您可以從下拉式清單中指定任何所選實體的資料行作為輸入。 您也可以將資料行圖示切換至 [輸入] 對話方塊的左側，以指定要當作輸入使用的常數值。
+
+![PQO 函式瀏覽器](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-24.png)
+
+選取 [套用]，以檢視 AutoML 模型的輸出作為實體資料表中新資料行的預覽。 您也將看到模型叫用作為查詢套用的步驟。
+
+![檢視結果](media/service-tutorial-build-machine-learning-model/tutorial-machine-learning-model-25.png)
+
+一旦您儲存資料流程之後，當您針對實體資料表中任何新的或更新的資料列重新整理資料流程時，將會自動叫用模型。
 
 ## <a name="using-the-scored-output-from-the-model-in-a-power-bi-report"></a>在 Power BI 報表中使用模型的評分輸出
 

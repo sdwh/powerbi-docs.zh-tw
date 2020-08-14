@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7dd6c812116d9ba196b157bd12d6362c19ac64ec
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216713"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049291"
 ---
 # <a name="tenant-admin-settings-guidance"></a>租用戶系統管理設定指導
 
@@ -39,9 +39,13 @@ ms.locfileid: "86216713"
 這些 URL 會在 Power BI 說明功能表中提供連結。
 
 > [!NOTE]
-> 如果提供**授權要求** URL，則將會禁止個別使用者註冊 60 天免費的 Power BI Pro 試用版。 而是改為將使用者導向至您的內部網站，並提供其取得授權 (免費版或 Pro) 的資訊。
+> 提供**授權要求** URL，可防止個別使用者購買 Power BI Pro 授權。 而是改為將使用者導向至您的內部網站，並提供如何取得授權的相關資訊。 預設會啟用 [允許使用者試用 Power BI Pro] 設定，並將購買和試用體驗分開。 若要深入了解這些設定如何搭配使用，請參閱[允許使用者試用 Power BI Pro](../admin/service-admin-portal.md#allow-users-to-try-power-bi-pro)。
+>
+>
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [說明及支援] 設定。](media/admin-tenant-settings/publish-get-help-information.png)
+
+如需詳細資訊，請參閱[說明及支援設定](../admin/service-admin-portal.md#help-and-support-settings)。
 
 ## <a name="manage-risk"></a>管理風險
 設定管理風險有助您在 Power BI 租用戶中建立治理原則。 不過，請注意，這些治理設定並不是安全性措施。 例如，若您停用 [匯出資料] 設定，Power BI 使用者介面即會移除此功能，以透過這種方式協助 Power BI 使用者在工作時遵循組織的治理原則，但這無法防止執意操作的使用者透過其他選項匯出資料。 從安全角度來看，不論 Power BI 使用者介面中是否提供這些功能，具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，並可以保存結果。

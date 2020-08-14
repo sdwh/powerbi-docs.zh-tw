@@ -1,39 +1,39 @@
 ---
 title: Power BI 管理入口網站
-description: 管理入口網站可讓您管理貴組織的 Power BI 租用戶。 包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
+description: 此管理入口網站可讓您設定適用於 Power BI 的全組織設定。 您可以檢視使用計量、設定租用戶設定、處理容量、檢視工作區、組織視覺效果與精選內容。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/12/2020
+ms.date: 08/10/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ec521c256209c258604e13483a9f3159b24626ae
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537496"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049758"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
-系統管理入口網站可讓您管理您組織的 Power BI 租用戶。 入口網站包含項目如使用計量、存取 Microsoft 365 系統管理中心及設定等。
+此管理入口網站可讓您管理組織的 Power BI 設定。 此入口網站包含使用計量、存取 Microsoft 365 系統管理中心與租用戶設定等項目。
 
-全域系統管理員或已獲指派 Power BI 服務系統管理員角色的所有使用者，都可存取整個管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
+全域管理員和具有 Power BI 服務管理員角色的使用者，都可存取完整的管理入口網站。 若您不屬於任何這些角色，您只會看到入口網站中的 [容量設定]。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。
 
 ## <a name="how-to-get-to-the-admin-portal"></a>如何取得管理入口網站
 
-帳戶必須在 Microsoft 365 或 Azure Active Directory (Azure AD) 中標記為**全域系統管理員**，或已獲指派 Power BI 服務系統管理員角色，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要取得 Power BI 管理入口網站，請執行下列步驟。
+您必須是全域管理員或 Power BI 服務管理員，才能存取 Power BI 管理入口網站。 如需 Power BI 服務系統管理員角色的詳細資訊，請參閱[了解 Power BI 系統管理員角色](service-admin-role.md)。 若要存取 Power BI 管理入口網站，請遵循這些步驟：
 
-1. 選取 Power BI 服務右上角的設定齒輪。
+1. 使用管理帳戶認證登入 [Power BI](https://app.powerbi.com)。
 
-1. 選取 [系統管理入口網站]。
+1. 從頁首選取 [設定] > [管理入口網站]。
 
     ![管理入口網站設定](media/service-admin-portal/powerbi-admin-settings.png)
 
-入口網站中有九個索引標籤。 此文章其餘部分提供有關這些索引標籤的資訊。
+管理入口網站中有數個區段。 此文章其餘部分會提供有關這其中每個區段的資訊。
 
 ![管理入口網站瀏覽](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -44,18 +44,20 @@ ms.locfileid: "87537496"
 * [容量設定](#capacity-settings)
 * [內嵌程式碼](#embed-codes)
 * [組織視覺效果](organizational-visuals.md#organizational-visuals)
-* [資料流程儲存體 (預覽)](#dataflow-storage-preview)
+* [Azure 連線 (預覽)](#azure-connections-preview)
 * [工作區](#workspaces)
 * [自訂商標](#custom-branding)
+* [保護計量](#protection-metrics)
+* [精選內容](#featured-content)
 
 ## <a name="usage-metrics"></a>使用計量
 
-[使用計量] 可讓您監視您組織的 Power BI 使用量。 它也能讓您查看貴組織 Power BI 中最活躍的使用者和群組。 
+[使用計量] 可讓您監視組織的 Power BI 使用狀況。 其也會顯示組織中哪些使用者與群組在 Power BI 中最活躍。
 
 > [!NOTE]
 > 第一次存取儀表板，或經過長時間未檢視儀表板而再次瀏覽時，您可能會在載入儀表板時看到載入畫面。
 
-只要載入儀表板，您就能看到兩個區段的圖格。 第一個區段包含個別使用者的使用量資料，第二個區段則是貴組織群組的類似資訊。
+當儀表板載入之後，您就能看到兩個區段的圖格。 第一個區段包含個別使用者的使用狀況資料，第二個區段則是群組的類似資訊。
 
 以下是可在每個磚中看到的內容明細︰
 
@@ -63,11 +65,13 @@ ms.locfileid: "87537496"
   
     ![儀表板、報表、資料集的相異計數](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* 最常用儀表板，依有其存取權限的使用者數目排列。 例如，如果您有一個和 3 位使用者共用的儀表板，又將它新增至另外兩位使用者連接的內容套件，其計數為 6 (1 + 3 + 2)。
+
+* 最常用儀表板，依有其存取權限的使用者數目排列。 例如：您擁有與三個使用者共用的儀表板。 您也將儀表板新增至兩個不同使用者所連線的內容套件。 儀表板的計數會是 6 (1 + 3 + 2)。
   
     ![取用次數最高的儀表板](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
-* 使用者連接的最受歡迎內容。 這可以是使用者能夠透過 Get Data 程序接觸的任何項目，如 SaaS 內容套件、組織內容套件、檔案或資料庫。
+* 使用者連接的最受歡迎內容。 此內容可以是使用者能夠透過「取得資料」程序觸達的任何項目，例如 SaaS 內容套件、組織內容套件、檔案或資料庫。
+
   
     ![取用次數最高的套件](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
@@ -79,9 +83,9 @@ ms.locfileid: "87537496"
   
     ![經常存取的使用者 - 報表](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-第二個區段顯示相同類型的資訊，但以群組為依據。 這可讓您查看貴組織中最活躍的群組，以及他們取用的內容類型。
+第二個區段顯示相同類型的資訊，但以群組為依據。 此區段可讓您查看組織中最活躍的群組與其取用的內容種類。
 
-利用此資訊，您可以真正了解組織中人員如何使用 Power BI，而且能夠識別出貴組織中活躍的使用者與群組。
+利用此資訊，您可以獲得人們如何在組織中使用 Power BI 的真正見解。
 
 ## <a name="control-usage-metrics"></a>控制使用計量
 
@@ -93,7 +97,7 @@ ms.locfileid: "87537496"
 
 ### <a name="usage-metrics-for-content-creators"></a>內容建立者的使用計量
 
-1. 從管理入口網站中，選取 [租用戶設定] > [內容創作者的使用計量]。
+1. 從管理入口網站中，選取 [租用戶設定] > [稽核與使用方式設定] > [內容創作者的使用計量]。
 
     ![管理入口網站租用戶設定使用計量](media/service-admin-portal/power-bi-admin-usage-metrics.png)
 
@@ -101,10 +105,9 @@ ms.locfileid: "87537496"
 
     ![已啟用使用計量](../collaborate-share/media/service-usage-metrics/power-bi-tenant-settings-updated.png)
 
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>內容建立者的使用計量中個別使用者資料
 
-### <a name="per-user-data-in-usage-metrics"></a>使用計量中的個別使用者資料
-
-根據預設，會針對使用計量啟用個別使用者資料，而且會將內容取用者帳戶資訊包含在計量報表中。 如果您不想要針對部分或所有使用者納入這項資訊，則請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
+預設會針對使用計量啟用個別使用者資料，而且會將帳戶資訊納入計量報表。 如果您不想針對部分或所有使用者納入帳戶資訊，請停用指定安全性群組或整個組織的功能。 帳戶資訊接著會在報表中顯示為「未命名」。
 
 ![個別使用者使用量資料](media/service-admin-portal/power-bi-admin-per-user-usage-data.png)
 
@@ -112,38 +115,38 @@ ms.locfileid: "87537496"
 
 當系統管理員針對其整個組織停用使用計量時，他們也可以選擇下列一或兩個選項來：
 
-- [刪除所有現有的使用計量內容] 以刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。 
+- [刪除所有現有的使用計量內容] 以刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。
 - [刪除目前使用計量內容中所有現有的每位使用者資料]，此選項會移除組織中可能已使用它之所有使用者的所有個別使用者資料存取權。 
 
 請小心，因為刪除現有使用量和個別使用者計量內容是無法復原的。
 
 ## <a name="users"></a>使用者
 
-您可以在 Microsoft 365 系統管理中心管理 Power BI 使用者、群組與管理員。 [使用者] 索引標籤提供您租用戶系統管理中心的連結。
+您可以在 Microsoft 365 系統管理中心管理 Power BI 使用者、群組與管理員。 [使用者] 索引標籤會提供該系統管理中心的連結。
 
 ![前往 MIcrosoft 365 系統管理中心](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>稽核記錄
 
-您可以在 Office 365 安全性與合規性中心管理 Power BI 稽核記錄。 [稽核記錄] 索引標籤提供您租用戶安全性與合規性中心的連結。 [深入了解](service-admin-auditing.md)
+您可以在 Office 365 安全性與合規性中心管理 Power BI 稽核記錄。 [稽核記錄] 索引標籤會提供安全性與合規性中心的連結。 若要深入了解，請參閱[追蹤 Power BI 中的使用者活動](service-admin-auditing.md)。
 
 若要使用稽核記錄，請確定已啟用[**建立內部活動稽核以及合規性的稽核記錄**](#create-audit-logs-for-internal-activity-auditing-and-compliance)設定。
 
 ## <a name="tenant-settings"></a>租用戶設定
 
-[租用戶設定] 索引標籤可讓您更精細地控制為您的組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
+[租用戶設定] 可讓您更精細地控制為組織提供的功能。 如果您對敏感性資料有疑慮、我們的某些功能可能不適合您的組織，或您可能希望特定群組只能使用特定功能。
 
 > [!NOTE]
-> 控制 Power BI 使用者介面中功能可用性的租用戶設定，有助於建立控管原則，但並不是安全性措施。 例如，[匯出資料] 設定不會限制 Power BI 使用者對資料集的權限。 具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，而且不必使用 Power BI 使用者介面中的 [匯出資料] 功能就能保存結果。
+> 控制 Power BI 使用者介面中功能可用性的租用戶設定，有助於建立治理原則，但其並非安全措施。 例如，[匯出資料] 設定不會限制 Power BI 使用者對資料集的權限。 具有資料集讀取權限的 Power BI 使用者即有權查詢此資料集，而且不必使用 Power BI 使用者介面中的 [匯出資料] 功能就能保存結果。
 
 下圖顯示 [租用戶設定] 索引標籤的數個設定。
 
 ![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> 設定變更可能需要 10 分鐘才會對租用戶中所有人生效。
+> 設定變更最多可能需要 15 分鐘，才會套用到組織中的所有使用者。
 
-設定可以有三個狀態：
+設定可具有下列三種狀態的其中一種：
 
 * **已為整個組織停用**：組織中沒有人可以使用這項功能。
 
@@ -153,13 +156,13 @@ ms.locfileid: "87537496"
 
     ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **已為組織子集合啟用**：您組織中特定使用者或群組子集合可以使用此功能。
+* **已為組織子集合啟用**：您可以將此設定套用至組織中允許使用此功能的**特定安全性群組**，而不是為整個組織啟用此功能。
 
-    您可以為整個組織啟用功能，特定使用者群組除外。
+    您也可以為整個組織啟用功能，但**特定安全性群組除外**。
 
     ![已啟用子集合設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    您也可以只針對特定使用者群組啟用功能，同時為另一個使用者群組停用該功能。 此用此方式可確保特定使用者沒有功能的存取權，即使他們位於允許的群組中亦然。
+    您也可以合併設定，以便只針對特定使用者群組啟用功能，同時為另一個使用者群組停用該功能。 使用此方法可確保特定使用者不具功能的存取權，即使其位於允許的群組中亦然。 系統會針對使用者套用最嚴格的設定。
 
     ![啟用例外設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
@@ -169,23 +172,47 @@ ms.locfileid: "87537496"
 
 ### <a name="publish-get-help-information"></a>發佈「取得說明」資訊
 
-組織中的使用者可以從 Power BI 說明功能表，前往內部說明與支援資源。 具體來說，這些參數會變更 [學習]、[社群] 和 [取得說明] 功能表項目的行為。
+管理員可以指定內部 URL，以覆寫 Power BI [說明] 功能表上的連結目的地，以及進行授權升級。 如果設定了自訂 URL，組織中的使用者就會移至內部說明和支援資源，而非預設目的地。 您可以自訂下列資源目的地：
 
-此外，藉由指定授權要求的 URL，您可以自訂 [升級帳戶] 按鈕的目標 URL。 沒有 Power BI Pro 授權的使用者會在 [Update to Power BI Pro] \(更新至 Power BI Pro\) 對話方塊以及 [管理個人儲存體] 頁面中看到此按鈕。 而且，Power BI 不再於此對話方塊或儲存體頁面中提供 [免費試用專業版] 按鈕。 這可確保 Power BI 透過您的授權管理解決方案，透過組織中定義的程序準確地引導您的使用者。
+* **Learn**。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](https://docs.microsoft.com/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
 
-![啟用例外設定](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+* **社群**。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
+
+* **授權升級**。 具有 Power BI (免費) 授權的使用者在使用服務時，可能有機會將帳戶升級為 Power BI Pro。 如果您針對 [授權要求] 指定內部 URL，即可將使用者重新導向至內部要求並購買流程，以防止自助式購買。 如果您想要防止使用者購買授權，但要讓使用者開始試用 Power BI Pro，請參閱[允許使用者試用 Power BI Pro](#allow-users-to-try-power-bi-pro) 以區隔購買和試用體驗。
+
+* **取得說明**。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
+
+![發佈取得說明資訊](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 
 若此租用戶受到服務中斷或事件的影響，則擁有郵件功能的安全性群組將會收到電子郵件通知。 請深入了解[服務中斷通知](service-interruption-notifications.md)。
 
+### <a name="allow-users-to-try-power-bi-pro"></a>允許使用者試用 Power BI Pro
+
+預設會啟用 [允許使用者試用 Power BI Pro] 的設定，可讓您提高對於使用者如何取得 Power BI Pro 授權的控制。 在您已禁止自助式購買的案例中，此設定可讓使用者開始試用 Power BI Pro。 終端使用者體驗取決於您合併授權設定的方式。 下表顯示從 Power BI (免費) 升級到 Power BI Pro 的體驗會受到不同設定組合所影響：
+
+| 自助式購買設定 | 允許使用者試用 Power BI Pro 設定 | 使用者經驗 |
+| ------ | ------ | ----- |
+| 啟用 | 已停用 | 使用者可以購買 Pro 授權，但無法開始試用 |
+| 啟用 | 啟用 | 使用者可以開始免費試用 Pro，並可升級為付費授權 |
+| 已停用 | 已停用 | 使用者看到一則訊息，表示可洽詢 IT 管理員以要求授權 |
+| 已停用 | 啟用 | 使用者可以開始試用 Pro，但必須洽詢 IT 管理員以取得付費授權 |
+
+> [!NOTE]
+> 您可以在[說明及支援設定](#help-and-support-settings)中，新增內部 URL 以用於授權要求。 如果您設定 URL，其會覆寫預設購買體驗。 可在上表所述的案例中購買授權的使用者，會被重新導向至您的內部 URL。
+
+![允許使用者試用 Power BI Pro 設定 UI](media/service-admin-portal/allow-pro-trial.png)
+
+若要深入了解，請參閱[啟用或停用自助式註冊與購買](service-admin-disable-self-service.md)。
+
 ## <a name="workspace-settings"></a>工作區設定
 
-在 [租用戶設定] 中，系統管理入口網站有兩個可控制工作區的區段：
+在 [租用戶設定] 中，管理入口網站有三個可控制工作區的區段：
 
-- 建立新的工作區體驗。
-- 跨工作區使用資料集。
-- 禁止建立典型工作區。
+- [建立新的工作區體驗](#create-the-new-workspaces)。
+- [跨工作區使用資料集](#use-datasets-across-workspaces)。
+- [禁止建立典型工作區](#block-classic-workspace-creation)。
 
 ### <a name="create-the-new-workspaces"></a>建立新的工作區
 
@@ -337,7 +364,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>將內容套件及應用程式發佈到整個組織
 
-管理員使用此設定來決定哪些使用者可將內容套件與應用程式發佈到整個組織，而非只是發佈到特定群組。 深入了解[發佈應用程式](../collaborate-share/service-create-distribute-apps.md)。
+管理員使用此設定來決定哪些使用者可將內容套件與應用程式發佈到整個組織，而非發佈到特定群組。 深入了解[發佈應用程式](../collaborate-share/service-create-distribute-apps.md)。
 
 下圖顯示建立內容套件時的 [我的整個組織] 選項。
 
@@ -491,26 +518,48 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ![Power BI 管理入口網站中的內嵌程式碼](media/service-admin-portal/embed-codes.png)
 
-## <a name="dataflow-storage-preview"></a>資料流程儲存體 (預覽)
+## <a name="organizational-visuals"></a>組織視覺效果
+
+所有的 Power BI 視覺效果管理設定 (包括 Power BI 視覺效果租用戶設定) 都會在[管理 Power BI 視覺效果系統管理員設定](organizational-visuals.md)中加以描述。
+
+## <a name="azure-connections-preview"></a>Azure 連線 (預覽)
+
+### <a name="tenant-level-storage-preview"></a>租用戶層級儲存體 (預覽)
 
 根據預設，搭配 Power BI 使用的資料儲存在 Power BI 提供的內部儲存體中。 透過整合資料流程與 Azure Data Lake Storage Gen2 (ADLS Gen2)，您可以在組織的 Azure Data Lake Storage Gen2 帳戶中儲存資料流程。 如需詳細資訊，請參閱[資料流程及 Azure Data Lake 整合 (預覽)](../transform-model/service-dataflows-azure-data-lake-integration.md)。
 
+### <a name="workspace-level-storage-permissions-preview"></a>工作區層級儲存體權限 (預覽)
+
+根據預設，工作區管理員無法連線到自己的儲存體帳戶。 此預覽功能可讓您開啟允許工作區管理員連線自己儲存體帳戶的設定。
+
 ## <a name="workspaces"></a>工作區
 
-作為系統管理員，您可以檢視存在於租用戶中的工作區。 您可以排序和篩選工作區的清單，及顯示各工作區的詳細資料。 資料表資料行對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
+身為管理員，您可以在 [工作區] 索引標籤上檢視存在於租用戶中的工作區。在此索引標籤上，您可以執行這些動作：
 
-系統管理員也可使用管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
+- 重新整理工作區清單及其詳細資料。
+- 將工作區的相關資料匯出至 .csv 檔案。 
+- 查看有關工作區的詳細資料，包括其識別碼、其使用者及其角色，以及其儀表板、報表和資料集。
+- 編輯具有存取權的人員清單。 這表示您可以刪除工作區。 您可以將自己新增至工作區以作為管理員，然後開啟工作區並將其刪除。
+- 編輯 [名稱] 和 [描述] 欄位。
 
 ![工作區清單](media/service-admin-portal/workspaces-list.png)
+
+管理員也可以控制使用者建立新工作區體驗工作區，以及傳統工作區的能力。 如需詳細資訊，請參閱此文章中的[工作區設定](#workspace-settings)。 
+
+[工作區] 索引標籤上的資料表資料行會對應到工作區 [Power BI 管理 Rest API](/rest/api/power-bi/admin) 傳回的屬性。 個人工作區的類型為 **PersonalGroup**，傳統工作區的類型為 **Group**，新工作區體驗工作區的類型為 **Workspace**。 如需詳細資訊，請參閱[在新的工作區中組織工作](../collaborate-share/service-new-workspaces.md)。
 
 在 [工作區] 索引標籤上，您會看到每個工作區的「狀態」。 下表提供有關這些狀態意義的更多詳細資料。
 
 |州  |描述  |
 |---------|---------|
-| 使用中 | 正常工作區。 它不會指出使用方式或其中內容的相關資訊，只表示工作區本身是「正常」的。 |
-| 孤立 | 沒有管理使用者的工作區。 |
-| 已刪除 | 已刪除的工作區。 如有需要，我們會維護足夠的中繼資料 (最長保留 90 天) 來還原工作區。 |
-| 正在移除 | 在刪除程序中但尚未完成的工作區。 使用者可以刪除自己的工作區，使其進入「移除中」，最後進入「已刪除」。 |
+| **使用中** | 正常工作區。 它不會指出使用方式或其中內容的相關資訊，只表示工作區本身是「正常」的。 |
+| **孤立** | 沒有管理使用者的工作區。 |
+| **已刪除** | 已刪除的工作區。 如有需要，我們會維護足夠的中繼資料 (最長保留 90 天) 來還原工作區。 |
+| **正在移除** | 在刪除程序中但尚未完成的工作區。 使用者可以刪除自己的工作區，使其進入「移除中」，最後進入「已刪除」。 |
+
+系統管理員也可使用管理入口網站或 PowerShell Cmdlet 來管理及復原工作區。 
+
+![工作區清單](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="custom-branding"></a>自訂商標
 
@@ -522,12 +571,14 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 * **上傳封面影像**：為取得最佳結果，請上傳儲存為 .jpg 或 .png、1 MB 或更小，且至少為 1920 x 160 像素的封面影像。
 
-* **選取佈景主題色彩**：您可以根據十六進位 #、RGB、值或從提供的平板中選取您的佈景主題。
+* **選取佈景主題色彩**：您可以根據十六進位 #、RGB、值或從提供的調色盤中選取您的佈景主題。
 
 
 如需詳細資訊，請參閱[為貴組織自訂商標](https://aka.ms/orgBranding)。
 
-![工作區清單](media/service-admin-portal/workspaces-list.png)
+## <a name="protection-metrics"></a>保護計量
+
+啟用 Power BI 的資訊保護之後，資料保護計量即會顯示於管理入口網站中。 此報表會顯示敏感度標籤如何協助保護您的內容。
 
 ## <a name="manage-featured-content"></a>管理精選內容
 

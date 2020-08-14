@@ -6,20 +6,22 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/26/2020
+ms.date: 08/07/2020
 ms.author: maggies
 ms.custom: contperfq4
 LocalizationGroup: Share your work
-ms.openlocfilehash: 77de9608978379cee83236b0c362bd2d7d57d5c6
-ms.sourcegitcommit: a7b142685738a2f26ae0a5fa08f894f9ff03557b
+ms.openlocfilehash: 56dd9e07e7c0647e7f92cc5d701b260483e2fbdf
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84120440"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049268"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>在 Power BI 中組織新工作區中的工作
 
-「工作區」是要與同事共同作業來建立儀表板、報表、資料集和編頁報表集合的地方。 新的工作區體驗可協助您更妥善管理內容的存取。 本文描述新的工作區，以及它們與傳統工作區有何不同。  如同傳統工作區一樣，您仍然使用它們來建立和散發應用程式。 準備好建立新工作區了嗎？ 請閱讀[建立新的工作區體驗](service-create-the-new-workspaces.md)。
+「工作區」是要與同事共同作業來建立儀表板、報表、資料集和編頁報表集合的地方。 新的工作區體驗可協助您更妥善管理內容的存取。 本文描述新的工作區，以及它們與傳統工作區有何不同。  如同傳統工作區一樣，您仍然使用它們來建立和散發應用程式。 
+
+準備好建立新工作區了嗎？ 請閱讀[建立新的工作區體驗](service-create-the-new-workspaces.md)。
 
 :::image type="content" source="media/service-new-workspaces/power-bi-workspace-opportunity.png" alt-text="Power BI 新工作區體驗":::
 
@@ -86,8 +88,10 @@ Power BI 不會針對具有新工作區存取權的使用者或群組，在 Micr
 
 當新工作區在 Power BI Premium 容量中時，具有檢視者角色的使用者可以存取工作區，即使他們沒有 Power BI Pro 授權也一樣。 不過，如果您將較高的角色 (例如，管理員、成員或參與者) 指派給這些使用者，系統就會在使用者嘗試存取工作區時，提示啟動 Pro 試用版。 如果您想要沒有 Pro 授權的使用者使用檢視人員角色，請確定他們不會同時具有其他工作區角色，不論是個人或做為使用者群組的一部分。
 
+將報告發佈至新工作區體驗會更嚴格地強制執行現有的授權規則。 如果您嘗試在沒有 Pro 授權的情況下，從 Power BI Desktop 或其他用戶端工具進行發佈，則您會看到「只有具備 Power BI Pro 授權的使用者可以發佈到此工作區」錯誤。
+
 > [!NOTE]
-> 將報告發佈至新工作區體驗會更嚴格地強制執行現有的授權規則。 如果您嘗試在沒有 Pro 授權的情況下，從 Power BI Desktop 或其他用戶端工具進行發佈，則您會看到「只有具備 Power BI Pro 授權的使用者可以發佈到此工作區」錯誤。
+> Power BI 美國政府版本並未以「免費」授權形式提供。 如需授權詳細資訊，請參閱[適用於美國政府客戶的 Power BI](../admin/service-govus-overview.md)。
 
 ### <a name="guest-users"></a>來賓使用者
 
@@ -95,7 +99,9 @@ Power BI 不會針對具有新工作區存取權的使用者或群組，在 Micr
 
 ### <a name="administering-new-workspace-experience-workspaces"></a>管理新的工作區體驗工作區
 
-對於新工作區體驗工作區的管理位於 Power BI 管理入口網站中。 Power BI 管理員會決定組織中的哪些人可以建立工作區和發佈應用程式。 管理員可以查看組織中所有工作區的狀態。 他們也可以管理和復原工作區。 在管理入口網站文章中，深入了解如何[管理新的工作區](../admin/service-admin-portal.md#create-the-new-workspaces)。
+對於新工作區體驗工作區的管理位於 Power BI 管理入口網站中。 Power BI 管理員會決定組織中的哪些人可以建立工作區和發佈應用程式。 在＜管理入口網站＞一文中，了解如何[管理使用者建立工作區的能力](../admin/service-admin-portal.md#create-the-new-workspaces)。 
+
+管理員也可以查看組織中所有工作區的狀態。 管理員可以管理、復原，甚至刪除工作區。 在＜管理入口網站＞一文中，了解如何[管理工作區本身](../admin/service-admin-portal.md#workspaces)。
 
 ### <a name="auditing"></a>稽核
 

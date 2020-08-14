@@ -10,12 +10,12 @@ ms.date: 05/11/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 195d1284fedc9f9c51c6fed2ff03cc0883b16405
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: e8e81c297841e32d1f4d966de23b5d752b654c20
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161713"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091610"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -318,6 +318,9 @@ Remove-PSSession $Session
 | 已要求 Power BI 資料流程重新整理               | RequestDataflowRefresh                      | 目前未使用                       |
 | 已要求 Power BI 資料集重新整理                | RefreshDataset                              |                                          |
 | 已擷取 Power BI 工作區                     | GetWorkspaces                               |                                          |
+| 已套用敏感度標籤                         | SensitivityLabelApplied                     |                                          |
+| 已變更敏感度標籤                         | SensitivityLabelChanged                     |                                          |
+| 已移除敏感度標籤                         | SensitivityLabelRemoved                     |                                          |
 | 設定工作區的資料流程儲存位置     | SetDataflowStorageLocationForWorkspace      |                                          |
 | 對 Power BI 資料流程設定排定的重新整理        | SetScheduledRefreshOnDataflow               |                                          |
 | 對 Power BI 資料集設定排定的重新整理         | SetScheduledRefresh                         |                                          |

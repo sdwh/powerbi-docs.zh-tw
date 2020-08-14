@@ -5,15 +5,15 @@ author: paulinbar
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/06/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 0fe1b7b1b8175511838005b7b63ca7543bbf939a
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034328"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049176"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>在 Power BI 中啟用敏感度標籤
 
@@ -24,7 +24,20 @@ ms.locfileid: "86034328"
 * 組織中的指定使用者與安全性群組可為敏感度標籤分類，並對 Power BI 報表、儀表板、資料集與資料流程[套用敏感度標籤](./service-security-apply-data-sensitivity-labels.md)。
 * 組織的所有成員都能看到這些標籤。
 
-啟用敏感度標籤需要 Azure 資訊保護授權。 如需詳細資料，請參閱[授權](service-security-sensitivity-label-overview.md#licensing)。
+啟用敏感度標籤需要 Azure 資訊保護授權。 如需詳細資訊，請參閱[授權和需求](#licensing-and-requirements)。
+
+## <a name="licensing-and-requirements"></a>授權和需求
+
+* 您必須具備 Azure 資訊保護 Premium P1 或 Premium P2 授權，才能在 Power BI 中套用或檢視 Microsoft 資訊保護敏感度標籤。 您可以單獨購買 Azure 資訊保護，或透過其中一個 Microsoft 授權套件來購買。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。
+
+* 使用者除了上述其中一個 Azure 資訊保護授權外，還必須擁有 Power BI Pro 授權，才能將標籤套用至 Power BI 內容。
+
+* Office 應用程式有自己[檢視和套用敏感度標籤的授權需求]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels )。
+
+* 在您的租用戶上啟用敏感度標籤之前，請確定已針對相關的使用者和群組定義和發佈敏感度標籤。 如需詳細資訊，請參閱[建立及設定敏感度標籤及其原則](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)。
+
+>[!NOTE]
+> 如果您的組織使用 Azure 資訊保護敏感度標籤，則必須將其移轉至 Microsoft 資訊保護統一標籤平台，才能用於 Power BI。 深入了解如何[移轉敏感度標籤](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) \(部分機器翻譯\)。
 
 ## <a name="enable-sensitivity-labels"></a>啟用敏感度標籤
 
@@ -52,9 +65,9 @@ ms.locfileid: "86034328"
 
 Power BI 使用 Microsoft 資訊保護敏感度標籤。 因此，當您在嘗試啟用敏感度標籤時若出現錯誤訊息，有可能是下列其中一項原因所致：
 
-* 您不具 Azure 資訊保護[授權](service-security-sensitivity-label-overview.md#licensing)。
-* 敏感度標籤尚未轉移成 Power BI 支援的 Microsoft 資訊保護版本。 深入了解[轉移敏感度標籤](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)。
-* 您的組織尚未定義 Microsoft 資訊保護敏感度標籤。 請注意，若要使用標籤，必須將標籤列入發佈的原則之中。 [深入了解敏感度標籤](https://docs.microsoft.com/Office365/SecurityCompliance/sensitivity-labels)，或流覽 [Microsoft 安全性與合規性中心](https://sip.protection.office.com/sensitivity?flight=EnableMIPLabels)，以了解如何為您的組織定義標籤和發佈原則。
+* 您不具 Azure 資訊保護[授權](#licensing-and-requirements)。
+* 敏感度標籤尚未[移轉](#enable-sensitivity-labels)至 Power BI 所支援的 Microsoft 資訊保護版本。
+* 尚未[在組織中定義](#enable-sensitivity-labels)任何 Microsoft 資訊保護敏感度標籤。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

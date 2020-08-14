@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2c59cb593a236785346721cb5c3ac90c702c93ed
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
+ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252053"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88091587"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>使用 Power BI Desktop 連線至 Oracle 資料庫
 若要使用 Power BI Desktop 連接到 Oracle 資料庫，則執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於已安裝的 Power BI Desktop 版本：32 位元或 64 位元。 其也取決於 Oracle Server 版本。
@@ -50,22 +50,26 @@ ms.locfileid: "87252053"
 2. 從顯示的 [取得資料] 視窗，依序選取 [更多] (如有必要) 和 [資料庫] > [Oracle 資料庫]，然後選取 [連接]。
    
    ![Oracle 資料庫連接](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
-2. 在顯示的 [Oracle 資料庫] 對話方塊中，提供 [伺服器] 的名稱，然後選取 [確定]。 如果需要 SID，請使用以下格式加以指定：*ServerName/SID*，其中 *SID* 是資料庫的唯一名稱。 如果 *ServerName/SID* 格式沒有用，請使用 *ServerName/ServiceName*，其中 *ServiceName* 是用來連接的別名。
+3. 在顯示的 [Oracle 資料庫] 對話方塊中，提供 [伺服器] 的名稱，然後選取 [確定]。 如果需要 SID，請使用以下格式加以指定：*ServerName/SID*，其中 *SID* 是資料庫的唯一名稱。 如果 *ServerName/SID* 格式沒有用，請使用 *ServerName/ServiceName*，其中 *ServiceName* 是用來連接的別名。
 
 
    ![輸入 Oracle 伺服器名稱](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
 
+   > [!NOTE]
+   > 如果您使用本機資料庫或自發資料庫連線，您可能需要將伺服器名稱放在引號中，以避免發生連線錯誤。 
       
-3. 如果您想要使用原生資料庫查詢來匯入資料，請將您的查詢放在展開 [Oracle 資料庫] 對話方塊的 [進階選項] 區段時所顯示 [SQL 陳述式] 方塊中。
+4. 如果您想要使用原生資料庫查詢來匯入資料，請將您的查詢放在展開 [Oracle 資料庫] 對話方塊的 [進階選項] 區段時所顯示 [SQL 陳述式] 方塊中。
    
    ![展開 [進階選項]](media/desktop-connect-oracle-database/connect-oracle-database_4.png)
-4. 在 [Oracle 資料庫] 對話方塊中輸入 Oracle 資料庫資訊之後 (包括任何選擇性資訊，例如 SID 或原生資料庫查詢)，請選取 [確定] 進行連接。
+
+
+5. 在 [Oracle 資料庫] 對話方塊中輸入 Oracle 資料庫資訊之後 (包括任何選擇性資訊，例如 SID 或原生資料庫查詢)，請選取 [確定] 進行連接。
 5. 如果 Oracle 資料庫需要資料庫使用者認證，出現提示時，請在對話方塊中輸入這些認證。
 
 
 ## <a name="troubleshooting"></a>疑難排解
 
-當命名語法不正確或未正確設定時，可能會遇到來自 Oracle 的下列任一種錯誤：
+當命名語法不正確或未正確設定時，可能會遇到來自 Oracle 的任一種錯誤：
 
 * ORA-12154:TNS：無法解析指定的連接識別碼。
 * ORA-12514:TNS：接聽程式目前不了解連接描述元中要求的服務。
@@ -75,7 +79,7 @@ ms.locfileid: "87252053"
 
 若未安裝或未正確設定 Oracle 用戶端，便可能會發生這些錯誤。 若已安裝，請驗證 tnsnames.ora 檔案已正確設定，且您使用的是適當的 net_service_name。 您也必須確定使用 Power BI Desktop 的電腦與執行閘道的電腦所使用的 net_service_name 相同。 如需詳細資訊，請參閱[安裝 Oracle 用戶端](#install-the-oracle-client)。
 
-您也可能遭遇 Oracle Server 版本與 Oracle 資料存取用戶端版本之間的相容性問題。 一般而言，由於某些組合不相容，所以您會希望這些版本能夠相符。 例如，ODAC 12.x 並不支援 Oracle Server 第 9 版。
+您也可能遇到 Oracle Server 版本與 Oracle 資料存取用戶端版本之間的相容性問題。 一般而言，因為某些組合不相容，所以您會希望這些版本能夠相符。 例如，ODAC 12.x 並不支援 Oracle Server 第 9 版。
 
 若您從 Microsoft Store 下載了 Power BI Desktop，則可能因 Oracle 驅動程式問題，而無法連線到 Oracle 資料庫。 若您發生此問題，會傳回錯誤訊息：「未設定物件參考」。 若要解決此問題，請執行下列其中一個步驟：
 

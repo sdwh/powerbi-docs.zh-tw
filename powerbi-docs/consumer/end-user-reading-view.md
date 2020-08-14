@@ -12,14 +12,14 @@ ms.subservice: powerbi-consumer
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/17/2020
+ms.date: 08/10/2020
 ms.author: mihart
-ms.openlocfilehash: 7d9d0a3f9aaea77a969f11561a22ab68fbec0264
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 0d0d6e935f8405aa063ed90cf5a2f403faeba893
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537243"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049728"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>快速入門：了解適用於*取用者*的 Power BI 功能
 
@@ -98,11 +98,11 @@ Power BI 服務能為您工作的兩種方法，是處理訂用帳戶和警示�
  深入了解 [Power BI 訂用帳戶](end-user-subscribe.md)
 
 #### <a name="get-alerts-when-your-data-reaches-a-threshold"></a>在資料達到閾值時取得警示
-您的資料是即時的，且您的視覺效果會自動更新來反映這種情況。 如果您想要在資料變更超過或低於所設定閾值時收到通知，請使用資料警示。 只有量測計、KPI 與卡片可以設定這些警示。    
+您的資料是即時的，且您的視覺效果會自動更新來反映這種情況。 如果您想要在資料變更超過或低於所設定閾值時收到通知，請使用資料警示。 警示適用於量測計、KPI 與卡片。    
 ![磚, 卡片, kpi](media/end-user-alerts/card-gauge-kpi.png)
 
 Power BI 會在值的增加或減少程度超過所設定的限制時，傳送電子郵件給您。  
-![警示電子郵件](media/end-user-alerts/power-bi-alert-email.png)
+![警示電子郵件](media/end-user-alerts/power-bi-email.png)
 
 深入了解 [Power BI 警示](end-user-alerts.md)
 

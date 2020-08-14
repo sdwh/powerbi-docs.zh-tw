@@ -6,15 +6,15 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 07/05/2020
+ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ea161af0156aa0bee2fe92ab2f87fb82630f5589
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
+ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252122"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88049224"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度標籤
 
@@ -39,7 +39,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>敏感度標籤在 Power BI 中的運作方式
 
-將敏感度標籤套用至 Power BI 的儀表板、報表、資料集或資料流程時，即類似於將標記套用至該資源，這具有下列優點：
+將敏感度標籤套用至 Power BI 儀表板、報表、資料集或資料流程時，即類似於將標記套用至該資源，這具有下列優點：
 * **可自訂** - 您可以在組織中建立不同等級機密內容的類別，例如個人、公用、一般、機密和高度機密。
 * **純文字** - 因為標籤是純文字，所以使用者很容易就能根據敏感度標籤的指導方針，了解如何處理內容。
 * **持續性** - 將敏感度標籤套用至內容之後，敏感度標籤會在內容匯出至 Excel、PowerPoint 和 PDF 檔案時伴隨該內容，並成為套用和施行原則的基礎。
@@ -69,21 +69,33 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 從 Power BI 匯出檔案的使用者有權根據敏感度標籤設定來存取與編輯該檔案；這些使用者不會取得檔案的擁有者權限。
 
-將資料匯出至 .csv 或 .pbix 檔案、[使用 Excel 分析] 或任何其他匯出路徑時，不會套用敏感度標籤和保護。
+將資料匯出至 .csv、.pbix 檔案或任何其他匯出路徑時，不會套用敏感度標籤和保護。
 
 將敏感度標籤和保護套用至匯出的檔案，並不會將內容標記新增至該檔案。 不過，如果標籤已設定成要套用內容標記，那麼當檔案在 Office 傳統型應用程式中開啟時，Azure 資訊保護的統一標籤用戶端就會自動套用標記。 當您針對傳統型、行動裝置或 Web 應用程式使用內建標籤時，不會自動套用內容標示。 如需詳細資料，請參閱 [Office 應用程式何時套用內容標示和加密](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)。
 
 如果將資料匯出至檔案時無法套用標籤，則匯出會失敗。 若要檢查匯出是否因無法套用標籤而失敗，請按一下標題列中央的報表或儀表板名稱，並在開啟的資訊下拉式清單中查看其是否顯示「無法載入敏感度標籤」。 如果套用的標籤已由安全性系統管理員解除發佈或刪除，或發生暫時性的系統問題，就可能發生這種情況。
 
+## <a name="sensitivity-label-inheritance-in-analyze-in-excel"></a>[使用 Excel 分析] 中的敏感度標籤繼承
+
+當您在 Excel 中建立與 Power BI 資料集即時連線的樞紐分析表 (您可以從 Power BI 透過[使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md)或從 [Excel](https://support.microsoft.com/office/create-a-pivottable-from-power-bi-datasets-31444a04-9c38-4dd7-9a45-22848c666884?ui=en-US&rs=en-US&ad=US) 執行此作業) 時，會繼承資料集的敏感度標籤並套用至您的 Excel 檔案，以及任何相關聯的保護。 如果資料集上的標籤稍後會變更為更嚴格的標籤，則在已連結 Excel 檔案上套用的標籤將會在資料重新整理時自動更新。
+
+![Excel 的螢幕擷取畫面，其中顯示透過即時連線從資料集繼承的敏感度標籤。](media/service-security-sensitivity-label-overview/live-connection-inheritance.png)
+ 
+資料集的敏感度標籤不會自動覆寫在 Excel 中手動設定的敏感度標籤。 相反地，橫幅會通知您資料集具有敏感度標籤，並建議您套用。
+
+>[!NOTE]
+>如果資料集的敏感度標籤不如 Excel 檔案的敏感度標籤嚴格，則不會進行任何標籤繼承或更新。 Excel 檔案絕對不會繼承較不嚴格的敏感度標籤。
+
+
 ## <a name="sensitivity-label-persistence-in-embedded-reports-and-dashboards"></a>在內嵌報表和儀表板中保存敏感度標籤
 
-您可將 Power BI 報表、儀表板和視覺效果內嵌在商務應用程式中 (例如 Microsoft Teams 和 SharePoint)，或組織的網站內。 當內嵌套用了敏感度標籤的視覺效果、報表或儀表板時，您將可在內嵌檢視中看到敏感度標籤，且標籤及其保護將會在資料匯出到 Excel 時保存。
+您可將 Power BI 報表、儀表板和視覺效果內嵌在商務應用程式中 (例如 Microsoft Teams 和 SharePoint)，或組織的網站內。 當您內嵌套用了敏感度標籤的視覺效果、報表或儀表板時，將可在內嵌檢視中看到敏感度標籤，而此標籤及其保護將會在資料匯出到 Excel 時保存。
 
 ![內嵌在 SharePoint Online 中報表的螢幕擷取畫面](media/service-security-sensitivity-label-overview/embedded-report-sensitivity-label.png)
 
 下列是支援的內嵌案例：
 * [為組織內嵌](../developer/embedded/embed-sample-for-your-organization.md)
-* Microsoft 365 應用程式 (例如 [Teams](../collaborate-share/service-collaborate-microsoft-teams.md) 和 [SharePoint](../collaborate-share/service-embed-report-spo.md))
+* Microsoft 365 應用程式 (例如 [Teams](../collaborate-share/service-embed-report-microsoft-teams.md) 和 [SharePoint](../collaborate-share/service-embed-report-spo.md))
 * [安全 URL 內嵌](../collaborate-share/service-embed-secure.md) (內嵌自 Power BI 服務) 
 
 ## <a name="sensitivity-labels-in-the-power-bi-mobile-apps"></a>Power BI 行動裝置應用程式中的敏感度標籤
@@ -95,18 +107,9 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 ## <a name="supported-clouds"></a>支援的雲端
 僅全域 (公用) 雲端中的租用戶支援敏感度標籤；國家雲端等雲端中的租用戶不支援這類標籤。
 
-## <a name="requirements-for-using-sensitivity-labels-in-power-bi"></a>在 Power BI 中使用敏感度標籤的需求
+## <a name="licensing-and-requirements"></a>授權和需求
 
-您必須先完成下列必要條件，才能在 Power BI 中啟用敏感度標籤：
-* 請確定已在 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)定義敏感度標籤。
-* 在 Power BI 中[啟用敏感度標籤](service-security-enable-data-sensitivity-labels.md)。
-* 確定使用者擁有[適當的授權](#licensing)。
-
-## <a name="licensing"></a>授權
-
-* 若要在 Power BI 中檢視或套用 Microsoft 資訊保護敏感度標籤，必須具備 Azure 資訊保護進階 P1 或進階 P2 授權。 您可單獨購買 Microsoft Azure 資訊保護，或透過其中一個 Microsoft 授權套件來購買。 如需詳細資訊，請參閱 [Azure 資訊保護定價](https://azure.microsoft.com/pricing/details/information-protection/)。
-* 必須滿足[授權需求](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels)，以在 Office 應用程式中檢視與套用標籤。
-* 使用者除上述其中一個 Azure 資訊保護授權外，還必須擁有 Power BI Pro 授權，才能將標籤套用至 Power BI 內容。
+請參閱[授權和需求](service-security-enable-data-sensitivity-labels.md#licensing-and-requirements)。
 
 ## <a name="sensitivity-label-creation-and-management"></a>建立和管理敏感度標籤
 
@@ -125,7 +128,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 * Power BI 資產的敏感度標籤會顯示在工作區清單、譜系、我的最愛、最近項目或應用程式檢視中；目前不會顯示在 [與我共用] 檢視中。 但請注意，即使看不見套用至 Power BI 資產的標籤，其也一律保存在匯出至 Excel、PowerPoint 與 PDF 檔案的資料上。
 * 範本應用程式不支援資料敏感度標籤。 擷取與安裝應用程式時，會移除範本應用程式建立者設定的敏感度標籤，而當應用程式更新時，由應用程式取用者新增到已經安裝之範本應用程式的成品中的敏感度標籤會遺失 (重設為不加任何標籤)。
 * Power BI 不支援[不可轉寄](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)、[使用者定義](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)及 [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) 保護類型的敏感度標籤。 「不可轉寄」和「使用者定義」保護類型指的是 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內定義的標籤。
-* 不建議讓使用者在 Power BI 內套用父標籤。 如果將父標籤套用到內容，將資料從該內容匯出至檔案 (Excel、PowerPoint 和 PDF) 的作業就會失敗。 請參閱[子標籤 (分組標籤)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)。
+* 不建議讓使用者在 Power BI 內套用父標籤。 如果將父標籤套用到內容，則將資料從該內容匯出至檔案 (Excel、PowerPoint 和 PDF) 的作業就會失敗。 請參閱[子標籤 (分組標籤)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)。
 
 ## <a name="next-steps"></a>後續步驟
 

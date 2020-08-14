@@ -7,15 +7,15 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/12/2019
+ms.date: 08/07/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0be1f3aeb48e4596566c36c1ee8cfadeb3c33d10
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 4118e5c009a8d7372d5cb58d1e1b9d033a70494e
+ms.sourcegitcommit: 154946ece829360cc0ff3be13276cd7a129f3388
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214012"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "87988734"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Power BI Desktop 與 Power BI 服務的比較
 
@@ -23,15 +23,17 @@ ms.locfileid: "86214012"
 
 ![顯示 Power BI Desktop 與 Power BI 服務之間關聯性的卞氏圖表。](media/service-service-vs-desktop/power-bi-venn-desktop-service.png)
 
-**Power BI Desktop** 是您在本機電腦上為免費應用程式安裝的完整資料分析和報表建立工具。 其中包含查詢編輯器，您可以在其中連接到許多不同的資料來源，並將它們合併 (通常稱為「模型化」) 成為一個資料模型。 然後，您可以根據該資料模型來設計報表。 [Power BI Desktop 使用者入門指南](desktop-getting-started.md)會逐步介紹此程序。
+**Power BI Desktop** 是您在本機電腦上免費安裝的完整資料分析和報表建立工具。 其中包含查詢編輯器，您可以在其中連接到許多不同的資料來源，並將它們合併 (通常稱為「模型化」) 成為一個資料模型。 然後，您可以根據該資料模型來設計報表。 [Power BI Desktop 使用者入門指南](desktop-getting-started.md)會逐步介紹此程序。
 
-**Power BI 服務**是雲端式服務。 它支援小組與組織的輕量型報表編輯和共同作業。 您也可以連線到 Power BI 服務中的資料來源，但模型化會受到限制。 
+**Power BI 服務**是雲端式服務。 它支援小組與組織的輕量型報表編輯和共同作業。 您也可以連線到 Power BI 服務中的資料來源，但模型化會受到限制。
 
-大部分商業智慧專案的報表設計師都使用 **Power BI Desktop** 來建立報表，然後使用 **Power BI 服務**將其報表散發給其他人。
+大部分處理商業智慧專案的 Power BI 報表設計師都會使用 **Power BI Desktop** 來建立 Power BI 報表，然後使用 **Power BI 服務**來在其報表上進行共同作業及散發。
 
-## <a name="report-editing"></a>報表編輯
+Power BI 服務也會在 Power BI Premium 容量所支援的工作區中裝載「編頁報表」。 您會使用 Power BI 報表產生器來建立編頁報表。 請參閱＜什麼是 Power BI Premium 中的編頁報表？＞一文中的[比較 Power BI 報表和編頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md#compare-power-bi-reports-and-paginated-reports)。 以取得詳細資訊。
 
-在應用程式和服務中，您可以建置和編輯「報表」。 報表可以有一或多個頁面，以及視覺效果與視覺效果的集合。 您可以新增書籤、按鈕、篩選和鑽研，以增強您報表中的導覽。
+## <a name="editing-power-bi-reports"></a>編輯 Power BI 報表
+
+在應用程式與服務中，您可以建置及編輯 Power BI「報表」。 報表可以有一或多個頁面，以及視覺效果與視覺效果的集合。 您可以新增書籤、按鈕、篩選和鑽研，以增強您報表中的導覽。
 
 ![Power BI Desktop 與 Power BI 服務的螢幕擷取畫面，包含編號的區段。](media/service-service-vs-desktop/power-bi-editing-desktop-service.png)
 
@@ -48,7 +50,6 @@ Power BI Desktop 和服務中的報表編輯器很類似。 它們由三個區�
 ## <a name="working-in-the-power-bi-service"></a>Power BI 服務中的作業
 
 ### <a name="collaborating"></a>共同作業
-
 
 建立報表之後，您可以將它們儲存到 [Power BI 服務] 中的「工作區」，您和同事可以在該處共同作業。 您在那些報表之上建置「儀表板」。 然後，您可以與組織內外的報表取用者共用這些儀表板和報表。 報表取用者會在 Power BI 服務的「讀取檢視」而非「編輯檢視」中檢視它們。 他們無法存取報表建立者可用的所有功能。  您也可以共用資料集，並讓其他人從中建置自己的報表。 深入了解 [Power BI 服務中的共同作業](../collaborate-share/service-new-workspaces.md)。
 

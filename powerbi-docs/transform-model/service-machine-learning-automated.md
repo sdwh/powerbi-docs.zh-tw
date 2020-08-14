@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 10/18/2019
+ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 3b4d7eb41e04a173f763dd09caf5fa94bfc444d4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
+ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232648"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87878649"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI 中的自動化機器學習
 
@@ -142,6 +142,10 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ![查詢編輯器](media/service-machine-learning-automated/automated-machine-learning-power-bi-11.png)
 
+您也可以使用 PQO 函式瀏覽器中的 AI 見解，將任何 Power BI AutoML 模型套用至相同工作區中任何資料流程的實體。 如此一來，您就可以在相同工作區中使用其他人所建立的模型，而不一定要是擁有模型的資料流程擁有者。 Power Query 會探索工作區中的所有 Power BI ML 模型，並將其公開為動態 Power Query 函式。 您可以透過從 Power Query 編輯器中的功能區存取函式，或透過直接叫用 M 函式，來叫用那些函式。目前只有 Power BI 資料流程與 Power BI 服務中的 Power Query Online 支援此功能。 請注意，這與使用 AutoML 精靈在資料流程中套用 ML 模型非常不同。 沒有使用此方法建立的說明實體，除非您是資料流程的擁有者，否則無法存取模型定型報表或重新定型模型。 如果已編輯來源模型 (新增或移除輸入欄位)，或已刪除模型或來源資料流程，則此相依資料流程將會中斷。
+
+![使用 PQO 函式瀏覽器套用模型](media/service-machine-learning-automated/automated-machine-learning-power-bi-20.png)
+
 套用模型之後，AutoML 一律會在每次重新整理資料流程時，將您的預測保持在最新狀態。
 
 若要在 Power BI 報表中使用 ML 模型的見解和預測，您可以使用**資料流程**連接器從 Power BI Desktop 連接到輸出實體。
@@ -154,11 +158,11 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ### <a name="training-a-binary-prediction-model"></a>定型二元預測模型
 
-必要條件：
+先決條件：
 
 - 每個結果類別都需要至少 20 列的歷史資料
 
-建立二元預測模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞  一節中所述。 唯一的差異在於 [選擇模型] 步驟，您可以在其中選取最感興趣的目標結果值。 您也可以為結果提供易記標籤；這些結果會用於自動產生報表，其會摘要模型驗證的結果。
+建立二元預測模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞**** 一節中所述。 唯一的差異在於 [選擇模型] 步驟，您可以在其中選取最感興趣的目標結果值。 您也可以為結果提供易記標籤；這些結果會用於自動產生報表，其會摘要模型驗證的結果。
 
 ![二元預測精靈](media/service-machine-learning-automated/automated-machine-learning-power-bi-12.png)
 
@@ -166,7 +170,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 二元預測模型會產生一個機率輸出，其為可達成目標結果的記錄。 這份報表包含機率臨界值的交叉分析篩選器，它會影響高於和低於機率臨界值的分數解讀方式。
 
-報表會以「確判為真」、「誤判為真」、「確判為否」和「誤判為否」  的角度來描述模型的效能。 「確判為真」和「確判為否」可針對結果資料中的兩種類別正確預測結果。 「誤判為真」是指預設具有目標結果但實際沒有的記錄。 相反地，「誤判為否」是指具有目標結果但預測沒有的記錄。
+報表會以「確判為真」、「誤判為真」、「確判為否」和「誤判為否」__ 的角度來描述模型的效能。 「確判為真」和「確判為否」可針對結果資料中的兩種類別正確預測結果。 「誤判為真」是指預設具有目標結果但實際沒有的記錄。 相反地，「誤判為否」是指具有目標結果但預測沒有的記錄。
 
 量值 (例如精確度和召回率) 可描述預測結果的機率臨界值效果。 您可以使用機率臨界值交叉分析篩選器選取臨界值，以在精確度和召回率之間達到平衡的折衷。
 
@@ -176,7 +180,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ![成本效益](media/service-machine-learning-automated/automated-machine-learning-power-bi-14.png)
 
-模型報表的 [正確性報表]  頁面包括模型的「累計增益」  圖表和 ROC 曲線。 這些是模型效能的統計量值。 報表包含所示圖表的描述。
+模型報表的 [正確性報表]**** 頁面包括模型的「累計增益」__ 圖表和 ROC 曲線。 這些是模型效能的統計量值。 報表包含所示圖表的描述。
 
 ![正確性報表畫面](media/service-machine-learning-automated/automated-machine-learning-power-bi-15.png)
 
@@ -204,11 +208,11 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 輸入實體 (包含分類模型的定型資料) 必須以字串或整數欄位作為結果欄位，以識別過去已知的結果。
 
-必要條件：
+先決條件：
 
 - 每個結果類別都需要至少 20 列的歷史資料
 
-建立分類模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞  一節中所述。
+建立分類模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞**** 一節中所述。
 
 ### <a name="classification-model-report"></a>分類模型報表
 
@@ -222,7 +226,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 報表中的模型說明也包含每個類別的最上層預測指標。
 
-分類模型報表也包含 [定型詳細資料] 頁面 (類似於其他模型類型的頁面)，如本文稍早的＜AutoML 模型報表＞  一節中所述。
+分類模型報表也包含 [定型詳細資料] 頁面 (類似於其他模型類型的頁面)，如本文稍早的＜AutoML 模型報表＞**** 一節中所述。
 
 ### <a name="applying-a-classification-model"></a>套用分類模型
 
@@ -248,11 +252,11 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 輸入實體 (包含迴歸模型的定型資料) 必須以數值欄位作為結果欄位，以識別已知的結果值。
 
-必要條件：
+先決條件：
 
 - 每個回歸模型都需要最少 100 個資料列的歷史資料
 
-建立迴歸模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞  一節中所述。
+建立迴歸模型的程序步驟與其他 AutoML 模型相同，如上方＜設定 ML 模型輸入＞**** 一節中所述。
 
 ### <a name="regression-model-report"></a>迴歸模型報表
 
@@ -264,7 +268,7 @@ AutoML 會產生 Power BI 報表，以摘要出驗證期間的模型效能與全
 
 ![剩餘誤差圖表](media/service-machine-learning-automated/automated-machine-learning-power-bi-18.png)
 
-迴歸模型報表也包含 [定型詳細資料] 頁面 (類似於其他模型類型的頁面)，如上方＜AutoML 模型報表＞  一節中所述。
+迴歸模型報表也包含 [定型詳細資料] 頁面 (類似於其他模型類型的頁面)，如上方＜AutoML 模型報表＞**** 一節中所述。
 
 ### <a name="applying-a-regression-model"></a>套用迴歸模型
 
