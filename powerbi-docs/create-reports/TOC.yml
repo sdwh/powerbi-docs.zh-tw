@@ -1,7 +1,7 @@
 - name: 在 Power BI 中建立報表和儀表板
   href: index.yml
   items:
-    - name: 總覽
+    - name: 概觀
       expanded: true
       items:
         - name: 報表編輯器導覽
@@ -119,7 +119,7 @@
       items:
         - name: Power BI 報表
           items:
-            - name: 啟用自動頁面重新整理 (預覽)
+            - name: 啟用自動重新整理頁面
               href: desktop-automatic-page-refresh.md
             - name: 使用效能分析器檢查報表項目
               href: desktop-performance-analyzer.md
