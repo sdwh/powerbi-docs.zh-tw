@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/28/2020
+ms.date: 08/12/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dcdd663ec9899f7623789915754087c4643c9806
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411972"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160387"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -217,28 +217,31 @@ ms.locfileid: "87411972"
 * Python 指令碼
 * ODBC
 * OLE DB
-* Acterys：模型自動化與規劃 (搶鮮版 (Beta))
-* Automation Anywhere (搶鮮版 (Beta))
 * Solver
-* Cherwell (搶鮮版 (Beta))
-* Cognite Data Fusion (搶鮮版 (Beta))
 * FHIR
 * Information Grid (搶鮮版 (Beta))
 * Jamf Pro (搶鮮版 (Beta))
-* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (搶鮮版 (Beta))
 * Roamler (搶鮮版 (Beta))
 * Shortcuts 商業見解 (搶鮮版 (Beta))
 * Siteimprove (搶鮮版 (Beta))
-* SurveyMonkey 搶鮮版 (Beta)
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (搶鮮版 (Beta))
-* Vena (搶鮮版 (Beta))
 * Vessel 見解 (搶鮮版 (Beta))
 * Workforce Dimensions (搶鮮版 (Beta))
 * Zucchetti HR Infinity (搶鮮版 (Beta))
+* Cognite Data Fusion (搶鮮版 (Beta))
+* MicroStrategy for Power BI
+* SurveyMonkey 搶鮮版 (Beta)
+* Vena (搶鮮版 (Beta))
+* Acterys：模型自動化與規劃 (搶鮮版 (Beta))
+* Automation Anywhere (搶鮮版 (Beta))
+* Cherwell (搶鮮版 (Beta))
 * 空白查詢
+
+
+
 
 下圖顯示 [其他]  的 [取得資料] 視窗。
 

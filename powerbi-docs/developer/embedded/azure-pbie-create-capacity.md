@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 5a84c67a2efd57376afc289f965da9dc5dafd3c6
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768577"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204822"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -56,7 +56,7 @@ ms.locfileid: "87768577"
 
     * **位置** - 為租用戶裝載 Power BI 的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](embedded-multi-geo.md)來變更該位置。
 
-    * **大小** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](/embedded/embedded-capacity.md#sku-memory-and-computing-power)。
+    * **大小** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](/power-bi/developer/embedded/embedded-capacity)。
 
     * **Power BI 容量管理員** - 容量的系統管理員。
         >[!NOTE]
@@ -229,9 +229,10 @@ az powerbi embedded-capacity delete --name
 
     * **名稱** - 容量名稱。
 
-    * **位置** - 為租用戶裝載 Power BI 的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](/embedded/embedded-multi-geo.md)來變更該位置。
+    * **位置** - 為租用戶裝載 Power BI 的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+)來變更該位置。
 
-    * **SKU** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](/embedded/embedded-capacity.md#sku-memory-and-computing-power)。
+    * **SKU** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](/power-bi/developer/embedded/embedded-capacity)。
 
     * **系統管理員** - 容量的系統管理員。
         >[!NOTE]

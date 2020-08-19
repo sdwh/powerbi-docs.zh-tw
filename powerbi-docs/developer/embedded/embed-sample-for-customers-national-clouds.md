@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 5815ba5036da543fb51319e8a2af287cf6ce4ce7
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 4087f3d09d509022cb4dd91caebae0f8038e203b
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878658"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204288"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
@@ -187,7 +187,7 @@ using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
 
 使用 Power BI 用戶端物件，擷取您想要內嵌之項目的參考。 您可以內嵌儀表板、圖格或報表。 以下範例會示範如何從提供的工作區中擷取第一個儀表板、圖格或報表。
 
-您可以在[「應用程式擁有資料」範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
+您可以在[「應用程式擁有資料」範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
 
 #### <a name="reports"></a>報表
 
@@ -243,7 +243,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 > [!IMPORTANT]
 > 因為內嵌權杖只適用於開發人員測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
 
-您可以在[對組織進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/App%20Owns%20Data/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
+您可以在[對組織進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
 
 這會針對 **EmbedConfig** 及 **TileEmbedConfig** 建立類別。 您可以在 **Models\EmbedConfig.cs** 及 **Models\TileEmbedConfig.cs** 中找到範例。
 

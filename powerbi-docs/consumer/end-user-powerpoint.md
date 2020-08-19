@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3707399d21d15b16236e0e33da6c264fb6e364b4
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768963"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160410"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -102,7 +102,6 @@ ms.locfileid: "87768963"
    - 背景影像會按圖表的周框區域剪裁。 我們建議您先移除背景影像，再匯出至 PowerPoint。
 
 * 某些報表無法匯出。 這些包括：
-    - Power BI 租用戶網域外部使用者所擁有的報表，例如，組織外部某人所擁有且與您共用的報表。
     - 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，則該使用者無法將共用儀表板的相關聯報表匯出至 PowerPoint。 例如，如果您是 aaron@contoso.com，您可以與 david@cohowinery.com 共用。 但是 david@cohowinery.com 無法將相關聯報表匯出至 PowerPoint。
     - 具有超過 50 個報表頁面的報表。 系統只會匯出前 50 個頁面。
     - 匯出到舊版 PowerPoint 的報表。
