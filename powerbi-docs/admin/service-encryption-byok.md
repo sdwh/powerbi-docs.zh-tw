@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 02/20/2020
+ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 944d115b0592954d92460ca26ae5b59311abc42e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227495"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204571"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
@@ -32,7 +32,7 @@ BYOK 可更輕鬆地滿足透過雲端服務提供者 (在此案例中為 Micros
 - Excel 活頁簿 (除非資料先匯入 Power BI Desktop)
 - [推送資料集](/rest/api/power-bi/pushdatasets)
 - [串流資料集](../connect-data/service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
-- [大型模型](service-premium-large-models.md)
+
 
 BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集、Excel 檔案和 CSV 檔案不會使用您自己的金鑰進行加密。 如要識別哪些成品儲存在您的工作區中，請使用下列 PowerShell 命令：
 
@@ -45,7 +45,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 在此節中，您已了解如何設定 Azure Key Vault 這個可用來安全地儲存並存取祕密 (例如加密金鑰) 的工具。 您可以使用現有的金鑰保存庫來儲存加密金鑰，或者您也可以建立一個新的來專門用於 Power BI。
 
-本節中的指示假設您已具備 Azure Key Vault 基本知識。 如需詳細資訊，請參閱[什麼是 Azure Key Vault？](/azure/key-vault/key-vault-whatis)。 以下列方式設定您的金鑰保存庫：
+本節中的指示假設您已具備 Azure Key Vault 基本知識。 如需詳細資訊，請參閱 [什麼是 Azure 金鑰保存庫？](/azure/key-vault/key-vault-whatis)。 以下列方式設定您的金鑰保存庫：
 
 1. 將 Power BI 服務新增為金鑰保存庫的服務主體，包含包裝和解除包裝的權限。
 
@@ -54,41 +54,41 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
     > [!IMPORTANT]
     > Power BI BYOK 僅支援 4096 位元長度的 RSA 金鑰。
 
-1. 建議︰確認金鑰保存庫已啟用「虛刪除」  選項。
+1. 建議︰確認金鑰保存庫已啟用「虛刪除」選項。
 
 ### <a name="add-the-service-principal"></a>新增服務主體
 
-1. 在 Azure 入口網站中，於您的金鑰保存庫內，選取位於 [存取原則]  下方的 [新增]  。
+1. 在 Azure 入口網站中，於您的金鑰保存庫內，選取位於 [存取原則] 下方的 [新增]。
 
-1. 在 [選取主體]  下方搜尋並選取 Microsoft.Azure.AnalysisServices。
+1. 在 [選取主體] 下方搜尋並選取 Microsoft.Azure.AnalysisServices。
 
     > [!NOTE]
     > 如果您找不到 "Microsoft.Azure.AnalysisServices"，可能是與 Azure Key Vault 建立關聯的 Azure 訂用帳戶從未具有與其建立關聯的 Power BI 資源。 請嘗試改為搜尋下列字串：00000009-0000-0000-c000-000000000000。
 
-1. 在 [金鑰權限]  下方選取 [解除包裝金鑰]  和 [包裝金鑰]  。
+1. 在 [金鑰權限] 下方選取 [解除包裝金鑰] 和 [包裝金鑰]。
 
     ![PBIX 檔案元件](media/service-encryption-byok/service-principal.png)
 
-1. 選取 [確定]  ，然後 [儲存]  。
+1. 選取 [確定]****，然後選取 [儲存]****。
 
 > [!NOTE]
 > 若要撤銷 Power BI 未來對您資料的存取權限，請從 Azure Key Vault 移除對此服務主體的存取權限。
 
 ### <a name="create-an-rsa-key"></a>建立 RSA 金鑰
 
-1. 在您的金鑰保存庫中，選取 [金鑰]  下方的 [產生/匯入]  。
+1. 在您的金鑰保存庫中，選取 [金鑰] 下方的 [產生/匯入]。
 
-1. 選取 RAS 的 [金鑰類型]  ，且 [RSA 金鑰大小]  為 4096。
+1. 選取 RAS 的 [金鑰類型]****，且 [RSA 金鑰大小]**** 為 4096。
 
     ![PBIX 檔案元件](media/service-encryption-byok/create-rsa-key.png)
 
-1. 選取 [建立]  。
+1. 選取 [建立]。
 
-1. 在 [金鑰]  下方，選取您建立的金鑰。
+1. 在 [金鑰] 下方，選取您建立的金鑰。
 
-1. 選取金鑰 [目前版本]  的 GUID。
+1. 選取金鑰 [目前版本]**** 的 GUID。
 
-1. 確認已選取 [包裝金鑰]  和 [解除包裝金鑰]  。 複製 [金鑰識別碼]  ，在您啟用 Power BI 中的 BYOK 時使用。
+1. 確認已選取 [包裝金鑰]**** 和 [解除包裝金鑰]****。 複製 [金鑰識別碼]****，在您啟用 Power BI 中的 BYOK 時使用。
 
     ![PBIX 檔案元件](media/service-encryption-byok/key-properties.png)
 
@@ -108,7 +108,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 - 在此階段中，啟動 BYOK 後即無法將其停用。 根據您如何指定 `Add-PowerBIEncryptionKey` 的參數，您可以控制如何將 BYOK 用於您的一或多個容量。 不過，您無法復原將金鑰引入租用戶的動作。 如需詳細資訊，請參閱[啟用 BYOK](#enable-byok)。
 
-- 您不能「直接」  將使用 BYOK 之工作空間從 Power BI Premium 中的專用容量移至共用容量。 您必須先將工作區移至未啟用 BYOK 的專用容量。
+- 您不能「直接」__ 將使用 BYOK 之工作空間從 Power BI Premium 中的專用容量移至共用容量。 您必須先將工作區移至未啟用 BYOK 的專用容量。
 
 - 如果您將使用 BYOK 的工作區從 Power BI Premium 中專用容量移到共用區，由於報表和資料集已使用金鑰進行加密，因此這些報表和資料集會變成無法存取。 若要避免這種情況，您必須先將工作區移至未啟用 BYOK 的專用容量。
 
@@ -183,7 +183,7 @@ Power BI 也提供其他的 Cmdlet 以協助您管理租用戶中的 BYOK：
 
     請注意，加密是在容量層級啟用，但您會在指定工作區的資料集層級取得加密狀態。
 
-- 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 以切換 (或變換  ) 用於加密的金鑰版本。 此 Cmdlet 只會更新金鑰 `-Name` 的 `-KeyVaultKeyUri`：
+- 使用 [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) 以切換 (或變換) 用於加密的金鑰版本。 此 Cmdlet 只會更新金鑰 `-Name` 的 `-KeyVaultKeyUri`：
 
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
