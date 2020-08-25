@@ -15,6 +15,8 @@
           href: service-service-vs-desktop.md
     - name: 教學課程
       items:
+        - name: 開始使用 Power BI Desktop
+          href: desktop-getting-started.md
         - name: 開始使用 Power BI 服務
           href: service-get-started.md
     - name: 概念
@@ -41,8 +43,6 @@
       items:
         - name: 取得 Power BI Desktop
           href: desktop-get-the-desktop.md
-        - name: 開始使用 Power BI Desktop
-          href: desktop-getting-started.md
     - name: 參考
       items:
         - name: 支援的語言和國家 (地區)
