@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 5ca205bf2e82269140926ac69ccdead43b0cddd8
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091633"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204968"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -53,11 +53,14 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
   
   不是所有的磚都可以作為報表開啟。 例如，當您在問與答方塊中提問時所建立的磚不會在點選時開啟報表。
   
+## <a name="zoom-in-on-your-data"></a>放大資料   
+使用捏合手勢放大報表，以更詳細檢查內容。 反捏合以縮小報表。 Android 與 iOS 手機及平板電腦支援捏合縮放。
+
 ## <a name="interact-with-reports"></a>與報表互動
 在應用程式中開啟報表之後，您就可以開始使用報表。 您可以對報表及其資料執行許多動作。 在報表頁尾中，您會看到可在報表上執行的動作。 您也可以透過點選和長按報表中顯示的資料來並排顯示資料。
 
 ### <a name="single-tap-versus-double-tap-interaction"></a>點一下與點兩下互動
-當您下載 Power BI 行動裝置應用程式時，應用程式會設定為點一下互動。 這表示當點選視覺效果以執行某些動作 (例如選取交叉分析篩選器項目、交叉醒目提示、按一下連結或按鈕等) 時，點選就會選取視覺效果並執行您想要的動作。
+當您下載 Power BI 行動應用程式時，應用程式會設定為點一下互動。 這表示當點選視覺效果以執行某些動作 (例如選取交叉分析篩選器項目、交叉醒目提示、按一下連結或按鈕等) 時，點選就會選取視覺效果並執行您想要的動作。
 
 如果您想要的話，也可以切換為點兩下互動。 藉由點兩下互動，您可以先點選視覺效果以將其選取，然後再次點選視覺效果以執行您想要的動作。
 
@@ -65,7 +68,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 
 ### <a name="single-select-versus-multi-select-mode-for-data-point-selection"></a>資料點選取單一選取與多重選取模式的比較
 
-在報表中，您可以點選資料點加以選取。 您可以選擇要使用單一選取或多重選取模式。 在單一選取模式中，當您點選資料點加以選取時，該選取範圍會取代您先前所做的任何選取範圍。 在多重選取模式中，當您點選資料點加以選取時，您的選取範圍會「新增」  至您目前擁有的任何選取範圍，而且所有選取範圍的合併結果會在所有報表的視覺效果中反白顯示。
+在報表中，您可以點選資料點加以選取。 您可以選擇要使用單一選取或多重選取模式。 在單一選取模式中，當您點選資料點加以選取時，該選取範圍會取代您先前所做的任何選取範圍。 在多重選取模式中，當您點選資料點加以選取時，您的選取範圍會「新增」至您目前擁有的任何選取範圍，而且所有選取範圍的合併結果會在所有報表的視覺效果中反白顯示。
 
 若要取消選取所選的資料點，只要重新點選即可。
 
@@ -76,7 +79,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 當您點選交叉分析篩選器的值時，會選取該值，並根據該值來切割報表的其餘部分。
 當您點選連結、按鈕或書籤時，會執行報表作者所定義的動作。
 
-您可能已經注意到，當您點選視覺效果時會出現框線。 您會在框線的右上角看到 [更多選項]  (...)。如果您點選省略符號，您會看到一個功能表，其中包含可在該視覺效果上執行的動作：
+您可能已經注意到，當您點選視覺效果時會出現框線。 您會在框線的右上角看到 [更多選項] (...)。如果您點選省略符號，您會看到一個功能表，其中包含可在該視覺效果上執行的動作：
 
 ![視覺效果和功能表](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -97,7 +100,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 ![切入動作](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
 
 
-當您點選視覺效果的特定部分，然後點選「鑽研」  選項時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的選項。 [上一頁] 按鈕可讓您回到上一頁。
+當您點選視覺效果的特定部分，然後點選「鑽研」** 選項時，Power BI 會將您帶往報表中的其他頁面，篩選至您所點選的值。 報表作者可定義一或多個鑽研選項，每項都能將您帶往不同頁面。 在此情況下，您可以選擇想要鑽研的選項。 [上一頁] 按鈕可讓您回到上一頁。
 
 
 如需詳細資訊，請參閱如何[在 Power BI Desktop 中新增鑽研](../../create-reports/desktop-drillthrough.md)。
@@ -108,7 +111,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>使用報表頁尾中的動作
-您可以從報表頁尾，對目前報表頁面或整個報表執行數個動作。 頁尾可讓您快速存取一些最常用的動作。 您可以點選 [更多選項]  (...) 按鈕來存取其他動作：
+您可以從報表頁尾，對目前報表頁面或整個報表執行數個動作。 頁尾可讓您快速存取一些最常用的動作。 您可以點選 [更多選項]**** (...) 按鈕來存取其他動作：
 
 ![報表頁尾](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -121,7 +124,7 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 * 檢視所有報表動作。
 
 #### <a name="all-report-actions"></a>所有報表動作
-當點選報表頁尾中的 [更多選項]  (...) 按鈕時，您會看到可在報表上執行的所有動作：
+當點選報表頁尾中的 [更多選項]**** (...) 按鈕時，您會看到可在報表上執行的所有動作：
 
 
 ![所有報表動作](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
@@ -129,21 +132,21 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 某些動作可能會因相依於特定的報表功能而停用。
 例如：
 
-只有在報表中設定 [[書籤]](mobile-reports-in-the-mobile-apps.md#bookmarks)，才會出現 [書籤]  。 可在 Power BI 服務中定義的個人書籤以及報表建立者定義的書籤都會出現。 如果其中一種書籤已定義為預設書籤，報表就會在載入時開啟至該檢視。
+只有在報表中設定 [[書籤]](mobile-reports-in-the-mobile-apps.md#bookmarks)，才會出現 [書籤]****。 可在 Power BI 服務中定義的個人書籤以及報表建立者定義的書籤都會出現。 如果其中一種書籤已定義為預設書籤，報表就會在載入時開啟至該檢視。
 
-如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](https://docs.microsoft.com/intune/app-protection-policies)，則可能會關閉 [標註並共用]  。
+如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](https://docs.microsoft.com/intune/app-protection-policies)，則可能會關閉 [標註並共用]****。
 
-只有當您有權與他人共用報表時，才會啟用 [邀請]  。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
+只有當您有權與他人共用報表時，才會啟用 [邀請]****。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
 
-如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]  。 如需詳細資訊，請參閱 [identifying geographical data in a report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) (識別報表中的地理資料)。
+如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]****。 如需詳細資訊，請參閱 [identifying geographical data in a report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) (識別報表中的地理資料)。
 
-只有當您報表中的資料集標記為**條碼**時，才會啟用 [依條碼掃描並篩選報表]  。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) (在 Power BI Desktop 中標記條碼)。
+只有當您報表中的資料集標記為**條碼**時，才會啟用 [依條碼掃描並篩選報表]****。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) (在 Power BI Desktop 中標記條碼)。
 
 ### <a name="bookmarks"></a>書籤
 
-Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，也支援可在 Power BI 服務中定義的個人書籤。 [書籤] 功能表位在 [[報表動作] 工具列](mobile-reports-in-the-mobile-apps.md#all-report-actions)的 [更多選項]  (...) 下。
+Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，也支援可在 Power BI 服務中定義的個人書籤。 [書籤] 功能表位在 [[報表動作] 工具列](mobile-reports-in-the-mobile-apps.md#all-report-actions)的 [更多選項]**** (...) 下。
 
-預設的書籤會以特殊圖示來表示。 針對個人書籤，藉由點選所要變更書籤旁的 [更多選項 (...)]  ，然後選擇 [設為預設]  或 [清除預設值]  ，即可設定、取消設定或變更預設設定。
+預設的書籤會以特殊圖示來表示。 針對個人書籤，藉由點選所要變更書籤旁的 [更多選項 (...)]****，然後選擇 [設為預設]**** 或 [清除預設值]****，即可設定、取消設定或變更預設設定。
 
 ![[書籤] 功能表](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1213d02926db3b1d356e7fefffb44bcc41b8ab96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227689"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204439"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -59,8 +59,10 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | **結果資料列集計數上限** | DAX 查詢中傳回的資料列數目上限。 預設值為 -1 (沒有限制)，且允許的範圍介於 100000 到 2147483647 之間。 |
 | **查詢記憶體限制 (%)** | 工作負載中可用於執行 MDX 或 DAX 查詢的可用記憶體百分比上限。 預設值為 0，這會導致套用 SKU 特定的自動查詢記憶體限制。 |
 | **查詢逾時 (秒)** | 查詢逾時前的最大時間量。預設值為 3600 秒 (1 小時)。 值 0 指定查詢不會逾時。 |
-| **自動頁面重新整理 (預覽)** | 開啟/關閉開關以讓進階工作區具有含自動頁面重新整理的報表。 |
+| **自動重新整理頁面** | 切換開/關讓進階工作區根據固定間隔，產生自動重新整理頁面的報表。 |
 | **最小重新整理間隔** | 若自動頁面重新整理已開啟，則為頁面重新整理間隔所允許的最小間隔。 預設值為 5 分鐘，而允許的下限為一秒。 |
+| **變更偵測量值** | 切換開/關讓進階工作區根據變更偵測，產生自動重新整理頁面的報表。 |
+| **最小執行間隔** | 若已開啟 [變更偵測量值]，則允許輪詢資料變更的最小執行間隔。 預設值為五秒，允許的最小值為一秒。 |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>中繼資料列集計數上限
@@ -107,7 +109,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 | 自動查詢記憶體限制 | 1 GB     | 2 GB     | 2 GB     | 6 GB    | 6 GB    | 10 GB   |
 |                              |          |          |          |         |         |         |
 
-為了保護系統的效能，無論使用者設定的查詢記憶體限制為何，皆會針對 Power BI 報表執行的所有查詢強制執行 10 GB 的硬上限。 此硬上限不適用於使用 Analysis Services 通訊協定 (也稱為 XMLA) 的工具所發出查詢。 如果查詢的記憶體用量太高，使用者應考慮簡化查詢或其計算。
+為了保護系統的效能，無論使用者設定的查詢記憶體限制為何，皆會針對 Power BI 報表執行的所有查詢強制執行 10 GB 的硬上限。 使用 Analysis Services 通訊協定 (也稱為 XMLA) 之工具所發出的查詢不適用此固定最高限額。 如果查詢的記憶體用量太高，使用者應考慮簡化查詢或其計算。
 
 #### <a name="query-timeout"></a>查詢逾時
 

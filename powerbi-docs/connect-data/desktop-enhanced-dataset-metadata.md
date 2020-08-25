@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1204b28ae5239bf4080472129b0862862446e5d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 389de5d34b00afbe70a1489dfc61e760530590a9
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878446"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512877"
 ---
 # <a name="using-enhanced-dataset-metadata-preview"></a>使用增強型資料集中繼資料 (預覽)
 
@@ -40,11 +40,11 @@ ms.locfileid: "87878446"
 啟用預覽功能後，Power BI Desktop 即會嘗試升級使用先前中繼資料格式的 PBIX 和 PBIT 檔案。 
 
 > [!IMPORTANT]
-> 啟用**增強的資料集中繼資料**功能，會導致無法復原的報表升級。 當**增強的資料集中繼資料**啟用時，使用 Power BI Desktop 載入或建立的任何 Power BI 報表都會轉換為增強的資料集中繼資料格式，且無法復原。
+> 啟用**增強的資料集中繼資料**功能，會導致無法復原的報表升級。 一旦啟用**增強的資料集中繼資料**，任何使用 Power BI Desktop 載入或建立的 Power BI 報表，都將無法逆轉為增強的資料集中繼資料格式。
 
 ## <a name="report-backup-files"></a>報表備份檔案
 
-更新報表以使用**增強型資料集中繼資料**功能無法復原。 不過，在更新期間，會建立報表備份檔案，以便以原始 (更新前) 格式儲存一個版本的報表。 備份檔案會在 30 天後移除。 
+更新報表以使用**增強型資料集中繼資料**功能無法復原。 然而，更新期間會建立報表的備份檔案，儲存原始 (更新前) 格式版的報表。 備份檔案會在 30 天後移除。 
 
 若要找出備份報表檔案，請執行下列動作：
 

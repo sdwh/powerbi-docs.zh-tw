@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f580891be69e0c5478474496be6a6414867e662d
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091656"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204895"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -24,6 +24,23 @@ ms.locfileid: "88091656"
 
 >[!NOTE]
 >**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+
+## <a name="august-2020"></a>2020 年 8 月
+### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>已改進瀏覽至內容的方式 (iOS 與 Android)
+現在您可以使用**新的導覽樹狀目錄** (可從報表、儀表板與應用程式標題的下拉式清單取得)，快速且輕鬆地瀏覽內容。 您一眼就可以看到內容的位置階層，而且可以輕鬆瀏覽內容階層、移至同層級內容，甚至快速地回到首頁。 若您要檢視的項目是應用程式的一部分，則樹狀結構會顯示應用程式的完整內容--區段、連結，以及所有報表與儀表板。 若您要檢視的項目是報表，您也會找到所有可見報表頁面的清單。 從一個頁面到另一個頁面從沒如此容易！ 趕緊去瞧一瞧！ 
+
+![Power BI 行動裝置應用程式導覽樹狀目錄的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-nav-tree1.png)
+
+### <a name="share-from-power-bi-using-your-favorite-apps-ios-and-android"></a>使用您慣用的應用程式從 Power BI 共用 (iOS 與 Android)
+現在您可以與連絡人共用 Power BI 內容的連結。 使用您在裝置上擁有的任何共同作業應用程式，例如 Microsoft Teams、郵件應用程式等等，利用標頭中的新增共用動作來傳送連結。此連結會擷取目前的檢視，所以您甚至可以共用已篩選的報表檢視。
+
+![Power BI 行動裝置應用程式共用圖示的螢幕擷取畫面。](media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-share.png)
+
+### <a name="pinch-and-zoom-is-now-available-in-all-report-views---on-both-phones-and-tablets-ios-and-android"></a>在手機與平板電腦上，現在所有報表檢視都有捏合與縮放功能可供使用 (iOS 與 Android)   
+我們已在所有報表檢視中啟用捏合與縮放，讓您無論在手機或平板電腦上，都能更輕鬆地放大及縮小報表內容。
+
+### <a name="auto-play-a-slideshow-on-startup-windows"></a>在啟動時自動播放投影片 (Windows)
+當 Power BI Windows 應用程式啟動時，您可以選擇要以投影片方式自動播放的報表。 這有助於建立類似 kiosk 的體驗，無須任何手動操作，即可在公用顯示中執行報表。 [深入了解！](mobile-windows-10-app-presentation-mode.md#auto-play-a-slideshow-on-startup)
 
 ## <a name="july-2020"></a>2020 年 7 月
 ### <a name="the-power-bi-mobile-app-for-windows-now-supports-organizational-branding"></a>適用於 Windows 的 Power BI 行動裝置應用程式現在支援組織商標
@@ -173,7 +190,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>保護 Azure Active Directory (AD) 應用程式 Proxy 的存取安全 (iOS 和 Android)
 
-我們與 Azure Active Directory 團隊合作，將 Power BI 行動應用程式與 Azure Active Directory (AAD) 應用程式 Proxy 整合。 使用此設定，您就能從 Power BI 行動裝置應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
+我們與 Azure Active Directory 團隊合作，將 Power BI 行動裝置應用程式與 Azure Active Directory (AAD) 應用程式 Proxy 整合在一起。 使用此設定，您就能從 Power BI 行動裝置應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -211,7 +228,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>增強式條件式存取保護 (iOS、Android)
 
-我們已和 AAD [新的應用程式防護型條件式存取功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)整合，透過在套用應用程式原則前限制對 Power BI 的存取來增加安全性。
+我們已與 Azure AD [新的應用程式防護型條件式存取功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)相整合，透過在套用應用程式原則前限制對 Power BI 的存取，來增加安全性。
 
 ### <a name="device-protection-ios"></a>裝置保護 (iOS)
 
@@ -490,7 +507,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 閱讀 [2017 年 7 月的行動裝置應用程式功能摘要](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
 #### <a name="ios-devices"></a>iOS 裝置
-**新的 iOS 問與答體驗 (預覽)** ：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的深入解析。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
+**新的 iOS 問與答體驗 (預覽)** ：您現在除了能取得問題的解答之外，還能使用自然語言來取得相關深入解析。 即使您不太確定要尋找的項目，問與答也會主動顯示與您資料相關的見解。 新的行動裝置問與答體驗是與 Microsoft Research 小組共同作業研發而成，展現了我們產品的強大技術。 試用此教學課程，[詢問 iOS 行動裝置應用程式資料的相關問題](mobile-apps-ios-qna.md)。
 
 ### <a name="responsive-visuals"></a>回應式視覺效果
 適用於手機報表與儀表板的**回應式視覺效果**：您可以將儀表版或報表中的視覺效果設定為「回應式」，不管是什麼樣的螢幕大小，都能以動態方式變更，顯示最多的資料與深入解析。 閱讀[關於回應式視覺效果的部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals)。
@@ -530,7 +547,7 @@ Power BI 報表現在在 iPad 應用程式上有重新整理按鈕。
 我們改進了時間交叉分析篩選器的觸控互動。
 
 #### <a name="ios-devices"></a>iOS 裝置
-**透過問與答詢問資料的相關問題並提供意見反應** - 請嘗試透過問與答詢問資料的相關問題，然後給我們笑臉或苦臉，讓我們知道表現如何。
+**透過問與答詢問資料的相關問題，並提供意見反應**：請嘗試透過問與答詢問資料的相關問題，然後給我們笑臉或苦臉，讓我們知道表現如何。
 
 **使用 3D 觸控執行常用動作** - 在 iPhone 6s 或更新版本的主畫面上按壓 Power BI 應用程式圖示，可存取通知、搜尋及最近使用的儀表板。
 

@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: 295fc7732729fc464676257ab63dcadfa967771b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
+ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939662"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "88578097"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI 問與答簡介
 
@@ -43,22 +43,20 @@ Power BI 問與答完全免費，並可供所有使用者使用。 在 Power BI 
 
 ![問與答片語完成](media/qna-suggestion-phrase-completion.png)
 
-### <a name="redblue-underlines"></a>紅色/藍色底線
+### <a name="redblueorange-underlines"></a>紅色/藍色/橙色底線
 
 問與答會以底線顯示字組，以協助您查看系統了解或無法辨識哪些字組。 藍色實心底線表示系統已成功比對此字組與資料模型中的欄位或值。 以下範例顯示問與答已辨識「歐洲銷售額」這個字。
 
 ![問與答藍色底線](media/qna-blue-underline.png)
 
-通常當您在問與答中鍵入字組時，該字組會以紅色底線標示。 紅色底線可能表示兩個潛在問題的其中一個。 第一種問題類型可分類為「低信賴度」。 如果您鍵入含糊或不明確的字組，此欄位會加紅色底線。 其中一個例子可能是「銷售額」這個字。 多個欄位可能會包含「銷售額」這個字，因此系統會使用紅色底線來提示您選擇所指的欄位。 低信賴度的另一個例子可能是如果您鍵入「區域」這個字，但其所符合的資料行是「區域」。 多虧與 Bing 和 Office 的整合，Power BI 問與答可辨識代表同一件事的字組。 問與答會在字組加紅色底線，讓您知道這不是直接相符的項目。
+ 橙色底線表示將字組分類為「低信賴度」。 如果鍵入含糊或模稜兩可的字組，此欄位就會加上橙色底線。 其中一個例子可能是「銷售額」這個字。 可能有多個欄位包含「銷售額」的字詞，所以系統會使用橙色底線來提示您選擇所指的欄位。 低信賴度的另一個例子可能是如果您鍵入「區域」這個字，但其所符合的資料行是「區域」。 多虧了 Bing 與 Office 的整合，以及將報表中的重新命名解譯為可能的建議，所以 Power BI 問與答可以辨識表示相同意義的字詞。 問與答為字詞加上橙色底線，好讓您知道這不是直接相符的項目。
 
-![問與答在銷售額加紅色底線](media/qna-red-underline-sales.png)
-
-第二種問題類型是當問與答完全無法辨識該字組時。 如果使用資料中任何位置都未提及的特定領域字詞，或資料欄位的名稱不正確，都可能會遇到此問題。 其中一個例子可能是使用不存在於資料中任何位置的「成本」這個字。 該字出現在英文字典中，但問與答以紅色底線標示此字詞。
+紅色底線表示問與答完全無法辨識該字詞。 如果使用資料中任何位置都未提及的特定領域字詞，或資料欄位的名稱不正確，都可能會遇到此問題。 某個範例可能使用了資料中根本不存在的「成本」一詞。 英文字典中有此字詞，但問與答會將此詞彙標記為紅色底線，表示資料中找不到這個詞彙。
 
 ![問與答在銷售額加紅色底線](media/qna-red-underline-costs.png)
 
 > [!NOTE]
-> 您可以在問與答的 [Visual formatting] \(視覺效果格式化\) 窗格中，自訂藍色/紅色底線色彩。 此外，[問與答工具](q-and-a-tooling-teach-q-and-a.md)一文將說明您用來定義問與答所無法辨識字詞的「教學 Q&A」。
+> 您可以在問與答的 [視覺效果格式設定] 窗格中，自訂藍色/紅色/橙色底線色彩。 此外，[問與答工具](q-and-a-tooling-teach-q-and-a.md)一文將說明您用來定義問與答所無法辨識字詞的「教學 Q&A」。
 
 ### <a name="visualization-results"></a>視覺效果結果
 

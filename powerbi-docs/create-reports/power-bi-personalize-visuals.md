@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/21/2020
+ms.date: 08/12/2020
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 0fdee37f682774e1dac2b1ac6a4fc7a6e8dabe91
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8dd6e64943ea05f2219efa471cd3fcfa4152650b
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238097"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160451"
 ---
 # <a name="let-users-personalize-visuals-in-a-report"></a>讓使用者個人化報表中的視覺效果
 
@@ -41,6 +41,59 @@ ms.locfileid: "85238097"
 - 重設報表的所有變更
 - 重設視覺效果的所有變更
 - 清除最近的變更
+
+## <a name="use-perspectives-for-a-more-focused-view"></a>使用檢視方塊獲得焦點更集中的檢視
+
+使用個人化視覺效果，您可以用**檢視方塊**選擇模型子集，為您提供更能聚焦的檢視。 當您使用大型資料模型時，選擇子集可讓您專注於可管理的欄位子集，而不是用大型模型中的完整欄位集合讓報表讀者不知所措。 
+
+![將視覺效果個人化](media/power-bi-personalize-visuals/power-bi-personalize-perspective-01.png)
+
+使用檢視方塊時，請記住下列考量：
+
+* 檢視方塊並非作為安全性機制使用，而是提供較佳使用者體驗的工具。 所有檢視方塊安全性，都是繼承自基礎模型。
+
+* 表格式與多維度模型都支援檢視方塊。 然而，在多維度模型中，檢視方塊只能設定為和報表的基礎 Cube 一樣。
+
+* 從模型中刪除檢視方塊之前，請務必檢查確認個人化視覺效果體驗未使用檢視方塊。 
+
+若要使用檢視方塊，您必須為報表啟用個人化視覺效果。 您也必須建立至少一個檢視方塊，包括您希望使用者能與之互動的維度與量值，以獲得個人化視覺效果的體驗。
+
+請使用 [Tabular Editor](https://tabulareditor.com/) 建立檢視方塊，您可以從下列位置下載：下載 Tabular Editor
+
+在您安裝 **Tabular Editor** 之後，請在 **Power BI Desktop**  中開啟報表，並從功能區的 [外部工具] 索引標籤中啟動 **Tabular Editor**，如下圖所示。
+
+![[外部工具] 功能區中的 Tabular Editor](media/power-bi-personalize-visuals/power-bi-personalize-perspective-02.png)
+
+在 Tabular Editor 中，以滑鼠右鍵按一下 **Perspectives** 資料夾，以建立新的檢視方塊。
+
+![在 Tabular Editor 中建立新的 Perspectives 資料夾](media/power-bi-personalize-visuals/power-bi-personalize-perspective-03.png)
+
+您可以按兩下文字，重新命名此檢視方塊。
+
+![重新命名檢視方塊](media/power-bi-personalize-visuals/power-bi-personalize-perspective-04.png)
+
+接下來，在 Tabular Editor 中開啟 **Tables** 資料夾，以滑鼠右鍵按一下您想要在檢視方塊中顯示的欄位，將欄位新增至檢視方塊。
+
+![將欄位新增至檢視方塊](media/power-bi-personalize-visuals/power-bi-personalize-perspective-05.png)
+
+對每個要新增至檢視方塊的欄位，重複此流程。 您無法在某個檢視方塊中新增重複的欄位，所以任何已新增至檢視方塊的欄位都只能選擇新增為停用。
+
+新增完所有想要的欄位之後，請務必在 Tabular Editor 與 Power BI Desktop 中都要儲存設定。
+
+![在 Tabular Editor 與 Power BI Desktop 中儲存檢視方塊設定](media/power-bi-personalize-visuals/power-bi-personalize-perspective-06.png)
+
+當您將新的檢視方塊儲存至模型，並儲存 Power BI Desktop 報表之後，請瀏覽至頁面的 [格式] 窗格，您會看到新的**個人化視覺效果**區段。
+
+![[格式] 窗格中的個人化視覺效果區段](media/power-bi-personalize-visuals/power-bi-personalize-perspective-07.png)
+
+將「報表讀者檢視方塊」的選取範圍一開始即設定為「預設欄位」。 選取下拉式箭號之後，就會看到您所建立的其他檢視方塊。
+
+![選取下拉式箭號以查看您的其他檢視方塊](media/power-bi-personalize-visuals/power-bi-personalize-perspective-08.png)
+
+設定報表頁面的檢視方塊之後，該頁面的個人化視覺效果體驗即會篩選成選取的檢視方塊。 選取 [套用至所有頁面] 可讓您將檢視方塊設定套用至報表現有的所有頁面。
+
+![選取 [套用至所有頁面]，以將檢視方塊套用至整份報表](media/power-bi-personalize-visuals/power-bi-personalize-perspective-09.png)
+
 
 ## <a name="turn-on-the-preview-feature"></a>開啟預覽功能
 

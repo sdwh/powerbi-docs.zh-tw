@@ -71,6 +71,8 @@
               items:
                 - name: 問與答簡介
                   href: ../natural-language/q-and-a-intro.md
+                - name: Q&A 資料來源
+                  href: ../natural-language/q-and-a-data-sources.md
                 - name: 問與答工具簡介
                   href: ../natural-language/q-and-a-tooling-intro.md
                 - name: 問與答工具進階

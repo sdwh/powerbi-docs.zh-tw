@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: how-to
-ms.date: 08/11/2020
+ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 85ba8b893dfa6da7934aff6b7890530e0acb2961
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: c4453f1475ac2ab227294b0b3bd8ba5dba10de67
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091686"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204495"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 簡報模式非常適合用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。
@@ -64,9 +64,24 @@ ms.locfileid: "88091686"
 
  控制器會顯示目前顯示之檢視的名稱 (頁面，或書籤與頁面)。 在上圖中，我們在名為 **Sales** \(銷售\) 的報表中看到該控制器，我們目前正在 [Sales Performance] \(銷售績效\) 頁面上檢視 [Asia Pacific] \(亞太地區\) 書籤。
 
+根據預設，投影片只會以每隔 30 秒的速率循環播放頁面。 [投影片設定](#slideshow-settings)中的預設行為。
+
+
+### <a name="auto-play-a-slideshow-on-startup"></a>在啟動時自動播放投影片
+
+您可以設定 Power BI 行動裝置應用程式，在應用程式啟動時自動開始播放投影片。 此選項有助於建立類似 kiosk 的體驗，無須任何手動操作，即可在公用顯示中執行報表。 如需設定自動播放報表的詳細資訊，請參閱[投影片設定](#slideshow-settings)。
+
 ### <a name="slideshow-settings"></a>投影片設定
 
-根據預設，投影片會以每隔 30 秒的速率循環播放頁面。 您可以前往 [設定] > [選項] 來變更這些預設設定，如下所示。
+根據預設，投影片只會以每隔 30 秒的速率循環播放頁面。 您可以移至 [設定] > [選項] 變更此預設行為，如下所示。 您也可以開啟自動播放，並選擇要播放的報表。
+
+1. 選取設定圖示。
+
+1. 開啟 [選項] 索引標籤。
+
+1. 如有需要，請變更投影片循環播放 (頁面、書簽或兩者都有) 以及投影片轉換頻率的預設設定。
+
+1. 若您想要在應用程式啟動時自動開始播放報表，請開啟切換並選擇 [選取報表]。 您就能夠搜尋有權存取的報表。
 
 ![投影片設定的螢幕擷取畫面](././media/mobile-windows-10-app-presentation-mode//power-bi-windows-10-slideshow-settings.png)
 

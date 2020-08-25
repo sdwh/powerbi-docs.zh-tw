@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: fd30b9df6fce484bffab430888260145bb374ce9
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
+ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091564"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "88160364"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -103,8 +103,7 @@ ms.locfileid: "88091564"
 * 針對公開預覽版，每小時匯出的 Power BI 報表頁面數目限制為每容量 50 個。
 * 匯出的報表不能超過 250 MB 的檔案大小。
 * 匯出為 .png 時，不支援敏感性標籤。
-* 具有敏感度標籤的報表無法使用[服務主體](embed-service-principal.md)匯出為 .pdf 或 .pptx。
-* 匯出報表中可以包含的頁數為 30。 如果報表包含更多頁面，則 API 會傳回錯誤並取消匯出作業。
+* 匯出的報表可有 50 頁。 如果報表包含更多頁面，則 API 會傳回錯誤並取消匯出作業。
 * 不支援[個人書籤](../../consumer/end-user-bookmarks.md#personal-bookmarks)與[永續性篩選](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) \(英文\)。
 * 不支援下面所列的 Power BI 視覺效果。 匯出包含這些視覺效果的報表時，包含這些視覺效果的報表部分將不會轉譯，而且會顯示錯誤符號。
     * 未經認證的 Power BI 視覺效果

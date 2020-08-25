@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 07/16/2019
-ms.openlocfilehash: 1602743230f1a369fe3da48fa37a313b9d9bbea4
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.date: 08/12/2020
+ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
+ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79435873"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "88204928"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在將 Power BI 視覺效果[發佈](office-store.md)至 Microsoft AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為使用者打造絕佳體驗。
@@ -59,6 +59,9 @@ IAP Power BI 視覺效果是提供「免費功能」的「免費」視覺效果�
 所有 Power BI 視覺效果都應該啟用操作功能表，以提供一致的體驗。
 請參閱[本文](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md)了解如何新增內容功能表。
 
+>[!div class="mx-imgBorder"]
+>![Power BI 視覺效果操作功能表的螢幕擷取畫面。](media/guidelines-powerbi-visuals/context-menu.png)
+
 ## <a name="commercial-logo"></a>商業標誌
 本節描述在 Power BI 視覺效果中心新增商業標誌的規格。 商業標誌並非必要。 如已新增，則必須遵循這些指導方針。
 
@@ -67,22 +70,22 @@ IAP Power BI 視覺效果是提供「免費功能」的「免費」視覺效果�
 > * 本文中使用的 Microsoft 商業標誌僅為範例用途。 搭配 Power BI 視覺效果來使用您自己的商業標誌。
 
 > [!IMPORTANT]
-> 商業標誌「僅可在編輯模式中」  使用。 商業標誌「無法」  在檢視模式中顯示。
+> 商業標誌「僅可在編輯模式中」** 使用。 商業標誌「無法」** 在檢視模式中顯示。
 
 ### <a name="commercial-logo-type"></a>商業標誌類型
 
 商業標誌有三種類型：
 * **標誌**：標誌是由兩個鎖定在一起的項目、一個圖示和一個名稱所組成。
 
-    ![Microsoft 標誌](media/guidelines-powerbi-visuals/microsoft-logo.png)
+    ![Microsoft 標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/microsoft-logo.png)
 
 * **符號**：不含任何文字的圖形。
 
-    ![Microsoft 符號](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+    ![Microsoft 符號的螢幕擷取畫面。](media/guidelines-powerbi-visuals/microsoft-symbol.png)
 
 * **商標**：不含圖示的標誌，僅以文字組成。
 
-    ![Microsoft 符號](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+    ![沒有圖示的 Microsoft 標誌螢幕擷取畫面。](media/guidelines-powerbi-visuals/microsoft-logotype.png)
 
 ### <a name="commercial-logo-color"></a>商業標誌色彩
 
@@ -90,15 +93,15 @@ IAP Power BI 視覺效果是提供「免費功能」的「免費」視覺效果�
 
 * **標誌**
 
-    ![Microsoft 符號](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+    ![灰色 Microsoft 標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
 
 * **符號**：不含任何文字的圖形。
 
-    ![Microsoft 符號](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+    ![灰色 Microsoft 符號的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
 
 * **商標**：不含圖示的標誌，僅以文字組成。
 
-    ![Microsoft 符號](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+    ![沒有圖示的灰色 Microsoft 標誌螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
 
 > [!TIP]
 > * 如果 Power BI 視覺效果包含圖形，則建議為標誌新增白色背景 (邊界為 10 像素)。
@@ -110,13 +113,13 @@ Power BI 視覺效果需要兩個商業標誌，一個用於大型圖格，另�
 
 下表描述 Power BI 視覺效果的大小考量。
 
-|  |小型 Power BI 視覺效果  |大型 Power BI 視覺效果  |
+|設定  |小型 Power BI 視覺效果  |大型 Power BI 視覺效果  |
 |---------|---------|---------|
-|「標誌寬度」     |最多 240 像素         |大於 240 像素         |
-|「標誌高度」      |最多 160 像素         |大於 160 像素         |
-|「周框方塊大小」      |40 x 15 像素         |101 x 30 像素         |
-|「商業標誌範例」      |![Microsoft 符號](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 標誌](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
-|「周框方塊範例」     |![小型標誌範例](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大型標誌範例](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|「標誌寬度」**    |最多 240 像素         |大於 240 像素         |
+|「標誌高度」**     |最多 160 像素         |大於 160 像素         |
+|「周框方塊大小」**     |40 x 15 像素         |101 x 30 像素         |
+|「商業標誌範例」**     |![小版 Microsoft 商業標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Microsoft 商業標誌的螢幕擷取畫面。](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|「周框方塊範例」**    |![小型標誌尺寸的螢幕擷取畫面。](media/guidelines-powerbi-visuals/small-logo-box.png)         |![大型標誌尺寸的螢幕擷取畫面。](media/guidelines-powerbi-visuals/big-logo-box.png)         |
 |    |         |         |
 
 ### <a name="commercial-logo-behavior"></a>商業標誌行為
@@ -140,13 +143,13 @@ Power BI 視覺效果需要兩個商業標誌，一個用於大型圖格，另�
 
 * 請避免使用彩色或黑色商業標誌。 商業標誌必須是灰色 (十六進位色彩 #C8C8C8)。
 
-    ![未經授權的彩色標誌](media/guidelines-powerbi-visuals/no-color-logo.png) ![未經授權的黑色標誌](media/guidelines-powerbi-visuals/black-logo.png)
+    ![未經授權的彩色 Microsoft 標誌螢幕擷取畫面。](media/guidelines-powerbi-visuals/no-color-logo.png) ![未經授權的黑色 Microsoft 標誌螢幕擷取畫面](media/guidelines-powerbi-visuals/black-logo.png)
 
 * 具有漸層或強烈陰影等效果的商業標誌。
 
-    ![未經授權的標誌樣式](media/guidelines-powerbi-visuals/no-style-logo.png)
+    ![未經授權的 Microsoft 標誌樣式範例螢幕擷取畫面。](media/guidelines-powerbi-visuals/no-style-logo.png)
 
-## <a name="best-practices"></a>最佳作法
+## <a name="best-practices"></a>最佳做法
 
 請在發佈 Power BI 視覺效果時考慮下列建議，以便為使用者提供絕佳的體驗。
 
@@ -164,4 +167,7 @@ Power BI 視覺效果需要兩個商業標誌，一個用於大型圖格，另�
 
 ## <a name="next-steps"></a>後續步驟
 
-了解如何將 Power BI 視覺效果發佈至 [Microsoft AppSource](office-store.md) 以供其他人探索及使用。
+了解如何將 Power BI 視覺效果發佈至 Microsoft AppSource 以供其他人探索及使用。
+
+>[!div class="nextstepaction"]
+>[發佈 Power BI 視覺效果](office-store.md)

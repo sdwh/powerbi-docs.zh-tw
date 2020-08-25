@@ -1,24 +1,24 @@
 ---
 title: 使用分析功能來說報表視覺效果中的波動
-description: 使用 Power BI Desktop 輕鬆獲得增減情況的深入解析
+description: 使用 Power BI 服務輕鬆獲得增減情況的見解
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/23/2019
+ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 36f370adc68c6b6f8fc15261bfa107411043c65d
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
+ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162290"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88168443"
 ---
-# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals-preview"></a>使用分析功能來說報表視覺效果中的波動 (預覽)
+# <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>使用分析功能來說報表視覺效果中的波動
 
-[!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
+[!INCLUDE[consumer-appliesto-yynn](../includes/consumer-appliesto-yynn.md)]
 
 在視覺效果中，您經常會看到值大幅增加，然後急遽下降，並想知道造成此類波動的原因。 使用 **Power BI 服務**中的 [分析]，您只要按幾下滑鼠就可以找到原因。
 
@@ -26,7 +26,7 @@ ms.locfileid: "86162290"
 
 ![顯示增減情況的視覺效果](media/end-user-analyze-visuals/power-bi-line-chart.png)
 
-您可以要求 Power BI 服務說明視覺效果中的增減情形或不尋常的分佈，並取得快速、自動化、具洞察力的資料分析。 只要以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] \(如果之前的橫條圖較低的話，則為增加情形\)，或者 [分析] > [找出此分佈的不同之處]，即會以易於使用的視窗形式將見解傳遞給您。
+您可以要求 Power BI 服務說明視覺效果中的增減情形或不尋常的分佈，並取得快速、自動化、具洞察力的資料分析。 以滑鼠右鍵按一下資料點，然後選取 [分析] > [說明減少的情形] (若前一條橫條較低的話，則為 [說明增加的情形])，或者 [分析] > [找出此分佈的不同之處]，即可在容易使用的視窗中查看見解。
 
 ![視覺效果中顯示的見解](media/end-user-analyze-visuals/power-bi-decrease.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "86162290"
 
 ### <a name="which-factors-and-categories-are-chosen"></a>選擇的因素與類別
 
-查看不同的資料行之後，Power BI 會選取並顯示那些顯示最大相對比重變更的資料行。 針對每個資料行，會在描述中指出比重變更幅度最大的值。 此外，也會指出實際增減情況最大的值。
+檢查不同的資料行之後，Power BI 會選取並顯示這些因素，顯示相對貢獻的最大變更。 針對每個資料行，會在描述中指出比重變更幅度最大的值。 此外，也會指出實際增減情況最大的值。
 
 若要查看 Power BI 所產生的所有見解，請使用捲軸。 順序的排定方式會先顯示最重要的參與者。 
 
@@ -71,29 +71,37 @@ Power BI 接著會對資料執行其機器學習演算法，並於視窗中填�
 
 ### <a name="the-scatter-plot"></a>散佈圖
 
+![顯示已選取之散佈圖圖示的小型螢幕擷取畫面](media/end-user-analyze-visuals/power-bi-scatter-icon.png)
+
 散佈圖視覺效果會針對資料行 (在此範例中為「州」) 的每個值，顯示第一個時段的量值 (x 軸上) 與第二個時段的量值 (y 軸上) 比較。 如果值增加，資料點會在綠色區域中；如果值減少，資料點則會在紅色區域中。 
 
 虛線顯示最佳擬合，而此線條上方的資料點相較於整體趨勢呈現增加，而此線條下方的資料點則呈現減少。  
 
 ![具有虛線的散佈圖](media/end-user-analyze-visuals/power-bi-scatter.png)
 
-請注意，其值在任一時段為空白的資料項目不會出現在散佈圖上。
+散佈圖不會顯示任一時段值為空白的資料項目。
 
 ### <a name="the-100-stacked-column-chart"></a>100% 堆疊直條圖
 
-100% 堆疊直條圖視覺效果會針對所選資料點與先前項目顯示貢獻對總計 (100%) 的值。 這可讓您並排比較每個資料點的貢獻。 在此範例中，工具提示會顯示所選德州值的實際比重。 因為州清單很長，所以工具提示可協助您查看詳細資料。 透過使用工具提示，我們看到德克薩斯州的貢獻約等於相同的總計百分比 (31% 與 32%)，但總單位數從 89 降到 71。 請記住，Y 軸是百分比，而不是總計，而且每個直條都是百分比，而不是值。 
+![顯示已選取之直條圖圖示的小型螢幕擷取畫面](media/end-user-analyze-visuals/power-bi-column-icon.png)
+
+100% 堆疊直條圖視覺效果會針對所選資料點與先前項目顯示貢獻對總計 (100%) 的值。 這可讓您並排比較每個資料點的貢獻。 在此範例中，工具提示會顯示所選德州值的實際比重。 因為州清單很長，所以工具提示可協助您查看詳細資料。 透過使用工具提示，我們看到德克薩斯州的貢獻約等於相同的總計百分比 (31% 與 32%)，但總單位數從 89 降到 71。 請記住，Y 軸是百分比，不是總計，而且每個資料行寬都是百分比，不是值。 
 
 ![100% 堆疊直條圖](media/end-user-analyze-visuals/power-bi-stacked.png)
 
 ### <a name="the-ribbon-chart"></a>功能區圖表
 
-功能區圖表視覺效果會顯示之前與之後的量值。 這在顯示比重變更方面特別有用 (當比重的 [順序] 變更 (例如，*LA* 從第二名掉到第十一名) 時)。  此外，雖然 *TX* 是由頂端的寬功能區代表，表示其是之前與之後最重要的參與者，掉落會顯示在選取的期間與之後下降的貢獻值。
+![顯示已選取之功能區圖表圖示的小型螢幕擷取畫面](media/end-user-analyze-visuals/power-bi-ribbon-icon.png)
+
+功能區圖表視覺效果會顯示之前與之後的量值。 當貢獻者的「順序」 變更時 (例如，*LA* 從第二名貢獻者掉到第十一名)，對顯示貢獻變更特別有用。  此外，雖然頂端的寬功能區代表 *TX*，表示其是之前與之後最重要的參與者，但名次掉落顯示在選取的期間與之後貢獻值皆下降。
 
 ![功能區圖表](media/end-user-analyze-visuals/power-bi-ribbon-tooltip.png)
 
 ### <a name="the-waterfall-chart"></a>瀑布圖
 
-第四個視覺效果是瀑布圖，其顯示不同時段之間的實際增減情況。 此視覺效果清楚地顯示在 2014 年 6 月減少的一個重要參與者 -- 在此案例中為 [州]。 [州] 的細節對整體單位的影響，就是路易斯安那州、德克薩斯州與科羅拉多州的下降扮演最重要的角色。      
+![顯示已選取之瀑布圖圖示的小型螢幕擷取畫面](media/end-user-analyze-visuals/power-bi-waterfall-icon.png)
+
+第四個視覺效果是瀑布圖，其顯示不同時段之間的實際增減情況。 此視覺效果清楚地顯示在 2014 年 6 月減少的一個重要參與者 -- 在此案例中為 [州]。 而**州**的細節對整體單位的影響，就是路易斯安那州、德克薩斯州與科羅拉多州的衰退扮演了最重要的角色。      
 
 ![瀑布圖](media/end-user-analyze-visuals/power-bi-insight.png)
 
@@ -120,6 +128,6 @@ Power BI 接著會對資料執行其機器學習演算法，並於視窗中填�
 
 ## <a name="next-steps"></a>後續步驟
 [瀑布圖](../visuals/power-bi-visualization-waterfall-charts.md)    
-[散佈圖](../visuals/power-bi-visualization-scatter.md)
-[直條圖](../visuals/power-bi-report-visualizations.md)
-[緞帶圖](../visuals/desktop-ribbon-charts.md)
+[散佈圖](../visuals/power-bi-visualization-scatter.md)    
+[直條圖](../visuals/power-bi-report-visualizations.md)    
+[功能區圖表](../visuals/desktop-ribbon-charts.md)

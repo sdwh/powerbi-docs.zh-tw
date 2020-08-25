@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: d82f09fa4c545129bbd1032041dcfab6f4f67901
-ms.sourcegitcommit: a07fa723bb459494c60cf6d749b4554af723482a
+ms.openlocfilehash: ebb0107b158e505a8095b4c8f6b6b32731e7e98d
+ms.sourcegitcommit: 642b0c04d3ff3aa4d5422ca5054a5a158fb01b22
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "84739337"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88512923"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>教學課程：開發 Power BI 視覺效果
 
@@ -130,7 +130,7 @@ ms.locfileid: "84739337"
 4. 關閉任何已開啟的瀏覽器。
 
 > [!NOTE]
-> 如果系統無法辨識憑證，您可能需要重新啟動電腦。
+> 如果系統無法辨識憑證，您可能需要重新啟動電腦。 某些瀏覽器 (例如 Firefox) 會要求您信任自我簽署憑證。 若要這麼做，請瀏覽至 webpack 伺服器頁面 https://localhost:8080/webpack-dev-server) ，並承擔風險。
 
 ## <a name="creating-a-custom-visual"></a>建立自訂視覺效果
 
@@ -221,11 +221,11 @@ ms.locfileid: "84739337"
 
 在此節中，我們將會上傳 Power BI Desktop 報表，然後編輯要顯示自訂視覺效果的報表，以測試 CircleCard 自訂視覺效果。
 
-1. 登入 [PowerBI.com](https://powerbi.microsoft.com/) > 移至**齒輪圖示** > 然後選取 [設定]  。
+1. 登入 [PowerBI.com](https://powerbi.microsoft.com/) > 移至**齒輪圖示** > 然後選取 [設定]****。
 
       ![Power BI 設定](media/custom-visual-develop-tutorial/power-bi-settings.png)
 
-2. 選取 [開發人員]  ，然後選取 [啟用開發人員視覺效果以供測試]  核取方塊。
+2. 選取 [開發人員]****，然後選取 [啟用開發人員視覺效果以供測試]**** 核取方塊。
 
     ![[開發人員] 頁面設定](media/custom-visual-develop-tutorial/developer-page-settings.png)
 
@@ -237,17 +237,17 @@ ms.locfileid: "84739337"
 
     ![取得資料](media/custom-visual-develop-tutorial/get-data.png) ![本機檔案](media/custom-visual-develop-tutorial/local-file.png)
 
-    現在要檢視報表，從左側導覽窗格中的 [報表]  區段中選取 [US_Sales_Analysis]  。
+    現在要檢視報表，從左側導覽窗格中的 [報表]**** 區段中選取 [US_Sales_Analysis]****。
 
     ![自訂視覺效果 Desktop 範例](media/custom-visual-develop-tutorial/custom-visual-sample.png)
 
 4. 現在，您需要在 Power BI 服務中編輯報表。
 
-    移至 [編輯報表]  。
+    移至 [編輯報表]****。
 
     ![編輯報表](media/custom-visual-develop-tutorial/edit-report.png)
 
-5. 從 [視覺效果]  窗格選取 [開發人員視覺效果]  。
+5. 從 [視覺效果]**** 窗格選取 [開發人員視覺效果]****。
 
     ![開發人員視覺效果](media/custom-visual-develop-tutorial/developer-visual.png)
 
@@ -365,11 +365,11 @@ ms.locfileid: "84739337"
     code .
     ```
 
-6. 在 [檔案總管]  窗格中，展開 [node_modules]  資料夾，以確認已經安裝 **D3 程式庫**。
+6. 在 [檔案總管]**** 窗格中，展開 [node_modules]**** 資料夾，以確認已經安裝 **D3 程式庫**。
 
     ![Visual Studio Code 中的 D3 程式庫](media/custom-visual-develop-tutorial/d3-library.png)
 
-7. 確定已新增 **index.d.ts** 檔案，方式是展開[檔案總管窗格]  中的 node_modules > @types > d3。
+7. 確定已新增 **index.d.ts** 檔案，方式是展開[檔案總管窗格]**** 中的 node_modules > @types > d3。
 
     ![Index.d.ts 檔案](media/custom-visual-develop-tutorial/index-d-ts.png)
 
@@ -377,7 +377,7 @@ ms.locfileid: "84739337"
 
 現在我們可以探索如何開發自訂視覺效果，以顯示圓形與範例文字。
 
-1. 在 [檔案總管]  窗格中，展開 [src]  資料夾，然後選取 [visual.ts]  。
+1. 在 [檔案總管]**** 窗格中，展開 [src]**** 資料夾，然後選取 [visual.ts]****。
 
     > [!Note]
     > 請注意在 **visual.ts** 檔案頂端的註解。 使用 Power BI 自訂視覺效果的權限是根據 MIT 授權的規定免費授與的。 根據該合約所規定，您必須將註解保留在檔案頂端。
@@ -452,7 +452,7 @@ ms.locfileid: "84739337"
 
     此程式碼會在視覺效果中新增 SVG 群組，然後新增三個圖形：一個圓形與兩個文字元素。
 
-    若要設定文件中程式碼的格式，請在 **Visual Studio Code 文件**中以滑鼠右鍵選取任一處，然後選取 [格式化文件]  。
+    若要設定文件中程式碼的格式，請在 **Visual Studio Code 文件**中以滑鼠右鍵選取任一處，然後選取 [格式化文件]****。
 
       ![格式化文件](media/custom-visual-develop-tutorial/format-document.png)
 
@@ -492,11 +492,11 @@ ms.locfileid: "84739337"
         .style("font-size", fontSizeLabel + "px");
     ```
 
-    此程式碼會設定視覺效果的寬與高，然後將視覺效果元素的的屬性與樣式初始化。 
+    此程式碼會設定視覺效果的寬與高，然後將視覺效果元素的的屬性與樣式初始化。**
 
 6. 儲存 **visual.ts** 檔案。
 
-7. 選取 [capabilities.json]  檔案。
+7. 選取 [capabilities.json]**** 檔案。
 
     在第 14 行，移除整個物件元素 (第 14-60 行)。
 
@@ -511,13 +511,13 @@ ms.locfileid: "84739337"
 ### <a name="toggle-auto-reload"></a>切換自動重新載入
 
 1. 瀏覽回到 Power BI 報表。
-2. 在開發人員視覺效果上方浮動的工具列中，選取 [切換自動重新載入]  。
+2. 在開發人員視覺效果上方浮動的工具列中，選取 [切換自動重新載入]****。
 
     ![切換自動重新載入](media/custom-visual-develop-tutorial/toggle-auto-reload.png)
 
     此選項可確保您每次儲存專案變更時，視覺效果都會自動重新載入。
 
-3. 從 [欄位]  窗格中，將 [Quantity]  \(數量\) 欄位拖曳到開發人員視覺效果中。
+3. 從 [欄位]**** 窗格中，將 [Quantity]**** \(數量\) 欄位拖曳到開發人員視覺效果中。
 
 4. 確認視覺效果看起來像下面這樣。
 
@@ -574,7 +574,7 @@ ms.locfileid: "84739337"
 
 5. 儲存 **capabilities.json** 檔案。
 
-6. 在 Power BI 中，請注意視覺效果現在可以使用 [Measure]  \(量值\) 來設定。
+6. 在 Power BI 中，請注意視覺效果現在可以使用 [Measure]**** \(量值\) 來設定。
 
     ![數量量值](media/custom-visual-develop-tutorial/quantity_measure.png)
 
@@ -583,19 +583,19 @@ ms.locfileid: "84739337"
 
 ### <a name="exploring-the-dataview"></a>探索資料檢視
 
-1. 在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]  。
+1. 在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]****。
 
     ![顯示資料檢視](media/custom-visual-develop-tutorial/show-dataview-toolbar.png)
 
-2. 向下展開到 [single]  ，然後注意該值。
+2. 向下展開到 [single]****，然後注意該值。
 
     ![向下展開到值](media/custom-visual-develop-tutorial/value-display-in-visual.png)
 
-3. 向下展開到 [metadata]  中，然後到 [columns]  陣列中，並請特別注意 [format]  與 [displayName]  值。
+3. 向下展開到 [metadata]**** 中，然後到 [columns]**** 陣列中，並請特別注意 [format]**** 與 [displayName]**** 值。
 
     ![Displayname 值](media/custom-visual-develop-tutorial/displayname-and-format-metadata.png)
 
-4. 若要切換回到視覺效果，在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]  。
+4. 若要切換回到視覺效果，在視覺效果上方浮動的工具列中，選取 [顯示資料檢視]****。
 
     ![切換回](media/custom-visual-develop-tutorial/show-dataview-toolbar-revert.png)
 
@@ -637,7 +637,7 @@ ms.locfileid: "84739337"
 
 4. 儲存 **visual.ts** 檔案。
 
-5. 在 [Power BI]  中，檢閱視覺效果，它現在會顯示值與顯示名稱。
+5. 在 [Power BI]**** 中，檢閱視覺效果，它現在會顯示值與顯示名稱。
 
 您現在已經設定資料角色，並將視覺效果繫結到資料檢視。
 
@@ -650,4 +650,4 @@ ms.locfileid: "84739337"
 ## <a name="next-steps"></a>後續步驟
 
 > [!div class="nextstepaction"]
-> [新增格式設定選項](custom-visual-develop-tutorial-format-options.md)
+> [其他格式設定選項](custom-visual-develop-tutorial-format-options.md)
