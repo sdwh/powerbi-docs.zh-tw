@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 934916784df57b901fc2bbd45afa551b0dc3636e
-  ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+  ms.openlocfilehash: 33affa71190eb7441822dd57d9e50feb9f7fead1
+  ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/09/2020
-  ms.locfileid: "86162313"
+  ms.lasthandoff: 08/25/2020
+  ms.locfileid: "88803012"
 landingContent:
 - title: Power BI 指導
   linkLists:
@@ -139,6 +139,26 @@ landingContent:
       url: report-performance-troubleshoot.md
     - text: 部署管線最佳做法
       url: ../create-reports/deployment-pipelines-best-practices.md
+- title: 移轉到 Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: 移轉概觀
+      url: powerbi-migration-overview.md
+    - text: 準備移轉
+      url: powerbi-migration-pre-migration-steps.md
+    - text: 收集需求
+      url: powerbi-migration-requirements.md
+    - text: 規劃部署
+      url: powerbi-migration-planning.md
+    - text: 進行概念證明
+      url: powerbi-migration-proof-of-concept.md
+    - text: 建立內容
+      url: powerbi-migration-create-validate-content.md
+    - text: 部署到 Power BI
+      url: powerbi-migration-deploy-support-monitor.md
+    - text: 從客戶 Power BI 移轉中學習
+      url: powerbi-migration-learn-from-customers.md
 - title: 卓越中心 (COE)
   linkLists:
   - linkListType: concept
