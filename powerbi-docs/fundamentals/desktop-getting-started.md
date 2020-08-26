@@ -3,18 +3,19 @@ title: 開始使用 Power BI Desktop
 description: 開始使用 Power BI Desktop。
 author: davidiseminger
 ms.reviewer: ''
+ms.custom: contperfq1
 ms.service: powerbi
 ms.subservice: powerbi-desktop
-ms.topic: how-to
-ms.date: 07/23/2020
+ms.topic: tutorial
+ms.date: 08/19/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 62f0f6d9bac3b8451f3c5efc70612c2ef067aed4
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: ec18bb94d7329d4b918f16465dd839a69c3fd973
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252789"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638834"
 ---
 # <a name="get-started-with-power-bi-desktop"></a>開始使用 Power BI Desktop
 歡迎使用 Power BI Desktop 使用者入門指南。 此導覽說明 Power BI Desktop 的運作方式和功能，並說明如何建置穩固的資料模型和令人讚嘆的報表，來增強您的商業智慧。
