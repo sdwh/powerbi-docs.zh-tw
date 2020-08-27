@@ -2,7 +2,7 @@
   href: index.yml
   expanded: true
   items:
-    - name: 總覽
+    - name: 概觀
       expanded: true
       items:
         - name: Power BI 中的資料來源
@@ -28,8 +28,6 @@
           href: desktop-tutorial-row-level-security-onprem-ssas-tabular.md
         - name: 連線到 GitHub 範例
           href: service-tutorial-connect-to-github.md
-        - name: 使用 Excel 分析
-          href: ../collaborate-share/service-tutorial-analyze-in-excel.md
         - name: 使用認知服務
           href: service-tutorial-use-cognitive-services.md
         - name: 機器學習服務整合
