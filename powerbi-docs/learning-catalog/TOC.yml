@@ -24,4 +24,4 @@
     - name: 解決方案結構設計師
       href: learning-catalog-solution-architect.md
     - name: DAX 簡介
-      href: ../guided-learning/introductiontodax.yml?tutorial-step=1
+      href: 'https://docs.microsoft.com/learn/paths/dax-power-bi/'
