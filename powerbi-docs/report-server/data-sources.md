@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/04/2020
 ms.author: maggies
-ms.openlocfilehash: 00c00ca7bbd7ad3f901c98f44a2900f332e3616a
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: 9dface817b9ec5421ba9ea93abb8037e3e70029d
+ms.sourcegitcommit: 4130e5e6947b809df628370cc80c00194243468d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837604"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88857807"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Power BI 報表資料來源
 Power BI 報表可以連接到數種資料來源。 根據使用資料的方式而定，可以使用不同的資料來源。 可以匯入資料，或者使用 DirectQuery 或與 SQL Server Analysis Services 的即時連線，直接查詢資料。 某些資料來源會在已針對 Power BI 報表伺服器進行最佳化，但未針對發佈至 Power BI 報表伺服器的 Power BI 報表進行最佳化的 Power BI Desktop 中受到支援。 請參閱下列清單，以取得這兩個位置中均支援的資料來源。
@@ -209,6 +209,8 @@ Power BI 報表伺服器對 DirectQuery 不支援 OAuth 型驗證。
 
 ## <a name="next-steps"></a>後續步驟
 
-Power BI 服務中 [Power BI 報表的資料來源[(../connect-data/power-bi-data-sources.md)。現在您已連線到資料來源，請使用來自該資料來源的資料來[建立 Power BI 報表](quickstart-create-powerbi-report.md)。
+Power BI 服務中 [Power BI 報表的資料來源](../connect-data/power-bi-data-sources.md)
+
+您現在已經連接到您的資料來源，接著可以使用來自該資料來源的資料[建立 Power BI 報表](quickstart-create-powerbi-report.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 070dfd4048c494f9a1865603be4e692231f771f5
-ms.sourcegitcommit: 9b193dc155a306738a23b6bf20bcc424b8c64afd
+ms.openlocfilehash: f282db76417fb99f07d39bb9f684515dd1d312c0
+ms.sourcegitcommit: ae6559f40e1735d53654cbe9425add6e18171295
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/15/2020
-ms.locfileid: "88247132"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88764966"
 ---
 # <a name="automatic-page-refresh-in-power-bi"></a>Power BI 的自動重新整理頁面
 
@@ -68,7 +68,7 @@ Power BI 中的自動重新整理頁面功能，可讓您作用中的報表頁�
 
 ![[變更偵測] 卡](media/desktop-automatic-page-refresh/automatic-page-refresh-03.png)
 
-開啟視窗之後，您會看到 [量值類型] 選項，您可以在此選取現有的量值，或從頭開始建立新的量值。 當選取現有的量值時，您只要從欄位清單中選取想要的量值，或將其拖放至 [Choose existing measure] \(選擇現有量值\) 區段。 建立新量值時，您可以 [選擇計算] 計數、計數相異、最小值、最大值與總計間的量值。 例如，您可以使用計數相異來計算客戶識別碼，並只在新客戶新增至清單時才重新整理。 一旦您選取了量值，就必須定義 Power BI [檢查變更] 的頻率。 這就是 Power BI 計算量值與輪詢變更的頻率間隔。 按一下 [套用] 之後，附帶變更偵測圖示的新量值就會出現在您的欄位清單中。
+開啟視窗之後，會顯示 [量值類型] 選項，您可以在此選取現有的量值，或從頭開始建立新的量值。 當選取現有的量值時，您只要從欄位清單中選取想要的量值，或將其拖放至 [Choose existing measure] \(選擇現有量值\) 區段。 建立新量值時，您可以 [選擇計算] 計數、計數相異、最小值、最大值與總計間的量值。 例如，您可以使用計數相異來計算客戶識別碼，並只在新客戶新增至清單時才重新整理。 一旦您選取了量值，就必須定義 Power BI [檢查變更] 的頻率。 這就是 Power BI 計算量值與輪詢變更的頻率間隔。 按一下 [套用] 之後，附帶變更偵測圖示的新量值就會出現在您的欄位清單中。
 
 ![[變更偵測] 視窗](media/desktop-automatic-page-refresh/automatic-page-refresh-04.png)
 

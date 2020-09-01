@@ -6,24 +6,31 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 81dda3c2bc3558ba68a16ee3f3070e748f76f15b
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: fe55c789f5af644a802bc5c5f648315744a074be
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939977"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638633"
 ---
 # <a name="bi-solution-architecture-in-the-center-of-excellence"></a>卓越中心內的 BI 方案架構
 
 本文的對象是 IT 專業人員和 IT 管理員。 您將了解 COE 中 BI 方案架構和所採用的不同技術。 這些技術包括 Azure、Power BI 和 Excel。 您可利用這些技術來傳遞可調整和資料驅動的雲端 BI 平台。
 
-設計強固的 BI 平台，即如同建造將轉換和擴充來源資料連接到資料取用者的橋樑。 設計這種複雜的結構需要工程思維，雖然這種結構可能會是所設計結構中最富創意及成就感最高的 IT 結構。
+設計強固的 BI 平台，即如同建造將轉換和擴充來源資料連接到資料取用者的橋樑。 設計這種複雜的結構需要工程思維，雖然這種結構可能會是所設計結構中最富創意及成就感最高的 IT 結構。 在大型組織中，BI 方案架構可以包含下列各項：
+
+- 資料來源
+- 資料擷取
+- 巨量資料/資料準備
+- 資料倉儲
+- BI 語意模型
+- 報表
+
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="顯示 BI 平台架構圖的圖表，從資料來源，到資料擷取、巨量資料、存放區、資料倉儲、BI 語意模型、報告和機器學習。":::
 
 平台必須支援特定需求。 具體而言，其必須進行縮放及執行，以符合商務服務和資料取用者的預期。 同時，其必須從一開始便是安全的。 此外，其必須具備足夠的彈性以適應變更，因為隨著時間的進展，一定會有新的資料和主題領域上線。
-
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-business-intelligence-platform.png" alt-text="顯示 BI 平台結構圖表的影像，其中包含資料來源和資料擷取、巨量資料、存放區、資料倉儲、報告和機器學習。":::
 
 ## <a name="frameworks"></a>架構
 
@@ -40,7 +47,7 @@ ms.locfileid: "85939977"
 BI 平台可傳遞三種不同的模型類型：
 
 - 企業模型
-- BI 模型
+- BI 語意模型
 - 機器學習 (ML) 模型
 
 ### <a name="enterprise-models"></a>企業模型
@@ -51,17 +58,15 @@ BI 平台可傳遞三種不同的模型類型：
 
 在雲端 BI 平台中，企業模型可部署到 [Azure Synapse 中的 Synapse SQL 集區](/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-what-is#synapse-sql-pool-in-azure-synapse)。 Synapse SQL 集區接著會成為組織可信任的單一事實版本，用來取得快速且強固的見解。
 
-### <a name="bi-models"></a>BI 模型
+### <a name="bi-semantic-models"></a>BI 語意模型
 
-**BI 模型** 代表企業模型上的語意層。 這些模型由 BI 開發人員和商務使用者所建置及維護。 BI 開發人員會建立從企業模型取得來源資料的核心 BI 模型。 商務使用者可建立規模較小的獨立模型，或使用部門或外部來源延伸核心 BI 模型。 BI 模型通常會聚焦於單一主題領域，且通常會廣泛共用。
+**BI 語意模型**代表企業模型上的語意層。 這些模型由 BI 開發人員和商務使用者所建置及維護。 BI 開發人員會建立從企業模型取得來源資料的核心 BI 語意模型。 商務使用者可建立規模較小的獨立模型，或是使用部門或外部來源，延伸核心 BI 語意模型。 BI 語意模型通常會聚焦於單一主題領域，且通常會廣泛共用。
 
-商務功能不單純是由資料啟用的，也是由描述概念、關係、規則和標準的 BI 模型所啟用。 透過這種方式，其可代表直覺且易於了解的結構，以定義資料關係並將商務規則作為計算封裝。 這些模型也可以強制施行細部資料權限，確保正確的人員能夠存取正確資料。 重要的是，這些模型可加速查詢效能，提供回應性極佳的互動分析，即使資料高達數 TB 也一樣。 與企業模型相似，BI 模型採用確保一致性的命名慣例。
+商務功能不單純是由資料啟用的，也是由描述概念、關係、規則和標準的 BI 語意模型所啟用。 透過這種方式，其可代表直覺且易於了解的結構，以定義資料關係並將商務規則作為計算封裝。 這些模型也可以強制施行細部資料權限，確保正確的人員能夠存取正確資料。 重要的是，這些模型可加速查詢效能，提供回應性極佳的互動分析，即使資料高達數 TB 也一樣。 與企業模型相似，BI 語意模型會採用命名慣例，確保一致性。
 
-在雲端 BI 平台中，BI 開發人員可將 BI 模型部署到 [Azure Analysis Service](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)。 若將其作為報告和分析層使用，則建議部署到 Power BI。 這些產品支援不同的儲存體模型，可供資料模型資料表快取資料或使用 [DirectQuery](directquery-model-guidance.md)，這是一種將查詢傳遞至基礎資料來源的技術。 當模型資料表代表大量資料，或需要傳遞近乎即時的結果時，DirectQuery 即為理想的儲存體模型。 您可合併兩個儲存體模式：[複合模型](composite-model-guidance.md)會在單一模型中合併使用不同儲存體模式的資料表。
+在雲端 BI 平台中，BI 開發人員可將 BI 語意模型部署到 [Azure Analysis Service](/azure/analysis-services/) 或 [Power BI Premium 容量](../admin/service-premium-what-is.md#dedicated-capacities)。 若將其作為報告和分析層使用，則建議部署到 Power BI。 這些產品支援不同的儲存體模型，可供資料模型資料表快取資料或使用 [DirectQuery](directquery-model-guidance.md)，這是一種將查詢傳遞至基礎資料來源的技術。 當模型資料表代表大量資料，或需要傳遞近乎即時的結果時，DirectQuery 即為理想的儲存體模型。 您可合併兩個儲存體模式：[複合模型](composite-model-guidance.md)會在單一模型中合併使用不同儲存體模式的資料表。
 
-針對大量查詢的模型，您可使用 [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) 來將查詢負載平均分散到模型複本。 其也可供調整應用程式大小，並建立高度可用的 BI 模型。
-
-<!-- For more information on BI models, see [BI modeling and processing in the COE](https://TODO/).-->
+針對大量查詢的模型，您可使用 [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) 來將查詢負載平均分散到模型複本。 其也可供調整應用程式大小，並建立高度可用的 BI 語意模型。
 
 ### <a name="machine-learning-models"></a>機器學習模型
 
@@ -134,7 +139,7 @@ ADLS Gen2 提供兩個世界的最佳選項：其是 BLOB 儲存體，也是高�
 
 在報告層中，商務服務會取用來自資料倉儲的企業資料。 其也會直接存取資料湖中的資料，以進行臨機分析或資料科學工作。
 
-細部權限會在所有層上強制施行：在資料湖、企業模型，以及 BI 模型中。 權限可確保資料取用者只會看見其具備存取權限的資料。
+細部權限會在所有層上強制施行：在資料湖、企業模型，以及 BI 語意模型中。 權限可確保資料取用者只會看見其具備存取權限的資料。
 
 在 Microsoft，我們使用 Power BI 報表和儀表板，以及 [Power BI 編頁報表](../paginated-reports/paginated-reports-report-builder-power-bi.md)。 某些報告和臨機分析則會在 Excel 中完成，特別是財務報告。
 
@@ -142,11 +147,11 @@ ADLS Gen2 提供兩個世界的最佳選項：其是 BLOB 儲存體，也是高�
 
 一般而言，資料取用模式會因角色而不同：
 
-- **資料分析師**會直接連線到核心 BI 模型。 當核心 BI 模型包含所有其需要的資料和邏輯時，資料分析師會使用即時連線來建立 Power BI 報表和儀表板。 當其需要使用部門資料延伸模型時，資料分析師會建立 Power BI [複合模型](composite-model-guidance.md)。 若需要試算表樣式的報表，資料分析師即會根據核心 BI 模型或部門 BI 模型來使用 Excel 以產生報表。
-- **BI 開發人員**和作業報表作者會直接連線到企業模型。 這些開發人員會使用 Power BI Desktop 建立即時連線分析報表。 開發人員也可將作業類型的 BI 報表作為 Power BI 編頁報表編寫、使用 T-SQL 撰寫原生 SQL 查詢來存取 Azure Synapse Analytics 企業模型的資料，或使用 DAX 或 MDX 存取 Power BI 模型的資料。
+- **資料分析師**會直接連線到核心 BI 語意模型。 當核心 BI 語意模型包含所有其需要的資料和邏輯時，資料分析師會使用即時連線來建立 Power BI 報表和儀表板。 當其需要使用部門資料延伸模型時，資料分析師會建立 Power BI [複合模型](composite-model-guidance.md)。 若需要試算表樣式的報表，資料分析師即會根據核心 BI 語意模型或部門 BI 語意模型，使用 Excel 產生報表。
+- **BI 開發人員**和作業報表作者會直接連線到企業模型。 這些開發人員會使用 Power BI Desktop 建立即時連線分析報表。 開發人員也可將作業類型的 BI 報表作為 Power BI 編頁報表編寫、使用 T-SQL 撰寫原生 SQL 查詢來存取 Azure Synapse Analytics 企業模型的資料，或是使用 DAX 或 MDX 存取 Power BI 語意模型的資料。
 - **資料科學家**會直接連線到資料湖中的資料。 資料科學家會使用 Azure Databricks 和 Python notebook 來開發 ML 模型，這些模型通常是實驗性的，且需要特殊技術才能用於生產用途。
 
-:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="顯示搭配 Power BI 和 Azure Machine Learning 取用 Azure Synapse Analytics 的影像。":::
+:::image type="content" source="media/center-of-excellence-business-intelligence-solution-architecture/azure-data-warehouse-consumption.png" alt-text="圖片顯示搭配 Power BI、Excel 和 Azure Machine Learning 使用 Azure Synapse Analytics。":::
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -155,3 +160,9 @@ ADLS Gen2 提供兩個世界的最佳選項：其是 BLOB 儲存體，也是高�
 - [Azure 中搭配 Azure Synapse Analytics 的企業 BI](/azure/architecture/reference-architectures/data/enterprise-bi-synapse)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+
+### <a name="professional-services"></a>專業服務
+
+認證 Power BI 合作夥伴可協助貴組織成功設定 COE。 他們可為您提供符合成本效益的訓練或資料稽核。 若要與 Power BI 合作夥伴交流，請造訪 [Power BI 合作夥伴入口網站](https://powerbi.microsoft.com/partners/)。
+
+您也可以與經驗豐富的諮詢合作夥伴進行互動。 他們可協助您[評定](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[評估](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)或[實作](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI。

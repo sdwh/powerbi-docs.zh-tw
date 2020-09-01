@@ -1,25 +1,26 @@
 ---
-title: Power BI 取用者字彙
-description: Power BI 引進許多新詞彙和熟悉詞彙的新用法。 使用我們的字彙來熟悉 Power BI 術語。
+title: Power BI 企業用戶詞彙
+description: Power BI 引進許多新詞彙和熟悉詞彙的新用法。 使用字彙來熟悉 Power BI 服務術語。
 services: power-bi
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: conceptual
-ms.date: 07/08/2020
+ms.topic: reference
+ms.date: 08/24/2020
+ms.custom: contperfq1
 ms.author: mihart
-ms.openlocfilehash: f5ed2252836ecda364ca53904c2cccbae9f9b7e6
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: cd562d8fe689c2ae82ee1cacfc9e02393a5992f9
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215616"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803035"
 ---
-# <a name="glossary-for-power-bi-service"></a>Power BI 服務字彙    
+# <a name="glossary-for-business-users-of-the-power-bi-service"></a>Power BI 服務企業用戶詞彙    
 Power BI 服務可能會引進不熟悉或令人困惑的術語。 字彙是查詢術語的良好位置，您甚至可能會想要將其加入書籤。 另一個了解組成 Power BI 服務建置組塊的絶佳資源是[基本概念](end-user-basic-concepts.md)。 基本概念提供 Power BI「零件」及其連線方式的高階概觀。
 
-此字彙歸功於社群。  看不到文字嗎？ 請向我們要求新增它 (您可以使用本文底部的文件意見反應按鈕)。
+此字彙歸功於社群。  看不到文字嗎？ 請要求我們新增它 (您可使用本文底部的文件意見反應按鈕)。
 
 ## <a name="a"></a>A
 

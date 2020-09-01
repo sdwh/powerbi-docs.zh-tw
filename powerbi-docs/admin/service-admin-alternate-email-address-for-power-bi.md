@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/23/2019
 ms.author: kfollis
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d2d28d8ea3f7e2e7217124483f90ecc28d44314f
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 0cc691e8987bf45f6c3028a5006955db1da72b0b
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161689"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638788"
 ---
 # <a name="use-an-alternate-email-address"></a>使用備用電子郵件地址
 
@@ -23,7 +23,7 @@ ms.locfileid: "86161689"
 在某些情況下，您可能想要讓這些電子郵件傳送到備用電子郵件地址，而非您用來註冊的電子郵件地址。 本文說明如何在 Microsoft 365 與在 PowerShell 中指定備用地址。 本文也說明 Azure Active Directory (Azure AD) 解析電子郵件地址的方式。
 
 > [!NOTE]
-> 指定備用電子郵件地址不會影響 Power BI 用於服務更新、電子報與其他促銷通訊的電子郵件地址。 那些通訊一律會傳送到您在註冊 Power BI 時使用的電子郵件地址。
+> 指定備用地址不會影響 Power BI 用於電子郵件訂閱、服務更新、電子報與其他促銷通訊的電子郵件地址。 那些通訊一律會傳送到您在註冊 Power BI 時使用的電子郵件地址。
 
 ## <a name="use-microsoft-365"></a>使用 Microsoft 365
 

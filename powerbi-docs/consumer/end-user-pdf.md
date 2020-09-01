@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4f02a98ca13bd5808bde987889c3f4404c9100f0
-ms.sourcegitcommit: 65822b51810a5239fea9d3d0af1fc286436c6cad
+ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
+ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87837489"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "88702666"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -68,6 +68,7 @@ ms.locfileid: "87837489"
 * 具有異常自訂頁面大小的報表可能會在匯出案例中遇到問題。 為獲得最佳結果，請考慮切換到報表的標準頁面大小。
 * 匯出至 PDF 時，使用主題與自訂字型的報表會以預設字型取代自訂字型。
 * 雖然我們希望提供一致的體驗，但無法保證從 Power BI 服務匯出的 PDF 將一律符合從本機 Power BI Desktop 檔案匯出的 PDF。
+* 匯出至 PDF 時，無法保證 PBIX 報表的像素完全精確。
 
 ## <a name="next-steps"></a>後續步驟
 [列印報表](end-user-print.md)

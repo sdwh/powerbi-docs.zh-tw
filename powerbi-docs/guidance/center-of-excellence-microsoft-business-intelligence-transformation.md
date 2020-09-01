@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 8e1e590f871e1840209e72eb611bde7b21610c6e
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b4f86a0e3316cc774b0f1562112f0d6e5b19a4f
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162359"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638696"
 ---
 # <a name="microsofts-bi-transformation"></a>Microsoft BI 轉換
 
@@ -53,9 +53,9 @@ ms.locfileid: "86162359"
 
 **Starlight** 是提供給內部資料統一和分析平台的名稱，這個平台可支援財務、銷售、行銷和工程。 其任務是提供健全、共用且可擴充的資料平台。 此平台完全是由財務部門所建立，並使用最新的 Microsoft 產品繼續運作至今。
 
-**KPI Lake** 不是 Azure Data Lake。 而是使用 Microsoft SQL Server Analysis Services 且裝載於 Azure IaaS 中的 Starlight 驅動表格式模型。 表格式模型提供來自超過 100 個內部來源的資料，並定義許多階層和 KPI。 其任務是在財務、行銷和銷售之間啟用企業績效報告和分析小組。 它會透過相關來源中統一模型來取得及時、準確且執行良好的見解。
+**KPI Lake** 不是 Azure Data Lake。 而是使用 Microsoft SQL Server Analysis Services 且裝載於 Azure IaaS 中的 Starlight 驅動表格式 BI 語意模型。 BI 語意模型提供來自超過 100 個內部來源的資料，並定義許多階層和 KPI。 其任務是在財務、行銷和銷售之間啟用企業績效報告和分析小組。 它會透過相關來源中統一 BI 語意模型來取得及時、準確且執行良好的見解。
 
-一開始部署時是令人興奮的時刻，因為表格式模型會產生立即且可測量的優點。 第一個版本集中在 C+E 財務和行銷 BI 平台。 過去六年來，它經過擴充，合併其他的商務見解解決方案。 今天，它仍持續演進，並協助全球和商業企業評論，以及標準報告和 SSBI。 其採用在發行之後飆升到 5 倍，遠遠超出我們最初的期望。
+一開始部署時是令人興奮的時刻，因為表格式 BI 語意模型會產生立即且可測量的優點。 第一個版本集中在 C+E 財務和行銷 BI 平台。 過去六年來，它經過擴充，合併其他的商務見解解決方案。 今天，它仍持續演進，並協助全球和商業企業評論，以及標準報告和 SSBI。 其採用在發行之後飆升到 5 倍，遠遠超出我們最初的期望。
 
 以下是主要優點的摘要：
 
@@ -71,8 +71,8 @@ ms.locfileid: "86162359"
 Starlight 平台會管理從取得到處理，然後一直到發佈的資料程序：
 
 1. 穩固且敏捷的資料整合會以排定方式進行，並從超過 100 個不同的原始來源合併資料。 來源資料系統包含關聯式資料庫、Azure Data Lake Storage 和 Azure Synapse 資料庫。 主題領域包括財務、行銷、銷售和工程。
-2. 暫存之後，資料會使用主要資料和商務邏輯來進行遵從與強化。 然後會載入至資料倉儲資料表。 接著會重新整理表格式模型。
-3. 整個公司的分析師會使用 Excel 和 Power BI，從表格式模型提供見解和分析。 而且，它可讓企業主捍衛自己企業的計量定義。 必要時，可使用 Azure IaaS 搭配負載平衡來達到調整。
+2. 暫存之後，資料會使用主要資料和商務邏輯來進行遵從與強化。 然後會載入至資料倉儲資料表。 接著會重新整理表格式 BI 語意模型。
+3. 整個公司的分析師會使用 Excel 和 Power BI，從表格式 BI 語意模型提供見解和分析。 而且，它可讓企業主捍衛自己企業的計量定義。 必要時，可使用 Azure IaaS 搭配負載平衡來達到調整。
 
 ## <a name="deliver-success"></a>實現成功
 
@@ -86,10 +86,16 @@ Starlight 平台會管理從取得到處理，然後一直到發佈的資料程�
 
 ## <a name="next-steps"></a>後續步驟
 
-在[此系列的下一篇文章](center-of-excellence-establish.md)中，了解 COE 如何在 Microsoft 協助立標準化的分析和資料平台，以從資料顯露見解。
-
 如需本文的詳細資訊，請參閱下列資源︰
 
 - [建立卓越中心](center-of-excellence-establish.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+
+在[此系列的下一篇文章](center-of-excellence-establish.md)中，了解 COE 如何在 Microsoft 協助立標準化的分析和資料平台，以從資料顯露見解。
+
+### <a name="professional-services"></a>專業服務
+
+認證 Power BI 合作夥伴可協助組織成功設定 COE。 其可提供符合成本效益的訓練或資料稽核。 若要與 Power BI 合作夥伴交流，請造訪 [Power BI 合作夥伴入口網站](https://powerbi.microsoft.com/partners/)。
+
+您也可以與經驗豐富的諮詢合作夥伴進行互動。 其可協助[評定](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[評估](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)或[實作](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI。

@@ -5,14 +5,14 @@ services: ''
 author: mihart
 ms.service: ''
 ms.topic: include
-ms.date: 02/11/2020
+ms.date: 08/19/2020
 ms.author: mihart
 ms.custom: include file
-ms.openlocfilehash: 21655eba010f0c687928b71a6e499d74cca7289d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 69ce36cfb02bbd42f70c1b80849b2d26fee206a5
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "77496412"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638989"
 ---
-<Token>**適用於：** ![是](media/yes.png) 適用於***取用者***的 Power BI 服務 ![是](media/yes.png) 適用於設計和開發人員的 Power BI 服務 ![否](media/no.png) Power BI Desktop ![是](media/yes.png) 需有 Pro 或 Premium 授權</Token>
+<Token>**適用於：** ![是](media/yes.png)適用於***企業用戶***的 Power BI 服務![是](media/yes.png)適用於設計與開發人員的 Power BI 服務![否](media/no.png)Power BI Desktop ![是](media/yes.png)需有 Pro 或 Premium 授權</Token>

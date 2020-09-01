@@ -10,12 +10,12 @@ ms.date: 06/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 3d50b8678abd54d2a4543b5a2d187f32b491b063
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 75b05449de47f39fc95fd7cf42f9325b7a5d0ee9
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427131"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638765"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -86,7 +86,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |  |透過 Office 365 安全性與合規性系統管理中心進行稽核|可用|可用|可用|
 |  |外部使用者共用|可用|可用|可用|
 |  |報表和儀表板的使用計量|可用|可用|可用|
-|  |GCC 與商業雲端之間的 Azure B2B|可用|可用|可用|
+|  |GCC 與商業雲端之間的 Azure B2B 共同作業<sup>1</sup>|可用|無法使用|無法使用|
 |報表建立|建立和檢視儀表板和報表|可用|可用|可用|
 |  |排定的資料重新整理|可用|可用|可用|
 |  |可重新整理的小組儀表板|可用|可用|可用|
@@ -108,6 +108,8 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |  |自動化 Machine Learning|無法使用|無法使用|無法使用|
 |  |Azure 認知服務|無法使用|無法使用|無法使用|
 |  |Azure Machine Learning|無法使用|無法使用|無法使用|
+
+<sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制詳細資訊，請[比較 Azure Government 及全域 Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) (英文)。
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -10,12 +10,12 @@ ms.date: 08/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Share your work
-ms.openlocfilehash: d7ad3722b609d76383a7a404ef94655ec9ef8711
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: e737d8747f7d6d9b69eda2035df06abdddd9569f
+ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578032"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88803081"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>使用 Power BI 中的儀表板和報表安裝並使用應用程式
 
@@ -27,7 +27,7 @@ ms.locfileid: "88578032"
 
 ## <a name="ways-to-get-a-new-app"></a>取得新應用程式的方式
 有數種方式可取得新的應用程式：
-* 您可以在 Power BI 中，從 Power BI 應用程式市集取得新的應用程式。
+* 您可以在 Power BI 服務中，從 Power BI 應用程式市集取得新的應用程式。
 * 您可直接連結至從應用程式設計人員接收的應用程式。 
 * 組織中的應用程式設計人員可在 Power BI 帳戶中自動安裝應用程式。
 
@@ -37,6 +37,8 @@ ms.locfileid: "88578032"
 並非所有的 Power BI 使用者都可檢視應用程式並與其互動。 
 - 如有免費授權，可以開啟儲存在 Premium 容量中與您共用的應用程式。  
 - 如有 Pro 授權，即可開啟與您共用的應用程式。
+
+所以若您無法開啟應用程式，請連絡您的系統管理員或技術支援中心。 如需授權的資訊，請參閱 [Power BI 授權](end-user-license.md)。
 
 ## <a name="get-the-app-from-the-power-bi-apps-marketplace"></a>從 Power BI 應用程式市集取得應用程式
 

@@ -6,14 +6,14 @@ ms.reviewer: asaxton
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/02/2020
+ms.date: 08/19/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9aab2afd9e3b4b86844c045ceb0346d57baa3e18
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 477b6a1e29fc05da3004a2dcf8466ef969df4531
+ms.sourcegitcommit: f73ea4b9116ad186817ec5cc5d5f487d49cc0cb0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939898"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88638604"
 ---
 # <a name="establish-a-center-of-excellence"></a>建立卓越中心
 
@@ -45,10 +45,10 @@ ms.locfileid: "85939898"
 
 共用功能是建立和操作 BI 平台的必要條件。 其支援所有為平台注資的專案關係人群組。 包含下列小組：
 
-- **核心平台工程：** 我們設計了具有工程思維的 BI 平台。 它其實是一組架構，可支援資料擷取、處理以豐富資料，以及在資料模型中交付該資料供分析師使用。 工程師負責核心 BI 平台功能的技術設計和實作。 例如，其會設計和實作資料管線。
+- **核心平台工程：** 我們設計了具有工程思維的 BI 平台。 它其實是一組架構，可支援資料擷取、處理以豐富資料，以及在 BI 語意模型中交付該資料供分析師使用。 工程師負責核心 BI 平台功能的技術設計和實作。 例如，其會設計和實作資料管線。
 - **基礎結構和裝載：** IT 工程師負責佈建和管理所有 Azure 服務。
 - **支援和作業：** 這個小組可讓平台保持執行。 支援會照顧使用者的需要，例如資料許可權等。 作業可讓平台保持執行，確保符合服務等級協定 (SLA)，並溝通延遲或失敗。
-- **發行管理：** 技術計畫經理 (PM) 會發行變更。 變更範圍從平台架構更新到對資料模型進行的變更要求。 這是確保變更不會中斷任何事情的最後防線。
+- **發行管理：** 技術計畫經理 (PM) 會發行變更。 變更範圍從平台架構更新到對 BI 語意模型進行的變更要求。 這是確保變更不會中斷任何事情的最後防線。
 
 ### <a name="dedicated-deliveries"></a>專用交付
 
@@ -60,13 +60,22 @@ ms.locfileid: "85939898"
 
 - **計畫經理：** PM 是專用資源。 其擔任 BI 小組與專案關係人之間的主要連絡人。 其工作是將專案關係人商務需求轉譯為技術規格。 並且，會管理專案關係人交付物的優先順序。
 - **資料庫負責人：** 其為負責將新資料集上線至集中式資料倉儲的專用資源。 將資料集上線可能需要設定符合標準的維度、新增商務邏輯和自訂屬性，以及標準名稱和格式設定。
-- **分析負責人：** 其為負責設計和開發資料模型的專用資源。 其致力於使用標準命名和格式設定來套用一致的架構。 效能最佳化是其角色中很重要的一部分。
+- **分析負責人：** 其為負責設計和開發 BI 語意模型的專用資源。 其致力於使用標準命名和格式設定來套用一致的架構。 效能最佳化是其角色中很重要的一部分。
 - **作業和基礎結構：** 其為負責管理作業和資料管線的共用資源。 其也負責管理 Azure 訂用帳戶、Power BI 容量、虛擬機器和資料閘道。
-- **支援：** 其為負責撰寫文件、組織定型、溝通資料模型變更及回答使用者問題的共用資源。
+- **支援：** 其為負責撰寫文件、組織定型、溝通 BI 語意模型變更及回答使用者問題的共用資源。
 
 ## <a name="governance-and-compliance"></a>治理和合規性
 
 針對每個專案關係人群組，PM 負責人提供跨計畫的控管和監督。 其覆寫目標是確保 IT 投資能夠產生商業價值並降低風險。 定期舉辦籌畫委員會會議，以審查進度並核准主要倡議。
+
+## <a name="grow-your-own-community"></a>擴大自有社群
+
+透過下列方式，在組織中建立並擴大社群：
+
+- 舉辦定期的「上班時間」活動，預留時間給 BI 小組，讓使用者可詢問問題、提出建議、分享想法，甚至提出抱怨。
+- 建立 Teams 頻道以提供支援，並鼓勵任何人詢問和回應張貼的問題。
+- 經營及推廣非正式使用者群組，並鼓勵員工出席或參加。
+- 針對特定產品和 BI 平台本身，舉辦更正式的訓練活動。 考慮提供 [Power BI 一日儀表板](https://powerbi.microsoft.com/diad/) (英文)，這是免費的課程套件，且是向員工首次介紹 Power BI 的絕佳方式。
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -75,3 +84,11 @@ ms.locfileid: "85939898"
 - [COE 中的 BI 解決方案架構](center-of-excellence-business-intelligence-solution-architecture.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
+
+在[此系列的下一篇文章](center-of-excellence-business-intelligence-solution-architecture.md)中，了解 COE 中 BI 方案架構和所採用的不同技術。
+
+### <a name="professional-services"></a>專業服務
+
+認證 Power BI 合作夥伴可協助組織成功設定 COE。 其可提供符合成本效益的訓練或資料稽核。 若要與 Power BI 合作夥伴交流，請造訪 [Power BI 合作夥伴入口網站](https://powerbi.microsoft.com/partners/)。
+
+您也可以與經驗豐富的諮詢合作夥伴進行互動。 其可協助[評定](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=assessment&country=ALL&region=ALL)、[評估](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=proof-of-concept&country=ALL&region=ALL)或[實作](https://appsource.microsoft.com/marketplace/consulting-services?product=power-bi&serviceType=implementation&country=ALL&region=ALL&page=1) Power BI。
