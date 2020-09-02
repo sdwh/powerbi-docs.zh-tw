@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/21/2020
 ms.author: maggies
-ms.openlocfilehash: b71fd2986fb79adf88493416ac8234f2656aefa9
-ms.sourcegitcommit: a199dda2ab50184ce25f7c9a01e7ada382a88d2c
+ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82866763"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937577"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 問與答的限制
 
@@ -75,7 +75,6 @@ Power BI 問與答目前不支援下列設定：
 
 ### <a name="statements-not-supported"></a>不支援陳述式
 
-- 目前不支援在條件中使用量值。 請改將量值轉換為計算結果欄，使其正常運作。
 - 不支援多個條件。 因應措施是建立 DAX 計算結果欄以評估多個條件的陳述式布林值，並改用此欄位。
 - 如果您未在問與答提示輸入資料子集時指定篩選條件，則無法儲存定義，即使整個陳述式沒有紅色底線也一樣。
 

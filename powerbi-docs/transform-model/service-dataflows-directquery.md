@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 669f05c03bd7a42d5b44f6ca2fa1b4d58680f71b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237743"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937370"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
 
@@ -48,8 +48,6 @@ ms.locfileid: "85237743"
 ## <a name="considerations-and-limitations"></a>考量與限制
 
 DirectQuery 和資料流程有些已知限制，這些限制會在下列清單中解釋。
-
-* 資料流程的 DirectQuery 無法搭配啟用的**增強型中繼資料預覽**功能使用。 這項排除預期會在之後的每月 Power BI Desktop 版本中移除。
 
 * 在此功能的預覽期間，有些客戶可能會在搭配資料流程使用 DirectQuery 時遇到逾時或效能問題。 我們正在這段預覽期間積極解決這些問題。
 

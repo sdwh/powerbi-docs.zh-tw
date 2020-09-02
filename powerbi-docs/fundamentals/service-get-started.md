@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/08/2020
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 7b9f69607d2fef823ba67d5af035e1e2064a9a72
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: d40bda8ef6469e5dc826d36db3cc21cfe72f0da6
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162382"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092375"
 ---
 # <a name="tutorial-get-started-creating-in-the-power-bi-service"></a>教學課程：開始在 Power BI 服務中建立
 本教學課程是 *Power BI 服務*的部分功能簡介。 您會在本課程中連接資料、建立報表和儀表板，並詢問資料的相關問題。 您可以在 Power BI 服務中執行更多動作；本教學課程僅為了提高您的興趣。 若要了解 Power BI 服務如何與其他 Power BI 供應項目相配合，建議您參閱[什麼是 Power BI](power-bi-overview.md)。
@@ -226,5 +226,5 @@ ms.locfileid: "86162382"
 
 探索 Power BI 的 Microsoft Learn 內容系列：
 
-- [學習 Power BI](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/r52to235xrjxk) (英文)
+- [學習 Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link) (英文)
 - [成為 Power BI 資料分析師](https://docs.microsoft.com/users/microsoftpowerplatform-5978/collections/djwu3eywpk4nm) (英文)

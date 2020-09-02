@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/16/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 189710c613c7d48f76ee0bb23a430ac4d9908c74
-ms.sourcegitcommit: 5e5a7e15cdd55f71b0806016ff91256a398704c1
+ms.openlocfilehash: 4188a5570dfe15658e13d3358f3e192ac842cbfb
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/22/2020
-ms.locfileid: "83792878"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937324"
 ---
 # <a name="power-bi-premium-faq"></a>Power BI Premium 常見問題集
 
@@ -83,11 +83,11 @@ Power BI 報表伺服器是內部部署伺服器，允許在組織的整個防�
 
 **後續步驟**
 
-[什麼是 Power BI Premium？](service-premium-what-is.md)
-[Power BI Premium 版本資訊](../service-premium-release-notes.md)
-[Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
-[規劃 Power BI Enterprise 部署白皮書](https://aka.ms/pbienterprisedeploy)
-[延長的 Pro 試用版啟用](../service-extended-pro-trial.md)
-[Power BI Embedded 常見問題集](../developer/embedded/embedded-faq.md)
+* [什麼是 Power BI Premium？](service-premium-what-is.md)
+* [Power BI Premium 版本資訊](../service-premium-release-notes.md)
+* [Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
+* [Planning a Power BI Enterprise Deployment (規劃 Power BI 企業部署) 技術白皮書](https://aka.ms/pbienterprisedeploy)
+* [Pro 延長試用版啟用](../service-extended-pro-trial.md)
+* [Power BI Embedded 常見問題集](../developer/embedded/embedded-faq.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
