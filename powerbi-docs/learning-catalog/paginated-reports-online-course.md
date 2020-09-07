@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 03/18/2020
 ms.author: v-pemyer
-ms.openlocfilehash: d4d5386a7e56618a761e541ba7942778a09a7008
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 533dba01bb975d774741643771415aaafa8f155c
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427477"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092283"
 ---
 # <a name="power-bi-paginated-reports-in-a-day-course"></a>Power BI 編頁報表一日上手課程
 
@@ -83,28 +83,29 @@ ms.locfileid: "84427477"
 
 您可下載並設定包含簡報內容和 8 個實作教室的自我研究套件：
 
-1. 使用[這個連結](https://aka.ms/priad-student)將自我研究套件 (.zip) 下載至電腦本機。
-1. 開啟檔案屬性，然後核取 [解除封鎖] (Windows 會將檔案標示為可能不受信任)。
-1. 將檔案內容解壓縮至檔案系統的資料夾。 建議建立容易尋找的資料夾，可將其命名為 **Training**。 實驗室文件會將此位置參考為 **&lt;CourseFolder&gt;** 。
+1. 使用[此連結](https://aka.ms/priad-student)將自我研究套件 (.zip) 下載至電腦 (Windows 7 或更新版本)。
+1. 開啟 zip 檔案的檔案屬性，然後選取 [解除封鎖] \(Windows 可能會將檔案標示為可能不受信任\)。
+1. 建立根課程資料夾。 我們建議您將其命名為 "C:\Training"。 請記住這個位置，因為您必須在實驗室期間存取課程檔案。 所有實驗室文件都會將此位置稱為 **&lt;CourseFolder&gt;** 。
+1. 將 **PowerBIPRIAD-Student.zip** 檔案內容解壓縮到您的根課程資料夾。
+1. 在 [ **&lt;CourseFolder&gt;\PowerBIPRIAD**] 資料夾中，開啟 **ReadMe.txt** 檔案並依照設定指示逐步執行。
 
-解壓縮之後，您就會有 **PowerBIPRIAD** 資料夾，並在其中找到下列資料夾：
-
-- **Lab01A** (及所有其他實驗室資料夾)。 此實驗室資料夾包含實驗室文件和實驗室資源，可能還包括資產和方案檔。
-- **MySolution**：這個資料夾儲存方案檔。 實驗室指示會指示使用的時機。
-- **Presentation**：這個資料夾包含課程簡報檔案，以 PDF 文件的形式提供。
-
-### <a name="get-started-with-the-kit"></a>開始使用套件
-
-建議先觀看線上課程。 您可開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Presentation\PowerBIPRIAD_Presentation.pdf** 檔案來回顧簡報理論。 此簡報包含 8 張實驗室投影片，其指出實踐理論的時機。 另包含許多資源連結，其有助尋找相關內容。
-
-當準備好開始第一個實驗室時，請開啟 **&lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A\PowerBIPRIAD_Lab01A.pdf** 檔案。 本文件會引導登入 Power BI 服務、上傳資料集，然後安裝 [Power BI Report Builder](https://aka.ms/pbireportbuilder)。
+> [!TIP]
+> **ReadMe.txt** 檔案、實驗室文件與簡報檔 (PDF) 僅以英文與下列八個語言提供：
+> - 德文 (de-DE)
+> - 西班牙文 (es-ES)
+> - 法文 (fr-FR)
+> - 義大利文 (it-IT)
+> - 日文 (ja-JP)
+> - 韓文 (ko-KR)
+> - 葡萄牙文 (巴西) (pt-BR)
+> - 中文、簡體字元 (zh-CN)
 
 > [!NOTE]
 > 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 >
 > 您必須登入 Power BI，才能將 Power BI Desktop 檔案發佈至工作區。 發行集會產生作為報表資料來源使用的資料集。 您不需要 Power BI Pro 授權或 Power BI Premium 訂閱，就能使用資料集作為報表資料來源。
 >
-> 有些課程工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../admin/service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，我們會改提供您一個連結來觀看示範報表發佈的影片。
+> 有些課程工作需要將編頁報表發佈至工作區。 只有當編頁報表儲存在已啟用編頁報表工作負載的[專用容量](../admin/service-premium-what-is.md#dedicated-capacities)工作區後，您才可以開啟該編頁報表。 如果無法存取合適的工作區，實驗室會改提供您一個連結讓您觀看示範報表發佈的影片。
 
 ## <a name="instructor-kit"></a>講師套件
 

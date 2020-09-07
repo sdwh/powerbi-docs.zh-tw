@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.date: 05/06/2020
-ms.openlocfilehash: 4dd5698f91177733e150577490775eefb7e2f2ef
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
+ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557177"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "89220852"
 ---
 # <a name="deployment-pipelines-best-practices-preview"></a>部署管線最佳做法 (預覽)
 
@@ -106,7 +106,7 @@ ms.locfileid: "86557177"
 如果您想要管理報表與資料集的版本歷程記錄，請使用 [Power BI 與 OneDrive 的自動同步處理](../connect-data/service-connect-to-files-in-app-workspace-onedrive-for-business.md)。 這會讓您的檔案保持更新為最新版本。 如果需要，其也可讓您取得較舊的版本。
 
 >[!NOTE]
->只針對部署管線開發階段中的 .pbix 檔案使用與 OneDrive (或任何其他存放庫) 的自動同步處理。 請勿將 .pbix 檔案同步處理至部署管線測試與生產階段。 這會導致在整個管線部署內容時發生問題。
+>只針對部署管線開發階段中的 .pbix 檔案使用與 OneDrive (或任何其他存放庫) 的自動同步處理。 請勿將 .pbix 檔案同步處理至部署管線的測試與生產階段。 這會導致在整個管線部署內容時發生問題。
 
 ### <a name="separate-modeling-development-from-report-and-dashboard-development"></a>將模型開發和報表與儀表板開發分開
 

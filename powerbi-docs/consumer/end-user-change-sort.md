@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c70229a37a697fedba54cde1899073f20710f542
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6147bc0ee725eb7adc7e1edb637a22bb7dc66558
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161759"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040269"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>變更 Power BI 報表中的圖表排序方式
 
@@ -30,18 +30,18 @@ ms.locfileid: "86161759"
 
 ## <a name="get-started"></a>開始使用
 
-首先，請開啟任一與您共用的報表。 選取一項 (可以排序的) 視覺效果，然後選擇 [更多選項] (...)。有三個排序選項：[遞減排序]、[遞增排序] 和 [排序依據]。 
+若要開啟，請開啟您建立的任何報表或任何與您共用的報表。 選取一項 (可以排序的) 視覺效果，然後選擇 [更多選項] (...)。有三個排序選項：[遞減排序]、[遞增排序] 和 [排序依據]。 
     
 
-![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/power-bi-more-actions.png)
+![依 Y 軸以英文字母排序的橫條圖](media/end-user-change-sort/power-bi-actions.png)
 
 ### <a name="sort-alphabetically-or-numerically"></a>依字母或數值順序排序
 
-您可以依視覺效果類別文字名稱的字母順序來排序視覺效果，或依每個類別的數值來排序。 例如，此圖表是依 X 軸商店**名稱**類別的字母順序排序。
+您可以依視覺效果類別名稱的字母順序來排序視覺效果，或依每個類別的數值排序。 例如，此圖表是依 X 軸商店**名稱**類別的字母順序排序。
 
 ![依 X 軸以英文字母排序的橫條圖](media/end-user-change-sort/powerbi-sort-category.png)
 
-可以輕鬆地將排序從類別 (商店名稱) 變更為值 (每平方英尺銷售額)。 選取 [其他動作] (...)，然後選擇 [排序依據]。 選取用於視覺效果的數值。  在此範例中，我們選取了 [每平方英呎的銷售額]。
+若要將排序從類別 (商店名稱) 變更為值 (每平方英呎銷售額)，請選取 [更多動作] \(...\) 並選擇 [排序依據]。 選取用於視覺效果的數值。  在此範例中，我們選取了 [每平方英呎的銷售額]。
 
 ![顯示依序選取 [排序依據] 和某個值的螢幕擷取畫面](media/end-user-change-sort/power-bi-sort-value.png)
 
@@ -55,14 +55,14 @@ ms.locfileid: "86161759"
 ## <a name="sorting-by-multiple-columns"></a>依多個資料行排序
 此資料表中的資料是依**客戶數目**排序的。  我們知道這是因為*數目*下的小箭號。 箭號向下指，表示資料行是以「遞減」順序排序。
 
-![顯示要用於排序之第一個資料行的螢幕擷取畫面](media/end-user-change-sort/power-bi-sort-first.png)
+![顯示要用於排序之第一個資料行的螢幕擷取畫面](media/end-user-change-sort/power-bi-sort-column.png)
 
 
 若要在排序次序中加入更多資料行，請按下 Shift 並按一下您要在排序次序中加入的下一個資料行標頭。 例如，如果您按一下 [客戶數目]，然後按住 Shift 並按一下 [總收益]，則資料表會先依客戶排序，然後再依收益排序。 紅色外框會顯示排序次序變更的區域。
 
 ![顯示用於排序之第二個資料行的螢幕擷取畫面](media/end-user-change-sort/power-bi-sort-second.png)
 
-如果您再次於在相同的資料行上按住 Shift 並按一下，將會變更該資料行的排序方向。 此外，如果您按住 Shift + 按一下先前加入排序次序的資料行，會將該資料行移至排序次序的後面。
+如果您再次於在相同的資料行上按住 Shift 並按一下，將會變更該資料行的排序方向 (遞增，遞減)。 此外，如果您按住 Shift + 按一下先前加入排序次序的資料行，會將該資料行移至排序次序的後面。
 
 
 ## <a name="saving-changes-you-make-to-sort-order"></a>儲存您對排序次序的變更
@@ -80,7 +80,7 @@ Power BI 報表會保留您所做的篩選、交叉分析篩選器、排序與�
 
 只有設計報表的人員可以為您進行這些變更。 從標頭列選取報表名稱，即可找到「設計師」的連絡資訊。
 
-![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-contact.png)
+![顯示連絡資訊的下拉式清單](media/end-user-change-sort/power-bi-header.png)
 
 如果您是設計師並擁有內容的編輯權限，請閱讀 [Power BI Desktop 中的依資料行排序](../create-reports/desktop-sort-by-column.md)，以了解如何更新資料集並啟用此類型的排序。
 

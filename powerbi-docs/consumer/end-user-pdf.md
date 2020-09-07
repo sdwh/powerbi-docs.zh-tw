@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1df6634492bbaa690e7efe601455fbae8b6094b
-ms.sourcegitcommit: 0f807d3c74e5202b6e6a95fad49f2787928b9613
+ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "88702666"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040193"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -35,6 +35,8 @@ ms.locfileid: "88702666"
     隨即出現快顯視窗，其中有選項可供您選取 [目前的值]  或 [預設值]  。 [目前的值]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。 大多數使用者會選取此選項。 選取 [預設值]  則會以原始狀態 (如同「設計師」  共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
     
     另外，還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。 如果您只要在瀏覽器中匯出可看見的報表索引標籤，請選取此核取方塊。 如果您希望在匯出過程中取得所有隱藏索引標籤，則可以不要選取此核取方塊。 如果核取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。 在您選取完成後，請選取 [匯出]  繼續。
+    
+    您也可以按一下 [僅匯出目前頁面] 選項，只匯出報表中您目前正在檢視的頁面。  根據預設，系統會取消選取此選項，而且會從您的報表匯出所有頁面。
     
     進度列會顯示在右上角。 匯出可能需要幾分鐘的時間。 您可以在正在匯出報表時繼續使用 Power BI 工作。
 

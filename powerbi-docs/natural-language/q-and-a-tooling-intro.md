@@ -7,12 +7,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/17/2020
 ms.author: maggies
-ms.openlocfilehash: 47ab35113bbf6564cbc824b48891cd9f58370c8a
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: aaa31851f338832a8c4f4fffb38f12414c859610
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578124"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937462"
 ---
 # <a name="intro-to-qa-tooling-to-train-power-bi-qa-preview"></a>用於訓練 Power BI 問與答 (預覽) 的問與答工具簡介
 
@@ -80,6 +80,11 @@ ms.locfileid: "88578124"
 
 ### <a name="suggest-questions"></a>建議問題
 
+> [!NOTE]
+> 建議的問題將顯示於所有問與答視覺效果的執行個體中。 無法為每個問與答視覺效果建立一組個別的建議。
+> 
+> 
+
 在不進行任何設定下，問與答視覺效果會建議幾個問題，以協助您開始使用。 這些問題是根據資料模型所自動產生的。 在 [建議問題] 中，您可使用自有問題來覆寫自動產生的問題。
 
 若要開始，請在文字方塊中鍵入所要新增的問題。 在預覽區段中，您可看到結果在問與答視覺效果中的外觀。 
@@ -91,11 +96,6 @@ ms.locfileid: "88578124"
 :::image type="content" source="media/q-and-a-tooling-intro/power-bi-qna-save-suggest-questions.png" alt-text="儲存建議的問題":::
  
 請務必選取 [儲存] 來在問與答視覺效果中顯示建議的問題清單。 
-
-> [!NOTE]
-> 建議的問題將顯示於所有問與答視覺效果的執行個體中。 您無法為每個問與答視覺效果建立一組個別的建議。
-> 
-> 
 
 ## <a name="other-qa-settings"></a>其他問與答設定
 

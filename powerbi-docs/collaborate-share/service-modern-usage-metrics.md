@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/22/2020
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9aad77f162a49697466899afce44284c7f063746
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: ee51ea2bbca794730d35d1f21bc999adda3dcc98
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478145"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937531"
 ---
 # <a name="monitor-usage-metrics-in-the-new-workspace-experience-preview"></a>在新的工作區體驗中監視使用計量 (預覽)
 
@@ -184,6 +184,10 @@ ms.locfileid: "87478145"
 1. 新的報表會儲存在目前工作區中的 [報表] 索引標籤中，而且也會新增至 [最近] 內容清單。
 
     ![[報表] 索引標籤上的新報表](media/service-modern-usage-metrics/power-bi-modern-usage-metrics-new-report.png)
+    
+> [!NOTE]
+> 當您儲存使用計量報表的複本時，系統會將其視為一般 Power BI 報表。 在工作區中具有檢視權限的所有使用者都可以存取該報表，包括「檢視人員」角色中的使用者。
+
 
 ### <a name="create-a-new-usage-report-in-power-bi-desktop"></a>在 Power BI Desktop 中建立新的使用量報表
 
@@ -242,7 +246,14 @@ ms.locfileid: "87478145"
 
 ## <a name="usage-metrics-in-national-clouds"></a>在國家/地區雲端中的使用計量
 
-Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Power BI 全域版本同等級的安全性、隱私權、合規性和透明度，結合了適用於當地法規獨特模型的服務傳遞、資料存放區、存取和控制。 基於這個針對當地法規而設計的獨特模型，使用計量並無法在國家/地區雲端中使用。 如需詳細資訊，請參閱[國家/地區雲端](https://powerbi.microsoft.com/clouds/)。
+Power BI 分別在不同的國家/地區雲端提供。 這些雲端提供和 Power BI 全域版本同等級的安全性、隱私權、合規性和透明度，結合了適用於當地法規獨特模型的服務傳遞、資料存放區、存取和控制。 新式使用計量目前於下列國家/地區雲端中提供： 
+
+- 美國 Government Community Cloud
+- 美國政府社群雲端 - 高
+- 美國國防部
+- 中國
+
+如需詳細資訊，請參閱[國家/地區雲端](https://powerbi.microsoft.com/clouds/)。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
 

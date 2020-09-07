@@ -5,17 +5,17 @@ author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
-ms.topic: how-to
-ms.date: 04/17/2020
+ms.topic: reference
+ms.date: 09/01/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: b6beb2115f664de12382933c8200b07b510bd083
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
+ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215882"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89286766"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>「取用者」  與其他免費授權使用者可使用的 Power BI 功能清單
 
@@ -49,7 +49,7 @@ ms.locfileid: "86215882"
 
 - **免費授權** - 通常會指派給組織內的「取用者」  (見下圖一)。 任何要以個人身分註冊 Power BI 服務，並想要[在獨立模式中試用 Power BI 服務](../fundamentals/service-self-service-signup-for-power-bi.md)的使用者，也會指派以免費授權 (見下圖二)。 
 
-    ![顯示免費使用者的畫面](media/end-user-features/power-bi-free-organization.png)
+    ![顯示 Premium 使用者的畫面](media/end-user-features/power-bi-free-organization.png)
 
     免費使用者若隸屬於擁有 Premium 容量的組織，將能享有許多便利的功能。 只要 Pro 同事使用 Premium 容量工作區來共用內容，則免費使用者就可以與這些 Pro 同事一起檢視及共同作業。  **如此一來，該位免費使用者就會成為 Power BI 「取用者」  ，且能夠接收和共用內容以制定商業決策。** 
  
@@ -87,7 +87,7 @@ ms.locfileid: "86215882"
 |我的最愛 | ![orange x](media/end-user-features/orange-x.png) | ![green dot](media/end-user-license/power-bi-green-dot.png)  |
  |編輯、更新、再次共用、重新發佈 |![orange x](media/end-user-features/orange-x.png)  |![orange x](media/end-user-features/orange-x.png)   |
  |建立新的應用程式 |![orange x](media/end-user-features/orange-x.png)  |![orange x](media/end-user-features/orange-x.png)   |
- |Appsource：下載並開啟 | ![orange x](media/end-user-features/orange-x.png)  |![orange x](media/end-user-features/orange-x.png) | 
+ |AppSource：下載並開啟 | ![orange x](media/end-user-features/orange-x.png)  |![orange x](media/end-user-features/orange-x.png) | 
 |組織存放區：下載並開啟|![orange x](media/end-user-features/orange-x.png)  |![green dot](media/end-user-license/power-bi-green-dot.png)  |
  |**應用程式工作區**
 | 建立、編輯、刪除工作區或內容  | ![orange x](media/end-user-features/orange-x.png)  |![orange x](media/end-user-features/orange-x.png) |
@@ -129,7 +129,7 @@ ms.locfileid: "86215882"
 | 檢視其他人所建立的書簽，並新增自己的書簽  | ![orange x](media/end-user-features/orange-x.png)|![green dot](media/end-user-license/power-bi-green-dot.png)  |
 | 檢視並回應其他人的留言：新增留言  | ![orange x](media/end-user-features/orange-x.png)|![green dot](media/end-user-license/power-bi-green-dot.png)  |
 |變更顯示尺寸   | ![green myw](media/end-user-features/green-mwo.png) | ![green dot](media/end-user-license/power-bi-green-dot.png)  | 
-| 儲存複本 |![orange x](media/end-user-features/orange-x.png) |![green dot](media/end-user-license/power-bi-green-dot.png)*  
+| 儲存複本 |![orange x](media/end-user-features/orange-x.png) |![orange x](media/end-user-features/orange-x.png)  
 |將視覺效果複製為影像* |
 | 交叉醒目提示和交叉篩選報表視覺效果   |![green myw](media/end-user-features/green-mwo.png) |![green dot](media/end-user-license/power-bi-green-dot.png)  |
 |  切入   |![green myw](media/end-user-features/green-mwo.png)  |![green dot](media/end-user-license/power-bi-green-dot.png)  |

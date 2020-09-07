@@ -6,15 +6,15 @@ ms.reviewer: maggie.tsang
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 06/25/2020
+ms.date: 08/25/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc5cba8953a527e87768815759a14dd8f2cf7ee1
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6e1850e281c58bd89597af2bbd9ade0a769071ae
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537841"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040239"
 ---
 # <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>將視覺效果以圖片形式複製到剪貼簿
 
@@ -35,15 +35,15 @@ ms.locfileid: "87537841"
 
 2. 從視覺效果的右上角，選取 [更多動作 (...)]，然後選擇 [將視覺效果複製為圖片]。 
 
-    ![顯示的 [將視覺效果複製為圖片] 圖示](media/end-user-copy-paste/power-bi-copy-dashboard.png)
+    ![下拉式功能表中顯示 [將視覺效果複製為圖片] 選項](media/end-user-copy-paste/power-bi-copy-dashboard.png)
 
 3. 出現 [您的視覺效果已可複製] 對話方塊時，選取 [複製至剪貼簿]。
 
     ![具有 [複製至剪貼簿] 選項的對話方塊](media//end-user-copy-paste/power-bi-copied.png)
 
-4. 複製視覺效果之後，使用 **Ctrl + V** 或按一下滑鼠右鍵 > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到 Microsoft Word 中。 
+4. 複製視覺效果之後，使用 **Ctrl + V** 或**按一下滑鼠右鍵** > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到 Microsoft Word 中。 
 
-    ![貼到 Outlook 中的視覺效果](media//end-user-copy-paste/power-bi-paste-word.png)
+    ![已貼入 Microsoft Word 的視覺效果](media//end-user-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>從報表視覺效果複製 
 
@@ -58,7 +58,7 @@ ms.locfileid: "87537841"
     ![具有 [複製至剪貼簿] 選項的對話方塊](media//end-user-copy-paste/power-bi-copied.png)
 
 
-4. 複製視覺效果之後，使用 **Ctrl + V** 或按一下滑鼠右鍵 > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到電子郵件中。
+4. 複製視覺效果之後，使用 **Ctrl + V** 或**按一下滑鼠右鍵** > [貼上]，將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到電子郵件中。
 
     ![貼到 Outlook 中的視覺效果](media//end-user-copy-paste/power-bi-copy-email.png)
 
@@ -79,10 +79,10 @@ ms.locfileid: "87537841"
 
 問：為什麼視覺效果上的 [複製] 圖示是停用的？    
 答：我們目前支援原生的 Power BI 視覺效果和已認證的自訂視覺效果。 針對特定視覺效果提供有限的支援，包括： 
-- ESRI 及其他地圖視覺效果 
+- ESRI 與其他地圖視覺效果 
 - Python 視覺效果 
 - R 視覺效果 
-- PowerApps    
+- PowerApps 視覺效果   
 
 答：您的 IT 部門或 Power BI 管理員可以關閉複製視覺效果的功能。
 
@@ -94,6 +94,8 @@ ms.locfileid: "87537841"
 
 ## <a name="next-steps"></a>後續步驟
 深入了解 [Power BI 報表中的視覺效果](end-user-visual-type.md)
+
+若您有編輯報表的權限，您可以[在相同的報表內複製並貼上視覺效果](../visuals/power-bi-visualization-copy-paste.md)。 
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
 

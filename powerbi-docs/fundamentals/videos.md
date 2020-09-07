@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/03/2020
 ms.author: davidi
-ms.openlocfilehash: 409c8f685b0616177645c7145680d3f795fd0fac
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 6bb0039c873dccec318fa9d16c7cf0c96e44b34e
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83360937"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092214"
 ---
 # <a name="power-bi-videos"></a>Power BI 影片
 Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.youtube.com/user/mspowerbi/videos)；如果您剛開始使用 Power BI，[Analyze & Visualize Data with Power BI 播放清單](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP)是很好的起點.
@@ -42,7 +42,7 @@ Power BI 有 YouTube 頻道喔！ 您可以瀏覽[我們的頻道](https://www.y
 ## <a name="more-videos"></a>更多影片
 請查看以下收集的來源和內容來觀賞更多影片。
 
-* [Power BI 導引式學習](https://powerbi.microsoft.com/guided-learning/) - 循序漸進且容易吸收的 Power BI 學習課程
+* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 是什麼？](power-bi-overview.md)

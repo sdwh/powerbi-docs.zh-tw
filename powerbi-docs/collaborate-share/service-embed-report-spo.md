@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 94419bb25aa00645b22a1dad1f97fcc792c3d63d
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: 29aff96cc93de305ce78cb0cfa015954928309ff
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939544"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937508"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -30,6 +30,9 @@ ms.locfileid: "85939544"
 * Power BI Pro 授權，或是具有 Power BI 授權的 [Power BI Premium 容量 (EM 或 P SKU)](../admin/service-premium-what-is.md)。
 * SharePoint Online 的 Power BI Web 組件需要[新式網頁](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)。
 * 使用者必須登入 Power BI 服務來啟用其 Power BI 授權，才能取用內嵌報表。
+
+> [!Note]
+> 針對 Power BI 國家/地區雲端中的組織，沒有免費的授權。 在此環境中，所有想要存取 Sharepoint 中內嵌報表的使用者都必須擁有 Power BI Pro 授權。
 
 ## <a name="embed-your-report"></a>內嵌報表
 若要將報表嵌入 SharePoint Online，您必須取得報表 URL，並將它與 SharePoint Online 的 Power BI Web 組件搭配使用。

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2cffd2b9913773e7f29d1afa960209ddeddd3583
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160410"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040277"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -49,6 +49,8 @@ ms.locfileid: "88160410"
 ![選取要匯出的項目](media/end-user-powerpoint/power-bi-current-values.png)
  
 另外，還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。 如果您只要在瀏覽器中匯出可看見的報表索引標籤，請選取此核取方塊。 如果您希望在匯出過程中取得所有隱藏索引標籤，請不要選取此核取方塊。 如果核取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。 工具提示索引標籤即為其中一個隱藏的索引標籤範例。[自訂工具提示](../create-reports/desktop-tooltips.md)是由報表「設計師」所建立，且不會在「取用者」的 Power BI 服務中顯示為報表索引標籤。 
+
+您也可以按一下 [僅匯出目前頁面] 選項，只匯出報表中您目前正在檢視的頁面。  根據預設，系統會取消選取此選項，而且會從您的報表匯出所有頁面。
 
 在您選取完成後，請選取 [匯出] 繼續。 您會在 Power BI 服務瀏覽器視窗的右上角，看到報表正在匯出至 PowerPoint 的通知橫幅。 
 

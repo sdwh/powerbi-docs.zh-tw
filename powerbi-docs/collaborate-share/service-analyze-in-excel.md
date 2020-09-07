@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/26/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1e1e9afcbcae300e12580fb5f54bdb53e7822c03
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952709"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937485"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 透過 [使用 Excel 分析]，即可將 Power BI 資料集帶入 Excel 中，然後使用樞紐分析表、圖表、交叉分析篩選器和其他 Excel 功能加以查看並進行互動。 若要使用 [使用 Excel 分析]，則必須先從 Power BI 下載此功能、加以安裝，然後選取要在 Excel 中使用的一或多個資料集。 
@@ -44,7 +44,7 @@ ms.locfileid: "86952709"
 
 或者，您可在 Power BI 服務中巡覽至所要分析的資料集，然後針對資料集、報表或其他 Power BI 項目選取**更多選項**項目。 從出現的功能表中，選取 [使用 Excel 分析] 選項，如下圖所示。
 
-![在 Excel 中進行分析](media/service-analyze-in-excel/analyze-excel-01.png)
+![從資料集在 Excel 中進行分析](media/service-analyze-in-excel/analyze-excel-01.png)
 
 不論是哪一種方式，Power BI 都會偵測是否已安裝 [使用 Excel 分析]，如果未安裝，則會提示進行下載。 
 
@@ -56,7 +56,7 @@ ms.locfileid: "86952709"
 
 當下載完成時，請執行安裝程式 (.msi) 來安裝 [使用 Excel 分析]。 安裝程序的名稱不同於 [使用 Excel 分析]；名稱將會是 [Microsoft Analysis Services OLE DB Provider] (如下圖所示) 或類似的內容。
 
-![更新安裝](media/service-analyze-in-excel/analyze-excel-05.png)
+![更新安裝 Analysis Services OLE DB 提供者](media/service-analyze-in-excel/analyze-excel-05.png)
 
 完成之後，即可在 Power BI 服務中選取報表 (或其他 Power BI 資料項目，例如資料集)，然後在 Excel 中進行分析。
 
@@ -81,6 +81,9 @@ ms.locfileid: "86952709"
 
     檔案名稱符合從中衍生檔案名稱的資料集 (或報表或其他資料來源)。 因此，如果報表先前稱為「季報表」，則下載的檔案就會是**季報表.xlsx**。
 
+    >[!Note]
+    >[在 Excel 中進行分析] 現在會下載 Excel 檔案，而非 ODC 檔案。 這可讓您對從 Power BI 匯出的資料進行資料保護。 下載的 Excel 檔案會繼承針對 [在 Excel 中進行分析] 所選擇之資料集的敏感度標籤。
+
 3. 啟動 Excel 檔案。
 
     >[!NOTE]
@@ -90,7 +93,7 @@ ms.locfileid: "86952709"
     >
     >![啟用內容橫幅其 [信任的文件] 的螢幕擷取畫面](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
 
-## <a name="use-excel-to-analyze-the-data"></a>使用 Excel-to-analyze-the-data
+## <a name="use-excel-to-analyze-the-data"></a>使用 Excel 分析資料
 
 啟用編輯及內容後，Excel 即會顯示空的**樞紐分析表**和 Power BI 資料集的 [欄位] 清單，並準備開始分析。
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 612c54a201c947309394c442ba8b8ec1ed567879
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb8d7d59e52414620aa888230af59ef98da9e5af
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229946"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937623"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>連線到 Power BI Premium 容量計量
 監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 Power BI Premium 容量計量應用程式提供您容量執行方式的最深入資訊。
@@ -62,7 +62,8 @@ ms.locfileid: "85229946"
 
 1. 在出現的對話方塊中設定 UTC 位移，即國際標準時間和您位置時間的小時差異。 然後按 [下一步]。
   
-   ![Power BI Premium 容量計量應用程式設定 UTC 對話方塊](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   ![Power BI Premium Capacity Metrics 應用程式設定 UTC 對話方塊](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-setutc-dialog.png)
+   **注意：半小時的格式應該是小數 (例如，5.5、2.5 等)。**
 
 1. 在下一個出現的對話方塊中，您不需要執行任何動作。 請直接選取 [Login] \(登入\)。
 

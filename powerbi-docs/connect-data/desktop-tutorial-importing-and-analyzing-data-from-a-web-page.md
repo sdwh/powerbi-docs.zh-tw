@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4321ed284a6db7b4ed021c51d9fa1abe6752b75a
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 3778b1fcd4841902588df89ce785e65bec2bd3dc
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83348612"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092352"
 ---
 # <a name="tutorial-analyze-webpage-data-by-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 來分析網頁資料
 
@@ -169,7 +169,7 @@ Web 連線只會使用基本驗證來建立。 需要驗證的網站可能無法
 
 1. 選取視覺效果之際，選取 [格式]  圖示，接著選取 [資料色彩]  以展開資料色彩選項。
 
-   ![資料格式色彩](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
+   ![設定圖示與資料色彩選取範圍的格式](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web15.png)
 
 1. 將 [全部顯示]  設定為 [開啟]  ，然後選取 [西德]  旁邊的下拉式功能表，最後選擇黃色。
 
@@ -179,7 +179,7 @@ Web 連線只會使用基本驗證來建立。 需要驗證的網站可能無法
 
 1. 將 [文字色彩]  變更成紅色、[文字大小]  變更為 **12**，以及將 [字型家族]  變更為 [Segoe (Bold)]  。
 
-   ![資料格式色彩](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
+   ![字型色彩、大小與系列](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web17.png)
 
 現在地圖視覺效果看起來像這樣：
 
@@ -201,7 +201,7 @@ Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源
 
 ## <a name="see-also"></a>另請參閱
 
-* [閱讀其他 Power BI Desktop 教學課程](/power-bi/guided-learning/)
+* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [觀看 Power BI Desktop 影片](../fundamentals/desktop-videos.md)
 * [瀏覽 Power BI 論壇](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](https://go.microsoft.com/fwlink/?LinkID=519327)

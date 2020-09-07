@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/18/2020
+ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7a1fabd1c61219d7f195253a4384accfd2521d24
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
+ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236002"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "89040216"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI 的重新整理摘要
 
@@ -60,6 +60,8 @@ ms.locfileid: "85236002"
 ![[排程] 檢視](media/refresh-summaries/refresh-summaries-02.jpg)
 
 [已預約的排程時間 (分鐘)] 資料行是每個相關聯資料集最高 60 筆記錄的平均值。 每 30 分鐘時段此數值是為所有排程在該時段啟動的排程重新整理，「以及」任何設為在「前一個」時段啟動，但是其平均持續時間溢出到所選取時段排程重新整理計算的總和。
+
+*可用的重新整理時間 (分鐘)* 資料行是每個時段中可用於重新整理的分鐘數，減去該時段已排程的任何重新整理。 例如，如果您的 P2 訂用帳戶提供 12 個同時執行的重新整理，您會有 12 個 30 分鐘的時段，因此 12 次重新整理 x 30 分鐘 = 360 分鐘可用於該時段中的重新整理。 如果您在該時段有一個需要 20 分鐘的已預約重新整理，則該時段中的「可用的重新整理時間 (分鐘)」是 340 分鐘 (可用總時間 360 分鐘，減去 20 分鐘已預約 = 仍有 340 分鐘可用)。 
 
 您可選取時段，然後選取相關聯的 [詳細資料] 按鈕來查看哪些排程重新整理事件參與已訂閱的重新整理時間，以及完成這些事件所耗費的時間長度。
 

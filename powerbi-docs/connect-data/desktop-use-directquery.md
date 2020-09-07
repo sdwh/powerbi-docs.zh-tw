@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 07/02/2020
+ms.date: 08/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4083304a13b75df900e25204b54f62368be43e70
-ms.sourcegitcommit: 561f6de3e4621d9d439dd54fab458ddca78ace2c
+ms.openlocfilehash: b31ddb3e3881f9002affcae9106b9e14bf85a964
+ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "85939493"
+ms.lasthandoff: 08/29/2020
+ms.locfileid: "89092306"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 DirectQuery
 有了 *Power BI Desktop*，當連線到資料來源時，隨時可將資料的複本匯入 Power BI Desktop。 對於某些資料來源，可用的替代方式是：使用 DirectQuery 直接連線到資料來源。
@@ -50,6 +50,8 @@ ms.locfileid: "85939493"
 - 如果 [查詢編輯器] 查詢過於複雜，則會發生錯誤。 若要修正錯誤，請在 [查詢編輯器] 中刪除有問題的步驟，或「匯入」資料，而不要使用 DirectQuery。 針對 SAP Business Warehouse 之類的多維度來源，不存在 [查詢編輯器]。
 
 - DirectQuery 中不提供時間智慧功能。 例如，DirectQuery 模式不支援日期資料行 (例如年、季、月或日) 的特殊處理。
+
+- 在 Power BI 服務中，若導出資料表與導出資料行所參考的 DirectQuery 資料表來自具有單一登入 (SSO) 驗證的資料來源，則不提供支援。
 
 - 系統對量值中允許的 DAX 運算式有所限制，這是為了確保傳送至基礎資料來源的查詢皆具有足夠效能。
 

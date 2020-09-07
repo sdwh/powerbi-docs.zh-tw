@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/18/2020
+ms.date: 08/26/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: f8bd09bd55694bbd7c6a991d502dde45dad5f2e4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: f865815c76df179c87c1487e1243c37108375167
+ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86162058"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88937660"
 ---
 # <a name="what-are-bookmarks"></a>什麼是書籤？
 
@@ -29,18 +29,24 @@ ms.locfileid: "86162058"
 
 您也可以建立書籤集合，依您想要的順序加以排列，然後在簡報中逐步執行每個書籤，以醒目提示一系列述說故事的見解。  
 
-![從功能區中選取 [書籤] 窗格加以顯示。](media/end-user-bookmarks/power-bi-select-bookmark.png)
+![從功能區中選取 [書籤] 窗格加以顯示。](media/end-user-bookmarks/power-bi-bookmark-icon.png)
 
 ## <a name="open-bookmarks"></a>開啟書籤
-若要開啟 [書籤] 窗格，請從功能表列選取 [書籤] > [顯示更多書籤]。 若要返回報表的原始發佈檢視，請選取 [重設為預設]。
+若要開啟 [書籤] 窗格，請從功能表列選取 [書籤] > [顯示更多書籤]。 
+
+![報表畫布的螢幕擷取畫面，其中 [書籤] 窗格已開啟。](media/end-user-bookmarks/power-bi-show-bookmarks.png)
+
+若要返回報表的原始發佈檢視，請選取**重設**圖示。
+
+![已選取還原圖示的螢幕擷取畫面](media/end-user-bookmarks/power-bi-revert.png)
 
 ### <a name="report-bookmarks"></a>報表書籤
-如果報表「設計師」包含報表書籤，則您會在 [報表書籤] 標題底下找到這些書籤。 此報表頁面有兩個書籤 (B1 和 B2)。 
+如果報表「設計師」包含報表書籤，則您會在 [報表書籤] 標題底下找到這些書籤。 此報表頁面包含四個書籤：B1、B2、VanArsdel YTD 與 All YTD。 目前已選取 [All YTD]。
 
 > [!NOTE]
 > 您需要有 Power BI Pro 或 Premium 才能檢視共用報表。 
 
-![顯示報表書籤。](media/end-user-bookmarks/power-bi-report.png)
+![顯示報表書籤。](media/end-user-bookmarks/power-bi-bookmark-list.png)
 
 選取要變更為該報表檢視的書籤。 
 
@@ -48,26 +54,32 @@ ms.locfileid: "86162058"
 
 ### <a name="personal-bookmarks"></a>個人書籤
 
-當您建立書籤時，下列項目會與書籤一起儲存：
+若您可以檢視報表，則您也可以加入個人書籤。  當您建立書籤時，下列項目會與書籤一起儲存：
 
 * 目前頁面
 * 篩選
 * 交叉分析篩選器，包括交叉分析篩選器類型 (例如，下拉式清單或清單) 和交叉分析篩選器狀態
 * 視覺效果選取狀態 (例如交叉醒目提示篩選條件)
-* 排序次序
+* 排列順序
 * 鑽研位置
 * 可見度 (使用 [選取] 窗格之物件的可見度)
 * 任何可見物件的焦點或**聚焦**模式
 
-以您想要在書籤中顯示的方式來設定報表頁面。 將報表頁面和視覺效果排列成您想要的方式之後，從 [書籤] 窗格中選取 [新增] 以新增書籤。 在此範例中，我們新增了一些區域和日期的篩選條件。 
+以您想要在書籤中顯示的方式來設定報表頁面。 在此範例中：
 
-![新增個人書籤。](media/end-user-bookmarks/power-bi-bookmark-personal.png)
+1. 我們已變更 [篩選] 窗格上的現有 [日期] 篩選、
+1. 已變更 [篩選] 窗格上的現有 [區域] 篩選，
+1.  而且已選取環圈圖視覺效果上的資料點，以交叉篩選及交叉醒目提示報表畫布。 
+
+將報表頁面和視覺效果排列成您想要的方式之後，從 [書籤] 窗格中選取 [新增] 以新增書籤。 
+
+![新增個人書籤。](media/end-user-bookmarks/power-bi-personal.png)
 
 **Power BI** 會建立個人書籤，並為其提供泛型名稱或您輸入的名稱。 您可以選取書籤名稱旁的省略符號，然後從出現的功能表中選取一個動作，以「重新命名」、「刪除」或「更新」書籤。
 
 一旦有了書籤，只要在 [書籤] 窗格中選取書籤，就可以加以顯示。 
 
-![新增個人書籤。](media/end-user-bookmarks/power-bi-bookmark-west.png)
+![選取以顯示特定書籤。](media/end-user-bookmarks/power-bi-selected.png)
 
 
 <!--
@@ -91,7 +103,7 @@ The order of your bookmarks can become important when you use the **View** featu
 - 書籤標題列的箭號可讓您移至下一個或上一個書籤。
 - 您可以從 [書籤] 窗格中選取 [結束]，或選取可在書籤標題列中找到的 **X**，來結束 [檢視] 模式。
 
-![書籤投影片放映](media/end-user-bookmarks/power-bi-slideshow.png)
+![書籤投影片放映](media/end-user-bookmarks/power-bi-view-bookmarks.png)
 
 當您在 [檢視] 模式時，您可以關閉 [書籤] 窗格 (藉由按一下該窗格上的 X)，為您的簡報提供更多空間。 此外，在 [檢視] 模式中，所有視覺效果都是互動式，並可用於交叉醒目提示，就像是與其互動一樣。 
 
@@ -156,7 +168,7 @@ Note that selecting **Ungroup** for any bookmark from a group takes all bookmark
 
 
 ## <a name="limitations-and-considerations"></a>限制與考量
-在本版的**書籤**中，有幾點限制和考量要留意。
+在此版本的**書籤**中，有幾點限制和考量要留意。
 
 * 大部分的 Power BI 視覺效果都可以和書籤搭配使用。 如果在使用書籤和 Power BI 視覺效果時遇到問題，請連絡該 Power BI 視覺效果的建立者，並請他們將書籤的支援新增到其視覺效果。
 * 如果您在建立書籤之後將視覺效果新增至報表頁面，視覺效果就會以其預設狀態顯示。 換句話說，如果您在先前建立書籤的頁面中引進交叉分析篩選器，交叉分析篩選器就會以其預設狀態運作。
