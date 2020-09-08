@@ -27,7 +27,7 @@
               href: service-workspaces-new-look.md
             - name: 升級傳統工作區
               href: ../collaborate-share/service-upgrade-workspaces.md
-            - name: 建立工作區
+            - name: 建立傳統工作區
               href: service-create-workspaces.md
             - name: 從工作區發行應用程式
               href: service-create-distribute-apps.md
