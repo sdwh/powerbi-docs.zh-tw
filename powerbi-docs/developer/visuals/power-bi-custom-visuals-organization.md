@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6683efbf9fa9dea9215914c097f249362fbffff2
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278805"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401948"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 
@@ -32,7 +32,7 @@ ms.locfileid: "83278805"
 
 ## <a name="administer-organizational-power-bi-visuals"></a>管理組織 Power BI 視覺效果
 
-若要深入了解如何管理及部署組織內的組織 Power BI 視覺效果，請參閱下列文章：[深入了解組織 Power BI 視覺效果的部署和管理](https://go.microsoft.com/fwlink/?linkid=866790)。
+若要深入了解如何管理及部署組織內的組織 Power BI 視覺效果，請參閱下列文章：[深入了解組織 Power BI 視覺效果的部署和管理](../../admin/organizational-visuals.md)。
 
 > [!WARNING]
 > 從檔案安裝的 Power BI 視覺效果，其程式碼可能會有安全性或隱私權風險。 將任何 Power BI 視覺效果檔案部署到組織存放庫之前，請確定您信任其作者和來源。

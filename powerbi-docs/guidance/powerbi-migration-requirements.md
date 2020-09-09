@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 29b821dc44f7eacb07f0df31100df2ff837c2189
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 60a22946ccde642987e748904d0dc7fe636ec700
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803135"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401971"
 ---
 # <a name="gather-requirements-to-migrate-to-power-bi"></a>收集需求以移轉到 Power BI
 
@@ -67,7 +67,7 @@ ms.locfileid: "88803135"
 - **資料結構和清理需求：** 判斷每個必要資料來源的資料結構，以及所需的[資料清理](../transform-model/desktop-query-overview.md)活動範圍。
 - **資料整合：** 當有多個資料來源時，評定如何處理資料整合，以及如何定義每個模型資料表之間的[關聯性](../transform-model/desktop-create-and-manage-relationships.md)。 識別簡化模型所需的特定資料項目，並[縮小其大小](import-modeling-data-reduction.md)。
 - **可接受的資料延遲：** 判斷每個資料來源的資料延遲需求。 這會影響要使用哪種[資料儲存模式](../transform-model/desktop-storage-mode.md)的決策。 了解匯入模型資料表的資料重新整理頻率也很重要。
-- **資料量和可擴縮性：** 評估預期的資料量，這會列入[大型模型支援](/admin/service-premium-large-models.md)以及設計 DirectQuery 或[複合模型](../transform-model/desktop-composite-models.md)的相關決策考量。 了解歷程記錄資料需求的相關考量也很重要。 針對較大型的資料集，還需要判斷[累加式資料重新整理](../admin/service-premium-incremental-refresh.md)規則。
+- **資料量和可擴縮性：** 評估預期的資料量，這會列入[大型模型支援](../admin/service-premium-large-models.md)以及設計 DirectQuery 或[複合模型](../transform-model/desktop-composite-models.md)的相關決策考量。 了解歷程記錄資料需求的相關考量也很重要。 針對較大型的資料集，還需要判斷[累加式資料重新整理](../admin/service-premium-incremental-refresh.md)規則。
 - **量值、KPI 和商務規則：** 評定量值、KPI 和商務規則的需求。 這會影響有關在何處套用邏輯的決策：在資料集或資料整合程序中。
 - **主要資料和資料目錄：** 請考慮是否有需要注意的主要資料問題。 判斷與企業資料目錄的整合是否適合用於增強可搜尋性、存取定義，或產生組織接受的一致術語。
 - **安全性和資料隱私權：** 判斷是否對資料集有任何特定安全性或資料隱私權考量，包括[資料列層級安全性](../admin/service-admin-rls.md)需求。

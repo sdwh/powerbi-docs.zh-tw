@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 58eb9af4975c0afeb12a71a880711ddd73e64d50
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
+ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803153"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89401994"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -87,7 +87,7 @@ ms.locfileid: "88803153"
 
 - **變更管理：** 如有必要，請取得部署的核准，並使用您的標準變更管理實作，與使用者擴展的部署進行通訊。 在允許實際執行部署的期間，可能會有已核准的變更管理視窗。 其通常適用於 IT 管理的內容，且較不常套用至自助內容。
 - **復原計畫：** 有了移轉，預期其為新解決方案的第一次移轉。 若內容已經存在，若有必要，最好將計畫還原成先前的版本。 擁有舊版的 Power BI Desktop 檔案 (使用 SharePoint 或 OneDrive 版本設定) 適用於此用途。
-- **連接字串與參數：** 當測試與實際執行之間的資料來源不同，請調整資料集連接字串。 [參數化](/connect-data/service-parameters.md)可以有效地用於此用途。
+- **連接字串與參數：** 當測試與實際執行之間的資料來源不同，請調整資料集連接字串。 [參數化](../connect-data/service-parameters.md)可以有效地用於此用途。
 - **資料重新整理：** 針對所有匯入的資料集，[排程資料集重新整理](../connect-data/refresh-scheduled-refresh.md)。
 - **工作區內容：** 將資料集與報表發佈至實際執行工作區，並建立儀表板。 若您的內容已發佈至 Premium 容量上的工作區，[部署管線](../create-reports/deployment-pipelines-overview.md)可以簡化開發、測試與實際執行工作區的部署程序。
 - **應用程式：** 若應用程式是內容散發策略的一部分，請使用實際執行工作區中的內容，發佈[應用程式](../consumer/end-user-apps.md)。
