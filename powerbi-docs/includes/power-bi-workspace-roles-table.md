@@ -5,15 +5,15 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 07/24/2020
+ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: 6a2fa7aca043c553c9174db81ff575853e526e06
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87260238"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512804"
 ---
 |功能   | 系統管理員  | 成員  | 參與者  | 檢視者 |
 |---|---|---|---|---|
@@ -36,7 +36,7 @@ ms.locfileid: "87260238"
 | 檢視項目並與其互動。<sup>5</sup> |  ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png)  |
 | 讀取儲存在工作區資料流程中的資料 | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) | ![「是」勾選記號](media/power-bi-workspace-roles-table/green-checkmark.png) |
 
-<sup>1</sup> 參與者可以更新應用程式中繼資料，但不能發佈新的應用程式或變更具有應用程式權限的人員 (如果[工作區管理員將此權限委派給參與者](../collaborate-share/service-create-the-new-workspaces.md#security-settings))。
+<sup>1</sup> 參與者可[更新與工作區建立關聯的應用程式](../collaborate-share/service-create-the-new-workspaces.md#allow-contributors-to-update-the-app) (若工作區系統管理員將此權限委派給參與者)。 然而，其無法發佈新的應用程式，或變更可具有其權限的人員。
 
 <sup>2</sup> 如果參與者和檢視者都有再次共用權限，即可在工作區中共用項目。
 

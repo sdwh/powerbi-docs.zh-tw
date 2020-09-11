@@ -6,16 +6,16 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/20/2020
+ms.date: 09/02/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 12d31c19e3f32068778eb6f3eb7b3b5b18e93847
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: c8db048f9ae74871840df96e63c60510ce800318
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215977"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443298"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>關於 Power BI 的常見問題集
 
@@ -28,16 +28,16 @@ ms.locfileid: "86215977"
 
 Power BI 服務是雲端式商務分析服務，讓任何人都能將資料視覺化並加以分析，速度更快、更有效率也更易於了解。 透過易於使用的儀表板、互動式報表，還有吸引人的視覺效果將資料注入生命，可將使用者連接到各種雲端式及內部部署資料。 深入閱讀 [Power BI](../fundamentals/power-bi-overview.md)。
 
-## <a name="what-is-a-power-bi-consumers"></a>什麼是 Power BI *取用者*？
+## <a name="what-is-a-power-bi-business-user"></a>什麼是 Power BI「商務使用者」？
 
-您與 Power BI 互動的方式將取決於作業角色。 身為終端使用者或「取用者」，您會從同事收到內容 (儀表板、報表和應用程式)。 您會在線上或行動裝置版的 Power BI (稱為 Power BI 服務) 中工作，檢視並與此內容互動，以制定商務決策。  深入了解[適用於取用者的 Power BI](index.yml)。
+您與 Power BI 互動的方式將取決於作業角色。 身為終端使用者或「商務使用者」，您會收到來自同事的內容 (儀表板、報表與應用程式)。 您會在線上或行動裝置版的 Power BI (稱為 Power BI 服務) 中工作，檢視並與此內容互動，以制定商務決策。  深入了解[適用於商務使用者的 Power BI](index.yml)。
 
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>Power BI Pro 與 Power BI Premium 之間的差異為何？
 
-Power BI Pro 是個別使用者授權，可允許存取 Power BI 服務中的所有內容與功能。 您甚至可以共用內容，並與其他 Pro 使用者共同作業。 只有 Pro 使用者能將內容發佈到工作區、共用儀表板，以及訂閱儀表板和報表。 
+Power BI Pro 是個別使用者授權，可允許存取 Power BI 服務中的所有內容與功能。 您甚至可以共用內容，並與其他 Pro 使用者共同作業。 只有 Pro 使用者能將內容發佈到其他工作區、共用儀表板，以及訂閱儀表板與報表。 
 
-Power BI Premium 提供專用容量，以提供更一致的效能。 它也在 Power BI 支援更大的資料量。 針對個別使用者，Premium 可讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要每個使用者 Pro 授權。 這表示「取用者」可以與同事共同作業，而且可以檢視與他們共用的儀表板、報表和應用程式並與其互動。 
+Power BI Premium 提供專用容量，以提供更一致的效能。 它也在 Power BI 支援更大的資料量。 針對個別使用者，Premium 可讓 Pro 使用者能廣泛散發內容，而且檢視內容的收件者並不需要每個使用者 Pro 授權。 這表示「商務使用者」可與同事共同作業，且可檢視並與其互動的所共用儀表板、報表和應用程式。 
 
 若要深入了解，請參閱[我擁有哪種類型的授權？](end-user-license.md)。
 
@@ -47,9 +47,9 @@ Power BI Premium 提供專用容量，以提供更一致的效能。 它也在 P
 
 ## <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
-Power BI Desktop 是免費應用程式，您可以直接在自己的電腦上安裝。 Power BI Desktop 與 Power BI 服務密切合作。  資料科學家、報表設計師、管理員與開發人員可以使用 Power BI Desktop 產生報表，並提供給 Power BI 服務「取用者」，就像您。 閱讀更多有關[什麼是 Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 的內容。
+Power BI Desktop 是免費應用程式，您可以直接在自己的電腦上安裝。 Power BI Desktop 與 Power BI 服務密切合作。  資料科學家、報表設計師、系統管理員與開發人員可使用 Power BI Desktop 來產生報表，並提供給 Power BI 服務「商務使用者」，就像您。 閱讀更多有關[什麼是 Power BI Desktop](../fundamentals/desktop-what-is-desktop.md) 的內容。
 
-## <a name="what-do-i-need-to-use-the-power-bi-service-as-a-consumer"></a>以「取用者」身分使用 Power BI 服務需要準備什麼？
+## <a name="as-a-business-user-what-do-i-need-to-use-the-power-bi-service"></a>身為「商務使用者」，使用 Power BI 服務需要準備什麼？
 
 如果您的公司已購買 Power BI 授權或 Premium 容量帳戶，您只需要網頁瀏覽器與認證。 若要登入，您將會使用您的公司電子郵件地址與密碼 (由您的 Power BI 管理員所設定)。  
 
@@ -84,7 +84,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 * [Power BI 部落格](https://powerbi.microsoft.com/blog/)
 * [網路研討會](../fundamentals/webinars.md)
 * 我們 [YouTube 頻道](https://www.youtube.com/user/mspowerbi)上的使用者入門影片
-* [以「取用者」身分開始使用 Power BI](index.yml) 一文
+* [以「商務使用者」身分開始使用 Power BI](index.yml) 一文
 * [加入我們的社群](https://community.powerbi.com/)和提出問題
 * 請參閱[取得協助的 10 個訣竅](../fundamentals/service-tips-for-finding-help.md)來得到更多的建議。
 
@@ -112,7 +112,7 @@ Power BI 不支援消費者電子郵件服務或電信提供者所提供的電�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [什麼是 Power BI 取用者？](end-user-consumer.md)
-* [取用者如何使用 Power BI？](end-user-reading-view.md)
+* [什麼是 Power BI 商務使用者](end-user-consumer.md)？
+* [商務使用者與 Power BI 互動的方式為何？](end-user-reading-view.md)
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 * 仍有問題嗎？ 瀏覽 [Power BI 支援頁面](https://powerbi.microsoft.com/support/)

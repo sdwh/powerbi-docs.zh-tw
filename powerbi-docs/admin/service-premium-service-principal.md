@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c62ee84c919e5910d1c1c9e111f19c7b74889b04
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227218"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490345"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服務主體將 Premium 工作區與資料集工作自動化
 
@@ -63,11 +63,11 @@ Power BI Premium 使用與 Power BI Embedded 相同的服務主體功能。 若�
 
 1. 在 Power BI 服務中，針對工作區選取 [更多] > [工作區存取權]。
 
-    ![工作區設定](media/service-premium-service-principal/workspace-access.png)
+    ![工作區存取權設定](media/service-premium-service-principal/workspace-access.png)
 
 2. 依應用程式名稱搜尋，以 [管理員] 或 [成員] 身分將服務主體新增至工作區。
 
-    ![工作區管理員](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
+    ![存取對話方塊](media/service-premium-service-principal/add-service-principal-in-the-UI.png)
 
 ## <a name="connection-strings-for-the-xmla-endpoint"></a>XMLA 端點的連接字串
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO 和 ADOMD
 
-與用戶端應用程式和 Web 應用程式連線時，來自 NuGet 的 [AMO 和 ADOMD 用戶端程式庫](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 15.0.2 版及更新版本的可安裝套件，會使用下列語法在連接字串中支援服務主體：`app:AppID` 和密碼或 `cert:thumbprint`。
+與用戶端應用程式與 Web 應用程式連線時，來自 NuGet 的 [AMO 與 ADOMD 用戶端程式庫](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 15.1.42.26 版 (2020 年 6 月) 及更新版本的可安裝套件會使用下列語法，在連接字串中支援服務主體：`app:AppID` 及密碼或 `cert:thumbprint`。
 
 在下列範例中，`appID` 和 `password` 可用來執行模型資料庫重新整理作業：
 

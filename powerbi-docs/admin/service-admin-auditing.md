@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 7b5a96f4b592789c04ebaca5418e470d546ff788
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
+ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88802966"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89512048"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -108,6 +108,9 @@ $activities.Count
 $activities[0]
 
 ```
+
+> [!NOTE]
+> PowerShell 範例可有助了解如何篩選及擷取 Power BI 活動記錄事件。 如需詳細資訊，請參閱[存取 Power BI 活動記錄](../guidance/admin-activity-log.md)。
 
 ## <a name="use-the-audit-log"></a>使用稽核記錄
 
@@ -369,8 +372,8 @@ Remove-PSSession $Session
 
 ## <a name="next-steps"></a>後續步驟
 
-[什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)  
-
-[Power BI 管理入口網站](service-admin-portal.md)  
-
-有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- [什麼是 Power BI 管理？](service-admin-administering-power-bi-in-your-organization.md)
+- [Power BI 管理入口網站](service-admin-portal.md)
+- [存取 Power BI 活動記錄](../guidance/admin-activity-log.md)
+- 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
+- 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)

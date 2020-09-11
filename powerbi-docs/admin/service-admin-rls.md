@@ -10,12 +10,12 @@ ms.author: kfollis
 ms.date: 12/05/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 94a65a826cce3cdb0821e8127e45a1f983ad7d89
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1478c077cda1097d3903bd0379dc79b27d034ffc
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227873"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443551"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Power BI 的資料列層級安全性 (RLS)
 
@@ -25,7 +25,7 @@ Power BI 的資料列層級安全性 (RLS) 可用以限制指定使用者的資�
 
 [!INCLUDE [include-short-name](../includes/rls-desktop-define-roles.md)]
 
-根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選] 核取方塊。 當您同時在伺服器層級實作動態資料列層級安全性 (其中的資料列層級安全性是以使用者名稱或登入識別碼為基礎) 時，也應該核取此方塊。
+根據預設，資料列層級安全性篩選使用單一方向的篩選條件，不論關聯性設定為單向或雙向。 您可以手動啟用雙向交叉篩選與資料列層級安全性，方法是選取關聯性，並核取 [雙向套用安全性篩選] 核取方塊。 當同時在伺服器層級實作動態資料列層級安全性 (其中資料列層級安全性是依據使用者名稱或登入識別碼) 時，也應核取此方塊。
 
 如需詳細資訊，請參閱[在 Power BI Desktop 中使用 DirectQuery 雙向交叉篩選](../transform-model/desktop-bidirectional-filtering.md)和[保護表格式 BI 語意模型](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx)技術文件。
 

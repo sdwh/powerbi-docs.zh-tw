@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: a9045c5c088926b24bb9f71e2adf558da6ffa597
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
+ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227438"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89443321"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
@@ -26,12 +26,11 @@ ms.locfileid: "85227438"
 > * **減少資源耗用量** - 要重新整理的資料較少可減少記憶體和其他資源的整體耗用。
 
 > [!NOTE]
-> 累加式重新整理現在可供 Power BI Pro、Premium 及共用訂用帳戶與資料集使用。 
+> 累加式重新整理現在可供 Power BI Pro、Premium 及共用訂用帳戶與資料集使用。
 
 ## <a name="configure-incremental-refresh"></a>設定累加式重新整理
 
 累加式重新整理原則定義於 Power BI Desktop，並在發佈至 Power BI 服務時套用。
-
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>在 Power BI Desktop 中篩選大型資料集
 
@@ -99,18 +98,17 @@ ms.locfileid: "85227438"
 
 #### <a name="refresh-ranges"></a>重新整理範圍
 
-下列範例會定義重新整理原則，用來儲存 5 個完整日曆年度的資料再加上目前年度到目前日期的資料，並以累加方式重新整理 10 天的資料。 第一次重新整理作業會載入歷程記錄資料。 後續的重新整理是累加式，且 (如果排程為每日執行) 會執行下列作業：
+下列範例會定義重新整理原則，以儲存 5 個完整日曆年度的資料再加上目前年度到目前日期的資料，並以累加式重新整理完整 10 天的資料。 第一次重新整理作業會載入歷程記錄資料。 後續的重新整理是累加式，且 (如果排程為每日執行) 會執行下列作業：
 
 - 新增一天的資料。
 
-- 重新整理 10 天到目前日期為止。
+- 重新整理直到目前日期為止的完整 10 天。
 
 - 移除目前日期之前超過 5 年的日曆年度。 例如，如果目前日期是 2019 年 1 月 1 日，則會移除 2013 年。
 
 Power BI 服務中的第一次重新整理可能需要較長的時間才能匯入全部 5 個完整日曆年度。 後續重新整理只需要較短的時間就能完成。
 
 ![重新整理範圍](media/service-premium-incremental-refresh/refresh-ranges.png)
-
 
 #### <a name="current-date"></a>目前日期
 
@@ -140,7 +138,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="only-refresh-complete-periods"></a>只重新整理完整週期
 
-假設您的重新整理排定在每天早上上午 4:00 執行。 如果資料在這 4 小時期間出現在來源系統中，您可能不想要考量它。 某些商務計量 (例如石油和天然氣業的每日桶數) 對於半天不具任何意義。
+假設您的重新整理排定在每天早上上午 4:00 執行。 如果資料在這 4 小時期間出現在來源系統中，您可能不想要考量它。 若非整日，某些商務計量 (例如石油與天然氣業的每日桶數) 則不具任何意義。
 
 另一個範例是重新整理財務系統中的資料，而在財務系統中，會在該月的第 12 個日曆日期核准上個月的資料。 您可以將累加式範圍設定為 1 個月，並排定在該月的第 12 天執行重新整理。 舉例來說，核取此選項，即會在 2 月 12 日重新整理 1 月資料。
 

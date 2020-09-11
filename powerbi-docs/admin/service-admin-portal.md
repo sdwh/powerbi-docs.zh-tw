@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 19b4d64039333a18405ac57d98773e9e23857a18
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
+ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049758"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "89490400"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -141,7 +141,7 @@ ms.locfileid: "88049758"
 
 下圖顯示 [租用戶設定] 索引標籤的數個設定。
 
-![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+![租用戶設定](media/service-admin-portal/powerbi-admin-tenant-settings-2.png)
 
 > [!NOTE]
 > 設定變更最多可能需要 15 分鐘，才會套用到組織中的所有使用者。
@@ -251,18 +251,36 @@ ms.locfileid: "88049758"
 
 ## <a name="export-and-sharing-settings"></a>匯出及共用設定
 
-### <a name="share-content-with-external-users"></a>與外部使用者共用內容
+### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>允許 Azure Active Directory 來賓使用者存取 Power BI
 
-組織內部使用者可與組織外部使用者共用儀表板、報表和應用程式。 深入了解[在外部共用](../collaborate-share/service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization)。
+啟用此設定可供 Azure Active Directory 企業對企業 (Azure AD B2B) 來賓使用者存取 Power BI。 當停用此設定時，若來賓使用者嘗試存取 Power BI，就會收到錯誤。 當針對整個組織停用此設定時，其也會防止使用者邀請來賓至組織，並將權限指派給個別來賓使用者。 使用特定安全性群組選項來控制哪些來賓使用者可存取 Power BI。
 
-![外部使用者設定](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![允許 Azure Active Directory 來賓使用者存取 Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
-下圖顯示您與外部使用者共用時會出現的訊息。
+### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>允許授與權限給現有的 Azure Active Directory 來賓使用者
 
-![與外部使用者共用](media/service-admin-portal/powerbi-admin-sharing-external.png)  
+當啟用此設定時，組織中使用者可透過 Power BI 中的權限或共用體驗來將權限授與個別來賓使用者。 當針對使用者停用此設定時，使用者即無法指派權限給來賓使用者，或邀請來賓使用者至 Power BI。
+
+![允許授與權限給現有的 Azure Active Directory 來賓使用者](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
+
 
 > [!IMPORTANT]
-> 此選項控制 Power BI 中的使用者是否可以透過 Power BI，邀請外部使用者成為組織中 Azure Active Directory B2B (Azure AD B2B) 來賓使用者。 啟用後，在 Azure AD 中具有「來賓邀請者」角色的使用者可以在共用報告、儀表板和 Power BI 應用程式時，新增外部電子郵件地址。 外部收件者會受邀加入貴組織，成為 Azure AD B2B 來賓使用者。 重要的是，停用此設定時，組織中已是 Azure AD B2B 來賓使用者的外部使用者會繼續出現在 Power BI 的人員選擇器 UI 中，並可獲得項目、工作區和應用程式的存取權。
+>  在所有情況下，此設定不會防止將權限指派給來賓使用者。 此設定只會防止將存取權授與個別來賓使用者。 仍可透過使用者群組來將存取權授與來賓使用者，例如安全性、Office 365 群組或通訊群組清單。 
+
+當不允許將權限授與來賓使用者的使用者嘗試這麼做時，其會在 UI 中看到錯誤訊息。 此外，在變更項目的權限時，不允許將權限授與來賓使用者的使用者必須先從存取清單中移除任何來賓使用者，才能授與或變更項目的權限。 
+
+### <a name="invite-external-users-to-your-organization"></a>邀請外部使用者到組織 
+
+[邀請外部使用者到組織] 設定可協助組織選擇是否可透過 Power BI 共用與權限體驗來邀請新的外部使用者加入組織。 當停用此設定時，若外部使用者還不是組織中的來賓使用者，則無法透過 Power BI 將其新增至組織。 
+
+![邀請外部使用者到組織](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
+
+> [!IMPORTANT]
+> 此設定先前稱為「與外部使用者共用內容」。 修訂的名稱會更精確地反映設定的用途。
+
+若要邀請外部使用者到組織，使用者也需要 Azure Active Directory 來賓邀請者角色。 此設定只會控制透過 Power BI 邀請的能力。 
+
+當針對使用者停用**允許對現有的 Azure Active Directory 來賓使用者提供權限**設定時，其也無法透過 Power BI 邀請外部使用者到組織。
 
 ### <a name="publish-to-web"></a>發行至 Web
 
