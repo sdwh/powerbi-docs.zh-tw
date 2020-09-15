@@ -12,27 +12,27 @@ metadata:
   ms.collection: collection
   author: maggiesMSFT
   ms.author: maggies
-  ms.date: 03/31/2020
-  ms.openlocfilehash: d293b27b65e3997b895d3fd10d69292db661bc3b
-  ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+  ms.date: 09/09/2020
+  ms.openlocfilehash: f1334267e0b1698c8105115e821d8eccb69c1b00
+  ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 07/28/2020
-  ms.locfileid: "87364023"
+  ms.lasthandoff: 09/10/2020
+  ms.locfileid: "90008598"
 highlightedContent:
   items:
-  - title: 使用美國資料建立 COVID-19 報表
-    itemType: sample
-    url: create-reports/sample-covid-19-us.md
   - title: 開始使用 Power BI Desktop
     itemType: get-started
     url: fundamentals/desktop-getting-started.md
-  - title: 註冊 Power BI 服務
-    itemType: how-to-guide
-    url: fundamentals/service-self-service-signup-for-power-bi.md
-  - title: 共同作業和共用方式
+  - title: 在 Microsoft Teams 中使用 Power BI 共同作業
     itemType: concept
-    url: collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md
+    url: collaborate-share/service-collaborate-microsoft-teams.md
+  - title: 將 Power BI 內容內嵌至應用程式
+    itemType: tutorial
+    url: developer/embedded/embed-sample-for-customers.md
+  - title: Microsoft Learn 上的 Power BI
+    itemType: learn
+    url: https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link
 conceptualContent:
   items:
   - title: Power BI：開始使用
@@ -40,12 +40,12 @@ conceptualContent:
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: Power BI 是什麼？
-    - url: fundamentals/desktop-what-is-desktop.md
-      itemType: overview
-      text: Power BI Desktop 是什麼？
     - url: fundamentals/power-bi-overview.md
       itemType: overview
       text: 什麼是 Power BI 服務？
+    - url: fundamentals/service-self-service-signup-for-power-bi.md
+      itemType: overview
+      text: 註冊 Power BI 服務
     footerLink:
       url: fundamentals/index.yml
       text: 查看更多
@@ -71,9 +71,9 @@ conceptualContent:
     - url: admin/service-admin-licensing-organization.md
       itemType: concept
       text: 組織中的授權
-    - url: admin/service-admin-portal.md
+    - url: admin/service-premium-what-is.md
       itemType: concept
-      text: 管理入口網站
+      text: 什麼是 Power BI Premium？
     footerLink:
       url: admin/index.yml
       text: 查看更多
@@ -107,9 +107,9 @@ conceptualContent:
       text: 查看更多
   - title: 轉換與塑造資料
     links:
-    - url: transform-model/desktop-analytics-pane.md
-      itemType: how-to-guide
-      text: 使用 [分析] 窗格
+    - url: transform-model/desktop-query-overview.md
+      itemType: overview
+      text: 查詢編輯器概觀
     - url: transform-model/desktop-common-query-tasks.md
       itemType: concept
       text: 一般查詢工作
@@ -135,9 +135,9 @@ conceptualContent:
       text: 查看更多
   - title: 建立報表和儀表板
     links:
-    - url: create-reports/desktop-report-themes.md
-      itemType: concept
-      text: 報表主題
+    - url: create-reports/sample-covid-19-us.md
+      itemType: sample
+      text: 使用美國資料建立 COVID-19 報表
     - url: paginated-reports/paginated-reports-report-builder-power-bi.md
       itemType: concept
       text: 什麼是編頁報表？
