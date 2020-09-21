@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/11/2020
+ms.date: 09/09/2020
 ms.author: kfollis
-ms.openlocfilehash: 43d78710e4b60ed57ac46f713ce7bc787e852f26
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 89619a20f2fcf8510825b0234b90be5b2ff92e11
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485476"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642277"
 ---
 # <a name="service-interruption-notifications"></a>服務中斷通知
 
@@ -40,7 +40,7 @@ ms.locfileid: "85485476"
 
 * 負責資料集的資料集識別碼
 * 作業類型
-* 與高資源使用量建立關聯的 CPU 時間
+* 與高資源使用量建立關聯的 CPU 時間。 以下是維基百科中對 [CPU 時間的定義](https://wikipedia.org/wiki/CPU_time)。
 
 在偵測到 Power BI Premium 容量超載時，Power BI 也會傳送電子郵件通知。 該電子郵件會說明超載的可能原因、在過去 10 分鐘內產生負載的作業，以及每個作業產生的負載量。 
 

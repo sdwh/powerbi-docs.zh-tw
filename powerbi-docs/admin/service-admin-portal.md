@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: e819902328f49ab06a65869066ab2b2dabce6610
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490400"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642800"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -253,21 +253,9 @@ ms.locfileid: "89490400"
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>允許 Azure Active Directory 來賓使用者存取 Power BI
 
-啟用此設定可供 Azure Active Directory 企業對企業 (Azure AD B2B) 來賓使用者存取 Power BI。 當停用此設定時，若來賓使用者嘗試存取 Power BI，就會收到錯誤。 當針對整個組織停用此設定時，其也會防止使用者邀請來賓至組織，並將權限指派給個別來賓使用者。 使用特定安全性群組選項來控制哪些來賓使用者可存取 Power BI。
+啟用此設定可供 Azure Active Directory 企業對企業 (Azure AD B2B) 來賓使用者存取 Power BI。 當停用此設定時，若來賓使用者嘗試存取 Power BI，就會收到錯誤。 當針對整個組織停用此設定時，其也會防止使用者邀請來賓至組織。 使用特定安全性群組選項來控制哪些來賓使用者可存取 Power BI。
 
 ![允許 Azure Active Directory 來賓使用者存取 Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
-
-### <a name="allow-giving-permissions-to-existing-azure-active-directory-guest-users"></a>允許授與權限給現有的 Azure Active Directory 來賓使用者
-
-當啟用此設定時，組織中使用者可透過 Power BI 中的權限或共用體驗來將權限授與個別來賓使用者。 當針對使用者停用此設定時，使用者即無法指派權限給來賓使用者，或邀請來賓使用者至 Power BI。
-
-![允許授與權限給現有的 Azure Active Directory 來賓使用者](media/service-admin-portal/powerbi-admin-allow-grant-access-to-aad-b2b-guests.png)
-
-
-> [!IMPORTANT]
->  在所有情況下，此設定不會防止將權限指派給來賓使用者。 此設定只會防止將存取權授與個別來賓使用者。 仍可透過使用者群組來將存取權授與來賓使用者，例如安全性、Office 365 群組或通訊群組清單。 
-
-當不允許將權限授與來賓使用者的使用者嘗試這麼做時，其會在 UI 中看到錯誤訊息。 此外，在變更項目的權限時，不允許將權限授與來賓使用者的使用者必須先從存取清單中移除任何來賓使用者，才能授與或變更項目的權限。 
 
 ### <a name="invite-external-users-to-your-organization"></a>邀請外部使用者到組織 
 
@@ -279,8 +267,6 @@ ms.locfileid: "89490400"
 > 此設定先前稱為「與外部使用者共用內容」。 修訂的名稱會更精確地反映設定的用途。
 
 若要邀請外部使用者到組織，使用者也需要 Azure Active Directory 來賓邀請者角色。 此設定只會控制透過 Power BI 邀請的能力。 
-
-當針對使用者停用**允許對現有的 Azure Active Directory 來賓使用者提供權限**設定時，其也無法透過 Power BI 邀請外部使用者到組織。
 
 ### <a name="publish-to-web"></a>發行至 Web
 

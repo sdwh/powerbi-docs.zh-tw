@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2921ea9ff0e5e1fa6bc12c0ecd5dd047b703a937
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237627"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642303"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源 ─ Analysis Services
 
@@ -36,7 +36,7 @@ ms.locfileid: "85237627"
 填入資料來源的資訊，包括 [伺服器]  和 [資料庫]  。 閘道器將使用您輸入的 [使用者名稱]  和 [密碼]  連線到 Analysis Services 執行個體。
 
 > [!NOTE]
-> 您輸入的 Windows 帳戶，必須擁有您所連接執行個體的伺服器系統管理員權限。 如果此帳號的密碼設有期限，在密碼未針對資料來源更新的情況下，使用者就會收到連接錯誤。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
+> 您輸入的 Windows 帳戶必須是您所連線 Analysis Services 執行個體上伺服器管理員角色成員。 如果此帳號的密碼設有期限，在密碼未針對資料來源更新的情況下，使用者就會收到連接錯誤。 若要深入了解認證的儲存方式，請參閱[在雲端中儲存加密認證](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud)。
 
 ![填入資料來源設定](media/service-gateway-enterprise-manage-ssas/datasourcesettings3-ssas.png)
 

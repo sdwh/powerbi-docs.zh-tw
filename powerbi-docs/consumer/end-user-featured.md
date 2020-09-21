@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 02/19/2020
+ms.date: 09/03/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 022ce2c28ef41636c4530f93e7c2765784c24ff0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3cbd8acd2f32ea5fa0ccbb0fa3f91e45629cc079
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215867"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642407"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Power BI 服務中的精選儀表板
 
@@ -23,9 +23,9 @@ ms.locfileid: "86215867"
 許多使用者會有一個比其他任何儀表板更常瀏覽的儀表板。 這可能是我們用來執行業務的儀表板。 或者，可能是包含來自許多不同儀表板和報告之磚彙總的儀表板。
 
 ## <a name="create-a-featured-dashboard"></a>建立精選儀表板
-當您將儀表板選取為 [精選]  時，每次開啟 Power BI 服務時，都會開啟服務並顯示該儀表板。 
+若將儀表板設為「精選」，則每次開啟 Power BI 服務時，都會開啟服務並顯示該儀表板。 
 
-![設為精選圖示](./media/end-user-featured/power-bi-dropdown.png)
+![設為精選圖示](./media/end-user-featured/power-bi-dropbox.png)
 
 您也可以選取幾個儀表板，並將其設定為我的最愛。 請參閱[我的最愛儀表板](end-user-favorite.md)。
 
@@ -37,19 +37,19 @@ ms.locfileid: "86215867"
 1. 開啟您想要設為精選的儀表板。 
 2. 在頂端功能表列中，選取 [更多選項]  (...)，然後選取 [設為精選儀表板]  。 
    
-    ![設為精選圖示](./media/end-user-featured/power-bi-dropdown.png)
+    ![顯示 [設為精選] 選項 Dropbox 的螢幕擷取畫面。](./media/end-user-featured/power-bi-set-as-featured.png)
 3. 確認您的選擇。
    
     ![設定精選儀表板](./media/end-user-featured/power-bi-featured-confirm.png)
 
 ## <a name="change-the-featured-dashboard"></a>變更精選儀表板
-如果您稍後改變心意，可以將新的儀表板設為精選儀表板。
+如果您稍後改變心意，可以將新的儀表板設為精選儀表板。 將儀表板移除精選並不會將其從 Power BI 中移除。 
 
 1. 遵循先前的步驟 1 和步驟 2。
    
-2. 選取 [設為精選儀表板]  。 將儀表板移除精選並不會將其從 Power BI 中移除。 
+2. 選取 [設為精選儀表板]****。 
    
-    ![成功訊息](./media/end-user-featured/power-bi-unfeature-new.png)
+    ![成功訊息](./media/end-user-featured/power-bi-unfeatured.png)
 
 ## <a name="remove-the-featured-dashboard"></a>移除精選儀表板
 如果您決定不想要將任何儀表板指定為精選，以下是將儀表板取消精選的方式。

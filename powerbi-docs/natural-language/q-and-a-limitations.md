@@ -5,14 +5,14 @@ author: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/21/2020
+ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: eebb40d81e9b59b545b30ce55dbf4a362b826455
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937577"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642353"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 問與答的限制
 
@@ -31,12 +31,17 @@ Power BI 問與答支援 Power BI 服務中的下列資料來源設定：
 
 在上述每項設定中，也支援資料列層級安全性。
 
+**問與答支援 DirectQuery** (預覽)
+
+問與答現在支援 SQL DirectQuery 來源，包含 SQL Server 2019、Azure SQL 資料庫以及 Azure Synapse Analytics。 您可使用問與答，以針對這些資料來源詢問自然語言問題。 問與答的行為在 DirectQuery 模式中有一項小變更：當鍵入問題之後，需選取 [提交] 按鈕。 這項變更可供在鍵入時，避免不必要的查詢造成 DirectQuery 來源多載。
+
+問與答不支援其他 DirectQuery 來源。 即使資料集內有其他 DirectQuery 來源，也不會因此完全無法使用問與答，但可能無法正確回答某些問題，或傳回錯誤。
+
 ### <a name="data-sources-not-supported"></a>不支援的資料來源
 
 Power BI 問與答目前不支援下列設定：
 
 - 任何資料來源類型的物件層級安全性
-- 對任何來源進行 DirectQuery。 其因應措施是透過 Azure Analysis Services 使用即時連線，這會用到 DirectQuery。
 - 複合模型
 - Reporting Services 
 

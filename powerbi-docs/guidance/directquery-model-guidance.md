@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 264d3f4a0c611ca01de627b7656584ceb60e7b18
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214536"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642619"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指南
 
@@ -127,7 +127,7 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
 
 ## <a name="educate-users"></a>教育使用者
 
-教育使用者如何有效地根據 DirectQuery 資料集使用報表非常重要。 報表作者應針對[最佳化報表設計](#optimize-report-designs section)中描述的內容進行學習。
+教育使用者如何有效地根據 DirectQuery 資料集使用報表非常重要。 報表作者應針對[最佳化報表設計](#optimize-report-designs)一節中描述的內容進行學習。
 
 我們建議針對以 DirectQuery 資料集為基礎的報表來教育報表取用者。 讓報表取用者了解一般資料架構 (包含任何本文所述的相關限制) 也會有所幫助。 讓報表取用者了解其需要預期有時候重新整理回應和互動篩選可能會相當緩慢。 當報表使用者了解為何會發生效能降低情況時，就不太可能會對報表和資料喪失信心。
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/05/2020
+ms.date: 09/09/2020
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ef6fef8535e0fb6013e363a23f4736368a66720c
-ms.sourcegitcommit: d91c060913fcb526f9a01dc48e218485daf55b4e
+ms.openlocfilehash: 26e638e106f7bd11544d1d80dae543f06783bda7
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89562436"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008788"
 ---
 # <a name="creating-a-relative-date-slicer-and-filter-in-power-bi"></a>在 Power BI 中建立相對日期交叉分析篩選器與篩選條件
 
@@ -45,9 +45,7 @@ ms.locfileid: "89562436"
 ![叫出第一項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-04.png)
 
 * 最後一個
-
 * 下一步
-
 * 此
 
 「相對日期交叉分析篩選器」  的第二項 (中間) 設定可讓您輸入數字，定義相對的日期範圍。
@@ -59,26 +57,19 @@ ms.locfileid: "89562436"
 ![叫出第二項設定的相對設定選項螢幕擷取畫面。](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter-05.png)
 
 * 天
-
 * 週
-
 * 週 (日曆)
-
 * 月
-
 * 月 (日曆)
-
 * 年
-
 * 年 (日曆)
 
 若從該清單選取 [月]  並在中間設定中輸入 *2*，其結果會如下：
 
-* 如果今天是 7 月 20 日
+* 如果今天是 7 月 20 日：
 
-* 交叉分析篩選器限制視覺效果所包含資料會顯示前兩個月的資料
-
-* 從 5 月 21 日開始到 7 月 20 日 (今天的日期)
+    - 交叉分析篩選器限制視覺效果所包含資料會顯示前兩個月的資料，
+    - 也就是從 5 月 21 日開始到 7 月 20 日 (今天的日期)。
 
 相對來說，若您選取 [月 (日曆)]  ，則受限制視覺效果會顯示 5 月 1 日至 6 月 30 日的資料 (過去兩個完整的日曆月份)。
 
@@ -100,10 +91,9 @@ ms.locfileid: "89562436"
 
 **相對日期範圍交叉分析篩選器**及篩選條件目前適用下列限制與考量。
 
+* 交叉分析篩選器中欄位的資料類型必須是日期，而非文字的預設值。 否則，相對的選項就不會顯示在交叉分析篩選器中。
 * **Power BI** 中的資料模型不包含時區資訊。 模型可以儲存時間，但無法指出所在時區。
-
 * 交叉分析篩選器和篩選條件一律以 UTC 時區為基礎。 若在報表中設定篩選條件，並將其傳送給不同時區的同事，則兩人會看到相同的資料。 除非您在 UTC 時區中，否則您和同事必須考量會經歷的時間位移。
-
 * 您可以使用 [查詢編輯器]  將擷取的當地時區資料轉換為 UTC。
 
 ## <a name="next-steps"></a>後續步驟

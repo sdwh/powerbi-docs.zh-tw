@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/08/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 26c27c8cd33929c7bb83a8ef5b1faed0fb12e502
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: f652d09d5d954123a47b45b30ab1076763018225
+ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216547"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89642639"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -180,7 +180,7 @@ Power BI 服務大部分的資料來源及報表都支援 [發行至 Web]。 不
 - [共用和認證的資料集](../connect-data/service-datasets-share.md)。
 - 直接或透過組織內容套件與您共用的報表。
 - 位在您非屬編輯成員之工作區中的報表。
-- [發行至 Web] 報表目前不支援 "R" 視覺效果。
+- [發佈至 Web] 報表目前不支援 "R" 與 Python 視覺效果。
 - 從已發行至 Web 的報表中匯出視覺效果的資料。
 - ArcGIS Maps for Power BI 視覺效果。
 - 包含報表層級 DAX 量值的報表。

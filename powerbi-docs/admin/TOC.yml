@@ -80,7 +80,9 @@
           href: desktop-admin-sign-in-form.md
         - name: 資料保護
           items:
-            - name: Power BI 中的敏感度標籤
+            - name: Power BI 的資料保護
+              href: service-security-data-protection-overview.md
+            - name: 敏感度標籤概觀
               href: service-security-sensitivity-label-overview.md
             - name: 啟用敏感度標籤
               href: service-security-enable-data-sensitivity-labels.md

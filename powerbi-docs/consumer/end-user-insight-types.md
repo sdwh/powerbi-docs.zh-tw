@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 44b66c2c8245b7f9629ad36879e6f13a5e720687
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 7b5a935418aacb8de15ea6e7e942f2de440ecec1
+ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537749"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "90008667"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Power BI 支援的深入解析類型
 
@@ -27,7 +27,7 @@ ms.locfileid: "87537749"
 ![一組見解](media/end-user-insight-types/power-bi-insight.png)
 
 ## <a name="how-does-insights-work"></a>深入解析如何運作？
-Power BI 可快速搜尋資料集的不同子集， 並在搜尋時套用一組複雜的演算法來探索潛在相關見解。 Power BI「取用者」  可以在儀表板磚上執行見解。
+Power BI 可快速搜尋資料集的不同子集， 並在搜尋時套用一組複雜的演算法來探索潛在相關見解。 Power BI「商務使用者」可在儀表板磚上執行見解。
 
 ## <a name="some-terminology"></a>一些術語
 Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的下一節中列出並描述。 在了解演算法之前，以下是一些可能不熟悉的詞彙定義。 
@@ -44,49 +44,49 @@ Power BI 使用統計演算法來發掘見解。 這些演算法將在本文的�
 ### <a name="category-outliers-topbottom"></a>類別極端值 (上/下)
 醒目提示一或兩個類別其值比其他類別大很多的情況。  
 
-![類別極端值範例](./media/end-user-insight-types/pbi-auto-insight-types-category-outliers.png)
+![類別極端值範例](./media/end-user-insight-types/pbi-auto-insight-type-category-outliers.png)
 
 ### <a name="change-points-in-a-time-series"></a>變更時間序列中的點
 醒目提示資料時間序列中的趨勢明顯變更的情況。
 
-![變更時間序列中的點範例](./media/end-user-insight-types/pbi-auto-insight-types-changepoint.png)
+![變更時間序列中的點範例](./media/end-user-insight-types/pbi-auto-insight-type-changepoint.png)
 
 ### <a name="correlation"></a>Correlation
 偵測在根據資料集內的類別或值繪製時，多個量值會顯示類似模式或趨勢的情況。
 
-![相互關聯範例](./media/end-user-insight-types/pbi-auto-insight-types-correlation.png)
+![相互關聯範例](./media/end-user-insight-types/pbi-auto-insight-type-correlation.png)
 
 ### <a name="low-variance"></a>低變異數
 偵測到維度資料點不在平均值的情況，因此「變異數」為低。 假設您有量值「銷售」和維度「區域」。 而跨區域查看，您會發現資料點和平均值 (資料點) 之間的差異很小。 當所有區域的銷售變異數低於閾值時，就會觸發見解。 換句話說，當所有區域的銷售額都非常相似時。
 
-![低差異範例](./media/end-user-insight-types/power-bi-low-variance.png)
+![低差異範例](./media/end-user-insight-types/power-bi-insights-low-variance.png)
 
 ### <a name="majority-major-factors"></a>多數 (主要因素)
 尋找當總值由另一個維度分解時，其多數可能歸因於單一因素的情況。  
 
-![主要因素範例](./media/end-user-insight-types/pbi-auto-insight-types-majority.png)
+![主要因素範例](./media/end-user-insight-types/pbi-auto-insight-type-majority.png)
 
 ### <a name="overall-trends-in-time-series"></a>時間序列中的整體趨勢
 偵測時間序列資料中的向上或向下趨勢。
 
-![時間序列中的整體趨勢範例](./media/end-user-insight-types/pbi-auto-insight-types-trend.png)
+![時間序列中的整體趨勢範例](./media/end-user-insight-types/pbi-auto-insight-type-trend.png)
 
 ### <a name="seasonality-in-time-series"></a>時間序列中的季節性
 尋找時間序列資料中的週期模式，例如每週、每月或每年的季節性。
 
-![季節性範例](./media/end-user-insight-types/pbi-auto-insight-types-seasonality-new.png)
+![季節性範例](./media/end-user-insight-types/pbi-auto-insight-type-seasonality-new.png)
 
 ### <a name="steady-share"></a>穩定佔有率
 醒目提示子值的部分相對於跨連續變數的整體父值有父子相互關聯的情況。 穩定的共用見解會套用至量值、維度和另一個日期/時間維度的內容。 當特定維度值 (例如「東北部區域」) 在該日期/時間維度上的整體銷售中所佔百分比穩定時，就會觸發此見解。
 
 穩定的共用見解類似於低差異的見解，因為兩者都與缺少某個時間值的變異數有關。 不過，穩定的共用見解會測量在一段時間內缺少**整體百分比**的變異數，而低差異見解則會測量在維度間缺少絕對量值的變異數。
 
-![穩定佔有率範例](./media/end-user-insight-types/pbi-auto-insight-types-steadyshare.png)
+![穩定佔有率範例](./media/end-user-insight-types/pbi-auto-insight-type-steadyshare.png)
 
 ### <a name="time-series-outliers"></a>時間序列極端值
 針對跨時間序列的資料，偵測特定日期或時間值明顯不同於其他日期/時間值的情況。
 
-![時間序列極端值範例](./media/end-user-insight-types/pbi-auto-insight-types-time-series-outliers.png)
+![時間序列極端值範例](./media/end-user-insight-types/pbi-auto-insight-type-time-series-outliers-purple.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 深入解析](end-user-insights.md)
