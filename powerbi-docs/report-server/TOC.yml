@@ -17,7 +17,7 @@
     - name: 概念
       expanded: true
       items:
-        - name: 新功能
+        - name: 新增功能
           href: whats-new.md
         - name: 系統管理員概觀
           href: admin-handbook-overview.md
@@ -40,9 +40,9 @@
             - name: 分頁報表資料來源
               href: connect-data-sources.md
             - name: 訂用帳戶
-              href: 'https://go.microsoft.com/fwlink/?linkid=851310'
+              href: /sql/reporting-services/working-with-subscriptions-web-portal
             - name: 使用行動裝置應用程式
-              href: 'https://go.microsoft.com/fwlink/?linkid=848711'
+              href: ../consumer/mobile/mobile-apps-for-mobile-devices.md
             - name: 疑難排解重新整理排程
               href: scheduled-refresh-troubleshoot.md
         - name: 開發人員的報表伺服器
@@ -50,9 +50,9 @@
             - name: 開發人員的報表伺服器
               href: developer-handbook-overview.md
             - name: 報表檢視器控制項
-              href: 'https://go.microsoft.com/fwlink/?linkid=848724'
+              href: /sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started
             - name: 開發延伸模組
-              href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+              href: /sql/reporting-services/extensions/reporting-services-extension-library
             - name: 內嵌報表
               href: quickstart-embed.md
     - name: 如何
@@ -74,7 +74,7 @@
             - name: 直接在分頁報表中輸入資料
               href: ../paginated-reports/paginated-reports-enter-data.md
             - name: 使用 KPI
-              href: 'https://go.microsoft.com/fwlink/?linkid=849021'
+              href: /sql/reporting-services/working-with-kpis-in-reporting-services
             - name: 存取共用資料集作為 OData 摘要
               href: access-dataset-odata.md
             - name: 使用 PowerShell 變更資料來源連接字串
@@ -102,7 +102,7 @@
             - name: 使用 Azure 應用程式 Proxy 設定報表伺服器
               href: azure-application-proxy.md
             - name: 使用 Azure AD 進行遠端行動存取
-              href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
+              href: /azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi
             - name: 編輯 Excel 活頁簿
               href: excel-oos.md
     - name: 參考
@@ -110,13 +110,13 @@
         - name: REST API
           href: rest-api.md
         - name: WMI
-          href: 'https://go.microsoft.com/fwlink/?linkid=848719'
+          href: /sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs
         - name: SOAP API
-          href: 'https://go.microsoft.com/fwlink/?linkid=848721'
+          href: /sql/reporting-services/report-server-web-service/net-framework/building-applications-using-the-web-service-and-the-net-framework
         - name: URL 存取
-          href: 'https://go.microsoft.com/fwlink/?linkid=848722'
+          href: /sql/reporting-services/url-access-ssrs
         - name: 延伸模組
-          href: 'https://go.microsoft.com/fwlink/?linkid=848723'
+          href: /sql/reporting-services/extensions/reporting-services-extension-library
     - name: 資源
       items:
         - name: 容量規劃白皮書

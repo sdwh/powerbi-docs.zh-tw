@@ -133,7 +133,7 @@
         - name: PowerShell、REST API 和 .NET SDK
           href: service-admin-reference.md
         - name: 適用於 PowerShell 的 Power BI Cmdlet
-          href: 'https://docs.microsoft.com/powershell/power-bi/'
+          href: /powershell/power-bi/
           maintainContext: true
         - name: 服務 URL 參考
           href: power-bi-whitelist-urls.md

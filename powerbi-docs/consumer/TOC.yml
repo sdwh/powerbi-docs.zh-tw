@@ -137,7 +137,7 @@
             - name: 安裝及使用應用程式
               href: end-user-app-view.md
             - name: 連接至服務
-              href: end-user-connect-to-services.md
+              href: ../connect-data/service-connect-to-services.md
             - name: 從應用程式市集取得範例應用程式
               href: end-user-app-marketing.md
         - name: 詢問資料相關的問題
@@ -153,6 +153,6 @@
         - name: 常見問題集
           href: end-user-faq.md
         - name: 支援的瀏覽器
-          href: end-user-browsers.md
+          href: ../fundamentals/power-bi-browsers.md
         - name: 快速見解的類型
           href: end-user-insight-types.md
