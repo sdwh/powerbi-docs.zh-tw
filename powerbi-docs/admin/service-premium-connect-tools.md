@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/04/2020
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: b327730db126ad3f83e0a680d8dc29f384e606fe
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8372a588c57ef3c0cbe910165c5293993e98897c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227421"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854958"
 ---
 # <a name="dataset-connectivity-with-the-xmla-endpoint-preview"></a>使用 XMLA 端點連線至資料集 (預覽)
 
@@ -26,7 +26,7 @@ ms.locfileid: "85227421"
 
 ## <a name="whats-an-xmla-endpoint"></a>什麼是 XMLA 端點？
 
-Power BI Premium 使用 [XML for Analysis](https://docs.microsoft.com/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) (部分機器翻譯) 通訊協定來在用戶端應用程式與管理您 Power BI 工作區及資料集的引擎間進行通訊。 這些通訊是透過通常稱為 XMLA 端點的項目進行。 XMLA 與 Microsoft Analysis Services 引擎所使用的通訊協定相同，其幕後的運作原理是會執行 Power BI 的語意模型、控管、生命週期及資料管理。
+Power BI Premium 使用 [XML for Analysis](/analysis-services/xmla/xml-for-analysis-xmla-reference?view=power-bi-premium-current) (XMLA) (部分機器翻譯) 通訊協定來在用戶端應用程式與管理您 Power BI 工作區及資料集的引擎間進行通訊。 這些通訊是透過通常稱為 XMLA 端點的項目進行。 XMLA 與 Microsoft Analysis Services 引擎所使用的通訊協定相同，其幕後的運作原理是會執行 Power BI 的語意模型、控管、生命週期及資料管理。
 
 根據預設，會針對容量中的**資料集工作負載**，啟用使用端點的「唯讀」連線。 使用唯讀，資料視覺效果應用程式和工具就可以查詢資料集模型資料、中繼資料、事件和結構描述。 使用端點的「讀寫」作業可以啟用，以提供額外的資料集管理、治理、進接語義模型化、偵錯和監視。 啟用讀寫功能之後，Power BI Premium 資料集與 Azure Analysis Services 和 SQL Server Analysis Services 企業級表格式模型工具和程序就會有更多相同處。
 
@@ -37,17 +37,17 @@ Power BI Premium 使用 [XML for Analysis](https://docs.microsoft.com/analysis-s
 
 以下是一些與 Azure Analysis Services 和 SQL Server Analysis Services 搭配使用的最常見工具，現在已由 Power BI Premium 資料集支援：
 
-**具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要延伸模組版本 2.9.6 或更高版本，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](https://docs.microsoft.com/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (部分機器翻譯)。
+**具有 Analysis Services 專案的 Visual Studio**  (也稱為 SQL Server Data Tools，或簡稱為 **SSDT**)，是適用於 Analysis Services 表格式模型的企業級模型製作工具。 所有 Visual Studio 2017 和更新版本都支援 Analysis Services 專案延伸模組，包括免費的社群版本。 需要延伸模組版本 2.9.6 或更高版本，才能將表格式模型部署到 Premium 工作區。 部署到 Premium 工作區時，此模型必須是 1500 或更高的相容性層級。 資料集工作負載需要 XMLA 讀寫。 若要深入了解，請參閱[適用於 Analysis Services 的工具](/analysis-services/tools-and-applications-used-in-analysis-services?view=power-bi-premium-current) (部分機器翻譯)。
 
-**SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS 18.4 版或更新版本。 在 [這裡](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)下載。
+**SQL Server Management Studio (SSMS)**   - 支援 DAX、MDX 和 XMLA 查詢。 使用[表格式模型指令碼語言](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference) (TMSL) (部分機器翻譯)，執行資料集中繼資料的精細重新整理作業和指令碼處理。 查詢作業需要唯讀。 指令碼中繼資料需要讀寫。 需要 SSMS 18.4 版或更新版本。 在 [這裡](/sql/ssms/download-sql-server-management-studio-ssms)下載。
 
-**SQL Server Profiler**  - 與 SSMS 一起安裝，這項工具可提供資料集事件的追蹤和偵錯。 雖然 SQL Server 已經正式淘汰這項工具，但 Profiler 會繼續包含在 SSMS 中，並針對 Analysis Services 以及 Power BI Premium 繼續獲得支援。 需要 XMLA 唯讀。 若要深入了解，請參閱  [Analysis Services 的 SQL Server Profiler](https://docs.microsoft.com/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current) (部分機器翻譯)。
+**SQL Server Profiler**  - 與 SSMS 一起安裝，這項工具可提供資料集事件的追蹤和偵錯。 雖然 SQL Server 已經正式淘汰這項工具，但 Profiler 會繼續包含在 SSMS 中，並針對 Analysis Services 以及 Power BI Premium 繼續獲得支援。 需要 XMLA 唯讀。 若要深入了解，請參閱  [Analysis Services 的 SQL Server Profiler](/analysis-services/instances/use-sql-server-profiler-to-monitor-analysis-services?view=power-bi-premium-current) (部分機器翻譯)。
 
-**Analysis Services 部署精靈**  - 隨 SSMS 一起安裝，這項工具可將 Visual Studio 撰寫表格式模型專案部署到 Analysis Services 和 Power BI Premium 工作區。 其可以透過互動方式或從命令列執行以進行自動化。 需要 XMLA 讀寫。 若要深入了解，請參閱 [Analysis Services 部署精靈](https://docs.microsoft.com/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current) (部分機器翻譯)。
+**Analysis Services 部署精靈**  - 隨 SSMS 一起安裝，這項工具可將 Visual Studio 撰寫表格式模型專案部署到 Analysis Services 和 Power BI Premium 工作區。 其可以透過互動方式或從命令列執行以進行自動化。 需要 XMLA 讀寫。 若要深入了解，請參閱 [Analysis Services 部署精靈](/analysis-services/deployment/deploy-model-solutions-using-the-deployment-wizard?view=power-bi-premium-current) (部分機器翻譯)。
 
-**PowerShell Cmdlet**  - Analysis Services Cmdlet 可以用來將資料集管理工作自動化，例如重新整理作業。 需要 XMLA 讀寫。 需要 [SqlServer PowerShell 模組](https://www.powershellgallery.com/packages/SqlServer/) (英文) 的 **21.1.18221** 版本或更高版本。 Power BI Premium 不支援 Az.AnalysisServices 模組中的 Azure Analysis Services Cmdlet。 若要深入了解，請參閱 [Analysis Services PowerShell 參考](https://docs.microsoft.com/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current) (部分機器翻譯)。
+**PowerShell Cmdlet**  - Analysis Services Cmdlet 可以用來將資料集管理工作自動化，例如重新整理作業。 需要 XMLA 讀寫。 需要 [SqlServer PowerShell 模組](https://www.powershellgallery.com/packages/SqlServer/) (英文) 的 **21.1.18221** 版本或更高版本。 Power BI Premium 不支援 Az.AnalysisServices 模組中的 Azure Analysis Services Cmdlet。 若要深入了解，請參閱 [Analysis Services PowerShell 參考](/analysis-services/powershell/analysis-services-powershell-reference?view=power-bi-premium-current) (部分機器翻譯)。
 
-**Power BI 報表產生器**  - 用於撰寫分頁報表的工具。 建立報表定義，指定要擷取的資料、要取得資料的位置，以及資料的顯示方式。 您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務中。 需要 XMLA 唯讀。 若要深入了解，請參閱  [Power BI 報表產生器](https://docs.microsoft.com/power-bi/report-builder-power-bi)。
+**Power BI 報表產生器**  - 用於撰寫分頁報表的工具。 建立報表定義，指定要擷取的資料、要取得資料的位置，以及資料的顯示方式。 您可以在報表產生器中預覽報表，然後將其發佈至 Power BI 服務中。 需要 XMLA 唯讀。 若要深入了解，請參閱  [Power BI 報表產生器](../paginated-reports/report-builder-power-bi.md)。
 
 **表格式編輯器** - 一種開放原始碼工具，可讓您使用直覺、輕量的編輯器來建立、維護及管理表格式模型。 階層式檢視會顯示您表格式模型中的所有物件。 物件是透過顯示資料夾來組織，可支援多重選取屬性編輯和 DAX 語法醒目提示。 查詢作業需要 XMLA 唯讀。 中繼資料作業需要讀寫。 若要深入了解，請參閱 [tabulareditor.github.io](https://tabulareditor.github.io/) (英文)。
 
@@ -61,17 +61,17 @@ Power BI Premium 使用 [XML for Analysis](https://docs.microsoft.com/analysis-s
 
 ### <a name="client-libraries"></a>用戶端程式庫
 
-用戶端應用程式不會直接與 XMLA 端點通訊。 相反地，其會使用「用戶端程式庫」作為抽象層。 這些是應用程式用來連線到 Azure Analysis Services 和 SQL Server Analysis Services 的相同用戶端程式庫。 Microsoft 應用程式 (例如 Excel、SQL Server Management Studio (SSMS) 和適用於 Visual Studio 的 Analysis Services 專案延伸模組) 會安裝全部三個用戶端程式庫，並隨著一般應用程式和延伸模組更新來加以更新。 開發人員也可以使用用戶端程式庫來建置自訂應用程式。 在某些情況下 (特別是針對第三方應用程式)，如果未與應用程式一起安裝，可能需要安裝更新版本的用戶端程式庫。 用戶端程式庫會每月進行更新。 若要深入了解，請參閱 [用來連線到 Analysis Services 的用戶端程式庫](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) (部分機器翻譯)。
+用戶端應用程式不會直接與 XMLA 端點通訊。 相反地，其會使用「用戶端程式庫」作為抽象層。 這些是應用程式用來連線到 Azure Analysis Services 和 SQL Server Analysis Services 的相同用戶端程式庫。 Microsoft 應用程式 (例如 Excel、SQL Server Management Studio (SSMS) 和適用於 Visual Studio 的 Analysis Services 專案延伸模組) 會安裝全部三個用戶端程式庫，並隨著一般應用程式和延伸模組更新來加以更新。 開發人員也可以使用用戶端程式庫來建置自訂應用程式。 在某些情況下 (特別是針對第三方應用程式)，如果未與應用程式一起安裝，可能需要安裝更新版本的用戶端程式庫。 用戶端程式庫會每月進行更新。 若要深入了解，請參閱 [用來連線到 Analysis Services 的用戶端程式庫](/azure/analysis-services/analysis-services-data-providers) (部分機器翻譯)。
 
 ## <a name="supported-write-operations"></a>支援的寫入作業
 
 資料集中繼資料會透過以表格式物件模型 (TOM) 為基礎的用戶端程式庫公開，讓開發人員建置自訂應用程式。 這可讓 Visual Studio 和開放原始碼社群工具 (例如表格式編輯器) 提供 Analysis Services 引擎支援的其他資料模型化和部署功能，但是 Power BI Desktop 尚未支援。 其他資料模型化功能包括：
 
-- [計算群組](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current) (部分機器翻譯) 用於計算重複使用性和簡化複雜模型的取用。
+- [計算群組](/analysis-services/tabular-models/calculation-groups?view=power-bi-premium-current) (部分機器翻譯) 用於計算重複使用性和簡化複雜模型的取用。
 
-- [中繼資料轉譯](https://docs.microsoft.com/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current) (部分機器翻譯)，可支援多種語言的報表和資料集。
+- [中繼資料轉譯](/analysis-services/tabular-models/translations-in-tabular-models-analysis-services?view=power-bi-premium-current) (部分機器翻譯)，可支援多種語言的報表和資料集。
 
-- [檢視方塊](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current) (部分機器翻譯)，可定義資料集中繼資料的焦點、企業網域特定檢視。
+- [檢視方塊](/analysis-services/tabular-models/perspectives-ssas-tabular?view=power-bi-premium-current) (部分機器翻譯)，可定義資料集中繼資料的焦點、企業網域特定檢視。
 
 Power BI Premium 資料集尚未支援物件層級安全性 (OLS)。
 
@@ -149,7 +149,7 @@ B2B 使用者必須在租用戶名稱中指定其組織 UPN。 例如， `powe
 
 工作區參與者以上層級具有資料集的寫入權限，因此相當於 Analysis Services 資料庫管理員。 他們可以從 Visual Studio 部署新的資料集，並且在 SSMS 中執行 TMSL 指令碼。
 
-Power BI Premium 目前不支援需要 Analysis Services 伺服器管理員權限 (非資料庫管理員) 的作業，例如使用 [EffectiveUserName](https://docs.microsoft.com/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) (部分機器翻譯) 連接字串屬性的伺服器層級追蹤和使用者模擬。
+Power BI Premium 目前不支援需要 Analysis Services 伺服器管理員權限 (非資料庫管理員) 的作業，例如使用 [EffectiveUserName](/analysis-services/instances/connection-string-properties-analysis-services?view=power-bi-premium-current#bkmk_auth) (部分機器翻譯) 連接字串屬性的伺服器層級追蹤和使用者模擬。
 
 在資料集上具有[建置權限](../connect-data/service-datasets-build-permissions.md)的其他使用者相當於 Analysis Services 資料庫讀者。 他們可以連線到資料集，並加以瀏覽，以取得資料耗用量和視覺效果。 接受資料列層級安全性 (RLS) 規則，而且無法看到內部資料集中繼資料。
 
@@ -210,17 +210,17 @@ Azure 服務主體可用來執行自動資源和服務層級作業。 若要深�
 
 ![SSMS](media/service-premium-connect-tools/xmla-endpoint-ssms.png)
 
-若要深入了解使用 SSMS 來編寫中繼資料的指令碼，請參閱 [建立 Analysis Services 指令碼](https://docs.microsoft.com/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) (部分機器翻譯) 和 [表格式模型指令碼語言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯)。
+若要深入了解使用 SSMS 來編寫中繼資料的指令碼，請參閱 [建立 Analysis Services 指令碼](/analysis-services/instances/create-analysis-services-scripts-in-management-studio?view=power-bi-premium-current) (部分機器翻譯) 和 [表格式模型指令碼語言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯)。
 
 ## <a name="dataset-refresh"></a>資料集重新整理
 
-XMLA 端點可讓您使用 SSMS、使用 PowerShell 的自動化、[Azure 自動化](https://docs.microsoft.com/azure/automation/automation-intro)，以及使用 TOM 的 [Azure Functions](https://docs.microsoft.com/azure/azure-functions/functions-overview)，來提供更廣範圍的更細緻重新整理功能案例。 例如，您可以重新整理某些[累加式重新整理](service-premium-incremental-refresh.md)歷程記錄資料分割，而不需要重新載入所有歷程記錄資料。
+XMLA 端點可讓您使用 SSMS、使用 PowerShell 的自動化、[Azure 自動化](/azure/automation/automation-intro)，以及使用 TOM 的 [Azure Functions](/azure/azure-functions/functions-overview)，來提供更廣範圍的更細緻重新整理功能案例。 例如，您可以重新整理某些[累加式重新整理](service-premium-incremental-refresh.md)歷程記錄資料分割，而不需要重新載入所有歷程記錄資料。
 
 不同於在 Power BI 服務中設定重新整理，透過 XMLA 端點進行的重新整理作業不限於每天 48 次重新整理，而且不會強制執行[排程重新整理逾時](../connect-data/refresh-troubleshooting-refresh-scenarios.md#scheduled-refresh-timeout)。
 
 ## <a name="dynamic-management-views-dmv"></a>動態管理檢視 (DMV)
 
-Analysis Services [DMV](https://docs.microsoft.com/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) (部分機器翻譯) 提供資料集中繼資料、資料譜系和資源使用狀況的可見度。 可透過 XMLA 端點在 Power BI 中查詢的 DMV，限制為最多需要資料庫管理員權限的 DMV。 例如，某些 DMV 無法存取，因為其需要 Analysis Services 伺服器管理員權限。
+Analysis Services [DMV](/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services) (部分機器翻譯) 提供資料集中繼資料、資料譜系和資源使用狀況的可見度。 可透過 XMLA 端點在 Power BI 中查詢的 DMV，限制為最多需要資料庫管理員權限的 DMV。 例如，某些 DMV 無法存取，因為其需要 Analysis Services 伺服器管理員權限。
 
 ## <a name="power-bi-desktop-authored-datasets"></a>Power BI Desktop 撰寫的資料集
 
@@ -233,7 +233,7 @@ Analysis Services [DMV](https://docs.microsoft.com/analysis-services/instances/u
 
 ### <a name="data-source-declaration"></a>資料來源宣告
 
-當連線到資料來源並查詢資料時，Power BI Desktop 會使用 Power Query M 運算式作為內嵌資料來源宣告。 雖然在 Power BI Premium 工作區中受到支援，但是 Azure Analysis Services 或 SQL Server Analysis Services 不支援 Power Query M 內嵌資料來源宣告。 相反地，Analysis Services 資料模型工具 (例如 Visual Studio) 會使用「結構化」和/或「提供者」資料來源宣告來建立中繼資料。 使用 XMLA 端點時，Power BI Premium 也支援結構化和提供者資料來源，但不屬於 Power BI Desktop 模型中的 Power Query M 內嵌資料來源宣告。 若要深入了解，請參閱[了解提供者](https://docs.microsoft.com/azure/analysis-services/analysis-services-datasource#understanding-providers) (部分機器翻譯)。
+當連線到資料來源並查詢資料時，Power BI Desktop 會使用 Power Query M 運算式作為內嵌資料來源宣告。 雖然在 Power BI Premium 工作區中受到支援，但是 Azure Analysis Services 或 SQL Server Analysis Services 不支援 Power Query M 內嵌資料來源宣告。 相反地，Analysis Services 資料模型工具 (例如 Visual Studio) 會使用「結構化」和/或「提供者」資料來源宣告來建立中繼資料。 使用 XMLA 端點時，Power BI Premium 也支援結構化和提供者資料來源，但不屬於 Power BI Desktop 模型中的 Power Query M 內嵌資料來源宣告。 若要深入了解，請參閱[了解提供者](/azure/analysis-services/analysis-services-datasource#understanding-providers) (部分機器翻譯)。
 
 ### <a name="power-bi-desktop-in-live-connect-mode"></a>即時連線模式中的 Power BI Desktop
 
@@ -269,7 +269,3 @@ Power BI Desktop 可使用即時連線來連線到 Power BI Premium 資料集。
 ## <a name="see-also"></a>另請參閱
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-
-
-

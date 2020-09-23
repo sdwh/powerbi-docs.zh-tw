@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: painbar
-ms.openlocfilehash: eb46c35c4040ead37b132cf2c34a22663ee72b6d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9030d7ebacad92780a7dcafe33ae5bdded842b01
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85220279"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856127"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>檢視為手機最佳化的 Power BI 報表
 
@@ -115,7 +115,7 @@ Power BI 報表的其他所有功能都仍可在為手機最佳化的報表中�
 
 ## <a name="drill-through-from-a-value"></a>從值鑽研
 鑽研會將某個報表頁面中的值與其他報表頁面連接。 當您從資料點鑽研至另一個報表頁面時，資料點值會用來篩選已鑽研的頁面，或者它會在所選取資料的內容中。
-報表作者可以在建立報表時[定義鑽研](https://docs.microsoft.com/power-bi/desktop-drillthrough)。
+報表作者可以在建立報表時[定義鑽研](../../create-reports/desktop-drillthrough.md)。
 
 1. 長按 (點選並按住不放) 視覺效果中的資料點。
 2. 系統會顯示工具提示，如果已定義鑽研，則工具提示頁尾會顯示鑽研箭號。

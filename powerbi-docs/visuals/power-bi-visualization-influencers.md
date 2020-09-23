@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 48f094def0576d6e90a71117cc37ac975304e07f
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557271"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861306"
 ---
 # <a name="create-key-influencers-visualizations"></a>建立關鍵影響因素視覺效果
 
@@ -241,7 +241,7 @@ ms.locfileid: "86557271"
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析量值或摘要資料行計量
 
-在量值或摘要資料行的案例中，分析會預設為[上述](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)的**連續分析類型**。 這無法變更。 分析量值/摘要資料行與未摘要數值資料行之間的最大差異，在於分析執行的層級。
+在量值或摘要資料行的案例中，分析會預設為[上述](#analyze-a-metric-that-is-numeric)的**連續分析類型**。 這無法變更。 分析量值/摘要資料行與未摘要數值資料行之間的最大差異，在於分析執行的層級。
 
 在未摘要資料行的案例中，分析一律會在資料表層級執行。 在上述房價範例中，我們分析了 [房價] 計量來查看哪些因素會影響房價變高/變低。 分析會自動在資料表層級執行。 在我們的資料表中，每個房屋有唯一的識別碼，因此分析會在房屋層級執行。
 
@@ -255,7 +255,7 @@ ms.locfileid: "86557271"
 
 此分析經過相當程度的摘要，因此迴歸模型很難在資料中找到可從中學習的任何模式。 我們應該以更詳細的層級執行分析，以獲得更好的結果。 如果我們想要在房屋層級分析房價，則必須明確將 [識別碼] 欄位新增至分析。 不過，我們不想要將房屋識別碼視為影響因素。 了解房價是否會隨著房屋識別碼增加而增加並沒有幫助。 此時 [展開依據] 欄位部分選項會派上用場。 您可以使用 [展開依據] 新增要用於設定分析層級的欄位，而不需要尋找新的影響因素。
 
-讓我們看看將 [識別碼] 新增至 [展開依據] 之後的視覺效果外觀。 定義您要評估量值的層級之後，解譯影響因素的方式會與[未摘要的數值資料行](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric)完全相同。
+讓我們看看將 [識別碼] 新增至 [展開依據] 之後的視覺效果外觀。 定義您要評估量值的層級之後，解譯影響因素的方式會與[未摘要的數值資料行](#analyze-a-metric-that-is-numeric)完全相同。
 
 ![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

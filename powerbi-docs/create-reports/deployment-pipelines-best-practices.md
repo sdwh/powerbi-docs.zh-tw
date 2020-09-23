@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: a1a30dc09e61e29053a5a1d95cde3d5a339c5a3d
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.date: 09/15/2020
+ms.openlocfilehash: ea2fa0625ece88d8da2848dbe6a108d98a55a0d0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220852"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855551"
 ---
-# <a name="deployment-pipelines-best-practices-preview"></a>部署管線最佳做法 (預覽)
+# <a name="deployment-pipelines-best-practices"></a>部署管線最佳做法
 
 此文章為在內容整個生命週期中管理其內容的 BI 建立者提供指導方針。 其著重於利用部署管線來作為 BI 內容生命週期管理工具。
 
@@ -79,7 +79,7 @@ ms.locfileid: "89220852"
 
 ### <a name="use-parameters-in-your-model"></a>在您的模型中使用參數
 
-由於您無法在 Power BI 服務中編輯資料集資料來源，因此建議使用[參數](https://docs.microsoft.com/power-query/power-query-query-parameters) \(英文\) 來儲存連線詳細資料 (例如執行個體名稱與資料庫名稱)，而不是使用靜態連接字串。 這可讓您透過 Power BI 服務入口網站管理連線，或在稍後的階段[使用 API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) \(英文\)。
+由於您無法在 Power BI 服務中編輯資料集資料來源，因此建議使用[參數](/power-query/power-query-query-parameters) \(英文\) 來儲存連線詳細資料 (例如執行個體名稱與資料庫名稱)，而不是使用靜態連接字串。 這可讓您透過 Power BI 服務入口網站管理連線，或在稍後的階段[使用 API](/rest/api/power-bi/datasets/updateparametersingroup) \(英文\)。
 
 在部署管線中，您可以設定參數規則，針對開發、測試和生產階段設定特定值。
 

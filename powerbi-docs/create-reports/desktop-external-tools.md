@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/29/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 69929ff48428ebf73044c296eabc419f8e442b3b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 7a7988ba9bb9efd4b2dec20fd2dc88478af439a2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411949"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855280"
 ---
 # <a name="using-external-tools-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中使用外部工具 (預覽)
 
@@ -37,13 +37,13 @@ Power BI Desktop 中的 [外部工具] 功能區包含已安裝在電腦上，�
 
 外部工具可以連線至 Power BI Desktop 資料集 (Analysis Services 模型) 來編輯下列物件。 不支援編輯 Power BI Desktop 範本 (PBIT) 檔案。
 
-* [量值](https://docs.microsoft.com/analysis-services/tabular-models/measures-ssas-tabular) \(部分機器翻譯\)，適用於計算
-* [計算群組](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups) \(部分機器翻譯\)，適用於計算複雜模型中的重複使用性
-* [檢視方塊](https://docs.microsoft.com/analysis-services/tabular-models/perspectives-ssas-tabular) \(部分機器翻譯\)，可定義資料集中繼資料的焦點性企業網域特定檢視
+* [量值](/analysis-services/tabular-models/measures-ssas-tabular) \(部分機器翻譯\)，適用於計算
+* [計算群組](/analysis-services/tabular-models/calculation-groups) \(部分機器翻譯\)，適用於計算複雜模型中的重複使用性
+* [檢視方塊](/analysis-services/tabular-models/perspectives-ssas-tabular) \(部分機器翻譯\)，可定義資料集中繼資料的焦點性企業網域特定檢視
 
 可能可以使用外部工具管理中繼資料翻譯，但此預覽版本目前不支援此功能。 如果目前使用者的地區設定是已翻譯的地區設定，則使用目前版本的 Power BI Desktop 編輯欄位清單中的物件將無法正常運作。 
 
-所有[表格式物件模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) \(部分機器翻譯\) 資料集中繼資料都可以針對唯讀目的進行存取，但是在 Power BI Desktop Analysis Services 執行個體中，尚不支援編輯未涵蓋在[表格式物件模型](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) \(部分機器翻譯\) 文章所述之清單中的物件。
+所有[表格式物件模型](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) \(部分機器翻譯\) 資料集中繼資料都可以針對唯讀目的進行存取，但是在 Power BI Desktop Analysis Services 執行個體中，尚不支援編輯未涵蓋在[表格式物件模型](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo) \(部分機器翻譯\) 文章所述之清單中的物件。
 
 
 ## <a name="featured-external-tools"></a>精選外部工具
@@ -147,5 +147,3 @@ ALM Toolkit 的主要工具作者是 [Christian Wade](https://www.linkedin.com/i
 
 * [在 Power BI Desktop 報表中使用跨報表鑽研](desktop-cross-report-drill-through.md)
 * [使用 Power BI Desktop 交叉分析篩選器](../visuals/power-bi-visualization-slicers.md)
-
-

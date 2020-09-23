@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4c19965def178d4260527032820c4109c4fe235f
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 6511afb499b12d379957ac37ebfe19890c111282
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281568"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861030"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>教學課程：在 Power BI 中使用認知服務
 
-Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能，強化資料流程自助資料準備中的資料。 目前支援的服務包括[情感分析](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[關鍵片語擷取](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[語言偵測](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)，和[影像標記](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)。 轉換會在 Power BI 服務上執行，且不需要 Azure 認知服務 訂用帳戶。 此功能需要 Power BI Premium。
+Power BI 會提供存取權，可存取一組來自 Azure 認知服務的功能，強化資料流程自助資料準備中的資料。 目前支援的服務包括[情感分析](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)、[關鍵片語擷取](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)、[語言偵測](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)，和[影像標記](/azure/cognitive-services/computer-vision/concept-tagging-images)。 轉換會在 Power BI 服務上執行，且不需要 Azure 認知服務 訂用帳戶。 此功能需要 Power BI Premium。
 
 [適用於資料流程的自助資料準備](https://powerbi.microsoft.com/blog/introducing-power-bi-data-prep-wtih-dataflows/) \(英文\) 中支援認知服務。 使用下面用於文字分析和影像標記的逐步說明範例來開始學習。
 
@@ -174,7 +174,7 @@ in
 
 您會在此教學課程中，將情感評分和「影像標記」函式套用在 Power BI 資料流程上。 請參閱下列文章，以深入了解 Power BI 中的認知服務。
 
-* [Azure 中的認知服務帳戶](https://docs.microsoft.com/azure/cognitive-services/)
+* [Azure 中的認知服務帳戶](/azure/cognitive-services/)
 * [在資料流程上開始使用自助資料準備](../transform-model/service-dataflows-overview.md)
 * 深入了解 [Power BI Premium](https://powerbi.microsoft.com/power-bi-premium/)
 

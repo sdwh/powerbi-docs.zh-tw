@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/21/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3e7bb33eae8be4a0eaa7eb4d92ca165c74b14ed5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 76c42c52ba877b3e6477a2baee11aef4a531161c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937370"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861559"
 ---
 # <a name="use-directquery-with-dataflows-in-power-bi-preview"></a>在 Power BI 中使用資料流程的 DirectQuery 功能 (預覽)
 
@@ -70,7 +70,7 @@ DirectQuery 和資料流程有些已知限制，這些限制會在下列清單�
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Model - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model - 概觀](/powerapps/common-data-model/overview)
 * [深入了解 Common Data Model 結構描述和 GitHub 上的實體](https://github.com/Microsoft/CDM)
 
 相關的 Power BI Desktop 文章：

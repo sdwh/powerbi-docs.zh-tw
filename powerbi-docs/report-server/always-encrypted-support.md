@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2020
 ms.author: maggies
-ms.openlocfilehash: f8d711bba8dc7570f2d470554fd1d971639bbb7b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f921d9dbeb16d1b960e22f228f7833c8fbf184b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "76710198"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861237"
 ---
 # <a name="always-encrypted-in-power-bi-report-server"></a>Power BI 報表伺服器中的 Always Encrypted
 
-本文詳述在使用資料來源類型 Microsoft SQL Server 和 Microsoft Azure SQL Database 時，Power BI 報表伺服器中的 Always Encrypted 支援。 如需 SQL Server 中的 Always Encrypted 功能詳細資訊，請參閱 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine) 一文。
+本文詳述在使用資料來源類型 Microsoft SQL Server 和 Microsoft Azure SQL Database 時，Power BI 報表伺服器中的 Always Encrypted 支援。 如需 SQL Server 中的 Always Encrypted 功能詳細資訊，請參閱 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine) 一文。
 
 ## <a name="always-encrypted-user-isolation"></a>Always Encrypted 使用者隔離
 
@@ -37,8 +37,8 @@ ms.locfileid: "76710198"
 
 需要存取憑證的帳戶是服務帳戶。 憑證應儲存在本機電腦憑證存放區。 如需詳細資訊，請參閱：
 
-- [設定報表伺服器服務帳戶](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (設定管理員)
-- SQL Server 文章「建立及儲存 Always Encrypted 的資料行主要金鑰」的[讓憑證可供應用程式和使用者使用](https://docs.microsoft.com/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users)一節。
+- [設定報表伺服器服務帳戶](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (設定管理員)
+- SQL Server 文章「建立及儲存 Always Encrypted 的資料行主要金鑰」的[讓憑證可供應用程式和使用者使用](/sql/relational-databases/security/encryption/create-and-store-column-master-keys-always-encrypted#making-certificates-available-to-applications-and-users)一節。
 
 ### <a name="column-encryption-strategy"></a>資料行加密策略
 
@@ -51,7 +51,7 @@ ms.locfileid: "76710198"
 |除了 COUNT和 DISTINCT 以外，可以用作彙總欄位。 | 否，但是 COUNT 和 DISTINCT 除外 | 否 |
 |可以用作報表參數 | 有 | 否 |
 
-深入了解[決定性與隨機加密](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)。
+深入了解[決定性與隨機加密](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption)。
 
 ### <a name="parameter-usage"></a>參數使用方式
 
@@ -73,7 +73,7 @@ ms.locfileid: "76710198"
 | --- | --- | --- | --- | --- | --- |
 | int | 有 | 有 | COUNT、DISTINCT | 是，以整數形式 |   |
 | FLOAT | 有 | 有 | COUNT、DISTINCT | 是，以浮點數形式 |   |
-| NVARCHAR | 有 | 有 | COUNT、DISTINCT | 是，以文字形式 | 確定性加密必須針對字元資料行使用 binary2 排序次序的資料行定序。 如需詳細資料，請參閱 SQL Server [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 一文。  |
+| NVARCHAR | 有 | 有 | COUNT、DISTINCT | 是，以文字形式 | 確定性加密必須針對字元資料行使用 binary2 排序次序的資料行定序。 如需詳細資料，請參閱 SQL Server [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine#selecting--deterministic-or-randomized-encryption) 一文。  |
 | varchar | 有 | 有 | COUNT、DISTINCT | 否 |   |
 | decimal | 有 | 有 | COUNT、DISTINCT | 否 |   |
 | NUMERIC | 有 | 有 | COUNT、DISTINCT | 否 |   |
@@ -86,11 +86,10 @@ ms.locfileid: "76710198"
 
 ## <a name="always-encrypted-in-connection-strings"></a>連接字串中的 Always Encrypted
 
-您必須在 SQL Server 資料來源的連接字串中啟用 Always Encrypted。 深入了解啟用[應用程式查詢中的 Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)。
+您必須在 SQL Server 資料來源的連接字串中啟用 Always Encrypted。 深入了解啟用[應用程式查詢中的 Always Encrypted](/sql/relational-databases/security/encryption/develop-using-always-encrypted-with-net-framework-data-provider#enabling-always-encrypted-for-application-queries)。
 
 ## <a name="next-steps"></a>後續步驟
 
-SQL Server 和 Azure SQL Database 中的 [Always Encrypted](https://docs.microsoft.com/sql/relational-databases/security/encryption/always-encrypted-database-engine)
+SQL Server 和 Azure SQL Database 中的 [Always Encrypted](/sql/relational-databases/security/encryption/always-encrypted-database-engine)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

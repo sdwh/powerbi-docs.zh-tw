@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 999e146d459fbff541e3655d97ddb841972ec62c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227711"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855073"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 計量應用程式
 
@@ -342,10 +342,9 @@ ms.locfileid: "85227711"
 ## <a name="next-steps"></a>後續步驟
 
 * [什麼是 Power BI Premium？](service-premium-what-is.md)
-* [Power BI Premium 版本資訊](../service-premium-release-notes.md)
 * [Microsoft Power BI Premium 白皮書](https://aka.ms/pbipremiumwhitepaper)
 * [Planning a Power BI Enterprise Deployment (規劃 Power BI 企業部署) 技術白皮書](https://aka.ms/pbienterprisedeploy)
-* [Pro 延長試用版啟用](../service-extended-pro-trial.md)
+* [Pro 延長試用版啟用](../fundamentals/service-self-service-signup-for-power-bi.md)
 * [Power BI Embedded 常見問題集](../developer/embedded/embedded-faq.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

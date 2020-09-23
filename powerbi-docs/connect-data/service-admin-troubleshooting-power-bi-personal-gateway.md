@@ -5,16 +5,16 @@ author: arthiriyer
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: arthii
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 108a50017a55a2ac87bb8db2adf4f92bd5dca58f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 9c5e241cee86b9f7ea21607128f5c32099dd0415
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231073"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861490"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>針對 Power BI 閘道進行疑難排解 (個人模式)
 
@@ -31,7 +31,7 @@ ms.locfileid: "85231073"
 ## <a name="installation"></a>安裝
 **閘道 (個人模式) 是在 64 位元的版本上運作：** 若您的電腦是 32 位元版本，您便無法安裝閘道 (個人模式)。 您的作業系統必須是 64 位元版本。 請安裝 64 位元的 Windows 版本，或是在 64 位元的電腦上安裝閘道 (個人模式)。
 
-**即使您已經是電腦的本機系統管理員，閘道 (個人模式) 仍無法作為服務安裝：** 若使用者位於電腦的本機系統管理員群組，但群組原則並未允許該使用者名稱作為服務登入，安裝便可能會失敗。 請確認群組原則可讓使用者作為服務登入。 我們正努力修正這個問題。 如需詳細資訊，請參閱 [Add the Log on as a service right to an account](https://technet.microsoft.com/library/cc739424.aspx) (將作為服務登入的權限新增至帳戶)。
+**即使您已經是電腦的本機系統管理員，閘道 (個人模式) 仍無法作為服務安裝：** 若使用者位於電腦的本機系統管理員群組，但群組原則並未允許該使用者名稱作為服務登入，安裝便可能會失敗。 請確認群組原則可讓使用者作為服務登入。 我們正努力修正這個問題。 如需詳細資訊，請參閱 [Add the Log on as a service right to an account](/previous-versions/windows/it-pro/windows-server-2003/cc739424(v=ws.10)) (將作為服務登入的權限新增至帳戶)。
 
 **作業逾時：** 若您要安裝閘道 (個人模式) 的電腦 (實體機器或 VM) 具有單一核心處理器，則通常會出現此訊息。 請關閉任何應用程式和非必要的處理序，並再次嘗試進行安裝。
 

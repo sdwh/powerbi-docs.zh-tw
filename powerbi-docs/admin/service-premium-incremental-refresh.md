@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/22/2020
 ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: 02716f895d84a7aa49ab7f1d48d60372b3546409
-ms.sourcegitcommit: b943ce58c2c079cb18fc5cf23cc609ead1dc9906
+ms.openlocfilehash: 51aa05d49f0691c7ebb916ff84e3a8cbb0416096
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89443321"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855004"
 ---
 # <a name="incremental-refresh-in-power-bi"></a>Power BI 中的累加式重新整理
 
@@ -112,7 +112,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 #### <a name="current-date"></a>目前日期
 
-「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 透過 Power BI 服務手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。 未透過 Power BI 服務 (例如 [TMSL Refresh 命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)) 叫用的重新整理作業，將不會考慮排程的重新整理時區
+「目前日期」是以重新整理時的系統日期為基礎。 如果已為 Power BI 服務中的資料集啟用排程重新整理，則在判斷目前日期時，會將指定的時區納入考量。 透過 Power BI 服務手動叫用及排程的重新整理都會遵守時區 (如果有的話)。 例如，以指定時區在太平洋時間 (美國和加拿大) 下午 8 點發生的重新整理，將會根據太平洋時間 (而非 GMT) 來判斷目前日期。 未透過 Power BI 服務 (例如 [TMSL Refresh 命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)) 叫用的重新整理作業，將不會考慮排程的重新整理時區
 
 ![時區](media/service-premium-incremental-refresh/time-zone2.png)
 
@@ -153,7 +153,7 @@ Power BI 服務中的第一次重新整理可能需要較長的時間才能匯�
 
 ## <a name="query-timeouts"></a>查詢逾時
 
-[針對重新整理疑難排解](../connect-data/refresh-troubleshooting-refresh-scenarios.md)一文說明 Power BI 服務中的重新整理作業受限於逾時。 查詢也受限於資料來源的預設逾時。 大多數關聯式來源都允許覆寫 M 運算式中的逾時。 例如，下列運算式使用 [SQL Server 資料存取功能](https://docs.microsoft.com/powerquery-m/sql-database)將它設定為 2 小時。 原則範圍所定義的每個週期都會提交查詢，以觀察命令逾時設定。
+[針對重新整理疑難排解](../connect-data/refresh-troubleshooting-refresh-scenarios.md)一文說明 Power BI 服務中的重新整理作業受限於逾時。 查詢也受限於資料來源的預設逾時。 大多數關聯式來源都允許覆寫 M 運算式中的逾時。 例如，下列運算式使用 [SQL Server 資料存取功能](/powerquery-m/sql-database)將它設定為 2 小時。 原則範圍所定義的每個週期都會提交查詢，以觀察命令逾時設定。
 
 ```powerquery-m
 let
@@ -176,7 +176,7 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
 
 #### <a name="override-incremental-refresh-behavior"></a>覆寫累加式重新整理行為
 
-使用 SSMS，您也可以更充分地控制如何使用[表格式模型指令碼語言 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯) 和[表格式物件模型 (TOM)](https://docs.microsoft.com/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) (部分機器翻譯)，叫用累加式重新整理。 例如，在 SSMS 的「物件總管」中，以滑鼠右鍵按一下資料表，然後選取 [處理資料表] 功能表選項。 然後按一下 [指令碼] 按鈕，以產生 TMSL 重新整理命令。
+使用 SSMS，您也可以更充分地控制如何使用[表格式模型指令碼語言 (TMSL)](/analysis-services/tmsl/tabular-model-scripting-language-tmsl-reference?view=power-bi-premium-current) (部分機器翻譯) 和[表格式物件模型 (TOM)](/analysis-services/tom/introduction-to-the-tabular-object-model-tom-in-analysis-services-amo?view=power-bi-premium-current) (部分機器翻譯)，叫用累加式重新整理。 例如，在 SSMS 的「物件總管」中，以滑鼠右鍵按一下資料表，然後選取 [處理資料表] 功能表選項。 然後按一下 [指令碼] 按鈕，以產生 TMSL 重新整理命令。
 
 ![[處理資料表] 對話方塊中的 [指令碼] 按鈕](media/service-premium-incremental-refresh/ssms-process-table.png)
 
@@ -204,7 +204,7 @@ Premium 容量中資料集的 [XMLA 端點](service-premium-connect-tools.md)可
 }
 ```
 
-若要深入了解如何使用 TMSL 覆寫預設的累加式重新整理行為，請參閱 [Refresh 命令](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)。
+若要深入了解如何使用 TMSL 覆寫預設的累加式重新整理行為，請參閱 [Refresh 命令](/analysis-services/tmsl/refresh-command-tmsl?view=power-bi-premium-current) \(部分機器翻譯\)。
 
 ### <a name="custom-queries-for-detect-data-changes"></a>偵測資料變更的自訂查詢
 
@@ -247,4 +247,4 @@ pollingExpression 的目標是輕量 M 運算式或另一個 M 查詢的名稱�
 ## <a name="see-also"></a>另請參閱
 
 [與 XMLA 端點的資料集連線能力](service-premium-connect-tools.md)   
-[對重新整理進行疑難排解的案例](../connect-data/refresh-troubleshooting-refresh-scenarios.md)   
+[對重新整理進行疑難排解的案例](../connect-data/refresh-troubleshooting-refresh-scenarios.md)

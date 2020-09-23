@@ -10,12 +10,12 @@ ms.date: 09/02/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 2b5481e3d0b84f81a9cdee827df27c90e32a7e84
-ms.sourcegitcommit: ae9e698b082598f37242080a3ad3dd0b3be08478
+ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89474786"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855096"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -27,7 +27,7 @@ ms.locfileid: "89474786"
 
 ### <a name="enroll-in-a-microsoft-365-government-plan"></a>註冊 Microsoft 365 政府方案
 
-如果是新客戶，即必須先驗證組織的資格，才能註冊 Microsoft 365 政府方案。  從填寫 [Microsoft 365 政府版資格驗證表單](https://www.microsoft.com/microsoft-365/government/eligibility-validation)開始。 為確保選取適用於組織的正確方案，請參閱 [Microsoft 365 美國政府服務說明](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) (機器翻譯)。
+如果是新客戶，即必須先驗證組織的資格，才能註冊 Microsoft 365 政府方案。  從填寫 [Microsoft 365 政府版資格驗證表單](https://www.microsoft.com/microsoft-365/government/eligibility-validation)開始。 為確保選取適用於組織的正確方案，請參閱 [Microsoft 365 美國政府服務說明](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) (機器翻譯)。
 
 > [!NOTE]
 > 如果已經將 Power BI 部署到商業環境，且想要移轉至美國政府雲端，則必須將新的 Power BI Pro 訂閱新增至 Microsoft 365 政府方案。 接下來，將商業資料複寫到適用於美國政府的 Power BI 服務，從使用者帳戶中移除商業授權指派，然後將 Power BI Pro 政府授權指派給使用者帳戶。
@@ -45,11 +45,11 @@ ms.locfileid: "89474786"
 
 Microsoft 365 為政府機關提供不同環境，以符合不同的合規性需求。 如需每個環境的詳細資訊，請參閱：
 
-* [Microsoft 365 政府社群雲端 (GCC)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) (機器翻譯) 是專為聯邦、州和地方政府所設計。
+* [Microsoft 365 政府社群雲端 (GCC)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc) (機器翻譯) 是專為聯邦、州和地方政府所設計。
 
-* [Microsoft 365 政府社群雲端進階版 (GCC High)](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為各聯邦機關、國防產業、航太產業和其他持有管控非機密資訊的組織所設計。 此環境適用於有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
+* [Microsoft 365 政府社群雲端進階版 (GCC High)](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為各聯邦機關、國防產業、航太產業和其他持有管控非機密資訊的組織所設計。 此環境適用於有國際武器貿易條例 (ITAR) 資料或國防聯邦採購條例補充 (DFARS) 需求的國家/地區安全性組織和公司。
 
-* [Microsoft 365 DoD 環境](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為美國國防部所設計。
+* [Microsoft 365 DoD 環境](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為美國國防部所設計。
 
 ## <a name="connect-to-power-bi-for-us-government"></a>連線到 Power BI for US Government
 
@@ -72,7 +72,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 
 在公用雲端中，有可用的 IP 範圍。 若要取得美國政府雲端 IP 範圍，請下載 [Azure IP 範圍和服務標籤 – 美國政府雲端](https://www.microsoft.com/download/details.aspx?id=57063)檔案。
 
-若要針對 SQL 資料庫設定防火牆，請參閱[建立和管理 IP 防火牆規則](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) \(部分機器翻譯\)。
+若要針對 SQL 資料庫設定防火牆，請參閱[建立和管理 IP 防火牆規則](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) \(部分機器翻譯\)。
 
 ## <a name="power-bi-feature-availability"></a>Power BI 功能可用性
 
@@ -83,7 +83,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |特徵 |GCC |GCC High |DoD|
 |------|------|------|------|
 |[政府與商業雲端之間的 Azure B2B 共同作業](service-admin-azure-ad-b2b.md) <sup>1</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
-|[使用 Power BI 網頁組件內嵌在 SharePoint Online 中](https://docs.microsoft.com/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可供使用](../media/yes.png)|![可用](../media/yes.png)|![無法使用](../media/no.png)|
+|[使用 Power BI 網頁組件內嵌在 SharePoint Online 中](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可供使用](../media/yes.png)|![可用](../media/yes.png)|![無法使用](../media/no.png)|
 |[適用於資料驅動警示的 Power Automate 連線能力](../connect-data/power-bi-data-sources.md)|![可供使用](../media/yes.png)|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|
 |[Teams 中的 Power BI 索引標籤](../collaborate-share/service-collaborate-microsoft-teams.md) <sup>2</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[容量計量](../admin/service-admin-premium-monitor-portal.md)|2020 年第 3 季 |2020 年第 3 季|2020 年第 3 季|
@@ -96,7 +96,7 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 |[自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md) <sup>3</sup>|2020 年第 4 季 |2020 年第 4 季| 2020 年第 4 季|
 |[QR 代碼產生](../create-reports/service-create-qr-code-for-tile.md)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 
-<sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制其詳細資訊，請[比較 Azure Government 及全域 Azure](https://docs.microsoft.com/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) (英文)
+<sup>1</sup> 雖然 B2B 共同作業適用於 GCC，但必須在該環境中對外部使用者發出授權。 GCC 中的商業雲端授權無效。 如需適用於美國政府的 B2B 共同作業已知限制其詳細資訊，請[比較 Azure Government 及全域 Azure](/azure/azure-government/compare-azure-government-global-azure#azure-active-directory-premium-p1-and-p2) (英文)
 
 <sup>2</sup> 適用於 GCC 的 Teams 其 Power BI 體驗受到限制，只能在傳統工作區上運作，且不包含[在 Microsoft Teams 中內嵌 Power BI 內容](../collaborate-share/service-embed-report-microsoft-teams.md)所述的增強功能。
 
@@ -105,6 +105,6 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 ## <a name="next-steps"></a>後續步驟
 
 * [註冊 Power BI for US Government](service-govus-signup.md)
-* [Microsoft Power Apps 美國政府](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
-* [Power Automate 美國政府](https://docs.microsoft.com/power-automate/us-govt)
+* [Microsoft Power Apps 美國政府](/power-platform/admin/powerapps-us-government)
+* [Power Automate 美國政府](/power-automate/us-govt)
 * [Power BI US Gov 示範](https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government)

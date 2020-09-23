@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f003a62fb8e2b3495dee8dac7b553a2ff72bd6b1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7623be9f4eea3bd4d1a8c6fa7b4d1add3d41c783
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239988"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861513"
 ---
 # <a name="the-enhanced-compute-engine"></a>增強型計算引擎
 
@@ -83,4 +83,4 @@ Power BI 中增強型計算引擎可讓 Power BI Premium 訂閱者使用其容�
 * [設定排定的重新整理](../connect-data/refresh-scheduled-refresh.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)

@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 09/09/2020
-ms.openlocfilehash: 3994a5cdad4d80c87d4153ffe57af685d7a21d36
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 58d1adef9a9b2a8a4f818f94da2cb34e6529db83
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008575"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855487"
 ---
-# <a name="introduction-to-deployment-pipelines-preview"></a>部署管線簡介 (預覽)
+# <a name="introduction-to-deployment-pipelines"></a>部署管線的簡介
 
 在現今的世界中，分析是在幾乎每個組織中進行決策的重要部分。 Power BI 作為分析工具的用途日益增加，要求其使用更多的資料、吸引人且方便使用。 不過，在所有的情況下，Power BI 必須一律是可用且可靠的。 為了符合這些需求，BI 建立者必須有效率地共同作業。
 

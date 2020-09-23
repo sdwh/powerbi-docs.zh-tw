@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 37687ab23d44821a51779d4e03663bd79189865f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 608389e10e225517d6e50c14058732cf5fedb16f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239983"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861053"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi"></a>連結 Power BI 中資料流程之間的實體
 
@@ -99,4 +99,4 @@ ms.locfileid: "85239983"
 * [設定排定的重新整理](../connect-data/refresh-scheduled-refresh.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)

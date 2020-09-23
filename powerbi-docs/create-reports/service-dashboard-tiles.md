@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/17/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 9a6db74384a9fa47d13eb36b0e64cb926600a191
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84b3fafa3ae5e12a96b4e1117ee74baf94dba597
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219666"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861421"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Power BI 設計工具的儀表板磚簡介
 
@@ -42,7 +42,7 @@ ms.locfileid: "85219666"
 * [其他儀表板](service-pin-tile-to-another-dashboard.md)
 * [商務用 OneDrive 上的 Excel 活頁簿](service-dashboard-pin-tile-from-excel.md)
 * [Quick Insights (深入資訊摘要)](service-insights.md)
-* [Power BI 報表伺服器或 SQL Server Reporting Services 中的內部部署編頁報表](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Power BI 報表伺服器或 SQL Server Reporting Services 中的內部部署編頁報表](/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
 您可以使用[新增磚](service-dashboard-add-widget.md)控制項，直接在儀表板上建立影像、文字方塊、影片、串流資料和 Web 內容的獨立磚。
 

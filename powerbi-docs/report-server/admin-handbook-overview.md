@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
-ms.openlocfilehash: 8f292b8474c478c178b85f2c015781ead1fa503c
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 172bc4cb677ffb4df5719e3c77f12ad10160c247
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86213820"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861260"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>系統管理員概觀：Power BI 報表伺服器
 本文是 Power BI 報表伺服器的系統管理員概觀，這個內部部署位置可用於儲存及管理您的 Power BI 報表、行動報表及分頁報表。 此文章將介紹規劃、部署及管理「Power BI 報表伺服器」的概念，並提供詳細資訊連結。
@@ -38,17 +38,16 @@ SQL Server Reporting Services 沒有任何就地升級。 若您有現有的 SQL
 ## <a name="configuring-your-report-server"></a>設定報表伺服器
 設定報表伺服器時，您有許多選項可用。 您要使用 SSL 嗎？ 您要設定電子郵件伺服器嗎？ 您要與 Power BI 服務整合，以釘選視覺效果嗎？
 
-您的多數設定都將在報表伺服器組態管理員中進行。 查看[組態管理員](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)文件以取得詳細資料。
+您的多數設定都將在報表伺服器組態管理員中進行。 查看[組態管理員](/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode)文件以取得詳細資料。
 
 ## <a name="security"></a>安全性
-安全性與保護對所有組織而言都至關重要。 您可以在[安全性](https://docs.microsoft.com/sql/reporting-services/security/reporting-services-security-and-protection)文件中，了解驗證、授權、角色與權限。
+安全性與保護對所有組織而言都至關重要。 您可以在[安全性](/sql/reporting-services/security/reporting-services-security-and-protection)文件中，了解驗證、授權、角色與權限。
 
 ## <a name="next-steps"></a>後續步驟
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [尋找您的報表伺服器產品金鑰](find-product-key.md)  
 [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下載 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

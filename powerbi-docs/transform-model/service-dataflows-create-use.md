@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fd0f9db041fb4862831630249e847c63572263b0
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2ac06bb288077a15a7227e2eb439762bc182e1a8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240242"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861651"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>在 Power BI 中建立及使用資料流程
 
@@ -77,7 +77,7 @@ ms.locfileid: "85240242"
 
 資料流程實體包含新的工具，可輕鬆地將您的商務資料對應至 Common Data Model (Microsoft 的標準化結構描述)，搭配 Microsoft 與第三方資料讓資料更豐富，並簡化機器學習服務存取作業。 您可以運用這些新功能，在您的商務資料中提供智慧型和可採取動作的深入解析。 完成編輯查詢步驟中的任何轉換之後，您可以從您的資料來源資料表將資料行對應至 Common Data Model 所定義的標準實體欄位。 標準實體具有 Common Data Model 所定義的已知結構描述。
 
-請從[什麼是 Common Data Model](https://docs.microsoft.com/powerapps/common-data-model/overview) 文章取得此方法和 Common Data Model 的相關詳細資訊。
+請從[什麼是 Common Data Model](/powerapps/common-data-model/overview) 文章取得此方法和 Common Data Model 的相關詳細資訊。
 
 若要搭配資料流程使用 Common Data Model，請在 [編輯查詢]  對話方塊中按一下 [對應到標準]  轉換。 您可以在顯示的 [對應實體]  畫面中，選取要對應的標準實體。
 
@@ -175,7 +175,7 @@ Power BI 資料流程會使用 Power BI 的資料重新整理程序，維持資�
 * [資料流程與 Azure Data Lake 的整合 (預覽)](service-dataflows-azure-data-lake-integration.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Model - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Model - 概觀](/powerapps/common-data-model/overview)
 * [深入了解 Common Data Model 結構描述和 GitHub 上的實體](https://github.com/Microsoft/CDM)
 
 相關的 Power BI Desktop 文章：

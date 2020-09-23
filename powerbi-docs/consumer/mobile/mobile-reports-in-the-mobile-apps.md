@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: f53fb518df3c82f4570c81b7caa14c20eea8022c
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: bdea7bbadc9e974e6b71122775408f50cfe33de3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204968"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855947"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的報表
 適用於︰
@@ -23,7 +23,7 @@ ms.locfileid: "88204968"
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 Power BI 報表是資料的互動式檢視，以視覺效果顯示資料的各種發現與見解。 在 Power BI 行動裝置應用程式中檢視報表是三步驟程序中的第三個步驟：
 
@@ -134,13 +134,13 @@ Power BI 行動裝置應用程式中的報表有兩個圖示：
 
 只有在報表中設定 [[書籤]](mobile-reports-in-the-mobile-apps.md#bookmarks)，才會出現 [書籤]****。 可在 Power BI 服務中定義的個人書籤以及報表建立者定義的書籤都會出現。 如果其中一種書籤已定義為預設書籤，報表就會在載入時開啟至該檢視。
 
-如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](https://docs.microsoft.com/intune/app-protection-policies)，則可能會關閉 [標註並共用]****。
+如果組織具有禁止從 Power BI 行動裝置應用程式共用的 [Intune 保護原則](/intune/app-protection-policies)，則可能會關閉 [標註並共用]****。
 
 只有當您有權與他人共用報表時，才會啟用 [邀請]****。 只有當您是報表的擁有者，或擁有者已授與您再次共用權限時，您才會擁有權限。
 
-如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]****。 如需詳細資訊，請參閱 [identifying geographical data in a report](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering) (識別報表中的地理資料)。
+如果報表作者使用地理資料來分類報表，則會啟用 [依目前位置篩選]****。 如需詳細資訊，請參閱 [identifying geographical data in a report](../../transform-model/desktop-mobile-geofiltering.md) (識別報表中的地理資料)。
 
-只有當您報表中的資料集標記為**條碼**時，才會啟用 [依條碼掃描並篩選報表]****。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes) (在 Power BI Desktop 中標記條碼)。
+只有當您報表中的資料集標記為**條碼**時，才會啟用 [依條碼掃描並篩選報表]****。 如需詳細資訊，請參閱 [tagging barcodes in Power BI Desktop](../../transform-model/desktop-mobile-barcodes.md) (在 Power BI Desktop 中標記條碼)。
 
 ### <a name="bookmarks"></a>書籤
 
@@ -154,7 +154,7 @@ Power BI 行動裝置應用程式支援報表建立者定義的報表書籤，�
 
 ![書籤檢視](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
-[深入了解 Power BI 服務的書籤](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks)。
+[深入了解 Power BI 服務的書籤](../end-user-bookmarks.md)。
 
 ## <a name="configure-your-experience-with-reports"></a>設定報表的體驗
 Power BI 行動裝置應用程式有許多設定，可讓您控制報表體驗。 目前，您可以設定
