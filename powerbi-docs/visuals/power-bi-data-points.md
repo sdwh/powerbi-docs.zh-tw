@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97bccec3ec0e92ebfcc6b9251cf5c17f176fbed1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5efe83cfa43c6fcb156501774bbaeae79381ab85
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240132"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857718"
 ---
 # <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>依視覺效果類型套用資料點限制與策略
 
@@ -41,7 +41,7 @@ ms.locfileid: "85240132"
 ## <a name="statistics"></a>統計
 某些模型可以提供有關某些資料行之值數目的統計資料。 當有這類資訊存在時，如果視覺效果並未明確覆寫策略的值計數，我們就會運用該資訊在多個階層之間提供更好的平衡。
 
-如需詳細資訊，請參閱 [Analysis Services 的新功能](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017) \(機器翻譯\)
+如需詳細資訊，請參閱 [Analysis Services 的新功能](/sql/analysis-services/what-s-new-in-analysis-services) \(機器翻譯\)
 
 ## <a name="dynamic-limits"></a>動態限制
 除了上述策略之外，具有兩個群組資料行階層 (軸和圖例，或類別和數列) 的視覺效果還會使用一個額外的策略，稱為「動態限制」  。  動態限制的設計目的是要提供更好的資料點平衡。 
@@ -50,7 +50,7 @@ ms.locfileid: "85240132"
 
 伺服器會在符合下面所述的情況下自動套用動態限制：
 
-* 在具有內部部署 SSAS 2016 版或更新版本，並[運用伺服器的 SuperDax 功能](https://blogs.msdn.microsoft.com/analysisservices/2015/09/02/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3/) \(英文\) 的 Power BI Desktop 中
+* 在具有內部部署 SSAS 2016 版或更新版本，並[運用伺服器的 SuperDax 功能](/archive/blogs/analysisservices/whats-new-in-microsoft-sql-server-analysis-services-tabular-models-in-sql-server-2016-ctp-2-3) \(英文\) 的 Power BI Desktop 中
 
 * 在使用匯入的模型、Direct Query、即時連線至服務，或即時連線至 AS PaaS 的 Desktop 或 Power BI 服務中。 
 
@@ -132,7 +132,7 @@ ms.locfileid: "85240132"
 - 值：使用一次顯示 200 個資料列的視窗進行虛擬化
 
 ### <a name="scatter-chart-high-density"></a>散佈圖 (高密度)
-請參閱[高密度散佈圖](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts)
+請參閱[高密度散佈圖](./desktop-high-density-scatter-charts.md)
 
 ### <a name="pie"></a>圓形圖
 - 點數上限：3,500

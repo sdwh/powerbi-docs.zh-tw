@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 11/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 91b0bba3b8e3fc221a05e6ccb2de1ec9b888d1ef
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 61eb4fc54966545858a7ebc85044696064027acd
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349302"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858385"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>教學課程：在 Power BI Desktop 中建立您自己的量值
 您可以在 Power BI Desktop 中使用量值來建立一些最強大的資料分析方案。 當您與報表互動時，量值會在您的資料上執行計算，藉此提供協助。 本教學課程將引導您了解量值，並在 Power BI Desktop 中建立自己的基本量值。
@@ -245,4 +245,4 @@ DAX 公式使用許多與 Excel 公式相同的函數、運算子和語法。 �
   
 - 如果您想要深入剖析 DAX 公式並建立某些更進階的量值，請參閱 [Power BI Desktop 的 DAX 基本概念](desktop-quickstart-learn-dax-basics.md)。 本文著重在 DAX 中的基本概念，例如語法、函數，並且更徹底了解內容。
   
-- 請務必將[資料分析運算式(DAX) 參考](https://docs.microsoft.com/dax/index)加入我的最愛中。 您可以在此參考中找到 DAX 語法、運算子和超過 200 種 DAX 函式的詳細資訊。
+- 請務必將[資料分析運算式(DAX) 參考](/dax/index)加入我的最愛中。 您可以在此參考中找到 DAX 語法、運算子和超過 200 種 DAX 函式的詳細資訊。

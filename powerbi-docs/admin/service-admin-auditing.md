@@ -10,12 +10,12 @@ ms.date: 08/20/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 27d74a4333add1feebc3522ce34d0a2bacaa69f7
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0c1c113f100c3ae1db0902c90833c44788fa7ec6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512048"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857695"
 ---
 # <a name="track-user-activities-in-power-bi"></a>追蹤 Power BI 中的使用者活動
 
@@ -77,7 +77,7 @@ completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
 > 所有事件最多可能需要 24 小時才會顯示，雖然完整的資料通常會更快提供使用。
 >
 >
-若要深入了解如何使用 Power BI REST API (包含如何取得稽核活動事件的範例)，請參閱 Power BI REST API 參考中的[系統管理 - 取得活動事件](https://docs.microsoft.com/rest/api/power-bi/admin/getactivityevents) (英文)。
+若要深入了解如何使用 Power BI REST API (包含如何取得稽核活動事件的範例)，請參閱 Power BI REST API 參考中的[系統管理 - 取得活動事件](/rest/api/power-bi/admin/getactivityevents) (英文)。
 
 ### <a name="get-powerbiactivityevent-cmdlet"></a>Get-PowerBIActivityEvent Cmdlet
 
@@ -122,7 +122,7 @@ $activities[0]
 
 您必須符合這些需求才能存取稽核記錄：
 
-- 您必須是全域管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，「法規遵循管理」和「組織管理」角色群組會隨附在 Exchange 系統管理中心的 [權限] 頁面上指派的這些角色。 如需可檢視稽核記錄的角色詳細資訊，請參閱[搜尋稽核記錄的要求](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)。
+- 您必須是全域管理員或已被指派 Exchange Online 中的「稽核記錄」或「僅供檢視稽核記錄」角色，才能存取稽核記錄。 根據預設，「法規遵循管理」和「組織管理」角色群組會隨附在 Exchange 系統管理中心的 [權限] 頁面上指派的這些角色。 如需可檢視稽核記錄的角色詳細資訊，請參閱[搜尋稽核記錄的要求](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#requirements-to-search-the-audit-log)。
 
     若要提供稽核記錄存取權給非系統管理員帳戶，請將使用者新增為這些角色群組中其中一個角色群組的成員。 如果您想要以另一種方式執行，則可以在 Exchange 系統管理中心建立自訂角色群組，將「稽核記錄」或「僅供檢視稽核記錄」角色指派給這個群組，然後將非系統管理員帳戶新增至新的角色群組。 如需詳細資訊，請參閱[在 Exchange Online 中管理角色群組](/Exchange/permissions-exo/role-groups)。
 

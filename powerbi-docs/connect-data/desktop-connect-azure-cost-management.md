@@ -10,18 +10,18 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 53606f52752bcc6f7c790b5e2cccaf26f0d10006
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224715"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858478"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Azure 成本管理連接器建立視覺效果和報表
 
 您可以使用適用於 Power BI Desktop 的 Azure 成本管理連接器，來提供功能強大、自訂視覺效果與報表，協助您更了解您的 Azure 支出。 Azure 成本管理連接器目前支援具有 [Microsoft 客戶合約](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/)或 [Enterprise 合約 (EA)](https://azure.microsoft.com/pricing/enterprise-agreement/) 的客戶。  
 
-Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並識別要使用連接器的使用者。 在此程序中產生的權杖會在特定期間內有效。 Power BI 會保留權杖以供下次登入使用。 OAuth 2.0 是在幕後進行的程序標準，以確保這些權限的處理安全。 若要連線，您必須使用 Enterprise 合約的[企業系統管理員](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles)帳戶，或 Microsoft 客戶合約的[計費帳戶擁有者](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles)。 
+Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並識別要使用連接器的使用者。 在此程序中產生的權杖會在特定期間內有效。 Power BI 會保留權杖以供下次登入使用。 OAuth 2.0 是在幕後進行的程序標準，以確保這些權限的處理安全。 若要連線，您必須使用 Enterprise 合約的[企業系統管理員](/azure/billing/billing-understand-ea-roles)帳戶，或 Microsoft 客戶合約的[計費帳戶擁有者](/azure/billing/billing-understand-mca-roles)。 
 
 > [!NOTE]
 > 此連接器取代先前可用的 [Azure 使用量見解和 Azure 成本管理搶鮮版 (Beta)](desktop-connect-azure-consumption-insights.md) 連接器。 使用先前連接器建立的任何報表都必須使用此連接器重新建立。
@@ -108,4 +108,4 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [在 Power BI Desktop 中連接至 Excel 活頁簿](desktop-connect-excel.md)   
-* [直接將資料輸入 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)   
+* [直接將資料輸入 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)

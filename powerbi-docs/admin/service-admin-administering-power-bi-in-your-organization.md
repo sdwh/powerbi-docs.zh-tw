@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 05/29/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c3e56df49caac8b5250a4e382cab253a0a9c5210
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 791b5efce0489e837cb75ed1ae6632dcc240fc1c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161322"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857580"
 ---
 # <a name="what-is-power-bi-administration"></a>什麼是 Power BI 管理
 
@@ -25,7 +25,7 @@ Power BI 管理是在管理用來控制 Power BI 運作方式的全組織設定�
 
 ## <a name="administrator-roles-related-to-power-bi"></a>與 Power BI 相關的系統管理員角色
 
-有數個角色可共同合作，為您的組織管理 Power BI。 大部分的系統管理員角色都是在 Microsoft 365 的系統管理中心或使用 PowerShell 來指派。 建立容量時，會指派 Power BI Premium 容量和 Power BI Embedded 容量系統管理員角色。 若要深入了解每個系統管理員角色，請參閱[關於系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。 若要了解如何指派系統管理員角色，請參閱[指派系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) (機器翻譯)。
+有數個角色可共同合作，為您的組織管理 Power BI。 大部分的系統管理員角色都是在 Microsoft 365 的系統管理中心或使用 PowerShell 來指派。 建立容量時，會指派 Power BI Premium 容量和 Power BI Embedded 容量系統管理員角色。 若要深入了解每個系統管理員角色，請參閱[關於系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。 若要了解如何指派系統管理員角色，請參閱[指派系統管理員角色](/microsoft-365/admin/add-users/assign-admin-roles?view=o365-worldwide) (機器翻譯)。
 
 | **系統管理員的類型** | **管理範圍** | **Power BI 工作** |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ Power BI 系統管理員的工作大多在 Power BI 管理入口網站進行。 
 | | 資訊控管 |
 | [Azure 入口網站中的 Azure Active Directory (AAD)](https://aad.portal.azure.com) | 設定對 Power BI 資源的條件式存取 |
 | | 佈建 Power BI Embedded 容量 |
-| [PowerShell Cmdlet](https://docs.microsoft.com/powershell/power-bi/overview) | 透過指令碼管理工作區和 Power BI 的其他層面 |
+| [PowerShell Cmdlet](/powershell/power-bi/overview) | 透過指令碼管理工作區和 Power BI 的其他層面 |
 | [系統管理 API 和 SDK](service-admin-reference.md) | 建置自訂管理工具。 例如，Power BI Desktop 可以使用這些 API 來建置以管理相關資料為基礎的報表。 |
 
 ## <a name="next-steps"></a>後續步驟
@@ -79,7 +79,7 @@ Power BI 系統管理員的工作大多在 Power BI 管理入口網站進行。 
 
 - [使用 Power BI 管理入口網站](service-admin-portal.md)
 - [租用戶系統管理設定指導](../guidance/admin-tenant-settings.md)
-- [使用 PowerShell Cmdlet](https://docs.microsoft.com/powershell/power-bi/overview)
+- [使用 PowerShell Cmdlet](/powershell/power-bi/overview)
 - [Power BI 管理常見問題集](service-admin-faq.md)
 - [為組織中的使用者授權 Power BI 服務](service-admin-licensing-organization.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

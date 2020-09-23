@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e43edb3241140024241ab78af1236d9551a35f1a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ad3684bbf285ff85fa3dec6b0cdc807dc05eca05
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239772"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857902"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>設定工作區資料流程設定 (預覽)
 
@@ -128,13 +128,13 @@ Power BI Pro、Premium 和 Embedded 工作區：
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
 
-* [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 儲存體安全性指南](/azure/storage/common/storage-security-guide)
 * [開始使用 Azure 資料服務的 GitHub 範例](https://aka.ms/cdmadstutorial) \(英文\)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
 
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
-* [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)
+* [CDM 資料夾](/common-data-model/data-lake) \(英文\)
+* [CDM 模型檔案定義](/common-data-model/model-json) \(英文\)
 
 此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

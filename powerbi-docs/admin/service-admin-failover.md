@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 56ace35adf6a005c4370bf692d8851dc015688c0
-ms.sourcegitcommit: e8b12d97076c1387088841c3404eb7478be9155c
+ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85782339"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857419"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -55,7 +55,7 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/support/](https://powerbi.
 
 在確認需要容錯移轉後，Power BI 需要約 15 分鐘時間才會再次運作。 確認是否需要容錯移轉的時間會根據中斷情況而有所不同。 
 
-一旦執行了容錯移轉，Power BI 會使用 Azure 儲存體異地複寫來執行容錯移轉。 不過，這類複寫通常會有 15 分鐘的傳回點，[Azure 儲存體不保證此時間範圍](https://docs.microsoft.com/azure/storage/common/storage-redundancy)適用 SLA，因此 Power BI 也無法保證時間範圍。 
+一旦執行了容錯移轉，Power BI 會使用 Azure 儲存體異地複寫來執行容錯移轉。 不過，這類複寫通常會有 15 分鐘的傳回點，[Azure 儲存體不保證此時間範圍](/azure/storage/common/storage-redundancy)適用 SLA，因此 Power BI 也無法保證時間範圍。 
 
 ## <a name="what-happens-to-workspaces-and-reports-if-my-premium-capacity-becomes-unavailable"></a>如果我的 Premium 容量變得無法使用，工作區和報表會發生什麼情況？ 
 

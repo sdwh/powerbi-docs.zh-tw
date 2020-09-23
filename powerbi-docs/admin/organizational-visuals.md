@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: 4b112c3522a35f86f74481a79f3fff919a0e9e33
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87544696"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857741"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>管理 Power BI 視覺效果系統管理員設定
 
@@ -64,7 +64,7 @@ UI 的 [租用戶設定] 只會影響 Power BI 服務。 如果想要在 Power B
 
 ![檔案或 AppSource 中的視覺效果](media/organizational-visuals/tenant-settings.png)
 
-[租用戶設定] 的 UI 變更僅適用於 Power BI 服務。 若要讓組織中的使用者上傳 .pbiviz 檔案，並將視覺效果從 AppSource 新增至 Power BI Desktop 中的 [視覺效果] 窗格，請使用 [Azure AD 群組原則](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)。
+[租用戶設定] 的 UI 變更僅適用於 Power BI 服務。 若要讓組織中的使用者上傳 .pbiviz 檔案，並將視覺效果從 AppSource 新增至 Power BI Desktop 中的 [視覺效果] 窗格，請使用 [Azure AD 群組原則](/azure/active-directory-domain-services/manage-group-policy)。
 
 |索引鍵  |值名稱  |值  |
 |---------|---------|---------|
@@ -83,7 +83,7 @@ UI 的 [租用戶設定] 只會影響 Power BI 服務。 如果想要在 Power B
 
 ![經認證的視覺效果](media/organizational-visuals/certified-visuals.png)
 
-[租用戶設定] 的 UI 變更僅適用於 Power BI 服務。 若要管理 Power BI Desktop 中經認證視覺效果的租用戶設定，請使用 [Azure AD 群組原則](https://docs.microsoft.com/azure/active-directory-domain-services/manage-group-policy)。
+[租用戶設定] 的 UI 變更僅適用於 Power BI 服務。 若要管理 Power BI Desktop 中經認證視覺效果的租用戶設定，請使用 [Azure AD 群組原則](/azure/active-directory-domain-services/manage-group-policy)。
 
 |索引鍵  |值名稱  |值  |
 |---------|---------|---------|

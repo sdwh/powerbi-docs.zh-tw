@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/11/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f778b4f0c6572084598eb07df0e89b7a30aed7b1
-ms.sourcegitcommit: d7145123133255d004b85ef8b20ca4977f0b843e
+ms.openlocfilehash: b77543a7601cf4f8522c333137802e71ce41a41c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88091587"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858362"
 ---
 # <a name="connect-to-an-oracle-database-with-power-bi-desktop"></a>使用 Power BI Desktop 連線至 Oracle 資料庫
 若要使用 Power BI Desktop 連接到 Oracle 資料庫，則執行 Power BI Desktop 的電腦上必須安裝正確的 Oracle 用戶端軟體。 您使用的 Oracle 用戶端軟體取決於已安裝的 Power BI Desktop 版本：32 位元或 64 位元。 其也取決於 Oracle Server 版本。
@@ -24,7 +24,7 @@ ms.locfileid: "88091587"
 - Oracle 資料存取用戶端 (ODAC) 軟體 11.2 和更新版本
 
 > [!NOTE]
-> 如果要設定適用於 Power BI Desktop、內部部署的資料閘道或 Power BI 報表伺服器的 Oracle 資料庫，請參閱 [Oracle 連線類型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的資訊。 
+> 如果要設定適用於 Power BI Desktop、內部部署的資料閘道或 Power BI 報表伺服器的 Oracle 資料庫，請參閱 [Oracle 連線類型](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的資訊。 
 
 
 ## <a name="determining-which-version-of-power-bi-desktop-is-installed"></a>判斷您已安裝的 Power BI Desktop 版本
@@ -89,4 +89,4 @@ ms.locfileid: "88091587"
 
 如果您在連接到 Oracle 資料庫時，於 Power BI Gateway 中看到錯誤訊息「未設定物件參考」，請遵循[管理您的資料來源 - Oracle](service-gateway-onprem-manage-oracle.md) 中的指示進行。
 
-如要使用 Power BI 報表伺服器，請參閱 [Oracle 連線類型](https://docs.microsoft.com/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的指引。
+如要使用 Power BI 報表伺服器，請參閱 [Oracle 連線類型](/sql/reporting-services/report-data/oracle-connection-type-ssrs?view=sql-server-ver15)一文中的指引。

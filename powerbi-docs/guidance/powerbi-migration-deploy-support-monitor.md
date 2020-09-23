@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 59f340e6325cf846d1b0453a94a1015b50a987c4
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: 23d207bb4f070c3c3a35f1e74dd281f012528c82
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401994"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965015"
 ---
 # <a name="deploy-to-power-bi"></a>部署到 Power BI
 
@@ -100,7 +100,7 @@ ms.locfileid: "89401994"
 - **報表與儀表板設定：** 更新及確認每份報表與資料集的設定。 最重要的設定包括：
   - 描述
   - 連絡人或連絡群組
-  - [敏感度標籤](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+  - [敏感度標籤](../admin/service-security-apply-data-sensitivity-labels.md)
   - [精選內容](https://powerbi.microsoft.com/blog/promote-your-reports-dashboards-and-apps-on-power-bi-home/)
 - **訂用帳戶：** 視需要設定報表訂閱。
 
@@ -136,7 +136,7 @@ ms.locfileid: "89401994"
 
 ## <a name="monitor-the-solution"></a>監視解決方案
 
-來自 [Power BI 活動記錄](../admin/service-admin-auditing.md)的事件可用於了解新解決方案的使用模式 (或[執行記錄](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view?view=sql-server-ver15)，含有部署至 Power BI 報表伺服器的內容)。 分析活動記錄有助於判斷實際使用是否不同於預期。 也可以驗證能否適當地支援解決方案。
+來自 [Power BI 活動記錄](../admin/service-admin-auditing.md)的事件可用於了解新解決方案的使用模式 (或[執行記錄](/sql/reporting-services/report-server/report-server-executionlog-and-the-executionlog3-view)，含有部署至 Power BI 報表伺服器的內容)。 分析活動記錄有助於判斷實際使用是否不同於預期。 也可以驗證能否適當地支援解決方案。
 
 以下是一些可透過評論活動記錄來解決的問題：
 

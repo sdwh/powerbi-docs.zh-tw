@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/02/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: ca0a33f42c1b2fd466df9af59bb649ae73d7d594
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 4a38ca35e6955bc92f52492e657a9e00bad05ea3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161368"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857603"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者
 
@@ -151,7 +151,7 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 * Azure Active Directory 設定可以限制外部來賓使用者能夠在整個組織內完成的作業。 那些設定也適用於您的 Power BI 環境。 下列文件會討論這些設定：
   * [管理外部共同作業設定](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
-  * [允許或封鎖對特定組織 B2B 使用者的邀請](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)
+  * [允許或封鎖對特定組織 B2B 使用者的邀請](/azure/active-directory/b2b/allow-deny-list)
   * [使用條件式存取來允許或封鎖存取](/azure/active-directory/conditional-access/concept-conditional-access-cloud-apps)
 
 * 您可以將政府雲端 (例如 GCC) 的內容與外部商業雲端使用者共用。 不過，來賓使用者無法使用自己的授權。 內容必須位於已指派給 Premium 的容量中，才能啟用存取。 或者，您可以將 Power BI Pro 授權指派給來賓帳戶。
@@ -162,6 +162,6 @@ Power BI 可透過 Azure Active Directory 企業對企業 (Azure AD B2B) 來與�
 
 ## <a name="next-steps"></a>後續步驟
 
-如需詳細資訊，包括資料列層級安全性的運作方式，請參閱白皮書：[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](https://aka.ms/powerbi-b2b-whitepaper)。
+如需詳細資訊，包括資料列層級安全性的運作方式，請參閱白皮書：[使用 Azure AD B2B 將 Power BI 內容散發給外部來賓使用者](../guidance/whitepaper-azure-b2b-power-bi.md)。
 
 如需有關 Azure AD B2B 的相關資訊，請參閱[什麼是 Azure AD B2B 共同作業？](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b/)。

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/03/2020
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: caccfdede32e91aa6265db0d38e26e96f8a7852c
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: a3d3e5daa05b60a64186b133c21f84ff98bfae54
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878649"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858040"
 ---
 # <a name="automated-machine-learning-in-power-bi"></a>Power BI 中的自動化機器學習
 
@@ -32,7 +32,7 @@ Power BI 中的 AutoML 可讓資料分析師單純使用 Power BI 的技能，�
 
 AutoML 支援建立資料流程的**二元預測**、**分類**和**迴歸**模型。 上述是監督式機器學習技術的類型，這表示其會從過去觀察的已知結果中學習，以預測其他觀察的結果。 您會使用一組含已知結果**標示**的記錄，作為定型 AutoML 模型的輸入資料集。
 
-Power BI 中的 AutoML 會整合 [Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml) 的[自動化 ML](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml)，以建立您的 ML 模型。 不過，您不需要 Azure 訂用帳戶，就能在 Power BI 中使用 AutoML。 ML 模型的定型和裝載程序完全由 Power BI 服務來管理。
+Power BI 中的 AutoML 會整合 [Azure Machine Learning](/azure/machine-learning/service/overview-what-is-azure-ml) 的[自動化 ML](/azure/machine-learning/service/concept-automated-ml)，以建立您的 ML 模型。 不過，您不需要 Azure 訂用帳戶，就能在 Power BI 中使用 AutoML。 ML 模型的定型和裝載程序完全由 Power BI 服務來管理。
 
 在 ML 模型定型之後，AutoML 會自動產生 Power BI 報表，說明您 ML 模型可能的效能情況。 AutoML 會醒目提示您輸入中影響模型所傳回預測的關鍵影響因數，以強調可解釋性。 這份報表也會包含模型的關鍵計量。
 
