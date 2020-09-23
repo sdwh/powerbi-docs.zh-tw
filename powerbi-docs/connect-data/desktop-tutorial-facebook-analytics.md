@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 2add0d99ac9b8aab7ad60f51a89df5910b9ce8af
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83286145"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965355"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 來分析 Facebook 資料
 
@@ -114,7 +114,7 @@ ms.locfileid: "83286145"
    ![套用的步驟](media/desktop-tutorial-facebook-analytics/applied-steps.png)
    
    >[!TIP]
-   >[套用的步驟]  本質上是以 [Power Query M 公式語言](https://docs.microsoft.com/powerquery-m/quick-tour-of-the-power-query-m-formula-language)所撰寫的公式。 若要查看和編輯公式，請在功能區 [常用]  索引標籤的 [查詢]  群組中選取 [進階編輯器]  。 
+   >[套用的步驟]  本質上是以 [Power Query M 公式語言](/powerquery-m/quick-tour-of-the-power-query-m-formula-language)所撰寫的公式。 若要查看和編輯公式，請在功能區 [常用]  索引標籤的 [查詢]  群組中選取 [進階編輯器]  。 
 
 ### <a name="import-the-transformed-data"></a>匯入轉換的資料
 
@@ -251,7 +251,6 @@ ms.locfileid: "83286145"
 Power BI Desktop 提供從頭到尾流暢的體驗，包括從各種資料來源取得資料、讓資料成形以符合您的分析需求，乃至於以豐富且互動的方式將此資料視覺化。 準備好報表之後，您可以[將其上傳至 Power BI 服務](../create-reports/desktop-upload-desktop-files.md)並依此建立儀表板，並與其他 Power BI 使用者共用。
 
 ## <a name="next-steps"></a>後續步驟
-* [閱讀其他 Power BI Desktop 教學課程](https://go.microsoft.com/fwlink/?LinkID=521937)
-* [觀看 Power BI Desktop 影片](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
 * [瀏覽 Power BI 論壇](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](https://go.microsoft.com/fwlink/?LinkID=519327)

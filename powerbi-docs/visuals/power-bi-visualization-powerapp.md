@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/01/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 079689fe9c068f433eb39d5363e253fecfc39968
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 78d9d59455a86c5499bc8b01deeacb331bbe7a8b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233215"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858914"
 ---
 # <a name="tutorial-embed-a-power-apps-visual-in-a-power-bi-report"></a>教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果
 
@@ -32,8 +32,8 @@ ms.locfileid: "85233215"
 ## <a name="prerequisites"></a>必要條件
 
 * [Google Chrome](https://www.google.com/chrome/browser/) 或 [Microsoft Edge](https://www.microsoft.com/windows/microsoft-edge) 瀏覽器
-* [Power BI 訂用帳戶](https://docs.microsoft.com/power-bi/service-self-service-signup-for-power-bi)，並已安裝[商機分析範例](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample)
-* 了解如何[在 Power Apps 中建立應用程式](https://docs.microsoft.com/powerapps/maker/canvas-apps/data-platform-create-app-scratch)及如何[編輯 Power BI 報表](https://docs.microsoft.com/power-bi/service-the-report-editor-take-a-tour)
+* [Power BI 訂用帳戶](../fundamentals/service-self-service-signup-for-power-bi.md)，並已安裝[商機分析範例](../create-reports/sample-opportunity-analysis.md#get-the-content-pack-for-this-sample)
+* 了解如何[在 Power Apps 中建立應用程式](/powerapps/maker/canvas-apps/data-platform-create-app-scratch)及如何[編輯 Power BI 報表](../create-reports/service-the-report-editor-take-a-tour.md)
 
 
 
@@ -105,8 +105,8 @@ ms.locfileid: "85233215"
 如果您不想再使用商機分析範例，您可以刪除儀表板、報表和資料集。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
-如需疑難排解資訊，請參閱[適用於 Power BI 的 Power Apps 視覺效果](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual) (機器翻譯)
+如需疑難排解資訊，請參閱[適用於 Power BI 的 Power Apps 視覺效果](/powerapps/maker/canvas-apps/powerapps-custom-visual#limitations-of-the-power-apps-visual) (機器翻譯)
 
 ## <a name="next-steps"></a>後續步驟
 [問與答視覺效果](power-bi-visualization-types-for-reports-and-q-and-a.md)    
-[教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果](https://docs.microsoft.com/powerapps/maker/canvas-apps/powerapps-custom-visual)    
+[教學課程：在 Power BI 報表中內嵌 Power Apps 視覺效果](/powerapps/maker/canvas-apps/powerapps-custom-visual)

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: d8e36a9eba34b2c27c9ce6f86edfafa568bccf90
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cf205603a4807b814e56904151e0ce8db66cfab1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236309"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853532"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>建立 Power BI 報表伺服器的編頁報表
 在本文中，您會在幾個簡單步驟中建立 Power BI 報表伺服器的編頁報表。
@@ -60,7 +60,7 @@ ms.locfileid: "85236309"
    
     ![圖表精靈：選擇資料集](media/quickstart-create-paginated-report/reportserver-paginated-choose-dataset.png)
    
-     需要建立資料集嗎？ 請參閱[建立共用或內嵌資料集](https://docs.microsoft.com/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)。
+     需要建立資料集嗎？ 請參閱[建立共用或內嵌資料集](/sql/reporting-services/report-data/create-a-shared-dataset-or-embedded-dataset-report-builder-and-ssrs)。
 2. 選擇圖表類型，在此情況下為橫條圖。
    
     ![圖表精靈：圖表類型](media/quickstart-create-paginated-report/reportserver-paginated-choose-chart-type.png)
@@ -81,7 +81,7 @@ ms.locfileid: "85236309"
 
 您可以修改剛剛建立的圖表，變更其配置、值、圖例等近乎所有項目。
 
-您也可以新增各種其他視覺效果︰量測計、資料表、矩陣、表格、地圖等等。 您可以新增多個頁面的頁首和頁尾。 請參閱[報表產生器教學課程](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)自行嘗試。
+您也可以新增各種其他視覺效果︰量測計、資料表、矩陣、表格、地圖等等。 您可以新增多個頁面的頁首和頁尾。 請參閱[報表產生器教學課程](/sql/reporting-services/report-builder-tutorials)自行嘗試。
 
 ![報表產生器設計檢視](media/quickstart-create-paginated-report/reportserver-paginated-finished-design-report.png)
 
@@ -96,8 +96,7 @@ ms.locfileid: "85236309"
 ## <a name="next-steps"></a>後續步驟
 您有許多絕佳的資源可用，讓您設計報表設計師和 SQL Server Data Tools 的報表產生器中的報表。 報表產生器教學課程是不錯的起點。
 
-* [報表產生器教學課程](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
+* [報表產生器教學課程](/sql/reporting-services/report-builder-tutorials)
 * [什麼是 Power BI 報表伺服器？](get-started.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

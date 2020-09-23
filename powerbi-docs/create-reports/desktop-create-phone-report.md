@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9161813c291a3feb8c01e4201972337f8e96fcb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23873d53aa0d472247f2e8d850dc3b1e9b3bf065
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221771"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853785"
 ---
 # <a name="optimize-power-bi-reports-for-the-mobile-app"></a>為行動裝置應用程式最佳化 Power BI 報表
 行動使用者能以橫式方向檢視任何 Power BI 報表頁面。 不過，報表作者可以建立針對行動裝置最佳化的其他檢視，並以直式方向顯示。 這種設計選項 (在 Power BI Desktop 與 Power BI 服務都提供) 可讓作者只選取並重新安排對行動使用者來說有意義的視覺效果。
@@ -120,5 +120,5 @@ Power BI 提供許多功能，可協助您建立已針對行動裝置最佳化�
 ## <a name="next-steps"></a>後續步驟
 * [在 Power BI 中建立儀表板的手機檢視](service-create-dashboard-mobile-phone-view.md)。
 * [檢視針對手機最佳化的 Power BI 報表](../consumer/mobile/mobile-apps-view-phone-report.md)。
-* [有關建立報表與儀表板的 Power BI 文件](https://docs.microsoft.com/power-bi/create-reports/)。
+* [有關建立報表與儀表板的 Power BI 文件](./index.yml)。
 * 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)。

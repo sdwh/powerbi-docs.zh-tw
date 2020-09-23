@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/28/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6f9661b6cda8782e83e64e30f55ae4b0d8bf6fa2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bb55342974bcd64e7d5871b7b84977105b7467fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224864"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858684"
 ---
 # <a name="connect-to-analysis-services-tabular-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線至 Analysis Services 表格式資料
 使用 Power BI Desktop 時，有兩種方式可以連線到 SQL Server Analysis Services 表格式模型並從中取得資料：使用即時連線瀏覽，或選取項目並將其匯入至 Power BI Desktop。
@@ -81,7 +81,7 @@ ms.locfileid: "85224864"
 **答：** 是。 依據表格式模型所使用的功能，使用 Power BI Desktop 的體驗可能會隨之改變。 部分範例包括：
 * 您在模型中看到的量值，可能會聚集在 [欄位]  窗格清單上方，而不是資料表中排列整齊的資料行。 不要擔心，您仍然可以像平常一樣使用這些模型量值，只不過這樣更容易找到這些量值罷了。
 
-* 如果表格式模型已定義計算群組，您就只能搭配模型量值使用，而不能搭配透過將數值欄位新增至視覺效果所建立的隱含量值。 模型可能還會以手動方式設定 **DiscourageImplicitMeasures** 旗標，這具有相同的效果。 若要深入了解，請參閱 [Analysis Services 中的計算群組](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits)。
+* 如果表格式模型已定義計算群組，您就只能搭配模型量值使用，而不能搭配透過將數值欄位新增至視覺效果所建立的隱含量值。 模型可能還會以手動方式設定 **DiscourageImplicitMeasures** 旗標，這具有相同的效果。 若要深入了解，請參閱 [Analysis Services 中的計算群組](/analysis-services/tabular-models/calculation-groups#benefits)。
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>在初始連接之後變更伺服器名稱
 在建立具有即時連線瀏覽的 Power BI Desktop 檔案之後，有時候您可能想將連線切換至其他伺服器。 例如，如果您在連接到開發伺服器時，以及在發佈到 Power BI 服務之前建立 Power BI Desktop 檔案，您會想要將連接切換至實際執行伺服器。
@@ -97,4 +97,3 @@ ms.locfileid: "85224864"
 下列清單描述連線至 SQL Server Analysis Services (SSAS) 或 Azure Analysis Services 時的所有已知問題： 
 
 * **錯誤：無法載入模型結構描述**：此錯誤通常會在無權存取資料庫/模型的使用者連線至 Analysis Services 時發生。
-

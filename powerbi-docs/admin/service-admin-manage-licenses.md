@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: af58a79c5c81e8f04e5d0ba714703c202f9c8000
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 6eb123ec9a9549c54e311682fdccce451d8552a9
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161345"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857258"
 ---
 # <a name="view-and-manage-power-bi-user-licenses"></a>檢視及管理 Power BI 使用者授權
 
@@ -37,11 +37,11 @@ ms.locfileid: "86161345"
 
   ![Power BI 訂閱的螢幕擷取畫面，其中顯示免費的訂閱。](media/service-admin-manage-licenses/power-bi-free-user-activated.png)
 
-使用者如有使用自助式註冊，就會為您建立此類型的訂閱。 若要深入了解，請參閱[您組織的 Power BI](https://docs.microsoft.com/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) (機器翻譯)。
+使用者如有使用自助式註冊，就會為您建立此類型的訂閱。 若要深入了解，請參閱[您組織的 Power BI](/microsoft-365/admin/misc/power-bi-in-your-organization?view=o365-worldwide) (機器翻譯)。
 
 ## <a name="manage-user-licenses-in-microsoft-365"></a>在 Microsoft 365 中管理使用者授權
 
-若要使用 Microsoft 365 系統管理中心管理使用者授權，請參閱 [商務訂閱與計費文件](https://docs.microsoft.com/microsoft-365/commerce/?view=o365-worldwide)。
+若要使用 Microsoft 365 系統管理中心管理使用者授權，請參閱 [商務訂閱與計費文件](/microsoft-365/commerce/?view=o365-worldwide)。
 
 ## <a name="manage-user-licenses-in-azure-portal"></a>在 Azure 入口網站中管理使用者授權
 

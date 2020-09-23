@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 129b4a22e17b5eab03018efae113ff47133e9dda
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 8ba43290e0e076963a61a7211ad99e99636ebb2e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214151"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853371"
 ---
 # <a name="use-quick-measures-for-common-calculations"></a>使用快速量值以執行常用的計算
 您可以使用「快速量值」來快速輕鬆執行常用及功能強大的計算。 快速量值會在幕後執行一組資料分析運算式 (DAX) 命令，然後顯示結果供您在報表中使用。 您不需要撰寫 DAX，這會根據您在對話方塊中提供的輸入來幫您完成。 計算有多種可用的分類，也有多種方式可以修改各項計算，以符合您的需求。 或許最棒的是，您可以查看快速量值所執行的 DAX，以啟發或拓展 DAX 知識。
@@ -131,8 +131,7 @@ ms.locfileid: "86214151"
 > 快速量值的 DAX 陳述式只使用逗號作為引數分隔符號。 如果 Power BI Desktop 版本的語言是以逗號作為小數分隔符號，快速量值就無法正常運作。
 
 ### <a name="time-intelligence-and-quick-measures"></a>時間智慧與快速量值
-您可以使用自己的自訂日期資料表來搭配時間智慧快速量值。 如果您要使用外部表格式模型，請確定在建置模型時，資料表中的主要日期資料行已標示為日期資料表，如 [Specify Mark as Date Table for use with time-intelligence](https://docs.microsoft.com/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) (指定標記為日期資料表以搭配時間智慧使用) 中所述。 如果要匯入自己的日期資料表，則請務必將它標記為日期資料表，如[在 Power BI Desktop 中設定和使用日期資料表](desktop-date-tables.md)中所述。
+您可以使用自己的自訂日期資料表來搭配時間智慧快速量值。 如果您要使用外部表格式模型，請確定在建置模型時，資料表中的主要日期資料行已標示為日期資料表，如 [Specify Mark as Date Table for use with time-intelligence](/sql/analysis-services/tabular-models/specify-mark-as-date-table-for-use-with-time-intelligence-ssas-tabular) (指定標記為日期資料表以搭配時間智慧使用) 中所述。 如果要匯入自己的日期資料表，則請務必將它標記為日期資料表，如[在 Power BI Desktop 中設定和使用日期資料表](desktop-date-tables.md)中所述。
 
 ### <a name="additional-information-and-examples"></a>其他資訊及範例
 對於快速量值有任何尚未提供的想法嗎？ 太棒了！ 請參閱 [Power BI Ideas](https://go.microsoft.com/fwlink/?linkid=842906) (Power BI 構想) 頁面，並提交您的想法和 DAX 公式，以取得您想要在 Power BI Desktop 中看到的快速量值。 我們會考慮在未來的版本中新增到快速量值清單。
-

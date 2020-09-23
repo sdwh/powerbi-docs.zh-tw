@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9271bc6d3ee102ed7d1b52dec2100a5cba88e568
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d5ee81b9aa594e6a101d85e4f90c14c7e653edf6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239823"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853289"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Dataflows and Azure Data Lake 整合 (預覽)
 
@@ -45,7 +45,7 @@ ms.locfileid: "85239823"
 
 ## <a name="power-bi-organizes-cdm-folders-in-the-data-lake"></a>Power BI 會組織 Data Lake 中的 CDM 資料夾
 
-有了 Power BI 資料流程並和 ADLS Gen2 整合之後，Power BI 就可以在 Data Lake 中產生資料。 身為資料產生者，Power BI 必須為包含 model.json 檔案和其相關聯資料檔案的每個資料流程建立 CDM 資料夾。 Power BI 會在 Data Lake 中使用「檔案系統」  將其資料與其他資料產生者產生的資料分開儲存。 若要深入了解 Azure Data Lake Storage Gen2 檔案系統和階層命名空間，請參閱[描述它們的文章](https://docs.microsoft.com/azure/storage/data-lake-storage/namespace) \(英文\)。
+有了 Power BI 資料流程並和 ADLS Gen2 整合之後，Power BI 就可以在 Data Lake 中產生資料。 身為資料產生者，Power BI 必須為包含 model.json 檔案和其相關聯資料檔案的每個資料流程建立 CDM 資料夾。 Power BI 會在 Data Lake 中使用「檔案系統」  將其資料與其他資料產生者產生的資料分開儲存。 若要深入了解 Azure Data Lake Storage Gen2 檔案系統和階層命名空間，請參閱[描述它們的文章](/azure/storage/data-lake-storage/namespace) \(英文\)。
 
 Power BI 會使用子資料夾避免混淆，並提供已改進的資料組織方式以在「Power BI 服務」  中呈現。 資料夾命名和結構代表工作區 (資料夾) 與資料流程 (CDM 資料夾)。 下圖顯示 Power BI 和其他資料產生者共用之 Data Lake 的可能結構。 每個服務 (在此案例中為 Dynamics 365、Dynamics for Finance and Operation，以及 Power BI) 會建立並維護它們自己的檔案系統。 系統會根據每個服務中的體驗，建立子資料夾以在檔案系統中更妥善地組織 CDM 資料夾。 
 
@@ -61,12 +61,12 @@ Power BI 會使用 Azure Data Lake Storage Gen2 所提供的 *Active Directory O
 
 與資料取用者 (例如需要讀取資料的使用者或服務) 共用 CDM 資料夾的程序，已透過使用 Active Directory OAuth 持有人權杖和 POSIX ACL 簡化。 這樣做讓系統管理員能夠監視哪些人存取過 CDM 資料夾。 唯一需要進行的動作是，將對 CDM 資料夾的存取權授與您所選擇的 Active Directory 物件 (例如使用者群組或服務)。 對於資料產生者以外的任何身分識別，我們建議全部都只授與 CDM 資料夾的唯讀權限。 這樣做可以保護產生者所產生資料的完整性。
 
-若要將 CDM 資料夾新增至 Power BI，新增 CDM 資料夾的使用者應該具備 CDM 資料夾本身和其中任何檔案或資料夾的*讀取* 存取 ACL。 此外，還要有 CDM 資料夾本身和其中任何資料夾的*執行* 存取 ACL。 如需詳細資訊，建議您檢閱[檔案和目錄的存取控制清單](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)與[使用 Azure Data Lake Storage Gen2 的最佳做法](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) () 文章。
+若要將 CDM 資料夾新增至 Power BI，新增 CDM 資料夾的使用者應該具備 CDM 資料夾本身和其中任何檔案或資料夾的*讀取* 存取 ACL。 此外，還要有 CDM 資料夾本身和其中任何資料夾的*執行* 存取 ACL。 如需詳細資訊，建議您檢閱[檔案和目錄的存取控制清單](/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories)與[使用 Azure Data Lake Storage Gen2 的最佳做法](/azure/storage/blobs/data-lake-storage-best-practices) () 文章。
 
 
 ### <a name="alternative-forms-of-authorization"></a>授權替代形式
 
-Power BI 外部的人員或服務也可以利用授權替代形式，這些替代方式允許金鑰持有者存取帳戶中的「所有」  資源、有 Lake 中所有資源的完整存取權，且無法將其存取範圍限制為檔案系統或 CDM 資料夾。 那些替代方式或許是授與存取權的簡易方式，但它們會限制共用 Data Lake 中特定資源的功能，而且不會向使用者提供可稽核哪些人存取儲存體的功能。 [Azure Data Lake Storage Gen2 中的存取控制](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control
+Power BI 外部的人員或服務也可以利用授權替代形式，這些替代方式允許金鑰持有者存取帳戶中的「所有」  資源、有 Lake 中所有資源的完整存取權，且無法將其存取範圍限制為檔案系統或 CDM 資料夾。 那些替代方式或許是授與存取權的簡易方式，但它們會限制共用 Data Lake 中特定資源的功能，而且不會向使用者提供可稽核哪些人存取儲存體的功能。 [Azure Data Lake Storage Gen2 中的存取控制](/azure/storage/blobs/data-lake-storage-access-control
 ) \(英文\) 文章中提供了可用授權配置的完整詳細資料。
 
 
@@ -88,12 +88,12 @@ Power BI 外部的人員或服務也可以利用授權替代形式，這些替�
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
-* [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 儲存體安全性指南](/azure/storage/common/storage-security-guide)
 * [開始使用 Azure 資料服務的 GitHub 範例](https://aka.ms/cdmadstutorial) \(英文\)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
-* [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)
+* [CDM 資料夾](/common-data-model/data-lake) \(英文\)
+* [CDM 模型檔案定義](/common-data-model/model-json) \(英文\)
 
 此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 276770b677d85e0e125e7dd87bb0a800248d71c2
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 825b336a96b998c04b019195ad3f3beea96d0a19
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161465"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857281"
 ---
 # <a name="licensing-the-power-bi-service-for-users-in-your-organization"></a>將 Power BI 服務授權提供給組織中的使用者
 
@@ -27,7 +27,7 @@ ms.locfileid: "86161465"
 
 ## <a name="who-can-purchase-and-assign-licenses"></a>誰可以購買及指派授權？
 
-您必須獲指派管理員角色，才能為您的組織購買或指派授權。 指派管理員角色時，會使用 Azure Active Directory 管理中心或 Microsoft 365 系統管理中心來指派。 下表顯示執行購買和授權相關工作所需的角色。 如需有關 Azure Active Directory 中管理員角色的詳細資訊，請參閱[在 Azure Active Directory 中檢視和指派管理員角色](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal) \(部分機器翻譯\)。 若要深入了解 Microsoft 365 中的系統管理員角色 (包括最佳做法)，請參閱[關於系統管理員角色](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。
+您必須獲指派管理員角色，才能為您的組織購買或指派授權。 指派管理員角色時，會使用 Azure Active Directory 管理中心或 Microsoft 365 系統管理中心來指派。 下表顯示執行購買和授權相關工作所需的角色。 如需有關 Azure Active Directory 中管理員角色的詳細資訊，請參閱[在 Azure Active Directory 中檢視和指派管理員角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal) \(部分機器翻譯\)。 若要深入了解 Microsoft 365 中的系統管理員角色 (包括最佳做法)，請參閱[關於系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles?view=o365-worldwide)。
 
 | 誰可以購買服務和授權？ | 誰可以管理使用者授權？ |
 | --------------- | --------------- |

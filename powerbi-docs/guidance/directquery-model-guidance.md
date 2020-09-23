@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 89d911680d46e159e446dbcf6bd06e2caf4b6b65
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: d32d931a2778cc1041da327eee323c8b44914f0f
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642619"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965313"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的 DirectQuery 模型指南
 
@@ -41,11 +41,11 @@ Azure SQL 資料倉儲和 Azure HDInsight Spark 資料來源都可以直接進�
 > 我們了解並非所有製造模型者都具備最佳化關聯式資料庫的權限或技能。 雖然其是為 DirectQuery 模型準備資料的慣用層，但有些最佳化仍然可以在模型設計中達成，而無須修改來源資料庫。 但是，最佳的最佳化結果通常都是透過將最佳化套用至來源資料庫來達成。
 
 - **確保資料完整性已完成：** 維度類型資料表包含對應到事實類型資料表的唯一值 (維度索引鍵) 資料行特別重要。 事實類型維度資料行包含有效的維度索引鍵值也相當重要。 這些資料行可讓您設定更有效率的模型關聯性，其預期關聯性兩端都具有相符的值。 當來源資料缺少完整性時，建議新增「未知」維度記錄來有效修復資料。 例如，您可以將資料列新增至 **Product** 資料表，代表未知的產品，然後將其指派給超出範圍的索引鍵，例如 -1。 若 **Sales** 資料表中資料列包含遺漏的產品索引鍵值，即會將其替換成 -1。 這會確保每個 **Sales** 產品索引鍵值在 **Product** 資料表中都具有對應的資料列。
-- **新增索引：** 在資料表或檢視上定義適當的索引，以支援針對預期報表視覺效果篩選和分組的具效率資料擷取。 若為 SQL Server、Azure SQL Database 或 Azure SQL 資料倉儲來源，請參閱 [SQL Server 索引架構與設計指南](/sql/relational-databases/sql-server-index-design-guide?view=sql-server-2017)，以取得索引設計指導的實用資訊。 若為 SQL Server 或 Azure SQL Database 揮發性來源，請參閱[開始使用資料行存放區來進行即時作業分析](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics?view=sql-server-2017)。
+- **新增索引：** 在資料表或檢視上定義適當的索引，以支援針對預期報表視覺效果篩選和分組的具效率資料擷取。 若為 SQL Server、Azure SQL Database 或 Azure SQL 資料倉儲來源，請參閱 [SQL Server 索引架構與設計指南](/sql/relational-databases/sql-server-index-design-guide)，以取得索引設計指導的實用資訊。 若為 SQL Server 或 Azure SQL Database 揮發性來源，請參閱[開始使用資料行存放區來進行即時作業分析](/sql/relational-databases/indexes/get-started-with-columnstore-for-real-time-operational-analytics)。
 - **設計分散式資料表：** 針對利用大規模平行處理 (MPP) 架構的 Azure SQL 資料倉儲來源，請考慮將大型的事實類型資料表設為雜湊分散，以及維度類型資料表，以跨所有計算節點進行複寫。 如需詳細資訊，請參閱[在 Azure SQL 資料倉儲中設計分散式資料表的指導](/azure/sql-data-warehouse/sql-data-warehouse-tables-distribute#what-is-a-distributed-table)。
-- **確保必要資料轉換都已具體化：** 針對 SQL Server 關聯式資料庫來源 (以及其他關聯式資料庫來源)，可以將計算資料行新增至資料表。 這些資料行都是以運算式為基礎，例如 **Quantity** 乘以 **UnitPrice**。 計算資料行可以進行保存 (具體化)，且與一般資料行相似，有時候也可以為其編製索引。 如需詳細資訊，請參閱[計算資料行的索引](/sql/relational-databases/indexes/indexes-on-computed-columns?view=sql-server-2017)。
+- **確保必要資料轉換都已具體化：** 針對 SQL Server 關聯式資料庫來源 (以及其他關聯式資料庫來源)，可以將計算資料行新增至資料表。 這些資料行都是以運算式為基礎，例如 **Quantity** 乘以 **UnitPrice**。 計算資料行可以進行保存 (具體化)，且與一般資料行相似，有時候也可以為其編製索引。 如需詳細資訊，請參閱[計算資料行的索引](/sql/relational-databases/indexes/indexes-on-computed-columns)。
 
-    請也考慮索引檢視表，這種檢視表可以更細微地預先彙總事實資料表。 例如，若 **Sales** 資料表是在訂單明細層級儲存資料，您即可以建立檢視來摘要此資料。 檢視可能是以 SELECT 陳述式為基礎，此陳述式會將 **Sales** 資料表資料依日期 (月份層級)、客戶、產品進行分組，並摘要量值 (例如銷售額、數量等)。接著便可以為檢視編製索引。 針對 SQL Server 或 Azure SQL Database 來源，請參閱[建立索引檢視表](/sql/relational-databases/views/create-indexed-views?view=sql-server-2017)。
+    請也考慮索引檢視表，這種檢視表可以更細微地預先彙總事實資料表。 例如，若 **Sales** 資料表是在訂單明細層級儲存資料，您即可以建立檢視來摘要此資料。 檢視可能是以 SELECT 陳述式為基礎，此陳述式會將 **Sales** 資料表資料依日期 (月份層級)、客戶、產品進行分組，並摘要量值 (例如銷售額、數量等)。接著便可以為檢視編製索引。 針對 SQL Server 或 Azure SQL Database 來源，請參閱[建立索引檢視表](/sql/relational-databases/views/create-indexed-views)。
 - **具體化運算列表：** 常見的模型需求會涉及新增日期資料表，以支援以時間為基礎的篩選。 若要在組織中支援已知的以時間為基礎篩選，請在來源資料庫中建立資料表，並確保其載入了包含事實資料表日期的日期範圍。 也請確保其包含實用的時間間隔資料行，例如年、季、月、週等。
 
 ## <a name="optimize-model-design"></a>最佳化模型設計
@@ -87,7 +87,7 @@ DirectQuery 模型可以透過許多方式進行最佳化，如下列項目符�
 
     增加 [每個資料來源的連線數量上限] 值可確保有更多查詢 (最多可達指定的最大數目) 可以傳送至基礎資料來源，這在單一頁面上有許多視覺效果時，或是許多使用者同時存取報表時很有用。 一旦達到最大連線數目，進一步的查詢會排入佇列，直到有連線可供使用。 增加此限制會導致基礎資料來源有更多的負載，所以設定不保證能改善整體效能。
     
-    將此模型發佈至 Power BI 時，傳送到基礎資料來源的同時查詢數量上限也會取決於環境。 每個不同環境 (例如 Power BI、Power BI Premium 或 Power BI 報表伺服器) 都可能會施加不同的輸送量條件約束。 如需 Power BI Premium 容量資源限制的詳細資訊，請參閱[部署及管理 Power BI Premium 容量](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment)。
+    將此模型發佈至 Power BI 時，傳送到基礎資料來源的同時查詢數量上限也會取決於環境。 每個不同環境 (例如 Power BI、Power BI Premium 或 Power BI 報表伺服器) 都可能會施加不同的輸送量條件約束。 如需 Power BI Premium 容量資源限制的詳細資訊，請參閱[部署及管理 Power BI Premium 容量](./whitepaper-powerbi-premium-deployment.md)。
 
 ## <a name="optimize-report-designs"></a>最佳化報表設計
 

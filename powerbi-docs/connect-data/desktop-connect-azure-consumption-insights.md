@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5e76cdfc2fd8ad4a90290ecaa559d502d5f847e6
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034420"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90858617"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 使用量見解資料
 
@@ -178,7 +178,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 Azure 也提供 [**Azure 使用深入解析 (ACI) API**](https://azure.microsoft.com/blog/announcing-general-availability-of-consumption-and-charge-apis-for-enterprise-azure-customers/)。 您可以建立自己的自訂解決方案，來使用 ACI API 收集、報告和視覺化 Azure 使用資訊。
 
 ### <a name="mapping-names-and-usage-details-between-the-portal-the-connector-and-the-api"></a>在入口網站、連接器和 API 之間對應名稱和使用詳細資料
-Azure 入口網站資料行和詳細資料名稱在 API 和連接器中非常相似，雖然並非完全相同。 為了協助您進行釐清，下表提供對應。 同時也指出資料行是否已經淘汰。 如需詳細資訊和字詞定義，請參閱 [Azure 計費資料字典](https://docs.microsoft.com/azure/billing/billing-enterprise-api-usage-detail)。
+Azure 入口網站資料行和詳細資料名稱在 API 和連接器中非常相似，雖然並非完全相同。 為了協助您進行釐清，下表提供對應。 同時也指出資料行是否已經淘汰。 如需詳細資訊和字詞定義，請參閱 [Azure 計費資料字典](/azure/billing/billing-enterprise-api-usage-detail)。
 
 | ACI 連接器 / ContentPack ColumnName | ACI API 資料行名稱 | EA 資料行名稱 | 已淘汰/為了回溯相容性而存在 |
 | --- | --- | --- | --- |
@@ -238,4 +238,4 @@ Azure 入口網站資料行和詳細資料名稱在 API 和連接器中非常相
 * [Power BI Desktop 中的資料來源](desktop-data-sources.md)
 * [使用 Power BI Desktop 合併資料並使其成形](desktop-shape-and-combine-data.md)
 * [在 Power BI Desktop 中連接至 Excel 活頁簿](desktop-connect-excel.md)   
-* [直接將資料輸入 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)   
+* [直接將資料輸入 Power BI Desktop 中](desktop-enter-data-directly-into-desktop.md)

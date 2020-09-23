@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/11/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0d09fd8c931a92828d11b5813e57e0691c848dc0
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: abd12abf852a220399847bee7903ea83cff1386b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86214148"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853601"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Power BI Desktop 中的查詢概觀
 透過 Power BI Desktop，您可以連接到資料世界、建立具吸引力的基礎報表，並與他人分享您的成果；其他使用者可接著以您的成果做為建置基礎，並擴展其商務智慧成果。
@@ -81,7 +81,7 @@ Power Query 編輯器中的功能區是由四個索引標籤組成：[首頁]、
 
 ![Power B I Desktop 的螢幕擷取畫面，其中顯示 [首頁] 索引標籤。](media/desktop-query-overview/queryoverview_transformribbon.png)
 
-如需轉換資料的詳細資訊，包括範例，請參閱[教學課程：在 Power BI Desktop 中將資料成形及合併](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)。
+如需轉換資料的詳細資訊，包括範例，請參閱[教學課程：在 Power BI Desktop 中將資料成形及合併](../connect-data/desktop-shape-and-combine-data.md)。
 
 [加入資料行]  索引標籤提供與加入資料行、格式化資料行資料及加入自訂資料行相關聯的其他工作。 下圖顯示 [加入資料行]  索引標籤。  
 
@@ -145,4 +145,4 @@ Power Query 編輯器中的功能區是由四個索引標籤組成：[首頁]、
 * [Power BI Desktop 中的資料來源](../connect-data/desktop-data-sources.md)
 * [在 Power BI Desktop 中連線至資料](../connect-data/desktop-connect-to-data.md)
 * [教學課程：在 Power BI Desktop 中將資料成形及合併](../connect-data/desktop-shape-and-combine-data.md)
-* [在 Power BI Desktop 中執行常見查詢工作](desktop-common-query-tasks.md)   
+* [在 Power BI Desktop 中執行常見查詢工作](desktop-common-query-tasks.md)

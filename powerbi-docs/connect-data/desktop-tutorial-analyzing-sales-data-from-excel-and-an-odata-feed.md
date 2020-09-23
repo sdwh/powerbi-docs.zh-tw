@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c0fb194c3585af9ce3011f5cb2a4e6b57b5092ed
-ms.sourcegitcommit: 70a892df1a0c196db58bf9165b3aa31b26bbe149
+ms.openlocfilehash: 0401fecc91aef03c0b9e0767bfb241cd701ff50b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/29/2020
-ms.locfileid: "89092398"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853739"
 ---
 # <a name="tutorial-analyze-sales-data-from-excel-and-an-odata-feed"></a>教學課程：分析來自 Excel 和 OData 摘要的銷售資料
 
@@ -172,7 +172,7 @@ Power Query 編輯器可讓您建立各種計算式和自訂的欄位，讓您�
 ![產品查詢套用的步驟](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/products-query-applied-steps.png) &nbsp;&nbsp; ![訂單查詢套用的步驟](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/orders-query-applied-steps.png)
 
 >[!TIP]
->套用的步驟本質上是以 *Power Query 語言* (亦稱為 [M 語言](https://docs.microsoft.com/powerquery-m/power-query-m-reference)) 所撰寫的公式。 若要查看和編輯公式，請在功能區 [常用]  索引標籤的 [查詢]  群組中選取 [進階編輯器]  。
+>套用的步驟本質上是以 *Power Query 語言* (亦稱為 [M 語言](/powerquery-m/power-query-m-reference)) 所撰寫的公式。 若要查看和編輯公式，請在功能區 [常用]  索引標籤的 [查詢]  群組中選取 [進階編輯器]  。
 
 ## <a name="import-the-transformed-queries"></a>匯入轉換的查詢
 
@@ -272,7 +272,7 @@ Power BI Desktop 不需要您結合查詢來建立報表。 不過，您可以�
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Microsoft Learn for Power BI](https://docs.microsoft.com/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
-* [觀看 Power BI Desktop 影片](/power-bi/fundamentals/desktop-videos)
+* [Microsoft Learn for Power BI](/learn/powerplatform/power-bi?WT.mc_id=powerbi_landingpage-docs-link)
+* [觀看 Power BI Desktop 影片](../fundamentals/desktop-videos.md)
 * [瀏覽 Power BI 論壇](https://go.microsoft.com/fwlink/?LinkID=519326)
 * [閱讀 Power BI 部落格](https://go.microsoft.com/fwlink/?LinkID=519327)
