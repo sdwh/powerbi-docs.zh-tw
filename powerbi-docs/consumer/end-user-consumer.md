@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24f507a2457793590b6b123c0f4c9cb68dea4102
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161736"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860961"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>適用於取用者的 Power BI 服務
 
@@ -62,6 +62,5 @@ Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都�
 ## <a name="next-steps"></a>後續步驟
 
 [導覽適用於取用者的 Power BI 服務](end-user-reading-view.md)    
-[適用於取用者的 Power BI 服務訓練](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
-[適用於 Power BI 取用者  的術語和概念](end-user-basic-concepts.md)    
-
+[適用於取用者的 Power BI 服務訓練](/learn/paths/consume-data-with-power-bi/)    
+[適用於 Power BI 取用者  的術語和概念](end-user-basic-concepts.md)

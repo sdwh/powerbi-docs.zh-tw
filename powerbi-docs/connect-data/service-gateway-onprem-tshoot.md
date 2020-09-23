@@ -6,15 +6,15 @@ ms.author: arthii
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
-ms.topic: how-to
+ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0fd6e2d9a05c07ae5ed74a4f3f35af5267a68a87
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236199"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860685"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
@@ -60,7 +60,7 @@ ms.locfileid: "85236199"
 
 在 [顯示詳細資料] 中，您可能會看到錯誤碼 **DM_GWPipeline_Gateway_DataSourceAccessError**。
 
-如果出現類似下列的基礎錯誤訊息，則表示為此資料來源所使用的帳戶不是該 Analysis Services 執行個體的伺服器管理員。 如需詳細資訊，請參閱 [Grant server admin rights to an Analysis Services instance](https://docs.microsoft.com/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (將伺服器管理員許可權授與 Analysis Services 執行個體)。
+如果出現類似下列的基礎錯誤訊息，則表示為此資料來源所使用的帳戶不是該 Analysis Services 執行個體的伺服器管理員。 如需詳細資訊，請參閱 [Grant server admin rights to an Analysis Services instance](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (將伺服器管理員許可權授與 Analysis Services 執行個體)。
 
     The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
 

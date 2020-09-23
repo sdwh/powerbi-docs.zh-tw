@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3539da05aed1fda28ca6e93c96e1e2f7793c3d6
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7439eff964340d3eba20b5d67d2aec992394505f
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878501"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860087"
 ---
 # <a name="use-ai-insights-in-power-bi-desktop"></a>使用 Power BI Desktop 中的 AI 見解
 
@@ -40,10 +40,10 @@ AI 見解已在 2020 年 6 月版本的 Power BI Desktop 中公開推出。 針�
 
 目前支援的服務如下：
 
-* [情感分析](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
-* [關鍵片語擷取](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
-* [語言偵測](https://docs.microsoft.com/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
-* [影像標記](https://docs.microsoft.com/azure/cognitive-services/computer-vision/concept-tagging-images)。 
+* [情感分析](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis)
+* [關鍵片語擷取](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-keyword-extraction)
+* [語言偵測](/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-language-detection)
+* [影像標記](/azure/cognitive-services/computer-vision/concept-tagging-images)。 
 
 轉換會在 Power BI 服務上執行，且不需要 Azure 認知服務 訂用帳戶。 
 
@@ -63,7 +63,7 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 語言偵測函式會評估文字輸入，並針對每個欄位，傳回語言名稱和 ISO 識別碼。 此函式用於收集未知語言之任意文字的資料行。 此函式預期以文字格式的資料作為輸入。
 
-文字分析最多可辨識 120 種語言。 如需詳細資訊，請參閱[支援的語言](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
+文字分析最多可辨識 120 種語言。 如需詳細資訊，請參閱[支援的語言](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
 
 #### <a name="extract-key-phrases"></a>擷取關鍵片語
 
@@ -79,7 +79,7 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 情感分析是針對整個輸入欄位進行的，而不是擷取文字中特定實體的情感。 在實務上，當文件包含一個或兩個句子，而不是大型文字區塊時，精確度評分有提高的趨勢。 在客觀性評估階段，此模型會判斷整體的輸入欄位是客觀的還是包含情感的。 大部分客觀的輸入欄位不會進展到情感偵測階段，進而導致分數為 .50，而不會進行進一步的處理。 對於在管線中繼續的輸入欄位，下一個階段會產生高於或低於 .50 的分數，端視輸入欄位中偵測到的情感程度而定。
 
-目前，情感分析支援英文、德文、西班牙文和法文。 其他語言目前為預覽版。 如需詳細資訊，請參閱[支援的語言](https://docs.microsoft.com/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
+目前，情感分析支援英文、德文、西班牙文和法文。 其他語言目前為預覽版。 如需詳細資訊，請參閱[支援的語言](/azure/cognitive-services/text-analytics/text-analytics-supported-languages)。
 
 #### <a name="tag-images"></a>標記影像
 
@@ -87,7 +87,7 @@ Premium 容量節點 EM2、A2 或 P1 和更新版本支援認知服務。 容量
 
 上傳影像或指定影像 URL 之後，電腦視覺演算法會根據物體、生物和影像中識別的動作，輸出標記。 標記不限於主體 (例如在前景的人)，但也包含環境 (室內或戶外)、傢俱、工具、植物、動物、配件、小工具等等。
 
-此函式需要影像 URL 或 base-64 欄位作為輸入。 目前，影像標記支援英文、西班牙文、日文、葡萄牙文及簡體中文。 如需詳細資訊，請參閱[支援的語言](https://docs.microsoft.com/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)。
+此函式需要影像 URL 或 base-64 欄位作為輸入。 目前，影像標記支援英文、西班牙文、日文、葡萄牙文及簡體中文。 如需詳細資訊，請參閱[支援的語言](/rest/api/cognitiveservices/computervision/tagimage/tagimage#uri-parameters)。
 
 ### <a name="invoking-text-analytics-or-vision-functions-in-power-query"></a>叫用 Power Query 中的文字分析或視覺函式
 
@@ -162,8 +162,8 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 若要深入了解 Azure Machine Learning，請參閱下列文章：
 
-- 概觀：[什麼是 Azure Machine Learning 服務？](https://docs.microsoft.com/azure/machine-learning/service/overview-what-is-azure-ml)
-- Azure Machine Learning 的快速入門與教學課程：[Azure Machine Learning 文件](https://docs.microsoft.com/azure/machine-learning/)
+- 概觀：[什麼是 Azure Machine Learning 服務？](/azure/machine-learning/service/overview-what-is-azure-ml)
+- Azure Machine Learning 的快速入門與教學課程：[Azure Machine Learning 文件](/azure/machine-learning/)
 
 ### <a name="granting-access-to-an-azure-ml-model"></a>授與 Azure ML 模型的存取權
 
@@ -172,7 +172,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 - 針對 Machine Learning Studio (傳統) 模型，需要有對 Machine Learning Studio (傳統) Web 服務的**讀取**存取權
 - 針對 Machine Learning 模型，需要有對 Machine Learning 工作區的**讀取**存取權
 
-本節中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。 如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)。
+本節中的步驟說明如何將對 Azure ML 上裝載之模型的存取權授與 Power BI 使用者，以便他們能以 Power Query 函式形式存取此模型。 如需進一步的詳細資料，請參閱[使用 RBAC 與 Azure 入口網站管理存取權](/azure/role-based-access-control/role-assignments-portal)。
 
 1. 登入 [Azure 入口網站](https://portal.azure.com/)。
 2. 移至 [訂用帳戶] 頁面。 您可以透過 Azure 入口網站左側瀏覽功能表中的 [所有服務] 清單找到 [訂用帳戶] 頁面。
@@ -186,7 +186,7 @@ Power BI Desktop、Power BI 資料流程與 Power BI 服務中的 Power Query On
 
 資料科學家主要使用 Python 開發甚至是部署其 Machine Learning 的機器學習模型。 不同於 Machine Learning Studio (傳統) 是協助自動化為模型建立結構描述檔案的工作，在 Machine Learning 的案例中，資料科學家必須明確使用 Python 產生結構描述檔案。
 
-此結構描述檔案必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。
+此結構描述檔案必須包含在 Machine Learning 模型的部署 Web 服務中。 若要自動產生 Web 服務的結構描述，您必須為部署模型在項目指令碼中提供輸入/輸出的範例。 請參閱[使用 Azure Machine Learning 部署模型中的選擇性自動產生 Swagger 架構](/azure/machine-learning/how-to-deploy-and-where#optional-define-model-web-service-schema)服務文件上的子節。 連結包含產生結構描述陳述式的範例項目指令碼。
 
 具體而言，項目指令碼中的 _@input\_schema_ 與 _@output\_schema_ 函式會參考_input\_sample_ 與 _output\_sample_ 中的輸入和輸出範例格式，並在部署期間使用這些範例來產生 Web 服務的 OpenAPI (Swagger) 規格。
 

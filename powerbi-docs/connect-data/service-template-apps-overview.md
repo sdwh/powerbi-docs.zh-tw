@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 6033ba7442e7993edbbc68aa36922a2efddd1f83
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235658"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860570"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
@@ -49,7 +49,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI 管理入口網站、範本應用程式設定。 
 
-若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](/azure/marketplace/become-publisher)的要求。
  
 ## <a name="high-level-steps"></a>高階步驟
 
@@ -67,7 +67,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 6. 將測試應用程式提升至生產階段前，以提交該應用程式至 AppSource 進行驗證，以及在您自己的租用戶外測試。 
 
-7. 將內容提交至[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)進行發佈。 
+7. 將內容提交至[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)進行發佈。 
 
 8. 讓您的供應項目在 AppSource 中「正式運作」，並在 Power BI 中將應用程式移至生產階段。
 
@@ -77,9 +77,9 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 若要建立範本應用程式，您需有建立權限。 如需詳細資料，請參閱 Power BI [管理入口網站、範本應用程式設定](../admin/service-admin-portal.md#template-apps-settings)。
 
-若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](https://docs.microsoft.com/azure/marketplace/become-publisher)的要求。
+若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](/azure/marketplace/become-publisher)的要求。
  > [!NOTE] 
- > 範本應用程式提交在[合作夥伴中心](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中進行管理。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您應該只有一個 AppSource 供應項目的 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
+ > 範本應用程式提交在[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中進行管理。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您應該只有一個 AppSource 供應項目的 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
 
 ## <a name="tips"></a>祕訣 
 

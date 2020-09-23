@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 84ceb5cd856986f2ff068395bac8bcac10baad96
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c8daa87bca6fb5ed47899f804c0710f58b559ff1
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204895"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860225"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Power BI 行動裝置應用程式的新功能
 如需相關的「新功能」資訊，請參閱︰
@@ -23,7 +23,7 @@ ms.locfileid: "88204895"
 * [Power BI 服務的新功能](../../fundamentals/service-whats-new.md)
 
 >[!NOTE]
->**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](https://go.microsoft.com/fwlink/?linkid=2121400)
+>**使用 Windows 10 行動裝置版手機**的 Power BI 行動裝置應用程式支援，將於 2021 年 3 月 16 日停止。 [深入了解](/legal/powerbi/powerbi-mobile/power-bi-mobile-app-end-of-support-for-windows-phones)
 
 ## <a name="august-2020"></a>2020 年 8 月
 ### <a name="weve-improved-how-you-navigate-to-your-content-ios-and-android"></a>已改進瀏覽至內容的方式 (iOS 與 Android)
@@ -153,19 +153,19 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="android-support-for-remote-configuration-of-report-server-access-settings"></a>從遠端設定報表伺服器存取設定的 Android 支援
 
-我們新增了 Android 支援，讓您可以從遠端設定 Power BI 行動應用程式的報表伺服器存取設定。 IT 系統管理員現在可以使用其組織的 MDM 工具，從遠端為 iOS 與 Android 裝置進行這些設定。 如需詳細資料，請參閱[從遠端設定 Power BI 行動裝置應用程式對報表伺服器的存取](https://docs.microsoft.com/power-bi/report-server/configure-powerbi-mobile-apps-remote) (英文)。
+我們新增了 Android 支援，讓您可以從遠端設定 Power BI 行動應用程式的報表伺服器存取設定。 IT 系統管理員現在可以使用其組織的 MDM 工具，從遠端為 iOS 與 Android 裝置進行這些設定。 如需詳細資料，請參閱[從遠端設定 Power BI 行動裝置應用程式對報表伺服器的存取](../../report-server/configure-powerbi-mobile-apps-remote.md) (英文)。
 
 ### <a name="cross-report-drillthrough"></a>跨報表鑽研
 
 我們在這個月新增了對跨報表鑽研的支援。 您現在可以點選某個資料點，進行鑽研以存取其他報表和報表頁面。 當您鑽研至某個目標頁面時，該頁面中的內容即會根據鑽研設定篩選。
 
 > [!NOTE]
-> 只有在報表建立期間啟用跨報表鑽研時，該功能才可供使用。 [深入了解跨報表鑽研](https://docs.microsoft.com/power-bi/desktop-cross-report-drill-through)。
+> 只有在報表建立期間啟用跨報表鑽研時，該功能才可供使用。 [深入了解跨報表鑽研](../../create-reports/desktop-cross-report-drill-through.md)。
 
 
 ### <a name="data-sensitivity-labels"></a>資料敏感度標籤
 
-您現在可以看到內容擁有者對報表、儀表板、資料集和資料流程所設定，用來以分類其資料敏感度的敏感度標籤。 敏感度標籤會決定內容如何與其他使用者共用。 [深入了解 Power BI 中的資料敏感度標籤](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview)。
+您現在可以看到內容擁有者對報表、儀表板、資料集和資料流程所設定，用來以分類其資料敏感度的敏感度標籤。 敏感度標籤會決定內容如何與其他使用者共用。 [深入了解 Power BI 中的資料敏感度標籤](../../admin/service-security-data-protection-overview.md)。
 
 ### <a name="support-for-custom-app-navigation-windows"></a>自訂應用程式導覽的支援 (Windows)
 
@@ -190,7 +190,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>保護 Azure Active Directory (AD) 應用程式 Proxy 的存取安全 (iOS 和 Android)
 
-我們與 Azure Active Directory 團隊合作，將 Power BI 行動裝置應用程式與 Azure Active Directory (AAD) 應用程式 Proxy 整合在一起。 使用此設定，您就能從 Power BI 行動裝置應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
+我們與 Azure Active Directory 團隊合作，將 Power BI 行動裝置應用程式與 Azure Active Directory (AAD) 應用程式 Proxy 整合在一起。 使用此設定，您就能從 Power BI 行動裝置應用程式，連線到企業範圍內部裝載的報表伺服器，省去設定複雜內部部署麻煩。 請參閱 [Power BI mobile and Azure AD Application Proxy integration](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/) (Power BI 行動應用程式與 Azure AD 應用程式 Proxy 整合) 中的詳細資訊。 了解[如何設定 Azure AD 應用程式 Proxy 與 Power BI](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)。
 
 ## <a name="july-2019"></a>2019 年 7 月
 
@@ -228,11 +228,11 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="enhanced-conditional-access-protection-ios-android"></a>增強式條件式存取保護 (iOS、Android)
 
-我們已與 Azure AD [新的應用程式防護型條件式存取功能](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)相整合，透過在套用應用程式原則前限制對 Power BI 的存取，來增加安全性。
+我們已與 Azure AD [新的應用程式防護型條件式存取功能](/azure/active-directory/conditional-access/app-protection-based-conditional-access)相整合，透過在套用應用程式原則前限制對 Power BI 的存取，來增加安全性。
 
 ### <a name="device-protection-ios"></a>裝置保護 (iOS)
 
-使用者可以使用裝置內建的保護功能，透過在存取 Power BI 時要求 Face ID、Touch ID 或密碼來保護 Power BI 的安全。 這項功能可由使用者透過應用程式設定控制，但也可以由系統管理員透過 Intune 和任何其他的 MDM 工具進行。 [深入了解](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access)。
+使用者可以使用裝置內建的保護功能，透過在存取 Power BI 時要求 Face ID、Touch ID 或密碼來保護 Power BI 的安全。 這項功能可由使用者透過應用程式設定控制，但也可以由系統管理員透過 Intune 和任何其他的 MDM 工具進行。 [深入了解](./mobile-native-secure-access.md)。
 
 ### <a name="one-page-report-slideshow-windows"></a>單一頁面報表投影片 (Windows)
 
@@ -274,7 +274,7 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 ![單一點選互動](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> 現有使用者需要在應用程式設定中開啟此行為。 如需詳細資訊，請參閱[如何設定單一點選報表互動](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap)一文。
+> 現有使用者需要在應用程式設定中開啟此行為。 如需詳細資訊，請參閱[如何設定單一點選報表互動](./mobile-app-interaction-settings.md)一文。
 
 ## <a name="january---february-2019"></a>2019 年一月 - 二月
  
@@ -304,11 +304,11 @@ Power BI 行動裝置應用程式現支援在 Power BI 中建立的書籤。 當
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>平板電腦中的直向報表版面配置 (iOS 與 Android)
 
-我們現在會使用手機報表配置 (若其存在) 在您的平板電腦上以直向模式方向顯示報表。 深入了解[如何在 Power BI Service 或 Desktop 中建立手機版面配置](https://docs.microsoft.com/power-bi/desktop-create-phone-report/)。
+我們現在會使用手機報表配置 (若其存在) 在您的平板電腦上以直向模式方向顯示報表。 深入了解[如何在 Power BI Service 或 Desktop 中建立手機版面配置](/power-bi/desktop-create-phone-report/)。
 
 ### <a name="supporting-report-query-string"></a>支援報表查詢字串 
 
-開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](https://docs.microsoft.com/power-bi/service-url-filters/)。  
+開啟包括查詢字串的報表連結現在將會在行動裝置應用程式中開啟，且會根據查詢字串中定義的條件預先填入。 深入了角[如何使用查詢字串建立報表 URL](/power-bi/service-url-filters/)。  
 
 ### <a name="shared-credentials-now-in-android"></a>共用認證 (現在位於 Android 中)
 

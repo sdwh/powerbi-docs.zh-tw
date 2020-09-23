@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9a0b9eb90e3c39cf1f07842f5ea1da88b7cd06ad
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 2bb23da89489966cd3d96bb2c4daaa6302a96326
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83322393"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859719"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Power BI 中的自助資料準備
 
@@ -24,7 +24,7 @@ ms.locfileid: "83322393"
 
 Power BI 導入了**資料流程**，可協助組織整合來自不同來源的資料，並為模型化做好準備。 分析師可以使用熟悉的自助工具，輕鬆地建立資料流程。 資料流程可藉由定義資料來源連線、ETL 邏輯、重新整理排程，以及更多項目，以用來擷取、轉換、整合及擴充巨量資料。 此外，屬於資料流程一部分的新模型導向計算引擎可讓資料準備程序更容易管理和更具決定性，且對資料分析師和報表建立者而言不再那麼麻煩。 類似於試算表針對所有受影響公式處理重新計算的方式，資料流程會代表您管理實體或資料元素的變更，甚至可針對基本資料重新整理，減緩過去繁瑣又費時的邏輯檢查。 使用資料流程，分析師和報表建立者現在只需按幾下，就能處理曾經需要資料科學家監看的工作 (以及要完成的時數或天數)。 
 
-資料會在 Azure Data Lake Storage Gen2 中以 [**Common Data Model**](https://docs.microsoft.com/powerapps/common-data-model/overview) \(英文\) 的形式儲存為實體。 資料流程會使用 Power BI 服務以在工作區中進行建立及管理。  
+資料會在 Azure Data Lake Storage Gen2 中以 [**Common Data Model**](/powerapps/common-data-model/overview) \(英文\) 的形式儲存為實體。 資料流程會使用 Power BI 服務以在工作區中進行建立及管理。  
  
 **資料流程**是設計來使用 **Common Data Service**，後者是 Microsoft 所發佈之標準化、模組化、可擴充的資料結構描述集合，其設計目的是為了讓您更輕鬆地建置、使用和分析資料。 使用這個模型，您就能以近乎零阻力的方式，從資料來源移至 Power BI 儀表板。
 
@@ -117,4 +117,4 @@ Power BI 也可以連線到含有 Common Data Service 格式且已結構描述�
 * [設定排定的重新整理](../connect-data/refresh-scheduled-refresh.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)

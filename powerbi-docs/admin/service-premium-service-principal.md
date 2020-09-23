@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 09/04/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 1b0f63d200a94cb7e6524602203864281efe51c0
-ms.sourcegitcommit: 1f56cdfc05801ffaf41e3b68dc1eb02142acdab3
+ms.openlocfilehash: e4f2db2c5b0220215c9c71cc62349c2255cf046d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "89490345"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854613"
 ---
 # <a name="automate-premium-workspace-and-dataset-tasks-with-service-principals"></a>使用服務主體將 Premium 工作區與資料集工作自動化
 
@@ -40,14 +40,14 @@ Power BI Premium 使用與 Power BI Embedded 相同的服務主體功能。 若�
 
 服務主體可在 Azure 入口網站中作為應用程式註冊建立，或使用 PowerShell 建立。 建立服務主體時，請務必分別複製並儲存應用程式名稱、應用程式 (用戶端) 識別碼、目錄 (租用戶) 識別碼，以及用戶端祕密。 如需如何建立服務主體的步驟，請參閱：
 
-[建立服務主體 - Azure 入口網站](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)   
-[建立服務主體 - PowerShell](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
+[建立服務主體 - Azure 入口網站](/azure/active-directory/develop/howto-create-service-principal-portal)   
+[建立服務主體 - PowerShell](/azure/active-directory/develop/howto-authenticate-service-principal-powershell)
 
 ## <a name="create-an-azure-ad-security-group"></a>建立 Azure AD 安全性群組
 
 根據預設，任何啟用了服務主體的租用戶設定都具有服務主體的存取權。 根據系統管理員設定而定，存取權包含特定安全性群組或整個組織。
 
-若要將服務主體的存取權限制為特定的租用戶設定，您可僅允許其存取特定的安全性群組。 或者，您可以為服務主體建立專用的安全性群組，並將其從所需的租用戶設定中排除。 如需如何建立安全性群組並新增服務主體的步驟，請參閱[使用 Azure Active Directory 建立基本群組並新增成員](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)。
+若要將服務主體的存取權限制為特定的租用戶設定，您可僅允許其存取特定的安全性群組。 或者，您可以為服務主體建立專用的安全性群組，並將其從所需的租用戶設定中排除。 如需如何建立安全性群組並新增服務主體的步驟，請參閱[使用 Azure Active Directory 建立基本群組並新增成員](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)。
 
 ## <a name="enable-service-principals"></a>啟用服務主體
 
@@ -59,7 +59,7 @@ Power BI Premium 使用與 Power BI Embedded 相同的服務主體功能。 若�
 
 ## <a name="workspace-access"></a>工作區存取
 
-為了讓服務主體擁有執行 Premium 工作區與資料集作業所需的權限，您必須將該服務主體新增為工作區成員或工作區管理員。此處會針對在 Power BI 服務中使用工作區存取權進行描述，但您也可以使用[新增群組使用者 REST API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) (英文)。
+為了讓服務主體擁有執行 Premium 工作區與資料集作業所需的權限，您必須將該服務主體新增為工作區成員或工作區管理員。此處會針對在 Power BI 服務中使用工作區存取權進行描述，但您也可以使用[新增群組使用者 REST API](/rest/api/power-bi/groups/addgroupuser) (英文)。
 
 1. 在 Power BI 服務中，針對工作區選取 [更多] > [工作區存取權]。
 
@@ -96,7 +96,7 @@ Invoke-ProcessTable -Server "powerbi://api.powerbi.com/v1.0/myorg/myworkspace" -
 
 ### <a name="amo-and-adomd"></a>AMO 和 ADOMD
 
-與用戶端應用程式與 Web 應用程式連線時，來自 NuGet 的 [AMO 與 ADOMD 用戶端程式庫](https://docs.microsoft.com/azure/analysis-services/analysis-services-data-providers) 15.1.42.26 版 (2020 年 6 月) 及更新版本的可安裝套件會使用下列語法，在連接字串中支援服務主體：`app:AppID` 及密碼或 `cert:thumbprint`。
+與用戶端應用程式與 Web 應用程式連線時，來自 NuGet 的 [AMO 與 ADOMD 用戶端程式庫](/azure/analysis-services/analysis-services-data-providers) 15.1.42.26 版 (2020 年 6 月) 及更新版本的可安裝套件會使用下列語法，在連接字串中支援服務主體：`app:AppID` 及密碼或 `cert:thumbprint`。
 
 在下列範例中，`appID` 和 `password` 可用來執行模型資料庫重新整理作業：
 
@@ -115,6 +115,6 @@ db.Model.SaveChanges();
 ## <a name="next-steps"></a>後續步驟
 
 [使用 XMLA 端點連線至資料集](service-premium-connect-tools.md)  
-[Azure 自動化](https://docs.microsoft.com/azure/automation)  
-[Azure Logic Apps](https://docs.microsoft.com/azure/logic-apps/)  
-[Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)
+[Azure 自動化](/azure/automation)  
+[Azure Logic Apps](/azure/logic-apps/)  
+[Power BI REST API](/rest/api/power-bi/)

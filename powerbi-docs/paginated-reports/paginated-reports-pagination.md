@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 03b361c56bd545036a8d706ae01e2bfa2ec30222
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: bce23ecdc99f6428ecefc28580e3ae0ec05fac6a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921232"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859696"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Power BI 編頁報表中的分頁
 
@@ -34,7 +34,7 @@ ms.locfileid: "78921232"
   
  根據預設，頁面大小為 8.5 x 11 英吋，但是您可以在 [報表屬性]  窗格或 [版面設定]  對話方塊中變更此大小，或在 [屬性]  窗格中變更 PageHeight 和 PageWidth 屬性。 頁面大小不會放大或縮小以容納報表主體的內容。 如果您要讓報表出現在單頁上，報表主體內的所有內容都必須容納在實體頁面中。 如果不符合且您使用的是強制分頁格式，則報表會需要額外的頁面。 如果報表主體的擴張超過實體頁面的右邊緣，則會水平插入分頁符號。 如果報表主體放大超過實體頁面的下邊緣，則會以垂直方式插入一個分頁符號。  
   
- 如果您想要覆寫報表中定義的實體頁面大小，您可以針對用來匯出報表的特定轉譯器，使用裝置資訊設定來指定實體頁面大小。 如需完整清單，請參閱 SQL Server Reporting Services 文件中[轉譯延伸模組的裝置資訊設定](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017)。  
+ 如果您想要覆寫報表中定義的實體頁面大小，您可以針對用來匯出報表的特定轉譯器，使用裝置資訊設定來指定實體頁面大小。 如需完整清單，請參閱 SQL Server Reporting Services 文件中[轉譯延伸模組的裝置資訊設定](/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services)。  
   
 ### <a name="margins"></a>邊界
 
@@ -77,13 +77,13 @@ ms.locfileid: "78921232"
   
  您可以使用常數和簡單或複雜運算式來設定 Disabled 和 ResetPageNumber 屬性的值。 不過，您不能使用具有 BreakLocation 屬性的運算式。 如需撰寫和使用運算式的詳細資訊，請參閱 [Power BI 報表產生器中的運算式](report-builder-expressions.md)。  
   
- 在您的報表中，您可以使用 **Globals** 集合來撰寫參考目前頁面名稱或頁碼的運算式。 如需詳細資訊，請參閱報表產生器和 Reporting Services 文件中的[內建全域和使用者參考](https://docs.microsoft.com/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder?view=sql-server-2017)。
+ 在您的報表中，您可以使用 **Globals** 集合來撰寫參考目前頁面名稱或頁碼的運算式。 如需詳細資訊，請參閱報表產生器和 Reporting Services 文件中的[內建全域和使用者參考](/sql/reporting-services/report-design/built-in-collections-built-in-globals-and-users-references-report-builder)。
   
 ### <a name="naming-excel-worksheet-tabs"></a>命名 Excel 工作表索引標籤
 
  當您將報表匯出至 Excel 活頁簿時，這些屬性會很有用。 當您匯出報表時，使用 InitialPage 屬性來指定工作表索引標籤名稱的預設名稱，並使用分頁和 PageName 屬性，為每個工作表提供不同的名稱。 每個新的報表頁面 (由分頁符號定義) 都會匯出至不同工作表，並以 PageName 屬性的值命名。 如果 PageName 為空白，但報表具有初始頁面名稱，則 Excel 活頁簿中的所有工作表都會使用相同名稱，也就是初始頁面名稱。  
   
- 如需如何在將報表匯出至 Excel 時使用這些屬性的詳細資訊，請參閱報表產生器和 Reporting Services 文件中的[匯出至 Microsoft Excel](https://docs.microsoft.com/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)。  
+ 如需如何在將報表匯出至 Excel 時使用這些屬性的詳細資訊，請參閱報表產生器和 Reporting Services 文件中的[匯出至 Microsoft Excel](/sql/reporting-services/report-builder/exporting-to-microsoft-excel-report-builder-and-ssrs)。  
   
 ## <a name="next-steps"></a>後續步驟
 

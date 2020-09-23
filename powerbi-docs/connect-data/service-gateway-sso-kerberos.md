@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: cea54821c7a2a31d8ee362559e29a3f79fa40b6c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 598b41362cb510f8e5bbc60c7ca263c57fa0403e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231535"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859788"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>設定從 Power BI 服務到內部部署資料來源的 Kerberos 架構 SSO
 
@@ -59,7 +59,7 @@ ms.locfileid: "85231535"
 
 4. 如果 [委派]  索引標籤顯示在 [屬性]  對話方塊中，則表示 SPN 已建立，可以跳至[決定要使用的 Kerberos 限制委派類型](#decide-on-the-type-of-kerberos-constrained-delegation-to-use)。
 
-5. 如果 [屬性]  對話方塊中沒有任何 [委派]  索引標籤，則可在帳戶上手動建立 SPN 來加以啟用。 使用隨附於 Windows 的 [setspn 工具](https://technet.microsoft.com/library/cc731241.aspx)來完成 (您需要網域系統管理員權限才能建立 SPN)。
+5. 如果 [屬性]  對話方塊中沒有任何 [委派]  索引標籤，則可在帳戶上手動建立 SPN 來加以啟用。 使用隨附於 Windows 的 [setspn 工具](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/cc731241(v=ws.11))來完成 (您需要網域系統管理員權限才能建立 SPN)。
 
    例如，假設閘道服務帳戶是 **Contoso\GatewaySvc**，且閘道服務執行於名為 **MyGatewayMachine** 的電腦上。 若要為閘道服務帳戶設定 SPN，請執行下列命令：
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: 5705b0eaa861b01c7f04f4da9f85985af5f3934e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235625"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860524"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、刪除及擷取範本應用程式
 
@@ -46,7 +46,7 @@ ms.locfileid: "85235625"
 
    您的連結現已正式運作。 **請注意，生產階段前的 [升階應用程式] 按鈕會呈現灰色**。這是為了避免在 Cloud Partner 入口網站驗證並核准新的應用程式版本之前，不小心覆寫目前應用程式版本的即時生產連結。
 
-1. 請遵循 [Power BI 應用程式供應項目更新](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)的步驟，將您的連結再次提交至 Cloud Partner 入口網站 (CPP)。 在 Cloud Partner 入口網站中，您必須再次 [發佈]  供應項目並加以驗證及核准。
+1. 請遵循 [Power BI 應用程式供應項目更新](/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer)的步驟，將您的連結再次提交至 Cloud Partner 入口網站 (CPP)。 在 Cloud Partner 入口網站中，您必須再次 [發佈]  供應項目並加以驗證及核准。
 
    當您的供應項目獲得核准時，[升階應用程式] 按鈕將會再次啟用。 
 1. 將應用程式升階至生產階段。
@@ -84,4 +84,4 @@ ms.locfileid: "85235625"
 
 請參閱[在您的組織中安裝、自訂及散發範本應用程式](service-template-apps-install-distribute.md)，了解客戶如何與範本應用程式互動。
 
-如需散發應用程式的詳細資料，請參閱 [Power BI 應用程式供應項目](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。
+如需散發應用程式的詳細資料，請參閱 [Power BI 應用程式供應項目](/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer)。

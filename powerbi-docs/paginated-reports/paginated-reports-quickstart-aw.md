@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 5243f80fea732e01fee600d738ae6e6cde56e261
-ms.sourcegitcommit: aece2382b618dc5b730705b4c76e76a657986588
+ms.openlocfilehash: 778ce3c810cb0d59559940f489dfeda34f366fda
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "84427713"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90853969"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>教學課程：建立分頁報表並將它上傳至 Power BI 服務
 
@@ -38,7 +38,7 @@ ms.locfileid: "84427713"
 
 - [從 Microsoft 下載中心安裝 Power BI 報表產生器](https://aka.ms/pbireportbuilder)。 
 
-- 遵循快速入門：[在 Azure 入口網站中建立 Azure SQL Database 範例](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal)。 複製並儲存 [概觀]  索引標籤上 [伺服器名稱]  方塊中的值。請記住您在 Azure 中建立的使用者名稱和密碼。
+- 遵循快速入門：[在 Azure 入口網站中建立 Azure SQL Database 範例](/azure/sql-database/sql-database-get-started-portal)。 複製並儲存 [概觀]  索引標籤上 [伺服器名稱]  方塊中的值。請記住您在 Azure 中建立的使用者名稱和密碼。
 
 以下是將編頁報表上傳至 Power BI 服務的必要條件：
 

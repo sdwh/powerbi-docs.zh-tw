@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ae57fb5a3d2ff38a29e0c1e3c24af23582af43a
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1273030bc1fd8664e854eb2b59939cf271b017fa
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222261"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860018"
 ---
 # <a name="use-conditional-formatting-in-tables"></a>在資料表中使用條件式格式設定 
 
@@ -181,9 +181,9 @@ ms.locfileid: "85222261"
 
 - 條件式格式設定只會套用到「資料表」或「矩陣」視覺效果的值，而不會套用到任何小計、總計或 [總計] 資料列。 
 - 任何沒有分組的資料表都會顯示為不支援條件式格式化的單一資料列。
-- 如果您的資料包含 NaN 值，您就無法套用具有自動最大/最小值的漸層格式設定，或套用具有百分比規則的規則型格式設定。 NaN 表示「不是數字」，最常見的原因是除以零錯誤。 您可以使用 [DIVIDE() DAX 函式](https://docs.microsoft.com/dax/divide-function-dax)來避免這些錯誤。
+- 如果您的資料包含 NaN 值，您就無法套用具有自動最大/最小值的漸層格式設定，或套用具有百分比規則的規則型格式設定。 NaN 表示「不是數字」，最常見的原因是除以零錯誤。 您可以使用 [DIVIDE() DAX 函式](/dax/divide-function-dax)來避免這些錯誤。
 - 條件式格式設定需要將彙總或量值套用到值。 這就是您為何會在 [依值上色] 範例中看到「First」或「Last」的原因。 如果您要針對分析服務多維度 Cube 建立報表，除非 Cube 擁有者已建立可提供值的量值，否則您將無法使用屬性進行條件式格式設定。
 
 ## <a name="next-steps"></a>後續步驟
 
-如需色彩格式設定的詳細資訊，請參閱 [Power BI 色彩格式設定的秘訣和訣竅](../visuals/service-tips-and-tricks-for-color-formatting.md)  
+如需色彩格式設定的詳細資訊，請參閱 [Power BI 色彩格式設定的秘訣和訣竅](../visuals/service-tips-and-tricks-for-color-formatting.md)

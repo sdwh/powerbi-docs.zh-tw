@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cb41d7d9d1e85957ebf02ce2742d3e32670d0cc
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83281706"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861007"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)
 
@@ -31,11 +31,11 @@ ms.locfileid: "83281706"
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>建立及發佈 Azure ML 模型
 
-請依照[逐步解說步驟 1：建立 Machine Learning Studio (傳統) 工作區](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)以建立 **Machine Learning** 工作區。
+請依照[逐步解說步驟 1：建立 Machine Learning Studio (傳統) 工作區](/azure/machine-learning/studio/walkthrough-1-create-ml-workspace)以建立 **Machine Learning** 工作區。
 
-您可以使用下列步驟搭配您已經具備的任何 Azure ML 模型或資料集。 如未發佈模型，您可以參考[快速入門：在 Azure Machine Learning Studio (傳統) 中建立第一個資料科學實驗](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment)，在數分鐘內建立模型，這會設定汽車價格預測的 Azure ML 模型。
+您可以使用下列步驟搭配您已經具備的任何 Azure ML 模型或資料集。 如未發佈模型，您可以參考[快速入門：在 Azure Machine Learning Studio (傳統) 中建立第一個資料科學實驗](/azure/machine-learning/studio/create-experiment)，在數分鐘內建立模型，這會設定汽車價格預測的 Azure ML 模型。
 
-請遵循[教學課程 3：部署信用風險模型 - Azure Machine Learning Studio (傳統)](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)，將 Azure ML 模型發佈為 Web 服務。
+請遵循[教學課程 3：部署信用風險模型 - Azure Machine Learning Studio (傳統)](/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy)，將 Azure ML 模型發佈為 Web 服務。
 
 ## <a name="grant-a-power-bi-user-access"></a>授與 Power BI 使用者存取權
 

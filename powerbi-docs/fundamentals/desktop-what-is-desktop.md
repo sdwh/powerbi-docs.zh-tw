@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 07/23/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c8d4671d55e09ca6e60599bbc0ac9802258f63ba
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 09e51c46a11c41008f77d3a7597807b35b57d297
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252720"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860777"
 ---
 # <a name="what-is-power-bi-desktop"></a>Power BI Desktop 是什麼？
 
@@ -66,7 +66,7 @@ Power BI Desktop 中有三種可用的檢視，可從畫布左側選取。 這�
 
 ## <a name="transform-and-clean-data-create-a-model"></a>轉換及清理資料，建立模型
 
-在 Power BI Desktop 中，您可以使用內建的 [Power Query 編輯器](https://docs.microsoft.com/power-bi/desktop-query-overview)來清理及轉換資料。 您可以使用 Power Query 編輯器來變更資料，例如變更資料類型、移除資料行或結合來自多個來源的資料。 這就像雕塑一樣：您從一大塊黏土 (或資料) 開始著手，然後視需要刮除或加入某些部分，直到資料變成是您想要的模樣。 
+在 Power BI Desktop 中，您可以使用內建的 [Power Query 編輯器](../transform-model/desktop-query-overview.md)來清理及轉換資料。 您可以使用 Power Query 編輯器來變更資料，例如變更資料類型、移除資料行或結合來自多個來源的資料。 這就像雕塑一樣：您從一大塊黏土 (或資料) 開始著手，然後視需要刮除或加入某些部分，直到資料變成是您想要的模樣。 
 
 若要啟動 Power Query 編輯器：
 
@@ -134,4 +134,3 @@ Power BI Desktop 可讓您使用多個來源的資料，在單一報表中建立
 
 * [從 Windows 市集取得 Power BI Desktop](https://aka.ms/pbidesktopstore)
 * [從 Web 下載 Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494)
-

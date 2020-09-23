@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: df9c1af29482a40b7e1dd7edbca0020b43e4f00f
-ms.sourcegitcommit: a0d56eeed12253e782e0a3eff8610f72a3ad5cb9
+ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90570870"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860662"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中建立範本應用程式
 
@@ -191,7 +191,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     如果您未看到該選項，請連絡 Power BI 系統管理員，要求其授與您管理入口網站中的[範本應用程式開發權限](../admin/service-admin-portal.md#template-apps-settings)。
 11. 選取 [升階]**** 來確認您的選擇。
-12. 複製這個新的 URL 來分享至租用戶外部，以進行測試。 此連結也是您在建立[新的合作夥伴中心供應項目](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)時所提交，用以開始在 AppSource 上散發您應用程式之程序的 URL。 您只需要將生產前的連結提交給合作夥伴中心。 只有在應用程式通過核准，您也收到其在 AppSource 中發佈的通知之後，您才可以將此套件升階到 Power BI 中的生產環境。
+12. 複製這個新的 URL 來分享至租用戶外部，以進行測試。 此連結也是您在建立[新的合作夥伴中心供應項目](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)時所提交，用以開始在 AppSource 上散發您應用程式之程序的 URL。 您只需要將生產前的連結提交給合作夥伴中心。 只有在應用程式通過核准，您也收到其在 AppSource 中發佈的通知之後，您才可以將此套件升階到 Power BI 中的生產環境。
 13. 當您的應用程式已準備好進入生產階段或透過 AppSource 分享時，請返回 [發行管理]**** 窗格，並選取 [生產階段前]**** 旁邊的 [升階應用程式]****。
 14. 選取 [升階]**** 來確認您的選擇。
 
@@ -199,10 +199,10 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     ![應用程式進入生產階段](media/service-template-apps-create/power-bi-template-app-production.png)
 
-若要讓全球上千位 Power BI 使用者都能使用您的應用程式，建議您將應用程式提交至 AppSource。 如需詳細資料，請參閱 [Power BI 應用程式供應項目](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+若要讓全球上千位 Power BI 使用者都能使用您的應用程式，建議您將應用程式提交至 AppSource。 如需詳細資料，請參閱 [Power BI 應用程式供應項目](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
 
 ## <a name="next-steps"></a>後續步驟
 
 請參閱[在您的組織中安裝、自訂及散發範本應用程式](service-template-apps-install-distribute.md)，了解客戶如何與範本應用程式互動。
 
-如需散發應用程式的詳細資料，請參閱 [Power BI 應用程式供應項目](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。
+如需散發應用程式的詳細資料，請參閱 [Power BI 應用程式供應項目](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)。

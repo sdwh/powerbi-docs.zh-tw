@@ -10,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 07/28/2020
 ms.custom: seodec18, css_fy20Q4
 LocalizationGroup: Premium
-ms.openlocfilehash: 8a815f69d4f74ec925c3ac0cc8a84c2a13d80346
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: bd2b8c4af1fc36fabc863aa1c67ed5af40265de2
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87363954"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854073"
 ---
 # <a name="troubleshoot-xmla-endpoint-connectivity"></a>針對 XMLA 端點連線能力進行疑難排解
 
@@ -138,11 +138,11 @@ XMLA 端點可讓您針對表格式模型以及 Power BI Desktop 中建立的資
 
 ### <a name="overrides-in-refresh-tmsl-command"></a>Refresh TMSL 命令中的覆寫
 
-[Refresh 命令 (TMSL)](https://docs.microsoft.com/analysis-services/tmsl/refresh-command-tmsl) 中的覆寫，可供使用者選擇不同磁碟分割查詢定義或重新整理作業的資料來源定義。 目前，Power BI Premium 中**不支援覆寫**。 Power BI Premium 中不允許「非正規繫結」錯誤。 如需其他資訊，請參閱產品文件中的「XMLA 讀取/寫入支援」。 」錯誤訊息。
+[Refresh 命令 (TMSL)](/analysis-services/tmsl/refresh-command-tmsl) 中的覆寫，可供使用者選擇不同磁碟分割查詢定義或重新整理作業的資料來源定義。 目前，Power BI Premium 中**不支援覆寫**。 Power BI Premium 中不允許「非正規繫結」錯誤。 如需其他資訊，請參閱產品文件中的「XMLA 讀取/寫入支援」。 」錯誤訊息。
 
 ## <a name="see-also"></a>另請參閱
 
 [與 XMLA 端點的資料集連線能力](service-premium-connect-tools.md)   
 [使用服務主體將 Premium 工作區與資料集工作自動化](service-premium-service-principal.md)   
 [針對「使用 Excel 分析」進行疑難排解](../collaborate-share/desktop-troubleshooting-analyze-in-excel.md)   
-[表格式模型解決方案部署](https://docs.microsoft.com/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)
+[表格式模型解決方案部署](/analysis-services/deployment/tabular-model-solution-deployment?view=power-bi-premium-current)

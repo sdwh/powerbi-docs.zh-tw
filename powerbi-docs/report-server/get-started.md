@@ -9,12 +9,12 @@ ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: a1d62ad9cd8475e217a0ae051919792970dbb34d
-ms.sourcegitcommit: b66c913a50a5100082e1c8ff7cd1c4f76f514fe7
+ms.openlocfilehash: 4b2b29effb1d9b4b2d8e743990dd3dd0d27470f8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "84219584"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859834"
 ---
 # <a name="what-is-power-bi-report-server"></a>什麼是 Power BI 報表伺服器？
 
@@ -38,9 +38,9 @@ Power BI 報表伺服器可透過兩個不同的授權取得：含軟體保證�
 
 ![Power BI 報表伺服器入口網站](media/get-started/web-portal.png)
 
-您可以依據您的權限來管理入口網站中的內容。 您可以排定報表處理、視需要存取報表，以及訂閱已發佈的報表。 您也可以將自己的自訂[商標](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal)套用到入口網站。 
+您可以依據您的權限來管理入口網站中的內容。 您可以排定報表處理、視需要存取報表，以及訂閱已發佈的報表。 您也可以將自己的自訂[商標](/sql/reporting-services/branding-the-web-portal)套用到入口網站。 
 
-深入了解 [Power BI 報表伺服器入口網站](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)。
+深入了解 [Power BI 報表伺服器入口網站](/sql/reporting-services/web-portal-ssrs-native-mode)。
 
 ## <a name="power-bi-reports"></a>Power BI 報表
 您使用針對報表伺服器最佳化的 Power BI Desktop 版本建立 Power BI 報表 (.pbix)。 然後將這些報表發佈至自有環境的入口網站，並在此入口網站中檢視報表。
@@ -56,17 +56,17 @@ Power BI 報表是資料模型的多面向檢視，具有代表來自該資料�
 
 ![「Power BI 報表伺服器」中的編頁報表](media/get-started/paginated-reports.png)
 
-您可使用[報表產生器](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) \(部分機器翻譯\) 或 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) \(部分機器翻譯\) 中的報表設計師來建立編頁報表。
+您可使用[報表產生器](/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) \(部分機器翻譯\) 或 [SQL Server Data Tools (SSDT)](/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt) \(部分機器翻譯\) 中的報表設計師來建立編頁報表。
 
 ## <a name="reporting-services-mobile-reports"></a>Reporting Services 行動報表
 行動報表會連線至內部部署資料，並具有可因應不同裝置和不同持有方式的回應式配置。 您可以使用「SQL Server 行動報表發行工具」來建立它們。
 
-深入了解 [Reporting Services 行動報表](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)。 
+深入了解 [Reporting Services 行動報表](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)。 
 
 ## <a name="report-server-programming-features"></a>報表伺服器的程式設計功能
 您可以利用 Power BI 報表伺服器的程式設計功能來延伸及自訂報表，並使用 API 來整合或延伸自訂應用程式中的資料和報表處理。
 
-其他[報表伺服器開發人員文件](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation)。
+其他[報表伺服器開發人員文件](/sql/reporting-services/reporting-services-developer-documentation)。
 
 ## <a name="next-steps"></a>後續步驟
 [安裝 Power BI 報表伺服器](install-report-server.md)  

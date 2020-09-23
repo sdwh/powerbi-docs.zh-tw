@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 4d03419105244b7fddafea3b26b69e4f4f5f874c
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: ae52e9eb2d018e68f7b84bc412797c25825a8871
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83134116"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854843"
 ---
 # <a name="optimizing-premium-capacities"></a>最佳化 Premium 容量
 
@@ -186,7 +186,7 @@ ms.locfileid: "83134116"
 
 - Power Query 查詢設計可最小化或移除複雜的轉換，特別是合併不同資料來源的轉換 (資料倉儲可在其「擷取-轉換-載入」階段期間達成此目的)。 此外，請務必設定適當的資料來源隱私權等級，這可避免需要 Power BI 載入完整的結果以產生多個查詢的合併結果。
 - 模型結構會決定要載入的資料，並直接影響模型大小。 它可設計成藉由移除資料行、移除資料列 (特別是歷程資料) 或載入摘要資料 (代替載入詳細資料)，來避免載入不必要的資料。 並可藉由移除無法非常有效率地儲存或壓縮的高基數資料行 (特別是文字資料行) 來大幅縮減大小。
-- 除非有充分的理由需要允許雙向篩選，否則可藉由設定單向關聯性來改善模型查詢效能。 另請考慮使用 [CROSSFILTER](https://docs.microsoft.com/dax/crossfilter-function) 函式來取代雙向篩選。
+- 除非有充分的理由需要允許雙向篩選，否則可藉由設定單向關聯性來改善模型查詢效能。 另請考慮使用 [CROSSFILTER](/dax/crossfilter-function) 函式來取代雙向篩選。
 - 彙總資料表可藉由載入預先摘要的資料來達成快速查詢回應，不過這會增加模型的大小，並導致較長的重新整理時間。 一般而言，彙總資料表應該保留給非常大型的模型或複合模型設計。
 - 計算資料表和資料行會增加模型大小，並導致較長的重新整理時間。 一般而言，當資料在資料來源中具體化或計算時，不僅可縮減儲存空間大小，也可加快重新整理速度。 如果無法這麼做，使用 Power Query 自訂資料行可改善儲存壓縮。
 - 您可能有機會調整量值和 RLS 規則的 DAX 運算式，也許是重寫邏輯以避免高度耗費資源的公式

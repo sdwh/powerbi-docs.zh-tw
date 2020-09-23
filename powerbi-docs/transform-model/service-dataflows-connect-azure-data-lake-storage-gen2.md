@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/22/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92244304bcffc3544ca8616fd0b16226361d58c8
-ms.sourcegitcommit: d8acf2fb0318708a3e8e1e259cb3747b0312b312
+ms.openlocfilehash: ee24e4aaa54fdbc60c631dc319caf6b1465aed28
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86385944"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859811"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體
 
@@ -46,13 +46,13 @@ ms.locfileid: "86385944"
 2. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的 AAD 租用戶中。
 3. 儲存體帳戶必須建立在與您 Power BI 租用戶相同的區域中。 若要判斷 Power BI 租用戶的所在位置，請參閱[我的 Power BI 租用戶位於何處](../admin/service-admin-where-is-my-tenant-located.md)。
 4. 儲存體帳戶必須啟用「階層命名空間」功能。
-5. 如果儲存體帳戶不是由目前的使用者所建立，則請確定目前的使用者已獲指派[儲存體 Blob 資料擁有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) (機器翻譯) 和[擁有者](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) (機器翻譯) 權限。 (因為擁有者不包含資料層級權限，所以必須要有 Blob 資料擁有者。)
+5. 如果儲存體帳戶不是由目前的使用者所建立，則請確定目前的使用者已獲指派[儲存體 Blob 資料擁有者](/azure/role-based-access-control/built-in-roles#storage-blob-data-owner) (機器翻譯) 和[擁有者](/azure/role-based-access-control/built-in-roles#owner) (機器翻譯) 權限。 (因為擁有者不包含資料層級權限，所以必須要有 Blob 資料擁有者。)
 
 下列各節將詳細逐步解說設定 Azure Data Lake Storage Gen2 帳戶所需的步驟。
 
 ### <a name="create-the-storage-account"></a>建立儲存體帳戶
 
-請依照[建立 Azure Data Lake Storage Gen2 儲存體帳戶](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-quickstart-create-account) \(英文\) 一文中的步驟進行操作。
+請依照[建立 Azure Data Lake Storage Gen2 儲存體帳戶](/azure/storage/blobs/data-lake-storage-quickstart-create-account) \(英文\) 一文中的步驟進行操作。
 
 1. 確定所選取的位置與您的 Power BI 租用戶相同，並將儲存體設定為 [StorageV2 (一般用途 v2)]
 2. 確定啟用階層命名空間功能
@@ -62,7 +62,7 @@ ms.locfileid: "86385944"
 
 接著，您必須將所建立儲存體帳戶中的讀者和資料存取角色授與 Power BI 服務。 這兩者都是內建的角色，因此步驟相當簡單。 
 
-請依照[指派內建的 RBAC 角色](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步驟進行。
+請依照[指派內建的 RBAC 角色](/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role)中的步驟進行。
 
 在 [新增角色指派] 視窗中，選取 [讀者和資料存取] 角色。 然後使用搜尋找到 **Power BI 服務**應用程式。
 針對 [儲存體 Blob 資料擁有者] 角色重複相同的步驟，然後將角色指派給 **Power BI 服務**和 **Power BI Premium** 應用程式。
@@ -155,11 +155,11 @@ Power BI Desktop 客戶無法存取儲存在 **Azure Data Lake Storage 帳戶** 
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
-* [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 儲存體安全性指南](/azure/storage/common/storage-security-guide)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
-* [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)
+* [CDM 資料夾](/common-data-model/data-lake) \(英文\)
+* [CDM 模型檔案定義](/common-data-model/model-json) \(英文\)
 
 此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

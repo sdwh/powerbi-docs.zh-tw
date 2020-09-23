@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 04/14/2020
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 40f1e0938f54fe55abf8148e12f8842041b42c3d
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: a36c377a7faf82e6aeb544859b72ac973305a3b3
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87252766"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860156"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Power BI 服務的新功能
 請查看此頁面，以了解 **Power BI 服務**中的已知問題及最近發行的功能。 如需相關的「新功能」資訊，請參閱︰
 
-- Microsoft 商務應用程式集團所推出的 [2018 年 10 月商業智慧最新功能](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) (英文) 版本資訊：我們商務應用程式的最新更新。
+- Microsoft 商務應用程式集團所推出的 [2018 年 10 月商業智慧最新功能](/business-applications-release-notes/October18/intelligence-platform/planned-features) (英文) 版本資訊：我們商務應用程式的最新更新。
 - [Power BI Desktop 的新功能](desktop-latest-update.md)  
 - [Power BI 行動裝置 App 的新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Power BI 小組部落格](https://powerbi.microsoft.com/blog/)
@@ -189,7 +189,7 @@ ms.locfileid: "87252766"
 *    共用 Power BI 報表並設為我的最愛。
 *    適用於 Azure SQL Database 和資料倉儲的 OAuth2 和 DirectQuery 單一登入支援 (SSO)。
 *    區域內稽核：稽核記錄現在將會儲存在與其租用戶相同的 Microsoft 365 區域中。
-*    SharePoint Online [Power BI 報表網頁組件](https://go.microsoft.com/fwlink/p/?LinkId=825698)的 GA。
+*    SharePoint Online [Power BI 報表網頁組件](../collaborate-share/service-embed-report-spo.md)的 GA。
 *    針對租用戶中所有使用者關閉檢視 Power BI 視覺效果的系統管理控制項。
 *    Azure Analysis Services (AAS) 排程的重新整理支援。
 
@@ -200,7 +200,7 @@ ms.locfileid: "87252766"
 * 使用 AI 技術應用程式的建議。
 * 儀表板磚上 UI 更新。
 * 應用程式的電子郵件訂閱支援。 
-* [發佈至網路](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings)的細微系統管理控制項。
+* [發佈至網路](../admin/service-admin-portal.md#export-and-sharing-settings)的細微系統管理控制項。
 
 ### <a name="september-2017"></a>2017 年 9 月
 * 在 Premium 容量中，與沒有 Power BI Pro 授權的使用者共用儀表板。
@@ -646,7 +646,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * 本週的服務更新現在可供在建立新報表時有多種頁面大小可選擇，也可以定義自己的頁面大小。 這會控制報表中每個頁面的大小和外觀比例。
 * 我們新增了影像和泡泡圖的其他視覺效果格式支援。 您可以在調整影像大小時鎖定外觀以避免影像扭曲，而散佈圖泡泡也可設定成填滿或不填滿。
 * 現在，Power BI 會將共用邀請傳送給備用電子郵件地址。 當有儀表板與您共用時，我們會將共用邀情連結傳送到您的原始電子郵件地址，也會傳送到您的備用電子郵件地址 (如有設定)。
-* 所有客戶都可使用 Power BI，包括 Dedicated on Multitenant (DonMT) Microsoft 365 架構的客戶在內。 您將會使用 Power BI 作為多租用戶模式中的共用服務。 在大部分情況下，您可以遵循簡單的[自助註冊程序](https://powerbi.microsoft.com/)來註冊 Power BI，只要輸入您的工作電子郵件地址，然後輸入名稱和密碼，即可開始使用。 如果您是租用戶系統管理員，您可以使用[此處](https://go.microsoft.com/fwlink/?LinkId=627174)的指示，將授權指派給使用者。
+* 所有客戶都可使用 Power BI，包括 Dedicated on Multitenant (DonMT) Microsoft 365 架構的客戶在內。 您將會使用 Power BI 作為多租用戶模式中的共用服務。 在大部分情況下，您可以遵循簡單的[自助註冊程序](https://powerbi.microsoft.com/)來註冊 Power BI，只要輸入您的工作電子郵件地址，然後輸入名稱和密碼，即可開始使用。 如果您是租用戶系統管理員，您可以使用[此處](/microsoft-365/admin/add-users/add-users?redirectSourcePath=%252fen-us%252farticle%252fAssign-or-unassign-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc)的指示，將授權指派給使用者。
 * Azure 稽核記錄檔可讓您檢視 Azure 訂用帳戶中的控制平面作業記錄。 Power BI 稽核記錄檔內容套件可協助您輕鬆分析及視覺化這些記錄所包含的豐富資訊。 此內容套件可讓您透過現成的儀表板和報表連接到您的資料，並開始探索深入資料。 如需詳細資訊，請閱讀我們的[部落格](https://powerbi.microsoft.com/blog/monitor-azure-audit-logs-with-power-bi/)和[線上文件](../connect-data/service-connect-to-services.md)。
 
 [在部落格中取得更多資訊](https://powerbi.microsoft.com/blog/power-bi-weekly-service-update-0929/)。
@@ -708,7 +708,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 * [帶入整個 Excel 檔案](../connect-data/service-excel-workbook-files.md)：您可以將儲存在商務用 OneDrive 的任何 Excel 活頁簿帶入 Power BI，並檢視整個活頁簿，方式就和在 Excel Online 完全一樣。
 * [帶入 CSV 檔案](../connect-data/service-get-data-from-files.md)：就像 Excel 或 Power BI Desktop 檔案一樣，逗號分隔值 (CSV) 文字檔也可以是您的 Power BI 儀表板和報表的資料集。
 * 取代 Excel、Power BI Desktop 和 CSV 檔案：您可以將檔案的更新版本上傳至 Power BI，以其取代現有的資料集。 所有連接到此資料集的報表和儀表板現在都會自動使用新的版本。
-* 我們很高興宣告，本週的 Power BI 更新現在在 [Visual Studio Team Services 內容套件](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/)中提供工作項目追蹤。 此更新包括新的儀表板、報表和更新的資料集，提供您工作項目的深入解析，以及初始版本所包含的 Git 儲存機制、提取要求和版本控制內容等重要度量。 如需如何開始使用的其他詳細資料，請參閱 [Power BI 的 Visual Studio Online 內容套件說明頁面](../connect-data/service-connect-to-quickbooks-online.md)。
+* 我們很高興宣告，本週的 Power BI 更新現在在 [Visual Studio Team Services 內容套件](https://powerbi.microsoft.com/blog/monitoring-your-visual-studio-online-work-items-with-power-bi/)中提供工作項目追蹤。 此更新包括新的儀表板、報表和更新的資料集，提供您工作項目的深入解析，以及初始版本所包含的 Git 儲存機制、提取要求和版本控制內容等重要度量。 如需如何開始使用的其他詳細資料，請參閱 [Power BI 的 Visual Studio Online 內容套件說明頁面](../connect-data/service-connect-to-services.md)。
 
 **2015 年 7 月 14 日**
 
@@ -743,7 +743,7 @@ Power BI 小組在假期期間仍辛勤忙碌。 如需所有詳細資料，[請
 
 **2015 年 5 月 28 日**
 
-* 使用我們的[內容套件](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data)，快速取得 QuickBooks Online 帳戶資料的深入解析。 如需如何連接和開始使用的其他詳細資訊，請參閱 Power BI 的 QuickBooks Online 內容套件[文件](../connect-data/service-connect-to-quickbooks-online.md).
+* 使用我們的[內容套件](https://powerbi.microsoft.com/blog/get-quick-insights-into-your-quickbooks-online-account-data)，快速取得 QuickBooks Online 帳戶資料的深入解析。 如需如何連接和開始使用的其他詳細資訊，請參閱 Power BI 的 QuickBooks Online 內容套件[文件](../connect-data/service-connect-to-services.md).
 
 **2015 年 5 月 13 日**
 

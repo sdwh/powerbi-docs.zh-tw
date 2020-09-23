@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/05/2019
 ms.author: painbar
-ms.openlocfilehash: 2327349928b481e51217b360587470f7f44b78d1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2f6d02d6128a2896a19d87f30f46f26f101385f6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233266"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860984"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中檢視內部部署報表伺服器報表和 KPI
 
@@ -32,8 +32,8 @@ Power BI 行動裝置應用程式提供 Power BI 報表伺服器及 SQL Server 2
 **行動裝置應用程式是您檢視 Power BI 內容的位置，不是建立內容的位置。**
 
 * 您和貴組織的其他報表建立者[使用 Power BI Desktop 建立 Power BI 報表，然後將其發行至 Power BI 報表伺服器](../../report-server/quickstart-create-powerbi-report.md)入口網站。 
-* 您可[直接在入口網站中建立 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)、在資料夾中加以整理及標示您的最愛，以便輕鬆找到這些 KPI。 
-* 使用 SQL Server 2016 Enterprise Edition 行動報表發行工具[建立 Reporting Services 行動報表](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)，並將其發行至 [Reporting Services 入口網站](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode)。  
+* 您可[直接在入口網站中建立 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services)、在資料夾中加以整理及標示您的最愛，以便輕鬆找到這些 KPI。 
+* 使用 SQL Server 2016 Enterprise Edition 行動報表發行工具[建立 Reporting Services 行動報表](/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher)，並將其發行至 [Reporting Services 入口網站](/sql/reporting-services/web-portal-ssrs-native-mode)。  
 
 然後在 Power BI 行動裝置應用程式中，連線到最多五部報表伺服器，以檢視資料夾中整理或收集為我的最愛的 Power BI 報表及 KPI。 
 

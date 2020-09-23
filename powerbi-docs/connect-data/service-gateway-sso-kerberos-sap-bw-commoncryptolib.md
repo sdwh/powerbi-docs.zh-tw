@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: how-to
 ms.date: 12/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a10370647a6079fc0d58307d30ffdc3f427e9f81
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3aa107dca6e4d1764bf8355eb0c79a8e113ee910
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231474"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860639"
 ---
 # <a name="use-kerberos-single-sign-on-for-sso-to-sap-bw-using-commoncryptolib-sapcryptodll"></a>使用 CommonCryptoLib (sapcrypto.dll) 將 Kerberos 單一登入用於 SAP BW 的 SSO
 
@@ -95,7 +95,7 @@ ms.locfileid: "85231474"
 
 1. 重現問題。
 
-2. 開啟[閘道應用程式](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)，然後從 [診斷]  索引標籤中選取 [匯出記錄]  。
+2. 開啟[閘道應用程式](/data-integration/gateway/service-gateway-app)，然後從 [診斷]  索引標籤中選取 [匯出記錄]  。
 
       ![匯出閘道記錄](media/service-gateway-sso-kerberos/export-gateway-logs.png)
 

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 87509a4a2415a8f7a2a7a27d34dc2a6f3a39b92f
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0c28d95c5275f5778b1ae646b8e5fb65489eb072
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232403"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860110"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Power BI 地圖視覺效果的秘訣和訣竅
 
@@ -50,7 +50,7 @@ Power BI 服務和 Power BI Desktop 會將 Bing 建立地圖視覺效果所需�
 
 **1.在 Power BI Desktop 中分類地理位置欄位**
 
-在 Power BI Desktop 中，您可以設定資料欄位的 [資料類別]  ，以確保欄位的地理編碼正確。 在 [資料] 檢視中，選取所需的資料行。 從功能區中選取 [建立模型]  索引標籤，然後將 [資料類別]  設定為**地址**、**城市**、**洲**、**國家/地區**、**郡**、**郵遞區號**、**縣**或**市**。 這些資料類別可以協助 Bing 將該日期正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](../transform-model/desktop-data-categorization.md)。 若您即時連線到 SQL Server Analysis Services，您必須使用 [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt) 於 Power BI 外部設定資料分類。
+在 Power BI Desktop 中，您可以設定資料欄位的 [資料類別]  ，以確保欄位的地理編碼正確。 在 [資料] 檢視中，選取所需的資料行。 從功能區中選取 [建立模型]  索引標籤，然後將 [資料類別]  設定為**地址**、**城市**、**洲**、**國家/地區**、**郡**、**郵遞區號**、**縣**或**市**。 這些資料類別可以協助 Bing 將該日期正確編碼。 若要深入了解，請參閱 [Power BI Desktop 中的資料分類](../transform-model/desktop-data-categorization.md)。 若您即時連線到 SQL Server Analysis Services，您必須使用 [SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt) 於 Power BI 外部設定資料分類。
 
 **2.使用多個位置資料行。**     
  有時候，即使設定了地圖的資料分類，也不夠讓 Bing 正確猜出您的意圖。 某些指定由於位置存在於多個國家或地區而模稜兩可。 例如，英國、賓夕法尼亞州和紐約州都有「南安普敦」。

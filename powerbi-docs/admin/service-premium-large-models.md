@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 03/03/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 7ea6601514d77f9f7e2e416b358194e871f6445b
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 4f0a34f990613ab57a95d1f299392d77c7c1f625
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204316"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854659"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Power BI Premium 中的大型模型 (預覽)
 
@@ -94,7 +94,7 @@ Power BI 使用動態記憶體管理，從記憶體收回非使用中的資料�
 
 ## <a name="checking-dataset-size"></a>查看資料集大小
 
-載入歷程記錄資料之後，您可以使用 [SSMS](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) 透過 [XMLA 端點](service-premium-connect-tools.md)，在模型屬性視窗中查看估計的資料集大小。
+載入歷程記錄資料之後，您可以使用 [SSMS](/sql/ssms/download-sql-server-management-studio-ssms) 透過 [XMLA 端點](service-premium-connect-tools.md)，在模型屬性視窗中查看估計的資料集大小。
 
 ![估計的資料集大小](media/service-premium-large-models/estimated-dataset-size.png)
 
@@ -122,7 +122,7 @@ SELECT * FROM SYSTEMRESTRICTSCHEMA
 
 ## <a name="availability-in-regions"></a>區域中的可用性
 
-Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers) \(部分機器翻譯\) 的特定 Azure 區域。
+Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](/azure/storage/files/storage-files-planning#storage-tiers) \(部分機器翻譯\) 的特定 Azure 區域。
 
 下列清單提供可以在 Power BI 中使用大型模型的區域。 大型模型不支援下列清單中的區域：
 
@@ -155,7 +155,7 @@ Power BI 中的大型模型僅適用於支援 [Azure Premium 檔案儲存體](ht
 
 下列連結提供的資訊有助於處理大型模型：
 
-* [Azure Premium 檔案儲存體](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers) \(部分機器翻譯\)
+* [Azure Premium 檔案儲存體](/azure/storage/files/storage-files-planning#storage-tiers) \(部分機器翻譯\)
 * [設定 Power BI Premium 的多地理位置支援](service-admin-premium-multi-geo.md)
 * [攜帶您自己的加密金鑰以用於 Power BI](service-encryption-byok.md)
 * [容量的運作方式](service-premium-what-is.md#how-capacities-function)

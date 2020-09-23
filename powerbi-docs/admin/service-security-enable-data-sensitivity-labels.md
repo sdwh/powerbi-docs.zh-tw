@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.date: 08/10/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: ebc4601f3575e84c248aef9204537a7d93c428ac
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: afe81469bc3ce67979602eedbf49b00cf7a3f1e6
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049176"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854302"
 ---
 # <a name="enable-sensitivity-labels-in-power-bi"></a>在 Power BI 中啟用敏感度標籤
 
-為了讓 [Microsoft 資訊保護的敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)可在 Power BI 中使用，必須在租用戶上啟用這些標籤。 本文說明 Power BI 租用戶系統管理員如何執行這項操作。 如需 Power BI 中敏感度標籤的概觀，請參閱 [Power BI 中的敏感度標籤](service-security-sensitivity-label-overview.md)。 如需在 Power BI 中套用敏感度標籤的相關資訊，請參閱[在 Power BI 中套用資料敏感度標籤 (預覽)](./service-security-apply-data-sensitivity-labels.md) 
+為了讓 [Microsoft 資訊保護的敏感度標籤](/microsoft-365/compliance/sensitivity-labels)可在 Power BI 中使用，必須在租用戶上啟用這些標籤。 本文說明 Power BI 租用戶系統管理員如何執行這項操作。 如需 Power BI 中敏感度標籤的概觀，請參閱 [Power BI 中的敏感度標籤](service-security-sensitivity-label-overview.md)。 如需在 Power BI 中套用敏感度標籤的相關資訊，請參閱[在 Power BI 中套用資料敏感度標籤 (預覽)](./service-security-apply-data-sensitivity-labels.md) 
 
 啟用敏感度標籤時：
 
@@ -34,10 +34,10 @@ ms.locfileid: "88049176"
 
 * Office 應用程式有自己[檢視和套用敏感度標籤的授權需求]( https://docs.microsoft.com/microsoft-365/compliance/get-started-with-sensitivity-labels#subscription-and-licensing-requirements-for-sensitivity-labels )。
 
-* 在您的租用戶上啟用敏感度標籤之前，請確定已針對相關的使用者和群組定義和發佈敏感度標籤。 如需詳細資訊，請參閱[建立及設定敏感度標籤及其原則](https://docs.microsoft.com/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)。
+* 在您的租用戶上啟用敏感度標籤之前，請確定已針對相關的使用者和群組定義和發佈敏感度標籤。 如需詳細資訊，請參閱[建立及設定敏感度標籤及其原則](/microsoft-365/compliance/create-sensitivity-labels?view=o365-worldwide)。
 
 >[!NOTE]
-> 如果您的組織使用 Azure 資訊保護敏感度標籤，則必須將其移轉至 Microsoft 資訊保護統一標籤平台，才能用於 Power BI。 深入了解如何[移轉敏感度標籤](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) \(部分機器翻譯\)。
+> 如果您的組織使用 Azure 資訊保護敏感度標籤，則必須將其移轉至 Microsoft 資訊保護統一標籤平台，才能用於 Power BI。 深入了解如何[移轉敏感度標籤](/azure/information-protection/configure-policy-migrate-labels) \(部分機器翻譯\)。
 
 ## <a name="enable-sensitivity-labels"></a>啟用敏感度標籤
 
@@ -78,6 +78,6 @@ Power BI 使用 Microsoft 資訊保護敏感度標籤。 因此，當您在嘗�
 本文描述如何在 Power BI 中啟用敏感度標籤。 下列文章提供 Power BI 資料保護的詳細資料。 
 
 * [Power BI 中的敏感度標籤概觀](service-security-sensitivity-label-overview.md)
-* [如何在 Power BI 中套用敏感度標籤](../collaborate-share/service-security-apply-data-sensitivity-labels.md)
+* [如何在 Power BI 中套用敏感度標籤](./service-security-apply-data-sensitivity-labels.md)
 * [在 Power BI 中使用 Microsoft Cloud App Security 控制項](service-security-using-microsoft-cloud-app-security-controls.md)
 * [保護計量報表](service-security-data-protection-metrics-report.md)

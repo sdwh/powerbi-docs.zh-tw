@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 492ff2c21d285cba37f1bbf631869c84eafe4dc3
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008552"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854682"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -98,7 +98,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 容量工作負載是提供給使用者的服務。 根據預設，Premium 和 Azure 容量僅支援與執行 Power BI 查詢建立關聯的資料集工作負載。 不可停用資料集工作負載。 可為 [AI (認知服務)](https://powerbi.microsoft.com/blog/easy-access-to-ai-in-power-bi-preview/)、[資料流程](../transform-model/service-dataflows-overview.md#dataflow-capabilities-on-power-bi-premium)和[編頁報表](../paginated-reports/paginated-reports-save-to-power-bi-service.md)啟用額外的工作負載。 這些工作負載僅在 Premium 訂閱中支援。 
 
-每個額外工作負載都可讓您設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 最大記憶體的預設值是由 SKU 決定。 您可以透過只在使用時才啟用這些額外的工作負載，最大限度地提高容量的可用資源。 此外，您可以只在已確定預設設定不符合您的容量資源需求時，才變更記憶體設定。 容量管理員可以使用[管理入口網站](service-admin-portal.md)中的**容量設定**或使用[容量 REST API](https://docs.microsoft.com/rest/api/power-bi/capacities)，為容量啟用和設定工作負載。  
+每個額外工作負載都可讓您設定工作負載所能使用的最大記憶體 (以總可用記憶體百分比表示)。 最大記憶體的預設值是由 SKU 決定。 您可以透過只在使用時才啟用這些額外的工作負載，最大限度地提高容量的可用資源。 此外，您可以只在已確定預設設定不符合您的容量資源需求時，才變更記憶體設定。 容量管理員可以使用[管理入口網站](service-admin-portal.md)中的**容量設定**或使用[容量 REST API](/rest/api/power-bi/capacities)，為容量啟用和設定工作負載。  
 
 ![啟用工作負載](media/service-admin-premium-workloads/admin-portal-workloads.png)
 
@@ -173,7 +173,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 ### <a name="capacities-rest-apis"></a>容量 REST API
 
-Power BI REST API 包含[容量 API](https://docs.microsoft.com/rest/api/power-bi/capacities) 集合。 管理員可以使用這些 API，以程式設計方式管理 Premium 容量的許多層面，包括啟用和停用工作負載、將工作區指派給容量等。
+Power BI REST API 包含[容量 API](/rest/api/power-bi/capacities) 集合。 管理員可以使用這些 API，以程式設計方式管理 Premium 容量的許多層面，包括啟用和停用工作負載、將工作區指派給容量等。
 
 ## <a name="large-datasets"></a>大型資料集
 
@@ -252,5 +252,3 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 > [管理 Premium 容量](service-premium-capacity-manage.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-

@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: fa4c8102eeb41fb754604eb646c11f44891413c9
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 037a4c28f7b70cdd6bc546014a0b9218e89a7e3d
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236252"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860708"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>使用 Power BI 連接到所用服務
 您可以使用 Power BI 連接到執行業務所用的多個服務，例如 Salesforce、Microsoft Dynamics 和 Google Analytics。 Power BI 首先會使用您的認證來連接至服務。 它會建立 Power BI「工作區」  ，內含儀表板和一組 Power BI 報表，可自動顯示資料並提供業務相關的視覺見解。
 
 >[!IMPORTANT]
->服務內容套件將由[範本應用程式](https://docs.microsoft.com/power-bi/service-template-apps-overview)取代。 截至 2019 年 9 月 25 日，已有一些內容套件即將退場。 所有您已經安裝，但即將退場的內容套件，將會繼續保留在您的帳戶中，但不會再提供任何文件或支援，也無法重新安裝。
+>服務內容套件將由[範本應用程式](./service-template-apps-overview.md)取代。 截至 2019 年 9 月 25 日，已有一些內容套件即將退場。 所有您已經安裝，但即將退場的內容套件，將會繼續保留在您的帳戶中，但不會再提供任何文件或支援，也無法重新安裝。
 
 登入 Power BI 以檢視[可連接的所有服務](https://app.powerbi.com/getdata/services)。 
 

@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 08/07/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a3c87a700df1c35596b6520cc64d9b580ccb74eb
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: cf79a5ecf4d98595a033733824a41002a7cd38e0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83332306"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860547"
 ---
 # <a name="tutorial-connect-to-a-github-repo-with-power-bi"></a>教學課程：使用 Power BI 連線到 GitHub 存放庫
 在本教學課程中，您使用 Power BI 連線接至 GitHub 服務中的實際資料，而且 Power BI 會自動建立儀表板和報表。 您會連線到 Power BI 內容的公用存放庫 (也稱為「存放庫」  )，並查看如下問題的解答：有多少人參與 Power BI 的公用內容？ 誰參與最多？ 哪個星期幾的參與最多？ 以及其他問題。 
@@ -39,7 +39,7 @@ ms.locfileid: "83332306"
 
 若要完成本教學課程，您需要 GitHub 帳戶 (如果還沒有的話)。 
 
-- 註冊 [GitHub 帳戶](https://docs.microsoft.com/contribute/get-started-setup-github)。
+- 註冊 [GitHub 帳戶](/contribute/get-started-setup-github)。
 
 
 ## <a name="how-to-connect"></a>如何連接
@@ -139,5 +139,3 @@ ms.locfileid: "83332306"
  
 > [!div class="nextstepaction"]
 > [連線至使用的線上服務](service-connect-to-services.md)
-
-

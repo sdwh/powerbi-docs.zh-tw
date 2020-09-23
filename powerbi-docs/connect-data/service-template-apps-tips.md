@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: f5c8f763b1f02d055d39c62ef2e2902b6efca439
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ff1fb59a59f72483bab5ec55c9b2cf9805f83b81
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235533"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860271"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>在 Power BI 中撰寫範本應用程式的提示
 
@@ -124,15 +124,15 @@ Power BI Desktop 中的[參數](https://powerbi.microsoft.com/blog/deep-dive-int
 範本應用程式可以在 AppSource 上發佈，請遵循下列方針，再將您的應用程式提交到 AppSource：
 
 * 確定您建立的範本應用程式具有能用的範例資料，可協助安裝程式了解應用程式的功能 (不允許空白報表與儀表板)。
-範本應用程式支援僅限範例資料的應用程式，請務必核取靜態應用程式核取方塊。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+範本應用程式支援僅限範例資料的應用程式，請務必核取靜態應用程式核取方塊。 [深入了解](./service-template-apps-create.md#define-the-properties-of-the-template-app)
 * 備妥驗證小組須遵循的指示，其中包含連接到資料所需的認證和參數。
-* 應用程式必須在 Power BI 和您的 CPP 供應項目中包含應用程式圖示。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 已設定登陸頁面。 [深入了解](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* 請隨時關注 [合作夥伴中心 -> Power BI App 供應項目](https://docs.microsoft.com/azure/marketplace/partner-center-portal/create-power-bi-app-offer) 上的文件。
+* 應用程式必須在 Power BI 和您的 CPP 供應項目中包含應用程式圖示。 [深入了解](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* 已設定登陸頁面。 [深入了解](./service-template-apps-create.md#define-the-properties-of-the-template-app)
+* 請隨時關注 [合作夥伴中心 -> Power BI App 供應項目](/azure/marketplace/partner-center-portal/create-power-bi-app-offer) 上的文件。
 * 如果儀表板屬於應用程式，請確定儀錶板不是空白。
 * 在提交應用程式之前，請使用應用程式連結安裝應用程式，確保您能如預期連接資料集和應用程式體驗。
 * 將 pbix 上傳到範本工作區之前，請務必卸載任何不必要的連線。
-* 遵循 Power BI [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
+* 遵循 Power BI [Best design practices for reports and visuals](../visuals/power-bi-report-visualizations.md) (報表和視覺效果的最佳設計做法)，達到最大的使用者影響力並獲准散發。
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="create-a-download-link-for-the-app"></a>建立應用程式的下載連結

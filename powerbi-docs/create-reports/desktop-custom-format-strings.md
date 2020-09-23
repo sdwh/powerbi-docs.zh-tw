@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f095eb351797c228bb5f6e9b70c741ca078e7f67
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221668"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859903"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>在 Power BI Desktop 中使用自訂格式字串
 
@@ -68,7 +68,7 @@ ms.locfileid: "85221668"
 | _ss_ | 00-59 (分鐘的秒，包含前置零) |
 
 
-您可以查看有關如何設定自訂值字串格式的[範例](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)。
+您可以查看有關如何設定自訂值字串格式的[範例](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)。
 
 數字的使用者定義格式運算式可以有一到三個區段 (以分號分隔)。 如果您在兩者之間包含分號，則不會顯示遺失的區段 (它會是 &quot;&quot;)。 如果未指定分號，則會使用正值格式。
 
@@ -151,7 +151,7 @@ ms.locfileid: "85221668"
 ## <a name="next-steps"></a>後續步驟
 您可能也會對下列文章感興趣：
 
-* [VBA 格式字串](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [VBA 格式字串](/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
 * [Power BI Desktop 中的量值](../transform-model/desktop-measures.md)
 * [Power BI Desktop 中的資料類型](../connect-data/desktop-data-types.md)
 * [設定資料表格式化的條件](desktop-conditional-table-formatting.md)

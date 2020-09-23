@@ -8,29 +8,29 @@ ms.topic: how-to
 ms.date: 04/24/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cf846ef7fa7b47b0eaa90c850885af65a4bab80
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: a6cb38d17a84ab41acda96f0564b12188c719254
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229682"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860731"
 ---
 # <a name="connect-to-the-regional-emergency-response-dashboard"></a>連線到區域緊急狀況回應儀表板
-區域緊急狀況回應儀表板是 [Microsoft Power Platform 區域緊急狀況回應解決方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview)的報告元件。 區域組織系統管理員可在其 Power BI 租用戶中檢視儀表板，以快速檢視有利於做出有效率決策的重要資料和計量。
+區域緊急狀況回應儀表板是 [Microsoft Power Platform 區域緊急狀況回應解決方案](/powerapps/sample-apps/regional-emergency-response/overview)的報告元件。 區域組織系統管理員可在其 Power BI 租用戶中檢視儀表板，以快速檢視有利於做出有效率決策的重要資料和計量。
 
 ![區域緊急狀況回應儀表板應用程式報告](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-report.png)
 
 本文會告知如何使用區域緊急狀況回應儀表板範本應用程式來安裝區域緊急狀況回應應用程式，以及如何連線到資料來源。
 
-如需儀表板顯示內容的詳細資訊，請參閱[取得見解](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights) (英文)。
+如需儀表板顯示內容的詳細資訊，請參閱[取得見解](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights) (英文)。
 
 在安裝範本應用程式並連線至資料來源後，即可依照需求來自訂報表。 然後您即可將報表當作應用程式散發給組織中的同事。
 
 ## <a name="prerequisites"></a>必要條件
 
-您必須先安裝及設定[區域緊急狀況回應解決方案](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy)，再安裝此範本應用程式。 安裝此解決方案會建立將資料填入應用程式所需的資料來源參考。
+您必須先安裝及設定[區域緊急狀況回應解決方案](/powerapps/sample-apps/regional-emergency-response/deploy)，再安裝此範本應用程式。 安裝此解決方案會建立將資料填入應用程式所需的資料來源參考。
 
-安裝區域緊急狀況回應解決方案時，請記下 [Common Data Service 環境執行個體的 URL](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard)。 您將需要此 URL 以將範本應用程式連線至資料。
+安裝區域緊急狀況回應解決方案時，請記下 [Common Data Service 環境執行個體的 URL](/powerapps/sample-apps/regional-emergency-response/deploy#step-5-configure-and-publish-power-bi-dashboard)。 您將需要此 URL 以將範本應用程式連線至資料。
 
 ## <a name="install-the-app"></a>安裝應用程式
 
@@ -62,7 +62,7 @@ ms.locfileid: "85229682"
 
    ![連線資料連結的區域緊急狀況回應儀表板應用程式](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-connect-data.png)
 
-1. 在出現的對話方塊中，鍵入 [Common Data Service 環境執行個體的 URL](https://docs.microsoft.com/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 例如： https://[myenv].crm.dynamics.com。 完成時，按一下 [下一步]  。
+1. 在出現的對話方塊中，鍵入 [Common Data Service 環境執行個體的 URL](/powerapps/sample-apps/emergency-response/deploy-configure#publish-the-power-bi-dashboard)。 例如： https://[myenv].crm.dynamics.com。 完成時，按一下 [下一步]  。
 
    ![區域緊急狀況回應儀表板應用程式 URL 對話方塊](media/service-connect-to-regional-emergency-response/service-regional-emergency-response-app-url-dialog.png)
 
@@ -92,11 +92,11 @@ ms.locfileid: "85229682"
 
 ## <a name="customize-and-share"></a>自訂和共用
 
-如需詳細資訊，請參閱[自訂和共用應用程式](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)。
+如需詳細資訊，請參閱[自訂和共用應用程式](../connect-data/service-template-apps-install-distribute.md#customize-and-share-the-app)。 在發佈或散發應用程式前，請務必先檢閱[報告免責聲明](/powerapps/sample-apps/regional-emergency-response/overview#disclaimer)。
 
 ## <a name="next-steps"></a>後續步驟
-* [了解區域緊急狀況回應儀表板](https://docs.microsoft.com/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
-* [設定及了解 Power Apps 中的危機通訊範例範本](https://docs.microsoft.com/powerapps/maker/canvas-apps/sample-crisis-communication-app) (機器翻譯)
+* [了解區域緊急狀況回應儀表板](/powerapps/sample-apps/regional-emergency-response/portals-admin-reporting#get-insights)
+* [設定及了解 Power Apps 中的危機通訊範例範本](/powerapps/maker/canvas-apps/sample-crisis-communication-app) (機器翻譯)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 * [什麼是 Power BI 範本應用程式？](../connect-data/service-template-apps-overview.md)
 * [在組織中安裝並散發範本應用程式](../connect-data/service-template-apps-install-distribute.md)

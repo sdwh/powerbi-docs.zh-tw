@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b749ad07dd2feb9f8a3bdf776108571add9102bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 1cf289e4f556fb3f92806dad1343797824f0888e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240030"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859995"
 ---
 # <a name="using-incremental-refresh-with-power-bi-dataflows"></a>搭配 Power BI 資料流程使用累加式重新整理
 
@@ -163,4 +163,4 @@ ms.locfileid: "85240030"
 * [設定排定的重新整理](../connect-data/refresh-scheduled-refresh.md)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)
