@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 05dcae0a2277ee84e6c8bfbdb51532252c50c896
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23c15b49bfd6b069181b5d860637e00315376059
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238890"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861697"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>將 CDM 資料夾作為資料流程新增到 Power BI (預覽)
 
@@ -26,7 +26,7 @@ ms.locfileid: "85238890"
 
 * 系統管理員必須先連結 Power BI 內的 ADLS Gen2 儲存體帳戶，才能加以使用。 請參閱[連線 Azure Data Lake Storage Gen2 以作為資料流程儲存體](service-dataflows-connect-azure-data-lake-storage-gen2.md)，以了解如何將 ADLS Gen2 帳戶連結至 Power BI。
 * 從 CDM 資料夾建立資料流程的功能，「僅」  於[新的工作區體驗](../collaborate-share/service-create-the-new-workspaces.md)中提供。 
-* 若要將 CDM 資料夾新增到 Power BI，新增資料夾的使用者必須具有 [CDM 資料夾及其檔案的授權](https://go.microsoft.com/fwlink/?linkid=2029121) \(英文\)。
+* 若要將 CDM 資料夾新增到 Power BI，新增資料夾的使用者必須具有 [CDM 資料夾及其檔案的授權](./service-dataflows-azure-data-lake-integration.md) \(英文\)。
 * 您必須具有 CDM 資料夾中所有檔案和資料夾的讀取和執行權限，才能將其新增到 Power BI。
 
 下列各節將說明如何從 CDM 資料夾建立資料流程。
@@ -86,7 +86,7 @@ Power BI Desktop：
 
   ![嘗試使用資料流程所產生的錯誤](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
-若要解決此問題，Ben 必須被授與 CDM 資料夾及其檔案的讀者權限。 若要深入了解如何授與 CDM 資料夾的存取權，請參閱[此文章](https://go.microsoft.com/fwlink/?linkid=2029121) \(英文\)。
+若要解決此問題，Ben 必須被授與 CDM 資料夾及其檔案的讀者權限。 若要深入了解如何授與 CDM 資料夾的存取權，請參閱[此文章](./service-dataflows-azure-data-lake-integration.md) \(英文\)。
 
 
 ## <a name="next-steps"></a>後續步驟
@@ -107,13 +107,13 @@ Power BI Desktop：
 * [Power BI 資料流程的開發人員資源](service-dataflows-developer-resources.md)
 
 如需 Azure 儲存體的詳細資訊，您可以閱讀這些文章：
-* [Azure 儲存體安全性指南](https://docs.microsoft.com/azure/storage/common/storage-security-guide)
+* [Azure 儲存體安全性指南](/azure/storage/common/storage-security-guide)
 * [設定排定的重新整理](../connect-data/refresh-scheduled-refresh.md)
 * [開始使用 Azure 資料服務的 GitHub 範例](https://aka.ms/cdmadstutorial) \(英文\)
 
 如需 Common Data Service 的詳細資訊，您可以閱讀它的概觀文章：
-* [Common Data Service - 概觀](https://docs.microsoft.com/powerapps/common-data-model/overview)
-* [CDM 資料夾](https://go.microsoft.com/fwlink/?linkid=2045304) \(英文\)
-* [CDM 模型檔案定義](https://go.microsoft.com/fwlink/?linkid=2045521) \(英文\)
+* [Common Data Service - 概觀](/powerapps/common-data-model/overview)
+* [CDM 資料夾](/common-data-model/data-lake) \(英文\)
+* [CDM 模型檔案定義](/common-data-model/model-json) \(英文\)
 
 此外，您隨時都可以試著[向 Power BI 社群發問](https://community.powerbi.com/) \(英文\)。

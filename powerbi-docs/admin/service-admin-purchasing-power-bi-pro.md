@@ -10,12 +10,12 @@ ms.date: 04/08/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Administration
-ms.openlocfilehash: 899055ea26d1f36592c426ba402aa363b65bfa15
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 8c5daa2e63b874f1811c3819c60785bdbe93918c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878348"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856914"
 ---
 # <a name="purchase-and-assign-power-bi-pro-user-licenses"></a>購買及指派 Power BI Pro 使用者授權
 
@@ -29,7 +29,7 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 此文章說明如何在 Microsoft 365 系統管理中心內購買 Power BI Pro 使用者授權。 購買授權之後，您可以在 Microsoft 365 系統管理中心或 Azure 入口網站中將其指派給使用者。
 
 > [!NOTE]
-> 自 2020 年 1 月 14 日起，商業雲端客戶可使用 Power Platform 產品 (Power BI、Power Apps 和 Power Automate) 的自助式購買、訂閱和授權管理功能。 如需詳細資訊，請參閱[自助式購買常見問題集](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq) \(部分機器翻譯\)。 若要啟用或停用自助式購買功能，請參閱[啟用或停用自助式註冊與購買](/power-bi/admin/service-admin-disable-self-service)。
+> 自 2020 年 1 月 14 日起，商業雲端客戶可使用 Power Platform 產品 (Power BI、Power Apps 和 Power Automate) 的自助式購買、訂閱和授權管理功能。 如需詳細資訊，請參閱[自助式購買常見問題集](/microsoft-365/commerce/subscriptions/self-service-purchase-faq) \(部分機器翻譯\)。 若要啟用或停用自助式購買功能，請參閱[啟用或停用自助式註冊與購買](./service-admin-disable-self-service.md)。
 
 ### <a name="prerequisites"></a>必要條件
 
@@ -40,7 +40,7 @@ Power BI Pro 是一種個別使用者授權，可讓使用者讀取其他使用�
 ### <a name="purchase-licenses-in-microsoft-365"></a>在 Microsoft 365 中購買授權
 
 > [!NOTE]
-> 如果您通常是透過大量授權合約 (例如 Enterprise 合約) 購買授權，並且想要收到發票，而不是使用信用卡或銀行帳戶購買，則必須以不同的方式提交訂單。 請與您的 Microsoft 轉銷商合作，或透過大量授權服務中心來新增或移除授權。 如需詳細資訊，請參閱[管理訂閱授權](https://docs.microsoft.com/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
+> 如果您通常是透過大量授權合約 (例如 Enterprise 合約) 購買授權，並且想要收到發票，而不是使用信用卡或銀行帳戶購買，則必須以不同的方式提交訂單。 請與您的 Microsoft 轉銷商合作，或透過大量授權服務中心來新增或移除授權。 如需詳細資訊，請參閱[管理訂閱授權](/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide)。
 
 請遵循下列步驟以在 Microsoft 365 系統管理中心內購買 Power BI Pro 授權：
 

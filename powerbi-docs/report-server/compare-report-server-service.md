@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 44cfbeb85f30e2d84dc2c693ab4837606eb899eb
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 18629f38db7d8b88c47d4a1af3a5c3f6512433b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87412041"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859144"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -45,7 +45,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
 | ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../visuals/power-bi-visualization-arcgis.md) |
 | Power BI 報表的電子郵件訂用帳戶 | 否 | 是 | [為您自己或其他人訂閱](../collaborate-share/service-report-subscribe.md) Power BI 服務中的報表或儀表板 |
-| 編頁報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的電子郵件傳遞](https://docs.microsoft.com/sql/reporting-services/working-with-subscriptions-web-portal)  |
+| 編頁報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的電子郵件傳遞](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../create-reports/service-set-data-alerts.md)
 | 資料列層級安全性 (RLS) | 是 | 是 | DirectQuery (資料來源) 與匯入模式中皆可使用 <br><br>[Power BI 服務](../admin/service-admin-rls.md)中的資料列層級安全性 <br><br>[Power BI 報表伺服器](row-level-security-report-server.md)中的資料列層級安全性 |
 | 多對多關聯性 | 否 | 是 | 在 Power BI Desktop 中[套用多對多關聯性](../transform-model/desktop-many-to-many-relationships.md) |
@@ -62,9 +62,3 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 ## <a name="next-steps"></a>後續步驟
 
 [安裝 Power BI 報表伺服器](install-report-server.md)
-
-
-
-
-
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: 1263de975319b7b0e2ef5123d985fa50a126d680
-ms.sourcegitcommit: cfcde5ff2421be35dc1efc9e71ce2013f55ec78f
+ms.openlocfilehash: 3be821bfaad91ede2a7348e35c06850c81ddf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2020
-ms.locfileid: "86459592"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859236"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Power BI 報表伺服器的變更記錄
 
@@ -32,7 +32,7 @@ ms.locfileid: "86459592"
             - 已修正使用模糊比對來合併查詢時，重新整理失敗的問題。
     - *版本：1.8.7450.37410 (組建 15.0.1103.227)，發行日期：2020 年 5 月 27 日*
          - 功能
-            -  已新增可自訂目錄連線集區大小的支援 (請參閱 [MaxCatalogConnectionPoolSizePerProcess 設定](https://docs.microsoft.com/sql/reporting-services/report-server/rsreportserver-config-configuration-file?view=sql-server-ver15#bkmk_service)以取得詳細資訊)。
+            -  已新增可自訂目錄連線集區大小的支援 (請參閱 [MaxCatalogConnectionPoolSizePerProcess 設定](/sql/reporting-services/report-server/rsreportserver-config-configuration-file#bkmk_service)以取得詳細資訊)。
             -  已改善在重新整理作業期間檢視報表的行為。
         - 安全性更新
         - Bug 修正
@@ -65,7 +65,7 @@ ms.locfileid: "86459592"
            -  針對特定資料來源無法上傳 Power BI 報表的修正
            -  入口網站中 Power BI 報表伺服器桌面連結下載位置的修正
            -  適用於 Excel 轉譯之 DynamicImageDPI 的修正
-           -  修正 Oracle 連線在特定多使用者案例中使用不正確的執行緒文化特性 (詳細資料請參閱 [UseInstalledUICulture documentation](https://docs.microsoft.com/power-bi/report-server/connect-data-sources))
+           -  修正 Oracle 連線在特定多使用者案例中使用不正確的執行緒文化特性 (詳細資料請參閱 [UseInstalledUICulture documentation](./connect-data-sources.md))
            -  CustomHeaders 預設值導致報表內嵌失敗的修正
            -  在某些情況下不正確地產生之 SQL 參數名稱的修正
     - *版本：1.6.7327.3007 (組建 15.0.1102.759)，發行日期：2020 年 1 月 23 日*
@@ -351,7 +351,7 @@ ms.locfileid: "86459592"
 
     - *組建 14.0.600.305，發行日期：2017 年 9 月 19 日*  
         - Bug 修正
-            - 更新至最新的 [Bing 地圖服務 Web 控制項](https://msdn.microsoft.com/library/mt712542.aspx)
+            - 更新至最新的 [Bing 地圖服務 Web 控制項](/bingmaps/v8-web-control/)
 
     - *組建 14.0.600.301，發行日期：2017 年 7 月 11 日*
         - Bug 修正
@@ -373,6 +373,6 @@ ms.locfileid: "86459592"
 [管理員概觀](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下載 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

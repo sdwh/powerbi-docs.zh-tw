@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 06/06/2020
 ms.author: painbar
-ms.openlocfilehash: 725890e3650ff05e0b90e7678bb83e0bc5d01050
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 941bd2adc63a06089ddf4fb79752557b8c688f71
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86263018"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856798"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>開始在 Android 裝置上使用 Power BI 行動裝置應用程式
 Microsoft Power BI for Android 應用程式傳遞 Power BI、Power BI 報表伺服器和 Reporting Services 的行動 BI 體驗。 您可以利用即時的觸控式行動裝置存取功能，隨處檢視內部部署和雲端中的公司儀表板並與之互動。 探索儀表板中的資料，並使用電子郵件或文字訊息與同事共用。 
@@ -112,7 +112,7 @@ Microsoft Intune 讓組織可以控制像是要求存取 PIN、控制應用程�
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Power BI 報表伺服器和 Reporting Services 入口網站的報表與 KPI
 * 在 Power BI for Android 行動裝置應用程式中[檢視入口網站的報表和 KPI](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)。
-* [在入口網站中建立 KPI](https://docs.microsoft.com/sql/reporting-services/working-with-kpis-in-reporting-services)。
+* [在入口網站中建立 KPI](/sql/reporting-services/working-with-kpis-in-reporting-services)。
 * [在 Power BI Desktop 中建立報表，並將它們發行至 Power BI 報表伺服器入口網站](../../report-server/quickstart-create-powerbi-report.md)
 
 ### <a name="see-also"></a>另請參閱

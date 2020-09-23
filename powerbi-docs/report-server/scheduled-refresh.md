@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 89adff51d70be24e4f42c379a729fd1123ca10a5
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75837604"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861766"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Power BI 報表伺服器中 Power BI 報表排程的重新整理
 Power BI 報表的排程重新整理可讓報表的資料保持在最新狀態。
@@ -57,9 +57,9 @@ Power BI 報表伺服器會為所有排程的作業維護事件佇列。 也會�
 ### <a name="memory-limits"></a>記憶體限制
 報表伺服器的傳統工作負載類似於 Web 應用程式。 以匯入的資料或 DirectQuery 載入報表的能力，以及執行排程的重新整理的能力，都依賴與報表伺服器一同裝載的 Analysis Services 執行個體。 因此，這可能會造成伺服器的未預期記憶體壓力。 根據對 Analysis Services 可能會與報表伺服器一起耗用記憶體的了解，來規劃伺服器部署。
 
-如需如何監視 Analysis Services 執行個體的詳細資訊，請參閱[監視 Analysis Services 執行個體](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
+如需如何監視 Analysis Services 執行個體的詳細資訊，請參閱[監視 Analysis Services 執行個體](/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
 
-如需 Analysis Services 內記憶體設定的詳細資訊，請參閱[記憶體屬性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
+如需 Analysis Services 內記憶體設定的詳細資訊，請參閱[記憶體屬性](/sql/analysis-services/server-properties/memory-properties)。
 
 ### <a name="data-model-size-limit"></a>資料模型大小限制
 在排定重新整理期間載入內部 Analysis Services 引擎的資料模型大小上限為 2000 MB (2GB)。 無法設定此大小上限。 如果您的資料模型成長大於 2GB，您會收到重新整理錯誤：「結果長度超過目標大型類型的長度限制 (2GB)」。 在這種情況下，建議將模型裝載於 Analysis Services 執行個體中，並使用報表中模型的即時連線。

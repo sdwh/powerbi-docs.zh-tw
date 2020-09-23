@@ -51,7 +51,9 @@
           items:
             - name: 在 Teams 中共同合作
               href: service-collaborate-microsoft-teams.md
-            - name: 在 Teams 中內嵌報表
+            - name: 將 Power BI 應用程式新增至 Teams
+              href: service-microsoft-teams-app.md
+            - name: 在 Teams 索引標籤中內嵌報表
               href: service-embed-report-microsoft-teams.md
             - name: 直接分享至 Teams
               href: service-share-report-teams.md

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: troubleshooting
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: dd7d6a140dd9828a188f22144e31ea89e342c370
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3ad1488869980c56bfe8dd4973fe60806781510a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "74698685"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861789"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>針對 Power BI 報表伺服器中排程的重新整理進行疑難排解
 本文會討論可用來針對 Power BI 報表伺服器中排程的重新整理之問題進行疑難排解的資源。
@@ -35,9 +35,9 @@ ms.locfileid: "74698685"
 
 如果您持續遇到記憶體壓力，試著查看報表伺服器相應放大部署，以便分散資源的負載。 您也可以定義指定報表伺服器用於使用 rsreportserver.config 內的 `IsDataModelRefreshService` 設定，進行資料重新整理。使用此設定，您可以定義一或多伺服器成為要在需求報表上處理的前端伺服器，讓另一組伺服器只用於排程的重新整理。
 
-如需如何監視 Analysis Services 執行個體的詳細資訊，請參閱[監視 Analysis Services 執行個體](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
+如需如何監視 Analysis Services 執行個體的詳細資訊，請參閱[監視 Analysis Services 執行個體](/sql/analysis-services/instances/monitor-an-analysis-services-instance)。
 
-如需 Analysis Services 內記憶體設定的詳細資訊，請參閱[記憶體屬性](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties)。
+如需 Analysis Services 內記憶體設定的詳細資訊，請參閱[記憶體屬性](/sql/analysis-services/server-properties/memory-properties)。
 
 ### <a name="kerberos-configuration"></a>Kerberos 設定
 連線到具有 Windows 認證的資料來源，可能需要設定 Kerberos 限制委派，才能成功連線。 如需如何設定 Kerberos 限制委派的詳細資訊，請參閱[設定 Kerberos 使用 Power BI 報表](configure-kerberos-powerbi-reports.md)。
@@ -180,7 +180,7 @@ Power BI 報表伺服器的預設位置，Analysis Services 則是後續位置�
 ### <a name="profiling-the-local-analysis-services-process"></a>分析本機 Analysis Services 處理程序
 SQL Profiler 追蹤可以在本機 Analysis Services 處理程序上針對診斷目的執行。 若要連線至本機 Analysis Services 執行個體，請執行下列作業。
 
-SQL Server Profiler 追蹤隨附於 [SQL Server Management Studio (SSMS) 下載](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)。
+SQL Server Profiler 追蹤隨附於 [SQL Server Management Studio (SSMS) 下載](/sql/ssms/download-sql-server-management-studio-ssms)。
 
 1. 以系統管理員身分啟動 **SQL Server Profiler**。
 2. 選取 [新增追蹤]  按鈕。
@@ -188,7 +188,6 @@ SQL Server Profiler 追蹤隨附於 [SQL Server Management Studio (SSMS) 下載]
 4. 在 [追蹤屬性]  對話方塊中，選取您想要擷取的事件，然後選取 [執行]  。
 
 ## <a name="lock-pages-in-memory-windows-privilege"></a>鎖定記憶體中的分頁 Windows 權限
-如果您發現您無法轉譯 Power BI 報表，將**鎖定記憶體中的分頁**權限指派給執行 Power BI 報表伺服器的服務帳戶，可能有幫助。 如需有關如何設定**鎖定記憶體中的分頁**的詳細資訊，請參閱[指派給 Analysis Services 服務帳戶的 Windows 權限](https://docs.microsoft.com/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
+如果您發現您無法轉譯 Power BI 報表，將**鎖定記憶體中的分頁**權限指派給執行 Power BI 報表伺服器的服務帳戶，可能有幫助。 如需有關如何設定**鎖定記憶體中的分頁**的詳細資訊，請參閱[指派給 Analysis Services 服務帳戶的 Windows 權限](/sql/analysis-services/instances/configure-service-accounts-analysis-services#bkmk_winpriv)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

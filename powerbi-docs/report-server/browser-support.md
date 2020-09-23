@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 724bd7a9a11c42520c520019f1c4a67415aa5487
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 264eb0c9079e1f54d53aeb41a1ef73016c2bf1b4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "73874298"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859266"
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Power BI 報表伺服器的瀏覽器支援
 了解管理及檢視 Power BI 報表伺服器和報表檢視器控制項所支援的瀏覽器版本。
@@ -91,12 +91,12 @@ Your browser does not support scripts or has been configured to not allow script
  如果您選擇檢視不含指令碼支援的報表，報表會以 HTML 轉譯，且不含報表檢視器功能 (例如，報表工具列和文件引導模式)。
 
 > [!NOTE]
-> 報表工具列屬於 HTML 檢視器元件的一部分。 根據預設，此工具列會出現在瀏覽器視窗中轉譯的每個報表上方。 報表檢視器會提供功能，包括搜尋報表中的資訊、捲動至特定頁面，以及調整頁面大小以供檢視等功能。 如需有關報表工具列或 HTML 檢視器的詳細資訊，請參閱＜ [HTML Viewer and the Report Toolbar](https://docs.microsoft.com/sql/reporting-services/html-viewer-and-the-report-toolbar)＞。
+> 報表工具列屬於 HTML 檢視器元件的一部分。 根據預設，此工具列會出現在瀏覽器視窗中轉譯的每個報表上方。 報表檢視器會提供功能，包括搜尋報表中的資訊、捲動至特定頁面，以及調整頁面大小以供檢視等功能。 如需有關報表工具列或 HTML 檢視器的詳細資訊，請參閱＜ [HTML Viewer and the Report Toolbar](/sql/reporting-services/html-viewer-and-the-report-toolbar)＞。
 > 
 > 
 
 ## <a name="browser-support-for-report-viewer-web-server-controls-in-visual-studio"></a>Visual Studio 中報表檢視器 Web 伺服器控制項的瀏覽器支援
-報表檢視器 Web 伺服器控制項是用來在 ASP.NET Web 應用程式中內嵌報表功能。 如需有關如何取得報表檢視器控制項的詳細資訊，請參閱[使用報表檢視器控制項整合 Reporting Services - 開始進行](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
+報表檢視器 Web 伺服器控制項是用來在 ASP.NET Web 應用程式中內嵌報表功能。 如需有關如何取得報表檢視器控制項的詳細資訊，請參閱[使用報表檢視器控制項整合 Reporting Services - 開始進行](/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started)。
 
 使用已啟用指令碼支援的瀏覽器。 如果瀏覽器無法執行指令碼，您便無法檢視報表。
 
@@ -114,7 +114,6 @@ Your browser does not support scripts or has been configured to not allow script
 [系統管理員概觀](admin-handbook-overview.md)  
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 [下載報表產生器](https://www.microsoft.com/download/details.aspx?id=53613)  
-[下載 SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
+[下載 SQL Server Data Tools (SSDT)](/sql/ssdt/download-sql-server-data-tools-ssdt)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

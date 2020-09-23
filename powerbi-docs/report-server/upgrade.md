@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 5696807957d6facc62a92923dcfc888bcab2154b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: cb2a5ede49acb218450174bbf77388be5c504617
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237995"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861720"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升級 Power BI 報表伺服器
 
@@ -30,7 +30,7 @@ ms.locfileid: "85237995"
 
 ### <a name="backing-up-the-encryption-keys"></a>備份加密金鑰
 
-第一次設定報表伺服器安裝時，建議您備份加密金鑰。 每次變更服務帳戶的身分識別或重新命名電腦時，也建議您備份金鑰。 如需詳細資訊，請參閱[備份和還原 Reporting Services 加密金鑰](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)。
+第一次設定報表伺服器安裝時，建議您備份加密金鑰。 每次變更服務帳戶的身分識別或重新命名電腦時，也建議您備份金鑰。 如需詳細資訊，請參閱[備份和還原 Reporting Services 加密金鑰](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)。
 
 ### <a name="backing-up-the-report-server-databases"></a>備份報表伺服器資料庫
 
@@ -40,7 +40,7 @@ ms.locfileid: "85237995"
 * 使用簡單復原模式來備份 **reportservertempdb** 資料庫。
 * 您可以對每個資料庫使用不同的備份排程。 備份 **reportservertempdb** 的唯一理由，是避免在發生硬體故障時必須重新建立資料庫。 如果發生硬體故障，不需要復原 **reportservertempdb** 中的資料，但您需要資料表結構。 如果您遺失 **reportservertempdb**，找回它的唯一方法是重新建立報表伺服器資料庫。 如果您重新建立 **reportservertempdb**，它的名稱必須與主要報表伺服器資料庫的名稱相同。
 
-如需 SQL Server 關聯式資料庫之備份和復原的詳細資訊，請參閱 [SQL Server 資料庫的備份與還原](https://docs.microsoft.com/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)。
+如需 SQL Server 關聯式資料庫之備份和復原的詳細資訊，請參閱 [SQL Server 資料庫的備份與還原](/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases)。
 
 ### <a name="backing-up-the-configuration-files"></a>備份組態檔
 
@@ -80,13 +80,13 @@ Power BI 報表伺服器會使用組態檔來儲存應用程式設定。 第一�
 
 * [系統管理員概觀](admin-handbook-overview.md)  
 * [安裝針對 Power BI 報表伺服器最佳化的 Power BI Desktop](install-powerbi-desktop.md)  
-* [驗證安裝 Reporting Services](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
-* [設定報表伺服器服務帳戶](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
-* [設定報表伺服器 URL](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
-* [設定報表伺服器資料庫連接](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
-* [初始化報表伺服器](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
-* [在報表伺服器上設定 SSL 連線](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
-* [設定 Windows 服務帳戶和權限](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
+* [驗證安裝 Reporting Services](/sql/reporting-services/install-windows/verify-a-reporting-services-installation)  
+* [設定報表伺服器服務帳戶](/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager)  
+* [設定報表伺服器 URL](/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager)  
+* [設定報表伺服器資料庫連接](/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager)  
+* [初始化報表伺服器](/sql/reporting-services/install-windows/ssrs-encryption-keys-initialize-a-report-server)  
+* [在報表伺服器上設定 SSL 連線](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)  
+* [設定 Windows 服務帳戶和權限](/sql/database-engine/configure-windows/configure-windows-service-accounts-and-permissions)  
 * [Power BI 報表伺服器的瀏覽器支援](browser-support.md)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

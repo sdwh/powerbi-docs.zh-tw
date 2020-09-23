@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: e1c95c330687131a29753359f5223e096bddab1d
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: c26d169a4c8ef876d1fe92e4967b07c982f510db
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952608"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856867"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-client-library-for-power-bi-administration"></a>Power BI 系統管理員適用的 PowerShell Cmdlet、REST API 和 .NET 用戶端程式庫
 Power BI 可讓系統管理員使用 PowerShell Cmdlet 撰寫一般工作的指令碼。 其同時公開 REST API 並提供 .NET 用戶端程式庫來開發管理解決方案。 本主題說明 Cmdlet 清單以及對應的 API 和 REST API 端點。 如需詳細資訊，請參閱：
 
-- PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps)
-- REST API [文件](https://docs.microsoft.com/rest/api/power-bi/admin)
+- PowerShell [下載](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/)和[文件](/powershell/power-bi/overview?view=powerbi-ps)
+- REST API [文件](/rest/api/power-bi/admin)
 - .NET 用戶端程式庫[下載](https://www.nuget.org/packages/Microsoft.PowerBI.Api/)
 
 > 下列 Cmdlet 須搭配 `-Scope Organization` 呼叫，才能用來對租用戶進行管理。

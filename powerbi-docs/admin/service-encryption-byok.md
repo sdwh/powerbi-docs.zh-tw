@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: a6513bdf7451db7068fe2540d32546df4d42ae8e
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204571"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856821"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
@@ -39,7 +39,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 ```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
 
 > [!NOTE]
-> 此 Cmdlet 需要 Power BI 管理模組 v1.0.840。 您可以透過執行 Get-InstalledModule -Name MicrosoftPowerBIMgmt 來查看所擁有的版本。 透過執行 Install-Module -Name MicrosoftPowerBIMgmt 來安裝最新版本。 您可以在 [Power BI PowerShell Cmdlet 模組](https://docs.microsoft.com/powershell/power-bi/overview)中取得更多 Power BI Cmdlet 及其參數的資訊。
+> 此 Cmdlet 需要 Power BI 管理模組 v1.0.840。 您可以透過執行 Get-InstalledModule -Name MicrosoftPowerBIMgmt 來查看所擁有的版本。 透過執行 Install-Module -Name MicrosoftPowerBIMgmt 來安裝最新版本。 您可以在 [Power BI PowerShell Cmdlet 模組](/powershell/power-bi/overview)中取得更多 Power BI Cmdlet 及其參數的資訊。
 
 ## <a name="configure-azure-key-vault"></a>設定 Azure Key Vault
 
@@ -193,7 +193,7 @@ Power BI 也提供其他的 Cmdlet 以協助您管理租用戶中的 BYOK：
 
 ## <a name="next-steps"></a>後續步驟
 
-* [Power BI PowerShell Cmdlet 模組](https://docs.microsoft.com/powershell/power-bi/overview) 
+* [Power BI PowerShell Cmdlet 模組](/powershell/power-bi/overview) 
 
 * [在 Power BI 中共用成品的方式](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)
 
@@ -202,4 +202,3 @@ Power BI 也提供其他的 Cmdlet 以協助您管理租用戶中的 BYOK：
 * [在 SharePoint Online 中嵌入報表網頁組件](../collaborate-share/service-embed-report-spo.md)
 
 * [從 Power BI 發佈至 Web](../collaborate-share/service-publish-to-web.md)
-

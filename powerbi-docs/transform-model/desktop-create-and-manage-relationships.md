@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/28/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f241315eecdbb600a798630167913aa1be0079a3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5b2e9cc5cb07eebf3befebd1be1686fdbb0f653b
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239054"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861812"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>在 Power BI Desktop 中建立和管理關聯性
 當匯入多個資料表時，您可能想要使用所有資料表中的資料來進行一些分析。 這些資料表之間必須有關聯性才能正確地計算結果，並在報表中顯示正確資訊。 Power BI Desktop 可讓您輕鬆地建立這些關聯性。 事實上，在大多數情況下，您不必執行任何動作，[自動偵測] 功能會為您完成這項作業。 不過，有時候，您可能必須自行建立關聯性，或需要對關聯性進行變更。 不論是哪種情況，請務必了解 Power BI Desktop 中的關聯性，以及如何建立和編輯關聯性。
@@ -45,7 +45,7 @@ ms.locfileid: "85239054"
 * 使用 [移除重複項目] 來建立具有唯一值的資料行。 這個方法的缺點是，移除重複的資料列時您可能會遺失資訊；索引鍵 (資料列) 會重複通常都有好理由。
 * 將由相異索引鍵值清單所組成的中繼資料表新增至模型，然後模型會連結到關聯性中的兩個原始資料行。
 
-如需詳細資訊，請參閱這篇[部落格文章](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/)。
+如需詳細資訊，請參閱這篇[部落格文章](/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)。
 
 
 ## <a name="edit-a-relationship"></a>編輯關聯性
@@ -65,7 +65,7 @@ ms.locfileid: "85239054"
 
 **一對多 (1:*)** ：在一對多關聯性中，一個資料表中資料行只能有特定值的一個執行個體，而其他相關資料表可以有特定值的多個執行個體。
 
-**多對多 (\*:\*)** ：使用複合模型時，您可以在資料表間建立多對多關聯性，其會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 如需詳細資訊，請參閱[多對多基數關聯性](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)。 
+**多對多 (\*:\*)** ：使用複合模型時，您可以在資料表間建立多對多關聯性，其會移除資料表中唯一值的需求。 此方法也會移除先前的因應措施，像是只為建立關聯性而導入新的資料表。 如需詳細資訊，請參閱[多對多基數關聯性](./desktop-many-to-many-relationships.md)。 
 
 如需何時變更基數的詳細資訊，請參閱[了解其他選項](#understanding-additional-options)。
 
@@ -358,4 +358,3 @@ Power BI 進行這些設定的原因是因為，對 Power BI Desktop 而言，�
 您的模型有時會有多個資料表，而且資料表之間的關聯性很複雜。 Power BI Desktop 中 [關聯性] 檢視以簡單易懂且可自訂的圖表來顯示您模型中的所有關聯性、其方向和基數。 
 
 若要深入了解，請參閱[使用 Power BI Desktop 中的關聯性檢視](desktop-relationship-view.md)。
-

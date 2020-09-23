@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: 6e006bc858ad9d82073ced7929c87920da6559ab
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: ee7954cff7863ff58370bbe1e58f26c64644c8e8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034152"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857051"
 ---
 # <a name="power-bi-security"></a>Power BI 安全性
 
@@ -61,10 +61,10 @@ Power BI 的平台安全性還包括多租用戶環境安全性、網路安全�
 
 ## <a name="enforcing-tls-version-usage"></a>強制使用 TLS 版本
 
-網路和 IT 系統管理員可以為了他們網路的安全通訊需求，強制使用目前的 TLS (傳輸層安全性)。 Windows 透過 Microsoft Schannel Provider 提供 TLS 版本的支援，如[＜TLS 安全通道 SSP＞文章所述](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)。
+網路和 IT 系統管理員可以為了他們網路的安全通訊需求，強制使用目前的 TLS (傳輸層安全性)。 Windows 透過 Microsoft Schannel Provider 提供 TLS 版本的支援，如[＜TLS 安全通道 SSP＞文章所述](/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-)。
 
-這種做法可以經由透過管理層面設定登錄機碼來執行。 強制做法如[＜在 AD FS 管理 SSL 通訊協定＞文章所述](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)。 
+這種做法可以經由透過管理層面設定登錄機碼來執行。 強制做法如[＜在 AD FS 管理 SSL 通訊協定＞文章所述](/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs)。 
 
 **Power BI Desktop** 會遵循這些文章中說明的登錄機碼設定，並依據這些登錄設定，只使用允許的 TLS 版本來建立連線 (如果這些設定存在)。
 
-如需如何設定這些登錄機碼的詳細資訊，請參閱 [TLS 登錄設定](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings)文章。
+如需如何設定這些登錄機碼的詳細資訊，請參閱 [TLS 登錄設定](/windows-server/security/tls/tls-registry-settings)文章。

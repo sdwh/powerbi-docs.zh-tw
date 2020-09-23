@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2b1570176138a38e9856691af7d81f201b055db1
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 955e32e99c4f208bbf3582c32b9e5efee95a8f3a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238527"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861927"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>建立 Power BI Desktop 的報表範本
 
@@ -70,7 +70,7 @@ Power BI 報表範本包含作為產生來源報表的下列資訊：
 
 ## <a name="next-steps"></a>後續步驟
 您可能也想要了解**查詢參數**：
-* [在 Power BI Desktop 中使用查詢參數？](https://docs.microsoft.com/power-query/power-query-query-parameters)
+* [在 Power BI Desktop 中使用查詢參數？](/power-query/power-query-query-parameters)
 
 此外，您可以使用 Power BI Desktop 執行各種作業。 如需有關其功能的詳細資訊，請參閱下列資源：
 
@@ -78,4 +78,4 @@ Power BI 報表範本包含作為產生來源報表的下列資訊：
 * [Power BI Desktop 的查詢概觀](../transform-model/desktop-query-overview.md)
 * [Power BI Desktop 中的資料類型](../connect-data/desktop-data-types.md)
 * [使用 Power BI Desktop 合併資料並使其成形](../connect-data/desktop-shape-and-combine-data.md)
-* [Power BI Desktop 中的常見查詢工作](../transform-model/desktop-common-query-tasks.md)    
+* [Power BI Desktop 中的常見查詢工作](../transform-model/desktop-common-query-tasks.md)

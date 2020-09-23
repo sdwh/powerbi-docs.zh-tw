@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: f81cf6625f02f71b1ccf8bcd2c442ded3329083d
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642381"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859397"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
 
@@ -170,7 +170,7 @@ XML：
 - rdl:Encoding=string
 - rdl:Schema=true/false
 
-**在相同的瀏覽器視窗中開啟超連結**：您可以將 'rdl:targetSameWindow=true' 附加至報表中的超連結 URL，讓 Power BI 在相同的瀏覽器視窗中開啟此超連結。 如需將超連結新增至報表的詳細資訊，請參閱 SQL Server Reporting Services 文件中的[將超連結加入到 URL](https://docs.microsoft.com/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)。
+**在相同的瀏覽器視窗中開啟超連結**：您可以將 'rdl:targetSameWindow=true' 附加至報表中的超連結 URL，讓 Power BI 在相同的瀏覽器視窗中開啟此超連結。 如需將超連結新增至報表的詳細資訊，請參閱 SQL Server Reporting Services 文件中的[將超連結加入到 URL](/sql/reporting-services/report-design/add-a-hyperlink-to-a-url-report-builder-and-ssrs)。
 
 ## <a name="next-steps"></a>後續步驟
 

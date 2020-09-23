@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 829de249b71076ccd1ed2a60348170e93b68e507
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 8e8f1c143f65b1974364a8a1c9c55e132a4131c4
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204439"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857028"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>設定 Premium 容量中的工作負載
 
@@ -198,7 +198,7 @@ AI 工作負載可讓您使用 Power BI 中的認知服務和自動化機器學�
 
 ### <a name="rest-api"></a>REST API
 
-使用[Capacities](https://docs.microsoft.com/rest/api/power-bi/capacities) (容量) REST API 可以啟用工作負載並將其指派給容量。
+使用[Capacities](/rest/api/power-bi/capacities) (容量) REST API 可以啟用工作負載並將其指派給容量。
 
 ## <a name="monitoring-workloads"></a>監視工作負載
 

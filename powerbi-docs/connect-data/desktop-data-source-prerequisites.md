@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 498636d61f61764cfaef29db32454f55f1328243
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 373249061f39c40ec3a78ba9541575721bd60022
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83293597"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859627"
 ---
 # <a name="power-bi-data-source-prerequisites"></a>Power BI 資料來源必要條件
 針對每個資料提供者，Power BI 會在物件上支援特定的提供者版本。 如需 Power BI 可用資料來源的詳細資訊，請參閱[資料來源](desktop-data-sources.md)。 下表說明這些需求。
@@ -22,9 +22,9 @@ ms.locfileid: "83293597"
 | 資料來源 | 提供者 | 最低提供者版本 | 最低資料來源版本 | 支援的資料來源物件 | 下載連結 |
 | --- | --- | --- | --- | --- | --- |
 | SQL Server |ADO.net (內建於 .Net Framework) |.NET Framework 3.5 (僅限) |SQL Server 2005+ |資料表/檢視、純量函數、資料表函數 |包含在 .NET Framework 3.5 或更新版本中 |
-| 存取 |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表/檢視 |[下載連結](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Excel (僅限 .xls 檔案) (請參閱附註 1) |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表、工作表 |[下載連結](https://go.microsoft.com/fwlink/?linkid=285987&clcid=0x409) |
-| Oracle (請參閱附註 2) |ODP.NET |ODAC 11.2 版本 5 (11.2.0.3.20) |9.x + |資料表/檢視 |[下載連結](https://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
+| 存取 |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表/檢視 |[下載連結](./desktop-access-database-errors.md) |
+| Excel (僅限 .xls 檔案) (請參閱附註 1) |Microsoft Access 資料庫引擎 (ACE) |ACE 2010 SP1 |沒有限制 |資料表、工作表 |[下載連結](./desktop-access-database-errors.md) |
+| Oracle (請參閱附註 2) |ODP.NET |ODAC 11.2 版本 5 (11.2.0.3.20) |9.x + |資料表/檢視 |[下載連結](./desktop-connect-oracle-database.md) |
 | | System.Data.OracleClient (內建於 .NET Framework) |.NET framework 3.5 |9.x + |資料表/檢視 |包含在 .NET Framework 3.5 或更新版本中 |
 | IBM DB2 |來自 IBM (IBM 資料伺服器驅動程式套件的一部分) 的 ADO.Net 用戶端 |10.1 |9.1+ |資料表/檢視 |[下載連結](https://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
 | MySQL |連接器/網路 |6.6.5 |5.1 |資料表/檢視、純量函數 |[下載連結](https://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
@@ -38,5 +38,4 @@ ms.locfileid: "83293597"
 >[!NOTE]
 >Oracle 提供者也需要 Oracle 用戶端軟體 (版本 8.1.7+)。
 > 
-> 
-
+>

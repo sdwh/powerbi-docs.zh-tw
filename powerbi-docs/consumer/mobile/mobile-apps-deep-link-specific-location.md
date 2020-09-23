@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 2590e5fad227027f7cc2fddf2f93a18b92f39ae3
-ms.sourcegitcommit: 46a340937d9f01c6daba86a4ab178743858722ec
+ms.openlocfilehash: b414457c15155053ff6d316d1147536ec9ca5a8e
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "85393768"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90856637"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>建立 Power BI 行動裝置應用程式中的特定位置連結
 您可以使用連結直接存取 Power BI 中的特定項目：報表、儀表板和磚。
@@ -100,7 +100,7 @@ https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes h
 
 Power BI 內部連結在行動裝置應用程式中的運作方式，與 Power BI 服務中的方式完全相同。
 
-如果您想要將連結新增至指向另一個 Power BI 項目的報表，只需從瀏覽器網址列複製該項目 URL。 閱讀更多[如何將超連結新增至報表中的文字方塊](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box)相關資訊。
+如果您想要將連結新增至指向另一個 Power BI 項目的報表，只需從瀏覽器網址列複製該項目 URL。 閱讀更多[如何將超連結新增至報表中的文字方塊](../../create-reports/service-add-hyperlink-to-text-box.md)相關資訊。
 
 ## <a name="use-report-url-with-filter"></a>搭配篩選使用報表 URL
 與 Power BI 服務相同，Power BI 行動版應用程式也支援包含篩選查詢參數的報表 URL。 您可以在 Power BI 行動版應用程式中開啟報表，並將其篩選至特定狀態。 例如，此 URL 會開啟銷售報表，並依國家/地區進行篩選
@@ -109,7 +109,7 @@ Power BI 內部連結在行動裝置應用程式中的運作方式，與 Power B
 https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
 ```
 
-閱讀更多[如何建置查詢參數來篩選報表](https://docs.microsoft.com/power-bi/service-url-filters)相關資訊。
+閱讀更多[如何建置查詢參數來篩選報表](../../collaborate-share/service-url-filters.md)相關資訊。
 
 ## <a name="next-steps"></a>後續步驟
 您的意見反應可協助我們決定未來要實作的項目，因此別忘了對您想在 Power BI 行動應用程式中看到的其他功能進行投票。 
@@ -118,4 +118,3 @@ https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSecti
 * 請在 Twitter 上關注 @MSPowerBI
 * 加入 [Power BI 社群](https://community.powerbi.com/)的交談
 * [Power BI 是什麼？](../../fundamentals/power-bi-overview.md)
-

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 03/02/2020
-ms.openlocfilehash: 001a66fc20455c207bd6ad2928041ae0861732eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 37ab82de16e45f86f2d2aba5113ba4efe6fc383c
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239619"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859673"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>在 Power BI 服務中建立適用於編頁報表的內嵌資料來源
 
@@ -59,7 +59,7 @@ ms.locfileid: "85239619"
   
 4.  選取 [認證]  。  
   
-     指定要針對此資料來源使用的認證。 資料來源的擁有者會選擇支援的認證類型。 如需詳細資訊，請參閱[指定報表資料來源的認證及連接資訊](https://docs.microsoft.com/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)。
+     指定要針對此資料來源使用的認證。 資料來源的擁有者會選擇支援的認證類型。 如需詳細資訊，請參閱[指定報表資料來源的認證及連接資訊](/sql/reporting-services/report-data/specify-credential-and-connection-information-for-report-data-sources)。
   
 5.  選取 [確定]  。  
   
@@ -93,4 +93,3 @@ ms.locfileid: "85239619"
 
 - [在 Power BI 服務中建立適用於編頁報表的內嵌資料集](paginated-reports-create-embedded-dataset.md)
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
-

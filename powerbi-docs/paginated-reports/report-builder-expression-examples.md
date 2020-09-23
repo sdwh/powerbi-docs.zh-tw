@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3a24724e67a931860296983fe3a116137d3b5361
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "78921140"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859513"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Power BI 報表產生器中的運算式範例
 在 Power BI Report Builder 的編頁報表中，經常使用運算式來控制內容和報表外觀。 運算式都是以 Microsoft Visual Basic 撰寫，並可使用內建函式、自訂程式碼、報表和群組變數，以及使用者定義的變數。 運算式以等號 (=) 當做開頭。   
@@ -38,7 +38,7 @@ ms.locfileid: "78921140"
  報表中的許多運算式都包含函式。 您可以使用這些函數來格式化資料、套用邏輯以及存取報表中繼資料。 您可以撰寫運算式，使用來自 Microsoft Visual Basic 執行階段程式庫，以及來自 `xref:System.Convert` 和 `xref:System.Math` 命名空間的運算式。 您可以在自訂程式碼中新增函式的參考。 您也可以使用 Microsoft .NET Framework 中的類別，包括 `xref:System.Text.RegularExpressions`。  
   
 ##  <a name="visual-basic-functions"></a><a name="VisualBasicFunctions"></a> Visual Basic 函式  
- 您可以使用 Visual Basic 函式來操作顯示在文字方塊中的資料，或是用於參數、屬性或其他報表區域的資料。 本節提供示範其中一些函式的範例。 如需詳細資訊，請參閱 MSDN 上的 [Visual Basic 執行階段程式庫成員](https://go.microsoft.com/fwlink/?LinkId=198941) 。  
+ 您可以使用 Visual Basic 函式來操作顯示在文字方塊中的資料，或是用於參數、屬性或其他報表區域的資料。 本節提供示範其中一些函式的範例。 如需詳細資訊，請參閱 MSDN 上的 [Visual Basic 執行階段程式庫成員](/dotnet/visual-basic/language-reference/runtime-library-members) 。  
   
  .NET Framework 提供許多自訂格式選項，例如特定日期格式。 如需詳細資訊，請參閱[格式化類型](/dotnet/standard/base-types/formatting-types)。  
   
@@ -517,4 +517,3 @@ ms.locfileid: "78921140"
 ## <a name="next-steps"></a>後續步驟
 
 - [什麼是 Power BI Premium 中的編頁報表？](paginated-reports-report-builder-power-bi.md)
-  

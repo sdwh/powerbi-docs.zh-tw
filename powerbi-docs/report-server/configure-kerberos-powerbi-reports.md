@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: a9dd66d726a2417c936204898eb2cdfb749fcc94
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216509"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859167"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +71,7 @@ Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許
 
 如果先前必須變更組態檔，您會想要停止並啟動報表伺服器，確定變更生效。
 
-如需詳細資訊，請參閱 [Configure Windows Authentication on the Report Server](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) (在報表伺服器上設定 Windows 驗證)。
+如需詳細資訊，請參閱 [Configure Windows Authentication on the Report Server](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server) (在報表伺服器上設定 Windows 驗證)。
 
 ## <a name="spns-for-the-report-server-service-account"></a>報表伺服器服務帳戶的 SPN
 接下來，我們需要確定報表伺服器是否有可用的有效 SPN。 這是以針對報表伺服器設定的服務帳戶為根據。
@@ -218,4 +218,3 @@ FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 [安裝 Power BI 報表伺服器](install-report-server.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

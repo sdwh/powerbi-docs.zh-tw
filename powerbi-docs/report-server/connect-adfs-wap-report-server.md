@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 01/14/2020
-ms.openlocfilehash: 2bc2e026acf0f895796158408afa6449c93ce254
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e9e2c44bdcbeabc28a95bd62bf6ba6763ae61442
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236175"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859052"
 ---
 # <a name="use-web-application-proxy-and-active-directory-federated-services---power-bi-report-server"></a>使用 Web 應用程式 Proxy 和 Active Directory 同盟服務 - Power BI 報表伺服器
 
@@ -40,7 +40,7 @@ ms.locfileid: "85236175"
 
 SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報表伺服器的適當 HTTP SPN。
 
-如需如何設定報表伺服器之適當服務主體名稱 (SPN) 的資訊，請參閱[為報表伺服器註冊服務主體名稱 (SPN)](https://docs.microsoft.com/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)。
+如需如何設定報表伺服器之適當服務主體名稱 (SPN) 的資訊，請參閱[為報表伺服器註冊服務主體名稱 (SPN)](/sql/reporting-services/report-server/register-a-service-principal-name-spn-for-a-report-server)。
 
 ### <a name="enabling-negotiate-authentication"></a>啟用交涉驗證
 
@@ -56,11 +56,11 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 </AuthenticationTypes>
 ```
 
-如需詳細資訊，請參閱[修改 Reporting Services 設定檔](https://docs.microsoft.com/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)和[設定報表伺服器上的 Windows 驗證](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
+如需詳細資訊，請參閱[修改 Reporting Services 設定檔](/sql/reporting-services/report-server/modify-a-reporting-services-configuration-file-rsreportserver-config)和[設定報表伺服器上的 Windows 驗證](/sql/reporting-services/security/configure-windows-authentication-on-the-report-server)。
 
 ## <a name="2-configure-active-directory-federation-services-ad-fs"></a>2.設定 Active Directory 同盟服務 (ADFS)
 
-您需要在環境內的 Windows 2016 伺服器上設定 ADFS。 透過伺服器管理員並選取 [管理] 下的 [新增角色及功能] 即可完成設定。 如需詳細資訊，請參閱 [Active Directory Federation Services](https://docs.microsoft.com/windows-server/identity/active-directory-federation-services)。
+您需要在環境內的 Windows 2016 伺服器上設定 ADFS。 透過伺服器管理員並選取 [管理] 下的 [新增角色及功能] 即可完成設定。 如需詳細資訊，請參閱 [Active Directory Federation Services](/windows-server/identity/active-directory-federation-services)。
 
 在 AD FS 伺服器上，使用 AD FS 管理應用程式完成下列步驟。
 
@@ -93,7 +93,7 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 
 ## <a name="3-configure-web-application-proxy-wap"></a>3.設定 Web 應用程式 Proxy (WAP)
 
-您要在環境內的伺服器上啟用 Windows 角色「Web 應用程式 Proxy」(角色)。 它必須位於 Windows 2016 伺服器上。 如需詳細資訊，請參閱 [Web Application Proxy in Windows Server 2016](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy) 和 [Publishing Applications using AD FS Preauthentication](https://docs.microsoft.com/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication) (使用 AD FS 預先驗證發行應用程式)。
+您要在環境內的伺服器上啟用 Windows 角色「Web 應用程式 Proxy」(角色)。 它必須位於 Windows 2016 伺服器上。 如需詳細資訊，請參閱 [Web Application Proxy in Windows Server 2016](/windows-server/remote/remote-access/web-application-proxy/web-application-proxy-windows-server) (Windows Server 2016 中的 Web 應用程式 Proxy) 和 [Publishing Applications using AD FS Preauthentication](/windows-server/remote/remote-access/web-application-proxy/Publishing-Applications-using-AD-FS-Preauthentication) (使用 AD FS 預先驗證發行應用程式)。
 
 ### <a name="configure-constrained-delegation"></a>設定限制委派
 
@@ -174,4 +174,3 @@ SPN 是使用 Kerberos 驗證之服務的唯一識別碼。 確定您具有報�
 *[什麼是 Power BI 報表伺服器？](get-started.md)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-

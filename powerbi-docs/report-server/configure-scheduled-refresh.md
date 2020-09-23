@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 06/10/2020
 ms.author: davidi
-ms.openlocfilehash: 3814c0532d94af3265bd608fc7837df982f9b6c4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 7bc3b77a8badafe1c9660af347a74214176690ac
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236095"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90859029"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>如何設定 Power BI 報表排程的重新整理
 若要重新整理 Power BI 報表伺服器上 Power BI 報表中的資料，您必須建立排程的重新整理計畫。 您可以在報表伺服器上 Power BI 報表的 [管理] 區域中建立此計畫。
@@ -21,7 +21,7 @@ ms.locfileid: "85236095"
 ![Power BI 報表成功排程的重新整理](media/configure-scheduled-refresh/scheduled-refresh-success.png)
 
 ## <a name="configure-data-source-credentials"></a>設定資料來源認證
-您需要必要權限，才能建立排程的重新整理計畫。 權限是在報表伺服器的角色定義中定義的。 如需詳細資訊，請參閱 SQL Server Reporting Services 文件中的[角色定義 - 預先定義的角色](https://docs.microsoft.com/sql/reporting-services/security/role-definitions-predefined-roles)。
+您需要必要權限，才能建立排程的重新整理計畫。 權限是在報表伺服器的角色定義中定義的。 如需詳細資訊，請參閱 SQL Server Reporting Services 文件中的[角色定義 - 預先定義的角色](/sql/reporting-services/security/role-definitions-predefined-roles)。
 
 在建立排程資料重新整理計劃之前，您必須設定要在 Power BI 報表中使用之**每個資料來源**的認證。
 
@@ -86,9 +86,8 @@ ms.locfileid: "85236095"
 必須重新整理網頁，才能查看目前的狀態。 狀態不會自動變更。
 
 ## <a name="next-steps"></a>後續步驟
-若要了解建立與修改排程，請參閱[建立、修改和刪除排程](https://docs.microsoft.com/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)。
+若要了解建立與修改排程，請參閱[建立、修改和刪除排程](/sql/reporting-services/subscriptions/create-modify-and-delete-schedules)。
 
 如需如何針對排程的重新整理進行疑難排解的詳細資訊，請參閱[針對 Power BI 報表伺服器中排程的重新整理進行疑難排解](scheduled-refresh-troubleshoot.md)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
