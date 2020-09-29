@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 4172fc2ff4a1da409a1f5586e8b3579e4745fe99
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 193247aaf610d1712b7986394e08d3c21055d2fa
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83273446"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90965461"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>了解星型結構描述及其對 Power BI 的重要性
 
@@ -65,7 +65,7 @@ ms.locfileid: "83273446"
 
 在星型結構描述設計中，**量值**是一個事實資料表資料行，用來儲存要摘要的值。
 
-在 Power BI 模型中，**量值**有不同 (但類似) 的定義。 這是以[資料分析運算式 (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) 撰寫來達成摘要的公式。 量值運算式通常會利用 DAX 彙總函式 (例如 SUM、MIN、MAX、AVERAGE 等) 在查詢時產生純量值結果 (值永遠不會儲存在模型中)。 量值運算式範圍可以從簡單的資料行彙總，到覆寫篩選內容及/或關聯性傳播的更複雜公式。 如需詳細資訊，請參閱 [DAX Basics in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics) (Power BI Desktop 的 DAX 基本概念) 一文。
+在 Power BI 模型中，**量值**有不同 (但類似) 的定義。 這是以[資料分析運算式 (DAX)](/dax/data-analysis-expressions-dax-reference) 撰寫來達成摘要的公式。 量值運算式通常會利用 DAX 彙總函式 (例如 SUM、MIN、MAX、AVERAGE 等) 在查詢時產生純量值結果 (值永遠不會儲存在模型中)。 量值運算式範圍可以從簡單的資料行彙總，到覆寫篩選內容及/或關聯性傳播的更複雜公式。 如需詳細資訊，請參閱 [DAX Basics in Power BI Desktop](../transform-model/desktop-quickstart-learn-dax-basics.md) (Power BI Desktop 的 DAX 基本概念) 一文。
 
 請務必了解 Power BI 模型支援第二種達成摘要的方法。 任何資料行 (通常是數值資料行) 都可以透過報表視覺效果或問與答來進行摘要。 這些資料行稱為「隱含量值」  。 這對身為模型開發人員的您會很方便，因為在許多情況下，您不需要建立量值。 例如，Adventure Works 轉銷商銷售的 [銷售量]  資料行可以透過許多方式 (sum、count、average、median、min、max 等) 進行摘要，而不需要為每個可能的彙總類型建立量值。
 
@@ -73,7 +73,7 @@ ms.locfileid: "83273446"
 
 不過，即使是簡單的資料行層級摘要，還是有三個必須建立量值的理由：
 
-- 當知道報表作者將使用[多維度運算式 (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017) 來查詢模型時，則模型必須包含「明確量值」  。 明確量值是使用 DAX 運算式來定義。 這種設計方法在使用 MDX 查詢 Power BI 資料集時高度相關，因為 MDX 無法達成資料行值的摘要。 值得注意的是，執行[使用 Excel 分析](https://docs.microsoft.com/power-bi/service-analyze-in-excel)時，將會使用 MDX，因為樞紐分析表會發出 MDX 查詢。
+- 當知道報表作者將使用[多維度運算式 (MDX)](/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query) 來查詢模型時，則模型必須包含「明確量值」  。 明確量值是使用 DAX 運算式來定義。 這種設計方法在使用 MDX 查詢 Power BI 資料集時高度相關，因為 MDX 無法達成資料行值的摘要。 值得注意的是，執行[使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md)時，將會使用 MDX，因為樞紐分析表會發出 MDX 查詢。
 - 當知道報表作者將使用 MDX 查詢設計工具來建立 Power BI 編頁報表時，則模型必須包含明確量值。 只有 MDX 查詢設計工具支援[伺服器彙總](/sql/reporting-services/report-design/report-builder-functions-aggregate-function)。 因此，如果報表作者需要以 Power BI (而非由編頁報表引擎評估) 來評估量值 ，則必須使用 MDX 查詢設計工具。
 - 當需要確保報表作者只能以特定方式摘要資料行時。 例如，轉售商銷售的 [單價]  資料行 (代表每個單位費率) 可進行摘要，但只能透過使用特定彙總函式。 一律不應該進行加總，但最好使用其他彙總函式 (min、max、average 等) 來進行摘要。在此情況下，模型製作人員可以隱藏 [單價]  資料行，並為所有適當的彙總函式建立量值。
 
@@ -83,7 +83,7 @@ ms.locfileid: "83273446"
 
 **Surrogate 索引鍵**是您新增至資料表以支援星型結構描述模型的唯一識別碼。 根據定義，它不會定義或儲存在來源資料中。 Surrogate 索引鍵通常會新增至關聯式資料倉儲維度資料表，來為每個維度資料表資料列提供唯一識別碼。
 
-Power BI 模型關聯性是根據一個資料表中單一不重複的資料行，這會將篩選傳播至不同資料表中的單一資料行。 當模型中維度類型資料表不包含單一不重複的資料行時，您必須新增唯一識別碼，使其成為關聯性的「一」端。 在 Power BI Desktop 中，您可以透過建立 [Power Query 索引資料行](https://docs.microsoft.com/powerquery-m/table-addindexcolumn)來輕鬆達成此需求。
+Power BI 模型關聯性是根據一個資料表中單一不重複的資料行，這會將篩選傳播至不同資料表中的單一資料行。 當模型中維度類型資料表不包含單一不重複的資料行時，您必須新增唯一識別碼，使其成為關聯性的「一」端。 在 Power BI Desktop 中，您可以透過建立 [Power Query 索引資料行](/powerquery-m/table-addindexcolumn)來輕鬆達成此需求。
 
 ![在 Power Query 工具列中建立索引資料行](media/star-schema/toolbar-index.png)
 
@@ -150,12 +150,12 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 ![單一角色扮演維度和關聯性範例](media/star-schema/relationships.png)
 
-非作用中的關聯性只會用來定義使用 [USERELATIONSHIP 函式](https://docs.microsoft.com/dax/userelationship-function-dax)的 DAX 運算式。 在我們的範例中，模型開發人員必須建立量值，依出貨日期和交貨日期來進行轉售商銷售分析。 這項工作可能很繁瑣，特別是當轉售商資料表定義許多量值時。 它也會導致 [欄位]  窗格因量值過多而很雜亂。 還有其他限制：
+非作用中的關聯性只會用來定義使用 [USERELATIONSHIP 函式](/dax/userelationship-function-dax)的 DAX 運算式。 在我們的範例中，模型開發人員必須建立量值，依出貨日期和交貨日期來進行轉售商銷售分析。 這項工作可能很繁瑣，特別是當轉售商資料表定義許多量值時。 它也會導致 [欄位]  窗格因量值過多而很雜亂。 還有其他限制：
 
 - 當報表作者依賴摘要資料行，而不是定義量值時，他們無法在未撰寫報表層級量值的情況下，達成非作用中關聯性的摘要。 只有在 Power BI Desktop 中撰寫報表時，才能定義報表層級量值。
 - 由於日期與轉售商銷售之間只有一個作用中的關聯性路徑，因此無法同時依不同日期類型來篩選轉售商銷售。 例如，您無法產生依出貨銷售量繪製訂單日期銷售量的視覺效果。
 
-為了克服這些限制，常見的 Power BI 模型技術是為每個角色扮演執行個體建立維度類型資料表。 您通常會使用 DAX 來建立其他維度資料表作為[導出資料表](https://docs.microsoft.com/dax/calculatetable-function-dax)。 使用導出資料表，模型就可以包含 [日期]  資料表、[出貨日期]  資料表和 [交貨日期]  資料表，分別與其個別轉售商銷售資料表資料行有單一且作用中的關聯性。
+為了克服這些限制，常見的 Power BI 模型技術是為每個角色扮演執行個體建立維度類型資料表。 通常會使用 DAX 來建立其他維度資料表做為[導出資料表](/dax/calculatetable-function-dax)。 使用導出資料表，模型就可以包含 [日期]  資料表、[出貨日期]  資料表和 [交貨日期]  資料表，分別與其個別轉售商銷售資料表資料行有單一且作用中的關聯性。
 
 ![多個角色扮演維度和關聯性範例](media/star-schema/relationships2.png)
 
@@ -174,7 +174,7 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 
 雜項維度的設計目標是將許多「小型」維度合併成單一維度，除了減少模型儲存空間大小，也會因呈現較少模型資料表而降低 [欄位]  窗格的雜亂情況。
 
-雜項維度資料表通常是所有維度屬性成員的笛卡兒乘積，且具有 Surrogate 索引鍵資料行。 Surrogate 索引鍵提供資料表中每個資料列的唯一參考。 您可以在資料倉儲中建置此維度，或使用 Power Query 建立執行[完整外部查詢聯結](https://docs.microsoft.com/powerquery-m/table-join)的查詢，再新增 Surrogate 索引鍵 (索引資料行)。
+雜項維度資料表通常是所有維度屬性成員的笛卡兒乘積，且具有 Surrogate 索引鍵資料行。 Surrogate 索引鍵提供資料表中每個資料列的唯一參考。 您可以在資料倉儲中建置此維度，或使用 Power Query 建立執行[完整外部查詢聯結](/powerquery-m/table-join)的查詢，再新增 Surrogate 索引鍵 (索引資料行)。
 
 ![雜項維度範例](media/star-schema/junk-dimension.png)
 
@@ -216,5 +216,3 @@ Power BI 模型應該支援查詢成員的歷程記錄資料 (不論是否有變
 - [作用中與非作用中關聯性指導方針](relationships-active-inactive.md)
 - 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
 - 有任何建議嗎？ [貢獻想法來改善 Power BI](https://ideas.powerbi.com/)
-
-

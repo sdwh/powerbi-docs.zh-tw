@@ -6,15 +6,15 @@ ms.reviewer: maggie tsang
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 04/13/2020
+ms.date: 09/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5791f2428c13bca9a6e2df02e7739623bb51fc96
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 785f16b84dee1509ab04255587724e5ce39a043c
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85233272"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763106"
 ---
 # <a name="copy-and-paste-a-report-visualization"></a>複製並貼上報表視覺效果
 
@@ -23,7 +23,7 @@ ms.locfileid: "85233272"
 此文章涵蓋兩種複製並貼上視覺效果的不同方式。 
 * 複製一個報表頁面中的視覺效果，然後將其貼到另一個報表頁面上 (需要具備報表的編輯權限)
 
-* 將視覺效果的圖片從 Power BI 複製到您的剪貼簿，然後將其貼到其他應用程式中
+* 將視覺效果的圖片從 Power BI 複製到您的剪貼簿，然後將其貼到其他應用程式中 (在 Power BI 服務和行動中可使用，在 Power BI Desktop 中不可使用)
 
 ## <a name="copy-and-paste-within-the-same-report"></a>在同一個報表中複製並貼上
 Power BI 報表中視覺效果可以從報表中的某個頁面，複製到相同報表中的同一個頁面或不同頁面。 
@@ -41,7 +41,7 @@ Power BI 報表中視覺效果可以從報表中的某個頁面，複製到相�
 
 ## <a name="copy-a-visual-as-an-image-to-your-clipboard"></a>將視覺效果以圖片形式複製到剪貼簿
 
-您是否曾想要從 Power BI 報表或儀表板共用圖片？ 現在，您可以將視覺效果複製並貼到任何其他支援貼上的應用程式中。 
+您是否曾想要從 Power BI 報表或儀表板共用圖片？ 現在，您可以從 Power BI 服務或行動複製視覺效果，並將其貼到任何其他支援貼上的應用程式中。 
 
 複製視覺效果的靜態圖片時，您會取得視覺效果複本及中繼資料。 其中包括：
 * 返回 Power BI 報表或儀表板的連結
@@ -52,7 +52,7 @@ Power BI 報表中視覺效果可以從報表中的某個頁面，複製到相�
 
 ### <a name="copy-from-a-dashboard-tile"></a>從儀表板磚複製
 
-1. 瀏覽至您要從中複製的儀表板。
+1. 開啟 Power BI 服務，並瀏覽至您要從中複製的儀表板。
 
 2. 從視覺效果的右上角，選取 [更多選項 (...)]  ，然後選擇 [將視覺效果複製為圖片]  。 
 
@@ -64,15 +64,15 @@ Power BI 報表中視覺效果可以從報表中的某個頁面，複製到相�
 
 4. 當視覺效果準備就緒時，使用 **Ctrl + V** 或按一下滑鼠右鍵 > [貼上] 來將其貼到另一個應用程式。 在下方螢幕擷取畫面中，我們已將視覺效果貼到 Microsoft Word 中。 
 
-    ![貼到 Outlook 中的視覺效果](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
+    ![貼到 Word 中的視覺效果](media/power-bi-visualization-copy-paste/power-bi-paste-word.png)
 
 ### <a name="copy-from-a-report-visual"></a>從報表視覺效果複製 
 
-1. 瀏覽至您要從中複製的報表。
+1. 開啟 Power BI 服務，並瀏覽至您要從中複製的報告。
 
 2. 從視覺效果的右上角，選取 [將視覺效果複製為圖片]  的圖示。 
 
-    ![顯示的 [將視覺效果複製為圖片] 圖示](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
+    ![顯示將視覺效果複製為圖片的螢幕擷取畫面](media/power-bi-visualization-copy-paste/power-bi-copy-icon.png)
 
 3. 出現 [您的視覺效果已可複製]  對話方塊時，選取 [複製至剪貼簿]  。
 
@@ -95,7 +95,7 @@ Power BI 報表中視覺效果可以從報表中的某個頁面，複製到相�
 如果您是內容的擁有者或租用戶的管理員，便可以控制是否可從報表或儀表板將視覺效果複製為圖片。
 
 #### <a name="disable-copy-as-an-image-for-a-specific-visual"></a>針對特定視覺效果停用將視覺效果複製為圖片的功能
-如果您不想要讓使用者能夠複製特定的視覺效果，可以從該視覺效果移除複製圖示。
+如果您不想要讓使用者能夠複製特定的視覺效果，可以在 Power BI 服務中將複製圖示從該視覺效果移除。    
 1. 選取油漆滾筒圖示來開啟 [格式化] 窗格。 
 
 1. 開啟 [視覺效果格式設定]  卡片。
@@ -129,6 +129,8 @@ Power BI 報表中視覺效果可以從報表中的某個頁面，複製到相�
    ![無法使用複製](media/power-bi-visualization-copy-paste/power-bi-copy-grey.png)
 
 
+問：我沒看見 [複製成影像] 選項    
+答：如果您是使用 Power BI Desktop，則此功能尚無法使用    
 問：為什麼視覺效果上的 [複製] 圖示是停用的？    
 答：我們目前支援原生的 Power BI 視覺效果和已認證的視覺效果。 針對特定視覺效果提供有限的支援，包括： 
 - ESRI 及其他地圖視覺效果 

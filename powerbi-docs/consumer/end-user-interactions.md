@@ -6,15 +6,15 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/11/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea519b4f120bb643e88d29fba79a5ca464030797
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9124322dbf7656b05c4cd174207e074cd4f807fe
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537358"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763957"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>如何在 Power BI 報表中相互進行視覺效果交叉篩選
 
@@ -52,7 +52,7 @@ Power BI 的其中一項絕佳功能，是報表頁面上所有視覺效果互�
     
 - 交叉篩選和交叉醒目提示報表頁面上的其他視覺效果時，會保留視覺效果層級篩選。 因此，如果 VisualA 具有報表設計師或您所套用的視覺效果層級篩選，且您使用 visualA 與 visualB 互動，則來自 visualA 的視覺效果層級篩選即會套用至 visualB。
 
-    ![選取環圈圖 [審核] 區段後的報表頁面](media/end-user-interactions/power-bi-visual-filters.png)
+    ![顯示已設定篩選條件的報表頁面](media/end-user-interactions/power-bi-visual-filters.png)
 
 ## <a name="next-steps"></a>後續步驟
 [如何使用報表篩選](../consumer/end-user-report-filter.md)

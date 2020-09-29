@@ -1,5 +1,5 @@
 ---
-title: 從 Power BI 服務直接共用到 Teams
+title: 從 Power BI 服務直接共用到 Microsoft Teams
 description: 您可從 Power BI 服務，直接將 Power BI 儀表板和報表共用到 Microsoft Teams。
 author: maggiesMSFT
 ms.author: maggies
@@ -10,14 +10,14 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 07/31/2020
-ms.openlocfilehash: 0152f835f130eaea12addee1cc8daa15975d7aa1
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: 6f4f083f7ec36fff13624b6b0d28ffd810e0d62b
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478053"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964817"
 ---
-# <a name="share-directly-to-teams-from-the-power-bi-service"></a>從 Power BI 服務直接共用到 Teams
+# <a name="share-directly-to-microsoft-teams-from-the-power-bi-service"></a>從 Power BI 服務直接共用到 Microsoft Teams
 
 您可從 Power BI 服務，直接將 Power BI 儀表板、報表和視覺效果共用到 Microsoft Teams。 當在 Power BI 中檢視報表和儀表板時，使用 [共用到 Teams] 功能可快速開始交談。
 
@@ -27,9 +27,9 @@ ms.locfileid: "87478053"
 
 - Power BI 系統管理員尚未停用 Power BI 系統管理員入口網站中的 [共用至 Teams] 租用戶設定。 此設定可供組織隱藏 [共用至 Teams] 按鈕。 如需詳細資料，請參閱 [Power BI 管理入口網站](../admin/service-admin-portal.md#share-to-teams-tenant-setting)一文。
 
-如需 Power BI 和 Teams 如何共同合作的背景資訊，包括其他需求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-collaborate-microsoft-teams.md)。
+如需 Power BI 和 Microsoft Teams 如何共同合作的背景資訊，包括其他需求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-collaborate-microsoft-teams.md)。
 
-## <a name="share-power-bi-content-to-teams"></a>將 Power BI 內容共用到 Teams
+## <a name="share-power-bi-content-to-microsoft-teams"></a>將 Power BI 內容共用到 Microsoft Teams
 
 請遵循下列步驟，將 Power BI 服務中的報表、儀表板和視覺效果連結共用到 Microsoft Teams 頻道和聊天。
 

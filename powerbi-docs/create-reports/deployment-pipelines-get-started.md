@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: 8ce11c0ac6a5098c49f4d8aba0b0a09f28be975b
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.custom: contperfq1
+ms.date: 09/15/2020
+ms.openlocfilehash: 8f486d1f872aec8eaec096bf01d5d36a314c5cef
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557248"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855744"
 ---
-# <a name="get-started-with-deployment-pipelines-preview"></a>開始使用部署管線 (預覽)
+# <a name="get-started-with-deployment-pipelines"></a>開始使用部署管線
 
 此文章會逐步引導您完成使用部署管線所需的基本設定。
 
@@ -35,13 +36,31 @@ ms.locfileid: "86557248"
 
 ## <a name="step-1---create-a-deployment-pipeline"></a>步驟 1 - 建立部署管線
 
-若要建立部署管線，請執行下列動作：
-
-1. 在 Power BI 服務中，從瀏覽窗格選取 [部署管線]，然後按一下 [建立管線]。
-
-2. 在 [建立部署管線] 對話方塊中，輸入管線的名稱與描述，然後按一下 [建立]。
+您可以在 [部署管線] 索引標籤或工作區上建立管線。
 
 建立管線之後，您可以將其與其他使用者共用，或將其刪除。 當您與其他人共用管線時，您的管線共用對象使用者將會獲得[管線的存取權](deployment-pipelines-process.md#user-with-pipeline-access)。 管線存取權可讓使用者檢視、共用、編輯及刪除管線。
+
+### <a name="create-a-pipeline-from-the-deployment-pipelines-tab"></a>在部署管線索引標籤上建立管線
+
+若要從 [部署管線] 索引標籤建立管線，請執行下列動作：
+
+1. 在 Power BI 服務中，從瀏覽窗格選取 [部署管線]，然後選取 [建立管線]。
+
+2. 在 [建立部署管線] 對話方塊中，輸入管線的名稱與描述，然後選取 [建立]。
+
+### <a name="create-a-pipeline-from-a-workspace"></a>在工作區建立管線
+
+如果您是[新工作區介面](../collaborate-share/service-create-the-new-workspaces.md)的管理員，則可在現有的工作區建立管線。
+
+1. 在工作區選取 [建立管線]。
+
+    > [!div class="mx-imgBorder"]
+    > ![工作區中 [建立管線] 按鈕的螢幕擷取畫面。](media/deployment-pipelines-get-started/workspace-deploy.png)
+
+2. 在 [建立部署管線] 對話方塊中，輸入管線的名稱與描述，然後選取 [建立]。
+
+>[!NOTE]
+>如果工作區未指派給貴組織的 Premium 容量，您會收到[指派給容量](../admin/service-admin-premium-manage.md#assign-a-workspace-to-a-capacity)的通知。  
 
 ## <a name="step-2---assign-a-workspace-to-a-deployment-pipeline"></a>步驟 2 - 將工作區指派至部署管線
 
@@ -51,9 +70,12 @@ ms.locfileid: "86557248"
 
 請遵循這些步驟來在部署管線中指派工作區：
 
-1. 在新建立的部署管線中，按一下 [指派工作區]。
+1. 在新建立的部署管線中，選取 [指派工作區]。
 
 2. 在 [選擇工作區] 下拉式功能表中，選取您要指派至管線的工作區。
+
+    >[!NOTE]
+    >如果要在工作區建立管線，可以略過此階段，因為已選取工作區。
 
 3. 選取您想要將工作區指派至其中的階段。
 
@@ -82,13 +104,13 @@ ms.locfileid: "86557248"
 
 ### <a name="deploying-all-content"></a>部署所有內容
 
-選取要從中部署的階段，然後按一下 [部署] 按鈕。 部署程序會在目標階段中建立重複的工作區。 此工作區包含目前階段中現有的所有內容。
+選取要從中部署的階段，然後選取 [部署] 按鈕。 部署程序會在目標階段中建立重複的工作區。 此工作區包含目前階段中現有的所有內容。
 
 [![顯示部署管線中適用於 [開發] 與 [測試] 階段之部署按鈕的螢幕擷取畫面。](media/deployment-pipelines-get-started/deploy.png)](media/deployment-pipelines-get-started/deploy.png#lightbox)
 
 ### <a name="selective-deployment"></a>選擇性部署
 
-若只要部署特定項目，請按一下 [顯示更多] 連結，然後選取您希望部署的項目。 按一下 [部署] 按鈕時，只有已選取的項目會部署到下一個階段。
+若只要部署特定項目，請選取 [顯示更多] 連結，然後選取您要部署的項目。 按一下 [部署] 按鈕時，只有已選取的項目會部署到下一個階段。
 
 由於儀表板、報表與資料集是相關聯且具有相依性的，因此您可以使用選取相關項目按鈕來選取那些項目相依的所有項目。 例如，如果您想要將報表部署到下一個階段，按一下選取相關項目按鈕將會標示報表所連線的資料集，這樣就會同時部署兩者，且報表不會損毀。
 
@@ -119,7 +141,7 @@ ms.locfileid: "86557248"
 
 ### <a name="create-a-dataset-rule"></a>建立資料集規則
 
-1. 在您想要建立資料集規則的管線階段中，按一下 [部署設定]。
+1. 在您想要建立資料集規則的管線階段中，選取 [部署設定]。
 
     ![[部署設定] 按鈕的螢幕擷取畫面，其位於每個部署管線階段的右上角。](media/deployment-pipelines-get-started/deployment-settings.png)
 
@@ -127,7 +149,7 @@ ms.locfileid: "86557248"
 
     [![顯示選取資料集以建立資料集規則的螢幕擷取畫面。](media/deployment-pipelines-get-started/dataset-rules.png)](media/deployment-pipelines-get-started/dataset-rules.png#lightbox)
 
-3. 選取您要建立的規則類型、展開清單，然後按一下 [新增規則]。
+3. 選取您要建立的規則類型，展開清單，然後選取 [新增規則]。
 
      [![顯示選取 [資料來源規則] 並按一下 [新增規則] 選項的螢幕擷取畫面。](media/deployment-pipelines-get-started/add-rule.png)](media/deployment-pipelines-get-started/add-rule.png#lightbox)
 
@@ -139,7 +161,7 @@ ms.locfileid: "86557248"
 
     1. 從清單中選取。
 
-    2. 按一下 [其他]，然後手動新增新的資料來源。 您只能變更為相同類型的資料來源。
+    2. 選取 [其他]，然後手動新增新的資料來源。 您只能變更為相同類型的資料來源。
 
 * **參數規則** 從參數清單中選取參數，隨即顯示目前的值。 將值編輯為您想要在每個部署之後生效的值。
 
@@ -153,7 +175,7 @@ ms.locfileid: "86557248"
 
 * 如果規則中定義的資料來源或參數已變更或從來源資料集移除，此規則將會是無效的，且部署將會失敗。
 
-* 無法針對類型為 *Any* 或 *Binary* 的參數定義參數規則。 如需詳細資訊，請參閱[資料集更新參數限制](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparameters) \(英文\)。
+* 無法針對類型為 *Any* 或 *Binary* 的參數定義參數規則。 如需詳細資訊，請參閱[資料集更新參數限制](/rest/api/power-bi/datasets/updateparameters) \(英文\)。
 
 * 只能針對下列資料來源定義資料來源規則：
     * Azure Analysis 服務
@@ -172,7 +194,7 @@ ms.locfileid: "86557248"
 
 在管線階段中有內容之後，您就可以將其部署至下一個階段。 當您已經在管線中執行某些動作之後，通常會將內容部署至另一個階段。 例如，對開發階段中的內容進行開發變更，或對測試階段中的內容進行測試。 在階段之間移動內容的一般工作流程是從測試至開發，然後從測試至生產。 您可以在[將內容部署到現有的工作區](deployment-pipelines-process.md#deploy-content-to-an-existing-workspace)一節中深入了解此程序。
 
-若要將內容部署到部署管線中的下一個階段，請按一下階段底部的 [部署] 按鈕。
+若要將內容部署到部署管線中的下一個階段，請選取階段底部的 [部署] 按鈕。
 
 當您檢閱 [測試] 與 [生產] 階段卡片時，您可以看到上次的部署時間。 這表示上次將內容部署至階段的時間。
 

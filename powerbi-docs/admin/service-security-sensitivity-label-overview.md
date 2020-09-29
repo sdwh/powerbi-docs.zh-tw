@@ -6,36 +6,50 @@ manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-eim
 ms.topic: how-to
-ms.date: 08/10/2020
+ms.date: 08/16/2020
 ms.author: painbar
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4d719d7df5b982341b6377c41e448267197e769b
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 00089c6ba2b2af5a6334fac07fd3991f5201cb44
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049224"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854199"
 ---
 # <a name="sensitivity-labels-in-power-bi"></a>Power BI 中的敏感度標籤
 
-本文描述 Power BI 中 [Microsoft 資訊保護敏感度標籤](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide)的功能。 如需如何將敏感度標籤套用到 Power BI 報表、儀表板、資料集和資料流程的資訊，請參閱[如何在 Power BI 中套用敏感度標籤](./service-security-apply-data-sensitivity-labels.md)。 如需在租用戶上啟用敏感度標籤的資訊，請參閱[在 Power BI 中啟用資料敏感度標籤](service-security-enable-data-sensitivity-labels.md)。
+本文描述 Power BI 中 Microsoft 資訊保護敏感度標籤的功能。
+
+如需在租用戶上啟用敏感度標籤的資訊，包括授權需求和必要條件，請參閱[在 Power BI 中啟用資料敏感度標籤](service-security-enable-data-sensitivity-labels.md)。
+
+如需如何將敏感度標籤套用到 Power BI 報表、儀表板、資料集和資料流程的資訊，請參閱[如何在 Power BI 中套用敏感度標籤](./service-security-apply-data-sensitivity-labels.md)。
+
+## <a name="introduction"></a>簡介
 
 Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式，讓使用者分類 Power BI 中的重要內容，而不會影響生產力或共同作業的能力。
 
-敏感度標籤可套用在資料集、報表、儀表板和資料流程上。 當資料從 Power BI 匯出到 Excel、PowerPoint 或 PDF 檔案時，Power BI 會自動在匯出的檔案上套用敏感度標籤，並根據標籤的檔案加密設定保護檔案。 透過這種方式，敏感性資料便會維持在受保護的狀態，無論其所在的位置為何。
+敏感度標籤可套用至資料集、報表、儀表板和資料流程上。 當標記的資料離開 Power BI 時，不論是匯出為 Excel、PowerPoint 或 PDF 檔案，還是透過其他支援的匯出情境 (例如 [使用 Excel 分析]，或 Excel 中的即時連線 PivotTables)，Power BI 會自動將標籤套用至匯出的檔案，並根據標籤的檔案加密設定加以保護。 透過這種方式，敏感性資料便會維持在受保護的狀態，無論其所在的位置為何。
 
-在 Power BI 報表、儀表板、資料集和資料流程上套用的敏感度標籤可在 Power BI 服務中的許多位置看見。 報表和儀表板上的敏感度標籤也可在 Power BI iOS 和 Android 行動裝置應用程式，以及在內嵌的視覺效果中顯示。
+報表、儀表板、資料集和資料流程上的敏感度標籤，可在 Power BI 服務中的許多位置看見。 報表和儀表板上的敏感度標籤也可在 Power BI iOS 和 Android 行動裝置應用程式，以及在內嵌的視覺效果中顯示。
 
-您可在 Power BI 管理入口網站中取得的[保護計量報表](service-security-data-protection-metrics-report.md)可讓 Power BI 系統管理員完整地查看 Power BI 租用戶中的敏感性資料。 此外，Power BI 稽核記錄也包含套用、移除和變更標籤等活動的敏感度標籤資訊，以及像是檢視、報表、儀表板等的活動，可讓 Power BI 和安全性系統管理員查看敏感性資料取用，以進行監視、調查和安全性警示。
+您可在 Power BI 管理入口網站中取得的[保護計量報表](service-security-data-protection-metrics-report.md)可讓 Power BI 系統管理員完整地查看 Power BI 租用戶中的敏感性資料。 此外，Power BI 稽核記錄也包含敏感度標籤的活動資訊，例如套用、移除和變更標籤，以及檢視報表、儀表板等的活動，如此 Power BI 和安全性的系統管理員即可查看敏感性資料的取用狀況，以便監控和調查安全性警示。
 
 ## <a name="important-considerations"></a>重要考量
 
-敏感度標籤**不會**影響對 Power BI 內容的存取，存取 Power BI 中的內容僅透過 Power BI 權限進行管理。 顯示標籤時，不會套用任何相關聯的加密設定 (在 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內設定)。 這些設定僅適用於匯出至 Excel、PowerPoint 和 PDF 檔案的資料。
+敏感度標籤**不會**影響對 Power BI 內容的存取，存取 Power BI 中的內容僅透過 Power BI 權限進行管理。 顯示標籤時，不會套用任何相關聯的加密設定 (在 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內設定)。 套用範圍僅限於透過匯出為 Excel、PowerPoint 或 PDF 檔案的方式，或其他支援的匯出路徑而離開 Power BI 的資料。
 
-在匯出至 Excel、PowerPoint 和 PDF 以外的任何匯出路徑中，**不會**套用敏感度標籤和檔案加密。 Power BI 租用戶系統管理員可停用任何或所有不支援套用和其相關聯檔案加密設定的匯出路徑。
+敏感度標籤和檔案加密**不**適用於不受支援的匯出路徑。 Power BI 租用戶管理員可以禁止從不受支援的匯出路徑匯出：
 
 >[!NOTE]
 > 除非[資料列層級安全性 (RLS)](./service-admin-rls.md) 限制其存取，否則獲得授與存取報表的使用者也能夠存取整個基礎資料集。 報表作者可使用敏感度標籤分類和為報表加上標籤。 若敏感度標籤具有保護設定，當將報表資料匯出到 Excel、PowerPoint 或 PDF 檔案時，Power BI 即會套用這些保護設定。 只有授權的使用者可開啟受保護檔案。
+
+## <a name="supported-export-paths"></a>支援的匯出路徑
+在離開 Power BI 的資料上套用敏感度標籤及其相關的保護措施，目前可支援以下匯出路徑：
+* 匯出為 Excel、PowerPoint 和 PDF 檔案。
+* Power BI 服務中的 [使用 Excel 分析]，會即時連線至 Power BI 資料集，觸發下載 Excel 檔案。
+* Excel 中即時連線到 Power BI 資料集的 PivotTable，適用於 M365 E3 和更新版本的使用者。 
+
+
 
 ## <a name="how-sensitivity-labels-work-in-power-bi"></a>敏感度標籤在 Power BI 中的運作方式
 
@@ -48,9 +62,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 ![顯示敏感度標籤應用及保存的動畫 GIF](media/service-security-sensitivity-label-overview/ApplyLabelandProtection.gif)
 
-在 Microsoft Office 應用程式中，敏感度標籤在電子郵件或文件上會顯示為標籤，與上圖中顯示的內容類似。
-
-您也可以指派內容分類 (例如貼紙)，使其得以隨使用及共用的內容在整個 Power BI 中保存及漫遊。 您可使用此分類產生使用量報告，並查看敏感性內容的活動資料。 根據此資訊，您隨時可以選擇稍後套用保護設定。
+您套用至內容的敏感度標籤在 Power BI 中使用與共用時，會隨著內容一起保存和漫遊。 您可使用標記來產生使用情況報表，並查看敏感性內容的活動資料。
 
 ## <a name="sensitivity-label-inheritance-upon-creation-of-new-content"></a>敏感度標籤繼承會在建立新內容時發生
 
@@ -71,7 +83,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 
 將資料匯出至 .csv、.pbix 檔案或任何其他匯出路徑時，不會套用敏感度標籤和保護。
 
-將敏感度標籤和保護套用至匯出的檔案，並不會將內容標記新增至該檔案。 不過，如果標籤已設定成要套用內容標記，那麼當檔案在 Office 傳統型應用程式中開啟時，Azure 資訊保護的統一標籤用戶端就會自動套用標記。 當您針對傳統型、行動裝置或 Web 應用程式使用內建標籤時，不會自動套用內容標示。 如需詳細資料，請參閱 [Office 應用程式何時套用內容標示和加密](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)。
+將敏感度標籤和保護套用至匯出的檔案，並不會將內容標記新增至該檔案。 不過，如果標籤已設定成要套用內容標記，那麼當檔案在 Office 傳統型應用程式中開啟時，Azure 資訊保護的統一標籤用戶端就會自動套用標記。 當您針對傳統型、行動裝置或 Web 應用程式使用內建標籤時，不會自動套用內容標示。 如需詳細資料，請參閱 [Office 應用程式何時套用內容標示和加密](/microsoft-365/compliance/sensitivity-labels-office-apps?view=o365-worldwide#when-office-apps-apply-content-marking-and-encryption)。
 
 如果將資料匯出至檔案時無法套用標籤，則匯出會失敗。 若要檢查匯出是否因無法套用標籤而失敗，請按一下標題列中央的報表或儀表板名稱，並在開啟的資訊下拉式清單中查看其是否顯示「無法載入敏感度標籤」。 如果套用的標籤已由安全性系統管理員解除發佈或刪除，或發生暫時性的系統問題，就可能發生這種情況。
 
@@ -118,7 +130,7 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 若要存取任一中心的敏感度標籤，請巡覽至 [分類] > [敏感度標籤]。 這些敏感度標籤可供多項 Microsoft 服務使用，例如 Azure 資訊保護、Office 應用程式和 Office 365 服務。
 
 >[!Important]
-> 如果您的組織使用 Azure 資訊保護的敏感度標籤，您必須將其[移轉](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)至前列服務之一，才能在 Power BI 中使用這些標籤。
+> 如果您的組織使用 Azure 資訊保護的敏感度標籤，您必須將其[移轉](/azure/information-protection/configure-policy-migrate-labels)至前列服務之一，才能在 Power BI 中使用這些標籤。
 
 ## <a name="limitations"></a>限制
 
@@ -127,8 +139,8 @@ Microsoft 資訊保護敏感度標籤可為使用者提供一種簡單的方式�
 * 敏感度標籤只能套用到儀表板、報表、資料集與資料流程。 目前不適用於[編頁報表](../paginated-reports/report-builder-power-bi.md)與活頁簿。
 * Power BI 資產的敏感度標籤會顯示在工作區清單、譜系、我的最愛、最近項目或應用程式檢視中；目前不會顯示在 [與我共用] 檢視中。 但請注意，即使看不見套用至 Power BI 資產的標籤，其也一律保存在匯出至 Excel、PowerPoint 與 PDF 檔案的資料上。
 * 範本應用程式不支援資料敏感度標籤。 擷取與安裝應用程式時，會移除範本應用程式建立者設定的敏感度標籤，而當應用程式更新時，由應用程式取用者新增到已經安裝之範本應用程式的成品中的敏感度標籤會遺失 (重設為不加任何標籤)。
-* Power BI 不支援[不可轉寄](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)、[使用者定義](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)及 [HYOK](https://docs.microsoft.com/azure/information-protection/configure-adrms-restrictions) 保護類型的敏感度標籤。 「不可轉寄」和「使用者定義」保護類型指的是 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內定義的標籤。
-* 不建議讓使用者在 Power BI 內套用父標籤。 如果將父標籤套用到內容，則將資料從該內容匯出至檔案 (Excel、PowerPoint 和 PDF) 的作業就會失敗。 請參閱[子標籤 (分組標籤)](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)。
+* Power BI 不支援[不可轉寄](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)、[使用者定義](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)及 [HYOK](/azure/information-protection/configure-adrms-restrictions) 保護類型的敏感度標籤。 「不可轉寄」和「使用者定義」保護類型指的是 [Microsoft 365 安全性中心](https://security.microsoft.com/)或 [Microsoft 365 合規性中心](https://compliance.microsoft.com/)內定義的標籤。
+* 不建議讓使用者在 Power BI 內套用父標籤 (標籤只有在具有子標籤時才會視為父標籤)。 如果將父標籤套用到內容，則將資料從該內容匯出至檔案 (Excel、PowerPoint 和 PDF) 的作業就會失敗。 請參閱[子標籤 (分組標籤)](/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide#sublabels-grouping-labels)。
 
 ## <a name="next-steps"></a>後續步驟
 

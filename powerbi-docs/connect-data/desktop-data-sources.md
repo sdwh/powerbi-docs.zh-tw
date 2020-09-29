@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e64ca5c94b180cf98cf8d8992681861281ca2ae
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: 56825599a6b566a93f18e6fea16d995dc8bdda8f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160387"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020036"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Power BI Desktop 中的資料來源
 
@@ -95,12 +95,13 @@ ms.locfileid: "88160387"
 * Denodo
 * Dremio
 * Exasol
-* Indexima (搶鮮版 (Beta))
+* Indexima
 * InterSystems IRIS (搶鮮版 (Beta))
 * Jethro (搶鮮版 (Beta))
 * Kyligence
 * Linkar PICK Style / MultiValue Databases (搶鮮版 (Beta))
 * MarkLogic
+* MariaDB (搶鮮版 (Beta))
 
 > [!NOTE]
 > 某些資料庫連接器的啟用方式為選取 **[檔案] > [選項和設定] > [選項]** ，然後選取 [預覽功能] 並啟用該連接器。 如果您沒有看到上述連接器，但想要加以使用，請檢查您的 [預覽功能] 設定。 亦請注意，任何標示為 *Beta* 或「預覽」的資料來源，受到的支援和功能都有限制，不應該用在生產環境。
@@ -127,7 +128,7 @@ ms.locfileid: "88160387"
 [Azure]  類別提供下列資料連線：
 
 * Azure SQL Database
-* Azure SQL 資料倉儲
+* Azure Synapse Analytics (SQL DW)
 * Azure Analysis Services 資料庫
 * 適用於 PostgreSQL 的 Azure 資料庫
 * Azure Blob 儲存體
@@ -139,9 +140,9 @@ ms.locfileid: "88160387"
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight 互動式查詢
-* Azure 資料總管 (Kusto)
 * Azure 成本管理
 * Azure 時間序列深入解析 (Beta)
+* Azure Databricks
 
 
 下圖顯示 [Azure]  的 [取得資料] 視窗。
@@ -194,8 +195,10 @@ ms.locfileid: "88160387"
 * TeamDesk (搶鮮版 (Beta))
 * Webtrends 分析 (搶鮮版 (Beta))
 * Witivio (搶鮮版 (Beta))
-* 工作場所分析 (搶鮮版 (Beta))
 * Zoho Creator (搶鮮版 (Beta))
+* 工作場所分析 (搶鮮版 (Beta))
+* Hexagon PPM 智慧型 API
+
 
 下圖顯示 [線上服務] 的 [取得資料] 視窗。
 
@@ -217,29 +220,27 @@ ms.locfileid: "88160387"
 * Python 指令碼
 * ODBC
 * OLE DB
+* Acterys：模型自動化與規劃 (搶鮮版 (Beta))
+* Automation Anywhere (搶鮮版 (Beta))
 * Solver
+* Cherwell (搶鮮版 (Beta))
+* Cognite Data Fusion (搶鮮版 (Beta))
 * FHIR
 * Information Grid (搶鮮版 (Beta))
 * Jamf Pro (搶鮮版 (Beta))
+* MicroStrategy for Power BI
 * Paxata
 * QubolePresto (搶鮮版 (Beta))
 * Roamler (搶鮮版 (Beta))
 * Shortcuts 商業見解 (搶鮮版 (Beta))
 * Siteimprove (搶鮮版 (Beta))
+* SurveyMonkey 搶鮮版 (Beta)
 * Tenforce (Smart)List
 * TIBCO(R) Data Virtualization (搶鮮版 (Beta))
-* Vessel 見解 (搶鮮版 (Beta))
-* Workforce Dimensions (搶鮮版 (Beta))
-* Zucchetti HR Infinity (搶鮮版 (Beta))
-* Cognite Data Fusion (搶鮮版 (Beta))
-* MicroStrategy for Power BI
-* SurveyMonkey 搶鮮版 (Beta)
 * Vena (搶鮮版 (Beta))
-* Acterys：模型自動化與規劃 (搶鮮版 (Beta))
-* Automation Anywhere (搶鮮版 (Beta))
-* Cherwell (搶鮮版 (Beta))
+* Zucchetti HR Infinity (搶鮮版 (Beta))
+* Vessel 見解 (搶鮮版 (Beta))
 * 空白查詢
-
 
 
 
@@ -288,7 +289,7 @@ PBIDS 檔案目前在一個檔案中只支援一個資料來源。 指定一個�
 
 PBIDS 檔案不包含驗證資訊與資料表和結構描述資訊。  
 
-下列程式碼片段顯示數個常見的 PBIDS 檔案範例，但它們並不完整。 針對其他資料來源，您可以參考[資料來源參考 (DSR) 格式，以取得通訊協定和位址資訊 ](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) \(部分機器翻譯\)。
+下列程式碼片段顯示數個常見的 PBIDS 檔案範例，但它們並不完整。 針對其他資料來源，您可以參考[資料來源參考 (DSR) 格式，以取得通訊協定和位址資訊 ](/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) \(部分機器翻譯\)。
 
 這些範例只是為了方便起見，它們並不完整，而且不包含 DSR 格式的所有支援連接器。 系統管理員或組織可以使用這些範例作為指南來建立自己的資料來源，他們可以在其中建立及支援自己的資料來源檔案。
 

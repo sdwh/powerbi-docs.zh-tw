@@ -10,12 +10,12 @@ ms.date: 09/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f6527b326c2c779dda5a6d4b1c1276c84d3ec320
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642800"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857948"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -116,7 +116,7 @@ ms.locfileid: "89642800"
 當系統管理員針對其整個組織停用使用計量時，他們也可以選擇下列一或兩個選項來：
 
 - [刪除所有現有的使用計量內容] 以刪除利用使用計量報表和資料集所建置的所有現有報表和儀表板磚。 此選項會移除組織中可能已使用它之所有使用者的使用計量資料之所有存取權。
-- [刪除目前使用計量內容中所有現有的每位使用者資料]，此選項會移除組織中可能已使用它之所有使用者的所有個別使用者資料存取權。 
+- [刪除目前使用計量內容中所有現有的每位使用者資料]，以移除組織中可能已在使用它之所有使用者的所有個別使用者資料存取權。
 
 請小心，因為刪除現有使用量和個別使用者計量內容是無法復原的。
 
@@ -156,7 +156,7 @@ ms.locfileid: "89642800"
 
     ![已啟用所有設定](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **已為組織子集合啟用**：您可以將此設定套用至組織中允許使用此功能的**特定安全性群組**，而不是為整個組織啟用此功能。
+* **已為組織子集合啟用**：貴組織中的特定安全性群組可以使用這項功能。
 
     您也可以為整個組織啟用功能，但**特定安全性群組除外**。
 
@@ -172,9 +172,11 @@ ms.locfileid: "89642800"
 
 ### <a name="publish-get-help-information"></a>發佈「取得說明」資訊
 
+![發佈取得說明資訊](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
+
 管理員可以指定內部 URL，以覆寫 Power BI [說明] 功能表上的連結目的地，以及進行授權升級。 如果設定了自訂 URL，組織中的使用者就會移至內部說明和支援資源，而非預設目的地。 您可以自訂下列資源目的地：
 
-* **Learn**。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](https://docs.microsoft.com/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
+* **Learn**。 根據預設，此說明功能表連結會以[所有 Power BI 學習路徑和模組的清單](/learn/browse/?products=power-bi)為目標。 若要改為將此連結導向至內部訓練資源，請設定 [訓練文件] 的自訂 URL。
 
 * **社群**。 若要讓使用者從 [說明] 功能表前往內部論壇，而不是 [Power BI 社群](https://community.powerbi.com/) \(英文\)，請設定 [討論論壇] 的自訂 URL。
 
@@ -182,17 +184,17 @@ ms.locfileid: "89642800"
 
 * **取得說明**。 若要讓使用者從 [說明] 功能表前往內部技術支援中心，而不是 [Power BI 支援](https://powerbi.microsoft.com/support/)，請設定 [支援人員] 的自訂 URL。
 
-![發佈取得說明資訊](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
-
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>接收服務中斷或事件的電子郵件通知
 
 若此租用戶受到服務中斷或事件的影響，則擁有郵件功能的安全性群組將會收到電子郵件通知。 請深入了解[服務中斷通知](service-interruption-notifications.md)。
 
 ### <a name="allow-users-to-try-power-bi-pro"></a>允許使用者試用 Power BI Pro
 
-預設會啟用 [允許使用者試用 Power BI Pro] 的設定，可讓您提高對於使用者如何取得 Power BI Pro 授權的控制。 在您已禁止自助式購買的案例中，此設定可讓使用者開始試用 Power BI Pro。 終端使用者體驗取決於您合併授權設定的方式。 下表顯示從 Power BI (免費) 升級到 Power BI Pro 的體驗會受到不同設定組合所影響：
+![允許使用者試用 Power BI Pro 設定 UI](media/service-admin-portal/allow-pro-trial.png)
 
-| 自助式購買設定 | 允許使用者試用 Power BI Pro 設定 | 使用者經驗 |
+預設情況下，會啟用 [允許使用者試用 Power BI Pro] 的設定。 此設定可讓您進一步控制使用者取得 Power BI Pro 授權的方式。 在您已禁止自助式購買的案例中，此設定可讓使用者開始試用 Power BI Pro。 使用者體驗取決於您合併授權設定的方式。 下表顯示從 Power BI (免費) 升級到 Power BI Pro 的體驗會受到不同設定組合所影響：
+
+| 自助式購買設定 | 允許使用者試用 Power BI Pro 設定 | 使用者體驗 |
 | ------ | ------ | ----- |
 | 啟用 | 已停用 | 使用者可以購買 Pro 授權，但無法開始試用 |
 | 啟用 | 啟用 | 使用者可以開始免費試用 Pro，並可升級為付費授權 |
@@ -200,9 +202,7 @@ ms.locfileid: "89642800"
 | 已停用 | 啟用 | 使用者可以開始試用 Pro，但必須洽詢 IT 管理員以取得付費授權 |
 
 > [!NOTE]
-> 您可以在[說明及支援設定](#help-and-support-settings)中，新增內部 URL 以用於授權要求。 如果您設定 URL，其會覆寫預設購買體驗。 可在上表所述的案例中購買授權的使用者，會被重新導向至您的內部 URL。
-
-![允許使用者試用 Power BI Pro 設定 UI](media/service-admin-portal/allow-pro-trial.png)
+> 您可以在[說明及支援設定](#help-and-support-settings)中，新增內部 URL 以用於授權要求。 如果您設定 URL，其會覆寫預設的自助購買體驗， 不會重新導向至 Power BI Pro 授權試用版的註冊操作。 可在上表所述的案例中購買授權的使用者，會被重新導向至您的內部 URL。
 
 若要深入了解，請參閱[啟用或停用自助式註冊與購買](service-admin-disable-self-service.md)。
 
@@ -216,7 +216,7 @@ ms.locfileid: "89642800"
 
 ### <a name="create-the-new-workspaces"></a>建立新的工作區
 
-工作區是使用者可在儀表板、報表與其他內容上共同作業的地方。 系統管理員可以使用 [建立工作區 (新的工作區體驗)] 設定來指出組織中哪些使用者可以建立工作區。 系統管理員可讓組織中的所有人或不讓任何人建立新的工作區體驗工作區。 他們也可以限制只有特定安全性群組的成員才能建立。 深入了解[工作區](../collaborate-share/service-new-workspaces.md)。
+工作區是使用者在儀表板、報表與其他內容上共同作業的地方。 系統管理員可以使用 [建立工作區 (新的工作區體驗)] 設定來指出組織中哪些使用者可以建立工作區。 系統管理員可讓組織中的所有人或不讓任何人建立新的工作區體驗工作區。 他們也可以限制只有特定安全性群組的成員才能建立。 深入了解[工作區](../collaborate-share/service-new-workspaces.md)。
 
 :::image type="content" source="media/service-admin-portal/power-bi-admin-workspace-settings.png" alt-text="建立新的工作區體驗":::
 
@@ -237,7 +237,7 @@ ms.locfileid: "89642800"
 
 系統管理員可以控制組織中的哪些使用者能夠跨工作區使用資料集。 啟用此設定時，使用者仍然需要特定資料集的必要建置權限。
 
-:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="跨工作區使用資料集":::
+:::image type="content" source="media/service-admin-portal/power-bi-admin-datasets-workspaces.png" alt-text="建立新的工作區體驗":::
 
 如需詳細資訊，請參閱[跨工作區的資料集簡介](../connect-data/service-datasets-across-workspaces.md)。
 
@@ -253,13 +253,13 @@ ms.locfileid: "89642800"
 
 ### <a name="allow-azure-active-directory-guest-users-to-access-power-bi"></a>允許 Azure Active Directory 來賓使用者存取 Power BI
 
-啟用此設定可供 Azure Active Directory 企業對企業 (Azure AD B2B) 來賓使用者存取 Power BI。 當停用此設定時，若來賓使用者嘗試存取 Power BI，就會收到錯誤。 當針對整個組織停用此設定時，其也會防止使用者邀請來賓至組織。 使用特定安全性群組選項來控制哪些來賓使用者可存取 Power BI。
+啟用此設定可供 Azure Active Directory 企業對企業 (Azure AD B2B) 來賓使用者存取 Power BI。 如果您停用此設定，當來賓使用者嘗試存取 Power BI 時，會收到錯誤。 針對整個組織停用此設定時，也會讓使用者無法邀請來賓至組織。 使用特定安全性群組選項來控制哪些來賓使用者可存取 Power BI。
 
 ![允許 Azure Active Directory 來賓使用者存取 Power BI](media/service-admin-portal/powerbi-admin-allow-aad-b2b-guests.png)
 
 ### <a name="invite-external-users-to-your-organization"></a>邀請外部使用者到組織 
 
-[邀請外部使用者到組織] 設定可協助組織選擇是否可透過 Power BI 共用與權限體驗來邀請新的外部使用者加入組織。 當停用此設定時，若外部使用者還不是組織中的來賓使用者，則無法透過 Power BI 將其新增至組織。 
+[邀請外部使用者到組織] 設定可協助組織選擇是否可透過 Power BI 共用與權限體驗來邀請新的外部使用者加入組織。 如果設定已停用，外部使用者若不是組織中的來賓使用者，則無法透過 Power BI 將其新增至組織。
 
 ![邀請外部使用者到組織](media/service-admin-portal/powerbi-admin-allow-invite-aad-b2b-guests.png)
 
@@ -298,7 +298,7 @@ ms.locfileid: "89642800"
 
 ### <a name="export-data"></a>匯出資料
 
-組織中的使用者可以從磚或視覺效果匯出資料。 這會控制使用 Excel 分析、匯出至 .csv、資料集下載 (.pbix) 和 Power BI 服務 Live Connect 功能。 深入了解[從磚或視覺效果匯出資料](../visuals/power-bi-visualization-export-data.md)。
+組織中的使用者可以從磚或視覺效果匯出資料。 此設定可控制使用 Excel 分析、匯出為 .csv、資料集下載 (.pbix) 和 Power BI 服務 Live Connect 功能。 深入了解[從磚或視覺效果匯出資料](../visuals/power-bi-visualization-export-data.md)。
 
 >[!NOTE]
 > 在引進 [匯出至 Excel] 設定之前，這項設定也控制了將資料匯出至 Excel 檔案。 請參閱[匯出至 Excel 下方的備註](#export-to-excel)以取得詳細資料。
@@ -403,7 +403,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 在 [租用戶設定] 下，[允許連線至精選資料表] 租用戶設定可讓 Power BI 系統管理員控制組織中哪些人員可以使用 Excel 資料類型資源庫中的精選資料表。 
 
-:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="精選資料表的所有連線":::
+:::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="建立新的工作區體驗":::
 
 如果 [匯出資料] 租用戶設定設為 [停用]，則也會停用對精選資料表的連線。
 
@@ -482,25 +482,25 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 下列三項設定控制範本應用程式發佈或安裝範本應用程式的能力。
 
-![Power BI 系統管理員入口網站範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+![Power BI 管理員入口網站範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
 
 ### <a name="publish-template-apps"></a>發佈範本應用程式
 
 組織中的使用者可建立範本應用程式工作區。 控制哪些使用者可以發佈範本應用程式，或是透過 [AppSource](https://appsource.microsoft.com) 或其他散發方法，將這些應用程式散發至組織外部的用戶端。
 
-![Power BI 系統管理員入口網站，建立範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+![發佈對整個組織啟用的範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
 
 ### <a name="install-template-apps-listed-on-appsource"></a>安裝列於 AppSource 的範本應用程式
 
 組織中的使用者**只能**從 [AppSource](https://appsource.microsoft.com) 下載並安裝範本應用程式。 控制哪些特定使用者或安全性群組可以從 AppSource 安裝範本應用程式。
 
-![Power BI 管理入口網站的安裝範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
+![安裝範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-appsource.png)
 
 ### <a name="install-template-apps-not-listed-on-appsource"></a>安裝未列於 AppSource 的範本應用程式
 
 控制組織中的哪些使用者可以下載並安裝**未列於 [AppSource](https://appsource.microsoft.com)** 的範本應用程式。
 
-![Power BI 管理入口網站的安裝範本應用程式設定](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
+![安裝未列於 AppSource 設定的範本應用程式](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
 ## <a name="capacity-settings"></a>容量設定
 

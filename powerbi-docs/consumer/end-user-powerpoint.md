@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 07/01/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1153b20e77958bbecce9284add3ae7eab21cd47d
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040277"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90764279"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -26,8 +26,8 @@ ms.locfileid: "89040277"
 
 * Power BI 報表中每個頁面都會變成 PowerPoint 的個別投影片。
 * Power BI 報表中每個頁面都會匯出成 PowerPoint 中的單一高解析度影像。
-* 您可以保留新增至報表的篩選和交叉分析篩選器設定。
-* PowerPoint 中會建立連結至 Power BI 報表的連結。
+* 您可以保留新增至報表的篩選條件和交叉分析篩選器設定。
+* PowerPoint 中會建立連結回 Power BI 報表的連結。
 
 將 **Power BI 報表**匯出到 **PowerPoint** 的程序非常簡單快速。 請遵循下一節中概述的步驟。
 
@@ -48,7 +48,7 @@ ms.locfileid: "89040277"
 
 ![選取要匯出的項目](media/end-user-powerpoint/power-bi-current-values.png)
  
-另外，還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。 如果您只要在瀏覽器中匯出可看見的報表索引標籤，請選取此核取方塊。 如果您希望在匯出過程中取得所有隱藏索引標籤，請不要選取此核取方塊。 如果核取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。 工具提示索引標籤即為其中一個隱藏的索引標籤範例。[自訂工具提示](../create-reports/desktop-tooltips.md)是由報表「設計師」所建立，且不會在「取用者」的 Power BI 服務中顯示為報表索引標籤。 
+另外，還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。 如果您只要在瀏覽器中匯出可看見的報表索引標籤，請選取此核取方塊。 如果您希望在匯出過程中取得所有隱藏索引標籤，請不要選取此核取方塊。 如果核取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。 工具提示索引標籤即為其中一個隱藏的索引標籤範例。[自訂工具提示](../create-reports/desktop-tooltips.md)是由報表「設計師」所建立，且不會在「商務使用者」的 Power BI 服務中顯示為報表索引標籤。 
 
 您也可以按一下 [僅匯出目前頁面] 選項，只匯出報表中您目前正在檢視的頁面。  根據預設，系統會取消選取此選項，而且會從您的報表匯出所有頁面。
 
@@ -76,7 +76,7 @@ ms.locfileid: "89040277"
 
 
 3. 每張報表頁面都是一張個別的投影片，如導覽窗格中所示。 
-4. 已發行的報表會根據您 Power BI 設定中的語言來進行轉譯，否則會根據您的瀏覽器地區設定來進行轉譯。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。 如需地區設定的資訊，請參閱 [Power BI 支援的語言與國家或地區](../fundamentals/supported-languages-countries-regions.md)。
+4. 已發行的報表會根據您 Power BI 設定中的語言來進行轉譯，否則會根據您的瀏覽器地區設定來進行轉譯。 若要在您的瀏覽器中查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。 如需地區設定的資訊，請參閱 [Power BI 支援的語言與國家或地區](../fundamentals/supported-languages-countries-regions.md)。
 
 
 當您檢視個別投影片時，您會發現每個報表頁面都是一個獨立的影像。 您無法在 PowerPoint 中捲動，因為每張投影片都是一個靜態影像。
@@ -110,8 +110,8 @@ ms.locfileid: "89040277"
     - 花費超過一小時的時間來處理的報表。 
     - 載入時間超過 6 分鐘的報表頁面。 
 
-* 如果 Power BI 服務中沒有 [匯出至 PowerPoint] 功能表項目，可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
-* Power BI 服務會使用您的 Power BI 語言設定作為 PowerPoint 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。
+* 如果 Power BI 服務中沒有 [匯出至 PowerPoint] 功能表項目，可能是因為租用戶系統管理員或報表擁有者停用此功能。 如需詳細資訊，請連絡您的租用戶系統管理員或擁有者。
+* Power BI 服務會使用您的 Power BI 語言設定作為 PowerPoint 的輸出語言。 若要在您的瀏覽器中查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。
 
 
 

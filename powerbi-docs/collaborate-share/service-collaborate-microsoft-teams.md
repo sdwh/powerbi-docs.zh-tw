@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Teams 中使用 Power BI 共同作業
-description: 您可輕鬆地與 Microsoft Teams 頻道和聊天室中的互動式 Power BI 內容共用和共同作業。
+description: 隨著分散式工作人員成為常態，越來越多組織依賴 Microsoft Teams，以啟用遠端作業，並讓員工保持同步。
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,23 +9,24 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 07/31/2020
-ms.openlocfilehash: 01e5b470e0beb189d64da18785a17e771bcaf59b
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.date: 09/15/2020
+ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
+ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478030"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91005483"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>在 Microsoft Teams 中使用 Power BI 共同作業
 
-隨著分散式和遠端工作人員成為常態，越來越多組織依賴 Microsoft Teams 使員工保持同步。Power BI 提供數個選項，以供共用 Microsoft Teams 頻道和聊天室中的互動式 Power BI 內容並對其進行共同作業。 
+隨著分散式工作人員成為常態，越來越多組織依賴 Microsoft Teams，以啟用遠端作業，並讓員工保持同步。本文會介紹數種可與 Microsoft Teams 頻道和聊天室中的互動式 Power BI 內容共用和共同作業的選項。 
 
-- 使用 Microsoft Teams 的 [Power BI] 索引標籤，即可[在 Microsoft Teams 頻道和聊天中內嵌互動式報表](service-embed-report-microsoft-teams.md)。 [Power BI] 索引標籤可協助同事尋找小組資料，並討論小組頻道內的資料。 
+- 使用 Microsoft Teams 的 [Power BI] 索引標籤，即可在 Microsoft Teams 頻道和聊天中[內嵌互動式報表](service-embed-report-microsoft-teams.md)。 [Power BI] 索引標籤可協助同事尋找小組資料，並討論小組頻道內的資料。 
 - 當將報表、儀表板和應用程式的連結貼到 Microsoft Teams 訊息方塊時，請建立[連結預覽](service-teams-link-preview.md)。 連結預覽會顯示連結的相關資訊。 
-- 在 Power BI 服務中檢視報表和儀表板時，使用 [共用至 Teams](service-share-report-teams.md)，即可在小組中快速開始交談。
+- 在 Power BI 服務中檢視報表和儀表板時，使用 [[分享到 Microsoft Teams](service-share-report-teams.md)]，即可在 Microsoft Teams 中快速開始交談。
+- 可使用 [Microsoft Teams 中的 Power BI 應用程式](service-microsoft-teams-app.md)將基本的 Power BI 服務整體帶入 Microsoft Teams。
  
-:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="內嵌在 Teams 頻道中的 Power B I 報表螢幕擷取畫面。":::
+:::image type="content" source="media/service-collaborate-microsoft-teams/power-bi-embed-teams-report.png" alt-text="內嵌在 Microsoft Teams 頻道中的 Power B I 報表螢幕擷取畫面。":::
 
 ## <a name="requirements"></a>需求
 
@@ -55,6 +56,15 @@ ms.locfileid: "87478030"
 - 儲存索引標籤之後，即無法透過索引標籤設定來變更索引標籤名稱。 請使用 [重新命名] 選項加以變更。
 - 連結預覽服務不支援單一登入。
 - 連結預覽在會議聊天或私人頻道中無法使用。
+
+## <a name="microsoft-power-platform-in-microsoft-teams"></a>Microsoft Teams 中的 Microsoft Power Platform
+
+其他 Microsoft Power Platform 應用程式也會與 Microsoft Teams 整合。
+
+- [Power Platform 管理員體驗](/power-platform/admin/about-teams-environment) (英文)
+- [Power Automate](/power-automate/teams/overview)
+- [Power Apps](/powerapps/teams/overview)
+- [Power Virtual Agents](/power-virtual-agents/)
 
 ## <a name="next-steps"></a>後續步驟
 

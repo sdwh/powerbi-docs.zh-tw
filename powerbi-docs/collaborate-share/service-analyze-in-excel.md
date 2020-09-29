@@ -7,15 +7,15 @@ ms.custom: contperfq4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/26/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 1605e6108b990c95a995eadd9a6b3d03260001f5
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 845fb523e9045e7a1062d11eebbb5e34bcc29ce3
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937485"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020059"
 ---
 # <a name="analyze-in-excel"></a>在 Excel 中進行分析
 透過 [使用 Excel 分析]，即可將 Power BI 資料集帶入 Excel 中，然後使用樞紐分析表、圖表、交叉分析篩選器和其他 Excel 功能加以查看並進行互動。 若要使用 [使用 Excel 分析]，則必須先從 Power BI 下載此功能、加以安裝，然後選取要在 Excel 中使用的一或多個資料集。 
@@ -92,6 +92,15 @@ ms.locfileid: "88937485"
     >![啟用編輯橫幅其 [受保護的檢視] 的螢幕擷取畫面](media/service-analyze-in-excel/protected-view-enable-editing-banner.png)
     >
     >![啟用內容橫幅其 [信任的文件] 的螢幕擷取畫面](media/service-analyze-in-excel/trusted-document-enable-content-banner.png)
+
+在 Excel 中使用樞紐分析表來分析 Power BI 時，Power BI 會將敏感度標籤的繼承延伸至 Excel。 當您在 Excel 中建立樞紐分析表時，Power BI 資料集上套用的敏感度標籤會自動套用至 Excel 檔案。 
+
+如果資料集上的標籤隨後變更為更嚴格的標籤，則在 Excel 中重新整理資料時，會自動更新套用至 Excel 檔案的標籤。 如果資料集的變更變得較不嚴格，則不會發生標籤繼承或更新。
+
+資料集的標籤不會自動覆寫在 Excel 中手動設定的敏感度標籤。 如果 Excel 檔案具有手動設定的敏感度標籤，則會出現原則提示，提供升級標籤的建議。 
+
+如需詳細資訊，請參閱[如何在 Power BI 中套用敏感度標籤](../admin/service-security-apply-data-sensitivity-labels.md)。
+
 
 ## <a name="use-excel-to-analyze-the-data"></a>使用 Excel 分析資料
 
@@ -177,4 +186,4 @@ Excel 檔案的 MSOLAP 連接字串會連接到您在 Power BI 中資料集。 �
 * [使用 Power BI Desktop 交叉分析篩選器](../visuals/power-bi-visualization-slicers.md)
 * [對 [使用 Excel 分析] 進行疑難排解](desktop-troubleshooting-analyze-in-excel.md)
 * [在 Excel 中存取 Power BI 的精選資料表 (預覽)](service-excel-featured-tables.md)。
-
+* [如何在 Power BI 中套用敏感度標籤](../admin/service-security-apply-data-sensitivity-labels.md)

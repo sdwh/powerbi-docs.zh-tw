@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/14/2020
+ms.date: 09/17/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 612fa923f45b427cb9c4fea4ecc1b18ad8580004
-ms.sourcegitcommit: 376ea86f69545444f975378cbf63e54c2f75faa3
+ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90084022"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90854360"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>使用私人連結存取 Power BI
 
@@ -158,7 +158,7 @@ ms.locfileid: "90084022"
     |大小 | 保留預設值 [標準 DS1 v2] |
     |系統管理員帳戶 ||
     |使用者名稱 |輸入所選的使用者名稱 |
-    |密碼 | 輸入您選擇的密碼。 密碼長度至少必須有 12 個字元，且符合[定義的複雜度需求](https://docs.microsoft.com/azure/virtual-machines/windows/faq?toc=/azure/virtual-network/toc.json#what-are-the-password-requirements-when-creating-a-vm) |
+    |密碼 | 輸入您選擇的密碼。 密碼長度至少必須有 12 個字元，且符合[定義的複雜度需求](/azure/virtual-machines/windows/faq#what-are-the-password-requirements-when-creating-a-vm) |
     |確認密碼 | 再次輸入密碼 |
     |輸入連接埠規則 ||
     |公用輸入連接埠 | 保留預設值 [無] |
@@ -284,6 +284,7 @@ ms.locfileid: "90084022"
 * 使用私人連結環境時，將無法使用任何外部映像或主題，且可能會影響自訂視覺效果
 * 使用私人連結環境時，將無法使用匯出服務 (例如 [匯出至 PDF]、[從報表匯出至 Excel] 以及其他匯出服務)
 * SQL Server Reporting Services 報表，即 RDL 檔案(*.rdl 格式檔案) 無法在私人連結環境中進行轉譯
+* 如果已停用網際網路存取，而且資料集或資料流程已連線到 Power BI 資料集或資料流程做為資料來源，連線會失敗
 
 
 ## <a name="next-steps"></a>後續步驟

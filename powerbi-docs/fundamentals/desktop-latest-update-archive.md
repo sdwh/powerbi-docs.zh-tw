@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/12/2020
+ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d8b98afff55c830a1ce3fadd39c11b4cf98036a8
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: 99ee50db33d549d33347c9ceedfe9084f0dbe01f
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578189"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020105"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -37,6 +37,88 @@ ms.locfileid: "88578189"
 您也可以從頭開始觀賞 [最新更新] 視訊 (位於本文中)，方法是按一下更新清單下方視訊影像的 [播放] 圖示。
 
 下列章節說明 **Power BI Desktop** 前幾個月的更新。
+
+
+
+## <a name="august-2020-update-2844610"></a>2020 年 8 月更新 (2.84.461.0)
+
+8 月的 Power BI Desktop 更新，充滿了魅力無窮的的新功能。 
+
+您可以從[下載中心](https://www.microsoft.com/download/details.aspx?id=58494)取得最新版本的 Power BI Desktop。 如果您執行的是 Windows 10，您也可以從 [Microsoft Store](https://aka.ms/pbidesktopstore) 取得 Power BI Desktop。 無論您用何種方式安裝 Power BI Desktop，雖然版本編號各不相同，但每月版本都相同。 如需下載與安裝 Power BI Desktop 的詳細資訊，請參閱[取得 Power BI Desktop](desktop-get-the-desktop.md)。 
+
+> [!IMPORTANT]
+> Power BI Desktop 會每月更新及釋出，並納入客戶意見反應與新功能。 僅支援最新版本的 Power BI Desktop；系統會要求連絡 Power BI Desktop 支援人員的客戶升級至最新版本。 您可從 [Windows Store](https://aka.ms/pbidesktopstore) 取得最新版本的 Power BI Desktop，或作為單一可執行檔，其中包含所[下載](https://www.microsoft.com/download/details.aspx?id=58494)及安裝在電腦上的所有支援語言。
+
+Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯：
+
+* \[部落格\]：大多數功能都會在每月更新之部落格文章中的某一節中說明。
+* \[影片\]：某些功能會有討論該功能的影片摘錄，這會在新的瀏覽器索引標籤中播放。
+* \[文章\]：某些功能會有能提供詳細資料的文章。
+* 剩下的功能一目了然，不需要文章或影片加以說明。
+
+您也可以觀看完整的 [Power BI Desktop 每月更新影片](#power-bi-desktop-monthly-update-video)。
+
+> [!IMPORTANT]
+> 2021 年 1 月 31 日之後，Windows 7 將不再支援 Power BI Desktop。 在該日期之後，Windows 8 或更新版本的 Windows 會支援 Power BI Desktop，但僅限於最新版本的 Power BI Desktop。 
+
+以下是本月 Power BI Desktop 新增的更新：
+
+
+### <a name="reporting"></a>報告
+* 支援檢視方塊的個人化視覺效果 (預覽) [[影片]](https://youtu.be/TPsV7N4bZZg?t=15) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Perspectives) (英文) 
+* 使用矩形套索選取資料點 (預覽) [[影片]](https://youtu.be/TPsV7N4bZZg?t=448) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Data_point) (英文) 
+* 已將動態格式支援新增至更多視覺效果 [[影片]](https://youtu.be/TPsV7N4bZZg?t=715) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_dynamic_formatting) (英文) 
+
+
+### <a name="analytics"></a>分析
+* 問與答支援 DirectQuery [[影片]](https://youtu.be/TPsV7N4bZZg?t=926) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Direct_Query) (英文) 
+
+
+### <a name="visuals"></a>視覺效果
+* 各家公司的多種新視覺效果 [[影片]](https://youtu.be/TPsV7N4bZZg?t=956) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Visualizations) (英文)
+* ArcGIS Maps 的更新 [[影片]](https://youtu.be/TPsV7N4bZZg?t=1096) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_ArcGIS) (英文)
+* 擴充 AppSource 視覺效果的管理功能 [[影片]](https://youtu.be/TPsV7N4bZZg?t=1135) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Admin) (英文)
+
+
+### <a name="template-apps"></a>範本應用程式
+* 適用於 Dynamics 365 的 Agile CRM 分析 [[影片]](https://youtu.be/TPsV7N4bZZg?t=1300) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_CRM) (英文)
+
+
+### <a name="data-preparation"></a>資料準備
+* Text/CSF 範例 (預覽) [[影片]](https://youtu.be/TPsV7N4bZZg?t=1335) (英文) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_text_csv) (英文) 
+
+### <a name="data-connectivity"></a>資料連線
+* Cherwell 連接器 [[影片]](https://youtu.be/TPsV7N4bZZg?t=1392) (英文) [[文章]](../create-reports/desktop-external-tools.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Cherwell_connector) (英文) 
+
+* Automation Anywhere 連接器 [[影片]](https://youtu.be/TPsV7N4bZZg?t=1414) (英文) [[文章]](../create-reports/desktop-external-tools.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Auto_connector) (英文) 
+
+* Acterys 連接器 [[影片]](https://youtu.be/TPsV7N4bZZg?t=1434) (英文) [[文章]](../create-reports/desktop-external-tools.md) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/#_Acterys_connector) (英文) 
+
+
+如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-desktop-august-2020-feature-summary/)。
+
+請查看 [Power BI 服務新功能](service-whats-new.md)及 [Power BI 行動裝置應用程式新功能](../consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)。
+
+> [!NOTE]
+> 請參閱 [Power BI Desktop 可用的資料來源](../connect-data/desktop-data-sources.md)。 我們的清單會持續增加，因此請經常回來查看。
+
+
+### <a name="power-bi-desktop-monthly-update-video"></a>Power BI Desktop 每月更新影片
+下列影片會分別描述這些更新。 您也可以在部落格文章中觀賞這段影片：
+
+> [!VIDEO https://www.youtube.com/embed/TPsV7N4bZZg]
+
+如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
+
+* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
+* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
+* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
+* 我們只會封存英文版 Power BI Desktop。
+
+請選取下列連結以下載這個較早的版本： 
+
+* [2020 年 8 月版本的 Power BI Desktop - 32 位元](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-08.exe)
+* [2020 年 8 月版本的 Power BI Desktop - 64 位元](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-08_x64.exe)
 
 
 ## <a name="july-2020-update-2835894661"></a>2020 年 7 月更新 (2.83.5894.661)
@@ -419,7 +501,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="modeling"></a>模型化
-* 新的 DAX 函式：COALESCE [[影片]](https://youtu.be/DMjvJGGB_LQ?t=830) [[文章]](https://docs.microsoft.com/dax/coalesce-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
+* 新的 DAX 函式：COALESCE [[影片]](https://youtu.be/DMjvJGGB_LQ?t=830) [[文章]](/dax/coalesce-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2020-feature-summary/#_New_DAX_function
 ) 
 
 ### <a name="visuals"></a>視覺效果
@@ -503,7 +585,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 
 ### <a name="modeling"></a>模型化
-* 新的 DAX 函式：FirstNonBlankValue、LastNonBlankValue [[影片]](https://youtu.be/TN61JvbUAxk?t=716) [[文章]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
+* 新的 DAX 函式：FirstNonBlankValue、LastNonBlankValue [[影片]](https://youtu.be/TN61JvbUAxk?t=716) [[文章]](/dax/firstnonblankvalue-function-dax) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>視覺效果
 * 新的自訂視覺效果 [[影片]](https://youtu.be/TN61JvbUAxk?t=835) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
@@ -539,17 +621,6 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 > [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
 
-如果組織需要，您也可以下載先前版本的 Power BI Desktop。 強烈建議您使用最新版的 Power BI Desktop，不要使用舊版本。 所有舊版本都有下列限制：
-
-* 不針對舊版 Power BI Desktop 提供服務 - 您應該一律採用最新版本以獲得最新功能和更新。
-* 可能無法使用舊版 Power BI Desktop 開啟使用較新版 Power BI Desktop 建立或儲存的檔案。 
-* 如果您在載入使用較新版 Power BI Desktop 儲存的報表時收到一則警告，然後使用舊版儲存該報表，您將會遺失任何與新功能有關的資訊。
-* 我們只會封存英文版 Power BI Desktop。
-
-請選取下列連結以下載這個較早的版本： 
-
-* [Power BI Desktop - 32 位元 2020 年 2 月版本](https://download.microsoft.com/download/3/C/0/3C0A5D40-85C6-4959-BB51-3A2087B18BCA/PBIDesktopRS.msi)
-* [Power BI Desktop - 64 位元 2020 年 2 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup_x64.exe)
 
 
 ## <a name="december-2019-update-2765678661"></a>2019 年 12 月更新 (2.76.5678.661)

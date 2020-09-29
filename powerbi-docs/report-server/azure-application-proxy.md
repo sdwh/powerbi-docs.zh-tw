@@ -8,16 +8,16 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 1a9fbfc5d764a9dbda75bd60e0efb6da55efd202
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364069"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861283"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 
-此文章討論如何使用 Azure Active Directory 應用程式 Proxy 來連線到 Power BI 報表伺服器與 SQL Server Reporting Services (SSRS) 2016 和更新版本。 透過此整合，離開公司網路的使用者可以從其用戶端瀏覽器存取其 Power BI 報表伺服器與 Reporting Services 報表，並受到 Azure Active Directory (AD) 的保護。 深入了解如何[透過 Azure Active Directory 的應用程式 Proxy](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy) \(部分機器翻譯\) 遠端存取內部部署應用程式。
+此文章討論如何使用 Azure Active Directory 應用程式 Proxy 來連線到 Power BI 報表伺服器與 SQL Server Reporting Services (SSRS) 2016 和更新版本。 透過此整合，離開公司網路的使用者可以從其用戶端瀏覽器存取其 Power BI 報表伺服器與 Reporting Services 報表，並受到 Azure Active Directory (AD) 的保護。 深入了解如何[透過 Azure Active Directory 的應用程式 Proxy](/azure/active-directory/manage-apps/application-proxy) \(部分機器翻譯\) 遠端存取內部部署應用程式。
 
 ## <a name="environment-details"></a>環境詳細資料
 
@@ -125,7 +125,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="configure-azure-application-proxy-connector"></a>設定 Azure 應用程式 Proxy 連接器
 
-請參閱[應用程式 Proxy 連接器](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) \(部分機器翻譯\) 相關設定一文
+請參閱[應用程式 Proxy 連接器](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) \(部分機器翻譯\) 相關設定一文
 
 我們已在 Power BI 報表伺服器上安裝應用程式 Proxy 連接器，但是您可以在不同的伺服器上加以設定，並確定已正確設定委派。
 
@@ -150,14 +150,14 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 現在您已準備好要設定 Azure AD 應用程式 Proxy。
 
-使用下列設定，透過應用程式 Proxy 發佈 Power BI 報表伺服器。 如需如何透過應用程式 Proxy 發佈應用程式逐步指示，請參閱[使用 Azure AD 應用程式 Proxy 發佈應用程式](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) \(部分機器翻譯\)。
+使用下列設定，透過應用程式 Proxy 發佈 Power BI 報表伺服器。 如需如何透過應用程式 Proxy 發佈應用程式逐步指示，請參閱[使用 Azure AD 應用程式 Proxy 發佈應用程式](/azure/active-directory/manage-apps/application-proxy-add-on-premises-application#add-an-on-premises-app-to-azure-ad) \(部分機器翻譯\)。
 
 - **內部 URL**：輸入報表伺服器的 URL (連接器可以在公司網路中連線至該報表伺服器)。 請確定可從安裝連接器的伺服器連線到此 URL。 最佳做法是使用頂層網域 (例如 `https://servername/`)，以避免透過應用程式 Proxy 發佈之子路徑的問題。 例如，使用 `https://servername/`，而不是 `https://servername/reports/` 或 `https://servername/reportserver/`。 我們已使用 `https://pbirsazureapp.eastus.cloudapp.azure.com/` 來設定環境。
 
     > [!NOTE]
-    > 我們建議您對報表伺服器使用安全 HTTPS 連線。 如需作法資訊，請參閱[在原生模式報表伺服器上設定 SSL 連線](https://docs.microsoft.com/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server?view=sql-server-2017)。
+    > 我們建議您對報表伺服器使用安全 HTTPS 連線。 如需關於做法的資訊，請參閱[在原生模式報表伺服器上設定 SSL 連線](/sql/reporting-services/security/configure-ssl-connections-on-a-native-mode-report-server)。
 
-- **外部 URL**：輸入 Power BI 行動應用程式將連線的公用 URL。 例如，如果使用自訂網域，其看起來可能像 `https://reports.contoso.com`。 若要使用自訂網域，請上傳網域的憑證，並將 DNS 記錄指向您應用程式的預設 msappproxy.net 網域。 如需詳細步驟，請參閱[在 Azure AD 應用程式 Proxy 中使用自訂網域](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-custom-domain) \(部分機器翻譯\)。
+- **外部 URL**：輸入 Power BI 行動應用程式將連線的公用 URL。 例如，如果使用自訂網域，其看起來可能像 `https://reports.contoso.com`。 若要使用自訂網域，請上傳網域的憑證，並將 DNS 記錄指向您應用程式的預設 msappproxy.net 網域。 如需詳細步驟，請參閱[在 Azure AD 應用程式 Proxy 中使用自訂網域](/azure/active-directory/manage-apps/application-proxy-configure-custom-domain) \(部分機器翻譯\)。
 
 我們針對環境將外部 URL 設定為 `https://pbirsazureapp-umacontoso2410.msappproxy.net/`。
 
@@ -184,7 +184,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - 請嘗試執行報表，或執行資料來源的測試連線，以建立 Kerberos 票證。
     - 成功執行報表/測試連線之後，請開啟命令提示字元，並執行命令：`klist`。 在結果區段中，您應該會看到具有 `http/` SPN 的票證。 如果其與您已用於設定 Power BI 報表伺服器的 SPN 相同，請在此區段中使用該 SPN。
 
-1. 針對要代表使用者使用的連接器選擇 [委派的登入身分識別]。 如需詳細資訊，請參閱[使用不同的內部部署和雲端身分識別](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities) \(部分機器翻譯\)。
+1. 針對要代表使用者使用的連接器選擇 [委派的登入身分識別]。 如需詳細資訊，請參閱[使用不同的內部部署和雲端身分識別](/azure/active-directory/manage-apps/application-proxy-configure-single-sign-on-with-kcd#working-with-different-on-premises-and-cloud-identities) \(部分機器翻譯\)。
 
     我們建議使用使用者主體名稱。 在我們的範例中，我們已將其設定為使用 [使用者主體名稱] 選項：
 
@@ -216,7 +216,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 1. 我們必須先設定計劃要在登入中使用的自訂網域，然後確定其已驗證
 2. 在此案例中，我們已購買名為 umacontoso.com 的網域，並使用項目來設定 DNS 區域。 您也可以嘗試使用 `onmicrosoft.com` 網域，並將其與內部部署 AD 同步。
 
-    如需參考，請參閱[教學課程：將現有的自訂 DNS 名稱對應至 Azure App Service](https://docs.microsoft.com/Azure/app-service/app-service-web-tutorial-custom-domain) \(部分機器翻譯\) 一文。
+    如需參考，請參閱[教學課程：將現有的自訂 DNS 名稱對應至 Azure App Service](/Azure/app-service/app-service-web-tutorial-custom-domain) \(部分機器翻譯\) 一文。
 
 1. 成功驗證自訂網域的 DNS 項目之後，您應該能夠從入口網站看到對應網域的狀態為 [已驗證]。
 
@@ -295,8 +295,6 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
 
 ## <a name="next-steps"></a>後續步驟
 
-[使用 Azure AD 應用程式 Proxy 啟用 Power BI 行動版的遠端存取](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
+[使用 Azure AD 應用程式 Proxy 啟用 Power BI 行動版的遠端存取](/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi)
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
-
-                

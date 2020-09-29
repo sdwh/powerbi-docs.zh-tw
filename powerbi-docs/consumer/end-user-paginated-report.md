@@ -6,15 +6,15 @@ ms.reviewer: christopher.finlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1f9dd6540707993696bddb4494fc73aa782d363
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 95b4b423b1dffb51d00760a97d21f2bf52df39d8
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008897"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90860317"
 ---
 # <a name="paginated-reports-in-the-power-bi-service"></a>Power BI 服務中的編頁報表
 
@@ -36,7 +36,7 @@ ms.locfileid: "90008897"
 
 ![簡單的單一參數報表](./media/end-user-paginated-report/power-bi-report-simple.png)
 
-相較於編頁報表，Power BI 報表的互動性較高。 Power BI 報表允許隨選報表，並支援更多類型的視覺效果，包括 Power BI 視覺效果。
+相較於編頁報表，Power BI 報表的互動性較高。 Power BI 報表允許隨選報表，並支援更多類型的視覺效果，包括自訂視覺效果。
 
 ## <a name="identify-a-paginated-report"></a>識別編頁報表
 
@@ -78,7 +78,7 @@ ms.locfileid: "90008897"
 ### <a name="export-the-paginated-report"></a>匯出編頁報表
 您有各種匯出編頁報表的選項，包括 PDF、Word、XML、PowerPoint、Excel 等。 匯出時，會盡可能保留大部分的格式。 例如，匯出至 Excel、Word、PowerPoint、MHTML 和 PDF 的編頁報表會保留「完美像素」格式。 
 
-![新的銷售訂單](./media/end-user-paginated-report/power-bi-exporting.png)
+![顯示匯出編頁報表的螢幕擷取畫面。](./media/end-user-paginated-report/power-bi-exporting.png)
 
 ![四種不同的匯出類型](./media/end-user-paginated-report/power-bi-four.png)
 

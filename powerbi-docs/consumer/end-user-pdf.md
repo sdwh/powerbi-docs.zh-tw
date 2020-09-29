@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 08/05/2020
+ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 72e7550666960948ff3a3155a328613c95fcf43f
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040193"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763798"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -30,9 +30,9 @@ ms.locfileid: "89040193"
 
 1. 從功能表列中選取 [匯出]   > [PDF]  。
 
-    ![從功能表列選取 [匯出]](media/end-user-pdf/power-bi-export.png)
+    ![從功能表列選取 [匯出]](media/end-user-pdf/power-bi-export-pdfs.png)
 
-    隨即出現快顯視窗，其中有選項可供您選取 [目前的值]  或 [預設值]  。 [目前的值]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。 大多數使用者會選取此選項。 選取 [預設值]  則會以原始狀態 (如同「設計師」  共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
+    隨即出現快顯視窗，其中有選項可供您選取 [目前的值]  或 [預設值]  。 [目前的值]  會以目前狀態匯出報表，其中包括您對交叉分析篩選器和篩選值進行的有效變更。 大多數使用者會選取此選項。 或者，選取 [預設值] 則會以原始狀態 (如同「設計師」共用當下的狀態) 匯出報表，而不會反映您對該原始狀態進行的任何變更。
     
     另外，還會出現核取方塊供您選取是否要匯出報表的隱藏索引標籤。 如果您只要在瀏覽器中匯出可看見的報表索引標籤，請選取此核取方塊。 如果您希望在匯出過程中取得所有隱藏索引標籤，則可以不要選取此核取方塊。 如果核取方塊呈現灰色，即代表報表中沒有任何隱藏索引標籤。 在您選取完成後，請選取 [匯出]  繼續。
     
@@ -57,13 +57,13 @@ ms.locfileid: "89040193"
 * PDF 將包含 Power BI 畫布上顯示的資料與視覺效果。 如果視覺效果包含捲軸，PDF 將會包含其無法捲動之預設狀態的視覺效果。  
 * 目前不支援 R 視覺效果與 Python 視覺效果。 在 PDF 中，這些視覺效果會是空白，並顯示錯誤訊息。 
 * 目前支援經認證的 Power BI 視覺效果。 如需認證 Power BI 視覺效果 (包括如何使 Power BI 視覺效果獲得認證) 的詳細資訊，請參閱[讓 Power BI 視覺效果獲得認證](../developer/visuals/power-bi-custom-visuals-certified.md)。 不支援未經認證的 Power BI 視覺效果。 在 PDF 中，將會顯示它們並出現錯誤訊息。
-* 不支援 ESRI 視覺效果
+* 不支援 ESRI 視覺效果。
 * 目前無法匯出超過 50 頁的報表。
 * 將報表匯出至 PDF 的程序可能需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
 * 如果 Power BI 服務中沒有 [匯出至 PDF]  功能表項目，可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
 * 背景影像會按圖表的周框區域剪裁。 我們建議您先移除背景影像，再匯出至 PDF。
 * Power BI 租用戶網域外部使用者擁有的報表 (例如，組織外部某人所擁有並與您共用的報表) 無法發佈至 PDF。
-* 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，則該使用者無法將共用儀表板的相關聯報表匯出至 PDF。 例如，如果您是 aaron@contoso.com，您可以與 cassie@cohowinery.com 共用。 但是 cassie@cohowinery.com 無法將相關聯報表匯出至 PDF。
+* 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，則該使用者無法將共用儀表板的相關聯報表匯出至 PDF。 例如，如果您是 aaron@contoso.com，您可以與 cassie@northwinds.com 共用。 但是 cassie@northwinds.com 無法將相關聯報表匯出至 PDF。
 * 將包含背景影像的報表匯出成 PDF 時，如果使用 [頁面背景] 中的 [標準] 或 [填滿] 選項，您可能會在匯出中看到扭曲的影像。 為得到最佳結果，請使用 [最適大小]  選項，以免匯出的文件發生問題。
 * Power BI 服務會使用您的 Power BI 語言設定作為 PDF 的輸出語言。 若要查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定]   > [一般]   > [語言]  。
 * 針對匯出選擇 [目前的值]  時，目前不適用 URL 篩選。

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/25/2020
 ms.custom: seodec18
-ms.openlocfilehash: 38e6668c0fb15d1279923b77042cdedebe6dd139
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: e4aec179b298c5a8ca52cf73ac5fdceed7e8602a
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485062"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90857672"
 ---
 # <a name="add-power-bi-urls-to-your-allow-list"></a>將 Power BI URL 新增至允許清單
 [//]: # "suparnap、miwehnia 和 natham 是維護這份清單的連絡人"
@@ -38,7 +38,7 @@ Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 驗證及身分識別 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件  | N/A |
+| 1 | **必要：** 驗證及身分識別 | 請參閱 [Microsoft 365 Common 與 Office Online URL](/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件  | N/A |
 
 ## <a name="general-site-usage"></a>一般網站使用方式
 
@@ -50,7 +50,7 @@ Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端�
 | 2 | **必要：** 後端 API | *.analysis.windows.net | TCP 443 |
 | 3 | **必要：** 後端 API | *.pbidedicated.windows.net | TCP 443 |
 | 4 | **必要：** 內容傳遞網路 (CDN) | content.powerapps.com | TCP 443 |
-| 5 | **必要：** Microsoft 365 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
+| 5 | **必要：** Microsoft 365 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
 | 6 | **必要：** 入口網站 | *.powerbi.com | TCP 443 |
 | 7 | **必要：** 服務遙測 | dc.services.visualstudio.com | TCP 443 |
 | 8 | **選擇性：** 資訊訊息 | dynmsg.modpim.com | TCP 443 |
@@ -63,7 +63,7 @@ Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** 供管理使用者及檢視稽核記錄檔 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
+| 1 | **必要：** 供管理使用者及檢視稽核記錄檔 | 請參閱 [Microsoft 365 Common 與 Office Online URL](/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
 | | | |
 
 ## <a name="getting-data"></a>取得資料
@@ -74,7 +74,7 @@ Power BI 需要仰賴 Microsoft 365 驗證與身分識別區段中的必要端�
 | --- | --- | --- | --- |
 | 1 | **必要：** AppSource (Power BI 中的內部或外部應用程式) | appsource.microsoft.com <br> *.s-microsoft.com  | TCP 443 |
 | 2 | **選擇性：** 登入並取得內容套件的資料 | 取決於使用的內容套件 | 取決於使用的內容套件 |
-| 3 | **選擇性：** 從「OneDrive 個人」匯入檔案 | 請參閱 [OneDrive 網站的必要 URL 與連接埠](https://docs.microsoft.com/onedrive/required-urls-and-ports) | N/A |
+| 3 | **選擇性：** 從「OneDrive 個人」匯入檔案 | 請參閱 [OneDrive 網站的必要 URL 與連接埠](/onedrive/required-urls-and-ports) | N/A |
 | 4 | **選擇性：** 60 秒 Power BI 教學課程影片 | *.doubleclick.net <br> *.ggpht.com <br> *.google.com <br> *.googlevideo.com <br> *.youtube.com <br> *.ytimg.com <br> fonts.gstatic.com | TCP 443 |
 | 5 | **選擇性：** PubNub 串流資料來源 | 請參閱 [PubNub 文件](https://support.pubnub.com/support/solutions/articles/14000043522) | N/A |
 | | | |
@@ -85,7 +85,7 @@ Power BI 需要特定端點以支援您的儀表板與報表。 您必須可連�
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |
-| 1 | **必要：** Excel 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
+| 1 | **必要：** Excel 整合 | 請參閱 [Microsoft 365 Common 與 Office Online URL](/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 文件 | N/A |
 | | | |
 
 ## <a name="power-bi-visuals"></a>Power BI 視覺效果
@@ -96,13 +96,13 @@ Power BI 仰賴特定端點以檢視及存取 Power BI 視覺效果。 您必須
 | --- | --- | --- | --- |
 | 1 | **必要：** 從 Marketplace 介面或檔案匯入自訂視覺效果 | *.azureedge.net <br> *.blob.core.windows.net <br> *.osi.office.net <br> *.msecnd.net <br> store.office.com <br> web.vortex.data.microsoft.com <br> store-images.s-microsoft.com | TCP 443 |
 | 2 | **選擇性：** Bing 地圖服務 | bing.com <br> platform.bing.com <br> *.virtualearth.net | TCP 443 |
-| 3 | **選擇性：** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](https://docs.microsoft.com/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
-| 4 | **選擇性：** Visio | 請參閱 [Microsoft 365 Common 與 Office Online URL](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 的文件，以及 [SharePoint Online 和商務用 OneDrive](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) 文件 | N/A |
+| 3 | **選擇性：** PowerApps | 請參閱 PowerApps 系統需求網站的[必要服務區段](/powerapps/maker/canvas-apps/limits-and-config#required-services) | N/A |
+| 4 | **選擇性：** Visio | 請參閱 [Microsoft 365 Common 與 Office Online URL](/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) 的文件，以及 [SharePoint Online 和商務用 OneDrive](/office365/enterprise/urls-and-ip-address-ranges#sharepoint-online-and-onedrive-for-business) 文件 | N/A |
 | | | |
 
 ## <a name="related-external-sites"></a>相關的外部網站
 
-Power BI 連結至其他相關網站。 這些網站會裝載文件、支援、新功能要求等。 存取這些網站將不會影響 Power BI 的功能，因此，將其新增至允許清單是選擇性的。
+Power BI 連結至其他相關網站。 這些網站會裝載文件、支援、新功能要求等。 存取這些網站將不會影響 Power BI 的功能，因此可自由選擇是否要新增至允許清單。
 
 | 資料列 | 目的 | 目的地 | 連接埠 |
 | --- | --- | --- | --- |

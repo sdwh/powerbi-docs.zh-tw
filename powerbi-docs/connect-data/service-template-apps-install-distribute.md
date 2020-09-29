@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: how-to
-ms.date: 05/19/2020
+ms.date: 09/17/2020
 ms.author: painbar
-ms.openlocfilehash: e66d1b8b57af9ee04239e7222db742b64cc25883
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e152743c243e1af02650d919168dee0969e3a89e
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85235687"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763752"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization"></a>在組織中安裝並散發範本應用程式
 
@@ -75,13 +75,9 @@ ms.locfileid: "85235687"
 
    ![GitHub 應用程式 [連線至資料] 連結](media/service-template-apps-install-distribute/power-bi-template-app-connect-data.png)
 
+    這會開啟 [參數] 對話方塊，您可以在其中將資料來源從範例資料變更為您自己的資料來源 (請參閱[已知的限制](service-template-apps-overview.md#known-limitations))，後面接著驗證方法對話方塊。 您可能必須重新定義這些對話方塊中的值。 如需詳細資訊，請參閱您所安裝之特定範本應用程式的文件。
 
-    
-    此動作將開啟一或數個對話方塊，您可以在其中將範例資料中資料來源變更為您自己的資料來源。 這通常表示重新定義資料集參數與資料來源認證。 請參閱[已知的限制](service-template-apps-overview.md#known-limitations)。
-    
-    在以下範例中，連線至資料會涉及兩個對話方塊。
-
-   ![連線至資料對話方塊](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
+   ![連線至資料對話方塊的螢幕擷取畫面。](media/service-template-apps-install-distribute/power-bi-template-app-connect-to-data-dialogs.png)
 
     當完成填寫連線對話方塊之後，即會開始連線程序。 橫幅會通知資料正在重新整理，同時您也會看到範例資料。
 
@@ -110,11 +106,11 @@ ms.locfileid: "85235687"
 
 如果您一開始是從 AppSource 下載應用程式，則當有新版的範本應用程式可用時，會以兩種方式收到通知：
 * Power BI 服務會顯示更新橫幅，以通知有新的應用程式版本可供使用。
-  ![範本應用程式更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
+  ![範本應用程式更新通知橫幅](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-banner.png)
 * 您會在 Power BI 的 [通知] 窗格中收到通知。
 
 
-  ![範本應用程式更新通知](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
+  ![範本應用程式更新通知窗格](media/service-template-apps-install-distribute/power-bi-new-app-version-notification-pane.png)
 
 >[!NOTE]
 >如果原本是透過直接連結而非 AppSource 來取得應用程式，則必須與範本應用程式建立者取得聯繫，才能得知新版本的推出時間。

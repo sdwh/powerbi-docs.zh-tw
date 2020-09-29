@@ -6,15 +6,16 @@ ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 06/25/2020
-ms.openlocfilehash: 69ad9fc76250e09c2cea5a8d5dc0d3b2c13f72bf
-ms.sourcegitcommit: 6d7d5e6b19e11d557dfa1b79b745728b4ee02b4e
+ms.custom: contperfq1
+ms.date: 09/22/2020
+ms.openlocfilehash: a364d3dd2d2175e4509d05f4c34eec31a1a371b6
+ms.sourcegitcommit: 37ec0e9e356b6d773d7d56133fb8ed6c06b65fd3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89220875"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91024027"
 ---
-# <a name="understand-the-deployment-process-preview"></a>了解部署程序 (預覽)
+# <a name="understand-the-deployment-process"></a>了解部署程序
 
 部署程序可讓您將管線中某個階段的內容複製到另一個階段，通常是從開發到測試，以及從測試到實際執行環境。
 
@@ -90,7 +91,7 @@ ms.locfileid: "89220875"
 
 * 以不支援之資料集為基礎的報表
 
-* 工作區無法使用範本應用程式
+* [範本應用程式工作區](../connect-data/service-template-apps-create.md#create-the-template-workspace)
 
 * 編頁報表
 
@@ -137,14 +138,60 @@ ms.locfileid: "89220875"
 下列資料集屬性也不會在部署期間複製：
 
 * 角色指派
-    
+
 * 重新整理排程
-    
+
 * 資料來源認證
-    
+
 * 查詢快取設定 (可繼承自容量)
-    
+
 * 簽署設定
+
+## <a name="incremental-refresh"></a>累加式重新整理
+
+部署管線支援[累加式重新整理](../admin/service-premium-incremental-refresh.md)，此功能可讓大型資料集的重新整理速度更快、更可靠、耗用量更低。
+
+透過部署管線，您可以採用累加式重新整理的資料集進行更新，同時保留資料和分割區。 當您部署資料集時，會一併複製該原則。
+
+### <a name="activating-incremental-refresh-in-a-pipeline"></a>在管線中啟用累加式重新整理
+
+若要啟用累加式重新整理，[請在 Power BI Desktop 中開啟](../admin/service-premium-incremental-refresh.md#configure-incremental-refresh)，然後發佈您的資料集。 發佈之後，管線中的累加式重新整理原則會類似，且只能在 Power BI Desktop 中撰寫。
+
+使用累加式重新整理設定您的管線之後，建議使用以下流程：
+
+1. 在 Power BI Desktop 中對 PBIX 檔案進行變更。 若要避免漫長的等待時間，建議使用資料的樣本進行變更。
+
+2. 將您的 PBIX 檔案上傳至開發階段。
+
+3. 將您的內容部署到測試階段。 部署之後，您所做的變更將會套用到您使用的整個資料集。
+
+4. 檢查您在測試階段所做的變更，並在驗證後部署至生產階段。
+
+### <a name="usage-examples"></a>使用範例
+
+以下幾個範例會說明如何將累加式重新整理與部署管線整合。
+
+* [建立新的管線](deployment-pipelines-get-started.md#step-1---create-a-deployment-pipeline)，並將其連線到已啟用累加式重新整理之資料集的工作區。
+
+* 對已在開發工作區中的資料集啟用累加式重新整理。  
+
+* 從具有使用累加式重新整理之資料集的生產工作區建立管線。 這種方式是將工作區指派至新管線的生產階段，並使用[回溯部署](deployment-pipelines-get-started.md#backwards-deployment)，以部署至測試階段，再到開發階段。
+
+* 將使用累加式重新整理的資料集發佈至屬於現有管線的工作區。
+
+### <a name="limitations-and-considerations"></a>限制與考量
+
+對於累加式重新整理，部署管線僅支援使用[增強型資料集中繼資料](../connect-data/desktop-enhanced-dataset-metadata.md)的資料集。 從 2020 年 9 月版本的 Power BI Desktop 開始，使用 Power BI Desktop 建立或修改的所有資料集，都會自動執行增強型資料集中繼資料。
+
+將資料集重新發佈至啟用累加式重新整理的作用中管線時，以下變更可能會由於資料遺失而導致部署失敗：
+
+* 重新發佈未使用累加式重新整理的資料集，以取代已啟用累加式重新整理的資料集。
+
+* 重新命名已啟用累加式重新整理的資料表。
+
+* 在已啟用累加式重新整理的資料表中，重新命名非導出資料行。
+
+允許其他變更，例如新增資料行、移除資料行，以及重新命名導出資料行。 不過如果變更會影響顯示，則必須先重新整理才會顯示變更。
 
 ## <a name="deploying-power-bi-apps"></a>部署 Power BI 應用程式
 
@@ -170,9 +217,9 @@ ms.locfileid: "89220875"
 具有管線存取權的使用者具有下列權限：
 
 * 檢視管線
-    
+
 * 與其他人共用管線
-    
+
 * 編輯及刪除管線
 
 >[!NOTE]
@@ -202,9 +249,9 @@ ms.locfileid: "89220875"
 具有「管線存取權」的工作區成員也可以執行下列動作：
 
 * 檢視工作區內容
-    
+
 * 比較階段
-    
+
 * 部署報表與儀表板
 
 * 移除工作區
@@ -222,7 +269,7 @@ ms.locfileid: "89220875"
 屬於工作區成員或管理員的資料集擁有者也可以執行下列動作：
 
 * 更新資料集
-    
+
 * 設定規則
 
 >[!NOTE]
@@ -244,13 +291,11 @@ ms.locfileid: "89220875"
 
 ### <a name="dataset-limitations"></a>資料集限制
 
-* 無法部署以[累加式重新整理](../admin/service-premium-incremental-refresh.md)設定的資料集。
-
 * 無法部署使用即時資料連線能力的資料集。
 
 * 在部署期間，如果目標資料集使用[即時連線](../connect-data/desktop-report-lifecycle-datasets.md)，則來源資料集也必須使用此連線模式。
 
-* 部署之後，就不支援下載資料集 (從其部署至的階段)。
+* 部署之後，即不支援 (從將之部署到的階段) 下載資料集。
 
 * 如需資料集規則限制的清單，請參閱[資料集規則限制](deployment-pipelines-get-started.md#dataset-rule-limitations)。
 

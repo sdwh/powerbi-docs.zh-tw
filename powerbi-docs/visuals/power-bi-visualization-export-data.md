@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 05/20/2020
+ms.date: 09/09/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1593cecf448b193ce2186be041da771bb8d6a09c
-ms.sourcegitcommit: 92b033ee7a6e36808371b247b7b41536cee6c2f6
+ms.openlocfilehash: 7ab0a093dfd41034aa79d2934ad23cf373fd0474
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "90008920"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90861582"
 ---
 # <a name="export-the-data-that-was-used-to-create-a-visualization"></a>匯出用於建立視覺效果的資料
 
@@ -228,7 +228,7 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
 ## <a name="limitations-and-considerations"></a>限制與考量
 這些限制和考量適用於 Power BI Desktop 和 Power BI 服務，包括 Power BI Pro 和 Premium。
 
-- 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](https://docs.microsoft.com/power-bi/service-datasets-build-permissions)。
+- 若要從視覺效果匯出資料，您需要具有[基礎資料集的建置權限](../connect-data/service-datasets-build-permissions.md)。
 
 -  **Power BI Desktop** 和 **Power BI 服務**可以從 [匯入模式報表] 匯出至 *.csv* 的資料列數上限為 30,000。
 
@@ -268,8 +268,8 @@ Power BI 報表設計者會控制可供取用者使用的資料匯出選項類�
   
   1. 移至儲存檔案的本機資料夾，然後選取 *.csv*。
 
-- 匯出到 *.csv* 時，某些字元會在開頭加入 **'** 進行逸出，以避免在 Excel 中開啟時作為指令碼執行。 發生這種情況的時機：
-  - 資料行在資料模型中定義為「文字」類型，「以及」
+- 匯出為 .csv 時，某些字元會在開頭加入 **'** 進行逸出，以避免在 Excel 中開啟時作為指令碼執行。 發生這種情況的時機：
+  - 資料欄在資料模型中定義為「文字」類型，**和**
   - 文字的第一個字元是下列其中一個符號： **=、@、+、-**
 
 - Power BI 系統管理員可以停用匯出資料。

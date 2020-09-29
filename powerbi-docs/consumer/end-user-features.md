@@ -6,30 +6,30 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: reference
-ms.date: 09/01/2020
+ms.date: 09/16/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 75ee1ad31bc2f99964a8f79ea29efb499c2cc81e
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: 9ab371844f4c746bfcb4c993dec0b32237e5c26a
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286766"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763060"
 ---
 # <a name="power-bi-feature-list-for-consumers-and-others-with-free-licenses"></a>「取用者」  與其他免費授權使用者可使用的 Power BI 功能清單
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-身為「取用者」  ，您可以使用 Power BI 服務來探索報表和儀表板，以制定商業決策。 這些報表與儀表板是由具有 Power BI *Pro* 授權的「設計者」  所建立。 Pro 使用者能夠與同事共用內容，並限制同事可以和不能對該內容採取的動作。 有時候，設計者會藉由傳送連結來共用內容，有時內容會自動安裝，並顯示於 Power BI 中的 [應用程式]  或 [與我共用]  下。
+身為「商務使用者」，您可以使用 Power BI 服務來探索報表和儀表板，以制定商業決策。 這些報表與儀表板是由具有 Power BI *Pro* 授權的「設計者」  所建立。 Pro 使用者能夠與同事共用內容，並限制同事可以和不能對該內容採取的動作。 有時候，設計者會藉由傳送連結來共用內容，有時內容會自動安裝，並顯示於 Power BI 中的 [應用程式]  或 [與我共用]  下。
 
-設計者有各種不同的方式可以共用內容。 但本文適用於 Power BI「取用者」  ，因此只會描述取用者如何接收內容並與其互動。 如需其他共用內容方式的詳細資訊，請參閱[在 Power BI 中共用成品的方式](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)。
+設計者有各種不同的方式可以共用內容。 但本文適用於 Power BI「商務使用者」，因此，只會描述「商務使用者」如何接收內容並與其互動。 如需其他共用內容方式的詳細資訊，請參閱[在 Power BI 中共用成品的方式](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)。
 
 ![Power BI 瀏覽窗格](media/end-user-features/power-bi-share.png)
 
 在[前文中](end-user-license.md)，您已了解在 Power BI 服務中，您的授權、角色與權限，以及內容的儲存位置，決定您可以使用儀表板、報告與應用程式 (內容) 執行哪些作業。
 
-本文將列出像您一樣的「取用者」  ，在 Power BI 服務中可以使用哪些功能。 根據定義，「取用者」  是指使用免費授權在 Power BI 服務 (非 Power BI Desktop) 工作中的使用者，而且該使用者隸屬於具有 Premium 容量的組織。
+本文列出像您一樣的「商務使用者」，在 Power BI 服務中可以使用哪些功能。 根據定義，「商務使用者」擁有在 Power BI 服務 (非 Power BI Desktop) 工作中的免費授權，而且該使用者隸屬於以 Premium 容量存放內容的組織成員。
 
 <art>
 
@@ -37,21 +37,21 @@ ms.locfileid: "89286766"
 在開始介紹清單之前，讓我們先複習一些 Power BI 的概念。 我們將很快地複習一遍。如需了解更多詳細資料，請參閱[取用者的授權](end-user-license.md)或 [Power BI 基本概念](end-user-basic-concepts.md)。
 
 ### <a name="workspaces-and-roles"></a>工作區和角色
-有兩種類型的工作區：[我的工作區]  以及 [應用程式工作區]。 只有您有權存取您的**我的工作區**。 只有擁有 Pro 授權的內容「設計師」  ，才能使用應用程式工作區合作與共用。 
+有兩種類型的工作區：[我的工作區]  以及 [應用程式工作區]。 只有您有權存取自己的 [我的工作區]。 只有擁有 Pro 授權的內容「設計師」  ，才能使用應用程式工作區合作與共用。 
 
-在應用程式工作區中，「角色」  由設計師指派，藉此管理誰可以在工作區中執行動作。 「取用者」  會接受指派為**檢視者**角色。 
+在應用程式工作區中，「角色」  由設計師指派，藉此管理誰可以在工作區中執行動作。 「商務使用者」通常會獲指派 [檢視人員] 角色。 
 
 ### <a name="premium-capacity"></a>進階容量
 組織如有訂閱 Premium 容量，系統管理員與 Pro 使用者便可將工作區指派至「專用容量」  。 專用容量中的工作區是可以讓 Pro 使用者與免費使用者一起共用及共同作業的空間，而且免費使用者不需要具備 Pro 授權就能使用。 在這些工作區中，免費使用者可擁有較高的權限 (參閱下方清單)。 
 
 ### <a name="licenses"></a>授權 
-每個 Power BI 服務使用者都有免費授權或 Pro 授權。 「取用者」  擁有免費授權。
+每個 Power BI 服務使用者都有免費授權或 Pro 授權。 「商務使用者」 具有免費授權。
 
-- **免費授權** - 通常會指派給組織內的「取用者」  (見下圖一)。 任何要以個人身分註冊 Power BI 服務，並想要[在獨立模式中試用 Power BI 服務](../fundamentals/service-self-service-signup-for-power-bi.md)的使用者，也會指派以免費授權 (見下圖二)。 
+- **免費授權** - 通常會指派給組織內的「商務使用者」(見下圖一)。 任何要以個人身分註冊 Power BI 服務，並想要[在獨立模式中試用 Power BI 服務](../fundamentals/service-self-service-signup-for-power-bi.md)的使用者，也會指派以免費授權 (見下圖二)。 
 
     ![顯示 Premium 使用者的畫面](media/end-user-features/power-bi-free-organization.png)
 
-    免費使用者若隸屬於擁有 Premium 容量的組織，將能享有許多便利的功能。 只要 Pro 同事使用 Premium 容量工作區來共用內容，則免費使用者就可以與這些 Pro 同事一起檢視及共同作業。  **如此一來，該位免費使用者就會成為 Power BI 「取用者」  ，且能夠接收和共用內容以制定商業決策。** 
+    免費使用者若隸屬於擁有 Premium 容量的組織，將能享有許多便利的功能。 只要 Pro 同事使用 Premium 容量工作區來共用內容，則免費使用者就可以與這些 Pro 同事一起檢視及共同作業。  **如此一來，免費的使用者即可取用他人建立的內容。與同事合作 (包括 Pro 使用者)，商務使用者在相同的儀表板和報表和應用程式上接收、分享和協同合作，以做出商業決策。** 
  
     ![顯示免費使用者的畫面](media/end-user-features/power-bi-free-user.png)
 
@@ -59,15 +59,15 @@ ms.locfileid: "89286766"
    
 
 ## <a name="power-bi-feature-list-for-consumers-and-free-users"></a>「取用者」  與免費使用者可使用的 Power BI 功能清單
-下列圖表指出與 Premium 容量及共用容量中之內容互動的「取用者」  所能執行的工作。    
+下列圖表指出與 Premium 容量中內容互動的「商務使用者」所能執行的工作。    
 
 第一欄代表在 [我的工作區]  中使用內容的免費使用者。 此使用者無法在 Power BI 服務中與同事共同作業。 同事無法直接與該位使用者共用內容，且該位使用者無法從 [我的工作區]  共用內容。 
 
-第二欄代表「取用者」  ，  取用者具有下列資格：
+第二欄代表「商務使用者」。  商務使用者：
 
 - 免費使用者授權
 - 屬於具有 Premium 容量訂用帳戶組織的成員
-- 取得 Pro 使用者在專用容量中，使用應用程式工作區共用的內容 (應用程式、儀表板、報表)。
+- 取得 Pro 使用者在專用的 Premium 容量中，使用應用程式工作區共用的內容 (應用程式、儀表板、報表)。
 - 接受指派為這些應用程式工作區的**檢視者**角色。 
 
 ### <a name="legend"></a>圖例
@@ -79,7 +79,7 @@ ms.locfileid: "89286766"
 
 ### <a name="feature-list"></a>功能清單
 
-|功能   | 案例 1：Power BI 免費使用者無權存取專用容量中裝載的內容。    | 案例 2：Power BI 免費使用者具有**檢視者**權限，可檢視專用容量中儲存的內容。 該位人員即為 Power BI「取用者」  。 |
+|功能   | 案例 1：Power BI 免費使用者無權存取專用容量中裝載的內容。    | 案例 2：Power BI 免費使用者具有**檢視者**權限，可檢視專用容量中儲存的內容。 該位人員是 Power BI「商務使用者」。 |
 |---|---|---|
 |**應用程式** 
 |自動安裝 | ![orange x](media/end-user-features/orange-x.png) | ![green dot](media/end-user-license/power-bi-green-dot.png)*| 
@@ -170,8 +170,6 @@ ms.locfileid: "89286766"
 | 視覺效果：暫留滑鼠游標以顯示詳細資料與工具提示  |![green myw](media/end-user-features/green-mwo.png)  |![green dot](media/end-user-license/power-bi-green-dot.png) |
 
 
-1. 僅能從 [與我共用]  的內容檢視取用。 
-
 
 ## <a name="next-steps"></a>後續步驟
-[取用者  適用的 Power BI](end-user-consumer.md)    
+適用於「商務使用者」的 [Power BI](end-user-consumer.md)    

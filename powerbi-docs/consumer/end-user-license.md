@@ -1,5 +1,5 @@
 ---
-title: Power BI 取用者的授權類型
+title: Power BI 商務使用者的授權類型
 description: 了解不同授權類型及如何判斷您的授權類型。
 author: mihart
 ms.reviewer: lukasz
@@ -7,22 +7,22 @@ ms.service: powerbi
 ms.subservice: powerbi-consumer
 Ms.custom: css_fy20Q4
 ms.topic: how-to
-ms.date: 07/15/2020
+ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: 6e84158d01f1e257743052df4d621485497379fd
-ms.sourcegitcommit: 11deeccf596e9bb8f22615276a152614f7579f35
+ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
+ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "86409482"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90763934"
 ---
-# <a name="licenses-and-subscriptions-for-consumers"></a>「取用者」的授權和訂閱
+# <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
 [!INCLUDE[consumer-appliesto-ynnn](../includes/consumer-appliesto-ynnn.md)]
 
-[取用者](end-user-consumer.md)可以使用 Power BI 服務探索報表與儀表板，因此您可以透過參考資料來制定商務決策。 若已使用 Power BI 一段時間，或曾與「設計師」同事聊過，則可能會發現有些功能只在擁有特定類型的授權、訂閱或權限時才可運作。
+身為[商務使用者](end-user-consumer.md)，您可以使用 Power BI 服務來探索報表與儀表板，從而透過參考資料來制定商務決策。 若已使用 Power BI 一段時間，或曾與「設計師」同事聊過，則可能會發現有些功能只在擁有特定類型的授權、訂閱或權限時才可運作。
 
 您在 Power BI 服務中能執行哪些作業，取決於下列三個要件：
 -    您使用的授權與訂用帳戶類型、
@@ -36,13 +36,13 @@ ms.locfileid: "86409482"
 
 ## <a name="licenses"></a>授權
 
-每位 Power BI 服務使用者若非使用「免費」授權，就是使用 *Pro* 授權。 若您是 Power BI 的「取用者」，可能會使用由 Power BI 租用戶系統管理員所管理的授權。
+每位 Power BI 服務的使用者若非具有「免費」授權，就是使用 *Pro* 授權。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 租用戶系統管理員所管理的免費授權。
 
 您可能同時擁有多個授權。  此服務一律會提供與您目前所有最寬鬆授權相等的體驗。
 
 ## <a name="power-bi-premium-capacity"></a>Power BI Premium 容量
 
-Premium 是組織訂用帳戶，其提供不同儲存內容的方式 (儲存在專用容量中)。 無論是組織內部或外部使用者，只要具有 Premium 權限，則無須購買個人的 Power BI Pro 授權，即可檢視 Power BI 內容。 
+Premium 是組織訂用帳戶，其提供不同儲存內容的方式 (儲存在專用容量中)。 無論是組織內部或外部使用者，只要具有 Premium 權限，則無須購買個人的 Power BI Pro 授權，即可檢視存放在 Premium 容量中的內容。 
 
 Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並不需要 Pro 授權。 內容設計師需要 Pro 授權。 設計師可以連線到資料來源、建立資料模型，然後建立封裝成工作區應用程式的報表與儀表板。 只要使用者獲指派 Power BI Premium 容量中[工作區的角色](end-user-workspaces.md)，即使沒有 Pro 授權仍然可加以存取。
 
@@ -57,7 +57,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 第一位使用者 Pradtanna 具有 Office 365 E5，其中包含 Power BI Pro 授權。
 
-![Office 入口網站 [訂用帳戶] 索引標籤](media/end-user-license/power-bi-license-office.png)
+![顯示 Office 365 E5 訂閱的 Office 入口網站訂閱](media/end-user-license/power-bi-license-office.png)
 
 第二位使用者 Zalan 具有 Power BI 免費授權。 
 
@@ -91,9 +91,9 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
 ## <a name="putting-it-all-together"></a>總整理
 
-當組織購買 Premium 訂用帳戶時，系統管理員通常會將 Pro 授權指派給會在 Premium 容量中建立及共用內容的員工。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為讓免費使用者也能在這些工作區中共同作業，系統管理員或 Pro 使用者可以將工作區指派至「專用容量」。  
+當組織購買 Premium 訂閱時，系統管理員通常會將 Pro 授權指派給會在 Premium 容量中建立及共用內容的員工。 Pro 使用者會建立[工作區](end-user-workspaces.md)，並將內容 (儀表板、報表、應用程式) 新增至那些工作區。 為讓免費使用者也能在這些工作區中共同作業，系統管理員或 Pro 使用者可以將工作區指派至「專用容量」。  
 
-|授權類型  |共用容量  |專用容量  |
+|授權類型  |共用容量 |專用的 Premium 容量  |
 |---------|---------|---------|
 |**免費**     |  作為個人沙箱來使用，在其中建立您自己的內容並與該內容互動。 免費授權是試用 Power BI 服務的絕佳方式。 您無法取用他人的內容，也無法與他人共用您的內容 <sup>1</sup>     |   與指派至專用容量的內容互動，並提供給您共用。 免費使用者無須擁有 Pro 帳戶，就能與 Pro 使用者共同作業。      |
 |**Pro**     |  藉由建立及共用內容來和其他 Pro 使用者共同作業。        |  藉由建立及共用內容來和免費使用者與其他 Pro 使用者共同作業。       |
@@ -109,7 +109,7 @@ Premium 讓 Pro 使用者能廣泛散發內容，且檢視內容的收件者並�
 
     ![三個工作區的影像](media/end-user-license/power-bi-dedicated.jpg)
 
-Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內，與其他 Pro 使用者共用及共同作業。 但 Power BI Pro 的使用者若要與免費使用者共用及共同作業，只能使用位於 Premium 專用容量中的「工作區 B」。  在該工作區內，設計師會為共同作業者指派角色。 您的角色會決定您可以在工作區內採取的動作。 Power BI「取用者」通常會獲指派「檢視人員」角色。 若要深入了解這些角色，請參閱 [Power BI 取用者的工作區](end-user-workspaces.md)。
+Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內，與其他 Pro 使用者共用及共同作業。 但 Power BI Pro 的使用者若要與免費使用者共用及共同作業，只能使用位於 Premium 專用容量中的「工作區 B」。  在該工作區內，設計師會為共同作業者指派角色。 您的角色會決定您可以在工作區內採取的動作。 Power BI「商務使用者」通常會獲指派「檢視人員」角色。 若要深入了解這些角色，請參閱 [Power BI 商務使用者的工作區](end-user-workspaces.md)。
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
 
@@ -129,6 +129,6 @@ Power BI Pro 的「設計師」可在這些工作區中的任一個工作區內�
 
 ## <a name="next-steps"></a>後續步驟
 
-- [我是 Power BI 的「取用者」嗎？](end-user-consumer.md)    
+- [我是 Power BI「商務使用者」嗎？](end-user-consumer.md)    
 - [深入了解工作區](end-user-workspaces.md)    
-- [依授權類型檢視 Power BI 取用者功能](end-user-features.md)
+- [依授權類型檢視 Power BI 商務使用者功能](end-user-features.md)

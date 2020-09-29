@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 07/22/2020
-ms.openlocfilehash: 06bd8271904b9c44de6c71e287f0560c54f6d031
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: fb79358bb9149498a39cca32db618cb6971121de
+ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253808"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90964778"
 ---
 # <a name="get-a-power-bi-link-preview-in-microsoft-teams"></a>在 Microsoft Teams 中取得 Power BI 連結預覽
 
@@ -27,7 +27,7 @@ ms.locfileid: "87253808"
 
 連結預覽服務會要求使用者登入。 若要登出，請選取訊息方塊底部的 [Power BI] 圖示。 然後，選取 [登出]。
 
-如需 Power BI 和 Teams 如何共同合作的背景資訊，包括所需符合的要求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-collaborate-microsoft-teams.md)。
+如需 Power BI 和 Microsoft Teams 如何共同合作的背景資訊，包括所需符合的要求，請參閱[在 Microsoft Teams 中使用 Power BI 共同作業](service-collaborate-microsoft-teams.md)。
 
 ## <a name="get-a-link-preview"></a>取得連結預覽
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.author: kfollis
-ms.openlocfilehash: d7b36d7ecbbf9d046c02f275ca83d7f8c8a196d5
-ms.sourcegitcommit: a7227f6d3236e6e0a7bc1f83ff6099b5cd58bff3
+ms.openlocfilehash: 76f0963da1a7cecec6f97fc7e0ab534f7d4bcb8a
+ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87768393"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "91020013"
 ---
 # <a name="power-bi-webinars"></a>Power BI 網路研討會
 [//]: # "Tatevik Tatero (tatevik.teroyan@simple-concepts.com) 是 Chauncy Freels 的合作廠商，其協助維護網路研討會清單"
@@ -22,11 +22,23 @@ ms.locfileid: "87768393"
 
 ## <a name="upcoming-webinars"></a>即將到來的網路研討會
 
+**利用 Power BI 快速開始運作**  
+由 Microsoft 的 Miguel Martinez 主持  
+[註冊即可在 2020 年 11 月 5 日上午 10:00 到上午 11:00 (太平洋日光節約時間) 觀看](https://info.microsoft.com/ww-landing-get-up-and-running-quickly-with-power-bi.html?lcid=en-us)
+
 [來自 Power BI 社群，即將舉行的網路研討會](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>精選的網路研討會
 
 開始使用這些熱門的隨選網路研討會
+
+**使用 Microsoft Power BI 即時監控資料**  
+由 Miguel Martinez 和 Peter Myers 主持  
+[立即觀看](https://info.microsoft.com/ww-landing-Monitor-Your-Data-in-Real-time-with-Microsoft-Power-BI.html?lcid=en-us)
+
+**使用 Power BI 和 Snowflake 建置可調整的 BI 解決方案**  
+由 Chris Webb、Craig Collier 和 Chris Holliday 主持  
+[立即觀看](https://info.microsoft.com/ww-landing-build-scalable-BI-solutions-using-power-BI-and-snowflake.html?lcid=en-us)
 
 **使用管理 BI 內容的最佳做法來提升使用者滿意度**  
 由 Nimrod Shalit 主持  

@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 07/30/2020
+ms.date: 09/17/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c74c618eb4c748d94260573c1ddd4266d3cf5c0e
-ms.sourcegitcommit: d9d67ee47954379c2df8db8d0dc8302de4c9f1e5
+ms.openlocfilehash: efddfbdb70b2c20ad650eda6a16a5d7defb758e8
+ms.sourcegitcommit: fa0a1561aba2a392fb56e7030e1a0537806a9260
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87478076"
+ms.lasthandoff: 09/19/2020
+ms.locfileid: "90811843"
 ---
 # <a name="set-featured-tables-in-power-bi-desktop-preview"></a>在 Power BI Desktop 中設定精選表格 (預覽)
 
@@ -40,11 +40,11 @@ ms.locfileid: "87478076"
 
 1. 在 Power BI Desktop 中，移至 [模型] 檢視。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="[模型] 檢視":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-model-view.png" alt-text="預覽 [Featured tables] \(精選表格\) 選項":::
  
 2. 選取資料表，然後將 [Is featured table] \(是否為精選表格\) 設為 [是]。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="將 [Is featured table] \(是否為精選表格\) 設為 [是]":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-featured-table-yes.png" alt-text="預覽 [Featured tables] \(精選表格\) 選項":::
 
 4. 在 [Set up this featured table] \(設定此精選表格\) 中提供必要欄位：
 
@@ -54,7 +54,7 @@ ms.locfileid: "87478076"
     - Excel 會使用 [資料列標籤] 欄位值，所以使用者可輕鬆識別資料列。 其會顯示為已連結儲存格的資料格值，位於 [資料選取器] 窗格和 [資訊] 卡片中。 
     - [索引鍵資料行] 欄位值會提供資料列的唯一識別碼。 這個值可讓 Excel 將儲存格連結到資料表中的特定資料列。
 
-    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="設定精選表格":::
+    :::image type="content" source="media/service-excel-featured-tables/power-bi-set-up-featured-table.png" alt-text="預覽 [Featured tables] \(精選表格\) 選項":::
 
 1. 當發佈或匯入資料集至 Power BI 服務後，Excel 的資料類型庫即會顯示精選表格。 您和其他報表建立者也可以此資料集為基礎來建立報表。
 
@@ -66,19 +66,13 @@ ms.locfileid: "87478076"
 
 以下是初始預覽的限制。
 
-- Excel 不會顯示使用下列功能的 Power BI 資料集精選表格： 
+- Excel 不會顯示使用下列功能的 Power BI 資料集精選表格：
 
-    - 資料列層級安全性資料集。
-    - 啟用 Microsoft 資訊保護的資料集。
     - DirectQuery 資料集。
     - 具有即時連線的資料集。
 
-- Excel 只會顯示精選表格資料行和計算結果欄中的資料。 初始預覽不提供下列內容：
-
-    - 精選表格上定義的量值。
-    - 相關資料表上定義的量值，以及從關聯性計算的隱含量值。
-
-- Excel 只會顯示儲存在新 Power BI 工作區中的精選表格。 儲存在傳統工作區或 [我的工作區] 中的精選表格不會顯示為 Excel 資料類型。 您可在 Power BI 中[將傳統工作區升級為新工作區](service-upgrade-workspaces.md)。
+- Excel 只會顯示精選表格資料行和計算結果欄中的資料。 初始預覽中不會提供相關資料表上定義的量值，以及從關聯性計算得出的隱含量值。
+- Excel 只會顯示儲存在新 Power BI 工作區中的精選表格。 儲存在傳統工作區中的精選表格不會顯示為 Excel 資料類型。 您可在 Power BI 中[將傳統工作區升級為新工作區](service-upgrade-workspaces.md)。
 - 如需其他 Excel 考量，請參閱＜在 Excel 中存取 Power BI 的精選表格＞一文中的[＜考量與限制＞](service-excel-featured-tables.md#considerations-and-limitations)。
 
 ## <a name="next-steps"></a>後續步驟

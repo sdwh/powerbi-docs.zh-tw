@@ -6,15 +6,15 @@ ms.author: kesharab
 ms.topic: troubleshooting
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.date: 05/06/2020
-ms.openlocfilehash: b911af4c7137aac9352c16985aac3a79a7eec87e
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.date: 09/15/2020
+ms.openlocfilehash: f7b37392581ad532093b0a543fe75cdb969d2c86
+ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86557156"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90855351"
 ---
-# <a name="deployment-pipelines-troubleshooting-preview"></a>部署管線疑難排解 (預覽)
+# <a name="deployment-pipelines-troubleshooting"></a>部署管線疑難排解
 
 使用此文章來針對部署管線中的問題進行疑難排解。
 
@@ -39,6 +39,13 @@ ms.locfileid: "86557156"
 * 只能將工作區指派給單一管線
 
 * 您是新工作區的管理員
+
+### <a name="why-cant-i-see-the-pipeline-stage-tag-in-my-workspace"></a>為什麼無法在 [我的工作區] 中看到管線階段標籤
+
+部署管線會在指派給管線的工作區中顯示管線階段標籤。 「開發」和「測試」階段的標籤一律可見。 然而，如果您具有[管線的存取權](deployment-pipelines-process.md#user-with-pipeline-access)，或者身為[工作區管理員](deployment-pipelines-process.md#workspace-admin)，您只能看見「生產」標籤。
+
+> [!div class="mx-imgBorder"]
+> ![生產環境管線工作區中生產標籤的螢幕擷取畫面。](media/deployment-pipelines-troubleshooting/production-tag.png)
 
 ## <a name="licensing"></a>授權
 
@@ -112,7 +119,7 @@ ms.locfileid: "86557156"
 
 ![在部署因連結中斷而失敗時所顯示之無效規則錯誤的螢幕擷取畫面。](media/deployment-pipelines-troubleshooting/broken-rule.png)
 
-當先前成功的部署因為連結中斷而失敗時，會顯示警告。 您可以按一下 [設定規則] 瀏覽至 [部署設定] 窗格，其中會標示失敗的資料集。 當您按一下資料集時，會標示中斷的規則。
+當先前成功的部署因為連結中斷而失敗時，會顯示警告。 您可以選取 [設定規則]，瀏覽至 [部署設定] 窗格，其中會標示失敗的資料集。 當您選取資料集時，會標示中斷的規則。
 
 若要成功部署，請修正或移除中斷的規則，然後重新部署。
 
@@ -120,9 +127,9 @@ ms.locfileid: "86557156"
 
 您無法在 Power BI 服務中變更資料來源連線。
 
-如果您想要變更測試階段或生產階段中的資料來源，您可以使用[資料集規則](deployment-pipelines-get-started.md#step-4---create-dataset-rules) 或 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) \(英文\)。 資料集規則只會在下一次部署之後生效。
+如果您想要變更測試階段或生產階段中的資料來源，您可以使用[資料集規則](deployment-pipelines-get-started.md#step-4---create-dataset-rules) 或 [API](/rest/api/power-bi/datasets/updateparametersingroup) \(英文\)。 資料集規則只會在下一次部署之後生效。
 
-### <a name="i-fixed-a-bug-in-production-but-now-i-cant-click-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>我已修正生產環境中的錯誤 (Bug)，但現在我無法按一下 [部署至上一個階段] 按鈕。 為什麼該按鈕顯示為灰色？
+### <a name="i-fixed-a-bug-in-production-but-now-i-cant-select-the-deploy-to-previous-stage-button-why-is-it-greyed-out"></a>我已修正生產環境中的錯誤 (Bug)，但現在我無法選取 [部署至上一個階段] 按鈕。 為什麼該按鈕顯示為灰色？
 
 您只能回溯部署到空的階段。 如果您在測試階段中有內容，就無法從生產環境進行回溯部署。
 
