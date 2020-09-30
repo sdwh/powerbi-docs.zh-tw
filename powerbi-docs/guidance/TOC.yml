@@ -108,7 +108,7 @@
               href: migrate-ssrs-reports-to-power-bi.md
         - name: 系統管理及部署
           items:
-            - name: 租用戶系統管理設定
+            - name: 租用戶設定
               href: admin-tenant-settings.md
             - name: 內部部署的資料閘道大小調整
               href: gateway-onprem-sizing.md
