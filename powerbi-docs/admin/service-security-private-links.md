@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.author: davidi
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.custom: ''
 LocalizationGroup: Administration
-ms.openlocfilehash: 3b8eb9c5e4211097cd6f11d233165ccaf197ddbe
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: dee055f53302ef6e7884463b8e0feb113aa9bd5a
+ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854360"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "91224202"
 ---
 # <a name="private-links-for-accessing-power-bi"></a>使用私人連結存取 Power BI
 
@@ -226,10 +226,7 @@ ms.locfileid: "90854360"
     |子網路 |選取 [mySubnet] |
     |**私人 DNS 整合** ||
     |與私人 DNS 區域整合|   選取 [是] |
-    |私人 DNS 區域   |選取 <br><br>
-    *(New)privatelink.analysis.windows.net* <br>
-    *(New)privatelink.pbidedicated.windows.net* <br>
-    *(New)privatelink.tip1.powerquery.microsoft.com* |
+    |私人 DNS 區域   |選取 <br> *(New)privatelink.analysis.windows.net* <br> *(New)privatelink.pbidedicated.windows.net* <br> *(New)privatelink.tip1.powerquery.microsoft.com* |
     
     下圖顯示 [建立私人端點 - 設定] 視窗。
     

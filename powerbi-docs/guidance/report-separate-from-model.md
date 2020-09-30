@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 04/11/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 971c699170103d5521763679c93d3641c094cc58
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: f2b9ee2093889fc9a60d621ad09b3b52d2e90474
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83277425"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525930"
 ---
 # <a name="separate-reports-from-models-in-power-bi-desktop"></a>在 Power BI Desktop 中將報表與模型分開
 
@@ -37,7 +37,7 @@ ms.locfileid: "83277425"
 - 資料模型製造者與報表作者為不同人。
 - 已知模型將在現在或未來成為多個報表的來源。
 
-:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="PBIX 檔案有三個。第一個只包含模型。其他兩個只包含報表，且即時連線到 Power BI 服務中所裝載的模型。報表由不同人所開發。" border="true":::
+:::image type="content" source="media/report-separate-from-model/separate-report-files.png" alt-text="一個單一檔案包含由同一人所開發的模型與報表。" border="true":::
 
 資料模型製造者仍可使用 Power BI Desktop 報表製作體驗來測試及驗證其模型設計。 不過，在將其檔案發佈至 Power BI 服務之後，他們就應立即將報表自工作區中移除。 並且在每次重新發佈和覆寫資料集時，都必須記得移除報表。
 
@@ -56,7 +56,7 @@ ms.locfileid: "83277425"
 
 如果您必須對模型進行重大變更，建議您執行下列其中一個動作：
 
-- [檢視 Power BI 服務中資料集的相關內容](../consumer/end-user-related.md#view-related-content-for-a-dataset)。
+- [檢視 Power BI 服務中資料集的相關內容](../consumer/end-user-related.md)。
 - 探索 Power BI 服務中的[資料譜系](../collaborate-share/service-data-lineage.md)檢視。
 
 這兩個選項都可讓您快速識別所有相關的報表和儀表板。 資料譜系檢視可能是較佳的選擇，因為很容易查看每個相關成品的連絡人。 事實上，它是一個會開啟以連絡人為收件者之電子郵件訊息的超連結。

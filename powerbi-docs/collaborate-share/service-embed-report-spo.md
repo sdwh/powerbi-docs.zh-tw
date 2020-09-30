@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 LocalizationGroup: Share your work
 ms.date: 06/28/2020
-ms.openlocfilehash: 29aff96cc93de305ce78cb0cfa015954928309ff
-ms.sourcegitcommit: 13c4bec679313f2951f1833033316cb8176da8a1
+ms.openlocfilehash: 44e82a3f51af606d4e5cd6f70b13b9a8db4641fe
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88937508"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91135882"
 ---
 # <a name="embed-a-report-web-part-in-sharepoint-online"></a>在 SharePoint Online 中嵌入報表網頁組件
 
@@ -160,7 +160,7 @@ ms.locfileid: "88937508"
 
 * Power BI 與 SharePoint Online 支援的當地語系化語言不盡相同。 因此，您可能會在內嵌報表中看到未適當當地語系化的內容。
 
-* 您若使用 Internet Explorer 10，可能會遇到問題。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+* 您若使用 Internet Explorer 10，可能會遇到問題。 <!--You can look at the [browsers support for Power BI](../fundamentals/power-bi-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 
 * [國家/地區雲端](https://powerbi.microsoft.com/clouds/)不提供 Power BI Web 組件。
 

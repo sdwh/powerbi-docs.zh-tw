@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 09/15/2020
-ms.openlocfilehash: d0510a3c8caf2e07034b9410d4338431670833e5
-ms.sourcegitcommit: b3d32b8a4ce26fba7fdb5f1c5954d2b2e426503c
+ms.openlocfilehash: 6539495fbd98cdb0af302e007a8f85c44430a048
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91005483"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91135790"
 ---
 # <a name="collaborate-in-microsoft-teams-with-power-bi"></a>在 Microsoft Teams 中使用 Power BI 共同作業
 
@@ -50,7 +50,7 @@ ms.locfileid: "91005483"
 - Power BI 不支援 Microsoft Teams 所支援的相同當地語系化語言。 因此，您可能不會在內嵌報表中看到適當的當地語系化。
 - Power BI 儀表板無法內嵌於 Microsoft Teams 的 [Power BI] 索引標籤中。
 - 沒有 Power BI 授權或存取報表權限的使用者會看到「內容無法使用」訊息。
-- 如果您使用 Internet Explorer 10，可能就會遇到問題。 <!--You can look at the [browsers support for Power BI](../consumer/end-user-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
+- 如果您使用 Internet Explorer 10，可能就會遇到問題。 <!--You can look at the [browsers support for Power BI](../fundamentals/power-bi-browsers.md) and for [Microsoft 365](https://products.office.com/office-system-requirements#Browsers-section). -->
 - Microsoft Teams 的 [Power BI] 索引標籤不支援 [URL 篩選](service-url-filters.md)。
 - 在國家雲端中，無法使用新的 [Power BI] 索引標籤。 較舊的版本可能無法在 Power BI 應用程式中支援全新的工作區體驗或報表。
 - 儲存索引標籤之後，即無法透過索引標籤設定來變更索引標籤名稱。 請使用 [重新命名] 選項加以變更。

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/22/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99ee50db33d549d33347c9ceedfe9084f0dbe01f
-ms.sourcegitcommit: ff981839e805f523748b7e71474acccf7bdcb04f
+ms.openlocfilehash: d718b83e5c6ee5966bb882bcbf37feb58657f7cb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91020105"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525392"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -552,8 +552,8 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 請選取下列連結以下載這個較早的版本： 
 
-* [Power BI Desktop - 32 位元 2020 年 3 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03.exe)
-* [Power BI Desktop - 64 位元 2020 年 3 月版本](https://download.microsoft.com/download/8/8/0/880BCA75-79DD-466A-927D-1ABF1F5454B0/PBIDesktopSetup-2020-03_x64.exe)
+* [Power BI Desktop - 32 位元 2020 年 3 月版本](https://www.microsoft.com/download/confirmation.aspx?id=58494&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1)
+* [Power BI Desktop - 64 位元 2020 年 3 月版本](https://www.microsoft.com/download/confirmation.aspx?id=58494&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1)
 
 
 
