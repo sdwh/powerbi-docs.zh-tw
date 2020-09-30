@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 071e7f477898aa49f8324f8f57edf02210a016b7
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 4225a8a7cc0da8c84b326fc2a2c9c082fd3fb3e6
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532227"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526097"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>合作夥伴售前學習目錄
 
@@ -22,7 +22,7 @@ ms.locfileid: "84532227"
 ## <a name="get-started"></a>開始使用<a name="get-started"></a>
 | 內容  | 描述 | 格式  | 長度   |
 |-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------|
-| [Microsoft Power Platform 基本概念](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/) \(英文\)   | 了解 Power Platform 的商業價值和產品功能。 建立簡單的 PowerApp、使用 CDS 連線資料、建置 Power BI 儀表板，以及使用 Microsoft Flow 自動化程序。   | 免費的自學型線上學習路徑 | 2 小時 42 分鐘   |
+| [Microsoft Power Platform 基本概念](/learn/paths/power-plat-fundamentals/) \(英文\)   | 了解 Power Platform 的商業價值和產品功能。 建立簡單的 PowerApp、使用 CDS 連線資料、建置 Power BI 儀表板，以及使用 Microsoft Flow 自動化程序。   | 免費的自學型線上學習路徑 | 2 小時 42 分鐘   |
 | [Microsoft Power BI YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos)                                                 | Microsoft Power BI 產品小組提供內容的 YouTube 頻道  | 影片 |             |
 | [A walk through of Power BI most advanced features through Star Wars data - Gil Raviv](https://www.youtube.com/watch?v=r0Qk5V8dvgg) (透過「星際大戰」資料逐步解說 Power BI 最先進的功能 - Gil Raviv) | 成為全端的 Power BI 絕地武士 - Gil Raviv 利用星際大戰的資料，逐步解說 Power BI 最新進階功能  | YouTube 影片   | 58 分鐘 51 秒 |
 | [Power BI 報表伺服器中有什麼令人興奮的新功能](https://info.microsoft.com/whats-new-powerbi-report-server-ondemand.html)       | 喜愛 Power BI，但現在需要內部部署解決方案嗎？ 深入了解 Power BI 報表伺服器，這是一種可供自助分析和企業報表使用的全方位內部部署解決方案。在 Power BI Desktop 中設計美觀的互動式報表、將其發佈到 Power BI 報表伺服器，然後在網頁瀏覽器或手機上的 Power BI 應用程式中進行檢視並與其互動。 由於 Power BI 報表伺服器包括 SQL Server Reporting Services 的經實證企業報表功能，因此甚至可以執行現有的 Reporting Services 報表。 | Webinar   |             |

@@ -6,12 +6,12 @@ ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: f41699791ee79ae963978f69974e91f336ccd193
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: af44ca4674d66c8415b9919c9c83e3fbfda391b1
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532756"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528014"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>商務與技術決策者學習目錄
 
@@ -22,6 +22,6 @@ ms.locfileid: "84532756"
 ## <a name="get-started"></a>開始使用<a name="get-started"></a>
 | 內容  | 描述  | 格式  | 長度     |
 |---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
-| [了解 Power BI 的商業價值](https://docs.microsoft.com/learn/modules/introduction-power-bi/) | 了解如何運用 Power BI 輕鬆建置具有互動式視覺效果的報表和儀表板，並查看其他組織如何使用此解決方案來利用可採取動作的見解以推動業績成效。 | 免費的自學型線上學習路徑 | 21 分鐘 |
-| [Microsoft Power Platform 基本概念](https://docs.microsoft.com/learn/paths/power-plat-fundamentals/) \(英文\)      | 了解 Power Platform 的商業價值和產品功能。 建立簡單的 PowerApp、使用 CDS 連線資料、建置 Power BI 儀表板，以及使用 Microsoft Flow 自動化程序。                          | 免費的自學型線上學習路徑 | 2 小時 42 分鐘  |
+| [了解 Power BI 的商業價值](/learn/modules/introduction-power-bi/) | 了解如何運用 Power BI 輕鬆建置具有互動式視覺效果的報表和儀表板，並查看其他組織如何使用此解決方案來利用可採取動作的見解以推動業績成效。 | 免費的自學型線上學習路徑 | 21 分鐘 |
+| [Microsoft Power Platform 基本概念](/learn/paths/power-plat-fundamentals/) \(英文\)      | 了解 Power Platform 的商業價值和產品功能。 建立簡單的 PowerApp、使用 CDS 連線資料、建置 Power BI 儀表板，以及使用 Microsoft Flow 自動化程序。                          | 免費的自學型線上學習路徑 | 2 小時 42 分鐘  |
 | [Microsoft Power BI YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos)  | Microsoft Power BI 產品小組提供內容的 YouTube 頻道  | 影片   |            |
