@@ -259,8 +259,6 @@
               href: ../visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
             - name: 在 Power BI 視覺效果中與 ArcGIS 地圖互動
               href: ../visuals/power-bi-visualizations-arcgis.md
-            - name: 建立 ArcGIS maps for Power BI 視覺效果
-              href: ../visuals/power-bi-visualization-arcgis.md
             - name: 基本區域圖
               href: ../visuals/power-bi-visualization-basic-area-chart.md
             - name: 建立卡片視覺效果 (也稱為大數字磚)
