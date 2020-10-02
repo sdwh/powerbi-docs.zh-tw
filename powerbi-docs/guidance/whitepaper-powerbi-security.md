@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/14/2020
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 19548729f4ae85334fea14584e78ad4ee05a5c24
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: 432f8a7a39e6902c679c83d447039519f90d0dac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965328"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635692"
 ---
 # <a name="power-bi-security-whitepaper"></a>Power BI 安全性白皮書
 
@@ -171,12 +171,11 @@ Power BI 服務管理資料的方式，也會依是否使用 **DirectQuery** 存
 
 下表會根據使用的查詢類型描述 Power BI 資料。 **X** 會在使用相關查詢類型時，表示 Power BI 資料是否存在。
 
-
-|  |匯入  |DirectQuery  |Live connect  |
-|---------|---------|---------|---------|
-|結構描述     |     X    |    X     |         |
-|資料列資料     |    X     |         |         |
-|視覺效果資料快取     |    X     |     X    |    X     |
+|                         | 匯入   | DirectQuery | Live connect  |
+|-------------------------|----------|-------------|---------------|
+|**結構描述**               | X        | X           |               |
+|**資料列資料**             | X        |             |               |
+|**視覺效果資料快取** | X        | X           | X             |
 
 DirectQuery 和其他查詢之間的差異決定 Power BI 服務處理待用資料的方式，以及查詢本身是否加密。 下列各節描述待用和移動中的資料，並描述加密、位置和處理資料的程序。
 
@@ -241,7 +240,7 @@ Power BI 以下列方式提供資料完整性監視：
 
 * 針對 Azure Blob 儲存體中的待用資料，Power BI 會使用用戶端加密和 HTTPS 將資料傳輸至儲存體，此儲存體會在資料擷取期間檢查完整性。 您可以[深入了解 Azure Blob 儲存體安全性](/azure/storage/blobs/security-recommendations)。
 
-#### <a name="reports"></a>報告
+#### <a name="reports"></a>報表
 
 1. 中繼資料 (報表定義)
 
@@ -449,14 +448,14 @@ Power BI 行動版應用程式不會查看裝置上的資料夾。
 
 **針對 Power BI 視覺效果，Microsoft 是否會在將專案發行至資源庫之前，執行自訂視覺效果程式碼的任何安全性或隱私權評量？**
 
-* 不可以。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
+* 否。 客戶應負責檢閱自訂視覺效果程式碼，並判斷程式碼是否可靠。 因為所有自訂視覺效果程式碼都會在沙箱環境內執行，所以自訂視覺效果中的不當程式碼並不會對 Power BI 服務的其他部分造成影響。
 
 **有其他 Power BI 視覺效果會在客戶網路外傳送資訊嗎？**
 
 * 可以。 Bing 地圖服務和 ESRI 視覺效果會因使用這些服務的視覺效果而在 Power BI 服務外傳輸資料。
 
 **針對範本應用程式，Microsoft 是否會在將專案發行至資源庫之前，對範本應用程式執行任何安全性或隱私權評定？**
-* 不可以。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
+* 否。 應用程式發行者負責處理內容，而客戶必須負責審查並判斷是否信任範本應用程式發行者。 
 
 **是否有範本應用程式可以將資訊傳送到客戶網路之外？**
 * 可以。 客戶必須負責檢查發行者的隱私權原則，並判斷是否要在租使用者上安裝範本應用程式。 此外，發行者也會負責通知應用程式的行為和功能。
