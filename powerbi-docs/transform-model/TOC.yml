@@ -35,6 +35,22 @@
           href: desktop-bidirectional-filtering.md
         - name: 使用 Power BI 中的多維度模型
           href: ../connect-data/desktop-default-member-multidimensional-models.md
+    - name: 資料流程
+      items:
+        - name: 資料流程簡介
+          href: dataflows/dataflows-introduction-self-service.md
+        - name: 建立資料流程
+          href: dataflows/dataflows-create.md
+        - name: 設定及取用資料流程
+          href: dataflows/dataflows-configure-consume.md
+        - name: 資料流程與 Azure Data Lake Gen2
+          href: dataflows/dataflows-azure-data-lake-storage-integration.md
+        - name: 資料流程的進階功能
+          href: dataflows/dataflows-premium-features.md
+        - name: 搭配資料流程使用 Machine Learning 與認知服務
+          href: dataflows/dataflows-machine-learning-integration.md
+        - name: 資料流程限制與考量
+          href: dataflows/dataflows-features-limitations.md
     - name: 操作指南
       items:
         - name: 執行一般查詢工作
