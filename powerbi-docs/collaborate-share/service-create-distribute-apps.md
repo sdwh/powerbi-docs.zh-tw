@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 03/23/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d12e64b98e2282e4446565ebd17a6222ba6276d2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 09ac807b6823c8d9e8c0b44ad941365eb3ffb766
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226669"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526436"
 ---
 # <a name="publish-an-app-in-power-bi"></a>使用 Power BI 發佈應用程式
 
@@ -135,7 +135,7 @@ ms.locfileid: "85226669"
 當您將連結新增至應用程式瀏覽並選取 [內容區域] 選項時：
 * 請確定連結可內嵌。 某些服務會在第三方網站中封鎖內嵌其內容，例如 Power BI。
 * 在不支援的其他工作區中內嵌 Power BI 服務內容，例如報表或儀表板。 
-* 從內部部署的部署，透過其原生內嵌 URL 內容內嵌 Power BI 報表伺服器內容。 使用[建立 Power BI 報表伺服器 URL](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) 中的這些步驟取得 URL。 請注意，因為適用一般驗證規則，所以檢視內容需要 VPN 連線到內部部署伺服器。 
+* 從內部部署的部署，透過其原生內嵌 URL 內容內嵌 Power BI 報表伺服器內容。 使用[建立 Power BI 報表伺服器 URL](../report-server/quickstart-embed.md#create-the-power-bi-report-url) 中的這些步驟取得 URL。 請注意，因為適用一般驗證規則，所以檢視內容需要 VPN 連線到內部部署伺服器。 
 * 在內嵌內容的頂端會顯示安全性警告，表示此非 Power BI 的內容。
 
 ## <a name="automatically-install-apps-for-end-users"></a>自動為終端使用者安裝應用程式
@@ -144,12 +144,12 @@ ms.locfileid: "85226669"
 ### <a name="how-to-push-an-app-automatically-to-end-users"></a>如何向使用者自動推播應用程式
 系統管理員為您指派權限之後，您有新的選項用來**自動安裝應用程式**。 當您核取此方塊並選取 [發佈應用程式] (或 [更新應用程式]) 後，就會將應用程式推播至在 [存取] 索引標籤之應用程式 [權限] 區段中定義的所有使用者或羣組。
 
-![允許推送應用程式](media/service-create-distribute-apps//power-bi-apps-access.png)
+![顯示 Power BI [發佈應用程式] 選項的螢幕擷取畫面，其中已選取 [自動安裝應用程式]。](media/service-create-distribute-apps//power-bi-apps-access.png)
 
 ### <a name="how-users-get-the-apps-that-you-push-to-them"></a>使用者如何取得您推播給他們的應用程式
 應用程式推播後，就會自動出現在他們的 [應用程式] 清單中。 以此方式，您就可以讓組織中特定使用者或工作角色輕鬆取得他們需要的應用程式。
 
-![允許推送應用程式](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+![顯示 Power BI [應用程式] 的螢幕擷取畫面，其中包含您已發佈的應用程式。](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
 ### <a name="considerations-for-automatically-installing-apps"></a>自動安裝應用程式的考量
 推送應用程式給終端使用者時，請記住下列事項：
@@ -215,5 +215,5 @@ ms.locfileid: "85226669"
 * [建立工作區](service-create-workspaces.md)
 * [在 Power BI 中安裝和使用應用程式](../consumer/end-user-apps.md)
 * [外部服務的 Power BI 應用程式](../connect-data/service-connect-to-services.md)
-* [Power BI 管理入口網站](https://docs.microsoft.com/power-bi/service-admin-portal)
+* [Power BI 管理入口網站](../admin/service-admin-portal.md)
 * 有問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)
