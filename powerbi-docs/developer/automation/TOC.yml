@@ -39,7 +39,7 @@
     - name: 參考
       items:
         - name: REST API
-          href: 'https://docs.microsoft.com/rest/api/power-bi'
+          href: /rest/api/power-bi
         - name: Power BI REST API 參考
           href: rest-api-reference.md
         - name: 完整程式碼清單
@@ -48,7 +48,7 @@
       items:
         - name: 開發人員中心
           href: 'https://powerbi.microsoft.com/en-us/developers/'
-        - name: 'Power BI C# Git 存放庫'
+        - name: Power BI C# Git 存放庫
           href: 'https://go.microsoft.com/fwlink/?linkid=848273'
         - name: .NET SDK 下載
           href: 'https://go.microsoft.com/fwlink/?linkid=848274'
