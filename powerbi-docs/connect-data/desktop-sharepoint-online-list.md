@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74dbd1207a39f44f761c5068af41db1f40acabe3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f6bcd67d41f2c04cedd7c66eb5989f2a6919b030
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85222676"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598668"
 ---
 # <a name="create-a-report-on-a-sharepoint-list"></a>在 SharePoint 清單上建立報表
 
@@ -30,7 +30,7 @@ ms.locfileid: "85222676"
 2. 開啟 Power BI Desktop，然後在功能區的 [首頁] 索引標籤中選取 [取得資料] > [其他]。
 3. 依次選取 [線上服務]、[SharePoint Online 清單]。  
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="get data" width="350"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-getdata.png" alt="Screenshot shows the Get Data dialog box with Online Services selected." width="350"/>
 
 4. 選取 [連接]。
 4. 尋找包含您清單的 SharePoint Online 網站位址 (也稱為 URL)。  您通常可以在 SharePoint Online 的頁面從瀏覽窗格選取 [首頁] (或頂端的網站圖示)，然後從網頁瀏覽器的網址列複製位址來取得網站位址。
@@ -52,7 +52,7 @@ ms.locfileid: "85222676"
 
 9. 在 [導覽器] 左側，在想要連線的 SharePoint 清單旁選取核取方塊。
 
-    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="get data" width="450"/>
+    <img src="media/desktop-sharepoint-online-list/desktop-sharepoint-online-list-select-list.png" alt="Screenshot shows the Navigator page with BudgetRequests selected." width="450"/>
 
 10. 選取 [載入]。  Power BI 會將清單資料載入至新的報表。
 

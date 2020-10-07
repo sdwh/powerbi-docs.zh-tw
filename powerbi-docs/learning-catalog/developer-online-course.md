@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/01/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 82f9ffaeb98610dd9ae5986031638c5086749937
-ms.sourcegitcommit: 7fba2caf3bd7ed93a7ecb6a6b9ba2da26de27395
+ms.openlocfilehash: bb5e2d0accd2db339666e23c449164103bb26ac8
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2020
-ms.locfileid: "84467025"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527876"
 ---
 # <a name="power-bi-developer-in-a-day-course"></a>Power BI 開發人員一日上手課程
 
@@ -85,7 +85,7 @@ ms.locfileid: "84467025"
 
 - 最新版本的 [Power BI Desktop](../fundamentals/desktop-get-the-desktop.md)。
 - Visual Studio 2015 或更新版本。 建議使用 [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)。 您可以使用免費且適用於學習案例的 **Community** 版。 其必須已安裝 **ASP.NET 和 Web 開發**工作負載。
-- [Power BI 支援](../power-bi-browsers.md)的網頁瀏覽器。 建議使用 Microsoft Edge。
+- [Power BI 支援](../fundamentals/power-bi-browsers.md)的網頁瀏覽器。 建議使用 Microsoft Edge。
 
 請遵循下列步驟來進行設定：
 
@@ -106,7 +106,7 @@ ms.locfileid: "84467025"
 當準備好開始第一個實驗室時，請開啟 **&lt;CourseFolder&gt;\PowerBIDevIAD\Lab01A\PowerBIDevIAD_Lab01A.pdf** 檔案。 此文件會引導登入 Power BI 服務，並準備 Power BI 報表。
 
 > [!NOTE]
-> 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../service-self-service-signup-for-power-bi.md)。
+> 您必須自行建立自己的 Power BI 帳戶。 如果還沒有帳戶，請參閱[以個人身分註冊 Power BI](../fundamentals/service-self-service-signup-for-power-bi.md)。
 >
 > 您的帳戶必須具有 Power BI Pro 授權，或者您仍然可以接受 Power BI Pro 試用版授權 (此供應項目只能接受一次)。 此外，您的帳戶也不得耗盡 Power BI Pro 授權提供使用的免費內嵌權杖保留。
 >

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: how-to
 ms.date: 09/28/2020
-ms.openlocfilehash: 3a755b2b4eeba407178d7afa0a0250b6897e6dac
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: aa4df6db3058ef3d6f8c399e1bf20f0edf17ebc8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526344"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600505"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>使用 Power BI 服務建立編頁報表的參數
 
@@ -62,11 +62,6 @@ ms.locfileid: "91526344"
   
 9. 選取 [確定]。 
 
-## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-
-- 若使用 Power BI 資料集或 Analysis Services 模型作為資料來源，即無法在單一要求中傳遞超過 1000 個參數值。 DAX 會將參數限制為 1000 個值。 
-
- 
 ## <a name="next-steps"></a>後續步驟
 
 請參閱[檢視編頁報表的參數](../consumer/paginated-reports-view-parameters.md)以了解參數在 Power BI 服務中的樣子。

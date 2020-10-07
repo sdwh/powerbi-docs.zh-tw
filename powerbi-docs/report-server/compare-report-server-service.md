@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 ms.date: 07/28/2020
-ms.openlocfilehash: 18629f38db7d8b88c47d4a1af3a5c3f6512433b4
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 02d5b30f4e3f769e3c20cc7faa8b051e8114e5c5
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859144"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599966"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>比較 Power BI 報表伺服器和 Power BI 服務
 
@@ -43,7 +43,7 @@ Power BI 報表伺服器和 Power BI 服務有許多相似之處和一些主要�
 | 在 Excel 中進行分析 | 否 | 是 | [使用 Excel 分析](../collaborate-share/service-analyze-in-excel.md) 
 | 編頁報表 | 是 | 是 | Premium 容量的預覽版中，[可於 Power BI 服務內使用編頁的報表](../paginated-reports/paginated-reports-report-builder-power-bi.md) |
 | Power BI 行動應用程式 | 是 | 是 | [Power BI 行動裝置應用程式概觀](../consumer/mobile/mobile-apps-for-mobile-devices.md) |
-| ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../visuals/power-bi-visualization-arcgis.md) |
+| ARC GIS 地圖 | 否 | 是 | [Power BI 服務及 Power BI Desktop 中由 Esri 提供的 ArcGIS 地圖](../visuals/power-bi-visualizations-arcgis.md) |
 | Power BI 報表的電子郵件訂用帳戶 | 否 | 是 | [為您自己或其他人訂閱](../collaborate-share/service-report-subscribe.md) Power BI 服務中的報表或儀表板 |
 | 編頁報表的電子郵件訂用帳戶 | 是 | 是 | [為您自己和其他人訂閱 Power BI 服務中的編頁報表](../consumer/paginated-reports-subscriptions.md)<br><br>[Reporting Services 中的電子郵件傳遞](/sql/reporting-services/working-with-subscriptions-web-portal)  |
 | 資料警示 | 否 | 是 | Power BI 服務中的[資料警示](../create-reports/service-set-data-alerts.md)

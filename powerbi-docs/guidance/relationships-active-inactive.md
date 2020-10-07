@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: e8ba3203728a72b26d188e96eb1fa66f62f89a55
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: df9405dcf65eb39095f711edbcaf2a35e4a1f6aa
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215126"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136227"
 ---
 # <a name="active-vs-inactive-relationship-guidance"></a>作用中與非作用中關聯性指導方針
 
@@ -114,7 +114,7 @@ CALCULATE(
 
 報表頁面依季 2019 Q4 進行篩選。 依月份分組的表格視覺效果，並顯示各種銷售統計資料。 **Orders** 與 **Orders Shipped** 量值產生不同結果。 其各自使用相同的摘要邏輯 (計算 **Sales** 資料表的資料列)，但 **Date** 資料表篩選條件傳播不同。
 
-請注意，[季] 交叉分析篩選器包含空白項目。 此交叉分析篩選器項目會顯示為[資料表展開](../transform-model/desktop-relationships-understand.md#strong-relationships)的結果。 不過，每個 **Sales** 資料表資料列都有訂單日期，但是有些資料列有空白出貨日期，這些訂單都尚未出貨。 資料表展開也會考慮非作用中關聯性，因此可能因為多方關聯性上的空白或資料完整性問題，而出現空白。
+請注意，[季] 交叉分析篩選器包含空白項目。 此交叉分析篩選器項目會顯示為[資料表展開](../transform-model/desktop-relationships-understand.md#regular-relationships)的結果。 不過，每個 **Sales** 資料表資料列都有訂單日期，但是有些資料列有空白出貨日期，這些訂單都尚未出貨。 資料表展開也會考慮非作用中關聯性，因此可能因為多方關聯性上的空白或資料完整性問題，而出現空白。
 
 ## <a name="recommendations"></a>建議
 
