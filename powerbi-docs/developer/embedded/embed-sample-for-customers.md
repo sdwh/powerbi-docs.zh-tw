@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 06/02/2020
-ms.openlocfilehash: bb693b1b46e193a87365537492c83aa2eb8a479a
-ms.sourcegitcommit: b2c60781da6f756102f91346b35a7651fb5dcda3
+ms.openlocfilehash: 6ba5cd95f3e8b788ca7ee8939dff6616c5610573
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86092231"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746623"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>教學課程：將客戶的 Power BI 內容內嵌至應用程式
 
@@ -46,7 +46,7 @@ ms.locfileid: "86092231"
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>在 Azure Active Directory (Azure AD) 中註冊應用程式
 
-請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 當您註冊應用程式時，即可為應用程式建立身分識別，並指定[對 Power BI REST 資源的權限](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 根據您想要使用主帳戶還是[服務主體](embed-service-principal.md)，決定如何開始註冊應用程式。
+請向 Azure Active Directory [註冊您的應用程式](register-app.md)，以允許該應用程式存取 [Power BI REST API](/rest/api/power-bi/)。 當您註冊應用程式時，即可為應用程式建立身分識別，並指定[對 Power BI REST 資源的權限](/azure/active-directory/develop/v2-permissions-and-consent)。 根據您想要使用主帳戶還是[服務主體](embed-service-principal.md)，決定如何開始註冊應用程式。
 
 根據您採取的方法，這會影響您在 Azure 中註冊的應用程式類型。
 
@@ -62,7 +62,7 @@ ms.locfileid: "86092231"
 
 ### <a name="create-and-publish-your-reports"></a>建立並發佈報表
 
-您可以使用 Power BI Desktop 建立報表和資料集，然後將這些報表發佈至工作區。 有兩種完成此工作的方式：身為終端使用者，您可以將報表發佈至具有主帳戶 (Power BI Pro 授權) 的傳統工作區。 如果您是使用服務主體，則可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)，將報表發佈至使用新的工作區。
+您可以使用 Power BI Desktop 建立報表和資料集，然後將這些報表發佈至工作區。 有兩種完成此工作的方式：身為終端使用者，您可以將報表發佈至具有主帳戶 (Power BI Pro 授權) 的傳統工作區。 如果您是使用服務主體，則可以使用 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup)，將報表發佈至使用新的工作區。
 
 下列步驟逐步解說如何將您的 PBIX 報表發佈至您的 Power BI 工作區。
 
@@ -224,11 +224,11 @@ Get-PowerBIworkspace -name "App Owns Embed Test" | Get-PowerBIReport
 
 ## <a name="embed-content-within-your-application"></a>在應用程式中內嵌內容
 
-即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您內容的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
+即使使用 [Power BI REST API](/rest/api/power-bi/) 可以完成內嵌您內容的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
 
-在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主帳戶或[服務主體](embed-service-principal.md)的**存取權杖**。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+在應用程式中為您的客戶內嵌項目，需要從 **Azure AD** 取得您主帳戶或[服務主體](embed-service-principal.md)的**存取權杖**。 您需要先為您的 Power BI 應用程式取得 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，才可呼叫 [Power BI REST API](/rest/api/power-bi/)。
 
-為了使用**存取權杖**建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
+為了使用**存取權杖**建立 Power BI 用戶端，您可以建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -269,11 +269,11 @@ Report report = reports.Value.FirstOrDefault();
 **用來為特定項目產生內嵌權杖的 API**
 
 使用這些 API 所建立內嵌權杖特定於您正在內嵌的項目。 每當使用這些 API 內嵌 Power BI 項目 (例如報表、儀表板或磚) 時，都必須為其建立新的內嵌權杖。
-* [Dashboards GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
-* [Datasets GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
-* [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
-* [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
-* [Tiles GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
+* [Dashboards GenerateTokenInGroup](/rest/api/power-bi/embedtoken/dashboards_generatetokeningroup)
+* [Datasets GenerateTokenInGroup](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup)
+* [Reports GenerateTokenForCreateInGroup](/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup)
+* [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup)
+* [Tiles GenerateTokenInGroup](/rest/api/power-bi/embedtoken/tiles_generatetokeningroup)
 
 您可以從[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的下列檔案中，取得為報表、儀表板或磚建立內嵌權杖的範例。
 * Services\EmbedService.cs
@@ -300,7 +300,7 @@ var embedConfig = new EmbedConfig()
 
 **為多個項目產生內嵌權杖的 API**<a id="multiEmbedToken"></a>
 
-[產生權杖](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken)內嵌 API 會產生一個權杖，可用來內嵌多個項目。
+[產生權杖](/rest/api/power-bi/embedtoken/generatetoken)內嵌 API 會產生一個權杖，可用來內嵌多個項目。
 
 此 API 也可用來在內嵌報表時動態選取資料集。 如需此 API 使用方式的詳細資訊，請參閱[動態繫結](embed-dynamic-binding.md)。
 
@@ -414,7 +414,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 > [!NOTE]
 > 在 A SKU 中，您無法使用免費的 Power BI 授權存取 Power BI 內容。
 
-下表描述每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 資料表。
+下表描述每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](./embedded-faq.md#which-solution-should-i-choose) 資料表。
 
 | 容量節點 | V 核心總數 | 後端 V 核心 | RAM (GB) | 前端 V 核心 | DirectQuery/即時連線 (每秒) | 模型重新整理平行處理原則 |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -430,7 +430,7 @@ var token = client.GetClient().EmbedToken.GenerateToken(request);
 
 若要進行開發測試，您可搭配 Pro 授權使用內嵌試用權杖。 若要在生產環境中進行內嵌，請使用專用容量。
 
-Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制。 請使用[可用功能](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) API 來檢查目前內嵌使用量的百分比。 使用量會針對每個服務主體或主帳戶顯示。
+Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制。 請使用[可用功能](/rest/api/power-bi/availablefeatures/getavailablefeatures) API 來檢查目前內嵌使用量的百分比。 使用量會針對每個服務主體或主帳戶顯示。
 
 若在測試時用盡內嵌權杖，則需要購買 Power BI Embedded 或 Premium [容量](embedded-capacity.md)。 使用專用容量可產生的內嵌權杖數沒有限制。
 
@@ -441,7 +441,7 @@ Power BI 服務主體或主帳戶可產生的內嵌試用權杖數有所限制�
 
 您必須將所有包含內嵌內容 (包括資料集、報表和儀表板) 相關 Power BI 資源的工作區指派給專用容量。 例如，如果內嵌報表和繫結至該報表的資料集位於不同工作區，則必須將這兩個工作區指派給專用容量。
 
-若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
+若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
 
 請遵循下列步驟，使用**主帳戶**將專用容量指派給工作區，。
 

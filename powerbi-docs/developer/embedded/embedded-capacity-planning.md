@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/03/2020
-ms.openlocfilehash: 23018dce94efad6c63a22b6ee3a2c0919475adb5
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 9158dfccecd42d13a133a49097b2f85cb3713f00
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145137"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746738"
 ---
 # <a name="capacity-planning-in-power-bi-embedded-analytics"></a>Power BI 內嵌式分析中的容量規劃
 
@@ -42,7 +42,7 @@ ms.locfileid: "83145137"
 以下是您可以如何使用規劃工具的一些範例。
 
 * 容量管理員可以進一步了解其容量在指定時間範圍內可處理的使用者人數。
-* 報表作者可以了解使用 Power BI Desktop 的[效能分析器](https://docs.microsoft.com/power-bi/desktop-performance-analyzer)來測量的使用者負載效果。
+* 報表作者可以了解使用 Power BI Desktop 的[效能分析器](../../create-reports/desktop-performance-analyzer.md)來測量的使用者負載效果。
 * 您可以在瀏覽器上看到即時轉譯的情況。
 * 使用 SQL Server Profiler，您可以[連線至測量之容量的 XMLA 端點](https://powerbi.microsoft.com/blog/power-bi-open-platform-connectivity-with-xmla-endpoints-public-preview/) \(英文\)，以查看正在執行的查詢。
 * 負載測試效果會顯示在 Premium 容量計量應用程式的 [資料集] 頁面中。 容量管理員可以使用此工具來產生負載，並查看該負載的顯示方式。

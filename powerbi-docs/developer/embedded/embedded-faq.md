@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/11/2020
-ms.openlocfilehash: fe1eb36a63d504497f15bef8316e96d120439793
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 86ac6bebf6373f14ac343721a8594ee9f45b0e89
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83145100"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746186"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>關於 Power BI Embedded 的常見問題集
 
@@ -51,7 +51,7 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>我可以建立多少內嵌權杖？
 
-具有 PRO 授權的內嵌權杖適用於開發測試，因此 Power BI 主帳戶或[服務主體](embed-service-principal.md)可產生的內嵌權杖數量有限。 [購買容量](#technical)以在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。 請移至 [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。
+具有 PRO 授權的內嵌權杖適用於開發測試，因此 Power BI 主帳戶或[服務主體](embed-service-principal.md)可產生的內嵌權杖數量有限。 [購買容量](#technical)以在生產環境中進行內嵌作業。 購買容量後，您可產生的內嵌權杖數量就不受限制。 請移至 [Available Features](/rest/api/power-bi/availablefeatures) (可用功能) 來檢查指出目前內嵌使用情況百分比的使用情況值。
 
 ## <a name="technical"></a>技術
 
@@ -69,7 +69,7 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 * [使用 Power BI 管理入口網站](../../admin/service-admin-portal.md#power-bi-embedded)。
 
-* 下載 Power BI 中的[計量應用程式](https://docs.microsoft.com/power-bi/service-admin-premium-monitor-capacity)。
+* 下載 Power BI 中的[計量應用程式](../../admin/service-admin-premium-monitor-capacity.md)。
 
 * 使用 [Azure 診斷記錄](azure-pbie-diag-logs.md)。
 
@@ -79,7 +79,7 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>為什麼建立/調整/繼續容量會讓容量進入暫止狀態？
 
-容量佈建 (調整/繼續/建立) 可能會失敗。 您可以使用「取得詳細資料 API」來檢查容量的佈建狀態：[Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (容量 - 取得詳細資料)。
+容量佈建 (調整/繼續/建立) 可能會失敗。 您可以使用「取得詳細資料 API」來檢查容量的佈建狀態：[Capacities - Get Details](/rest/api/power-bi-embedded/capacities/getdetails) (容量 - 取得詳細資料)。
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>是否只能在特定區域中建立 Power BI Embedded 容量？
 
@@ -89,7 +89,7 @@ Microsoft 建議企業購買 Power BI Premium，企業級的自助雲端 BI 解�
 
 當授與使用者工作區、應用程式或成品的權限時，可能無法立即透過 API 呼叫使用。
 結果可能是在 'GET' API 回應中遺失的成品，或在嘗試使用成品時發生錯誤。
-使用者可以藉由呼叫 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) (會更新使用者的權限) 來解決這個問題。
+使用者可以藉由呼叫 [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions) (會更新使用者的權限) 來解決這個問題。
 
 
 ### <a name="how-can-i-find-my-pbi-tenant-region"></a>如何尋找我的 PBI 租用戶區域？
@@ -114,8 +114,8 @@ Power BI 需要您使用組織帳戶註冊。 不支援使用 Microsoft 帳戶�
 
 是，您可以使用 Powershell Cmdlet 和 Azure Resource Manager REST API 來建立及管理 PBIE 資源。
 
-* [Rest API](https://docs.microsoft.com/rest/api/power-bi-embedded/) 
-* [Powershell Cmdlet](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
+* [Rest API](/rest/api/power-bi-embedded/) 
+* [Powershell Cmdlet](/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>PBI Embedded 解決方案中的 PBI Embedded 專用容量角色是什麼？
 
@@ -145,7 +145,7 @@ Power BI Embedded 會繼續使用 Azure AD 進行主使用者 (指定的 Power B
 
 如果您已經有 Azure AD 租用戶，您可以使用您現有的目錄。 您也可以為您的內嵌應用程式內容安全性建立新 Azure AD 租用戶。
 
-若要取得 AAD 權杖，可以使用其中一個 [Azure Active Directory 驗證程式庫](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries)。 有適用於多種平台的用戶端程式庫。
+若要取得 AAD 權杖，可以使用其中一個 [Azure Active Directory 驗證程式庫](/azure/active-directory/develop/active-directory-authentication-libraries)。 有適用於多種平台的用戶端程式庫。
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>我的應用程式已使用 AAD 來驗證使用者。 在「使用者擁有資料」情節中，驗證到 Power BI 時，如何使用此身分識別？
 
@@ -194,7 +194,7 @@ var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAss
 
 服務主體會從其安全性群組繼承所有 Power BI 租用戶設定的使用權限。 若要限制使用權限，請建立服務主體專屬的安全性群組，並將其新增至相關已啟用 Power BI 設定的 [特定安全性群組除外]  清單。
 
-以「管理員」  身分將服務主體新增至新的新工作區時，此情況很重要。 您可以透過 [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
+以「管理員」  身分將服務主體新增至新的新工作區時，此情況很重要。 您可以透過 [API](/rest/api/power-bi/groups/addgroupuser) 或使用 Power BI 服務管理這項工作。
 
 ### <a name="when-to-use-an-application-id-vs-a-service-principal-object-id"></a>何時使用應用程式識別碼與服務主體物件識別碼？
 
@@ -283,7 +283,7 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
     > [!Note]
     > 您可以在以 **Power BI Embedded** 解決方案平行進行建置的同時，繼續使用「Power BI 工作區集合」  。 準備就緒之後，您便可以將客戶移至新的 **Power BI Embedded** 解決方案，然後淘汰「Power BI 工作區集合」  解決方案。
 
-如需詳細資訊，請參考[如何將 Power BI 工作區集合內容移轉至 Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded)
+如需詳細資訊，請參考[如何將 Power BI 工作區集合內容移轉至 Power BI Embedded](./migrate-from-powerbi-embedded.md)
 
 ### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>Power BI 工作區集合是否即將淘汰？
 
@@ -327,11 +327,11 @@ Power BI Embedded 會依據部署的節點類型，以可預測的每小時費�
 
 ### <a name="how-can-i-edit-my-registered-application"></a>如何編輯已註冊的應用程式？
 
-若要了解如何編輯 Azure AD 註冊的應用程式，請參閱[快速入門：更新 Azure Active Directory 中註冊應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)。
+若要了解如何編輯 Azure AD 註冊的應用程式，請參閱[快速入門：更新 Azure Active Directory 中註冊應用程式](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)。
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>如何編輯我的 Power BI 使用者設定檔或資料？
 
-您可以在[此處](https://docs.microsoft.com/power-bi/service-basic-concepts)了解如何編輯您的 Power BI 資料。
+您可以在[此處](../../fundamentals/service-basic-concepts.md)了解如何編輯您的 Power BI 資料。
 
 如需詳細資訊，請參閱[為您的內嵌應用程式進行疑難排解](embedded-troubleshoot.md)。
 

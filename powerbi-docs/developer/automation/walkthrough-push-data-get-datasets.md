@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: 5b4e6a2506555be6984a03e2a8f0fb8f4050f803
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: a150666eafd8dc11b573150455775d2ecf6f7f1b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079293"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748302"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>步驟 4：取得資料集，以便將資料列加入 Power BI 資料表
 
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在＜將資料推送至資料集＞的**步驟 3**[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](https://docs.microsoft.com/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
+在＜將資料推送至資料集＞的**步驟 3**[在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)中，您呼叫了[建立資料集](/rest/api/power-bi/datasets)作業，以在 Power BI 中建立資料集。 在此步驟中，您會使用[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。您使用步驟 4 中的資料集識別碼將資料列加入資料集。 
 
-若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 使用[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業將能取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，它包含 Power BI 中所有資料集的清單。 建議使用 [Newtonsoft.Json](https://www.newtonsoft.com/json) 還原序列化 JSON 字串。
+若要將資料推送至 Power BI 資料集，您需要參考資料集中的資料表。 若要參考資料集中的資料表，您首先需要取得 **資料集識別碼**。 使用[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業將能取得**資料集識別碼**。 **取得資料集**作業會傳回 JSON 字串，它包含 Power BI 中所有資料集的清單。 建議使用 [Newtonsoft.Json](https://www.newtonsoft.com/json) 還原序列化 JSON 字串。
 
 以下是取得資料集的方式。
 
@@ -268,9 +268,9 @@ namespace walkthrough_push_data
 
 * [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
 * [Newtonsoft.Json](https://www.newtonsoft.com/json)  
-* [取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
+* [取得資料集](/rest/api/power-bi/datasets/getdatasets)  
 * [將資料推送至 Power BI](walkthrough-push-data.md)  
 * [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-* [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API 參考](/rest/api/power-bi/)  
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 03/13/2019
-ms.openlocfilehash: 95d2cec8cf731c403e204beeb6c013c2cfe0ce1d
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 7624e51bf8c1ee49f2b7e7a0682e12b24bcdfa98
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878579"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748463"
 ---
 # <a name="power-bi-visuals-api-changelog"></a>Power BI 視覺效果 API 變更記錄
 此頁面包含 API 版本的快速摘要。 此處所列的版本會視為穩定，且不會變更。
@@ -62,7 +62,7 @@ ms.locfileid: "87878579"
 * `proto` 屬性不會再將隱藏的 metadata\data 儲存在 dataView 內。 透過 `proto` 存取屬性的視覺效果，可能因此更新而中斷。
 
 ## <a name="api-v1130"></a>API v1.13.0
-* 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器，[深入了解](/power-bi/desktop-slicers)。
+* 支援 **[同步處理交叉分析篩選器](./enable-sync-slicers.md)** ，請注意，由於 PBI 目前程式碼狀態，這僅適用於單一欄位交叉分析篩選器，[深入了解](../../visuals/power-bi-visualization-slicers.md)。
 * 協助工具：[高對比支援](./high-contrast-support.md) 
 * 協助工具：允許鍵盤焦點旗標
 

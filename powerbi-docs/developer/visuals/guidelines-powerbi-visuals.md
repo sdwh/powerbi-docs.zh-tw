@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 08/12/2020
-ms.openlocfilehash: c9d6b10c05ac3e19c5ebdcb5a0f3a1ab9b989a10
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6e9da6e16d32f0093bc0e4be35415f1a23f7fa41
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204928"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748556"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Power BI 視覺效果指南
 在將 Power BI 視覺效果[發佈](office-store.md)至 Microsoft AppSource 供其他人探索及使用之前，請務必遵循指導方針，以便為使用者打造絕佳體驗。
@@ -28,7 +28,7 @@ ms.locfileid: "88204928"
 
 IAP Power BI 視覺效果是提供「免費功能」的「免費」視覺效果。 IAP Power BI 視覺效果也有一些進階功能，但這些功能可能必須另外付費。 在 Power BI 視覺效果的描述中，開發人員必須告知使用者需要另行購買才能使用的功能。 目前，Microsoft 不提供原生 API 以支援購買應用程式與增益集。
 
-對於這些購買項目，開發人員可以使用任何第三方付款系統。 如需詳細資訊，請參閱[我們的市集原則](https://docs.microsoft.com/legal/marketplace/certification-policies#11002-displaying-ads) \(英文\)。
+對於這些購買項目，開發人員可以使用任何第三方付款系統。 如需詳細資訊，請參閱[我們的市集原則](/legal/marketplace/certification-policies#11002-displaying-ads) \(英文\)。
 
 
 >[!IMPORTANT]  

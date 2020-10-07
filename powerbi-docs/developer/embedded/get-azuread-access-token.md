@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/04/2019
-ms.openlocfilehash: e32b33a7e913772215fad63ddea7987d199420fd
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: 8b20ee4fbac3c4b22bd420e49df0bc1fbfd6e300
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355045"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746600"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>取得 Power BI 應用程式的 Azure AD 存取權杖
 
-本文說明如何在 Power BI 應用程式中驗證使用者，以及如何擷取存取權杖以與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 搭配使用。
+本文說明如何在 Power BI 應用程式中驗證使用者，以及如何擷取存取權杖以與 [Power BI REST API](/rest/api/power-bi/) 搭配使用。
 
-您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖**，才能呼叫 REST API。 應用程式可使用權杖來存取 Power BI 儀表板、磚和報表。 若要深入了解，請參閱[使用 OAuth 2.0 授權碼授與流程，授權存取 Azure Active Directory Web 應用程式](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code)。
+您必須先取得 Azure Active Directory (Azure AD) **驗證存取權杖**，才能呼叫 REST API。 應用程式可使用權杖來存取 Power BI 儀表板、磚和報表。 若要深入了解，請參閱[使用 OAuth 2.0 授權碼授與流程，授權存取 Azure Active Directory Web 應用程式](/azure/active-directory/develop/v1-protocols-oauth-code)。
 
 根據您內嵌內容的方式，擷取的存取權杖會有所不同。 本文說明兩種不同的方法。
 
@@ -55,7 +55,7 @@ var @params = new NameValueCollection
 
 建構查詢字串之後，請重新導向至 **Azure AD** 以取得**授權碼**。  以下是用於建構**授權碼**查詢字串和重新導向至 **Azure AD** 的完整 C# 方法。 然後，請使用**授權碼**以取得**存取權杖**。
 
-在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 來產生權杖。
+在 redirect.aspx.cs 內，呼叫 [AuthenticationContext.AcquireTokenByAuthorizationCode](/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) 來產生權杖。
 
 #### <a name="get-authorization-code"></a>取得授權碼
 

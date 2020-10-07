@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/08/2020
-ms.openlocfilehash: ee79a2f74714322e6ff7b4ec965060b7c9291060
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 84c33cfc1d9163ff631c11d285b5441dd301578e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237456"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748118"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>取得 Power BI 視覺效果認證
 
@@ -84,7 +84,7 @@ Power BI 視覺效果必須由合作夥伴中心核准。 我們建議您的 Pow
 
 ### <a name="source-code-requirements"></a>原始程式碼需求
 
-確認您遵循 [Power BI 視覺效果其他認證](https://docs.microsoft.com/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)原則清單。 如果您的提交未遵循這些指導方針，合作夥伴中心的拒絕電子郵件將會包含此連結中所列的原則號碼。
+確認您遵循 [Power BI 視覺效果其他認證](/legal/marketplace/certification-policies#1200-power-bi-visuals-additional-certification)原則清單。 如果您的提交未遵循這些指導方針，合作夥伴中心的拒絕電子郵件將會包含此連結中所列的原則號碼。
 
 依照下列程式碼需求，確定您的程式碼符合 Power BI 認證原則。  
 

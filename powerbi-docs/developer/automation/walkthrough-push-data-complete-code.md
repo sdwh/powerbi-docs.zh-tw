@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 4745935e618f47f6092f6a33d879dd95d59b9963
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: f2e421297eb942e6e9a622c91e9d5a074cb042ba
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79488284"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746485"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>將資料推送至資料集的完整程式碼清單
 
@@ -230,7 +230,7 @@ ms.locfileid: "79488284"
 * [在 Power BI 中建立資料集](walkthrough-push-data-create-dataset.md)  
 * [取得資料集，以便將資料列新增至 Power BI 資料表](walkthrough-push-data-get-datasets.md)  
 * [將資料列新增至 Power BI 資料表](walkthrough-push-data-add-rows.md)  
-* [Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
+* [Power BI REST API 參考](/rest/api/power-bi/)  
 * [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

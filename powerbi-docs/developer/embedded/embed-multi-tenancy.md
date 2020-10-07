@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: cd30727e6329ca91413f2023f7dc3bd715bcbca6
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: b2638c3fdb483f45b6f4b3f9363f42ee36e57f0b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83275999"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747750"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>使用 Power BI 內嵌式分析管理多租用戶
 
@@ -28,7 +28,7 @@ ms.locfileid: "83275999"
 
 ## <a name="concepts-and-terminology"></a>概念和術語
 
-**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
+**[AAD](/azure/active-directory/fundamentals/active-directory-whatis)** - Azure Active Directory。
 
 **AAD 應用程式** - AAD 中的應用程式識別。 需要 AAD 應用程式才可驗證。
 
@@ -131,17 +131,17 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
 
 如果 SaaS 應用程式存放區為每個租用戶保留個別的資料庫，那麼自然的選擇是在 Power BI 中使用單一租用戶的資料集，並為每個指向相符資料庫的資料集使用連接字串。
 
-如果 SaaS 應用程式存放區使用所有租用戶的多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，以設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../../transform-model/desktop-query-overview.md) 或使用查詢時具有[參數](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup)的 [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) 來更新連接。
+如果 SaaS 應用程式存放區使用所有租用戶的多租用戶資料庫，則可以輕鬆地依工作區區隔租用戶。 您可以使用僅擷取相關租用戶資料的參數化資料庫查詢，以設定 Power BI 資料集的資料庫連線。 您可以使用 [Power BI Desktop](../../transform-model/desktop-query-overview.md) 或使用查詢時具有[參數](/rest/api/power-bi/datasets/updatedatasourcesingroup)的 [API](/rest/api/power-bi/datasets/updateparametersingroup) 來更新連接。
 
 ### <a name="data-isolation"></a>資料隔離
 
-此租用模型中的資料在工作區層級區隔。 工作區和租用戶之間的簡單對應可防止一個租用戶的使用者看到來自另一個租用戶的內容。 使用單一*主要*使用者要求您可以存取所有不同的工作區。 針對使用者要顯示哪些資料的設定是在[產生內嵌權杖](https://docs.microsoft.com/rest/api/power-bi/embedtoken)期間所定義，這是使用者無法查看或變更的僅限後端程序。
+此租用模型中的資料在工作區層級區隔。 工作區和租用戶之間的簡單對應可防止一個租用戶的使用者看到來自另一個租用戶的內容。 使用單一*主要*使用者要求您可以存取所有不同的工作區。 針對使用者要顯示哪些資料的設定是在[產生內嵌權杖](/rest/api/power-bi/embedtoken)期間所定義，這是使用者無法查看或變更的僅限後端程序。
 
 若要新增額外的隔離，應用程式開發人員可以為每個工作區定義*主要*使用者或應用程式，而不是可以存取多個工作區的單一*主要*使用者或應用程式。 如此一來，您可以確保任何人為錯誤或認證洩漏不會導致公開多個客戶的資料。
 
 ### <a name="scalability"></a>延展性
 
-此模型的一個優點是將資料分成每個租用戶的多個資料集，克服了[單一資料集的大小限制](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (目前容量為 10 GB)。 當容量超載時，它可以收回未使用資料集以釋放使用中資料集的記憶體。 單一的大型資料集無法執行這項工作。 如果需要，還可以使用多個資料集將租用戶分成多個 Power BI 容量。
+此模型的一個優點是將資料分成每個租用戶的多個資料集，克服了[單一資料集的大小限制](../../admin/service-premium-what-is.md) (目前容量為 10 GB)。 當容量超載時，它可以收回未使用資料集以釋放使用中資料集的記憶體。 單一的大型資料集無法執行這項工作。 如果需要，還可以使用多個資料集將租用戶分成多個 Power BI 容量。
 
 儘管有這些優點，其中必須考慮 SaaS 應用程式未來可以達到的規模。 例如，人員可能會達到可以管理之成品數目的限制。 如需詳細資料，請參閱本文稍後的[部署限制](#summary-comparison-of-the-different-approaches)。 使用的 SKU 容量引入下列限制：資料集需要適應的記憶體大小、可以同時執行的重新整理次數，以及資料重新整理的最高頻率。 建議您在管理數百或數千個資料集時進行測試。 也建議您考慮平均值和尖峰使用量，以及使用大型資料集或不同使用模式的任何特定租用戶，其管理方式不同於其他租用戶。
 
@@ -155,7 +155,7 @@ SaaS 應用程式有兩種方法，讓使用者能夠編輯和建立報告，或
    * 針對特定租用戶的未計劃自訂項目
    * 資料集重新整理的頻率
 
-例如，為新的租用戶建立工作區是常見的工作，它需要自動化。 使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)，您可以[在建立工作區時實現完全自動化](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/)。
+例如，為新的租用戶建立工作區是常見的工作，它需要自動化。 使用 [Power BI REST API](/rest/api/power-bi/)，您可以[在建立工作區時實現完全自動化](https://powerbi.microsoft.com/blog/duplicate-workspaces-using-the-power-bi-rest-apis-a-step-by-step-tutorial/)。
 
 ### <a name="multi-geo-needs"></a>多重異地複寫需求
 
@@ -222,15 +222,15 @@ Power BI 還沒有用於修改或建立 RLS 角色和規則的 API。 新增或�
 > [!Important]
 > 下列分析根據產品的目前狀態。 由於我們每月都會發布新功能，我們會繼續提供能夠應對現有限制和弱點的新功能。 請務必造訪每月的部落格文章以查看最新消息，並再次回到此文章，以查看新功能如何影響租用模型建議。
 
-| 評估準則 | 以工作區為基礎   | 以資料列層級安全性為基礎  |  |  |
-|--------------------------------------|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---|---|
-| 資料架構  | 每個租用戶都有一個個別的資料庫時最簡單  | 所有租用戶的所有資料都在單一資料倉儲中時最簡單   |  |  |
-| 資料隔離  | 好。 每個租用戶都有專用的資料集。  | 中度。 所有資料都在同一個共用資料集中，但透過存取控制進行管理。  |  |  |
-| 延展性  | 中。 將資料分成多個資料集可實現最佳化。  | 最低。 受到資料集限制。  |  |  |
-| 多重異地複寫需求  | 適合大多數租戶只在一個區域時。  | 不建議使用。 需要將整個資料集保存在多個區域中。  |  |  |
-| 自動化與操作複雜度  | 個人租用戶的自動化程度很高。   大規模管理許多成品較複雜。  | 易於管理 Power BI 成品，但是難以大規模管理 RLS。  |  |  |
-| 成本  | 低-中。 可以最佳化使用率以降低每個租用戶的成本。  需要經常重新整理時，可能會增加。  | 如果使用匯入模式，則為中-高。  如果使用 Direct Query 模式，則為低-中。  |  |  |
-| 內容的自訂和撰寫  | 適合。 可能會達到大規模的限制。  | 僅在內嵌式 iFrame 中產生內容  |  |  |
+| 評估準則 | 以工作區為基礎   | 以資料列層級安全性為基礎  |
+|---------------------|-------------------|---------------------------|
+| 資料架構  | 每個租用戶都有一個個別的資料庫時最簡單  | 所有租用戶的所有資料都在單一資料倉儲中時最簡單   |
+| 資料隔離  | 好。 每個租用戶都有專用的資料集。  | 中度。 所有資料都在同一個共用資料集中，但透過存取控制進行管理。  |
+| 延展性  | 中。 將資料分成多個資料集可實現最佳化。  | 最低。 受到資料集限制。  |
+| 多重異地複寫需求  | 適合大多數租戶只在一個區域時。  | 不建議使用。 需要將整個資料集保存在多個區域中。  |
+| 自動化與操作複雜度  | 個人租用戶的自動化程度很高。   大規模管理許多成品較複雜。  | 易於管理 Power BI 成品，但是難以大規模管理 RLS。  |
+| 成本  | 低-中。 可以最佳化使用率以降低每個租用戶的成本。  需要經常重新整理時，可能會增加。  | 如果使用匯入模式，則為中-高。  如果使用 Direct Query 模式，則為低-中。  |
+| 內容的自訂和撰寫  | 適合。 可能會達到大規模的限制。  | 僅在內嵌式 iFrame 中產生內容  |
 
 ## <a name="deployment-considerations-and-limitations"></a>部署考量與限制
 

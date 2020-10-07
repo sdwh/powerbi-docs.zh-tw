@@ -16,12 +16,12 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: ade60bf8b786f70002f0af0672acf951348fee49
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 7c90093fefb98c6b385328e8dd207760e3207cbf
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "80487811"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746209"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>搭配 Power BI 使用內嵌式分析
 
@@ -43,7 +43,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
  
 - 對您的使用者與客戶進行內嵌，而不需要 Power BI 授權。 
 
-這兩個案例都允許使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+這兩個案例都允許使用 [Power BI REST API](/rest/api/power-bi/)。
 
 針對沒有 Power BI 授權的客戶和使用者，將儀表板和報告內嵌至您的自訂應用程式，並使用相同的 API 來服務組織或客戶。 您的客戶會看到應用程式管理的資料。 此外，您組織的 Power BI 使用者可另外選擇要直接在 Power BI 中，還是在內嵌應用程式內容中檢視「他們的資料」  。 您可以針對內嵌需求而完整利用 JavaScript 和 REST API。
 
@@ -53,7 +53,7 @@ Power BI 服務 (SaaS) 和 Azure 中的 Power BI Embedded 服務 (PaaS) 都有 A
 
 **對組織進行內嵌**可讓您擴充 Power BI 服務。 這種類型的內嵌需要應用程式的使用者登入 Power BI 服務，才能檢視內容。 貴組織中有人登入之後，他們只能在 Power BI 服務中存取他們自己的和某人已經與他們共用的儀表板和報表。
 
-組織內嵌範例包括內部應用程式，例如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 整合 (您必須具有系統管理員權限)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 和 [Microsoft Dynamics](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
+組織內嵌範例包括內部應用程式，例如 [SharePoint Online](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/)、[Microsoft Teams 整合 (您必須具有系統管理員權限)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) 和 [Microsoft Dynamics](/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)。
 
 若要對組織進行內嵌，請參閱[教學課程：為組織將 Power BI 內容內嵌至應用程式](embed-sample-for-your-organization.md)。
 

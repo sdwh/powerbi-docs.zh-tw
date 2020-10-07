@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 04/05/2020
-ms.openlocfilehash: 2b4715a388250e00cced8a0164a7dcf687887d8a
-ms.sourcegitcommit: 10c5b6cd5e7070f96de8a9f1d9b95f3d242ac7f2
+ms.openlocfilehash: bb06f5b0a170189c3c98b734a09259645a650c55
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86556880"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748164"
 ---
 # <a name="export-paginated-report-to-file-preview"></a>將分頁報表匯出至檔案 (預覽)
 
@@ -38,9 +38,9 @@ ms.locfileid: "86556880"
 
 ## <a name="using-the-api"></a>使用 API
 
-該 API 是非同步的。 呼叫 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) \(英文\) API 時，其會觸發匯出作業。 觸發匯出作業之後，請使用[輪詢](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) \(英文\) 來追蹤作業，直到完成為止。
+該 API 是非同步的。 呼叫 [exportToFile](/rest/api/power-bi/reports/exporttofile) \(英文\) API 時，其會觸發匯出作業。 觸發匯出作業之後，請使用[輪詢](/rest/api/power-bi/reports/getexporttofilestatus) \(英文\) 來追蹤作業，直到完成為止。
 
-當匯出完成時，輪詢 API 呼叫會傳回 [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) \(英文\) 來取得檔案。 該 URL 在 24 小時內有效。
+當匯出完成時，輪詢 API 呼叫會傳回 [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile) \(英文\) 來取得檔案。 該 URL 在 24 小時內有效。
 
 ## <a name="supported-features"></a>支援的功能
 

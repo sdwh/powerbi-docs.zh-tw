@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: 646a09545a06dfa65bd73a666fa2419d82e4da33
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eb9476b3f21d1149492982a8dcae3d8ce89e9629
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236913"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748647"
 ---
 # <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>在為您的組織內嵌時，自動安裝 Power BI 應用程式
 
@@ -29,7 +29,7 @@ ms.locfileid: "85236913"
 
 ![註冊應用程式會建立內容](media/embed-auto-install-app/register-app-create-content.png)
 
-接著，您必須在內嵌 URL 中提供應用程式識別碼。 若要提供應用程式識別碼，應用程式建立者必須先安裝應用程式，然後使用其中一個支援的 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 呼叫 ([取得報表](https://docs.microsoft.com/rest/api/power-bi/reports/getreports)或是[取得儀表板](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards))。 接著，應用程式建立者必須接受來自 REST API 回應的內嵌 URL。 如果內容是來自應用程式，則應用程式識別碼會出現在 URL 中。  內嵌 URL 之後，即可使用它來定期內嵌。
+接著，您必須在內嵌 URL 中提供應用程式識別碼。 若要提供應用程式識別碼，應用程式建立者必須先安裝應用程式，然後使用其中一個支援的 [Power BI Rest API](/rest/api/power-bi/) 呼叫 ([取得報表](/rest/api/power-bi/reports/getreports)或是[取得儀表板](/rest/api/power-bi/dashboards/getdashboards))。 接著，應用程式建立者必須接受來自 REST API 回應的內嵌 URL。 如果內容是來自應用程式，則應用程式識別碼會出現在 URL 中。  內嵌 URL 之後，即可使用它來定期內嵌。
 
 ## <a name="secure-embed"></a>安全內嵌
 

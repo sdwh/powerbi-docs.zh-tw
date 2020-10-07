@@ -8,20 +8,20 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 02/05/2019
-ms.openlocfilehash: ba37d9fc79405518a59ff188fdb5890e6af8043c
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: b43e9c93499f60039a924051c30b0ed631c85e8e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85355022"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748371"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>步驟 5：將資料列加入 Power BI 資料表
 
 本文屬於[將資料推送至資料集](walkthrough-push-data.md)逐步解說的一部分。
 
-在＜將資料推送至資料集＞之**步驟 4** 的[取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了[取得資料集](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業來使用資料集識別碼，以將資料列新增到 **Power BI** 資料集。 
+在＜將資料推送至資料集＞之**步驟 4** 的[取得資料集以將資料列加入 Power BI 資料表](walkthrough-push-data-get-datasets.md)中，您使用了[取得資料集](/rest/api/power-bi/datasets/getdatasets)作業和 Newtonsoft.Json 來取得資料集識別碼。在此步驟中，您可以透過 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 作業來使用資料集識別碼，以將資料列新增到 **Power BI** 資料集。 
 
-呼叫 [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) 作業，以將資料列新增到資料集。
+呼叫 [PostRows](/rest/api/power-bi/pushdatasets/datasets_postrows) 作業，以將資料列新增到資料集。
 
 ![新增資料列](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -105,9 +105,7 @@ ms.locfileid: "85355022"
     #endregion
 ```
 
-以下是[完整程式碼清單](#code)。
-
-<a name="code"/>
+以下是完整程式碼清單。
 
 ## <a name="complete-code-listing"></a>完整程式碼清單
 
@@ -315,5 +313,5 @@ ms.locfileid: "85355022"
 ## <a name="next-steps"></a>後續步驟
 [將資料推送至 Power BI 儀表板](walkthrough-push-data.md)  
 [Power BI REST API 概觀](overview-of-power-bi-rest-api.md)  
-[Power BI REST API 參考](https://docs.microsoft.com/rest/api/power-bi/)  
+[Power BI REST API 參考](/rest/api/power-bi/)  
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)

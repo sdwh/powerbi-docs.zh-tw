@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 03/12/2019
-ms.openlocfilehash: 38e6ac3be143381304f1fdfc8e1427b91f398a9a
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 99df7a301a1025d50c82c5cc7f5966325a6a6a6f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196621"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747520"
 ---
 # <a name="how-to-create-mobile-friendly-power-bi-visuals"></a>如何建立易於行動裝置使用的 Power BI 視覺效果
 使用行動裝置在 Power BI 中扮演著重要的角色。 其中一個優點是隨時隨地都能連線到資料。
 
 開發人員在建立 Power BI 視覺效果時，必須盡可能地為大量使用者解決每一種行動裝置的特殊限制，以提供最佳的行動裝置體驗。
 
-使用[適用於 Windows、iOS 和 Android 的 Power BI 應用程式](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)，讓商務使用者只要輕輕一按，就能隨時掌握資料的完整觀點。
+使用[適用於 Windows、iOS 和 Android 的 Power BI 應用程式](../../consumer/mobile/mobile-apps-for-mobile-devices.md)，讓商務使用者只要輕輕一按，就能隨時掌握資料的完整觀點。
 
 ## <a name="requirements"></a>需求
 
@@ -63,7 +63,7 @@ ms.locfileid: "82196621"
   同樣設定也可套用至桌面瀏覽器中的視覺效果，並在必要時加以覆寫，以調整為較小型螢幕也適用的視覺效果。
 
   > [!NOTE]
-  > 若要最佳化**焦點**模式中的視覺效果，則需同時考慮直向與橫向螢幕大小方向，請參閱[以焦點模式顯示內容](/power-bi/consumer/end-user-focus)。
+  > 若要最佳化**焦點**模式中的視覺效果，則需同時考慮直向與橫向螢幕大小方向，請參閱[以焦點模式顯示內容](../../consumer/end-user-focus.md)。
 
 - 互動式
 
@@ -74,9 +74,9 @@ ms.locfileid: "82196621"
   視覺效果若無法在行動裝置上轉譯，則會顯示描述性的錯誤。
 
 ## <a name="supported-browsers-and-devices"></a>支援的瀏覽器和裝置
-Power BI 視覺效果必須在所有支援 Power BI 應用程式的裝置上轉譯。如需詳細資訊，請參閱[支援 Power BI 的瀏覽器](/power-bi/power-bi-browsers)和 [Power BI 行動裝置應用程式](/power-bi/consumer/mobile/mobile-apps-for-mobile-devices)。
+Power BI 視覺效果必須在所有支援 Power BI 應用程式的裝置上轉譯。如需詳細資訊，請參閱[支援 Power BI 的瀏覽器](../../fundamentals/power-bi-browsers.md)和 [Power BI 行動裝置應用程式](../../consumer/mobile/mobile-apps-for-mobile-devices.md)。
 
 針對 Windows、iOS 和 Android 裝置的最新模型進行測試時，開發人員需慎重考慮品質層面。
 
 ## <a name="next-steps"></a>後續步驟
-若要開始使用，請參閱[教學課程：開發 Power BI 視覺效果](/power-bi/developer/visuals/custom-visual-develop-tutorial)。
+若要開始使用，請參閱[教學課程：開發 Power BI 視覺效果](./custom-visual-develop-tutorial.md)。

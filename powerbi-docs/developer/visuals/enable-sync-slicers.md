@@ -8,16 +8,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 5c364713ec7e0328e8278694985950266734c91d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 4e9989bb7a34a89cb6244a2378d6660a5079fc82
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238391"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748095"
 ---
 # <a name="sync-slicers-in-power-bi-visuals"></a>Power BI 中的同步交叉分析篩選器
 
-若要支援[同步交叉分析篩選器](https://docs.microsoft.com/power-bi/desktop-slicers)功能，您的自訂交叉分析篩選器視覺效果必須使用 API 1.13.0 版或更新版本。
+若要支援[同步交叉分析篩選器](../../visuals/power-bi-visualization-slicers.md)功能，您的自訂交叉分析篩選器視覺效果必須使用 API 1.13.0 版或更新版本。
 
 此外，您也必須啟用 *capabilities.json* 檔案中的選項，如下列程式碼所示：
 

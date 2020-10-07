@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c0927eb46177726c4277b2fa697003d7f0fdc56
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: c5a902a8de8449290d52974063b25f51ff92dd9d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402017"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747566"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>教學課程：針對國家/地區雲端將 Power BI 內容內嵌到您的應用程式
 
 了解如何在國家/地區雲端的商務程序應用程式內內嵌分析內容。 您可以使用 Power BI .NET SDK 搭配 Power BI JavaScript API 將報表、儀表板或圖格內嵌至 Web 應用程式。
 
-Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-directory/develop/authentication-national-cloud)。
+Power BI 也支援[國家/地區雲端](/azure/active-directory/develop/authentication-national-cloud)。
 
 不同的國家/地區雲端是：
 
@@ -43,7 +43,7 @@ Power BI 也支援[國家/地區雲端](https://docs.microsoft.com/azure/active-
 > [!NOTE]
 > 想要改為內嵌組織的內容嗎？ 請參閱[將儀表板整合到應用程式中](embed-sample-for-your-organization.md)。
 
-若要將儀表板整合到 Web 應用程式，請使用 **Power BI** API 和 Azure Active Directory (AD) 授權**存取權杖**，以取得儀表板。 然後，使用內嵌權杖載入儀表板。 **Power BI** API 可讓您以程式設計方式存取特定的 **Power BI** 資源。 如需詳細資訊，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)、[Power BI .NET SDK 與 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
+若要將儀表板整合到 Web 應用程式，請使用 **Power BI** API 和 Azure Active Directory (AD) 授權**存取權杖**，以取得儀表板。 然後，使用內嵌權杖載入儀表板。 **Power BI** API 可讓您以程式設計方式存取特定的 **Power BI** 資源。 如需詳細資訊，請參閱 [Power BI REST API](/rest/api/power-bi/)、[Power BI .NET SDK 與 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript)。
 
 ## <a name="download-the-sample"></a>下載範例
 
@@ -238,10 +238,10 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>建立內嵌權杖
 
-使用 JavaScript API，您就可以產生內嵌權杖。 內嵌權杖專屬於您內嵌的項目。 每次您內嵌 Power BI 內容時，都必須為其建立一個新的內嵌權杖。 如需詳細資訊，包括要使用的 **accessLevel**，請參閱 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖)。
+使用 JavaScript API，您就可以產生內嵌權杖。 內嵌權杖專屬於您內嵌的項目。 每次您內嵌 Power BI 內容時，都必須為其建立一個新的內嵌權杖。 如需詳細資訊，包括要使用的 **accessLevel**，請參閱 [Embed Token](/rest/api/power-bi/embedtoken) (內嵌權杖)。
 
 > [!IMPORTANT]
-> 因為內嵌權杖只適用於開發人員測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
+> 因為內嵌權杖只適用於開發人員測試，所以 Power BI 主要帳戶可以產生的內嵌權杖數目有限。 [必須購買容量](./embedded-faq.md#technical)才可進行生產環境內嵌案例。 購買容量後，內嵌權杖產生的數量就不受限制。
 
 您可以在[對組織進行內嵌範例](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/.NET%20Framework/Embed%20for%20your%20customers/PowerBIEmbedded_AppOwnsData)的 **Controllers\HomeController.cs** 中找到範例。
 
@@ -440,7 +440,7 @@ var embedConfig = new TileEmbedConfig()
 
 * 如需 JavaScript API 的詳細資訊，請參閱 [Power BI JavaScript API](https://github.com/Microsoft/PowerBI-JavaScript) \(英文\)。
 
-* 如需適用於德國雲端的 Power BI 詳細資訊，請參閱[適用於德國雲端的 Power BI 常見問題集](https://docs.microsoft.com/power-bi/service-govde-faq)
+* 如需適用於德國雲端的 Power BI 詳細資訊，請參閱[適用於德國雲端的 Power BI 常見問題集](../../admin/service-govde-faq.md)
 
 * [如何將 Power BI 工作區集合內容遷移至 Power BI](migrate-from-powerbi-embedded.md)
 

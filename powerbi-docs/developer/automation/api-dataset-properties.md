@@ -8,19 +8,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 7dad7071fbf887c36443cacdb9be83d83e0b89be
-ms.sourcegitcommit: a72567f26c1653c25f7730fab6210cd011343707
+ms.openlocfilehash: e0092003cbf019bcf720eeb7aa32e8a9e800f143
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83561493"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747290"
 ---
 # <a name="dataset-properties"></a>資料集屬性
 
 資料集 API 目前的 v1 只允許用名稱和資料表集合建立資料集。 每個資料表各包含一個名稱和一個資料行集合。 每個資料行各有名稱和資料類型。 我們將擴充這些屬性，最值得注意的是支援資料表間的量值和關聯性。 這個版本支援的屬性完整清單如下：
 
 > [!IMPORTANT]
-> 它可以在 [Datasets Operation Groups](https://docs.microsoft.com/rest/api/power-bi/datasets) 頁面存取。
+> 它可以在 [Datasets Operation Groups](/rest/api/power-bi/datasets) 頁面存取。
 
 ## <a name="dataset"></a>資料集
 

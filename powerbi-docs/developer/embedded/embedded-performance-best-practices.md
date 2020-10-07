@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
-ms.openlocfilehash: ba0a85958fad500bd27f4697a7f46961ca430f49
-ms.sourcegitcommit: 0b1e96de184caf2371adedcc3ee43bcb88048187
+ms.openlocfilehash: 2d33ed5a707a3b4bc3e0a77a38128e7e00154798
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85299564"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746669"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Power BI Embedded 效能最佳做法
 
@@ -53,7 +53,7 @@ ms.locfileid: "85299564"
 將多個報表內嵌至相同的 iframe 時，請不要為每個報表產生新的 iframe。 請改為搭配不同的設定使用 `powerbi.embed(element, config)` 來內嵌新報表。
 
 > [!NOTE]
-> 為客戶進行內嵌 (也稱為「應用程式擁有資料」案例) 時，於報表之間切換需要使用具備所有報表和資料集權限的內嵌權仗。 如需詳細資訊，請參閱[產生權杖 API](https://docs.microsoft.com/rest/api/power-bi/embedtoken/generatetoken) \(英文\)。
+> 為客戶進行內嵌 (也稱為「應用程式擁有資料」案例) 時，於報表之間切換需要使用具備所有報表和資料集權限的內嵌權仗。 如需詳細資訊，請參閱[產生權杖 API](/rest/api/power-bi/embedtoken/generatetoken) \(英文\)。
 
 ## <a name="query-caching"></a>查詢快取
 
