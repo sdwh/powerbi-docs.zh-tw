@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: e2e2f924f190b7c5904cfe29d1d3cae341974f38
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: ea7eaf8f7fc36ee1b9dc987ee571dc29dc5b222f
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89402040"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748900"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>搭配 Power BI Embedded 的資料列層級安全性
 
@@ -78,7 +78,7 @@ RLS 是在 Power BI Desktop 中撰寫。 我們可以在資料集和報表處於
 
 您現在已經設定好 Power BI Desktop 角色，現在要對應用程式執行一些工作才能利用這些角色。
 
-使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授與該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 您可以使用 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (內嵌權杖) API 傳遞身分識別。
+使用者會由您的應用程式驗證和授權，而內嵌權杖可用來授與該使用者存取特定 Power BI Embedded 報表。 Power BI Embedded 沒有關於您使用者身分識別的任何特定資訊。 您必須傳遞一些額外的內容作為身分識別形式內嵌權杖的一部分，RLS 才能運作。 您可以使用 [Embed Token](/rest/api/power-bi/embedtoken) (內嵌權杖) API 傳遞身分識別。
 
 API 接受表示相關資料集的身分識別清單。 您必須傳遞下列項目作為身分識別的一部分，RLS 才能運作。
 
@@ -134,7 +134,7 @@ var tokenResponse = await client.Reports.GenerateTokenInGroupAsync("groupId", "r
 針對使用者名稱屬性提供的有效身分識別，必須為具備 Analysis Services 伺服器權限的 Windows 使用者。
 
 >[!NOTE]
-> 搭配 [Azure Analysis Services](https://docs.microsoft.com/azure/analysis-services/analysis-services-overview) 資料來源使用服務主體時，服務主體本身必須具有 Azure Analysis Services 執行個體權限。 基於此目的使用包含服務主體的安全性群組將無法正常運作。
+> 搭配 [Azure Analysis Services](/azure/analysis-services/analysis-services-overview) 資料來源使用服務主體時，服務主體本身必須具有 Azure Analysis Services 執行個體權限。 基於此目的使用包含服務主體的安全性群組將無法正常運作。
 
 ### <a name="on-premises-data-gateway-configuration"></a>內部部署資料閘道設定
 
@@ -195,7 +195,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 這裡為使用 Power BI Embedded 應用程式開始設定 CustomData() 功能的步驟。
 
-1. 建立您的 Azure Analysis Services 資料庫。 接著透過 [SQL Server Management Studio](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 登入 Azure Analysis Services 伺服器。
+1. 建立您的 Azure Analysis Services 資料庫。 接著透過 [SQL Server Management Studio](/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017) 登入 Azure Analysis Services 伺服器。
 
     ![建立 Azure Analysis Services 資料庫](media/embedded-row-level-security/azure-analysis-services-database-create.png)
 
@@ -245,7 +245,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 * [設定 Power BI 報表中的角色](../../create-reports/desktop-rls.md)。
 * 設定資料來源層級的角色 (僅限 Analysis Services 即時連線)。
-* 以程式設定的方式搭配 [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) (內嵌權杖) 使用 `EffectiveIdentity`。 使用內嵌權杖時，實際的篩選會透過特定工作階段的內嵌權杖傳遞。
+* 以程式設定的方式搭配 [Embed Token](/rest/api/power-bi/embedtoken/datasets_generatetokeningroup) (內嵌權杖) 使用 `EffectiveIdentity`。 使用內嵌權杖時，實際的篩選會透過特定工作階段的內嵌權杖傳遞。
 
 [JavaScript 篩選](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) 可用來讓使用者取用資料的已縮減、已限定範圍或已篩選檢視。 然而，使用者仍擁有模型結構描述資料表、資料行和計量的存取權，且可能可以存取該處的任何資料。 不可透過用戶端篩選 API 限制資料的存取權，僅能使用 RLS 執行此動作。
 
@@ -261,7 +261,7 @@ public EffectiveIdentity(string username, IList<string> datasets, IList<string> 
 
 此類有效身分識別問題直接適用於 Azure SQL Server 上的 RLS 規則。 當從 Azure SQL Server 查詢資料時，Power BI Embedded 會使用所提供的存取權杖。 由於 USER_NAME() SQL 函數，可以存取使用者的 UPN (為其提供存取權杖)。
 
-權杖型身分識別僅適用於專用容量上的 DirectQuery 模型 - 連線到 Azure SQL Database，該資料庫設定為允許 AAD 驗證 ([深入了解 Azure SQL Database 的 AAD 驗證](https://docs.microsoft.com/azure/sql-database/sql-database-manage-logins))。 必須將資料集其資料來源設定為使用使用者的 OAuth2 認證，才能使用權杖型身分識別。
+權杖型身分識別僅適用於專用容量上的 DirectQuery 模型 - 連線到 Azure SQL Database，該資料庫設定為允許 AAD 驗證 ([深入了解 Azure SQL Database 的 AAD 驗證](/azure/sql-database/sql-database-manage-logins))。 必須將資料集其資料來源設定為使用使用者的 OAuth2 認證，才能使用權杖型身分識別。
 
    ![設定 Azure SQL Server](media/embedded-row-level-security/token-based-configure-azure-sql-db.png)
 
@@ -322,11 +322,11 @@ public IdentityBlob(string value);
 
 使用 SQL Server Analysis Services (SSAS) 內部部署即時連線資料來源來設定資料列層級安全性 (RLS) 的客戶，可以享有新的[服務主體](embed-service-principal.md)功能，以在與 **Power BI Embedded** 整合時，管理使用者和其對 SSAS 中資料的存取。
 
-使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)，可讓您使用[服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)，為內嵌權杖的 SSAS 內部部署即時連線指定有效的身分識別。
+使用 [Power BI REST API](/rest/api/power-bi/)，可讓您使用[服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object)，為內嵌權杖的 SSAS 內部部署即時連線指定有效的身分識別。
 
 直到目前為止，若要能夠為 SSAS 內部部署即時連線指定有效的身分識別，產生內嵌權杖的主使用者必須是閘道管理員。現在，不需要使用者是閘道管理員，閘道管理員即可將該資料來源的專用權限授與使用者，讓使用者可在產生內嵌權杖時，覆寫有效的身分識別。 這項新功能可讓您使用服務主體，為即時 SSAS 連線進行內嵌。
 
-若要啟用此案例，閘道管理員可以使用[新增資料來源使用者 REST API](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser)，將 Power BI Embedded 的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
+若要啟用此案例，閘道管理員可以使用[新增資料來源使用者 REST API](/rest/api/power-bi/gateways/adddatasourceuser)，將 Power BI Embedded 的 *ReadOverrideEffectiveIdentity* 權限授與服務主體。
 
 您無法使用系統管理入口網站設定此權限。 此權限只能使用 API 來設定。 在系統管理入口網站中，會指出具有這類權限的使用者和 SPN。
 

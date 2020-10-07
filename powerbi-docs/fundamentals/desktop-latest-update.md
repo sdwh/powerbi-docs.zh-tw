@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/23/2020
+ms.date: 10/05/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: acfe54479ae02b950dcc8521807add7c06071207
-ms.sourcegitcommit: 3655521f7d6e70d25cbe72006aada69ba08e7dec
+ms.openlocfilehash: 7460967e12ee13f5aff03c8058c318741c26aa86
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "91224179"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780098"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Power BI Desktop 的新功能
 
@@ -46,45 +46,38 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 
 以下是本月 Power BI Desktop 新增的更新：
 
-https://www.youtube.com/watch?v=gPGy18Yo0Go https://youtu.be/TPsV7N4bZZg?t=15
-
-
-https://www.youtube.com/watch?v=gPGy18Yo0Go
-
-https://www.youtube.com/watch?v=TPsV7N4bZZg?t=448
-
 ### <a name="analytics"></a>分析
-* 智慧型敘事 (預覽) [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=51) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) (英文) 
-* 問與答目前支援算數運算 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=333) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) (英文) 
+* 智慧型敘事 (預覽) [[影片]](https://youtu.be/gPGy18Yo0Go?t=51) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#_Smart_narratives_(preview)) (英文) 
+* 問與答目前支援算數運算 [[影片]](https://youtu.be/gPGy18Yo0Go?t=333) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#QA_arithmetic) (英文) 
 
 
 ### <a name="reporting"></a>報告
-* 為其他圖表選取的資料點矩形 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=370) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) (英文) 
-* 新增一般視覺效果選項，以保持圖層順序 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=405) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) (英文) 
-* 在發佈期間搜尋工作區 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=615) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) (英文) 
-* 堆疊視覺效果的標籤總計 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=630) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) (英文) 
-* 行動版增強功能製作 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=786) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) (英文) 
+* 為其他圖表選取的資料點矩形 [[影片]](https://youtu.be/gPGy18Yo0Go?t=370) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Data_point_rectangle_select) (英文) 
+* 新增一般視覺效果選項，以保持圖層順序 [[影片]](https://youtu.be/gPGy18Yo0Go?t=405) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Maintain_layer_order) (英文) 
+* 在發佈期間搜尋工作區 [[影片]](https://youtu.be/gPGy18Yo0Go?t=615) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Search_workspace) (英文) 
+* 堆疊視覺效果的標籤總計 [[影片]](https://youtu.be/gPGy18Yo0Go?t=630) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Total_labels_stacked) (英文) 
+* 行動版增強功能製作 [[影片]](https://youtu.be/gPGy18Yo0Go?t=786) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Mobile_authoring_enhancements) (英文) 
 
 
 ### <a name="modeling"></a>模型化
-* 增強型資料集中繼資料現已正式推出 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1200) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata) (英文)
-* 改善涉及貨幣資料類型資料行的彙總運算式效能 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1220) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg) (英文)
+* 增強型資料集中繼資料現已正式推出 [[影片]](https://youtu.be/gPGy18Yo0Go?t=1200) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Enhanced_Dataset_Metadata) (英文)
+* 改善涉及貨幣資料類型資料行的彙總運算式效能 [[影片]](https://youtu.be/gPGy18Yo0Go?t=1220) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Performance_improvements_to_agg) (英文)
 
 
 ### <a name="data-connectivity"></a>資料連線
-* Azure Databricks [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1342) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks) (英文)
-* MariaDB [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1365) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB) (英文)
-* Hexagon PPM 智慧型 API [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1386) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart) (英文)
-* 其他資料連線能力更新 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1411) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity) (英文)
+* Azure Databricks [[影片]](https://youtu.be/gPGy18Yo0Go?t=1342) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Azure_Databricks) (英文)
+* MariaDB [[影片]](https://youtu.be/gPGy18Yo0Go?t=1365) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#MariaDB) (英文)
+* Hexagon PPM 智慧型 API [[影片]](https://youtu.be/gPGy18Yo0Go?t=1386) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Hexagon_PPM_Smart) (英文)
+* 其他資料連線能力更新 [[影片]](https://youtu.be/gPGy18Yo0Go?t=1411) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Other_data_connectivity) (英文)
 
 
 ### <a name="visuals"></a>視覺效果
-* 不同提供者的新視覺效果 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1228) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations) (英文)
+* 不同提供者的新視覺效果 [[影片]](https://youtu.be/gPGy18Yo0Go?t=1228) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Visualizations) (英文)
 
 
 ### <a name="template-apps"></a>範本應用程式
-* 多頻道屬性儀表板 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) (英文) 
-* 工作區分析儀表板 [[影片]](https://www.youtube.com/watch?v=gPGy18Yo0Go?t=1290) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) (英文) 
+* 多頻道屬性儀表板 [[影片]](https://youtu.be/gPGy18Yo0Go?t=1290) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Multichannel_Attribution_Dashboard) (英文) 
+* 工作區分析儀表板 [[影片]](https://youtu.be/gPGy18Yo0Go?t=1290) [[部落格]](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/#Workspace_Analytics_Dashboard) (英文) 
 
 
 如需這些新功能各自的詳細資訊，請參閱 [Power BI Desktop 功能摘要部落格文章](https://powerbi.microsoft.com/blog/power-bi-september-2020-feature-summary/)。

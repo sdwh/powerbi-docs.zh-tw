@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 99943f30aa0c31223eae2058aff8b4d34d49bf1d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528359"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748854"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -26,11 +26,11 @@ ms.locfileid: "91528359"
 
 * **Azure 訂用帳戶：** 請瀏覽 [Azure 免費試用版](https://azure.microsoft.com/free/)以建立帳戶。
 
-* **Azure Active Directory：** 訂用帳戶必須與 Azure Active Directory (Azure AD) 租用戶建立關聯。 此外，您必須使用該租用戶中的帳戶登入 Azure。 不支援 Microsoft 帳戶。 若要深入了解，請參閱[驗證和使用者權限](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users)。
+* **Azure Active Directory：** 訂用帳戶必須與 Azure Active Directory (Azure AD) 租用戶建立關聯。 此外，您必須使用該租用戶中的帳戶登入 Azure。 不支援 Microsoft 帳戶。 若要深入了解，請參閱[驗證和使用者權限](/azure/analysis-services/analysis-services-manage-users)。
 
 * **Power BI 租用戶：** Azure AD 租用戶中至少有一個帳戶必須已註冊 Power BI。
 
-* **資源群組：** 使用您已擁有的資源群組或[建立新的資源群組](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。
+* **資源群組：** 使用您已擁有的資源群組或[建立新的資源群組](/azure/azure-resource-manager/resource-group-overview)。
 
 ## <a name="create-a-capacity"></a>建立容量
 
@@ -50,13 +50,13 @@ ms.locfileid: "91528359"
 
     * **訂用帳戶** - 要用來建立容量的訂用帳戶。
 
-    * **資源群組** - 包含此新容量的資源群組。 從現有的資源群組中挑選，或建立另一個。 如需詳細資訊，請參閱 [Azure Resource Manager 概觀](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。
+    * **資源群組** - 包含此新容量的資源群組。 從現有的資源群組中挑選，或建立另一個。 如需詳細資訊，請參閱 [Azure Resource Manager 概觀](/azure/azure-resource-manager/resource-group-overview)。
 
     * **資源名稱** - 容量的資源名稱。
 
     * **位置** - 為租用戶裝載 Power BI 的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](embedded-multi-geo.md)來變更該位置。
 
-    * **大小** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](/power-bi/developer/embedded/embedded-capacity)。
+    * **大小** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](./embedded-capacity.md)。
 
     * **Power BI 容量管理員** - 容量的系統管理員。
         >[!NOTE]
@@ -114,7 +114,7 @@ Power BI Embedded 容量命令需要 Azure CLI 2.3.1 版或更新版本。 執�
 
 ### <a name="create-a-capacity-with-azure-cli"></a>使用 Azure CLI 建立容量
 
-使用 [az Power BI embedded-capacity create](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 命令來建立容量。
+使用 [az Power BI embedded-capacity create](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-create) 命令來建立容量。
 
 ```azurecli
 az powerbi embedded-capacity create --location westeurope
@@ -126,7 +126,7 @@ az powerbi embedded-capacity create --location westeurope
 
 ### <a name="delete-a-capacity-with-azure-cli"></a>使用 Azure CLI 刪除容量
 
-若要使用 Azure CLI 來刪除容量，請使用 [az powerbi embedded-capacity delete](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
+若要使用 Azure CLI 來刪除容量，請使用 [az powerbi embedded-capacity delete](/cli/azure/ext/powerbidedicated/powerbi/embedded-capacity?view=azure-cli-latest#ext-powerbidedicated-az-powerbi-embedded-capacity-delete) 命令。
 
 ```azurecli
 az powerbi embedded-capacity delete --name
@@ -135,13 +135,13 @@ az powerbi embedded-capacity delete --name
 
 ### <a name="manage-your-capacity-with-azure-cli"></a>使用 Azure CLI 管理容量
 
-您可使用 [az powerbi](https://docs.microsoft.com/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) 來檢視所有 Power BI Embedded 的 Azure CLI 命令。
+您可使用 [az powerbi](/cli/azure/ext/powerbidedicated/powerbi?view=azure-cli-latest) 來檢視所有 Power BI Embedded 的 Azure CLI 命令。
 
 # <a name="arm-template"></a>[ARM 範本](#tab/ARM-template)
 
 ### <a name="use-resource-manager-template"></a>使用 Resource Manager 範本
 
-[Resource Manager 範本](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview)是一個 JavaScript 物件標記法 (JSON) 檔案，定義了專案的基礎結構和組態。 範本會使用宣告式語法，可讓您陳述您要部署的項目，而不需要撰寫一連串程式設計命令來加以建立。 如果您要深入了解如何開發 Resource Manager 範本，請參閱 [Resource Manager 文件](https://docs.microsoft.com/azure/azure-resource-manager/)和[範本參考](https://docs.microsoft.com/azure/templates/)。
+[Resource Manager 範本](/azure/azure-resource-manager/templates/overview)是一個 JavaScript 物件標記法 (JSON) 檔案，定義了專案的基礎結構和組態。 範本會使用宣告式語法，可讓您陳述您要部署的項目，而不需要撰寫一連串程式設計命令來加以建立。 如果您要深入了解如何開發 Resource Manager 範本，請參閱 [Resource Manager 文件](/azure/azure-resource-manager/)和[範本參考](/azure/templates/)。
 
 如果您沒有 Azure 訂用帳戶，請在開始前建立[免費帳戶](https://azure.microsoft.com/free/)。
 
@@ -209,7 +209,7 @@ az powerbi embedded-capacity delete --name
 }
 ```
 
-範本中定義了一個 Azure 資源：[Microsoft.PowerBIDedicated/capacities Az](https://docs.microsoft.com/azure/templates/microsoft.powerbidedicated/allversions) - 建立 Power BI Embedded 的容量。
+範本中定義了一個 Azure 資源：[Microsoft.PowerBIDedicated/capacities Az](/azure/templates/microsoft.powerbidedicated/allversions) - 建立 Power BI Embedded 的容量。
 
 ### <a name="deploy-the-template"></a>部署範本
 
@@ -223,16 +223,16 @@ az powerbi embedded-capacity delete --name
 
     * **訂用帳戶** - 要用來建立容量的訂用帳戶。
 
-    * **資源群組** - 包含此新容量的資源群組。 從現有的資源群組中挑選，或建立另一個。 如需詳細資訊，請參閱 [Azure Resource Manager 概觀](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)。
+    * **資源群組** - 包含此新容量的資源群組。 從現有的資源群組中挑選，或建立另一個。 如需詳細資訊，請參閱 [Azure Resource Manager 概觀](/azure/azure-resource-manager/resource-group-overview)。
 
     * **區域** - 容量將隸屬的區域。
 
     * **名稱** - 容量名稱。
 
-    * **位置** - 為租用戶裝載 Power BI 的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](https://docs.microsoft.com/power-bi/developer/embedded/embedded-multi-geo
+    * **位置** - 為租用戶裝載 Power BI 的位置。 您的預設位置是您的主區域，但您可以使用 [多地理位置選項](./embedded-multi-geo.md
 )來變更該位置。
 
-    * **SKU** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](/power-bi/developer/embedded/embedded-capacity)。
+    * **SKU** - 所需的 [SKU](../../admin/service-admin-premium-purchase.md#purchase-a-skus-for-testing-and-other-scenarios)。 如需詳細資訊，請參閱 [SKU 記憶體和運算能力](./embedded-capacity.md)。
 
     * **系統管理員** - 容量的系統管理員。
         >[!NOTE]

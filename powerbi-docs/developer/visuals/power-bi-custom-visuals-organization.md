@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b969fa3dd04f25c8921db563a89b11125216c752
-ms.sourcegitcommit: ffc46032d0771227395cc38be9ec9ff1500eac70
+ms.openlocfilehash: b1ae402f8e8712920cc93248828603d1087c8c4a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89401948"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749222"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Power BI 中的組織視覺效果
 
@@ -49,7 +49,7 @@ ms.locfileid: "89401948"
 
 使用者：
 
-* 組織 Power BI 視覺效果是從組織存放庫匯入的私用視覺效果。 與任何私用視覺效果一樣，當使用者[訂閱報表頁面](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe)時，它們不能[匯出至 PowerPoint](https://docs.microsoft.com/power-bi/consumer/end-user-powerpoint) 或在收到的電子郵件中顯示。 僅有直接從 Marketplace 匯入的[經認證 Power BI 視覺效果](power-bi-custom-visuals-certified.md)支援這些功能。
+* 組織 Power BI 視覺效果是從組織存放庫匯入的私用視覺效果。 與任何私用視覺效果一樣，當使用者[訂閱報表頁面](../../consumer/end-user-subscribe.md)時，它們不能[匯出至 PowerPoint](../../consumer/end-user-powerpoint.md) 或在收到的電子郵件中顯示。 僅有直接從 Marketplace 匯入的[經認證 Power BI 視覺效果](power-bi-custom-visuals-certified.md)支援這些功能。
 
 * 來自 AppSource Marketplace 的 Visio 視覺效果、PowerApps 視覺效果、Map box 視覺效果和 GlobeMap 視覺效果，若透過組織存放庫部署，將不會轉譯。
 

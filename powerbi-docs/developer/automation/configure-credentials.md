@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 06/23/2020
-ms.openlocfilehash: dd85f44057c0e4069a903293ec162028b1cbd66e
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: d2cd9786a635aed79f334706f53c21fe87e723a4
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034052"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748946"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>以程式設計的方式為 Power BI 設定認證
 
@@ -25,7 +25,7 @@ ms.locfileid: "86034052"
 
 ## <a name="update-credentials-flow-for-data-sources"></a>為資料來源更新認證流程
 
-1. 呼叫 [Get Datasources](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasourcesingroup) 來找到資料集的資料來源。 各資料來源的回應本文中會有類型、連線詳細資料、閘道與資料來源識別碼。
+1. 呼叫 [Get Datasources](/rest/api/power-bi/datasets/getdatasourcesingroup) 來找到資料集的資料來源。 各資料來源的回應本文中會有類型、連線詳細資料、閘道與資料來源識別碼。
 
     ```csharp
     // Select a datasource
@@ -33,7 +33,7 @@ ms.locfileid: "86034052"
     var datasource = datasources.First();
     ```
 
-2. 依照認證類型，根據[更新資料來源範例](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)來建置認證字串。
+2. 依照認證類型，根據[更新資料來源範例](/rest/api/power-bi/gateways/updatedatasource)來建置認證字串。
 
     # <a name="net-sdk-v3"></a>[.NET SDK v3](#tab/sdk3)
 
@@ -50,9 +50,9 @@ ms.locfileid: "86034052"
     ---
 
     >[!NOTE]
-    >如果使用的是雲端資料來源，請不要遵循本節中的後續步驟。 透過呼叫[更新資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) (英文)，使用在步驟 1 取得的閘道識別碼和資料來源識別碼來設定認證。 
+    >如果使用的是雲端資料來源，請不要遵循本節中的後續步驟。 透過呼叫[更新資料來源](/rest/api/power-bi/gateways/updatedatasource) (英文)，使用在步驟 1 取得的閘道識別碼和資料來源識別碼來設定認證。 
 
-3. 呼叫 [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)來擷取閘道公開金鑰。
+3. 呼叫 [Get Gateway](/rest/api/power-bi/gateways/getgateways)來擷取閘道公開金鑰。
 
     ```csharp
     var gateway = pbiClient.Gateways.GetGatewayById(datasource.GatewayId);
@@ -104,7 +104,7 @@ ms.locfileid: "86034052"
 
     ---
 
-6. 呼叫 [Update Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)來設定認證。
+6. 呼叫 [Update Datasource](/rest/api/power-bi/gateways/updatedatasource)來設定認證。
 
     ```csharp
     pbiClient.Gateways.UpdateDatasource(gatewayId, datasourceId, credentialDetails);
@@ -114,7 +114,7 @@ ms.locfileid: "86034052"
 
 1. 在您的電腦上安裝[內部部署資料閘道](https://powerbi.microsoft.com/gateway/)。
 
-2. 呼叫 [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways)來擷取閘道識別碼和公開金鑰。
+2. 呼叫 [Get Gateway](/rest/api/power-bi/gateways/getgateways)來擷取閘道識別碼和公開金鑰。
 
     ```csharp
     // Select a gateway
@@ -134,7 +134,7 @@ ms.locfileid: "86034052"
             dataSourceName: "my sql datasource");
     ```
 
-5. 呼叫 [Create Datasource](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) API。
+5. 呼叫 [Create Datasource](/rest/api/power-bi/gateways/createdatasource) API。
 
     ```csharp
     pbiClient.Gateways.CreateDatasource(gateway.Id, request);
@@ -142,7 +142,7 @@ ms.locfileid: "86034052"
 
 ## <a name="credential-types"></a>認證類型
 
-當您在**企業內部部署閘道**下使用 [Power BI Rest API](https://docs.microsoft.com/rest/api/power-bi/) 呼叫[建立資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource)或[更新資料來源](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource)時，需要使用閘道的公用金鑰來加密認證值。
+當您在**企業內部部署閘道**下使用 [Power BI Rest API](/rest/api/power-bi/) 呼叫[建立資料來源](/rest/api/power-bi/gateways/createdatasource)或[更新資料來源](/rest/api/power-bi/gateways/updatedatasource)時，需要使用閘道的公用金鑰來加密認證值。
 
 >[!NOTE]
 >.NET SDK v3 也可以執行下面所列的 .NET SDK v2 範例。
@@ -233,6 +233,6 @@ var credentials = "{\"credentialData\":\"\"}";
 
 在您建立資料集後，會自動建立資料集與合適閘道的繫結，其中包括所有連線的相符資料來源。 如果沒有該種閘道或有多個合適的閘道，則自動繫結會失敗。
 
-如果您使用內部部署資料集，請建立缺少的內部部署資料來源，並使用[繫結至閘道](https://docs.microsoft.com/rest/api/power-bi/datasets/bindtogateway) \(英文\) 手動將資料集繫結至閘道。
+如果您使用內部部署資料集，請建立缺少的內部部署資料來源，並使用[繫結至閘道](/rest/api/power-bi/datasets/bindtogateway) \(英文\) 手動將資料集繫結至閘道。
 
-若要探索可繫結的閘道，請使用[探索閘道](https://docs.microsoft.com/rest/api/power-bi/datasets/discovergateways) \(英文\)。
+若要探索可繫結的閘道，請使用[探索閘道](/rest/api/power-bi/datasets/discovergateways) \(英文\)。

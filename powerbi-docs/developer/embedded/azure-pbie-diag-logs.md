@@ -7,16 +7,16 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: cc64338ed40fcdc6433fdcf231004b4946335c72
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79495795"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748785"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Azure 中 Power BI Embedded 的診斷記錄
 
-您可以使用 [Azure 資源診斷記錄檔](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)來記錄容量的許多事件，將它們輸入分析工具並取得資源行為的見解。
+您可以使用 [Azure 資源診斷記錄檔](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)來記錄容量的許多事件，將它們輸入分析工具並取得資源行為的見解。
 
 使用診斷可以回答一些狀況，例如：
 
@@ -36,12 +36,12 @@ ms.locfileid: "79495795"
 
     * **名稱** - 輸入要建立之診斷設定的名稱。
 
-    * **封存至儲存體帳戶** - 若要使用此選項，您需要連線到現有的儲存體帳戶。 請參閱[建立儲存體帳戶](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)，並依照指示建立儲存體帳戶。 接著，透過在入口網站中返回此頁面來選取您的儲存體帳戶。 新建立的儲存體帳戶可能在數分鐘後才會出現在下拉式功能表中。 記錄檔儲存體是 JSON 格式。
-    * **串流至事件中樞** - 若要使用此選項，您需要連線到現有的「事件中樞」命名空間和事件中樞。 若要深入了解，請參閱[使用 Azure 入口網站來建立事件中樞命名空間和事件中樞](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)。
-    * **傳送至 Log Analytics** - 若要使用此選項，請使用現有的工作區，或依照下列步驟在入口網站中[建立新的工作區](https://docs.microsoft.com/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)以建立新的 Log Analytics 工作區。 這利用 [Azure Log Analytics](https://docs.microsoft.com/azure/log-analytics/log-analytics-overview)，它提供內建分析、儀表板管理和通知功能。 您可以使用 Log Analytics 來連線到其他資源的更多資料，並取得跨所有您的應用程式資源的單一、完整資料檢視。 您也可以將它[一鍵連結到 Power BI](https://docs.microsoft.com/azure/log-analytics/log-analytics-powerbi)。
-    如需在 Log Analytics 中檢視記錄的詳細資訊，請參閱[檢視 Log Analytics 中的記錄檔](https://docs.microsoft.com/azure/log-analytics/log-analytics-activity)。
+    * **封存至儲存體帳戶** - 若要使用此選項，您需要連線到現有的儲存體帳戶。 請參閱[建立儲存體帳戶](/azure/storage/common/storage-create-storage-account)，並依照指示建立儲存體帳戶。 接著，透過在入口網站中返回此頁面來選取您的儲存體帳戶。 新建立的儲存體帳戶可能在數分鐘後才會出現在下拉式功能表中。 記錄檔儲存體是 JSON 格式。
+    * **串流至事件中樞** - 若要使用此選項，您需要連線到現有的「事件中樞」命名空間和事件中樞。 若要深入了解，請參閱[使用 Azure 入口網站來建立事件中樞命名空間和事件中樞](/azure/event-hubs/event-hubs-create)。
+    * **傳送至 Log Analytics** - 若要使用此選項，請使用現有的工作區，或依照下列步驟在入口網站中[建立新的工作區](/azure/log-analytics/log-analytics-quick-collect-azurevm#create-a-workspace)以建立新的 Log Analytics 工作區。 這利用 [Azure Log Analytics](/azure/log-analytics/log-analytics-overview)，它提供內建分析、儀表板管理和通知功能。 您可以使用 Log Analytics 來連線到其他資源的更多資料，並取得跨所有您的應用程式資源的單一、完整資料檢視。 您也可以將它[一鍵連結到 Power BI](/azure/log-analytics/log-analytics-powerbi)。
+    如需在 Log Analytics 中檢視記錄的詳細資訊，請參閱[檢視 Log Analytics 中的記錄檔](/azure/log-analytics/log-analytics-activity)。
     * **引擎** - 選取此選項來記錄下面[列出的一組引擎事件](#whats-logged)。
-    * **AllMetrics** - 選取此選項來儲存[計量](https://docs.microsoft.com/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您要封存至儲存體帳戶，可以為診斷記錄選取保留期限。 保留期限過後，就會自動刪除記錄。
+    * **AllMetrics** - 選取此選項來儲存[計量](/azure/analysis-services/analysis-services-monitor#server-metrics)中的詳細資訊資料。 如果您要封存至儲存體帳戶，可以為診斷記錄選取保留期限。 保留期限過後，就會自動刪除記錄。
 
 3. 選取 [儲存]  。
 
@@ -87,11 +87,11 @@ ms.locfileid: "79495795"
 
 ### <a name="rest-api"></a>REST API
 
-了解如何[使用 Azure 監視器 REST API 變更診斷設定](https://docs.microsoft.com/rest/api/monitor/) \(英文\)。 
+了解如何[使用 Azure 監視器 REST API 變更診斷設定](/rest/api/monitor/) \(英文\)。 
 
 ### <a name="resource-manager-template"></a>Resource Manager 範本
 
-了解如何[使用 Resource Manager 範本在建立資源時自動啟用診斷設定](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)。
+了解如何[使用 Resource Manager 範本在建立資源時自動啟用診斷設定](/azure/monitoring-and-diagnostics/monitoring-enable-diagnostic-logs-using-template)。
 
 ## <a name="whats-logged"></a>記錄的內容？
 
@@ -174,11 +174,11 @@ ms.locfileid: "79495795"
 
 請選取 [EventClass\_s] 或其中一個事件名稱，Log Analytics 就會繼續建構查詢。 請務必儲存您的查詢，以供日後重複使用。
 
-請務必查看 [Log Analytics](https://docs.microsoft.com/azure/log-analytics/)，它提供的網站可讓您針對收集的資料進行增強查詢、儀表板管理和警示功能。
+請務必查看 [Log Analytics](/azure/log-analytics/)，它提供的網站可讓您針對收集的資料進行增強查詢、儀表板管理和警示功能。
 
 ### <a name="queries"></a>查詢
 
-有數百個您可以使用的查詢。 以下是一些可協助您開始使用的查詢。 若要深入了解如何使用新的「記錄搜尋」查詢語言，請參閱[了解 Log Analytics 中的記錄搜尋](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search)。
+有數百個您可以使用的查詢。 以下是一些可協助您開始使用的查詢。 若要深入了解如何使用新的「記錄搜尋」查詢語言，請參閱[了解 Log Analytics 中的記錄搜尋](/azure/log-analytics/log-analytics-log-search)。
 
 * 完成時間不超過五分鐘 (300,000 毫秒) 的查詢傳回。
 
@@ -206,7 +206,7 @@ ms.locfileid: "79495795"
 您可以深入了解 Azure 資源診斷記錄。
 
 > [!div class="nextstepaction"]
-> [Azure 資源診斷記錄](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
+> [Azure 資源診斷記錄](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs)
 
 > [!div class="nextstepaction"]
-> [Set-AzureRmDiagnosticSetting](https://docs.microsoft.com/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting) \(英文\)
+> [Set-AzureRmDiagnosticSetting](/powershell/module/azurerm.insights/Set-AzureRmDiagnosticSetting) \(英文\)

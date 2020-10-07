@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2046dc389b859ce71c4d26cc31cc686f812e461e
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91527761"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749313"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>教學課程：建立 R 支援的 Power BI 視覺效果
 
@@ -31,9 +31,9 @@ ms.locfileid: "91527761"
 ## <a name="prerequisites"></a>必要條件
 
 * **Power BI Pro** 帳戶。 開始之前，請先[註冊免費試用](https://powerbi.microsoft.com/pricing/)。
-* R 引擎。 您可從許多位置免費下載，包括 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/) (英文) 以及 [CRAN 存放庫](https://cran.r-project.org/bin/windows/base/) (英文)。 如需詳細資訊，請參閱[使用 R 建立 Power BI 視覺效果](../../desktop-r-visuals.md)。
+* R 引擎。 您可從許多位置免費下載，包括 [Revolution Open 下載頁面](https://mran.revolutionanalytics.com/download/) (英文) 以及 [CRAN 存放庫](https://cran.r-project.org/bin/windows/base/) (英文)。 如需詳細資訊，請參閱[使用 R 建立 Power BI 視覺效果](../../create-reports/desktop-r-visuals.md)。
 * [Power BI Desktop](../../fundamentals/desktop-get-the-desktop.md)。
-* 適用於 Windows 使用者的 [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 第 4 版或更新版本，或適用於 OSX 使用者的[終端機](https://macpaw.com/how-to/use-terminal-on-mac)。
+* 適用於 Windows 使用者的 [Windows PowerShell](/powershell/scripting/install/installing-windows-powershell?view=powershell-6) 第 4 版或更新版本，或適用於 OSX 使用者的[終端機](https://macpaw.com/how-to/use-terminal-on-mac)。
 
 ## <a name="getting-started"></a>開始使用
 
@@ -283,6 +283,6 @@ ms.locfileid: "91527761"
 
 ## <a name="next-steps"></a>後續步驟
 
-若要深入了解 R 支援的視覺效果，請參閱[在 Power BI 中使用 R 支援的 Power BI 視覺效果](../../desktop-r-powered-custom-visuals.md)。
+若要深入了解 R 支援的視覺效果，請參閱[在 Power BI 中使用 R 支援的 Power BI 視覺效果](../../create-reports/desktop-r-powered-custom-visuals.md)。
 
-如需 Power BI Desktop 中 R 支援視覺效果的詳細資訊，請參閱[使用 R 建立 Power BI 視覺效果](../../desktop-r-visuals.md)。
+如需 Power BI Desktop 中 R 支援視覺效果的詳細資訊，請參閱[使用 R 建立 Power BI 視覺效果](../../create-reports/desktop-r-visuals.md)。

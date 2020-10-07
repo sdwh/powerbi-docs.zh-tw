@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 02/05/2019
-ms.openlocfilehash: 9c99d48a0b9d50312d2ae5ce152826fcf1ab9319
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 23e71d08b344fc27edca26372b7781b9e0d3d6d1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238784"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749107"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Power BI Embedded 的多地理位置支援
 
@@ -65,11 +65,11 @@ ms.locfileid: "85238784"
 
 為支援搭配多地理位置透過 API 來管理容量，我們對現有 API 進行了一些變更：
 
-1. **[取得容量](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** - API 會傳回使用者可存取的容量清單。 回應現在包含名為 'region' 的額外屬性，此屬性指定容量的位置。
+1. **[取得容量](/rest/api/power-bi/capacities/getcapacities)** - API 會傳回使用者可存取的容量清單。 回應現在包含名為 'region' 的額外屬性，此屬性指定容量的位置。
 
-2. **[指派到容量](https://docs.microsoft.com/rest/api/power-bi/capacities)** - API　允許將給定的工作區指派到容量。 此作業不允許您將工作區指派給您主區域以外的容量或在不同的區域之間移動工作區。 若要執行此作業，使用者或[服務主體](embed-service-principal.md)仍需要工作區的系統管理權限，以及目標容量上的系統管理或指派權限。
+2. **[指派到容量](/rest/api/power-bi/capacities)** - API　允許將給定的工作區指派到容量。 此作業不允許您將工作區指派給您主區域以外的容量或在不同的區域之間移動工作區。 若要執行此作業，使用者或[服務主體](embed-service-principal.md)仍需要工作區的系統管理權限，以及目標容量上的系統管理或指派權限。
 
-3. **[Azure Resource Manager API](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** - 所有 Azure Resource Manager API 作業 (包括「建立」與「刪除」) 都支援多地理位置。
+3. **[Azure Resource Manager API](/rest/api/power-bi-embedded/capacities)** - 所有 Azure Resource Manager API 作業 (包括「建立」與「刪除」) 都支援多地理位置。
 
 ## <a name="limitations-and-considerations"></a>限制與考量
 

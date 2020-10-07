@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 96e42eb8a4d958eb4ee090cedf12d2ebfe79f941
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: aeea5ea3a9d1d2bd375c44b6c6b7eac57eb65aff
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878605"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748992"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>新增 Power BI 視覺效果的書籤支援
 
 您可以使用 Power BI 報表書籤來擷取已設定的報表頁面檢視、視覺效果的選取項目狀態和篩選狀態。 但它需要從 Power BI 視覺效果執行其他動作，以支援書籤並正確地回應變更。
 
-如需書籤的詳細資訊，請參閱[在 Power BI 中使用書籤來共用深入解析並建立故事](https://docs.microsoft.com/power-bi/desktop-bookmarks) \(部分機器翻譯\)。
+如需書籤的詳細資訊，請參閱[在 Power BI 中使用書籤來共用深入解析並建立故事](../../create-reports/desktop-bookmarks.md) \(部分機器翻譯\)。
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>視覺效果中的報表書籤支援
 

@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: reference
 ms.date: 05/25/2018
-ms.openlocfilehash: e7f7a94eb94054510046e5e873281cf68eb3bf3d
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9624195458c965a652b889089ce7ef8521281c95
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79079362"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748923"
 ---
 # <a name="power-bi-rest-api-reference"></a>Power BI REST API 參考
 
@@ -30,6 +30,6 @@ Power BI REST API 包含下列作業：
 * 資料列作業：加入資料列和刪除資料列。
 * 群組作業：取得群組。
 
-如需深入了解 Power BI REST API，請參閱 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+如需深入了解 Power BI REST API，請參閱 [Power BI REST API](/rest/api/power-bi/)。
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

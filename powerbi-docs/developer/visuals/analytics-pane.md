@@ -9,23 +9,23 @@ ms.service: powerbi
 ms.topic: how-to
 ms.subservice: powerbi-custom-visuals
 ms.date: 06/18/2019
-ms.openlocfilehash: e9d1479b596f563edc37f0c7a72b29c3343fed1e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5f8b2a54ac7882c02f1ece63ce1362c97ad027af
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239913"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749015"
 ---
 # <a name="the-analytics-pane-in-power-bi-visuals"></a>Power BI 視覺效果中的 [分析] 窗格
 
-[分析]  窗格是在 2018 年 11 月[引入原生視覺效果](https://docs.microsoft.com/power-bi/desktop-analytics-pane)。
+[分析]  窗格是在 2018 年 11 月[引入原生視覺效果](../../transform-model/desktop-analytics-pane.md)。
 此文章討論使用 API v2.5.0 的 Power BI 視覺效果如何能在 [分析]  窗格中呈現及管理其屬性。
 
 ![[分析] 窗格](media/analytics-pane/visualization-pane-analytics-tab.png)
 
 ## <a name="manage-the-analytics-pane"></a>管理 [分析] 窗格
 
-如同您在 [[格式] 窗格](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial-format-options) \(部分機器翻譯\) 中管理屬性，您藉由在物件的 *capabilities.json* 檔案中定義視覺效果，來管理 [分析] 窗格。
+如同您在 [[格式] 窗格](./custom-visual-develop-tutorial-format-options.md) \(部分機器翻譯\) 中管理屬性，您藉由在物件的 *capabilities.json* 檔案中定義視覺效果，來管理 [分析] 窗格。
 
 [分析]  窗格的差異如下：
 
