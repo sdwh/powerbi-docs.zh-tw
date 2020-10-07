@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 05/07/2020
 ms.author: davidi
-ms.openlocfilehash: e2615915503b0eb6d9d1ee08bd2a1fa8599bcf8c
-ms.sourcegitcommit: e9cd61eaa66eda01cc159251d7936a455c55bd84
+ms.openlocfilehash: 336dbad3ac77fb333b52cd3f4c4c0b104573314a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "86952999"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633530"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>在 Power BI Desktop 中建立報表的秘訣和訣竅
 為了充分利用您的資料，有時您需要一些額外的協助。 我們集結了一些秘訣與技巧，可供您在 Microsoft Power BI Desktop 中，*以及*在啟用 Power Pivot 增益集與安裝並啟用 Power Query 的 Microsoft Excel 2016 或 Microsoft Excel 2013 Pro-Plus 版本中，用來建立報表。 
@@ -44,7 +44,9 @@ Power BI Desktop 中的查詢編輯器與 Excel 2013 中的 Power Query 增益�
 ## <a name="reference-lines-in-your-report"></a>報表中的參考線
 您可以在 Power BI Desktop 中使用計算結果欄來定義參考線。 指定您要建立參考線的資料表和資料行。 在功能區中選取 [新增資料行]，然後在公式列中輸入下列公式：
 
-    Target Value = 100
+```console
+Target Value = 100
+```
 
 不論使用的位置為何，這個導出資料行都會傳回值 100。 您的新資料行會顯示在 [欄位] 清單中。 將 Target Value 導出資料行加入折線圖中，以顯示任何數列與特定參考線的關聯。 
 
@@ -66,7 +68,9 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 ## <a name="better-geocoding-with-more-specific-locations"></a>以更具體的位置改善地理編碼
 有時候，即使設定了地圖的資料分類還是不夠。 在 Power BI Desktop 中使用查詢編輯器建立街道地址等更特定的位置。 您可以使用 [加入資料行] 功能來建立自訂資料行。 然後建立所需的位置，如下所示： 
 
-    = [Field1] & " " & [Field2]
+```console
+= [Field1] & " " & [Field2]
+```
 
 接著在地圖視覺效果中使用這個產生的欄位。 這對於從資料集中的交貨地址欄位建立街道地址非常有用。 值得注意的一點是串連僅適用於文字欄位。 如有需要，請將街道號碼轉換成文字資料類型，再用來建立地址。
 
@@ -77,11 +81,13 @@ Power BI 與 Bing 整合以提供預設地圖座標 (這個程序稱為地理編
 
 定義值區以建立長條圖 - 決定哪個查詢具有您想要建立長條圖的欄位。 使用查詢的 [參考] 選項來建立新的查詢，並命名為 "FieldName"。 現在使用規則來定義值區。 使用 [加入資料行] 功能區上的 [加入自訂資料行] 選項，並建立自訂規則。 簡單的值區規則看起來可能會類似這樣：
 
-    if([FieldName] \< 2) then "\<2 min" else
-    if([FieldName] \< 5) then "\<5 min" else
-    if([FieldName] \< 10) then "\<10 min" else
-    if([FieldName] \< 30) then "\<30 min" else
-    "longer")
+```console
+if([FieldName] \< 2) then "\<2 min" else
+if([FieldName] \< 5) then "\<5 min" else
+if([FieldName] \< 10) then "\<10 min" else
+if([FieldName] \< 30) then "\<30 min" else
+"longer")
+```
 
 確定所產生之彙總資料行的資料類型為數值。 您現在可以使用＜最簡單的長條圖＞中所述的群組依據方法來取得長條圖。 這個選項會處理更多資料點，但仍無法解決筆刷繪製的問題。
 

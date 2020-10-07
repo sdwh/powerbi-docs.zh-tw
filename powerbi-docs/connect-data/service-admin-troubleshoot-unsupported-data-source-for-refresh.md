@@ -10,17 +10,19 @@ ms.date: 05/08/2020
 ms.author: davidi
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: acce77e3c3e41ec5b711a6a1c79628b2a47cd47f
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 49af2febbecb5061c4acb9ee20c3b707e3b81dff
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485844"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634887"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>不支援重新整理的資料來源疑難排解
 當您嘗試設定資料集的排程重新整理時，可能會看到錯誤。
 
-        You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```output
+You cannot schedule refresh for this dataset because it gets data from sources that currently don’t support refresh.
+```
 
 當您在 Power BI Desktop 中使用的資料來源不支援重新整理時，就會發生這種情況。 您必須找到所使用的資料來源，並與 [Power BI 的資料重新整理](refresh-data.md)中支援的資料來源清單進行比對。 
 

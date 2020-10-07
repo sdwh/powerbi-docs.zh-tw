@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/21/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f27bfb97d175c962d6eaf281ac061fdc60765781
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 6d3279a8fa8421dbe466d7d165e1cb3d96ab926f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225105"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634749"
 ---
 # <a name="troubleshoot-importing-access-and-excel-xls-files-in-power-bi-desktop"></a>針對 Power BI Desktop 中的 Access 和 Excel .xls 檔案匯入問題進行疑難排解
 
@@ -74,10 +74,12 @@ ms.locfileid: "85225105"
 1. 從[下載頁面](https://www.microsoft.com/download/details.aspx?id=13255)安裝 Access 資料庫引擎的兩種位元版本。 
 
 1. 使用 */passive* 參數來執行每個版本的 Access 資料庫引擎。 例如：
-   
-       c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
-   
-       c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+
+   ```console
+   c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
+
+   c:\users\joe\downloads\AccessDatabaseEngine_x64.exe /passive
+   ```
 
 ## <a name="situation-3-trouble-using-access-or-xls-files-with-a-microsoft-365-subscription"></a>狀況 3︰無法搭配 Microsoft 365 訂閱使用 Access 或 .XLS 檔案
 

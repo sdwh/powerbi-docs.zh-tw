@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: b60c56e7b8dfde9c46a784c5f57ca07ca9ca3fa0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4890cf864334951982a8b6d7acc8fc8338016d6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859167"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634956"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>設定 Kerberos 使用 Power BI 報表
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -29,13 +29,17 @@ Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許
 ## <a name="error-running-report"></a>執行報表時發生錯誤
 如未正確設定報表伺服器，您可能會收到下列錯誤。
 
-    Something went wrong.
+```output
+Something went wrong.
 
-    We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+We couldn't run the report because we couldn't connect to its data source. The report or data source might not be configured correctly. 
+```
 
 在 [技術性詳細資料] 中您會看見下列訊息。
 
-    We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```output
+We couldn't connect to the Analysis Services server. The server forcibly closed the connection. To connect as the user viewing the report, your organization must have configured Kerberos constrained delegation.
+```
 
 ![Power B I 報表的螢幕擷取畫面，其中顯示與 Analysis Services 伺服器連線問題相關的錯誤訊息。](media/configure-kerberos-powerbi-reports/powerbi-report-config-error.png)
  
@@ -91,7 +95,9 @@ Power BI 報表伺服器能夠裝載 Power BI 報表。 報表伺服器支援許
 
 建議您建立兩個 SPN。 一個使用 NetBIOS 名稱，另一個使用完整的網域名稱 (FQDN)。 SPN 的格式應該如下。
 
-    <Service>/<Host>:<port>
+```console
+<Service>/<Host>:<port>
+```
 
 Power BI 報表伺服器會使用 HTTP 服務。 HTTP SPN 不會列出連接埠。 在此，我們在意的服務是 HTTP。 SPN 主機會是您在 URL 中使用的名稱。 一般會是電腦名稱。 如果您在負載平衡器後方，這可能是虛擬名稱。
 
@@ -119,13 +125,17 @@ Power BI 報表伺服器會使用 HTTP 服務。 HTTP SPN 不會列出連接埠�
 
 如果我們使用 contosoreports 的虛擬 URL，FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上會看起來如下。
 
-      Setspn -a HTTP/contosoreports.contoso.com ContosoRS
-      Setspn -a HTTP/contosoreports ContosoRS
+```console
+Setspn -a HTTP/contosoreports.contoso.com ContosoRS
+Setspn -a HTTP/contosoreports ContosoRS
+```
 
 如果 SPN 主機使用電腦名稱，FQDN 和 NetBIOS SPN 將 SPN 放在網域使用者帳戶上看起來如下。
 
-      Setspn -a HTTP/ContosoRS.contoso.com RSService
-      Setspn -a HTTP/ContosoRS RSService
+```console
+Setspn -a HTTP/ContosoRS.contoso.com RSService
+Setspn -a HTTP/ContosoRS RSService
+```
 
 ## <a name="spns-for-the-analysis-services-service"></a>Analysis Services 服務的 SPN
 Analysis Services 的 SPN 和我們對 Power BI 報表伺服器做過的類似。 如果您擁有具名執行個體，SPN 格式會略有不同。
@@ -146,13 +156,17 @@ SPN 的放置也類似前面提及的 Power BI 報表伺服器內容。 它是�
 
 FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPSvc.3/ContosoAS ContosoAS
+```
 
 FQDN 和 NetBIOS SPN 將 SPN 放在網域使用者帳戶上看起來如下。
 
-    Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
-    Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```console
+Setspn -a MSOLAPSvc.3/ContosoAS.contoso.com OLAPService
+Setspn -a MSOLAPSvc.3/ContosoAS OLAPService
+```
 
 ## <a name="spns-for-the-sql-browser-service"></a>SQL Browser 服務的 SPN
 如果您有 Analysis Services 具名執行個體，您也需要確定有瀏覽器服務的 SPN。 這對 Analysis services 而言是唯一的。
@@ -164,8 +178,10 @@ SQL Browser 的 SPN 和我們對 Power BI 報表伺服器做過的類似。
 
 Analysis Services SPN 的範例看起來如下。
 
-    MSOLAPDisco.3/ContosoAS.contoso.com
-    MSOLAPDisco.3/ContosoAS
+```console
+MSOLAPDisco.3/ContosoAS.contoso.com
+MSOLAPDisco.3/ContosoAS
+```
 
 SPN 的放置也類似前面提及的 Power BI 報表伺服器內容。 此處的差異是 SQL Browser 一律在本機系統帳戶下執行。 這表示 SPN 一律會在電腦帳戶上。 
 
@@ -174,8 +190,10 @@ SPN 的放置也類似前面提及的 Power BI 報表伺服器內容。 此處�
 
 FQDN 和 NetBIOS SPN 將 SPN 放在電腦帳戶上看起來如下。
 
-    Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
-    Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```console
+Setspn -a MSOLAPDisco.3/ContosoAS.contoso.com ContosoAS
+Setspn -a MSOLAPDisco.3/ContosoAS ContosoAS
+```
 
 如需詳細資訊，請參閱[需要 SQL Server Browser 服務的 SPN](https://support.microsoft.com/kb/950599)。
 

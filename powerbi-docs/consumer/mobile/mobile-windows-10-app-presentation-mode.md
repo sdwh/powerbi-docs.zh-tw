@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: painbar
-ms.openlocfilehash: 978a257ccd5916f14bc3dfa6916f9315b755c12e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2a0c326902063759d10f49f3c5d745c22f477ec2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860248"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634795"
 ---
 # <a name="view-reports-and-dashboards-in-presentation-mode-on-surface-hub-and-windows-10-devices"></a>在 Surface Hub 和 Windows 10 裝置上，以簡報模式檢視報表和儀表板
 您可以在 Windows 10 裝置和 Surface Hub 中，使用簡報模式以全螢幕顯示報表和儀表板。 簡報模式非常適合用來在會議中、在辦公室的專用投影機上顯示 Power BI，或甚至只是充分利用小螢幕上的空間。
@@ -36,8 +36,8 @@ ms.locfileid: "90860248"
 
 您可以從工具列中點選來執行下列動作：
 
-|||
-|-|-|
+| 圖示 | 動作 |
+|------|--------|
 |![上一頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-back-icon.png)|**回到**上一頁。 長按此圖示，即會顯示階層連結視窗，讓您能夠巡覽至包含報表或儀表板的資料夾。|
 |![分頁圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-pages-icon.png)|在簡報中**切換頁面**至報表的另一頁。|
 |![書籤圖示](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-presentation-bookmarks-icon.png)|**套用書籤**，以呈現該書籤所擷取之資料的特定檢視。 您可以同時套用個人和報表書籤。|

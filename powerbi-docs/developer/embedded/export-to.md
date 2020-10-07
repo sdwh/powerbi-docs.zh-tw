@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 07/13/2020
-ms.openlocfilehash: 8e3ca6d9615a348fec928f13a561fbb97e719d6a
-ms.sourcegitcommit: b60063c49ac39f8b28c448908ecbb44b54326335
+ms.openlocfilehash: f024959c0d7e8bd0b51893a277161c67b5f4dfc6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88160364"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746117"
 ---
 # <a name="export-power-bi-report-to-file-preview"></a>將 Power BI 報表匯出至檔案 (預覽)
 
@@ -22,7 +22,7 @@ ms.locfileid: "88160364"
 * **.png**
     * 多頁報表在匯出為 .png 時會壓縮成 .zip 檔案
     * .zip 中的每個檔案都代表一張報表頁面
-    * 頁面名稱與[取得頁面](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) \(英文\) 或[取得群組中的頁面](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) \(英文\) API 的傳回值相同
+    * 頁面名稱與[取得頁面](/rest/api/power-bi/reports/getpages) \(英文\) 或[取得群組中的頁面](/rest/api/power-bi/reports/getpagesingroup) \(英文\) API 的傳回值相同
 
 ## <a name="usage-examples"></a>使用範例
 
@@ -38,17 +38,17 @@ ms.locfileid: "88160364"
 * **將報表匯出成 PowerPoint 簡報或 PDF 文件** - 預設為啟用。
 * **將報表匯出為影像檔** - 只有 *.png* 才需要，預設停用。
 
-該 API 是非同步的。 呼叫 [exportToFile](https://docs.microsoft.com/rest/api/power-bi/reports/exporttofile) \(英文\) API 時，其會觸發匯出作業。 觸發匯出作業之後，請使用[輪詢](https://docs.microsoft.com/rest/api/power-bi/reports/getexporttofilestatus) \(英文\) 來追蹤作業，直到完成為止。
+該 API 是非同步的。 呼叫 [exportToFile](/rest/api/power-bi/reports/exporttofile) \(英文\) API 時，其會觸發匯出作業。 觸發匯出作業之後，請使用[輪詢](/rest/api/power-bi/reports/getexporttofilestatus) \(英文\) 來追蹤作業，直到完成為止。
 
 在輪詢期間，API 會傳回代表已完成之工作量的數字。 每個匯出作業中的工作是根據報表所擁有的頁數來計算。 所有頁面都具有相同的權數。 例如，如果您要匯出包含 10 個頁面的報表，而輪詢傳回 70，這表示 API 已處理匯出作業中 10 個頁面的 7 個頁面。
 
-當匯出完成時，輪詢 API 呼叫會傳回 [Power BI URL](https://docs.microsoft.com/rest/api/power-bi/reports/getfileofexporttofile) \(英文\) 來取得檔案。 該 URL 在 24 小時內有效。
+當匯出完成時，輪詢 API 呼叫會傳回 [Power BI URL](/rest/api/power-bi/reports/getfileofexporttofile) \(英文\) 來取得檔案。 該 URL 在 24 小時內有效。
 
 ## <a name="supported-features"></a>支援的功能
 
 ### <a name="selecting-which-pages-to-print"></a>選取要列印的頁面
 
-根據[取得頁面](https://docs.microsoft.com/rest/api/power-bi/reports/getpages) \(英文\) 或[取得群組中的頁面](https://docs.microsoft.com/rest/api/power-bi/reports/getpagesingroup) \(英文\) 傳回值，指定您要列印的頁面。 您也可以指定您要匯出的頁面順序。
+根據[取得頁面](/rest/api/power-bi/reports/getpages) \(英文\) 或[取得群組中的頁面](/rest/api/power-bi/reports/getpagesingroup) \(英文\) 傳回值，指定您要列印的頁面。 您也可以指定您要匯出的頁面順序。
 
 ### <a name="bookmarks"></a>書籤
 

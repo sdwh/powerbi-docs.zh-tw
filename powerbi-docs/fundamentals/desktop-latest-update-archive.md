@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/22/2020
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d718b83e5c6ee5966bb882bcbf37feb58657f7cb
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 2464d95fd9d2cc7a5e3bb42479c1ba96bf5285a8
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91525392"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600543"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Power BI Desktop 的先前每月更新
 
@@ -1392,7 +1392,7 @@ Power BI Desktop 更新清單中各項功能旁的連結會以下列方式轉譯
 ### <a name="reporting"></a>報告
 
 * 用以對齊頁面上物件的智慧型輔助線  [[影片]](https://youtu.be/AHNlkjRFdYI?t=11)  [[文章]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) 
-* ArcGIS Maps for Power BI 更新  [[影片]](https://youtu.be/AHNlkjRFdYI?t=84)  [[文章]](../visuals/power-bi-visualization-arcgis.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
+* ArcGIS Maps for Power BI 更新  [[影片]](https://youtu.be/AHNlkjRFdYI?t=84)  [[文章]](../visuals/power-bi-visualizations-arcgis.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#arcGIS) 
 * 欄位清單協助工具支援 [[影片]](https://youtu.be/AHNlkjRFdYI?t=464)  [[文章]](../create-reports/desktop-report-view.md#copy-and-paste-between-reports)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList)
 * 為頁面上的物件設定定位順序 [[影片]](https://youtu.be/AHNlkjRFdYI?t=643)   [[文章]](../create-reports/power-bi-reports-filters-and-highlighting.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tabOrder)
 * 按鈕視覺效果的工具提示 [[影片]](https://youtu.be/AHNlkjRFdYI?t=884)  [[文章]](../create-reports/desktop-accessibility-overview.md)  [[部落格]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#tooltips)

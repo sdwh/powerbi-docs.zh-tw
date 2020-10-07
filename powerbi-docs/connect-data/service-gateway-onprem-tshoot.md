@@ -9,12 +9,12 @@ ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6dc42a5feb13b344a0e5d4d7c8880d1f5388a1ef
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 045d7df36deefae5c323e88d0ddf3053ea56682e
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91375181"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634634"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
@@ -34,7 +34,9 @@ ms.locfileid: "91375181"
 
 在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，則會看到類似如下的訊息：
 
-    Login failed for user 'username'.
+```output
+Login failed for user 'username'.
+```
 
 請確認您擁有正確的使用者名稱和密碼。 另請確認這些認證可成功連接到資料來源。 請確定使用的帳戶符合驗證方法。
 
@@ -44,7 +46,9 @@ ms.locfileid: "91375181"
 
 在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
 
-    Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```output
+Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
+```
 
 ### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>錯誤：無法連線。 詳細資料:「資料閘道發生不明錯誤」
 
@@ -62,11 +66,15 @@ ms.locfileid: "91375181"
 
 如果出現類似下列的基礎錯誤訊息，則表示為此資料來源所使用的帳戶不是該 Analysis Services 執行個體的伺服器管理員。 如需詳細資訊，請參閱 [Grant server admin rights to an Analysis Services instance](/sql/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance) (將伺服器管理員許可權授與 Analysis Services 執行個體)。
 
-    The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```output
+The 'CONTOSO\account' value of the 'EffectiveUserName' XML for Analysis property is not valid.
+```
 
 如果基礎錯誤訊息類似於下列訊息，這可能表示 Analysis Services 的服務帳戶可能遺漏了 [token-groups-global-and-universal](/windows/win32/adschema/a-tokengroupsglobalanduniversal) (TGGAU) 目錄屬性。
 
-    The username or password is incorrect.
+```output
+The username or password is incorrect.
+```
 
 具有 Windows 2000 之前版本相容性存取權的網域會啟用 TGGAU 屬性。 最新建立的網域預設不會啟用此屬性。 如需詳細資訊，請參閱[某些應用程式和 API 需要存取帳戶物件上的授權資訊](https://support.microsoft.com/kb/331951)。
 
@@ -75,13 +83,17 @@ ms.locfileid: "91375181"
 1. 在 SQL Server Management Studio 中連接至 Analysis Services 電腦。 在進階連線屬性內，針對有問題的使用者包括 EffectiveUserName，並查看這項新增是否會重現錯誤。
 2. 您可以使用 dsacls Active Directory 工具，以驗證屬性是否列出。 此工具可以在網域控制站上找到。 您必須知道帳戶的可辨別網域名稱為何，並將該名稱傳遞至工具。
 
-        dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```console
+   dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
+   ```
 
     您會想要在結果中看到類似下列的項目：
 
-            Allow BUILTIN\Windows Authorization Access Group
-                                          SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
-                                          READ PROPERTY
+   ```console
+   Allow BUILTIN\Windows Authorization Access Group
+                                   SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
+                                   READ PROPERTY
+   ```
 
 若要修正此問題，您必須在用於 Analysis Services Windows 服務的帳戶上啟用 TGGAU。
 
@@ -139,7 +151,9 @@ ms.locfileid: "91375181"
 1. 在[閘道記錄檔](/data-integration/gateway/service-gateway-tshoot#collect-logs-from-the-on-premises-data-gateway-app)內尋找有效的使用者名稱。
 2. 傳遞值之後，驗證其正確性。 如果是您的使用者，您可以從命令提示字元使用下列命令，以查看 UPN。 UPN 看起來像電子郵件地址。
 
-        whoami /upn
+   ```console
+   whoami /upn
+   ```
 
 您可以選擇性地查看 Power BI 從 Azure Active Directory 取得哪些項目。
 
@@ -147,7 +161,10 @@ ms.locfileid: "91375181"
 2. 在右上角選取 [登入]。
 3. 執行下列查詢。 您會看到相當大的 JSON 回應。
 
-        https://graph.windows.net/me?api-version=1.5
+   ```http
+   https://graph.windows.net/me?api-version=1.5
+   ```
+
 4. 尋找 **userPrincipalName**。
 
 如果您的 Azure Active Directory UPN 不符合您的本機 Active Directory UPN，您可以使用[對應使用者名稱](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)功能，以有效的值加以取代。 或者，您可和 Power BI 系統管理員或本機 Active Directory 系統管理員合作，以變更 UPN。

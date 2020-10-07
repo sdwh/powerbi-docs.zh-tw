@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b0b2ae2ca98b7dd3b9940319fc68a7effba4782
-ms.sourcegitcommit: bfc2baf862aade6873501566f13c744efdd146f3
+ms.openlocfilehash: 56a181da60e2a20c08a8c03dd826276d350ec81f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83349762"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635186"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Power BI 中的報表編輯器導覽
 
@@ -122,9 +122,14 @@ Power BI 報表編輯器分成數個主要區段：
 ## <a name="5-the-fields-pane"></a>5.[欄位] 窗格
 [欄位] 窗格會顯示資料中的資料表、資料夾和欄位，這些可供您用來建立視覺效果。
 
-|  |  |
-| --- | --- |
-| ![[欄位] 窗格](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png) |<ul><li>將欄位拖曳到頁面以開始新的視覺效果。  您也可以將欄位拖曳至現有視覺效果，以將欄位新增至該視覺效果。<br><br></li> <li>當您在欄位旁邊新增核取記號時，Power BI 會將該欄位新增至使用中 (或新的) 視覺效果。 它也會決定要放入該欄位的貯體。  例如，欄位應該作為圖例、軸還是值？ Power BI 可進行最佳猜測，而且您可以視需要將欄位從該貯體移至另一個貯體。 <br><br></li><li>無論何種方式，每個選取的欄位都會加入報表編輯器的 [視覺效果] 窗格中。</li></ul> |
+:::row:::
+    :::column:::
+        ![[欄位] 窗格](media/service-the-report-editor-take-a-tour/power-bi-fields-list.png)
+    :::column-end:::
+    :::column:::
+        <ul><li>將欄位拖曳到頁面以開始新的視覺效果。  您也可以將欄位拖曳至現有視覺效果，以將欄位新增至該視覺效果。<br><br></li> <li>當您在欄位旁邊新增核取記號時，Power BI 會將該欄位新增至使用中 (或新的) 視覺效果。 它也會決定要放入該欄位的貯體。  例如，欄位應該作為圖例、軸還是值？ Power BI 可進行最佳猜測，而且您可以視需要將欄位從該貯體移至另一個貯體。 <br><br></li><li>無論何種方式，每個選取的欄位都會加入報表編輯器的 [視覺效果] 窗格中。</li></ul>
+    :::column-end:::
+:::row-end:::
 
 在 Power BI Desktop 中，您也可以選擇顯示/隱藏欄位、新增計算等。
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 04/27/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: e1925c57869a58f111b77c6a50a1289224440ecb
-ms.sourcegitcommit: 01b5fb05f723eab2557e0e420bfde23197987a96
+ms.openlocfilehash: 52593cbcbdc0a67709735a06eca493fefb18e1a0
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86300991"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633691"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>在安全入口網站或網站中內嵌報告
 
@@ -60,10 +60,10 @@ ms.locfileid: "86300991"
 
 您可以使用內嵌 URL 的輸入設定來自訂使用者體驗。 在提供的 iFrame 中，您可以更新 URL 的 **src** 設定。
 
-| 屬性  | 描述  |  |  |  |
-|--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | 您可以使用 **pageName** 查詢字串參數來設定要開啟的報表頁面。 當在 Power BI 服務中檢視報表時，您可在報表 URL 的結尾處找到此值，如下所示。 |  |  |  |
-| URL 篩選  | 您可以在您從 Power BI 收到的內嵌 URL 中使用 [URL 篩選](service-url-filters.md)來篩選內嵌內容。 透過這種方式，只需要基本 HTML 與 JavaScript 體驗，就可以建置只需要使用少數程式碼的整合。  |  |  |  |
+| 屬性  | 描述  |
+|-----------|--------------|
+| pageName  | 您可以使用 **pageName** 查詢字串參數來設定要開啟的報表頁面。 當在 Power BI 服務中檢視報表時，您可在報表 URL 的結尾處找到此值，如下所示。 |
+| URL 篩選  | 您可以在您從 Power BI 收到的內嵌 URL 中使用 [URL 篩選](service-url-filters.md)來篩選內嵌內容。 透過這種方式，只需要基本 HTML 與 JavaScript 體驗，就可以建置只需要使用少數程式碼的整合。  |
 
 ## <a name="set-which-page-opens-for-an-embedded-report"></a>設定要為內嵌報表開啟的頁面 
 

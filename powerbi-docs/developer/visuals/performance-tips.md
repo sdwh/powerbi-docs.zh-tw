@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 04/20/2020
-ms.openlocfilehash: 7ebc02b2c459517957425e78438e12e89dc2e1bb
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: c22c634ef59a1aae2994dcacaae62dc8ebed7474
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "82196552"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746067"
 ---
 # <a name="how-to-build-a-high-performance-power-bi-visual"></a>如何建置高效能的 Power BI 視覺效果
 本文將探討開發人員如何在轉譯視覺效果時達到高效能的技術。 
@@ -104,7 +104,7 @@ ms.locfileid: "82196552"
 ### <a name="use-canvas-or-webgl"></a>使用 canvas 或 WebGL 
 如需重複使用動畫，請考慮使用 **Canvas** 或 **WebGL**，而非 SVG。 與 SVG 不同，使用這些選項時，效能取決於大小而非內容。 
 
-您可在 [SVG 與畫布：如何選擇](https://msdn.microsoft.com/library/gg193983(v=vs.85).aspx) (英文) 一文中深入了解兩者的差異。 
+您可在 [SVG 與畫布：如何選擇](/previous-versions/windows/internet-explorer/ie-developer/samples/gg193983(v=vs.85)) (英文) 一文中深入了解兩者的差異。 
 
 ### <a name="use-requestanimationframe-instead-of-settimeout"></a>使用 requestAnimationFrame 而非 setTimeout 
 如果使用 [requestAnimationFrame](https://www.w3.org/TR/animation-timing/) 更新螢幕動畫，則在瀏覽器呼叫另一個重繪**之前**，會先呼叫動畫函式。
@@ -113,4 +113,4 @@ ms.locfileid: "82196552"
 
 ## <a name="next-steps"></a>後續步驟
 
-在 [Power BI 最佳化指南](/power-bi/guidance/power-bi-optimization)中深入了解最佳化技術。
+在 [Power BI 最佳化指南](../../guidance/power-bi-optimization.md)中深入了解最佳化技術。
