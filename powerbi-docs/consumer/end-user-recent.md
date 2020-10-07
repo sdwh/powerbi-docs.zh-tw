@@ -7,49 +7,63 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/24/2020
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7f7aaf150a4b182ec1939820f92f4988ad373b3b
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 39904a0fc577ca11ae73c5bb9840232b4345e47b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537174"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527309"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Power BI 服務中的 [最近]  內容
 
 [!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
-[最近] 內容是您在 Power BI 服務中最後瀏覽的項目，最多 20 個。  這些包括︰儀表板、報表、應用程式和活頁簿。
+[最近] 內容是您在 Power BI 服務中最後瀏覽的項目。 包含︰儀表板、報表、應用程式和活頁簿。 當從導覽列選取 [最近] 時，Power BI 會依日期遞減排序來顯示此內容。  若要變更排序次序，請選取其中一個標題，然後選擇 [遞增] 或 [遞減]。
 
-![最近內容視窗](./media/end-user-recent/power-bi-recent.png)
 
-觀看 Amanda 示範如何填入 Power BI 服務 [最近]  內容清單，接著遵循影片下的逐步指示，自己試試看。
+![最近內容視窗](./media/end-user-recent/power-bi-recents.png)
+
+請注意，其中有兩個項目為[我的最愛](end-user-favorite.md)，並具有星形圖示。 而其中一個項目 Customer Profitability Sample (客戶獲利率範例) 則儲存在 [Premium 容量](end-user-license.md)中。
+
+## <a name="see-your-five-most-recents"></a>查看五個您最近的項目
+
+若要只顯示您最近瀏覽過的五個項目，請從瀏覽窗格中選取 [最近] 右側的箭號。  然後在這裡選取內容予以開啟。 
+
+![最近內容飛出視窗](./media/end-user-recent/power-bi-recent-fly-out.png)
+
+## <a name="see-all-of-your-recent-content"></a>查看您最近的所有內容
+
+若最近瀏覽過的項目超過五個，請選取 [查看全部] 以開啟 [最近] 畫面。 就像在本文一開始所做的一樣，您可略過飛出視窗，並從瀏覽窗格中選取 [最近] 或其![最近圖示](./media/end-user-recent/power-bi-icon.png)來開啟 [最近] 畫面。
+
+![顯示所有最近內容](./media/end-user-recent/power-bi-admin-recent.png)
+
+
+## <a name="search-and-sort-your-list-of-recent-content"></a>搜尋並排序最近內容的清單
+
+若清單太長，請[使用搜尋欄位和排序來找出所需的內容](end-user-search-sort.md)。 若要了解是否可以排序資料行，請將游標停留其上以查看是否出現箭號。 在此範例中，將游標停留在 [類型] 上方會顯示箭號 -- 則最近的內容即可依內容類型的字母順序排序。 
+
+![顯示搜尋欄位與排序箭號的螢幕擷取畫面](./media/end-user-recent/power-bi-recent-sort-search.png)
+
+觀看 Amanda 示範如何填入 Power BI 服務 [最近]**** 內容清單，接著遵循影片下的逐步指示，自己試試看。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
 > 這部影片使用較舊版本的 Power BI 服務。
 
-## <a name="display-recent-content"></a>顯示最近內容
-若要查看您最近瀏覽過的五個項目，請從瀏覽窗格中選取 [最近]  右側的箭號。  您可以從這裡選取最近內容，加以開啟。 只會列出五個最新的項目。
+<!--
+## Actions available from the **Recent** content list
+The actions available to you will depend on the settings assigned by the content *designer*. Some of your options may include:
+* Select the star icon to [favorite a dashboard, report, or app](end-user-favorite.md) ![star icon](./media/end-user-shared-with-me/power-bi-star-icon.png).
+* Some dashboards and reports can be re-shared  ![share icon](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* [Open the report in Excel](end-user-export.md) ![export to Excel icon](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [View insights](end-user-insights.md) that Power BI finds in the data ![insights icon](./media/end-user-shared-with-me/power-bi-insights.png). -->
 
-![最近內容飛出視窗](./media/end-user-recent/power-bi-recent-flyout.png)
 
-如果您最近瀏覽過的項目超過五個，請選取 [查看全部]  以開啟 [最近] 畫面。 您也可以從瀏覽窗格中選取 [最近]  或最近 ![最近圖示](./media/end-user-recent/power-bi-icon.png) 圖示。
 
-![顯示所有最近內容](./media/end-user-recent/power-bi-recent.png)
-
-## <a name="actions-available-from-the-recent-content-list"></a>可從 [最近]  內容清單中取得的動作
-可供您使用的動作將取決於內容「設計師」  所指派設定。 您的某些選項可能包括：
-* 選取星星圖示，以[將儀表板、報表或應用程式設為我的最愛](end-user-favorite.md) ![星號圖示](./media/end-user-shared-with-me/power-bi-star-icon.png)。
-* 有些儀表板和報表可以重複共用  ![共用圖示](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
-* [以 Excel 開啟報表](end-user-export.md) ![匯出至 Excel 圖示](./media/end-user-shared-with-me/power-bi-excel.png) 
-* [檢視 Power BI 在資料中找到的見解](end-user-insights.md)![見解圖示](./media/end-user-shared-with-me/power-bi-insights.png)。
-* 此外，如果您的清單太長，請[使用搜尋欄位和排序找出您需要的內容](end-user-search-sort.md)。 若要了解是否可以排序資料行，請將游標停留其上以查看是否出現箭號。 在此範例中，將游標停留在 [上次存取]  上方會顯示箭號 -- 您最近的內容可以依存取日期排序。 
-
-    ![排序所有最近內容](./media/end-user-recent/power-bi-recent-sort.png)
 
 
 ## <a name="next-steps"></a>後續步驟

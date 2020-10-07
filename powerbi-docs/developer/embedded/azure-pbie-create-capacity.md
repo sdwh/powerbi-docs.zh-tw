@@ -9,12 +9,12 @@ ms.devlang: csharp, javascript
 ms.topic: how-to
 ms.reviewer: zakharb
 ms.date: 08/02/2020
-ms.openlocfilehash: 2f330b42e674f11f27d695fb65bc8d5de928eaae
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: 6c5a4657328b755e53a3ddd016c2b095394fd83b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88204822"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528359"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>在 Azure 入口網站中建立 Power BI Embedded 容量
 
@@ -46,7 +46,7 @@ ms.locfileid: "88204822"
 
 4. 填入必要資訊，然後按一下 [檢閱 + 建立]。
 
-    ![要填寫以在 Azure 入口網站中建立新容量其欄位的螢幕擷取畫面](media/azure-pbie-create-capacity/azure-create-capacity.png)
+    ![顯示 [Power B I Embedded] 頁面的 [基本] 索引標籤，以在 Azure 入口網站中建立新容量的螢幕擷取畫面。](media/azure-pbie-create-capacity/azure-create-capacity.png)
 
     * **訂用帳戶** - 要用來建立容量的訂用帳戶。
 
@@ -219,7 +219,7 @@ az powerbi embedded-capacity delete --name
 
 2. 填入必要資訊，然後按一下 [檢閱 + 建立]。
 
-    ![要填寫以在 Azure 入口網站中建立新容量其欄位的螢幕擷取畫面](media/azure-pbie-create-capacity/arm-template.png)
+    ![顯示 [建立 Power B I Embedded 容量] 頁面的 [基本] 索引標籤，以在 Azure 入口網站中建立新容量的螢幕擷取畫面。](media/azure-pbie-create-capacity/arm-template.png)
 
     * **訂用帳戶** - 要用來建立容量的訂用帳戶。
 

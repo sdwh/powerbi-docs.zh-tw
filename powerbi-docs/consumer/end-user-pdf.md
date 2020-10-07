@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: add9e4e5c5a68354eb3e2d1b9c9b86a3b8c4e614
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 7eb55555efa6fe3eb9acad5c67e05288f0e55f21
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763798"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527416"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>從 Power BI 將報表匯出至 PDF
 
@@ -60,7 +60,7 @@ ms.locfileid: "90763798"
 * 不支援 ESRI 視覺效果。
 * 目前無法匯出超過 50 頁的報表。
 * 將報表匯出至 PDF 的程序可能需時數分鐘，請耐心等候。 影響所需時間的因素，包括報表結構及 Power BI 服務目前的負載。
-* 如果 Power BI 服務中沒有 [匯出至 PDF]  功能表項目，可能是因為租用戶系統管理員停用了此功能。 如需詳細資訊，請連絡您的租用戶系統管理員。
+* 若 Power BI 服務中沒有 [匯出至 PDF] 功能表項目，可能是因為 Power BI 管理員停用了此功能。 請連絡管理員以取得詳細資料。
 * 背景影像會按圖表的周框區域剪裁。 我們建議您先移除背景影像，再匯出至 PDF。
 * Power BI 租用戶網域外部使用者擁有的報表 (例如，組織外部某人所擁有並與您共用的報表) 無法發佈至 PDF。
 * 如果您與組織外部的某人 (也就是不在您 Power BI 租用戶中的使用者) 共用儀表板，則該使用者無法將共用儀表板的相關聯報表匯出至 PDF。 例如，如果您是 aaron@contoso.com，您可以與 cassie@northwinds.com 共用。 但是 cassie@northwinds.com 無法將相關聯報表匯出至 PDF。

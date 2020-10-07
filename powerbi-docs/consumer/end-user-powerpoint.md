@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 09/17/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 841b8bb72b7b2a13c833fd313027b38b57511af3
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: 61c084dca6d80a5e609f642ed6fc6894bef9e63c
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90764279"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527433"
 ---
 # <a name="export-reports-to-powerpoint"></a>將報表匯出至 PowerPoint
 
@@ -110,7 +110,7 @@ ms.locfileid: "90764279"
     - 花費超過一小時的時間來處理的報表。 
     - 載入時間超過 6 分鐘的報表頁面。 
 
-* 如果 Power BI 服務中沒有 [匯出至 PowerPoint] 功能表項目，可能是因為租用戶系統管理員或報表擁有者停用此功能。 如需詳細資訊，請連絡您的租用戶系統管理員或擁有者。
+* 若 Power BI 服務中沒有 [匯出至 PowerPoint] 功能表項目，可能是因為 Power BI 管理員或報表擁有者停用此功能。 請洽詢管理員或擁有者，以取得詳細資料。
 * Power BI 服務會使用您的 Power BI 語言設定作為 PowerPoint 的輸出語言。 若要在您的瀏覽器中查看或設定語言喜好設定，請選取齒輪圖示 ![齒輪圖示](media/end-user-powerpoint/power-bi-settings-icon.png) > [設定] > [一般] > [語言]。
 
 

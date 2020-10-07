@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 25a0ddaaf72e185d795d819e8c2cb990d2823ed2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 99a8cf5081274f922d210a140d333814b80fd01f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85229795"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527738"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>使用 Power BI 連線到 Project Web App
 Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的靈活線上解決方案。 Project Web App 可讓組織開始著手專案組合的投資、排定優先順序，並提供預期的商業價值。 Power BI 的 Project Web App 範本應用程式可讓您解鎖 Project Web App 的見解，協助管理專案、組合和資源。
@@ -29,7 +29,7 @@ Microsoft Project Web App 是針對專案組合管理 (PPM) 與日常工作的�
 
 2. 在 [服務]  方塊中，選取 [取得]  。
    
-   ![AppSource](media/service-connect-to-project-online/AppSource.png)
+   ![顯示 AppSource 視窗具有五個可用應用程式的螢幕擷取畫面。](media/service-connect-to-project-online/AppSource.png)
 3. 在 AppSource 中，選取 [應用程式]  索引標籤，然後搜尋/選取 [Microsoft Project Web App]  。
    
 4. 您會收到一則訊息，指出「要安裝此 Power BI 應用程式嗎?」  ，請選取 [安裝]  。 

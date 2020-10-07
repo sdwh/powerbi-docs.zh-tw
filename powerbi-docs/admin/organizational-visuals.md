@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/01/2020
-ms.openlocfilehash: ef981c63aaa1cdececbe03f187d25ee09073f61f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 30ab225230784d19bd2aa4eb2f5ea775684b2afb
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857741"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524780"
 ---
 # <a name="manage-power-bi-visuals-admin-settings"></a>管理 Power BI 視覺效果系統管理員設定
 
@@ -148,11 +148,11 @@ AppSource 的 Power BI 視覺效果會自動更新。 組織中使用者一律�
 
 1. 在所要新增視覺效果的資料列中，按一下 [設定]。
 
-    ![組織窗格](media/organizational-visuals/organizational-pane.png)組織窗格
+    ![顯示已選取組織視覺效果的系統管理入口網站，以及設定圖示的螢幕擷取畫面。](media/organizational-visuals/organizational-pane.png)組織窗格
 
 2. 啟用視覺效果窗格設定，然後按一下 [更新]。
 
-    ![更新組織窗格](media/organizational-visuals/update-organizational-pane.png)
+    ![顯示 [視覺效果設定] 對話方塊的螢幕擷取畫面，您可在此處讓視覺效果顯示給整個組織。](media/organizational-visuals/update-organizational-pane.png)
 
 ### <a name="delete-a-visual-uploaded-from-a-file"></a>刪除從檔案上傳的視覺效果
 

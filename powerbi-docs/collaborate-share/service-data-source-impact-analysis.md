@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/20/2020
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: 2c9834310179d8936cda8b769e3b7e3f80d328e6
-ms.sourcegitcommit: 65025ab7ae57e338bdbd94be795886e5affd45b4
+ms.openlocfilehash: 71c214e265c84eb7436d384a98f793eefe2f6a23
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87253825"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526208"
 ---
 # <a name="data-source-impact-analysis"></a>資料來源影響分析
 
@@ -42,6 +42,17 @@ ms.locfileid: "87253825"
  
 * **影響摘要**：顯示可能受影響的工作區、資料流程和資料集數目。 此計數包含您沒有存取權的工作區。
 * **使用量明細**：顯示每個工作區中受影響的資料流程和資料集名稱。 若要進一步探索對特定工作區的影響，請按一下工作區名稱以開啟工作區。 若在受影響的工作區中，請使用[資料集影響分析](service-dataset-impact-analysis.md)以查看已連線報表和儀表板的使用量詳細資料。
+
+## <a name="notify-contacts"></a>通知連絡人
+
+若對資料來源進行了變更，或想要進行變更，則建議連絡相關使用者來告知相關資訊。 當通知連絡人時，系統會將電子郵件傳送至所有受影響工作區的[連絡人清單](service-create-the-new-workspaces.md#create-a-contact-list) (針對傳統工作區，電子郵件會傳送給工作區系統管理員)。 您的名稱會出現在電子郵件中，以便連絡人能夠找到您並以新的電子郵件對話來進行回覆。 
+
+1. 按一下 [影響分析] 側邊窗格中的 [通知連絡人]。 [通知連絡人] 對話方塊隨即出現。
+
+   ![[資料來源通知連絡人] 對話方塊的螢幕擷取畫面。](media/service-data-source-impact-analysis/notify-contacts-dialog.png)
+
+1. 在文字方塊中，提供有關變更的一些詳細資料。
+1. 當訊息準備好時，請按一下 [傳送]。
 
 ## <a name="privacy"></a>隱私權
 

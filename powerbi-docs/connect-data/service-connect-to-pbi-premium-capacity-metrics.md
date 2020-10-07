@@ -8,14 +8,15 @@ ms.topic: how-to
 ms.date: 05/18/2020
 ms.author: painbar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2db7cce57408fa988c9a32057d6f1f880bc55126
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 42526dbae857c6488fe129cc7781672691782de1
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861950"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375227"
 ---
 # <a name="connect-to-power-bi-premium-capacity-metrics"></a>連線到 Power BI Premium 容量計量
+
 監視您的容量對於明智地決定如何最有效地利用 Premium 容量資源至關重要。 Power BI Premium 容量計量應用程式提供您容量執行方式的最深入資訊。
 
 ![Power BI Premium 容量計量應用程式報表](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-report.png)
@@ -25,7 +26,7 @@ ms.locfileid: "90861950"
 在安裝應用程式及連線到資料來源後，您即可視需要自訂報表。 您接著可將其散發給組織中的同事。
 
 > [!NOTE]
-> 安裝範本應用程式需要[權限](./service-template-apps-install-distribute.md#prerequisites)。 如果您發現沒有足夠的權限，請連絡租用戶系統管理員。
+> 安裝範本應用程式需要[權限](./service-template-apps-install-distribute.md#prerequisites)。 若發現沒有足夠的權限，請連絡 Power BI 系統管理員。
 
 ## <a name="install-the-app"></a>安裝應用程式
 
@@ -83,7 +84,7 @@ ms.locfileid: "90861950"
 
 若要開始自訂應用程式，請按一下右上角的鉛筆圖示。
 
- ![Microsoft 登入畫面](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
+ ![編輯圖示](media/service-connect-to-pbi-premium-capacity-metrics/service-pbi-premium-capacity-metrics-app-customize.png)
 
 如需詳細資訊，請參閱[自訂和共用應用程式](./service-template-apps-install-distribute.md#customize-and-share-the-app)。
 

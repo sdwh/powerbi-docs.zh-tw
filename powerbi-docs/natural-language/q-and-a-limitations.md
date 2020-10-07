@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/09/2020
 ms.author: maggies
-ms.openlocfilehash: 7b02e1b1fb49eb1c43b12d204250eabec8eafe91
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: c989dad575f10a6ed4f6b25ed80368315087c1c2
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642353"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528290"
 ---
 # <a name="limitations-of-power-bi-qa"></a>Power BI 問與答的限制
 
@@ -53,7 +53,7 @@ Power BI 問與答目前不支援下列設定：
 
 檢閱問題最多只會將針對資料模型所詢問的問題儲存 28 天。 使用新的檢閱問題功能時，您可能注意到不會記錄某些問題。 根據設計不予記錄，因為自然語言引擎會執行一連串的資料清理步驟，確保不會記錄或顯示使用者每一次的按鍵輸入。
 
-租用戶系統管理員可以使用租用戶系統管理員設定來管理儲存問題的能力。 權限是以安全性群組為基礎。 
+Power BI 系統管理員可使用租用戶設定來管理儲存問題的能力。 權限是以安全性群組為基礎。 
 
 使用者也可以選取 [設定]   > [一般]  ，然後取消選取 [Allow Q&A to record my utterance] \(允許問與答記錄我的表達\)  來避免記錄其問題。 
 

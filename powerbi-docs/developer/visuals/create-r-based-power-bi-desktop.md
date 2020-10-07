@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 05/11/2020
-ms.openlocfilehash: a3cb8d6ae8d8b872d00b3b4ce1aad13105f3b1e4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 248e641488edb2523a2fa7102bd7a9a4829ee29b
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85232823"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527761"
 ---
 # <a name="tutorial-create-an-r-powered-power-bi-visual"></a>教學課程：建立 R 支援的 Power BI 視覺效果
 
@@ -78,7 +78,7 @@ ms.locfileid: "85232823"
 
 1. 在 Power BI Desktop 中，選取 [R 指令碼視覺效果]：
 
-   ![[視覺效果] 窗格中的 R 視覺效果](./media/create-r-based-power-bi-desktop/r-script-icon.png)
+   ![顯示 Power B I Desktop 中的 R 指令碼視覺控制項的螢幕擷取畫面。](./media/create-r-based-power-bi-desktop/r-script-icon.png)
 
 1. 將此 R 程式碼貼入 **R 指令碼編輯器**：
 
@@ -94,7 +94,7 @@ ms.locfileid: "85232823"
 
 1. 選取**執行指令碼**圖示以查看結果。
 
-    ![[視覺效果] 窗格中的 R 視覺效果](./media/create-r-based-power-bi-desktop/run-r-script.png)
+    ![顯示指令碼執行結果為折線圖的螢幕擷取畫面。](./media/create-r-based-power-bi-desktop/run-r-script.png)
 
 1. 當 R 指令碼準備就緒時，請將其複製到 `script.r` 檔案，該檔案位於在先前其中一個步驟中建立的視覺效果專案。
 
@@ -176,7 +176,7 @@ ms.locfileid: "85232823"
 
 使用 `corrplot` 套件的結果如下列範例所示：
 
-![[視覺效果] 窗格中的 R 視覺效果](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
+![顯示以 corrplot 所建立視覺效果窗格包含四個橢圓形的螢幕擷取畫面。](./media/create-r-based-power-bi-desktop/r-corrplot-result.png)
 
 ## <a name="adding-a-static-property-to-the-property-pane"></a>將靜態屬性新增至屬性窗格
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 43905b05bfe796c416bb8d91901497f6ca1e573e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83278253"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136250"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一對一關聯性指導方針
 
@@ -131,13 +131,13 @@ ms.locfileid: "83278253"
 
 ![[欄位] 窗格在名為 [Marketing] \(行銷\) 的顯示資料夾中顯示 [Category] \(類別\) 欄位。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-display-folder.png)
 
-如果您仍決定在模型中定義一對一的島內關聯性，在可能的情況下，請確保相關聯的資料表中具有相符的資料列。 由於一對一的島內關聯性會評估為[強式關聯性](../transform-model/desktop-relationships-understand.md#strong-relationships)，資料完整性問題可能會以空白的形式出現在您的報表視覺效果中。 (您可以在此文章所呈現的第一個資料表視覺效果中看到空白分組的範例。)
+如果您仍決定在模型中定義一對一的島內關聯性，在可能的情況下，請確保相關聯的資料表中具有相符的資料列。 由於一對一的島內關聯性會評估為[一般關聯性](../transform-model/desktop-relationships-understand.md#regular-relationships)，因此資料完整性問題可能會以空白的形式出現在報表視覺效果中。 (您可以在此文章所呈現的第一個資料表視覺效果中看到空白分組的範例。)
 
 ### <a name="inter-island-one-to-one-relationship"></a>島間一對一關聯性
 
-當資料表之間存在一對一的「島間」  關聯性時，將不會有替代模型設計，除非您在資料來源預先合併資料。 Power BI 會將一對一模型關聯性評估為[弱式關聯性](../transform-model/desktop-relationships-understand.md#weak-relationships)。 因此，請務必確保相關聯的資料表中具有相符的資料列，因為系統會將不相符的資料列從查詢結果中排除。
+當資料表之間存在一對一的「島間」  關聯性時，將不會有替代模型設計，除非您在資料來源預先合併資料。 Power BI 會將一對一模型關聯性評估為[受限關聯性](../transform-model/desktop-relationships-understand.md#limited-relationships)。 因此，請務必確保相關聯的資料表中具有相符的資料列，因為系統會將不相符的資料列從查詢結果中排除。
 
-讓我們看看將來自兩個資料表的欄位新增到資料表視覺效果，且資料表之間存在弱式關聯性時，會發生什麼事。
+讓我們看看將來自兩個資料表的欄位新增到資料表視覺效果，且資料表之間存在受限關聯性時，會發生什麼事。
 
 ![資料表視覺效果包含四個資料行：[SKU]、[Product] \(產品\)、[Color] \(色彩\) 與 [Category] \(類別\)。 資料表只有兩個資料列。](media/relationships-one-to-one/product-to-product-category-table-visual-weak-relationship.png)
 

@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 06/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 473d1375ed35e638a94f82970b29809d35482584
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 87b1f15b53ef5a76fe61e040766822dd2714add4
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237706"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528267"
 ---
 # <a name="promote-or-certify-dataflows-preview"></a>推廣或認證資料流程 (預覽)
 
@@ -21,9 +21,9 @@ Power BI 提供兩種方式來為有價值、高品質的資料流程增加曝�
 
 * **升級**：推廣可讓使用者醒目提示其認為有價值且值得供其他人使用的資料流程。 如此一來，便能鼓勵人員在組織內合作將資料流程進行散佈。 任何資料流程擁有者，或任何資料流程所在工作區上具有寫入權限的成員，只要認為該資料流程值得共用，就可以推廣該資料流程。
 
-* **認證**：認證表示資料流程已通過授權檢閱者的檢查，且其確實可供整個組織中使用、可靠且具權威性的資料來源。 由 Power BI 租用戶系統管理員所定義的受選檢閱者群組，可決定要認證的資料流程。 若使用者認為某項資料流程應經過認證，卻沒有認證權限，則該位使用者可洽詢其租用戶系統管理員。
+* **認證**：認證表示資料流程已通過授權檢閱者的檢查，且其確實可供整個組織中使用、可靠且具權威性的資料來源。 由 Power BI 管理員所定義的所選檢閱者群組，可決定要認證的資料流程。 若使用者認為某項資料流程應經過認證，卻沒有認證權限，則該位使用者可洽詢其系統管理員。
 
-  只有[透過 Power BI 租用戶系統管理員啟用](../admin/service-admin-setup-certification.md)資料流程認證時，才可以使用此功能。
+  只有[透過 Power BI 管理員啟用](../admin/service-admin-setup-certification.md)資料流程認證時，才可以使用此功能。
 
 推廣或認證資料流程稱為「背書」  。 Power BI 報表建立者通常會有許多不同的資料流程可供選擇，而背書則有助於引導其取用可靠、可信且具權威性的資料流程。
 
@@ -35,9 +35,9 @@ Power BI 提供兩種方式來為有價值、高品質的資料流程增加曝�
 
 本文描述
 * 推廣資料流程 (資料流程所在工作區上的資料流程擁有者，或具有成員權限的任何使用者)
-* 認證資料流程 (由租用戶系統管理員決定的授權的資料流程認證者)
+* 認證資料流程 (由 Power BI 管理員決定的經授權資料流程認證者)
 
-如需設定資料流程認證 (租用戶系統管理員) 的資訊，請參閱[設定資料集與資料流程認證](../admin/service-admin-setup-certification.md) (英文)
+如需設定資料流程認證 (系統管理員) 的資訊，請參閱[設定資料集與資料流程認證](../admin/service-admin-setup-certification.md)
 
 
 ## <a name="promote-a-dataflow"></a>推廣資料流程
@@ -58,7 +58,7 @@ Power BI 提供兩種方式來為有價值、高品質的資料流程增加曝�
 
 ## <a name="certify-a-dataflow"></a>認證資料流程
 
-本區段適用於已由租用戶系統管理員授權認證資料流程的使用者。 認證資料流程是一項重大的責任， 本區段會說明需要執行的認證流程。
+本節適用於已由 Power BI 管理員授權認證資料流程的使用者。 認證資料流程是一項重大的責任， 本區段會說明需要執行的認證流程。
 
 1. 在要認證資料流程所在的工作區上，取得寫入權限。 此權限可以是來自於工作區中的資料流程擁有者，或具有系統管理員權限的任何人員。 
 

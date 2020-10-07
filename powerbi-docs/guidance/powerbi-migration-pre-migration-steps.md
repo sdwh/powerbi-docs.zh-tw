@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/20/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 9a5ed3d2a4798332de2394e1ad5be6fdbdb6eeae
-ms.sourcegitcommit: 84e75a2cd92f4ba4e0c08ba296b981b79d6d0e82
+ms.openlocfilehash: fba37d9f73ea0f61d8a43dc46cd13a5835d4d2a9
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88803134"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525792"
 ---
 # <a name="prepare-to-migrate-to-power-bi"></a>準備移轉到 Power BI
 
@@ -73,7 +73,7 @@ ms.locfileid: "88803134"
 
 有些重要項目需在 Power BI 的實作初期解決，包括：
 
-- [Power BI 租使用者系統管理員設定](admin-tenant-settings.md)決策，其應納入記錄。
+- [Power BI 租用戶設定](admin-tenant-settings.md)決策，應納入記錄。
 - [工作區管理](../collaborate-share/service-new-workspaces.md)決策，其應納入記錄。
 - 與資料及[內容散發方法](../collaborate-share/service-how-to-collaborate-distribute-dashboards-reports.md)相關的考量及偏好設定，例如應用程式、工作區、共用、訂閱及內容內嵌。
 - 與[資料集模式](../connect-data/service-dataset-modes-understand.md)相關的偏好設定，例如使用匯入模式、DirectQuery 模式，或在[複合模型](composite-model-guidance.md)中結合使用這兩種模式。
@@ -96,7 +96,7 @@ ms.locfileid: "88803134"
 - Power BI 租用戶設定及 Azure Active Directory 整合。
 - 定義 [Power BI 系統管理員](../admin/service-admin-role.md)。
 - 採購並指派初始[使用者授權](../admin/service-admin-licensing-organization.md)。
-- 設定及檢閱 [Power BI 租用戶系統管理員設定](admin-tenant-settings.md)。
+- 設定及檢閱 [Power BI 租用戶設定](admin-tenant-settings.md)。
 - 設定 [工作區角色](../collaborate-share/service-new-workspaces.md#roles-in-the-new-workspaces)，並將存取權指派給 Azure Active Directory 安全性群組及使用者。
 - 設定初始[資料閘道](../connect-data/service-gateway-deployment-guidance.md)叢集，並規劃定期更新。
 - 採購初始 [Premium 容量授權](../admin/service-admin-premium-purchase.md) (如果適用)。

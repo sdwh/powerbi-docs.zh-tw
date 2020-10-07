@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
-ms.date: 07/15/2019
+ms.date: 09/25/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4d106a2bd2c11d049307a2b6f752d9486cd5aa20
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 6dc42a5feb13b344a0e5d4d7c8880d1f5388a1ef
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860685"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375181"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>針對閘道進行疑難排解 - Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "90860685"
 
 ### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>錯誤：無法連線。 詳細資料:[連接認證無效]
 
-在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，您會看到類似如下的訊息：
+在 [顯示詳細資料] 中，會顯示從資料來源收到的錯誤訊息。 若是 SQL Server，則會看到類似如下的訊息：
 
     Login failed for user 'username'.
 
@@ -150,7 +150,7 @@ ms.locfileid: "90860685"
         https://graph.windows.net/me?api-version=1.5
 4. 尋找 **userPrincipalName**。
 
-如果您的 Azure Active Directory UPN 不符合您的本機 Active Directory UPN，您可以使用[對應使用者名稱](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)功能，以有效的值加以取代。 或者，您可以和您的租用戶系統管理員或本機 Active Directory 系統管理員合作，以變更您的 UPN。
+如果您的 Azure Active Directory UPN 不符合您的本機 Active Directory UPN，您可以使用[對應使用者名稱](service-gateway-enterprise-manage-ssas.md#map-user-names-for-analysis-services-data-sources)功能，以有效的值加以取代。 或者，您可和 Power BI 系統管理員或本機 Active Directory 系統管理員合作，以變更 UPN。
 
 ## <a name="kerberos"></a>Kerberos
 
@@ -192,11 +192,11 @@ ImpersonationLevel 與 SPN 設定或本機原則設定有關。
 
 * SAP HANA 會要求模擬使用者在 Active Directory 中使用 sAMAccountName 屬性 (使用者別名)。 如果這個屬性不正確，您會看到 1033 錯誤。
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+    ![屬性編輯器](media/service-gateway-onprem-tshoot/sAMAccount.png)
 
 * 您會在記錄中看到 sAMAccountName (別名) 而不是 UPN，其為後面接著網域的別名 (alias@doimain.com)。
 
-    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+    ![記錄中的帳戶資訊](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
 ```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">

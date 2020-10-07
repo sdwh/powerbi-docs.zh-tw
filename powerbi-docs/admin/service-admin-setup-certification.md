@@ -8,18 +8,18 @@ ms.topic: how-to
 ms.date: 05/15/2020
 ms.author: painbar
 LocalizationGroup: Share your work
-ms.openlocfilehash: 41247a6dbee2ba6c4c5181a4646df735e43f8b18
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 11079e2ab1578cfe5db352e7e3286d491bdfca2c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85227533"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374905"
 ---
 # <a name="set-up-dataset-and-dataflow-certification-preview"></a>設定資料集與資料流程認證 (預覽)
 
 組織可以認證作為重要資訊權威來源的資料集與資料流程。
 
-身為 Power BI 租用戶系統管理員，您必須負責為組織設定認證流程。 這表示：
+身為 Power BI 管理員，您肩負為組織設定認證程序的責任。 這表示：
 * 在租用戶上啟用認證。
 * 定義已獲授權可認證資料集與資料流程的群組和使用者清單。
 * 針對資料集，提供組織資料集認證原則的 URL (如果有的話)。

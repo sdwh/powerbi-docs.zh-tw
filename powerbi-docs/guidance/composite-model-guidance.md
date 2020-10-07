@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 528fc40427a1cb242d9154028d1a7c6617c8a14e
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 840e4dc92164de2ebfd1bdef6bee941124f6e906
+ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83279676"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91136204"
 ---
 # <a name="composite-model-guidance-in-power-bi-desktop"></a>Power BI Desktop 中的複合模型指引
 
@@ -54,8 +54,8 @@ ms.locfileid: "83279676"
 Power BI 查詢複合模型時，會有數個可能的案例：
 
 - **僅查詢匯入或雙重資料表**：所有資料都是從模型快取擷取。 這將能提供最快的效能。 此案例常見於由篩選或交叉分析篩選器視覺效果所查詢的維度類型資料表。
-- **查詢來自相同來源的雙重資料表或 DirectQuery 資料表**：所有資料都是透過將一或多個原生查詢傳送至 DirectQuery 來源來擷取。 這將能提供最快的效能，特別是在來源資料表上存在適當的索引時。 此案例常見於會對雙重維度類型資料表和 DirectQuery 事實類型資料表進行關聯的查詢。 這些查詢是「島內的」  ，因此所有一對一或一對多關聯性都會評估為[強式關聯性](../transform-model/desktop-relationships-understand.md#strong-relationships)。
-- **所有其他查詢**：這些查詢涉及跨島關聯性。 這可能是因為匯入資料表與 DirectQuery 資料表相關聯，或是因為雙重資料表與來自不同來源的 DirectQuery 資料表相關聯 (在此情況下其會表現出匯入資料表的行為)。 所有關聯性都會評估為[弱式關聯性](../transform-model/desktop-relationships-understand.md#weak-relationships)。 這也代表套用到非 DirectQuery 資料表的群組必須以虛擬資料表的形式傳送到 DirectQuery 來源。 在此情況下，原生查詢可能會沒有效率，特別是針對大型群組集合。 此外，這也可能會在原生查詢中公開敏感性資料。
+- **查詢來自相同來源的雙重資料表或 DirectQuery 資料表**：所有資料都是透過將一或多個原生查詢傳送至 DirectQuery 來源來擷取。 這將能提供最快的效能，特別是在來源資料表上存在適當的索引時。 此案例常見於會對雙重維度類型資料表和 DirectQuery 事實類型資料表進行關聯的查詢。 這些查詢為「島內」，因此所有一對一或一對多關聯性都會評估為[一般關聯性](../transform-model/desktop-relationships-understand.md#regular-relationships)。
+- **所有其他查詢**：這些查詢涉及跨島關聯性。 這可能是因為匯入資料表與 DirectQuery 資料表相關聯，或是因為雙重資料表與來自不同來源的 DirectQuery 資料表相關聯 (在此情況下其會表現出匯入資料表的行為)。 所有關聯性都會評估為[受限關聯性](../transform-model/desktop-relationships-understand.md#limited-relationships)。 這也代表套用到非 DirectQuery 資料表的群組必須以虛擬資料表的形式傳送到 DirectQuery 來源。 在此情況下，原生查詢可能會沒有效率，特別是針對大型群組集合。 此外，這也可能會在原生查詢中公開敏感性資料。
 
 總而言之，我們建議您︰
 
@@ -63,7 +63,7 @@ Power BI 查詢複合模型時，會有數個可能的案例：
 - 在資料表為儲存大量資料的事實資料表，或是需要傳遞近即時結果的情況下，請將儲存模式設定為 [DirectQuery] 
 - 在資料表為維度類型資料表，且會搭配以相同來源為基礎的 **DirectQuery** 事實類型資料表一起查詢的情況下，請將儲存模式設定為 [雙重] 
 - 設定適當的重新整理頻率，來將雙重資料表 (以及任何相依的計算資料表) 的模型快取與來源資料庫保持同步
-- 致力於確保資料來源 (包括模型快取) 之間的資料完整性；弱式關聯性將會在相關聯的資料行值不相符時排除資料列
+- 致力於確保資料來源 (包括模型快取) 之間的資料完整性；受限關聯性將會在相關的資料行值不相符時排除資料列
 - 搭配適當的索引將 DirectQuery 資料來源最佳化，以取得有效率的聯結、篩選及分組
 - 如果原生查詢具有被攔截的風險，請不要將敏感性資料載入匯入或雙重資料表。如需詳細資訊，請參閱[在 Power BI Desktop 中使用複合模型 (安全性影響)](../transform-model/desktop-composite-models.md#security-implications)
 

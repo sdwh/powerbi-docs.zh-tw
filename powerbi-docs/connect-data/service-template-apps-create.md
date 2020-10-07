@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 09/15/2020
 ms.author: painbar
-ms.openlocfilehash: e3b6ada10138e6964240c5eb5c53399507170b79
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2f663c8e47e9a66ec3f4ee3eb70646239be6126a
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860662"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374997"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>在 Power BI 中建立範本應用程式
 
@@ -21,7 +21,7 @@ Power BI「範本應用程式」讓 Power BI 合作夥伴撰寫少量程式碼�
 
 如果您可建立 Power BI 報表及儀表板，即可成為「範本應用程式建置者」，且將分析內容建置並封裝在「應用程式」中。 您可以透過任何可用的平台 (例如 AppSource)，或在自己的 Web 服務中使用應用程式，將應用程式部署至其他 Power BI 租用戶。 身為建置者，您可以建立受保護的分析套件以供散發。
 
-Power BI 租用戶系統管理員可管理並控制其組織中可以建立及安裝範本應用程式的人員。 獲授權使用者可以安裝您的範本應用程式，加以修改並散發給其組織中的 Power BI 使用者。
+Power BI 管理員可管理並控制其組織中可建立及安裝範本應用程式的人員。 獲授權使用者可以安裝您的範本應用程式，加以修改並散發給其組織中的 Power BI 使用者。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -163,7 +163,7 @@ Power BI 租用戶系統管理員可管理並控制其組織中可以建立及�
 
     ![發行管理圖示](media/service-template-apps-create/power-bi-release-management-icon.png)
 
-2. 如果已在上述**建立測試範本應用程式**區段中建立測試應用程式，請選取 [取得連結] ([測試] 旁邊的黃點會隨即填滿)。
+2. 若已在上述＜定義範本應用程式的屬性＞一節中建立測試應用程式，請選取 [取得連結] ([測試] 旁邊的黃點即會隨即填滿)。
 
     如果尚未建立應用程式，請選取 [建立應用程式]。 這會回到範本應用程式的建立流程。
 

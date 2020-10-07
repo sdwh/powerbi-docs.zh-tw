@@ -9,19 +9,19 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 984ac0bc0e89ff1be5281039f4f4586025d7973e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: ac0b032d8f20610dff97fb112d3ac54d5cc43889
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236746"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374284"
 ---
 # <a name="promote-your-dataset---power-bi"></a>升級資料集 - Power BI
 
 您的 Power BI 報表建立者現在可以存取許多不同資料集，因此企業需要引導他們使用可靠且高品質的資料集。 Power BI 提供兩種方式「認可」資料集：
 
 - **升級**：身為資料集的擁有者，當您的資料集可供廣泛使用時，您可以升級它們。 任何具有寫入權限的工作區成員都可以將資料集升階。 針對可以將資料集升階的對象並沒有任何限制。 升級支援組織內共同散佈的資料集。 本文與升級您的資料集相關。
-- **認證**：您可以要求認證已升級的資料集。 在 [資料集認證] 租用戶管理員設定中定義的一組所選使用者可決定認證的資料集。 如需詳細資料，請參閱[認證資料集](service-datasets-certify.md)。
+- **認證**：您可以要求認證已升級的資料集。 在 [資料集認證] 租用戶設定中定義的一組所選使用者可決定所要認證資料集。 如需詳細資料，請參閱[認證資料集](service-datasets-certify.md)。
 
 ## <a name="promote-a-dataset"></a>升級資料集
 
@@ -41,7 +41,7 @@ ms.locfileid: "85236746"
 
 ## <a name="request-dataset-certification"></a>要求認證資料集
 
-租用戶管理員已找出您組織中可認證資料集的人員。 您可以要求他們認證您的資料集。
+Power BI 管理員已找出組織中可認證資料集的人員。 您可以要求他們認證您的資料集。
 
 1. 將您資料集所在工作區的成員權限授與認證人。
 
@@ -49,7 +49,7 @@ ms.locfileid: "85236746"
 
 1. 選取 [深入了解] 連結。
 
-    您的 Power BI 租用戶管理員可以設定 [深入了解] 連結前往指定的位置，顯示您租用戶認證程序的詳細資料。   如果他們尚未自訂 [深入了解] 連結，根據預設，它會指向[資料集認證](service-datasets-certify.md)一文。
+    Power BI 管理員可設定 [深入了解] 連結以前往指定的位置，其中顯示您租用戶認證程序的詳細資料。   如果他們尚未自訂 [深入了解] 連結，根據預設，它會指向[資料集認證](service-datasets-certify.md)一文。
 
 ## <a name="next-steps"></a>後續步驟
 

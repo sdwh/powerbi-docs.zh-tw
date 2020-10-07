@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: a9fca9f27baf51c4e4bafbf93244f0d745ba714b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c83565582a47c75e4f55e516afe3be0d9fbe7847
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857419"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374215"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>Power BI 的高可用性、容錯移轉和災害復原常見問題集
 
@@ -74,4 +74,8 @@ Power BI 支援頁面 ([https://powerbi.microsoft.com/support/](https://powerbi.
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>閘道是否會在容錯移轉模式下運作？
 
-不會。 來自內部部署資料來源 (根據 Direct Query 和 Live Connect 的任何報表與儀表板) 的所需資料，在容錯移轉期間都無法運作。 然而閘道器設定不會變更：當 Power BI 執行個體返回其原始狀態時，閘道就會回復為其正常功能。
+不會。 來自內部部署資料來源 (根據 Direct Query 和 Live Connect 的任何報表與儀表板) 的所需資料，在容錯移轉期間都無法運作。 然而閘道設定不會變更。 當 Power BI 執行個體返回其原始狀態時，閘道就會回復為其正常功能。
+
+萬一主要地區發生嚴重嚴重損壞的情況，而長期無法恢復上線，則進行容錯移轉的主要地區將會允許讀取和寫入作業，客戶可針對新地區重新部署和設定閘道。
+
+客戶可選擇在不同電腦上安裝新的閘道，或接管其現有的閘道。 接管現有的閘道較為簡單，因為與舊閘道建立關聯的所有資料來源都會保留到新閘道。

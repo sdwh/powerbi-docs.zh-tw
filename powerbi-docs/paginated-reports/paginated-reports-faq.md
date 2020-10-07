@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/08/2020
-ms.openlocfilehash: acde398c1d8954b815c86cce77a6be0cfcf1553f
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 893becbcfc7d58b04bbff2819baed4bbc829fe9d
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216657"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526666"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Power BI 中的編頁報表：常見問題集 
 
@@ -76,7 +76,7 @@ ms.locfileid: "86216657"
 - **P2/A5**：20% 預設值；5% 最小值
 - **P3/A6**：20% 預設值；2.5% 最小值
 
-Power BI 租用戶系統管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定] 索引標籤上 [Power BI Premium] 下方的 [編頁報表] 工作負載區段。
+Power BI 管理員可在管理入口網站中修改預設的記憶體百分比上限。 請參閱 [容量設定] 索引標籤上 [Power BI Premium] 下方的 [編頁報表] 工作負載區段。
 
 :::image type="content" source="media/paginated-reports-faq/paginated-reports-capacity-settings.png" alt-text="[編頁報表容量設定] 索引標籤":::
 

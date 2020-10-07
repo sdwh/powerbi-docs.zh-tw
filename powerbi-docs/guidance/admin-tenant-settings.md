@@ -1,5 +1,5 @@
 ---
-title: 租用戶系統管理設定指導
+title: 租用戶設定指引
 description: Power BI 租用戶設定的指導。
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/10/2020
 ms.author: v-pemyer
-ms.openlocfilehash: eeb879fc70effa166d08c9a342f77ad614779751
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: fdde090d4fe6e154482e1223b16215fdeca9f56f
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049291"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528336"
 ---
-# <a name="tenant-admin-settings-guidance"></a>租用戶系統管理設定指導
+# <a name="tenant-settings-guidance"></a>租用戶設定指引
 
 本文旨在為負責在組織中設定 Power BI 環境的 Power BI 管理員提供指導。
 

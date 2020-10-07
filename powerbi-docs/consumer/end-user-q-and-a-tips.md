@@ -6,15 +6,15 @@ ms.reviewer: Mohammad.ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 03/11/2020
+ms.date: 09/23/2020
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 8784de7e13932d8cd9c33d706a0c49d6f6cc024c
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 9a8486a24ab7daa23e35f762c6830e400392963f
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537220"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375273"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>在 Power BI 問與答中詢問問題的秘訣
 
@@ -67,7 +67,7 @@ ms.locfileid: "87537220"
 |  |  |
 |**前 N 個**     |     (順序、排名)：top、bottom、highest、lowest、first、last、next、earliest、newest、oldest、latest、most recent、next            |
 |        |         |
-|**視覺效果類型**     |  所有視覺效果類型對於 Power BI 都是原生的。  如果是 [視覺效果] 窗格中的選項，就可以包含在問題中。  此規則例外狀況是已手動新增至 [視覺效果] 窗格的 [Power BI 視覺效果](../developer/visuals/power-bi-custom-visuals.md)。  |
+|**視覺效果類型**     |  所有視覺效果類型對於 Power BI 都是原生的。  如果是 [視覺效果] 窗格中的選項，就可以包含在問題中。  此規則例外狀況是已手動新增至 [視覺效果] 窗格的 [Power BI 自訂視覺效果](../developer/visuals/power-bi-custom-visuals.md)。  |
 |  |  範例︰以橫條圖依月份和銷售總額顯示區域資料               |
 |        |         |
 |**Wh (關係詞、限定詞)**  | when、where、which、who、whom、how many、how much、how many times、how often、how frequently、amount、number、quantity、how long、what                |

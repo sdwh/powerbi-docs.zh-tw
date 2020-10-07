@@ -1,6 +1,6 @@
 ---
 title: 跨工作區的資料集簡介
-description: 了解如何與整個組織的使用者共用資料集。 然後他們可以您的資料集為基礎，在自己的工作區中建置報表。
+description: 了解在工作區共用和探索資料集。 組織內的使用者可以資料集為基礎，在自己的工作區中建置報表。
 author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5f79411d7eedc97e99aabc8b44dbf12a22696bba
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: e943324106148bdbff1edba36650d494fdd9db8c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236867"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374261"
 ---
 # <a name="intro-to-datasets-across-workspaces"></a>跨工作區的資料集簡介
 
@@ -22,7 +22,7 @@ ms.locfileid: "85236867"
 
 ![選取共用資料集](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-在 Power BI 中，資料集建立者可以使用[建置權限](service-datasets-build-permissions.md)，控制誰可以存取其資料。 資料集建立者也可以「認證」資料集或將其「升階」，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 租用戶系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
+在 Power BI 中，資料集建立者可以使用[建置權限](service-datasets-build-permissions.md)，控制誰可以存取其資料。 資料集建立者也可以「認證」資料集或將其「升階」，以利其他人探索。 那樣一來，報表作者便知道有哪些資料集是高品質且正式的，並可以在 Power BI 中撰寫時使用那些資料集。 系統管理員具有[跨工作區管理資料集使用方式](service-datasets-admin-across-workspaces.md)的新租用戶設定。
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>資料集共用和新的工作區體驗
 
