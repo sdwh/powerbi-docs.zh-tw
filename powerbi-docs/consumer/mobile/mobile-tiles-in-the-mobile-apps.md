@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 68bfe1a97d9db0b12f3942961c4e50e5c535fd84
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 23f1ab7fb7ae5e143084042699db708c0827114f
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856177"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668543"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>探索 Power BI 行動裝置應用程式中的磚
 適用於︰
@@ -57,7 +57,7 @@ ms.locfileid: "90856177"
     ![對話方塊的螢幕擷取畫面，其中顯示允許 Power BI 開啟與內部瀏覽器的連結。](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     在 Power BI 應用程式中開啟連結後，您可以複製該連結，並改以瀏覽器視窗開啟連結。
-7. [開啟報表](mobile-reports-in-the-mobile-apps.md)![開啟報表圖示](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)，這是磚所依據的報表。
+7. [開啟磚所依據的報表](mobile-reports-in-the-mobile-apps.md) ![iOS 中的 [開啟報表] 圖示](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)。
 8. 若要離開磚焦點模式，請點選磚名稱，然後點選儀表板名稱或 [我的工作區]。
    
     ![儀表板的螢幕擷取畫面，其中顯示 [我的工作區] 與 [商機分析範例] 的指標。](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -72,7 +72,7 @@ ms.locfileid: "90856177"
    
    * 點選圖表以移動折線圖、橫條圖、直線圖或泡泡圖中的列，檢視視覺效果中之特定點的值。  
    * 點選鉛筆圖示![鉛筆圖示](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png)以[標注磚](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)，然後點選共用快照集圖示![共用快照集圖示](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png)以與其他人[共用](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual)。
-   * 點選開啟報表圖示![開啟報表圖示](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png)，以在行動裝置應用程式中[檢視報表](mobile-reports-in-the-mobile-apps.md)。
+   * 點選 [開啟報表] 圖示 ![Android 中的 [開啟報表] 圖示。](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) 以在行動應用程式中[檢視報表](mobile-reports-in-the-mobile-apps.md)。
 3. 有時候，儀表板的建立者已新增磚的連結。 因此，當點選垂直省略符號 ([...]) 時會看到 [開啟連結] ![連結圖示](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png)：
    
     ![儀表板的螢幕擷取畫面，其中顯示指向 [開啟連結] 的垂直省略符號。](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
