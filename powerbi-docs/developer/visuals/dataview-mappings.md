@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 571d4a2992a5017114cf94c3f49296769062d8ee
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 86572383e2e88f5a1efcf5126828e3365933cbc2
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380782"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635945"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>了解 Power BI 視覺效果中的資料檢視對應
 
@@ -337,14 +337,13 @@ export class Visual implements IVisual {
 
 類別目錄資料檢視的視覺化方式如下：
 
-| 類別目錄 |  |  | | | |
-|-----|-----|------|------|------|------|
-| | 年 | 2013 | 2014 | 2015 | 2016 |
-| 國家/地區 | | |
-| 美國 | | x | x | 650 | 350 |
-| 加拿大 | | x | 630 | 490 | x |
-| 墨西哥 | | 645 | x | x | x |
-| 英國 | | x | x | 831 | x |
+| 國家/地區 | 2013 | 2014 | 2015 | 2016 |
+|---------|------|------|------|------|
+| USA | x | x | 650 | 350 |
+| 加拿大 | x | 630 | 490 | x |
+| 墨西哥 | 645 | x | x | x |
+| 英國 | x | x | 831 | x |
+
 
 Power BI 將它產生為類別目錄資料檢視。 這是一組類別。
 
@@ -545,15 +544,15 @@ export class Visual implements IVisual {
 
 資料範例：
 
-| 國家/地區| 年 | 銷售 |
+| 國家/地區| Year | Sales |
 |-----|-----|------|
-| 美國 | 2016 | 100 |
-| 美國 | 2015 | 50 |
+| USA | 2016 | 100 |
+| USA | 2015 | 50 |
 | 加拿大 | 2015 | 200 |
-| 加拿大 | 2015 | 50 |
+| Canada | 2015 | 50 |
 | 墨西哥 | 2013 | 300 |
 | 英國 | 2014 | 150 |
-| 美國 | 2015 | 75 |
+| USA | 2015 | 75 |
 
 資料繫結：
 
@@ -746,7 +745,7 @@ Power BI 會建立階層式資料結構。 樹狀結構階層的根包含 `Categ
 
 資料集：
 
-| 上層 | 下層 | 下下層 | 行 | 值 |
+| Parents | Children | 下下層 | 資料行 | 值 |
 |-----|-----|------|-------|-------|
 | Parent1 | Child1 | Grand child1 | Col1 | 5 |
 | Parent1 | Child1 | Grand child1 | Col2 | 6 |

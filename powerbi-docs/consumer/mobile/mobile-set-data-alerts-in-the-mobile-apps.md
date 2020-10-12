@@ -8,17 +8,17 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 12/11/2019
 ms.author: painbar
-ms.openlocfilehash: a0fdc83db8d24f4733d3eb8402a4ea9ccce15869
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 71fb659ba102e139c7a1679b0c58c07c47a38bf0
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860593"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668658"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>在 Power BI 行動裝置應用程式中設定資料警示
 適用於︰
 
-| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Android 平板電腦](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-set-data-alerts-in-the-mobile-apps/iphone-logo-50-px.png) | ![iPad](./media/mobile-set-data-alerts-in-the-mobile-apps/ipad-logo-50-px.png) | ![Android 手機](./media/mobile-set-data-alerts-in-the-mobile-apps/android-phone-logo-50-px.png) | ![Android 平板電腦](./media/mobile-set-data-alerts-in-the-mobile-apps/android-tablet-logo-50-px.png) | ![Windows 10 裝置。](./media/mobile-set-data-alerts-in-the-mobile-apps/win-10-logo-50-px.png) |
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Android 手機 |Android 平板電腦 |Windows 10 裝置 |
 
@@ -38,7 +38,7 @@ ms.locfileid: "90860593"
 1. 點選儀表板中的數字磚或量測計磚，在焦點模式中開啟。  
    
    ![儀表板的螢幕擷取畫面，其中顯示以焦點模式來顯示量測計磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual.png)
-2. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png) 新增警示。  
+2. 點選鐘圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-icon.png" border="false"::: 加入警示。  
 3. 點選 [加入警示規則]。
    
    ![警示規則的螢幕擷取畫面，其中顯示未設定警示。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-add-alert-rule.png)
@@ -62,9 +62,9 @@ ms.locfileid: "90860593"
 
 1. 在儀表板中，點選出現警示的數字磚或量測計磚。  
    
-   ![儀表板的螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
+   ![iPhone 或 iPad 上的儀表板螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-card-visual_has_alert.png)
 
-2. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png).  
+2. 點選鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-has-alert-icon.png" border="false":::。  
 3. 點選警示的名稱編輯警示、點選滑桿關閉電子郵件警示，或點選垃圾桶刪除警示。
    
     ![警示的螢幕擷取畫面，指向警示名稱、刪除警示的垃圾筒，以及將警示關閉的滑桿。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-edit-delete-alert.png)
@@ -72,9 +72,9 @@ ms.locfileid: "90860593"
 ## <a name="data-alerts-on-an-android-device"></a>Android 裝置上的資料警示
 ### <a name="set-an-alert-on-an-android-device"></a>在 Android 裝置上設定警示
 1. 在 Power BI 儀表板中，點選數字磚或量測計磚，以開啟它。  
-2. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png) 新增警示。  
+2. 點選鐘圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-alert-icon.png" border="false"::: 加入警示。  
    
-   ![儀表板的螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
+   ![Android 裝置上的儀表板螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-tap-alert.png)
 3. 點選加號圖示 (+)。
    
    ![管理警示的螢幕擷取畫面，其中顯示加號圖示的指標。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-plus-alert.png)
@@ -95,7 +95,7 @@ ms.locfileid: "90860593"
 您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../create-reports/service-set-data-alerts.md)。
 
 1. 在儀表板中，點選出現警示的卡片磚或量測計磚。  
-2. 點選實線鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png).  
+2. 點選實心鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-filled-alert-bell.png" border="false":::。  
 3. 點選警示可變更值或關閉警示。
    
     ![[管理警示] 磚的螢幕擷取畫面，其中顯示新增警示的加號圖示。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-android-manage-alerts.png)
@@ -109,9 +109,9 @@ ms.locfileid: "90860593"
 
 ### <a name="set-data-alerts-on-a-windows-device"></a>在 Windows 裝置上設定資料警示
 1. 點選儀表板中的數字磚或量測計磚，以開啟該卡片與量測計。  
-2. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png) 新增警示。  
+2. 點選鐘圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-off.png" border="false"::: 加入警示。  
    
-   ![儀表板的螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
+   ![Windows 裝置上的儀表板螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-tap-alert.png)
 3. 點選加號圖示 (+)。
    
    ![管理警示的螢幕擷取畫面，其中顯示未設定警示。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-no-alerts-yet.png)
@@ -134,7 +134,7 @@ ms.locfileid: "90860593"
 您可以使用 Power BI 行動應用程式管理個別的警示，或[使用 Power BI 服務管理所有的警示](../../create-reports/service-set-data-alerts.md)。
 
 1. 在儀表板中，點選出現警示的卡片磚或量測計磚。  
-2. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png).  
+2. 點選鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-alert-bell-on.png" border="false":::。  
    
    ![儀表板的螢幕擷取畫面，其中顯示具有警示的數目磚。](media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-windows-10-has-alerts.png)
 3. 點選警示可變更值或關閉警示。
@@ -153,10 +153,10 @@ ms.locfileid: "90860593"
 2. 您如有設定傳送電子郵件警示，將會在收件匣中看到類似如下所述的狀況。
    
    ![電子郵件通知的螢幕擷取畫面，其中顯示該警示。](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alerts-email.png)
-3. Power BI 會將訊息新增至[通知中心](mobile-apps-notification-center.md)，並在 (iOS 和 Android) 標題列的鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或 (Windows 10 裝置) 全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) 上新增一個黃點。
+3. Power BI 會將訊息新增至[通知中心](mobile-apps-notification-center.md)，並在標題列上的鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: (iOS 和 Android) 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) (Windows 10 裝置) 上新增一個黃點。
 
 
-4. 點選鈴鐺圖示 ![鈴鐺圖示](media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png) 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png) 以[開啟**通知中心**](mobile-apps-notification-center.md)並查看警示詳細資訊。
+4. 點選鈴鐺圖示 :::image type="icon" source="media/mobile-set-data-alerts-in-the-mobile-apps/powerbi-alert-tile-notification-icon.png" border="false"::: 或全域導覽按鈕 ![全域導覽按鈕](./media/mobile-set-data-alerts-in-the-mobile-apps/power-bi-iphone-alert-global-nav-button.png)，以[開啟**通知中心**](mobile-apps-notification-center.md)並查看警示詳細資訊。
    
      
 

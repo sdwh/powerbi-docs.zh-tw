@@ -8,13 +8,13 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
-ms.date: 12/17/2018
-ms.openlocfilehash: 8003d7ed6d6b455860ed5ed3bc4ada06c0a35c5f
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.date: 09/30/2020
+ms.openlocfilehash: 10790ef963a11fd78c41a28b54e7d177bd96a157
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537795"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747911"
 ---
 # <a name="power-bi-visuals-faq"></a>Power BI 視覺效果常見問題集
 
@@ -32,9 +32,9 @@ ms.locfileid: "87537795"
 
 使用者可以在內建的 Power BI Desktop 與 Power BI 服務組織存放區中，於 [我的組織]  索引標籤下找到組織 Power BI 視覺效果。 
 
-### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果系統管理員將 Power BI 視覺效果從公用市集上傳到組織存放區，那麼一旦供應商在公用市集中更新視覺效果，它是否會自動更新？
+### <a name="if-an-admin-uploads-a-power-bi-visual-from-the-public-marketplace-to-the-organization-store-using-add-visual--from-appsource-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>如果系統管理員使用 [新增視覺效果] > [從 AppSource]，將 Power BI 視覺效果從公用市集上傳到組織存放區，那麼當供應商在公用市集中更新該視覺效果時，組織存放區中的視覺效果是否也會自動更新？
 
-否，公用 Marketplace 沒有自動更新功能。 系統管理員應負責更新組織 Power BI 視覺效果版本。
+是，視覺效果會從公用市集自動更新。 如果視覺效果已經過認證，則會保留憑證，包括匯出至 PDF 或 PowerPoint 等其他功能。
 
 ### <a name="is-there-a-way-to-disable-the-organization-store"></a>是否有停用組織存放區的方法？
 
@@ -135,7 +135,7 @@ IAP 視覺效果可讓您選擇在應用程式內購買進階功能。 
 
 ### <a name="what-is-changing-in-the-submission-process"></a>提交程序將有何變更？
 
-將 IAP Power BI 視覺效果提交至市集的程序，與提交免費 Power BI 視覺效果的程序相同。 您可以使用[合作夥伴中心](https://docs.microsoft.com/partner-center/)來提交 Power BI 視覺效果以進行認證。
+將 IAP Power BI 視覺效果提交至市集的程序，與提交免費 Power BI 視覺效果的程序相同。 您可以使用[合作夥伴中心](/partner-center/)來提交 Power BI 視覺效果以進行認證。
 
 
 註冊您的 Power BI 視覺效果時，請瀏覽至 [產品設定]  索引標籤，然後選取 [我的產品需要訂購服務]  核取方塊。

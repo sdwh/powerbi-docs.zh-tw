@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: maggies
-ms.openlocfilehash: 53f8a0a2d634ebcbd0023f560f8ee35e629d4d09
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 60287bfde79c918250037ccc03781e7cb47d6320
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861283"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634220"
 ---
 # <a name="configure-power-bi-report-server-with-azure-application-proxy"></a>使用 Azure 應用程式 Proxy 設定 Power BI 報表伺服器
 
@@ -201,7 +201,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - 建立新的重新導向 URL，並使用 **Type** = **Web** 與 **Redirect URI** = `https://pbirsazureapp-umacontoso2410.msappproxy.net/` 加以設定
     - 在 [進階設定] 區段中，將 [登出 URL] 設定為 `https://pbirsazureapp-umacontoso2410.msappproxy.net/?Appproxy=logout`
 
-    ![驗證設定](media/azure-application-proxy/azure-report-server-authentication-1.png)
+    ![螢幕擷取畫面顯示具有重新導向 URI 與進階設定的 PBIRS [驗證] 窗格。](media/azure-application-proxy/azure-report-server-authentication-1.png)
 
 1. 針對 [隱含授與]、[預設用戶端類型] 和 [支援的帳戶類型] 繼續為 Power BI 報表伺服器應用程式設定應用程式註冊的 [驗證] 區段，如下所示：
 
@@ -209,7 +209,7 @@ setspn -s MSSQLSVC/FQDN\_of\_SQL\_Server<SQL service service account>
     - 將 [預設用戶端類型] 設定為 [否]。
     - 將 [支援的帳戶類型] 變更為 [僅此組織目錄中的帳戶 (僅 UmaContoso - 單一租用戶)]。
 
-    ![驗證設定](media/azure-application-proxy/azure-report-server-authentication-2.png)
+    ![螢幕擷取畫面顯示具有所述設定的 PBIRS [驗證] 窗格。](media/azure-application-proxy/azure-report-server-authentication-2.png)
 
 1. 一旦設定好單一登入且 URL `https://pbirsazureapp-umacontoso2410.msappproxy.net` 正常運作，我們就必須確定用來登入的帳戶已與 Power BI 報表伺服器中提供權限的帳戶同步處理。
 

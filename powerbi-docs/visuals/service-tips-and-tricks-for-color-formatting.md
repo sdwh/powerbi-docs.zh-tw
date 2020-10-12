@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b273b5ea265815f26e58010356790186163c4aa8
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e896b3aeabc6a22c98563d0836984cd2d8a644de
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354608"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633829"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>在 Power BI 中色彩格式化的秘訣和訣竅
 
@@ -130,15 +130,15 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 ## <a name="add-color-to-table-rows"></a>將色彩新增至資料表資料列
 資料表和矩陣針對色彩格式化提供許多選項。 
 
-![預設資料表](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
+![螢幕擷取畫面顯示具有交替白色與灰色資料列的資料表。](media/service-tips-and-tricks-for-color-formatting/power-bi-table.png)
 
 將色彩套用到資料表或矩陣的其中一個最快方式，是開啟 [格式化] 索引標籤，然後選取 [樣式]。  在下圖中，我們已選取 [粗體標頭亮色資料列]。
 
-![預設資料表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
+![螢幕擷取畫面顯示粗體標頭亮色資料列的樣式選項，這會讓標頭資料列變成黑色，其他資料列則為淺色與深綠色。](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
 使用其他色彩格式化選項進行實驗。 在此圖中，我們已在 [資料行標題] 底下變更背景色彩，並變更 [值] (資料列) 的 [背景色彩] 和 [變更背景色彩]。
 
-![預設資料表](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
+![螢幕擷取畫面顯示背景色彩與交替背景色彩的值選取器。](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
 ## <a name="how-to-undo-in-power-bi"></a>如何在 Power BI 中復原
 如同許多其他 Microsoft 服務和軟體，Power BI 提供簡單的方法，用來復原您的上一個命令。 例如，讓我們假設您變更資料點或一系列資料點的色彩，但您不喜歡視覺效果中出現的色彩。 您不記得之前所用的色彩了，但知道您想要回復該色彩！
@@ -149,7 +149,7 @@ Power BI 提供許多不同的方式，用來自訂您的儀表板和報表。 �
 
 ![在底部顯示 [還原為預設值] 的 [格式化] 卡片](media/service-tips-and-tricks-for-color-formatting/power-bi-revert.png)
 
-## <a name="feedback"></a>意見反應
+## <a name="give-us-your-feedback"></a>請提供意見給我們
 您有想要分享的秘訣嗎？ 請寄給我們，我們會考慮將您的秘訣加入這裡。
 
 ## <a name="next-steps"></a>後續步驟

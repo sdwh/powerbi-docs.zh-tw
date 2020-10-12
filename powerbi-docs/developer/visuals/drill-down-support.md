@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: b02d8d61a4580e70a72aa4da66c4409f04b7f6bb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 054d7a4f96c83b97fbd5e96e7a3cf66d58a74823
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240087"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635922"
 ---
 # <a name="add-drill-down-support"></a>新增向下切入支援
 
@@ -26,7 +26,9 @@ Power BI 視覺效果可以使用 Power BI 的向下切入。
 
 若要在視覺效果中支援向下切入，請新增欄位至名為「向下切入」的 `capabilities.json`，其包含一個屬性：
 
-    *roles - the name of the dataRole you want to enable drill-down on.
+```json
+*roles - the name of the dataRole you want to enable drill-down on.
+```
 
 > [!NOTE]
 > 向下切入 dataRole 必須是 `Grouping` 類型。
@@ -222,11 +224,11 @@ button {
 
 並在 Power BI Desktop 中建立階層：
 
-![建立新階層](media/drill-down-support/create-new-hierarchy.png)
+![螢幕擷取畫面顯示 Power BI Desktop，其中已在內容功能表中選取 [新階層]。](media/drill-down-support/create-new-hierarchy.png)
 
 將所有類別目錄資料行 (H1、H2、H3) 包含至新的階層：
 
-![建立新階層](media/drill-down-support/new-hierarchy.png)
+![螢幕擷取畫面顯示您可以新增至新階層的類別資料行。](media/drill-down-support/new-hierarchy.png)
 
 執行這些步驟之後，您應該會看到下列視覺效果：
 
@@ -305,11 +307,11 @@ export class Visual implements IVisual {
 
 將資料套用至視覺效果：
 
-![具有資料的視覺效果](media/drill-down-support/dev-visual-drilldown-data.png)
+![螢幕擷取畫面顯示階層，其中已標註 H2。](media/drill-down-support/dev-visual-drilldown-data.png)
 
 在最後一個步驟中，您應該會取得具有選取項目與操作功能表的視覺效果：
 
-![具有向下切入支援的視覺效果](media/drill-down-support/dev-visual-drilldown-demo.gif)
+![動畫顯示從視覺效果操作功能表中選取 [向下切入] 和 [向上切入]。](media/drill-down-support/dev-visual-drilldown-demo.gif)
 
 ## <a name="add-drill-down-support-for-matrix-data-view-mapping"></a>新增矩陣資料檢視對應的向下切入支援
 
@@ -389,7 +391,7 @@ export class Visual implements IVisual {
 
 將資料套用至視覺效果：
 
-![具有資料的視覺效果](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
+![螢幕擷取畫面顯示 MatrixHierarchy，其中已選取資料行和資料列階層及其成員。](media/drill-down-support/dev-matrix-visual-drilldown-data.png)
 
 匯入必要的介面，以處理矩陣資料檢視對應：
 
@@ -614,7 +616,7 @@ public update(options: VisualUpdateOptions) {
 
 在最後一個步驟中，您應該會取得具有操作功能表的視覺效果：
 
-![具有向下切入支援的視覺效果](media\drill-down-support\dev-visual-drilldown-demo.gif)
+![動畫顯示視覺效果的操作功能表，其中包含向下切入或向上切入的選項。](media\drill-down-support\dev-visual-drilldown-demo.gif)
 
 ## <a name="next-steps"></a>後續步驟
 

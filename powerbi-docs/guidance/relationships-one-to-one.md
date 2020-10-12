@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7e10cfa5c99eb1750829150fd0a25347a4da1880
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: cbcf7fc1890ae1455f1f6ec7c8604e275f60b2d5
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136250"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668405"
 ---
 # <a name="one-to-one-relationship-guidance"></a>一對一關聯性指導方針
 
@@ -82,7 +82,7 @@ ms.locfileid: "91136250"
 
 在 [欄位]  窗格中，報表作者將能找到兩個資料表中的產品相關欄位：[Product]  \(產品\) 與 [Product Category]  \(產品類別\)。
 
-![[欄位] 窗格以展開的方式顯示這兩個資料表，並將資料行列為欄位。](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
+![[欄位] 窗格以展開的方式顯示這兩個資料表，並將資料行列為欄位且標註 [產品] 和 [產品類別]。](media/relationships-one-to-one/product-to-product-category-fields-pane.png)
 
 讓我們看看將來自兩個資料表的欄位新增到資料表視覺效果時，會發生什麼事。 在此範例中，[SKU]  資料行是源自 [Product]  \(產品\) 資料表。
 
@@ -112,7 +112,7 @@ ms.locfileid: "91136250"
 
     在我們的範例中，報表作者現在會在 [欄位]  窗格中找到名為 [Product]  \(產品\) 的單一資料表。 其包含所有產品相關欄位。
 
-    ![[欄位] 窗格以展開的方式顯示這兩個資料表，並將資料行列為欄位。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
+    ![[欄位] 窗格以展開的方式顯示這兩個資料表，並將資料行列為欄位且標註 [產品]。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated.png)
 3. **取代遺漏值**：如果第二個查詢具有不相符的資料列，透過其所引進的資料行中便會出現 NULL。 適當時，請考慮以語彙基元值取代 NULL。 當報表作者會依資料行值進行篩選或分組時，取代遺漏值便特別重要，因為報表視覺效果中可能會出現空白。
 
     在下列資料表視覺效果中，請注意產品 SKU CL-02 的類別現在已顯示為 _[Undefined]_ \(未定義\)。 在查詢中，將會以此語彙基元文字值來取代 Null 類別。
@@ -123,7 +123,7 @@ ms.locfileid: "91136250"
 
     在我們的範例中，報表作者現在可以使用具有下列兩個層級的階層：[Category]  \(類別\) 與 [Product]  \(產品\)。
 
-    ![[欄位] 窗格以展開的方式顯示這兩個資料表，並將資料行列為欄位。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
+    ![[欄位] 窗格以展開的方式顯示這兩個資料表，並將資料行列為欄位且標註 [產品]。](media/relationships-one-to-one/product-to-product-category-fields-pane-consolidated-with-hierarchy.png)
 
 如果您喜歡個別資料表協助組織欄位的方式，我們仍然建議合併成單一資料表。 您仍然可以組織欄位，只是須改為使用「顯示資料夾」  。
 

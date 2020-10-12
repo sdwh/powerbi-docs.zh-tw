@@ -1,17 +1,17 @@
 ---
 title: 合作夥伴售前學習目錄
-description: 尋找 Power Apps 的所有訓練選項
+description: 尋找適用於售前專家的所有 Power Apps 訓練選項，從最基礎到最進階。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 4225a8a7cc0da8c84b326fc2a2c9c082fd3fb3e6
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: bdc42b263e274983e5bcf85dde4d733c94d5d82d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526097"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747681"
 ---
 # <a name="partner-pre-sales-learning-catalog"></a>合作夥伴售前學習目錄
 

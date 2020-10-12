@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 01/31/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 49ed6bd0ae8021936c327aede83d0e6a8539179a
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: b9b299207a95091244d1f9ff7ab5f7a0d5460fc8
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216144"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634106"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>快速入門 - 瀏覽 Power BI 服務
 
@@ -47,12 +47,12 @@ ms.locfileid: "86216144"
 
 1. 安裝應用程式之後，從瀏覽窗格選取 [應用程式]  。 
 
-   ![第一次開啟 Power BI 服務](./media/end-user-experience/power-bi-home-steps.png)
+   ![螢幕擷取畫面顯示 Power BI [首頁] 畫面，其中包含歡迎訊息。](./media/end-user-experience/power-bi-home-steps.png)
 
 
 2. 在 [應用程式]  畫面上，選取 [銷售與行銷範例]  應用程式。
 
-    ![第一次開啟 Power BI 服務](./media/end-user-experience/power-bi-sample-app.png)
+    ![螢幕擷取畫面顯示 Power BI [應用程式] 畫面，其中包含名為「銷售與行銷範例」的應用程式。](./media/end-user-experience/power-bi-sample-app.png)
 
 2. 選取 [探索應用程式]  。
 

@@ -8,12 +8,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: 996e3835337ce8aa1002abce7682d707daec032e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d5f55c005f34bc1e3aa9ab5351b816616f4f7664
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859121"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668336"
 ---
 # <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>從遠端設定 Power BI 行動裝置應用程式對報表伺服器的存取
 
@@ -63,7 +63,7 @@ ms.locfileid: "90859121"
 
 3. 他們會鍵入密碼以進行驗證，然後點選 [登入]  。 
 
-    ![報表伺服器詳細資料已填入](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
+    ![螢幕擷取畫面顯示具有 [登入] 按鈕的密碼輸入。](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
 現在，他們可以檢視儲存在報表伺服器上的 KPI 和 Power BI 報表，並與其互動。
 

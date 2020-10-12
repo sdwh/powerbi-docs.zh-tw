@@ -1,17 +1,17 @@
 ---
 title: 取用者學習目錄
-description: 尋找 Power BI 的所有訓練選項
+description: 尋找適用於會使用報表與儀表板之取用者的所有 Power BI 訓練選項，從最基礎到最進階。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 51ccaa55eba6a03aa7b41780aaf859f134d2ddae
-ms.sourcegitcommit: 66b1a0c74b8a7dcb33a2f8570fb67bce2401a895
+ms.openlocfilehash: 4a4190dd8a1f17c1a49eca09e6c673a102ae0924
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84532733"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749406"
 ---
 # <a name="consumers-learning-catalog"></a>取用者學習目錄
 
@@ -22,6 +22,6 @@ ms.locfileid: "84532733"
 ## <a name="get-started"></a>開始使用<a name="get-started"></a>
 | 內容  | 描述  | 格式| 長度  |
 |--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-------------------|
-| [利用 Power BI 取用資料](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/) | 您想要利用資料來制定商務決策嗎？ 在 Power BI 中了解如何執行。 了解使用 Power BI檢閱並與此內容互動，以制定商務決策。 | 免費的自學型線上學習路徑 | 2 小時 9 分鐘  |
+| [利用 Power BI 取用資料](/learn/paths/consume-data-with-power-bi/) | 您想要利用資料來制定商務決策嗎？ 在 Power BI 中了解如何執行。 了解使用 Power BI檢閱並與此內容互動，以制定商務決策。 | 免費的自學型線上學習路徑 | 2 小時 9 分鐘  |
 | [Microsoft Power BI YouTube 頻道](https://www.youtube.com/user/mspowerbi/videos) | Microsoft Power BI 產品小組提供內容的 YouTube 頻道  | 影片  |            |
-| [Power BI 是什麼？](https://docs.microsoft.com/power-bi/fundamentals/power-bi-overview) | Power BI 概觀 | 網站  | 3 分鐘的閱讀時間 |
+| [Power BI 是什麼？](../fundamentals/power-bi-overview.md) | Power BI 概觀 | 網站  | 3 分鐘的閱讀時間 |

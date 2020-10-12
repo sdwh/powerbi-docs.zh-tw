@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 05/22/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a888d9010a418aa51534b94350cc3f6d82385772
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 74f6d14ed96e7e33929aafe315965c04b2f78863
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860961"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633967"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>適用於取用者的 Power BI 服務
 
@@ -24,17 +24,17 @@ ms.locfileid: "90860961"
  
 他們會傳送所有類型的報表、試算表、含有圖表的電子郵件，甚至是列印的講義給您。 隨著資料越來越多，會越來越難快速找到您需要的內容，且您會擔心可能不是使用最新的資訊。  
  
-![Power BI 儀表板](media/end-user-consumer/power-bi-consumer-pipes.png)
+![此圖顯示取用者以標記為「報表」、「圖表」、「電子郵件」和「試算表」的格式來接收資料。](media/end-user-consumer/power-bi-consumer-pipes.png)
 
 ## <a name="the-power-bi-service-for-consumers"></a>適用於「取用者」  的 Power BI 服務
 
 Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都會變成圖表和圖形，以視覺效果為您呈現資料。 不再是數字和文字的冗長清單或表格，您的資料見解會很「美觀」，以彩色且吸引人之視覺效果來提供有關您資料的見解。 
 
-![Power BI 儀表板](media/end-user-consumer/power-bi-consumer-examples.png)
+![螢幕擷取畫面顯示具有各種圖表的 Power BI 報表。](media/end-user-consumer/power-bi-consumer-examples.png)
  
 只要在瀏覽器或行動裝置中開啟 Power BI 服務即可。 您與同事可以從相同的受信任儀表板與報表執行作業，這些儀表板與報表會自動更新及重新整理，因此您一律會使用最新的內容。   
 
-![Power BI 儀表板](media/end-user-consumer/power-bi-funnel.png)
+![此圖顯示資料以數種格式合併至 Power BI，並顯示於電腦螢幕和手持裝置上。](media/end-user-consumer/power-bi-funnel.png)
 
 由於內容不是靜態的，因此您可以深入探索以尋找趨勢、見解與其他商業智慧。 對內容進行分析，甚至用您自己的話來詢問問題。 或者，放心讓資料為您探索有趣的見解、在資料變更時傳送警示給您，並依照您設定的排程以電子郵件傳送報表給您。 這包括您所有的資料，不論任何時候、雲端或內部部署，或是來自任何裝置。 這只是 Power BI 可以執行的作業開端。 
 
@@ -56,7 +56,7 @@ Power BI 可同時讓您的工作更輕鬆且更具影響力。 所有資料都�
  
 這並不表示您無法儲存變更；您可以儲存變更。 但這些變更只會影響您對內容的檢視。 而且還原成原始預設檢視非常簡單，只需按一下按鈕即可。  
 
-![Power BI 儀表板](media/end-user-consumer/power-bi-reset.png)
+![螢幕擷取畫面顯示 [重設為預設值] 按鈕。](media/end-user-consumer/power-bi-reset.png)
 
 
 ## <a name="next-steps"></a>後續步驟

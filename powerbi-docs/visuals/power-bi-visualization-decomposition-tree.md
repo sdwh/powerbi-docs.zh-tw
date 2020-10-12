@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9d74733e6baad4f84d52e8bc8749fe0295eedb2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b7aebef72952c75ed6ec406c6f3f9e888f047086
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239839"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632817"
 ---
 # <a name="create-and-view-decomposition-tree-visuals-in-power-bi"></a>在 Power BI 中建立和檢視分解樹狀結構視覺效果
 
@@ -53,7 +53,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 下一個步驟是引入您想要向下切入到其中的一或多個維度。 將這些欄位新增至 [說明依據] 貯體。 請注意，加號會出現在根節點旁邊。 選取 [+] 可讓您選擇想要向下切入到其中的欄位 (您可以依任何順序向下切入到欄位)。
 
-![分解樹狀結構功能表](media/power-bi-visualization-decomposition-tree/tree-menu.png)
+![螢幕擷取畫面顯示已選取加號圖示，這會顯示 [說明依據] 清單的選項。](media/power-bi-visualization-decomposition-tree/tree-menu.png)
 
 選取 [預測偏差] 會導致樹狀結構展開，並依據資料行中的值來細分量值。 您可以藉由選擇另一個要向下切入到其中的節點來重複執行此程序。
 
@@ -61,7 +61,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 選取最後一個層級的節點，即會交叉篩選資料。 選取較早層級的節點，即會變更路徑。
 
-![分解樹狀結構功能表](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
+![動畫顯示從較早的層級選取節點，以及其如何變更顯示以顯示其子節點。](media/power-bi-visualization-decomposition-tree/tree-interaction.gif)
 
 與其他視覺效果互動，即會交叉篩選分解樹狀結構。 因此，層級中的節點順序可能會變更。
 在下列範例中，我們依 Ubisoft 交叉篩選了樹狀結構。 路徑更新和 Xbox 銷售量會從第一位移到第二位 (被 PlayStation 超越)。 
@@ -70,7 +70,7 @@ https://github.com/microsoft/powerbi-desktop-samples/blob/master/Sample%20Report
 
 儘管路徑消失，現有層級 (在此案例中為遊戲類型) 仍會釘選於樹狀結構上。 因此，選取 Nintendo 節點，即會將樹狀結構自動展開到遊戲類型。
 
-![分解樹狀結構功能表](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
+![動畫顯示選取會影響顯示哪些節點的交叉篩選。](media/power-bi-visualization-decomposition-tree/tree-interaction-2.gif)
 
 
 ## <a name="ai-splits"></a>AI 分割
@@ -132,11 +132,11 @@ Nintendo 的北美洲銷售量/Abs(Avg(平台的北美洲銷售量))
 
 當您透過其他視覺效果交叉篩選分解樹狀結構時，也會重新計算 AI 層級。 在下列範例中，我們可以看到工廠 #0477 延期交貨的百分比最高。
 
-![分解樹狀結構交叉篩選](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
+![螢幕擷取畫面顯示已選取所有月份的根本原因分析。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter1.png)
 
 但是，如果我們在橫條圖中選取 [四月]，則最高值會變更為**產品類型是先進的外科**。 在此案例中，不僅已將節點重新排序，還選擇了完全不同的資料行。 
 
-![分解樹狀結構交叉篩選](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
+![螢幕擷取畫面顯示只選取四月的根本原因分析。](media/power-bi-visualization-decomposition-tree/tree-ai-crossfilter2.png)
 
 如果我們希望 AI 層級的行為類似非 AI 層級，請選取燈泡以將行為還原為預設值。 
 

@@ -1,20 +1,20 @@
 ---
-title: 顯示用於建立視覺效果的資料
-description: 本文件說明 Power BI 取用者可以如何「看見」用於建立視覺效果的資料。
+title: 顯示用於建立報表視覺效果的資料
+description: 此文件說明 Power BI 商務使用者如何「查看」用於建立報表視覺效果的資料。
 author: mihart
 ms.reviewer: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 04/28/2020
+ms.date: 10/6/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a48f6aa12a1fd3f3a3dcea39524ed3d51251b062
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 737fe43a7a94ef5738676792e1e903564d29e4bb
+ms.sourcegitcommit: 6ba33e5a500928163e02e007f5ccd52dd2227610
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87536231"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "91780260"
 ---
 # <a name="show-data-with-power-bi-reports"></a>使用 Power BI 報表顯示資料
 
@@ -37,7 +37,11 @@ Power BI 視覺效果是使用基礎資料集中的資料所建構。 如果您�
 
 4. 若要變更方向，請從視覺效果的右上角，選取垂直版面配置 ![版面配置圖示](media/end-user-show-data/power-bi-vertical-icon-new.png) 。
    
-   ![視覺效果與資料水平顯示](./media/end-user-show-data/power-bi-horizontal.png)
+   ![視覺效果與資料水平顯示](./media/end-user-show-data/power-bi-show-horizontal.png)
+
+若要返回報表，請選取左上角的 [回到報表]。 
+
+   ![顯示 [回到報表] 連結的螢幕擷取畫面。](./media/end-user-show-data/power-bi-back.png)
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 報表中的視覺效果](../visuals/power-bi-report-visualizations.md)    

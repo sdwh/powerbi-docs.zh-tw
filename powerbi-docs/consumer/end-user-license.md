@@ -11,12 +11,12 @@ ms.date: 09/17/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: consumers
-ms.openlocfilehash: c46da515a4f0f58c0e9fe92f01a3a0eaeb68a1de
-ms.sourcegitcommit: cb606d3ae95300683caf1853e229d8981302a8e2
+ms.openlocfilehash: bfa2faaa95c58541e44dd858f8d544d06d86ba25
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90763934"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91527925"
 ---
 # <a name="licenses-and-subscriptions-for-business-users"></a>「商務使用者」的授權和訂閱
 
@@ -36,7 +36,7 @@ ms.locfileid: "90763934"
 
 ## <a name="licenses"></a>授權
 
-每位 Power BI 服務的使用者若非具有「免費」授權，就是使用 *Pro* 授權。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 租用戶系統管理員所管理的免費授權。
+每位 Power BI 服務的使用者若非具有「免費」授權，就是使用 *Pro* 授權。 若您是 Power BI 的「商務使用者」，可能會使用由 Power BI 系統管理員所管理的免費授權。
 
 您可能同時擁有多個授權。  此服務一律會提供與您目前所有最寬鬆授權相等的體驗。
 

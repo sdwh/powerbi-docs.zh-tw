@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7d1ecb8f15cc6d10bc2e04d43796874efb161a83
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 6d35d19a1d47adc6a918f01a71c2009d71692fbd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537910"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633894"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Power BI 的儀表板圖格
 
@@ -41,15 +41,15 @@ ms.locfileid: "87537910"
 
     - 使用問與答建立的圖格
    
-        ![省略符號圖示](./media/end-user-tiles/power-bi-options-1.png)
+        ![螢幕擷取畫面顯示有六個選項的功能表。](./media/end-user-tiles/power-bi-options-1.png)
 
     - 從活頁簿建立圖格
    
-        ![省略符號圖示](./media/end-user-tiles/power-bi-options-2.png)
+        ![螢幕擷取畫面顯示有三個選項的功能表。](./media/end-user-tiles/power-bi-options-2.png)
 
     - 從報表建立圖格
    
-        ![省略符號圖示](./media/end-user-tiles/power-bi-options-3.png)
+        ![螢幕擷取畫面顯示有五個選項的功能表。](./media/end-user-tiles/power-bi-options-3.png)
    
     從這裡您可以：
    

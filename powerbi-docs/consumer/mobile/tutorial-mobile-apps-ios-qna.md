@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/26/2019
 ms.author: painbar
-ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 3b84cf4969df05d4e9570b12a80436bca3e280be
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "75221743"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668313"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>教學課程：使用 Power BI iOS 應用程式中的問與答虛擬分析師，詢問有關您資料的問題
 
@@ -92,13 +92,13 @@ ms.locfileid: "75221743"
 
 3. 按一下 [儀表板] 索引標籤，然後按一下 [商機分析範例] 行上的垃圾桶。
 
-    ![選取刪除圖示](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
+    ![螢幕擷取畫面顯示 Power BI 工作區，其中已選取儀表板，並已標註刪除圖示。](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
     現在選取 [報表] 索引標籤，然後執行相同動作。
 
 4. 現在選取 [資料集] 索引標籤，按一下 [更多選項]  (...)，然後選擇 [刪除]  。
 
-    ![選取刪除圖示](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
+    ![螢幕擷取畫面顯示 Power BI 工作區，其中已選取資料集，並從 [更多選項] 功能表中選取 [刪除]。](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>後續步驟
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
 ms.date: 01/04/2019
-ms.openlocfilehash: 78487f52df9f62e85e80f02d9653c9ac2f5b52c7
-ms.sourcegitcommit: f05f7b0112a8ec2dce60839ea5f922eda3cc776c
+ms.openlocfilehash: 771c41b896a6b886e8c72fa3d88ca8842e8ebffe
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "84337111"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748831"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers"></a>教學課程：為客戶將 Power BI 編頁報表內嵌至您的應用程式
 
@@ -57,7 +57,7 @@ ms.locfileid: "84337111"
 * **Power BI Premium** - 若要內嵌編頁報表，需要 *P* SKU 容量。 內嵌 Power BI 內容時，此解決方案稱為「Power BI 內嵌」。 如需此訂用帳戶的詳細資訊，請參閱[什麼是 Power BI Premium？](../../admin/service-premium-what-is.md)
 * **Azure Power BI Embedded** - 您可以在 [Microsoft Azure 入口網站](https://portal.azure.com)中購買專用容量。 此訂用帳戶會使用 *A* SKU。 若要內嵌編頁報表，您至少需要一個 *A4* 訂用帳戶。 如需如何建立 Power BI Embedded 容量的詳細資料，請參閱 [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (在 Azure 入口網站中建立 Power BI Embedded 容量)。
 
-下表說明每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](https://docs.microsoft.com/power-bi/developer/embedded-faq#which-solution-should-i-choose) 資料表。
+下表說明每個 SKU 的資源和限制。 若要判斷最符合需求的容量，請參閱[我該為案例購買哪一種 SKU](./embedded-faq.md#which-solution-should-i-choose) 資料表。
 
 | 容量節點 | V 核心總數 | 後端 V 核心 | RAM (GB) | 前端 V 核心 | 
 | --- | --- | --- | --- | --- |
@@ -70,13 +70,13 @@ ms.locfileid: "84337111"
 
 建立了專用容量之後，您可以將應用程式工作區指派到該專用容量。
 
-若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
+若要使用[服務主體](embed-service-principal.md)，將專用容量指派工作區，請使用 [Power BI REST API](/rest/api/power-bi/capacities/groups_assigntocapacity)。 使用 Power BI REST API 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)。
 
 ### <a name="create-and-upload-your-paginated-reports"></a>建立並上傳您的編頁報表
 
 您可以使用 [Power BI 報表產生器](../../paginated-reports/paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder)來建立編頁報表，然後[將報表上傳至服務](../../paginated-reports/paginated-reports-quickstart-aw.md#upload-the-report-to-the-service)。
 
-您可以使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/imports/postimportingroup)，將編頁報表匯入至新的工作區。
+您可以使用 [Power BI REST API](/rest/api/power-bi/imports/postimportingroup)，將編頁報表匯入至新的工作區。
 
 ## <a name="embed-content-using-the-sample-application"></a>使用範例應用程式來內嵌內容
 
@@ -119,7 +119,7 @@ ms.locfileid: "84337111"
 
 3. 選取需要 **applicationId** 的應用程式。
 
-    ![選擇應用程式](media/embed-paginated-reports-for-customers/display-name.png)
+    ![螢幕擷取畫面顯示應用程式的顯示名稱，並已選取需要應用程式識別碼的應用程式。](media/embed-paginated-reports-for-customers/display-name.png)
 
 4. 有一個以 GUID 形式列出的「應用程式識別碼」。 請使用此**應用程式識別碼**作為應用程式的 **applicationId**。
 
@@ -171,7 +171,7 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 3. 選取需要使用 **ApplicationSecret** 的應用程式。
 
-    ![選擇應用程式](media/embed-paginated-reports-for-customers/display-name-2.png)
+    ![螢幕擷取畫面顯示應用程式的顯示名稱，並已選取需要應用程式祕密的應用程式。](media/embed-paginated-reports-for-customers/display-name-2.png)
 
 4. 選取 [管理] 底下的 [憑證及祕密]。
 
@@ -201,11 +201,11 @@ Get-PowerBIworkspace -name "Paginated Report Embed" | Get-PowerBIReport
 
 ## <a name="embed-power-bi-paginated-reports-within-your-application"></a>在應用程式中內嵌 Power BI 編頁報表
 
-即使使用 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 可以完成內嵌您的 Power BI 編頁報表的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
+即使使用 [Power BI REST API](/rest/api/power-bi/) 可以完成內嵌您的 Power BI 編頁報表的步驟，本文描述的範例程式碼仍是使用 **.NET SDK** 撰寫。
 
-在應用程式中針對客戶內嵌 Power BI 編頁報表時，您必須先具有 **Azure AD** [服務主體](embed-service-principal.md)，並取得 Power BI 應用程式的 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，之後才能呼叫 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。
+在應用程式中針對客戶內嵌 Power BI 編頁報表時，您必須先具有 **Azure AD** [服務主體](embed-service-principal.md)，並取得 Power BI 應用程式的 [Azure AD 存取權杖](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data)，之後才能呼叫 [Power BI REST API](/rest/api/power-bi/)。
 
-為了使用**存取權杖**建立 Power BI 用戶端，請建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
+為了使用**存取權杖**建立 Power BI 用戶端，請建立 Power BI 用戶端物件，以讓您與 [Power BI REST API](/rest/api/power-bi/) 互動。 你可以將 **AccessToken** 與 ***Microsoft.Rest.TokenCredentials*** 物件包裝在一起來建立 Power BI 用戶端物件。
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,7 +242,7 @@ Report report = reports.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>建立內嵌權杖
 
-產生可從 JavaScript API 使用的內嵌權杖。 若要為內嵌 Power BI 編頁報表建立內嵌權杖，請使用 [Reports GenerateTokenInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokeningroup) \(英文\) API。
+產生可從 JavaScript API 使用的內嵌權杖。 若要為內嵌 Power BI 編頁報表建立內嵌權杖，請使用 [Reports GenerateTokenInGroup](/rest/api/power-bi/embedtoken/reports_generatetokeningroup) \(英文\) API。
 
 您可以在[範例應用程式](https://github.com/Microsoft/PowerBI-Developer-Samples)的  *Services\EmbedService.cs* 檔案內取得建立內嵌權杖的範例。
 

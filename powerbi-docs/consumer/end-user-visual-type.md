@@ -10,12 +10,12 @@ ms.date: 06/24/2020
 ms.author: mihart
 ms.custom: contperfq4
 LocalizationGroup: Consumer
-ms.openlocfilehash: 86453ff7a192a9c79f1c9eda97529b661c7512d3
-ms.sourcegitcommit: 2131f7b075390c12659c76df94a8108226db084c
+ms.openlocfilehash: 05aab15b3807429c20b0ff72a7bfce21b3e25b12
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87537703"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526873"
 ---
 # <a name="visual-types-in-power-bi"></a>Power BI 中的視覺效果類型
 
@@ -142,7 +142,7 @@ ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到
 圖形地圖會使用色彩來比較地圖上的區域。 圖形地圖無法在地圖上顯示資料點的確切地理位置。 相反地，其主要目的是要藉由不同的著色，在地圖上顯示區域的相對比較。
 
 ### <a name="matrix"></a>Matrix
-![矩陣](media/end-user-visual-type/matrix.png)
+![螢幕擷取畫面顯示 [收益] 和 [YTD 收益] 的年度和季度資料矩陣圖。](media/end-user-visual-type/matrix.png)
 
 矩陣圖視覺效果是一種資料表視覺效果 (請參閱下方的＜資料表＞)，可支援分層式配置。 通常，報表設計師會在報表和儀表板中包含矩陣，讓使用者能夠選取矩陣中一或多個項目 (資料列、資料行、資料格)，以交叉醒目提示報表頁面的其他視覺效果。  
 

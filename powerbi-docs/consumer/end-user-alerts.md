@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 08/05/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3e34a736148a5d962c1f2d56782d38f31c15b9b6
-ms.sourcegitcommit: 9e39232cbc28d8b39dfec5496db7ece9837b5e53
+ms.openlocfilehash: 22d9baaf50ce32c4a9d3644cff455b474bdd1549
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88049355"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91525289"
 ---
 # <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>教學課程：設定 Power BI 儀表板的警示
 
@@ -86,7 +86,7 @@ ms.locfileid: "88049355"
    
 1. 在 [管理警示] 窗格上選取 [+ 新增警示規則]。  確認滑桿設定為 [開啟]，並為警示提供標題。 磚可幫助您輕鬆地辨識警示。
    
-   ![[管理警示] 視窗](media/end-user-alerts/power-bi-alert-manage.png)
+   ![[新增警示規則] 視窗](media/end-user-alerts/power-bi-alert-manage.png)
 4. 向下捲動並輸入警示的詳細資料。  在此範例中，我們將建立警示，在市場佔有率提高到 40 或更高時通知我們。 警示將出現在我們的[通知中心](end-user-notification-center.md)內。 我們也同樣設定讓 Power BI 傳送電子郵件給我們。
    
    ![在 [管理警示] 視窗中設定 [臨界值]](media/end-user-alerts/power-bi-manage-alert-detail.png)
@@ -142,7 +142,7 @@ ms.locfileid: "88049355"
 
 ## <a name="tips-and-troubleshooting"></a>提示與疑難排解 
 
-* 若無法為量測計、KPI 或卡片設定警示，請連絡您的租用戶管理員或 IT 技術支援中心以尋求協助。 有時儀表板或特定類型儀表板磚的警示可能會關閉或無法使用。
+* 如果您無法為量測計、KPI 或卡片設定警示，請連絡您的 Power BI 系統管理員或 IT 技術支援中心以尋求協助。 有時儀表板或特定類型儀表板磚的警示可能會關閉或無法使用。
 * 警示只對重新整理的資料有作用。 警示對靜態資料毫無作用。 Microsoft 大多提供靜態範例。 
 * 需有 Power BI Pro 或 Premium 授權才能接收及檢視共用的內容。 如需詳細資訊，請閱讀[我有哪些授權？](end-user-license.md)。
 * 您可以對建立自串流資料集 (從報表釘選到儀表板) 的視覺效果設定警示。 但不可對使用 [新增磚] > [自訂串流資料] 直接在儀表板上所建立串流磚設定警示。

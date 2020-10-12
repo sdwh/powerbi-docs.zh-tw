@@ -1,17 +1,17 @@
 ---
 title: 報表建立者學習目錄
-description: 尋找 Power BI 的所有訓練選項
+description: 尋找適用於報表設計師的所有 Power BI 訓練選項，從最基礎到最進階。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 6b12b5333f852a62cc4e6232169fe353ace25fc3
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: 3774de30309b2e1b3a8b086ee1d7605d1cba256d
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91526092"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749360"
 ---
 # <a name="report-creator-learning-catalog"></a>報表建立者學習目錄
 

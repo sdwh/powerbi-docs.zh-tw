@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9f7cd6c277a02ce4e44db40930184cce955e5948
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 59cede1cae716661be8d3796330bde7da44170eb
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83274182"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634588"
 ---
 # <a name="line-charts-in-power-bi"></a>Power BI 中的折線圖
 
@@ -67,11 +67,11 @@ ms.locfileid: "83274182"
 ### <a name="use-two-y-axes"></a>使用兩個 Y 軸
 如果您想要在同一個圖表上查看總銷售額與單位總量，該怎麼辦？ 銷售數字遠高於單位數字，而使得折線圖難以使用。 事實上，代表單位總量的紅線似乎為零。
 
-   ![高度發散的值](media/power-bi-line-charts/power-bi-diverging.png)
+   ![螢幕擷取畫面顯示使用單一 Y 軸會如何將總單位顯示為相對於銷售數字本質上為平坦且無用的比較。](media/power-bi-line-charts/power-bi-diverging.png)
 
 若要在一個圖表上顯示高度發散的值，請使用組合圖。 您可以閱讀 [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)來全盤了解組合圖。 在以下範例中，我們可以新增第二個 Y 軸，同時顯示銷售額和單位總量。 
 
-   ![高度發散的值](media/power-bi-line-charts/power-bi-dual-axes.png)
+   ![螢幕擷取畫面將銷售額值顯示為橫條圖且 Y 軸位於左邊，而總單位數顯示為折線且 Y 軸位於右邊。](media/power-bi-line-charts/power-bi-dual-axes.png)
 
 ## <a name="highlighting-and-cross-filtering"></a>反白顯示和交叉篩選
 如需使用 [篩選] 窗格的資訊，請參閱[將篩選加入報表](../create-reports/power-bi-report-add-filter.md)。

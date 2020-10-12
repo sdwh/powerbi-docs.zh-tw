@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: reference
 ms.date: 05/08/2020
-ms.openlocfilehash: 37bd8f15dcf17cd0f967e819338a719edf2a3054
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 8eeca13acb1568a671618dca75d20cb7667b538b
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83276367"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747543"
 ---
 # <a name="create-an-ssl-certificate"></a>建立 SSL 憑證
 
 此文章說明如何產生並安裝 Power BI 視覺效果的安全通訊端層 (SSL) 憑證。
 
-針對 Windows、macOS X 與 Linux 程序，您必須已安裝 Power BI Visual Tools **.pbiviz** 套件。 如需詳細資訊，請參閱[設定環境開發人員環境](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#setting-up-the-developer-environment)。 
+針對 Windows、macOS X 與 Linux 程序，您必須已安裝 Power BI Visual Tools **.pbiviz** 套件。 如需詳細資訊，請參閱[設定環境開發人員環境](./custom-visual-develop-tutorial.md#setting-up-the-developer-environment)。 
 
 ## <a name="create-a-certificate-on-windows"></a>在 Windows 上建立憑證
 
@@ -31,7 +31,7 @@ pbiviz --install-cert
 
 針對 Windows 7，`pbiviz` 工具要求必須能從命令列存取 OpenSSL 公用程式。 若要安裝 OpenSSL，請移至 [OpenSSL](https://www.openssl.org) \(英文\) 或 [OpenSSL 二進位檔](https://wiki.openssl.org/index.php/Binaries) \(英文\)。
 
-如需安裝憑證的詳細資訊與指示，請參閱[建立並安裝適用於 Windows 的憑證](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#windows)。
+如需安裝憑證的詳細資訊與指示，請參閱[建立並安裝適用於 Windows 的憑證](./custom-visual-develop-tutorial.md#windows)。
 
 ## <a name="create-a-certificate-on-macos-x"></a>在 macOS X 上建立憑證
 
@@ -58,7 +58,7 @@ macOS X 作業系統通常會提供 OpenSSL 公用程式。
 pbiviz --install-cert
 ```
 
-如需詳細資訊與指示，請參閱[建立並安裝適用於 OS X 的憑證](https://docs.microsoft.com/power-bi/developer/visuals/custom-visual-develop-tutorial#osx)。
+如需詳細資訊與指示，請參閱[建立並安裝適用於 OS X 的憑證](./custom-visual-develop-tutorial.md#osx)。
 
 ## <a name="create-a-certificate-on-linux"></a>在 Linux 上建立憑證
 

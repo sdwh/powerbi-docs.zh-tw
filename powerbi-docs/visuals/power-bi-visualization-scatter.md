@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 11/21/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b4a5733e0c4b8617dc93edb1e7fe35a0a76a3338
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 963bd77568db4390bca73a4ec4e9ce97ee616a58
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238165"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632886"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Power BI 中的散佈圖、泡泡圖與點圖
 
@@ -143,7 +143,7 @@ ms.locfileid: "85238165"
 
         a. 將 [Total sales variance %] \(總銷售額差異百分比\)  欄位變更為 [Gross margin last year %] \(去年毛利率百分比\) 
 
-        ![泡泡圖已新增中線的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+        ![已選取 [去年毛利百分比] 之 [詳細資料] 的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
 
         b. 從 [分析] 窗格新增 [對稱網底]  。 我們可以從網底看到，襪子 (粉紅色陰影區域中的綠色泡泡) 是偏向毛利率而不是每個商店坪數銷售額的唯一分類。 
 
@@ -151,7 +151,7 @@ ms.locfileid: "85238165"
 
     - 繼續探索 [分析] 窗格，以在資料中探索感興趣的見解。 
 
-        ![泡泡圖已新增對稱網底的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
+        ![[分析] 窗格的螢幕擷取畫面。](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>建立點圖
 

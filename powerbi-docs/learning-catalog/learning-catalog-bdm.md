@@ -1,17 +1,17 @@
 ---
 title: 商務與技術決策者學習目錄
-description: 尋找 Power BI 的所有訓練選項
+description: 尋找適用於為商務與技術決策者的所有 Power BI 訓練選項，從最基礎到最進階。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: af44ca4674d66c8415b9919c9c83e3fbfda391b1
-ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
+ms.openlocfilehash: d64b83c08f4b7a332d0b4b894ea136921bc57ae6
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "91528014"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749245"
 ---
 # <a name="business-and-technical-decision-makers-learning-catalog"></a>商務與技術決策者學習目錄
 

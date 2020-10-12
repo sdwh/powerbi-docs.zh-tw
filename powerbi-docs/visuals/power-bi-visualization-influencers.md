@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58d595ff5e7d3947117aa9663e761a6f98f10c7f
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a8a38790b606fa5f700f2b9389ebad5338919d28
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861306"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635278"
 ---
 # <a name="create-key-influencers-visualizations"></a>建立關鍵影響因素視覺效果
 
@@ -231,13 +231,13 @@ ms.locfileid: "90861306"
 -   右窗格中的散佈圖繪製資料表中每個相異值的平均房價
 -   泡泡圖中的值顯示當平均年份隨著其標準差提升時 (在此案例中為 30 年)，平均房價會隨之提高多少 (在此案例中為 $1.35K)
 
-![數值目標量值影響因素](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![螢幕擷取畫面在左邊顯示含影響因素之房價關鍵影響因素並在右邊顯示散佈圖。](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>解譯結果：主要區段
 
 數值目標主要區段顯示房價平均高於整體資料集的群組。 例如，我們在下面可以看到組成 [區段 1] 的房屋其 **GarageCars** (車庫可容納的汽車數量) 大於 2，而 **RoofStyle** 為 Hip。 相較於資料的整體平均值 $180K，具有這些特性的房屋平均價格為 $355K。
 
-![數值目標量值影響因素](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![螢幕擷取畫面顯示房價的前幾個區段。](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>分析量值或摘要資料行計量
 
@@ -245,19 +245,19 @@ ms.locfileid: "90861306"
 
 在未摘要資料行的案例中，分析一律會在資料表層級執行。 在上述房價範例中，我們分析了 [房價] 計量來查看哪些因素會影響房價變高/變低。 分析會自動在資料表層級執行。 在我們的資料表中，每個房屋有唯一的識別碼，因此分析會在房屋層級執行。
 
-![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
+![螢幕擷取畫面顯示房價範例的資料表層級分析。](media/power-bi-visualization-influencers/power-bi-ki-measures-table.png)
 
 針對量值和摘要資料行，我們不會立即得知分析所在的層級。 如果 [房價] 已摘要為 [平均值]，我們必須考慮想要計算此平均房價的層級。 這是鄰近地區層級的平均房價嗎？ 還是區域層級？
 
 量值和摘要資料行會自動在所使用的 [說明依據] 欄位層級分析。 假設我們對 [說明依據] 中的三個欄位感興趣：[廚房品質]、[建築物類型] 和 [空調]。 我們會針對這三個欄位的每個唯一組合計算 [平均房價]。 切換至資料表檢視以查看所要評估的資料外觀通常會很有幫助。
 
-![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
+![螢幕擷取畫面顯示三欄與平均房價。](media/power-bi-visualization-influencers/power-bi-ki-measures-table2.png)
 
 此分析經過相當程度的摘要，因此迴歸模型很難在資料中找到可從中學習的任何模式。 我們應該以更詳細的層級執行分析，以獲得更好的結果。 如果我們想要在房屋層級分析房價，則必須明確將 [識別碼] 欄位新增至分析。 不過，我們不想要將房屋識別碼視為影響因素。 了解房價是否會隨著房屋識別碼增加而增加並沒有幫助。 此時 [展開依據] 欄位部分選項會派上用場。 您可以使用 [展開依據] 新增要用於設定分析層級的欄位，而不需要尋找新的影響因素。
 
 讓我們看看將 [識別碼] 新增至 [展開依據] 之後的視覺效果外觀。 定義您要評估量值的層級之後，解譯影響因素的方式會與[未摘要的數值資料行](#analyze-a-metric-that-is-numeric)完全相同。
 
-![量值資料表](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
+![螢幕擷取畫面顯示相依於此節所討論之三欄的房價視覺效果。](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 
 如果您想要深入了解如何使用關鍵影響因素視覺效果來分析量值，請觀看下列教學課程。
 

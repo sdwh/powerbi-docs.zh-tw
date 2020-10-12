@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e9b950d85d50727ed1e9ca5ec2f94498a37d1665
-ms.sourcegitcommit: 89ce1777a85b9fc476f077cbe22978c6cf923603
+ms.openlocfilehash: f447856ac387bdabdbd29e1d1ebf47caef22677a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89286791"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633928"
 ---
 # <a name="view-a-dashboard"></a>檢視儀表板
 
@@ -31,14 +31,11 @@ Power BI *商務使用者*花很多的時間在檢視儀表板。 儀表板的�
 
 ## <a name="open-a-dashboard"></a>開啟儀表板
 
+您可以從 Power BI 服務中的許多位置開啟儀表板。
 
+![儀表板圖示](media/end-user-dashboard-open/power-bi-dashboard-icon.png)
 
-|              |         |
-|------------|--------------------------------|
-|![儀表板圖示](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |您可以從 Power BI 服務中的許多位置開啟儀表板。 <br> 只尋找此儀表板圖示。 一旦找到 <br>儀表板，請加以選取來加以開啟，儀表板便會填滿您的 Power BI 畫布。 |
-|                    |          |
-
-
+只尋找此儀表板圖示。 一旦找到儀表板之後，請加以選取以將其開啟，而該儀表板將會填滿您的 Power BI 畫布。
 
 您可在導覽窗格的所有容器中看到儀表板。 
 

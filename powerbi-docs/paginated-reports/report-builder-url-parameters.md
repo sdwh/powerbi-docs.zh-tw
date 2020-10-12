@@ -1,6 +1,6 @@
 ---
 title: 編頁報表中的 URL 參數 - Power BI 報表產生器
-description: 此主題描述 Power BI 報表產生器報表參數的常見使用案例、您可以設定的屬性等。
+description: 了解如何藉由將參數新增至 URL (可包含於電子郵件或網頁中)，將命令傳送至 Power BI 中的編頁報表。
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.author: maggies
 ms.reviewer: cfinlan
 ms.custom: ''
 ms.date: 09/09/2020
-ms.openlocfilehash: fc54d60be34cd9d40cf1ea715aa84f2f1ef6f9de
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7b12f6f6db864fb7b6af4df0d1019dc2eeed2617
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859397"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747474"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Power BI 編頁報表中的 URL 參數
 

@@ -1,20 +1,20 @@
 ---
-title: Power BI 視覺效果的功能和屬性
-description: 此文章說明 Power BI 視覺效果的功能和屬性。
+title: 將操作功能表新增至 Power BI 視覺效果
+description: 了解如何將操作功能表新增至 Power BI 視覺效果。
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: rkarlin
 manager: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 06/18/2019
-ms.openlocfilehash: 7d24ea77fd73ca6a83176d1b8560c88fa98a8d6b
-ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+ms.openlocfilehash: 9e63a1196ddc7557fcf8b2fceb424415a63d4df9
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "79380747"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748072"
 ---
 # <a name="add-context-menu-to-power-bi-visual"></a>將操作功能表新增至 Power BI 視覺效果
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/14/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e2245861e37a67e023efde1e6fc7c68a551f2944
-ms.sourcegitcommit: 2cb249fc855e369eed1518924fbf026d5ee07eb1
+ms.openlocfilehash: e2ad8867117977cb7f53fbd295a2f560d65b0d76
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814006"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600523"
 ---
 # <a name="visualization-types-in-power-bi"></a>Power BI 中的視覺效果類型
 ## <a name="power-bi-visualizations"></a>Power BI 視覺效果
@@ -113,7 +113,7 @@ ms.locfileid: "83814006"
 ### <a name="maps-arcgis-maps"></a>地圖：ArcGIS 地圖
 ![ArcGIS 地圖](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-如需詳細資訊，請參閱 [Power BI 中的 ArcGIS 地圖](power-bi-visualization-arcgis.md)。
+如需詳細資訊，請參閱 [Power BI 中的 ArcGIS 地圖](power-bi-visualizations-arcgis.md)。
 
 ### <a name="maps-filled-maps-choropleth"></a>地圖：區域分布圖 (分級著色圖)
 ![區域分布圖](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,7 +133,7 @@ ms.locfileid: "83814006"
 
 
 ### <a name="matrix"></a>Matrix
-![矩陣](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![矩陣視覺效果的螢幕擷取畫面](media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
 
 >[!TIP]
 >資料表支援兩個維度，但是矩陣可讓您更輕鬆地顯示跨多個維度 (支援分層式的配置) 的資料，更具意義。 矩陣會自動彙總資料，並啟用向下鑽研。 
@@ -232,7 +232,7 @@ ms.locfileid: "83814006"
 
 ***依州以矩形式樹狀結構圖顯示銷售額***.
 
-如果您的儀表板沒有 Q&A 欄位，則表示租用戶系統管理員可能已將其停用。 
+如果您的儀表板沒有 [Q&A] 欄位，則表示您的 Power BI 系統管理員可能已將其停用。 
 
 ![顯示指定視覺效果類型的問與答問題方塊](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 

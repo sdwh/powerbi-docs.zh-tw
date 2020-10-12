@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 492b41192f3ab423ff8dacf73aac9ff49b9d15d9
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: b3b447b315befef11f342f537d4ab3ad8c837f03
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856223"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668474"
 ---
 # <a name="get-notifications-in-the-power-bi-mobile-apps"></a>取得 Power BI 行動裝置應用程式中的通知
 適用於︰
@@ -61,15 +61,15 @@ ms.locfileid: "90856223"
    
     **使用 iPhone**
    
-    ![選擇 [通知]](./media/mobile-apps-notification-center/power-bi-notifications-iphone-settings.png)
+    ![螢幕擷取畫面顯示標題為 [Power BI] 的 iPhone 畫面，您可以在其中允許和管理通知。](./media/mobile-apps-notification-center/power-bi-notifications-iphone-settings.png)
    
     **使用 Android 手機**
    
-    ![選擇 [通知]](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
+    ![螢幕擷取畫面顯示標題為 [Power BI] 的 Android 手機畫面，您可以在其中允許和管理通知。](./media/mobile-apps-notification-center/power-bi-notifications-android-settings.png)
 
     **使用 Windows 10 裝置**
 
-    ![選擇 [通知]](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
+    ![螢幕擷取畫面顯示 Windows 10 裝置畫面，您可以在其中允許和管理 Power BI 通知。](./media/mobile-apps-notification-center/power-bi-notifications-windows10-settings.png)
 
 ## <a name="next-steps"></a>後續步驟
 * [Power BI 服務中的資料警示](../../create-reports/service-set-data-alerts.md)

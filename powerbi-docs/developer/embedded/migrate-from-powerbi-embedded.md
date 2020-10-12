@@ -7,12 +7,12 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 06/30/2018
-ms.openlocfilehash: 6b8d02984fdd6af467b0df5acb6c1455a6e93172
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f3f76bd7c422d07cb2b390c2aebd92a2d7fe4ef3
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221038"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749038"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>如何將 Power BI 工作區集合內容遷移至 Power BI Embedded
 
@@ -48,7 +48,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
    * 針對您的應用程式使用不同的租用戶？
    * 針對每位客戶使用不同的租用戶？
 
-     如果您決定建立應用程式或每個客戶的新租用戶，請參閱[建立 Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)或[如何取得 Azure Active Directory 租用戶](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)。
+     如果您決定建立應用程式或每個客戶的新租用戶，請參閱[建立 Azure Active Directory 租用戶](create-an-azure-active-directory-tenant.md)或[如何取得 Azure Active Directory 租用戶](/azure/active-directory/develop/active-directory-howto-tenant)。
 2. 在將作為應用程式 "master" 帳戶的這個新租用戶內建立使用者。 該帳戶需要註冊 Power BI，而且需要獲指派 Power BI Pro 授權。
 
 ## <a name="accounts-within-azure-ad"></a>Azure AD 內的帳戶
@@ -58,7 +58,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 > [!NOTE]
 > 這些帳戶必須擁有 Power BI Pro 授權才能使用工作區。
 
-1. 租用戶系統管理員使用者。
+1. Power BI 系統管理員。
 
     建議這位使用者是基於內嵌目的而建立的所有工作區成員。
 
@@ -168,7 +168,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 ## <a name="rebuild-your-application"></a>重建應用程式
 
 1. 您需要修改應用程式，以使用 Power BI REST API 以及 powerbi.com 內的報表位置。
-2. 使用應用程式的 *master* 帳戶，以重建 AuthN/AuthZ 驗證。 您可以藉由使用 [內嵌權杖](https://docs.microsoft.com/rest/api/power-bi/embedtoken) 來允許這位使用者代表其他使用者動作。
+2. 使用應用程式的 *master* 帳戶，以重建 AuthN/AuthZ 驗證。 您可以藉由使用 [內嵌權杖](/rest/api/power-bi/embedtoken) 來允許這位使用者代表其他使用者動作。
 3. 將報表從 powerbi.com 內嵌到應用程式。
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>將您的使用者對應至 Power BI 使用者
@@ -180,7 +180,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 當您準備好進入生產環境時，必須執行下列作業。
 
 * 如果您要使用不同的租用戶進行開發，則必須確定生產環境中具有工作區、儀表板和報表。 您也必須確定已在 Azure AD 中建立生產租用戶的應用程式，並獲指派適當的應用程式權限，如步驟 1 所示。
-* 購買符合您需求的容量。 若要深入了解您所需的數量及容量類型，請參閱 [Power BI Embedded 分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)。 您可以在 Azure 中[購買容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
+* 購買符合您需求的容量。 若要深入了解您所需的數量及容量類型，請參閱 [Power BI Embedded 分析容量規劃白皮書](./embedded-capacity-planning.md)。 您可以在 Azure 中[購買容量](https://portal.azure.com/#create/Microsoft.PowerBIDedicated)。
 * 在 [進階] 下，編輯工作區，並將其指派給 Premium 容量。
 
     ![進階容量](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity02.png)
@@ -204,7 +204,7 @@ Microsoft 最近[宣告 Power BI Embedded](https://powerbi.microsoft.com/blog/po
 [JavaScript API Git 存放庫](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Power BI C# Git 存放庫](https://github.com/Microsoft/PowerBI-CSharp)  
 [JavaScript 內嵌示範](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
-[工作區集合分析容量規劃白皮書](https://aka.ms/pbiewhitepaper)  
+[工作區集合分析容量規劃白皮書](./embedded-capacity-planning.md)  
 [Power BI Premium 技術白皮書](https://aka.ms/pbipremiumwhitepaper)  
 
 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

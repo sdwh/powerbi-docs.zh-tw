@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/08/2020
 ms.author: painbar
-ms.openlocfilehash: f7e88a09f2b48bcfe53256f0da976378a5d87e2c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 67f34bfe04599ffa7d9f9f2c2c3d13545b4306ac
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221368"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635255"
 ---
 # <a name="configure-report-interaction-settings"></a>設定報表互動設定
 
@@ -21,15 +21,14 @@ ms.locfileid: "85221368"
 
 Power BI 行動應用程式有數個可設定的「互動」設定，可讓您控制與資料互動的方式，並定義 Power BI 行動應用程式中的某些項目如何運作。 下表顯示目前可用的互動設定，以及具有這些設定的的裝置。
 
-|| Android 手機 | iPhone | Android 平板電腦  | iPad |
-|-|:-:|:-:|:-:|:-:|
+| 設定 | Android 手機 | iPhone | Android 平板電腦  | iPad |
+|---------|:-:|:-:|:-:|:-:|
 | [對報表視覺效果的點一下與點兩下互動](#single-tap) |✔|✔|||
 | [在報表視覺效果上選取多個資料點與選取單一資料點的比較](#multi-select) |✔|✔|✔|✔|
 | [固定與動態報表頁尾](#docked-report-footer) |✔|✔|||
 | [按鈕起始的報表重新整理與拖動以重新整理](#report-refresh) |✔||||
-|
 
-若要前往互動設定，請點選您的個人資料圖片以開啟 [側面板](./mobile-apps-home-page.md#header)，選擇 [設定]  ，然後尋找 [互動]  區段。
+若要前往互動設定，請點選您的個人資料圖片以開啟 [側面板](./mobile-apps-home-page.md#header)，選擇 [設定]****，然後尋找 [互動]**** 區段。
 
 ![互動設定](./media/mobile-app-interaction-settings/powerbi-mobile-app-interactions-section.png)
 
@@ -57,7 +56,7 @@ Power BI 行動應用程式有數個可設定的「互動」設定，可讓您�
 
 停駐的報表頁尾設定決定報表頁尾是否在報表底部維持停駐 (意即固定且一律顯示)，或根據您在報表中的動作 (例如捲動) 來隱藏及重新顯示。
 
-在 Android 手機上，停駐的報表頁尾設定預設為 [開啟]  ，表示報表頁尾會停駐，且一律顯示於報表的底部。 如果您較喜歡會顯示並消失的動態報表頁尾 (視您對報表的動作而定)，請將設定切換為 [關閉]  。
+在 Android 手機上，停駐的報表頁尾設定預設為 [開啟]****，表示報表頁尾會停駐，且一律顯示於報表的底部。 如果您較喜歡會顯示並消失的動態報表頁尾 (視您對報表的動作而定)，請將設定切換為 [關閉]****。
 
 ### <a name="report-refresh"></a>報表重新整理
 

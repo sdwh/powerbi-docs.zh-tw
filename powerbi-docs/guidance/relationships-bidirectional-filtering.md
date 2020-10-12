@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: c362a8012635becb68200a9d513157c05310edaf
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: e9c25089c5141f16cc3f993039dc69bece9231f1
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86215159"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668612"
 ---
 # <a name="bi-directional-relationship-guidance"></a>雙向關聯性指導方針
 
@@ -77,7 +77,7 @@ ms.locfileid: "86215159"
 
 **Product** 交叉分析篩選器現在會列出單一項目：T 恤。 此項目代表唯一銷售給澳洲客戶的產品。
 
-![此圖顯示包含三個視覺效果的報表頁面。 詳細資料將在下列段落中說明。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
+![此圖顯示包含三個視覺效果且已標註「產品」的報表頁面。詳細資料將在下列段落中說明。](media/relationships-bidirectional-filtering/sales-report-bi-directional-filter.png)
 
 我們會先建議您仔細考慮這種設計是否適用於您的報表使用者。 某些報表使用者發現體驗令人困惑。 他們不了解為什麼當他們與其他交叉分析篩選器互動時，交叉分析篩選器項目會動態地顯示或消失。
 

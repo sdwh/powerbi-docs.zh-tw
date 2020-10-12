@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 93679c3abcebfee31e1fc5dc20b463a6ef3df549
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: d67ab7a28a0975ccac436f57e98c527fae392baf
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239198"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633255"
 ---
 # <a name="explore-your-data-in-the-power-bi-mobile-app-on-your-apple-watch"></a>在 Apple Watch 的 Power BI 行動裝置應用程式中探索資料
 透過 Power BI Apple Watch 應用程式，您可以直接從手錶檢視 Power BI 儀表板的 KPI 與卡片磚。 KPI 和卡片磚最適合在小型螢幕上提供活動訊號量值。 您可以從 iPhone 或 Watch 本身重新整理儀表板。
@@ -24,16 +24,16 @@ Power BI for iOS 應用程式與 Power BI Apple Watch 應用程式是套件組�
 ## <a name="use-the-power-bi-app-on-the-apple-watch"></a>在 Apple Watch 中使用 Power BI 應用程式
 您可從手錶的 Springboard 取得 Power BI Apple Watch 應用程式，或直接按一下錶面的 Power BI Widget (若有設定的話)。
 
-![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
+![相片顯示具有 Power BI 應用程式的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_complicatn240arrow.png)
 
 Power BI Apple Watch 應用程式由兩個部分組成。
 
 * **索引畫面**可讓您快速瀏覽已同步儀表板的所有 KPI 和卡片磚。
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
+  ![相片顯示具有索引畫面的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_indexscreen240.png)
 * **焦點磚**：按一下索引畫面上的磚，即可取得特定磚的詳盡檢視。
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
+  ![相片顯示正在顯示磚的 Apple Watch。](./media/mobile-apple-watch/pbi_aplwatch_kpi.png)
 
 ## <a name="refresh-a-dashboard-from-your-apple-watch"></a>從 Apple Watch 重新整理儀表板
 您可以直接從手錶重新整理同步處理的儀表板。
@@ -75,7 +75,7 @@ Power BI Apple Watch Widget 會緊隨資料更新時間而更新，讓您需要�
 
 * 在 iPhone 上，前往 Apple Watch 控制應用程式，選取 Power BI，瀏覽至 Widget 名稱欄位，然後鍵入新名稱。
   
-  ![Apple Watch](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
+  ![相片顯示 iPhone，其中已開啟 [My Watch] 應用程式並顯示 Power BI 圖示。](./media/mobile-apple-watch/pbi_aplwatch_oniphone.png)
 
 > [!NOTE]
 > 如果您沒有變更名稱，Power BI Widget 會將名稱縮短，讓字元數符合錶面的有限空間。 

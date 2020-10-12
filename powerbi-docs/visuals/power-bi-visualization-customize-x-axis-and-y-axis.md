@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/06/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 332c1c1b6c3e4888f0177bab284e6b4902987be2
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0da34397c1b707eeece6fdf127c2c4e96f5ab6a5
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219773"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635669"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>自訂 X 軸和 Y 軸屬性
 
@@ -75,7 +75,7 @@ X 軸標籤會顯示在圖表中的直條下方。 現在，它們是淺灰色�
 
 3. 將 [X 軸] 滑桿移至 [開啟]。
 
-    ![[開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
+    ![X 軸之 [開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-slider-on.png)
 
     基於某些原因，您可能會想要將 X 軸設定為 [關閉]，例如，如果視覺效果在沒有標籤的情況下是一目了然的，或如果您的報表頁面擁擠，需要空間來顯示更多資料。
 
@@ -139,7 +139,7 @@ Y 軸標籤預設會顯示在左邊。 現在，它們是淺灰色、小字，�
 
 1. 將 [Y 軸] 滑桿移至 [開啟]。  
 
-    ![[開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
+    ![Y 軸之 [開啟] 滑桿的螢幕擷取畫面。](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axis-on.png)
 
     您可能會為了保留空間給更多資料而關閉 Y 軸。
 

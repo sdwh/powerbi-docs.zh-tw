@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 60f49775db1f461ff5105ada63920686e5ab5cbf
-ms.sourcegitcommit: e8ed3d120699911b0f2e508dc20bd6a9b5f00580
+ms.openlocfilehash: 323ea88f3a8843dd663985abac5552be1de71584
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "86264918"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634404"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>iOS 應用程式中的問與答虛擬分析師 - Power BI
 
@@ -52,7 +52,7 @@ ms.locfileid: "86264918"
 4. 從關鍵字中點選 **by**，然後從建議清單中點選 [項目] > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![依項目的銷售額](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. 依序從關鍵字中點選 **as**、資料行圖表圖示 ![圖表圖示](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png)，然後點選 [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+5. 點選關鍵字中的 **as**，點選直條圖圖示 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png" border="false":::，然後點選 [傳送] ![[傳送] 圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 6. 按住產出的圖表，然後點選 [展開]。
 
     ![直條圖的螢幕擷取畫面，其中顯示展開的指標。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -68,7 +68,7 @@ ms.locfileid: "86264918"
 10. 從關鍵字選擇 **by**，從頂端的建議清單點選 [時間] > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
      ![圖表的螢幕擷取畫面，其中顯示依時間每個單位平均數量的最高銷售。](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-by-time.png)
-11. 鍵入 **as**，然後從建議清單中挑選折線圖圖示![圖表圖示](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png) > [傳送] ![傳送圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
+11. 輸入 **as**，然後從建議清單中挑選折線圖圖示 :::image type="icon" source="./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-line-chart-icon.png" border="false"::: > [傳送] ![[傳送] 圖示](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png)。
 
     ![直條圖與折線圖的螢幕擷取畫面，其中顯示從直條圖到折線圖的指標](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-as-line.png)
 

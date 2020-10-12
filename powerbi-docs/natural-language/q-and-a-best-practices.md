@@ -7,12 +7,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 10/23/2019
 ms.author: mohaali
-ms.openlocfilehash: a94f4bda1f7ebc4a612da65623f539e820c8c333
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 249e3cd56359a54c358341f463d049435f407515
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240439"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635784"
 ---
 # <a name="best-practices-to-optimize-qa-in-power-bi"></a>將 Power BI 問與答最佳化的最佳做法
 使用一般片語和自然語言來詢問資料問題的功能十分強大。 如果您的資料能夠回答，就更厲害了，而 Power BI 的問與答就有這樣的能耐。
@@ -116,11 +116,11 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 **有待加強**
 
-![使用多個資料表進行問與答](media/q-and-a-best-practices/desktop-qna-09.png)
+![螢幕擷取畫面顯示包含連絡人資訊的供應商資料表。](media/q-and-a-best-practices/desktop-qna-09.png)
 
 **已備妥可供問與答**
 
-![使用多個資料表進行問與答](media/q-and-a-best-practices/desktop-qna-10.png)
+![螢幕擷取畫面顯示兩個資料表，一個用於供應商，另一個用於連絡人。](media/q-and-a-best-practices/desktop-qna-10.png)
 
 ### <a name="pivot-to-eliminate-property-bags"></a>樞紐以消除屬性包
 
@@ -134,7 +134,7 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 **已備妥可供問與答**
 
-![使用多個資料表進行問與答](media/q-and-a-best-practices/desktop-qna-12.png)
+![螢幕擷取畫面顯示四個資料行，其中包含 Age、MartialStatus、City 和 Gender 等屬性，並含有適用於不同客戶的值。](media/q-and-a-best-practices/desktop-qna-12.png)
 
 ### <a name="union-to-eliminate-partitioning"></a>聯集以消除資料分割
 
@@ -148,7 +148,7 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 **已備妥可供問與答**
 
-![使用多個資料表進行問與答](media/q-and-a-best-practices/desktop-qna-14.png)
+![螢幕擷取畫面顯示兩個資料表，其中一個包含新書發表會的書籍和作者資訊，另一個則包含與新書發表會相關聯的縣 (市)。](media/q-and-a-best-practices/desktop-qna-14.png)
 
 ### <a name="split-formatted-columns"></a>分割格式化資料行
 
@@ -160,7 +160,7 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 **已備妥可供問與答**
 
-![使用多個資料表進行問與答](media/q-and-a-best-practices/desktop-qna-16.png)
+![螢幕擷取畫面顯示一個資料表，其中包含客戶、完整地址行，以及將地址細分成街道、縣 (市) 和國家/地區的三行。](media/q-and-a-best-practices/desktop-qna-16.png)
 
 同樣地，如果您有人員的任何全名資料行，請新增 [名字]  和 [姓氏]  資料行，以免有人想要使用一部分姓名來詢問問題。 
 
@@ -175,7 +175,7 @@ Power BI 預設會積極地彙總數值資料行，因此「年度總銷售額�
 
 **已備妥可供問與答**
 
-![使用多個資料表進行問與答](media/q-and-a-best-practices/desktop-qna-18.png)
+![螢幕擷取畫面顯示兩個資料表，一個具有名稱與類型，另一個則具有作曲者。](media/q-and-a-best-practices/desktop-qna-18.png)
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>反正規化以刪除非作用中關聯性
 

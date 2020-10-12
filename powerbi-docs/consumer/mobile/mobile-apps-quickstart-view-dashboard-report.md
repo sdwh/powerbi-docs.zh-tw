@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: quickstart
 ms.date: 11/25/2019
 ms.author: painbar
-ms.openlocfilehash: 003543579e26262194668f94bdf78b8b002cb114
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 52728d6cb2daa1bb2753454e8b19a7e06800d080
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856139"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668497"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>快速入門：在 Power BI 行動裝置應用程式中探索儀表板和報表
 在本快速入門中，您可快速瀏覽 Power BI 行動裝置應用程式，以及探索範例儀表板和報表。 您會看到 iOS 版 Power BI 應用程式，但在其他裝置上也可以輕鬆掌握。
@@ -68,7 +68,7 @@ ms.locfileid: "90856139"
 
 10. 向上滑動以查看底部的工具列，然後點選 [更多選項 (...)]。
 
-    ![點選鉛筆](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
+    ![螢幕擷取畫面顯示位於右下角之 [更多選項] 控制項的位置。](./media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-tap-pencil.png)
 
 
 11. 向下捲動清單，並選取 [標註]。

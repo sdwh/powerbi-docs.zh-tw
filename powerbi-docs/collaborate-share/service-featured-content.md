@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 03/16/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3154becb2f496c0bbb0f84d1c1e7316868251c36
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3340225ccd4c6457e25013b6c347769d848b104c
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85226039"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374928"
 ---
 # <a name="feature-content-on-colleagues-power-bi-home-page"></a>為同事的 Power BI [首頁] 頁面添加精選內容
 
@@ -24,7 +24,7 @@ ms.locfileid: "85226039"
 
 ## <a name="who-can-feature-content"></a>可精選內容的人員
 
-Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內容的權利。 系統管理員也可以選擇能夠精選內容的人員。 如需詳細資料，請參閱[管理入口網站](../admin/service-admin-portal.md#featured-content)一文。
+您的 Power BI 系統管理員需決定是否要啟用在租用戶上添加精選內容的能力。 系統管理員也可以選擇能夠精選內容的人員。 如需詳細資料，請參閱[管理入口網站](../admin/service-admin-portal.md#featured-content)一文。
 
 如為組織中負責此工作的選取群組人員，則您必須擁有 Power BI Pro 授權。 若要精選儀表板與報表，則必須為工作區中的系統管理員、成員或參與者角色。 若要精選應用程式，則必須在工作區中具有系統管理員或成員角色。 如需詳細資料，請參閱[新工作區中的角色](service-new-workspaces.md#roles-in-the-new-workspaces)。
 
@@ -38,13 +38,13 @@ Power BI 租用戶系統管理員可以決定是否授與為租用戶精選內�
 
 1. 在工作區的 [儀表板] 或 [報表] 清單中，選取**設定**圖示。
 
-    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="報表設定圖示":::
+    :::image type="content" source="media/service-featured-content/power-bi-settings-icon.png" alt-text="[首頁] 上的 Power BI 精選內容":::
 
 2. 在 [設定] 窗格中，檢查或變更名稱。 如果需要，請新增 [描述] 並上傳 [快照]。 描述與快照有助使用者找到您的內容。
 
 3. 選取 [精選]。
 
-    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="精選內容設定":::
+    :::image type="content" source="media/service-featured-content/power-bi-featured-content-settings.png" alt-text="[首頁] 上的 Power BI 精選內容":::
 
 4. 選取 [儲存]。
 

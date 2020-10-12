@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 02/10/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 11ccbdd3a5586aa10c051e6bfed820ed7f0ae48b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 45f5ff81e8ab11c2082af7f570f02bd3671719c6
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237527"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634657"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Power BI 報表和儀表板中的資料表
 
@@ -157,7 +157,7 @@ ms.locfileid: "85237527"
 
 1. 選取 [複製]   > [複製值]  。
 
-    ![複製選項](media/power-bi-visualization-tables/power-bi-copy-value.png)
+    ![螢幕擷取畫面顯示已選取 [複製值] 選項的 [複製]。](media/power-bi-visualization-tables/power-bi-copy-value.png)
 
     使用剪貼簿上未格式化的資料格的值，您可以將它貼至另一個應用程式。
 
@@ -169,7 +169,7 @@ ms.locfileid: "85237527"
 
 1. 選取 [複製]   > [複製選取範圍]  。
 
-    ![複製選項](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+    ![螢幕擷取畫面顯示已選取 [複製選取範圍] 選項的 [複製]。](media/power-bi-visualization-tables/power-bi-copy-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>調整資料表的資料行寬度
 

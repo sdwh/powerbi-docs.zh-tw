@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 03/02/2020
 ms.author: v-pemyer
-ms.openlocfilehash: 7c9b5c753b262900d61a1a71b4c9a8167c943121
-ms.sourcegitcommit: c83146ad008ce13bf3289de9b76c507be2c330aa
+ms.openlocfilehash: 3c94c25f5f1ba717f68a0c2a5ec661be10f70135
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86216691"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668520"
 ---
 # <a name="many-to-many-relationship-guidance"></a>多對多關聯性指導
 
@@ -48,7 +48,7 @@ ms.locfileid: "86216691"
 > [!NOTE]
 > 您無法在 Power BI Desktop 模型圖表中顯示資料表資料列。 在本文中，為了以清楚的範例來支援討論，已事先完成。
 
-![此圖顯示模型現在會顯示資料表資料列。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
+![此圖顯示模型現在會顯示資料表資料列。 下個段落將描述這四個資料表的資料列詳細資料。](media/relationships-many-to-many/bank-account-customer-model-related-tables-2.png)
 
 下列項目符號清單描述這四個資料表的資料列詳細資料：
 
@@ -137,7 +137,7 @@ ms.locfileid: "86216691"
 
 現在讓我們看一下資料表資料列。 在 [履行] 資料表中，請注意訂單明細可能會透過多次出貨來履行 (沒有訂單明細表示訂單尚未履行)。
 
-![此圖顯示模型現在會顯示資料表資料列。 下列段落會描述資料列詳細資料。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
+![此圖顯示模型現在會顯示資料表資料列。 下個段落將描述這兩個資料表的資料列詳細資料。](media/relationships-many-to-many/order-fulfillment-model-related-tables.png)
 
 下列項目符號清單描述這兩個資料表的資料列詳細資料：
 
@@ -161,7 +161,7 @@ ms.locfileid: "86216691"
 
 ### <a name="relate-many-to-many-facts-guidance"></a>建立多對多事實的關聯指導
 
-一般而言，不建議使用多對多基數來直接建立兩個事實類型資料表的關聯。 主要原因是因為該模型的彈性不如您報告視覺效果篩選或分組的方式。 在此範例中，視覺效果只能依 [訂單] 資料表 [訂單識別碼] 資料行進行篩選或分組。 另一個原因與您資料的品質有關。 如果您的資料有完整性問題，在查詢期間可能會因「弱式關聯性」的本質，而省略一些資料列。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
+一般而言，不建議使用多對多基數來直接建立兩個事實類型資料表的關聯。 主要原因是因為該模型的彈性不如您報告視覺效果篩選或分組的方式。 在此範例中，視覺效果只能依 [訂單] 資料表 [訂單識別碼] 資料行進行篩選或分組。 另一個原因與您資料的品質有關。 如果您的資料有完整性問題，有可能是因為在查詢期間因「有限關聯性」的本質，而省略一些資料列。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 建議您採用[星型結構描述](star-schema.md)設計原則，而不是直接建立事實類型資料表的關聯。 做法是新增兩個維度類型資料表。 然後使用一對多關聯性，將維度類型資料表關聯到事實類型資料表。 這種設計方法強大之處在於提供彈性的報告選項。 這讓您可以使用任何維度類型資料行來進行篩選或分組，以及摘要任何相關事實類型資料表。
 
@@ -184,7 +184,7 @@ ms.locfileid: "86216691"
 - 您的報表視覺效果可依維度類型資料表中任何可見資料行進行「篩選或分組」
 - 您的報表視覺效果可「摘要」事實類型資料表中任何可見資料行
 - 套用至 [訂單明細]、[訂單日期] 或 [產品] 資料表的篩選會傳播至這兩個事實類型資料表
-- 所有關聯性都是一對多的，且每個關聯性都是「強式關聯性」。 資料完整性問題不會被隱藏。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
+- 所有關聯性都是一對多，而且每個關聯性都是「一般關聯性」。 資料完整性問題不會被隱藏。 如需詳細資訊，請參閱 [Power BI Desktop 中的模型關聯性 (關聯性評估)](../transform-model/desktop-relationships-understand.md#relationship-evaluation)。
 
 ## <a name="relate-higher-grain-facts"></a>建立更高資料粒度事實的關聯
 
@@ -228,7 +228,7 @@ IF(
 
 下列矩陣視覺效果現在使用 [目標數量] 量值。 其顯示所有的每月目標數量都是空白。
 
-![此圖顯示矩陣視覺效果顯示 2020 年的目標數量為 270。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
+![此圖顯示矩陣視覺效果，其中顯示 2020 年的目標數量為 270，以及空白的月份值。](media/relationships-many-to-many/sales-targets-model-matrix-blank-months-good.png)
 
 ### <a name="relate-higher-grain-non-date"></a>建立更高資料粒度 (非日期) 的關聯
 

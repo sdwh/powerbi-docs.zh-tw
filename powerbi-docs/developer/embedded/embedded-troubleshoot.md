@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 245a23f0477b542ecd402a5028cffebe2d1142ad
-ms.sourcegitcommit: a453ba52aafa012896f665660df7df7bc117ade5
+ms.openlocfilehash: 3016cce1e4dd8fb1be5b5ab95ebcc73bdcb56ac1
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2020
-ms.locfileid: "85485683"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749061"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>為您的內嵌應用程式進行疑難排解
 
@@ -75,27 +75,27 @@ Fiddler 擷取可能需要進一步調查。 可能缺少必要的權限範圍�
 
 Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多種。
 
-* 使用者已超過共用容量上可產生的內嵌權杖數量。 購買 Azure 容量來產生內嵌權杖，並將工作區指派給該容量。 請參閱[在 Azure 入口網站中建立 Power BI Embedded 容量](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity)。
+* 使用者已超過共用容量上可產生的內嵌權杖數量。 購買 Azure 容量來產生內嵌權杖，並將工作區指派給該容量。 請參閱[在 Azure 入口網站中建立 Power BI Embedded 容量](/azure/power-bi-embedded/create-capacity)。
 * Azure AD 驗證權杖過期。
 * 驗證的使用者不是群組 (工作區) 成員。
 * 驗證的使用者不是群組 (工作區) 系統管理員。
-* 已驗證的使用者不具有權限。 可以使用 [refreshUserPermissions API](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions) 來更新權限
+* 已驗證的使用者不具有權限。 可以使用 [refreshUserPermissions API](/rest/api/power-bi/users/refreshuserpermissions) 來更新權限
 * 授權標頭可能未正確列出。 請確認沒有錯字。
 
 應用程式的後端必須先重新整理權杖，再呼叫 GenerateToken。
 
-    ```
-    GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
-    Host: wabi-us-north-central-redirect.analysis.windows.net
-    ...
-    Authorization: Bearer eyJ0eXAiOi...
-    ...
+```console
+GET https://wabi-us-north-central-redirect.analysis.windows.net/metadata/cluster HTTP/1.1
+Host: wabi-us-north-central-redirect.analysis.windows.net
+...
+Authorization: Bearer eyJ0eXAiOi...
+...
 
-    HTTP/1.1 403 Forbidden
-    ...
+HTTP/1.1 403 Forbidden
+...
 
-    {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
-    ```
+{"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
+```
 
 ## <a name="authentication"></a>驗證
 
@@ -113,13 +113,13 @@ Fiddler 擷取可能需要進一步調查。 403 錯誤的原因可能有很多�
 
 如果您使用 Power BI Embedded 與 Azure AD 直接驗證，且在登入時收到如下訊息 ***error:unauthorized_client, error_description:AADSTS70002：驗證認證時發生錯誤。AADSTS50053：您嘗試使用不正確的使用者識別碼或密碼登入太多次***，這是因為從 2018 年 6 月 14 日起直接驗證已預設為停用。
 
-您可使用以組織或[服務主體](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object)為範圍的 [Azure AD 原則](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)，重新加以開啟。
+您可使用以組織或[服務主體](/azure/active-directory/develop/active-directory-application-objects#service-principal-object)為範圍的 [Azure AD 原則](/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications)，重新加以開啟。
 
 建議您只依據個別應用程式啟用此原則。
 
 若要建立此原則，您需要是要在其中建立並指派原則目錄的**全域管理員**。 下列範例指令碼示範如何建立原則，並將它指派給此應用程式的 SP：
 
-1. 安裝 [Azure AD Preview PowerShell 模組](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
+1. 安裝 [Azure AD Preview PowerShell 模組](/powershell/azure/active-directory/install-adv2?view=azureadps-2.0)。
 
 2. 逐行執行下列 PowerShell 命令 (以確認變數 $sp 最後不會有一個以上的應用程式)。
 
@@ -153,7 +153,7 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 若要驗證是哪一個原因，請嘗試下列步驟。
 
-* 執行 [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets)。 屬性 IsEffectiveIdentityRequired 是否為 true？
+* 執行 [get dataset](/rest/api/power-bi/datasets)。 屬性 IsEffectiveIdentityRequired 是否為 true？
 * 任何 EffectiveIdentity 都必須有 Username。
 * 若 IsEffectiveIdentityRolesRequired 為 true，就必須有 Role。
 * 任何 EffectiveIdentity 都必須有 DatasetId。
@@ -270,37 +270,43 @@ Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id
 
 當您選取 [授與權限]  時 (授與權限步驟)，收到下列錯誤：
 
-    AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```output
+AADSTS70001: Application with identifier <client ID> wasn't found in the directory <directory ID>
+```
 
 解決方案會關閉快顯，請等候幾秒後再試一次。 您可能需要重複這個動作數次。 時間間隔造成問題，導致當外部 API 可使用應用程式註冊流程時無法完成流程。
 
 執行應用程式範例時，會出現下列錯誤訊息：
 
-    Password is empty. Please fill password of Power BI username in web.config.
+```output
+Password is empty. Please fill password of Power BI username in web.config.
+```
 
 此錯誤之所以發生，是因為您的使用者密碼是唯一未插入應用程式範例中的值。 請在解決方案中開啟 Web.config 檔案，並以您的使用者密碼填入 pbiPassword 欄位。
 
 若您收到錯誤 - AADSTS50079：使用者必須使用多重要素驗證。
 
-    Need to use an AAD account that doesn't have MFA enabled.
+需要使用未啟用 MFA 的 AAD 帳戶。
 
-#### <a name="using-the-embed-for-your-organization-sample-application"></a>使用對組織進行內嵌的應用程式範例
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>對組織的應用程式範例使用 Embed
 
 若您使用**為組織進行內嵌**體驗，請儲存並解壓縮 *PowerBI-Developer-Samples.zip* 檔案。 接著開啟 *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* 資料夾，然後執行 *pbi-saas-embed-report.sln* 檔案。
 
 當您執行**對組織進行內嵌**應用程式範例時，收到下列錯誤：
 
-    AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```output
+AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
+```
 
 此錯誤是由於為網頁伺服器應用程式指定的重新導向 URL 與範例的 URL 不同所致。 如果您想要註冊範例應用程式，則請使用 `https://localhost:13526/` 作為重新導向 URL。
 
-若您想編輯已註冊的應用程式，請了解如何[更新 Azure AD 註冊 的應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，讓應用程式可提供 Web API 的存取權。
+若您想編輯已註冊的應用程式，請了解如何[更新 Azure AD 註冊 的應用程式](/azure/active-directory/develop/quickstart-v1-update-azure-ad-app)，讓應用程式可提供 Web API 的存取權。
 
-若您想編輯 Power BI 使用者設定檔或資料，則請了解如何編輯 [Power BI 資料](https://docs.microsoft.com/power-bi/service-basic-concepts)。
+若您想編輯 Power BI 使用者設定檔或資料，則請了解如何編輯 [Power BI 資料](../../fundamentals/service-basic-concepts.md)。
 
 若您收到錯誤 - AADSTS50079：使用者必須使用多重要素驗證。
 
-    Need to use an AAD account that doesn't have MFA enabled.
+需要使用未啟用 MFA 的 AAD 帳戶。
 
 如需詳細資訊，請參閱 [Power BI Embedded 常見問題集](embedded-faq.md)。
 

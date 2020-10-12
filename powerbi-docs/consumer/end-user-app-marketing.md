@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8020e68db6b0baaabdde626d1b17674fe995ca2
-ms.sourcegitcommit: 64139587061136a43c5aea3b6db4d1a94e4e7795
+ms.openlocfilehash: c3019abae20aec5e71d6b4cbae94c77426a151bd
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88205049"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635807"
 ---
 # <a name="install-and-use-the-sample-sales-and-marketing-app-in-the-power-bi-service"></a>在 Power BI 服務中安裝和使用範例「銷售與行銷」應用程式
 
@@ -53,11 +53,11 @@ ms.locfileid: "88205049"
 
 6. 選擇要連線到您自己的資料、使用範例資料進行探索，還是自訂並共用您的新應用程式。 由於我們已選取 Microsoft 範例應用程式，讓我們開始探索。 
 
-    ![使用範例資料進行探索](./media/end-user-app-marketing/power-bi-explore-app.png)
+    ![螢幕擷取畫面顯示 [開始使用您的新應用程式]，其中已標註 [使用範例資料進行探索] 選項。](./media/end-user-app-marketing/power-bi-explore-app.png)
 
 7.  您的新應用程式會以儀表板開啟。 不過，應用程式「設計師」可能會將應用程式改設定為開啟報表。  
 
-    ![使用範例資料進行探索](./media/end-user-app-marketing/power-bi-app-new.png)
+    ![螢幕擷取畫面顯示適用於您應用程式的儀表板。](./media/end-user-app-marketing/power-bi-app-new.png)
 
 
 

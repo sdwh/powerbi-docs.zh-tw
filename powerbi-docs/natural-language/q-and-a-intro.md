@@ -1,18 +1,18 @@
 ---
 title: 透過 Power BI 問與答使用自然語言探索資料
-description: 如何使用 Power BI 問與答探索資料
+description: 如何使用 Power BI [問與答] 透過使用自然語言進行查詢來探索您的資料並建立視覺效果。
 author: mohaali
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/01/2020
 ms.author: mohaali
-ms.openlocfilehash: de16ddbbaca69aea5283c7ab61c462493a6da1d0
-ms.sourcegitcommit: 7d505cb7cc9360211d67f1056cb488f7f15ffab4
+ms.openlocfilehash: d9339c0005f7f2af9fedd5cc5bfcce40469afb8c
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "88578097"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749153"
 ---
 # <a name="intro-to-power-bi-qa"></a>Power BI 問與答簡介
 

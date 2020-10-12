@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2019
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7f36ada69f1ee98c7392d05eb169947c600774e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 0e5687f9bb3f27af7bdfee28cd9753fbda4fa44f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85221640"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635761"
 ---
 # <a name="create-ribbon-charts-in-power-bi"></a>在 Power BI 中建立功能區圖表
 
@@ -24,7 +24,7 @@ ms.locfileid: "85221640"
 
 您可建立功能區圖表來視覺化資料，並快速找出哪個資料類別具有最高的等級 (最大值)。 功能區圖表適合顯示等級變更，最高等級 (值) 一律顯示於每個時段的最上方。 
 
-![功能區圖表](media/desktop-ribbon-charts/ribbon-charts-01.png)
+![螢幕擷取畫面顯示具有依年與季度顯示之音訊、行動電話與其他類別資料的緞帶圖。](media/desktop-ribbon-charts/ribbon-charts-01.png)
 
 > [!NOTE]
 > 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。 請參閱[共用報告](../collaborate-share/service-share-reports.md)。
@@ -57,12 +57,12 @@ ms.locfileid: "85221640"
 
 3. 功能區圖表會顯示每個月份的順位。 請注意順位隨時間變化的方式。 例如，二月到三月時，「家居」類別從第二位移至第四位。
 
-    ![功能區圖表](media/desktop-ribbon-charts/power-bi-ribbon.png)
+    ![螢幕擷取畫面顯示您建立的緞帶圖，緞帶圖中顯示一些資料的圖說文字。](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
 ## <a name="format-a-ribbon-chart"></a>格式化功能區圖表
 當您建立功能區圖表時，您可以在 [視覺效果] 窗格的 [格式] 區段中，使用格式設定的選項。 功能區圖表的格式設定選項類似於堆疊直條圖的選項，但有功能區特有的額外格式設定選項。
 
-![[視覺效果] 窗格上的功能區範本](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
+![顯螢幕擷取畫面示已選取的格式圖示與已展開的緞帶區域。](media/desktop-ribbon-charts/power-bi-format-ribbon.png)
 
 功能區圖表的這些格式設定選項可讓您進行調整。
 
@@ -77,7 +77,7 @@ ms.locfileid: "85221640"
 
 設定資料標籤的格式化選項。 在此範例中，我們已將文字色彩設定為白色，並將顯示單位設為千。
 
-![[視覺效果] 窗格上的功能區範本](media/desktop-ribbon-charts/power-bi-data-labels.png)
+![螢幕擷取畫面顯示您的最終格式化緞帶圖。](media/desktop-ribbon-charts/power-bi-data-labels.png)
 
 ## <a name="next-steps"></a>後續步驟
 

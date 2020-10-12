@@ -8,18 +8,18 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.date: 04/02/2019
-ms.openlocfilehash: 92bccc80c36fdf6de0972dd67b33a4f1f9c85c0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: eac2f6d1bcb79ccf25f69eb79b73ae884898ec58
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85240161"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91748670"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>註冊要與 Power BI 搭配使用的 Azure AD 應用程式
 
 了解如何在 Azure Active Directory (Azure AD) 內註冊應用程式，以用來內嵌 Power BI 內容。
 
-您可以向 Azure AD 註冊應用程式，讓您的應用程式存取 [Power BI REST API](https://docs.microsoft.com/rest/api/power-bi/)。 註冊您的應用程式之後，您可以為您的應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
+您可以向 Azure AD 註冊應用程式，讓您的應用程式存取 [Power BI REST API](/rest/api/power-bi/)。 註冊您的應用程式之後，您可以為您的應用程式建立身分識別，並指定對 Power BI REST 資源的權限。
 
 > [!IMPORTANT]
 > 註冊 Power BI 應用程式之前，您需要有 [Azure Active Directory 租用戶和組織使用者](create-an-azure-active-directory-tenant.md)。 如果您尚未以租用戶中的使用者來註冊 Power BI，則無法成功完成應用程式註冊。
@@ -54,7 +54,7 @@ ms.locfileid: "85240161"
 
 5. 如果您選取了**伺服器端 Web 應用程式**作為應用程式類型，則繼續輸入 [首頁 URL] 和 [重新導向 URL] 的值。 [重新導向 URL] 可使用任何有效的 URL，且應與您已建立的應用程式對應。 如果您選取了 [原生]，則繼續進行步驟 6。
 
-6. 選擇您應用程式需要的 Power BI API。 如需 Power BI 存取權限的詳細資訊，請參閱 [Microsoft 身分識別平台端點中的權限和同意](https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent)。 然後，選取 [註冊]。
+6. 選擇您應用程式需要的 Power BI API。 如需 Power BI 存取權限的詳細資訊，請參閱 [Microsoft 身分識別平台端點中的權限和同意](/azure/active-directory/develop/v2-permissions-and-consent)。 然後，選取 [註冊]。
 
     ![選擇要註冊的 API](media/register-app/register-app-new-app-registration-apis-register.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "85240161"
 
 5. 遵循提示並建立新的應用程式。
 
-   如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[向 Azure Active Directory 註冊應用程式](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-register-an-app)
+   如需如何在 Azure Active Directory 中註冊應用程式的詳細資訊，請參閱[向 Azure Active Directory 註冊應用程式](/azure/active-directory/develop/quickstart-v2-register-an-app)
 
 ## <a name="how-to-get-the-application-id"></a>如何取得應用程式識別碼
 
@@ -94,7 +94,7 @@ ms.locfileid: "85240161"
 
 ## <a name="how-to-get-the-service-principal-object-id"></a>如何取得服務主體物件識別碼
 
-使用 [Power BI API](https://docs.microsoft.com/rest/api/power-bi/) 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)定義作業，來參考服務主體 - 例如，以管理員身分將服務主體套用至工作區。
+使用 [Power BI API](/rest/api/power-bi/) 時，請務必使用[服務主體物件識別碼](embed-service-principal.md)定義作業，來參考服務主體 - 例如，以管理員身分將服務主體套用至工作區。
 
 ## <a name="apply-permissions-to-your-application-within-azure-ad"></a>在 Azure AD 中將權限套用至應用程式
 
@@ -120,7 +120,7 @@ ms.locfileid: "85240161"
 
 ### <a name="applying-permissions-programmatically"></a>以程式設計方式套用權限
 
-1. 您必須取得租用戶內的現有服務主體 (使用者)。 如需如何執行這項作業的資訊，請參閱 [servicePrincipal](https://docs.microsoft.com/graph/api/resources/serviceprincipal?view=graph-rest-beta)。
+1. 您必須取得租用戶內的現有服務主體 (使用者)。 如需如何執行這項作業的資訊，請參閱 [servicePrincipal](/graph/api/resources/serviceprincipal?view=graph-rest-beta)。
 
     您可以呼叫沒有 {ID} 的 *Get servicePrincipal* API，而且它將讓您取得租用戶內的所有服務主體。
 
@@ -141,11 +141,11 @@ ms.locfileid: "85240161"
 
 4. 將應用程式權限授與 Power BI API
 
-   如果您是使用現有的租用戶，且不想要代表所有租用戶使用者來授與權限，則可以將 **contentType** 的值替換為 **Principal**，以將權限授與特定使用者。
+   如果您是使用現有的租用戶，而且不想代表所有租用戶使用者授與權限，則可將 **consentType** 的值取代為 **Principal**，以將權限授與特定使用者。
 
    **consentType** 的值可以提供 **AllPrincipals** 或 **Principal**。
 
-   * **AllPrincipals** 只能由租用戶系統管理員用來代表租用戶中的所有使用者授與權限。
+   * **AllPrincipals** 只能由 Power BI 系統管理員用來代表租用戶中的所有使用者授與權限。
    * **Principal** 則會用於代表特定使用者授與權限。 在此情況下，額外的屬性應該新增至要求的本文 - *principalId={User_ObjectId}* 。
 
      您必須為主帳戶「授與權限」，以避免收到要求 Azure AD 同意的提示，這在進行非互動式登入時無法完成。
@@ -164,18 +164,18 @@ ms.locfileid: "85240161"
      }
      ```
 
-    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* 並非一體適用，而是取決於租用戶。 此值為 Azure Active Directory (AAD) 租用戶中「Power BI 服務」應用程式的 objectId。
+    **resourceId** *c78a3685-1ce7-52cd-95f7-dc5aea8ec98e* 並非一體適用，而是取決於租用戶。 此值為 Azure Active Directory 中「Power BI 服務」應用程式的 objectId。
 
     使用者可以隨時從 Azure 入口網站上取得此值：
     1. https://portal.azure.com/#blade/Microsoft_AAD_IAM/StartboardApplicationsMenuBlade/AllApps
 
     2. 在搜尋方塊中搜尋「Power BI 服務」
 
-5. 授與應用程式權限給 Azure Active Directory (AAD)
+5. 將應用程式權限授與 Azure Active Directory
 
    **consentType** 的值可以提供 **AllPrincipals** 或 **Principal**。
 
-   * **AllPrincipals** 只能由租用戶系統管理員用來授與權限給租用戶中的所有使用者。
+   * **AllPrincipals** 只能由 Power BI 系統管理員用來授與權限給租用戶中的所有使用者。
    * **Principal** 則會用於將權限授與特定使用者。 在此情況下，額外的屬性應該新增至要求的本文 - *principalId={User_ObjectId}* 。
 
    您必須為主帳戶「授與權限」，以避免收到要求 Azure AD 同意的提示，這在進行非互動式登入時無法完成。

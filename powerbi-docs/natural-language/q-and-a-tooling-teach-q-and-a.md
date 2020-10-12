@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 04/21/2020
 ms.author: maggies
 LocalizationGroup: Ask questions of your datadefintion
-ms.openlocfilehash: 8f0d4c970de1724f47a016cbe063f1cc3df20178
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: b2eff10484a7e05a9e51dfc09d44598de034ee88
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239925"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635232"
 ---
 # <a name="teach-qa-to-understand-questions-and-terms-in-power-bi-qa"></a>教學 Q&A 以了解 Power BI 問與答中的問題和字詞
 
@@ -61,7 +61,7 @@ ms.locfileid: "85239925"
 
 您會在方塊中填入來自資料的字詞。
 
-![Q&A 教學同義字提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
+![螢幕擷取畫面顯示 [問與答] 方塊的一部分，其中包含「收益」一詞，以及位於文字方塊旁邊的「收益指的是」提示。](media/q-and-a-tooling-teach-q-and-a/qna-tooling-synonym-prompt.png)
 
 如果您提供的內容不同於資料模型中欄位，則可能會獲得不想要的結果。
 
@@ -73,7 +73,7 @@ ms.locfileid: "85239925"
 
 您會在方塊中填入條件。
 
-![Q&A 教學同義字提示](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
+![螢幕擷取畫面顯示 [問與答] 方塊的一部分，其中包含「優秀的發行者」一詞，以及分別位於文字方塊前後的「發行者具有」和「會很優秀」等文字。](media/q-and-a-tooling-teach-q-and-a/qna-tooling-adjectives.png)
 
 您可以定義的一些範例條件如下：
 

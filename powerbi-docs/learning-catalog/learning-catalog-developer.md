@@ -1,17 +1,17 @@
 ---
 title: 開發人員學習目錄
-description: 尋找 Power BI 的所有訓練選項
+description: 尋找適用於開發人員的所有 Power BI 訓練選項，從最基礎到最進階。
 author: margoc
 ms.prod: powerbi
 ms.topic: article
 ms.date: 03/25/2020
 ms.author: margoc
-ms.openlocfilehash: 8825cf687d3d6dd754e520f5e452b2483e3f179b
-ms.sourcegitcommit: 00c0b24d5e80009d18cec6da4fee8a9611bcba04
+ms.openlocfilehash: 442ae8cb6c433cbc7501a6f354158c39a48e2d68
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87411857"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91746531"
 ---
 # <a name="developer-learning-catalog"></a>開發人員學習目錄
 
@@ -31,7 +31,7 @@ ms.locfileid: "87411857"
 | [在 20 分鐘內深入了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。 | Webinar       |                |
 | [使用 Power BI 內嵌進行開發 (由 Ted Pattison 主持)– 2018 年 4 月更新](https://www.youtube.com/watch?v=swnGlrRy588) (英文)  | 在這個以開發人員為導向的網路研討會中，Ted Pattison 將討論 Power BI 內嵌平台的最新增強功能，以及 ISV 和企業開發人員運用這些功能的方式。 | YouTube 影片 | 59 分鐘 49 秒  |
 | [Power BI 內嵌第 2 版 – 完整案例](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Embedding-Version-2-The-Full-Story/td-p/229527) (英文)    | 關鍵路徑訓練的 Power BI MVP Ted Pattison 於 2017 年 8 月 10 日舉辦了網路研討會。 此網路研討會涵蓋如何使用透過 Power BI Premium 提供的新 Power BI 內嵌功能進行開發。  | Webinar       | 1 小時 7 分鐘 23 秒 |
-| [教學課程：為您的客戶，將 Power BI 內容內嵌至應用程式](https://docs.microsoft.com/power-bi/developer/embed-sample-for-customers#step-1-setup-your-embedded-analytics-development-environment) | 使用 Azure 中 Power BI Embedded 或內嵌在 Office 的 Power BI，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。  | 文件 |                |
+| [教學課程：為您的客戶，將 Power BI 內容內嵌至應用程式](../developer/embedded/embed-sample-for-customers.md#set-up-your-embedded-analytics-development-environment) | 使用 Azure 中 Power BI Embedded 或內嵌在 Office 的 Power BI，可使用應用程式擁有的資料，將報表、儀表板或磚內嵌至應用程式。  | 文件 |                |
 | [在 20 分鐘內深入了解 Power BI Embedded](https://info.microsoft.com/ww-ondemand-power-bi-embedded-in-20-min.html)  | 此網路研討會旨在介紹 Power BI Embedded。 此網路研討會結束時，使用者應該能夠了解什麼是 Power BI Embedded，後續的步驟是開始使用產品，以及在何處可以取得說明/資源。 | Webinar       |                |
 ## <a name="dax"></a>DAX<a name="dax"></a>
 | 內容 | 描述 | 格式  | 長度      |

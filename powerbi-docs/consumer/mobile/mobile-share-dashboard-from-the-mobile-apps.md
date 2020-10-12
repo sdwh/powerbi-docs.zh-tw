@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: how-to
 ms.date: 03/11/2020
 ms.author: painbar
-ms.openlocfilehash: 374b9eb1becb5c343600521efc2d493f7d83e677
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 5656e4b708cb52519b6dee25a8142b3c49af6532
+ms.sourcegitcommit: 7e99e8af9caf9340958c4607a94728d43e8c3811
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854039"
+ms.lasthandoff: 10/02/2020
+ms.locfileid: "91668428"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>從 Power BI 行動裝置應用程式共用儀表板或報表
 適用於︰
@@ -61,7 +61,7 @@ ms.locfileid: "90854039"
  
 2. 請輸入電子郵件地址及隨儀表板邀請一起發送的訊息。 否則 Power BI 會傳送預設的訊息。 若要允許再次共用，請保持選取 [允許收件者共用此儀表板]  。 再次共用允許您的同事透過瀏覽器或 mobile apps，將電子郵件邀請轉寄給貴組織其他人員。
    
-3. 點選右上角的**傳送**圖示 ![傳送圖示](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) 傳送郵件。
+3. 點選右上角的 [傳送] 圖示 :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png" border="false"::: 來傳送郵件。
    
     收件者會收到具有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當受邀者在 Power BI 服務或 Power BI 行動裝置應用程式中開啟邀請函時，邀請即會新增至其 Power BI 帳戶的 [與我共用] 區段。 存取 [與我共用] 區段：
    * 在 Power BI 行動裝置應用程式上，點選導覽列上的 [更多選項] (...)，然後選擇 ![與我共用](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) [與我共用]。
@@ -90,7 +90,7 @@ ms.locfileid: "90854039"
 
 2. 鍵入電子郵件地址及隨邀請一起發送的訊息。 否則 Power BI 會傳送預設的訊息。 若要允許再次共用，請保持選取 [允許收件者共用此儀表板]  。 再次共用允許您的同事透過瀏覽器或行動裝置應用程式，與貴組織其他人員共用。
    
-3. 點選**傳送**圖示 ![傳送圖示](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png)。
+3. 點選 [傳送] 圖示 :::image type="icon" source="./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png" border="false":::。
    
     收件者會收到具有儀表板或報表直接連結的電子郵件邀請。 邀請有效期一個月。 當受邀者在 Power BI 服務或 Power BI 行動裝置應用程式中開啟邀請函時，邀請即會新增至其 Power BI 帳戶的 [與我共用] 區段。 存取 [與我共用] 區段：
    

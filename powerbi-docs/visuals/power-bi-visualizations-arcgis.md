@@ -7,196 +7,428 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: how-to
-ms.date: 05/06/2020
+ms.date: 09/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a95e9cd889bdf42ba703649cbc475f587fb1482b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 751d36489590b92c1e03804f100a711b44e028ff
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237808"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600288"
 ---
-# <a name="interact-with-arcgis-maps-in-power-bi"></a>在 Power BI 中與 ArcGIS 地圖互動
+# <a name="create-arcgis-maps-in-power-bi"></a>在 Power BI 中建立 ArcGIS 地圖
 
 [!INCLUDE[consumer-appliesto-yyyn](../includes/consumer-appliesto-yyyn.md)]    
 
-本主題是從在 Power BI 服務、Power BI Desktop 或 Power BI Mobile 中「使用」ArcGIS 地圖的人員觀點來撰寫。 一旦設計師與您共用 ArcGIS Map for Power BI 視覺效果，即可利用許多方法與該視覺效果互動。  若要深入了解如何建立 ArcGIS 地圖，請參閱[由 Esri 提供的 ArcGIS 地圖教學課程](../visuals/power-bi-visualization-arcgis.md)。
+> [!NOTE]
+> 這些視覺效果可以在 Power BI Desktop 和 Power BI 服務中建立與檢視。 本文中的步驟和圖例來自 Power BI Desktop。
+
+此概觀是從 ArcGIS Map for Power BI 建立者的觀點撰寫而成。 「設計人員」與同事共用 ArcGIS Map for Power BI 地圖後，同事雖然可以檢視地圖並與其互動，卻無法儲存變更。 若要深入了解如何檢視 ArcGIS 地圖，請參閱[探索 ArcGIS Maps for Power BI](https://doc.arcgis.com/en/maps-for-powerbi/use/explore-maps.htm)。
+
+ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 從基礎地圖、位置類型、佈景主題、符號樣式及參考圖層中選擇，以建立具有豐富資訊的優異地圖視覺效果。 地圖上的官方資料圖層與空間分析結合之後，能讓人更深入了解視覺效果中的資料。 雖然您無法在行動裝置上建立 ArcGIS Maps for Power BI 地圖，但可以檢視地圖並與其互動。
 
 > [!NOTE]
-> 若要與 Power BI 同事共用報表，必須兩人都擁有個人的 Power BI Pro 授權，或將報表儲存在 Premium 容量中。 請參閱[共用報告](../collaborate-share/service-share-reports.md)。
-
-ArcGIS 地圖與 Power BI 的結合，把在點之外加上地圖的做法帶到了全新境界。 報表設計師會從地圖開始，並將人口統計資料的圖層附加至該地圖。 地圖上的位置型資料圖層 (例如人口普查資料) 與空間分析結合之後，能讓人更深入了解視覺效果中的資料。
+> ArcGIS Maps for Power BI 目前無法供 Power BI 報表伺服器使用。
 
 > [!TIP]
 > GIS 是 Geographic Information System (地理資訊系統) 的縮寫。
-> 
 
-此 ArcGIS Map for Power BI 視覺效果會依城市顯示去年的銷售額，並使用街道型地圖和平均家庭收入參考圖層。 此地圖包含兩個圖釘 (紅色和黃色) 及一個行車時間半徑 (以紫色顯示)。
+下方範例以 2016 年可支配所得中位數的人口統計圖層為背景，使用深灰色畫布以熱度圖形式顯示區域銷售額。 如同您在閱讀時所見，使用 ArcGIS Maps for Power BI 提供增強式地圖功能、人口統計資料，以及更吸引人的地圖視覺效果，讓您可以呈現更精彩的故事。
 
-![顯示美國及泡泡、圖釘、行車時間的 ArcGIS 地圖](media/power-bi-visualizations-arcgis/power-bi-arcgis-esri.png)
+![ArcGIS 開啟影像](media/power-bi-visualizations-arcgis/arcgis-tutorial-01.png)
 
 > [!TIP]
-> 若要查看多個範例及閱讀見證，請前往 [Power BI 上的 Esri 頁面](https://www.esri.com/powerbi)。 接著請參閱 Esri 的 [ArcGIS Maps for Power BI 使用者入門頁面](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)。
-> 
-> 
+> 若要查看多個範例及閱讀見證，請瀏覽 [**Esri 的 ArcGIS Maps for Power BI 頁面**](https://www.esri.com/powerbi) \(英文\)。 另請檢視 Esri 的 **[ArcGIS Maps for Power BI 線上](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm)說明**。
 
 ## <a name="user-consent"></a>使用者同意
 
-當同事第一次與您共用 ArcGIS 地圖時，Power BI 會顯示同意提示。 ArcGIS Maps for Power BI 是由 Esri (https://www.esri.com) 提供；因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri 條款及隱私權原則的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 的視覺效果，就必須接受同意對話方塊。
+ArcGIS Maps for Power BI 由 Esri ([https://www.esri.com](https://www.esri.com/)) 提供。 因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri [條款](https://go.microsoft.com/fwlink/?LinkID=826322)與[隱私權原則](https://go.microsoft.com/fwlink/?LinkID=826323)的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 視覺效果，就必須接受同意對話方塊。 只有當您第一次使用 ArcGIS Maps for Power BI 時，才會出現此對話方塊。
 
+## <a name="prerequisites"></a>必要條件
 
-## <a name="understand-the-layers"></a>了解圖層
+本教學課程使用 Power BI Desktop 及 PBIX [零售分析範例](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)。 您也可以使用 Power BI 服務建立 ArcGIS Maps for Power BI。
 
-ArcGIS Maps for Power BI 視覺效果可能有數種不同類型的人口統計位置資訊。
+1. 從功能表列的左上方區段，選取 [檔案] > [開啟報表]。
+2. 尋找儲存在您本機電腦上的**零售分析範例 PBIX 檔案**。
+3. 在報表檢視![報表檢視圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-01.png)中開啟 [零售分析範例]。
+4. Select ![[新增頁面] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-02.png) 以在報表中新增頁面。
 
-### <a name="base-maps"></a>基本地圖
+## <a name="create-an-arcgis-maps-for-power-bi-map-visualization"></a>建立 ArcGIS Maps for Power BI 地圖視覺效果
 
-每個 ArcGIS Maps for Power BI 視覺效果都是從基本地圖開始。 請將基本地圖視為資料的畫布。 基本地圖可能是基本的深色或淺色畫布，
+若要將地圖新增到報表，請遵循下列步驟：
 
-![深灰色基本地圖](media/power-bi-visualizations-arcgis/power-bi-basemap-dark.png) 
+1. 從 [視覺效果] 窗格中選取 ArcGIS Maps for Power BI 圖示。
 
-或是具有街道和運輸詳細資料的畫布。 
+    ![[視覺效果] 窗格中的 ArcGIS 地圖圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-02.png)
 
-![深灰色基本地圖](media/power-bi-visualizations-arcgis/power-bi-streets-basemap.png)  
+2. Power BI 會在報表畫布中新增空白範本。 在此概觀中，我們將使用 Power BI 隨附的「標準」版本。 如果您登入具有適當授權的有效 ArGIS 帳戶，您將可以存取更多功能；如需詳細資訊，請參閱 [ArcGIS Maps for Power BI 線上說明](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)。
 
-基本地圖會完全套用到畫布上，當您移動瀏覽及縮放時，地圖即會更新。 放大可查看更加詳細的街道和運輸資訊。 請從某一洲移動瀏覽至另一洲，詳細資料層級會保持不變。 在這裡，我們已從波爾圖移動瀏覽至北京。
+    ![ArcGIS sign 登入](media/power-bi-visualizations-arcgis/arcgis-tutorial-03.png)
 
-![街道型地圖](media/power-bi-visualizations-arcgis/power-bi-basemap-pan.png)  
+3. 將資料欄位從 [欄位] 窗格拖曳到 [位置] 或將座標拖曳到適當的 [緯度] 和/或 [經度] 貯體。 在本例中，我們使用 [門市] > [城市]。
 
-### <a name="reference-layers"></a>參考圖層
+    > [!NOTE]
+    > ArcGIS Maps for Power BI 會自動偵測您所選取的欄位是否最適合以地圖上的圖形或點來檢視。 您可以在設定中調整預設值 (請參閱[設定 ArcGIS Maps for Power BI 視覺效果格式](#format-the-arcgis-maps-for-power-bi-visualization))。
 
-報表「設計師」可以新增一個參考圖層。 參考圖層是由 Esri 所裝載，並提供與位置有關的額外人口統計資訊圖層。 下列範例具有人口密度的參考圖層。 較暗色彩表示較高的密度。
+    ![ArcGIS 城市欄位](media/power-bi-visualizations-arcgis/arcgis-tutorial-04.png)
 
-![顯示人口密度的奧蘭多區域地圖](media/power-bi-visualizations-arcgis/power-bi-reference.png)  
+4. 將量值從 [欄位] 窗格拖曳到 [大小] 貯體，以調整資料的顯示方式。 在本例中，我們使用 [銷售額] > [去年銷售額]。
 
-### <a name="infographics"></a>資訊圖
+    ![ArcGIS 大小欄位](media/power-bi-visualizations-arcgis/arcgis-tutorial-05.png)
 
-報表「設計師」可以新增許多資訊圖圖層。 資訊圖是顯示在視覺化畫布右側的快速視覺效果指示器。 資訊圖是由 Esri 所裝載，並提供與位置有關的額外人口統計資訊圖層。 以下範例已套用三個資訊圖。 資訊圖不會顯示在地圖本身，而是顯示在卡片上。 當縮放、移動瀏覽及選取地圖上的區域時，資訊圖卡片即會更新。
+您已建立自己的第一份 ArcGIS Map for Power BI 地圖。 現在，讓我們使用基本地圖、位置類型、主題及更多項目來精簡及格式化地圖。
 
-![放大的奧蘭多區域地圖和畫布右側資訊圖卡片](media/power-bi-visualizations-arcgis/power-bi-infographics.png)  
+## <a name="format-the-arcgis-maps-for-power-bi-visualization"></a>設定 ArcGIS Maps for Power BI 視覺效果格式
 
-### <a name="pins"></a>圖釘
+若要存取 **ArcGIS Maps for Power BI** 的格式設定功能︰
 
-圖釘代表精確的位置，例如城市或地址。 有時報表「設計師」會使用具有行車時間半徑的圖釘。 這個範例會顯示北卡羅來納州夏洛特在 50 英哩半徑範圍內的商店。
+1. 在 [視覺效果] 窗格上，按一下 [格式] 索引標籤以檢視格式設定選項。
 
+    ![[格式] 索引標籤](media/power-bi-visualizations-arcgis/arcgis-tutorial-06.png)
 
-![圍繞北卡羅來納州夏洛特的行車時間](media/power-bi-visualizations-arcgis/power-bi-drive-times.png) 
+    ArcGIS Maps 格式設定選項包括：
 
+    * **圖層：** 變更圖層清單 (ToC) 的標題、開啟或關閉圖層清單、將清單錨定在地圖上、定義錨定清單的位置。 [圖層] 清單預設為開啟，而且可在展開的地圖工具 ![[地圖] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-03.png) 中找到。
+    * **地圖工具：** 開啟或關閉導航工具、在其目前位置鎖定地圖範圍、定義地圖上資訊圖卡片的位置。 [放大] 與 [縮小] 按鈕預設為關閉。
+    * **位置類型：** 指定資料所在的國家/地區有助於改善您地圖上的位置正確性。 如果您的資料位於單一國家/地區，請從下拉式清單選擇該國家/地區。 如果您的資料為全球性，請選擇 [世界]。
+    * **搜尋：** 開啟或關閉搜尋功能、變更圖釘的預設色彩。 [搜尋] 預設為開啟，而且可在展開的地圖工具 ![[搜尋] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-04.png) 中找到。
 
-## <a name="interact-with-an-arcgis-maps-for-power-bi-visual"></a>與 ArcGIS Maps for Power BI 視覺效果互動
-您可以使用的功能取決於報表共用方式，以及您的 Power BI 帳戶類型。 如有任何疑問，請洽詢系統管理員。 ArcGIS Maps for Power BI 視覺效果的表現與報表中其他視覺效果很類似。 您能夠[顯示用來建立視覺效果的資料](../consumer/end-user-show-data.md)、查看[焦點模式和全螢幕模式](../consumer/end-user-focus.md)中的地圖、[新增註解](../consumer/end-user-comment.md)、[與篩選互動](../consumer/end-user-report-filter.md) (篩選是由報表「設計師」所設定) 等。 ArcGIS 視覺效果可以交叉篩選報表頁面上的其他視覺效果，反之亦然。
+### <a name="edit-an-arcgis-maps-for-power-bi-map"></a>編輯 ArcGIS Maps for Power BI 地圖
 
-將游標停留在基本地圖位置 (例如，泡泡) 上方可顯示工具提示。 此外，請使用 ArcGIS 視覺效果選取工具來顯示其他工具提示，並在基本地圖或參考圖層上進行特定選取。  
+在您將資料新增到地圖視覺效果之後，地圖工具就會變成可用。
 
-### <a name="selection-tools"></a>選取工具
+> [!NOTE]
+> 此教學課程只顯示 ArcGIS Maps for Power BI **標準**版本中可用的功能與選項。 如果您已登入具有適當授權的有效 [ArcGIS 帳戶](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)，就可以存取更多功能。
 
-ArcGIS Maps for Power BI 具有五個選取模式。 一次最多可以選取 250 個資料點。
+展開地圖工具：
 
-![這三個選取工具的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-esri-selection-tools.png)
+1. 按一下 [地圖工具] 按鈕以展開工具。
 
-#### <a name="the-single-select-tool"></a>單選工具
+    ![[地圖工具] 按鈕](media/power-bi-visualizations-arcgis/arcgis-tutorial-07.png)
 
-![單一選取工具的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-esri-selection-single2.png) 
-
-從參考圖層選取資料點、泡泡、圖釘或個別資料點。 Power BI 會顯示工具提示，其中包含所選取項目的詳細資料。 單選會根據您的選取項目來交叉篩選報表頁面上其他視覺效果，並更新所選區域的資訊圖卡片。 
-
-在這裡，我們從基本地圖選取了棕色的泡泡資料點。 Power BI：
-- 醒目提示我們的選取項目、
-- 顯示該資料點的工具提示、 
-- 更新資訊圖卡片以便只顯示我們選取項目的資料，以及
-- 交叉醒目提示直條圖。
-
-![棕色泡泡工具提示的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-single-selects.png)
-
-如果地圖有參考圖層，則選取位置即會在工具提示中顯示詳細資料。 在這裡，我們選取了 Seneca County，並查看報表「設計師」新增至地圖的參考圖層 (人口密度) 中資料。 在此範例中，資料點包含兩個不同郡，所以工具提示有兩個頁面。 每個頁面都有一個圖表。 選取圖表上的橫條可顯示其他詳細資料。 
-
-![Seneca County 工具提示的螢幕擷取畫面](media/power-bi-visualizations-arcgis/power-bi-single-select-ref.png)
+地圖工具會展開以顯示可用的功能。 選取每項功能時，皆會開啟工作窗格並提供詳細的選項。
 
 > [!TIP]
-  > 有時候，您可以放大來選取特定位置，藉以減少工具提示頁面的數目。  否則，如果有位置重疊，Power BI 可能會一次提供多個工具提示。 選取箭號即可在工具提示之間移動
-  > 
-  > ![顯示三頁的工具提示](media/power-bi-visualizations-arcgis/power-bi-3-screens.png)
+> Esri 提供有關如何使用 ArcGIS Maps for Power BI 的[豐富文件](https://go.microsoft.com/fwlink/?LinkID=828772)。
 
-#### <a name="the-multi-select-tool"></a>複選工具
+#### <a name="change-the-base-map"></a>變更底圖
 
-![複選工具](media/power-bi-visualizations-arcgis/power-bi-esri-selection-marquee2.png) 
+底圖針對地圖中的資料提供背景或視覺效果內容。 例如，顯示街道的底圖可以為您的地址資料提供內容。 使用**標準**帳戶時，提供四個底圖：深灰畫布、淺灰畫布、OpenStreetMap 和街道名。
 
-在地圖上繪製一個矩形，並選取包含的資料點。 使用 CTRL 鍵可選取多個矩形區域。 複選會更新所選區域的資訊圖卡片，並根據您的選取項目交叉篩選報表頁面上其他視覺效果。
+若要變更底圖，請遵循下列步驟：
 
-![複選工具](media/power-bi-visualizations-arcgis/power-bi-multi-select.png) 
+1. 按一下 [底圖] 按鈕 ![[底圖] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-05.png) 以顯示圖庫。
+2. 選取 [暗灰色畫布] 底圖。
 
-#### <a name="the-reference-layer-tool"></a>參考圖層工具
+    ![底圖選項](media/power-bi-visualizations-arcgis/arcgis-tutorial-08.png)
 
-![界限的第三個選取工具](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference-layer2.png) 
+    地圖會使用新的底圖來更新。
 
-可讓您使用參考圖層內的界限或多邊形，來選取包含的資料點。 雖然很難看到，但參考圖層上有一個黃色的外框。 不同於單選工具，我們不會取得工具提示。 相反地，我們會取得該外框框線內所含任何資料點的相關資料。 在此範例中，我們的選取項目確實包含一個資料點，該資料點是用於 Winston Salem 中的 Lindseys 商店。
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[變更底圖](https://doc.arcgis.com/en/maps-for-powerbi/design/change-the-basemap.htm)。
 
-![參考選取工具](media/power-bi-visualizations-arcgis/power-bi-ref-tool.png) 
+#### <a name="show-map-layers"></a>Bing 地圖圖層
 
-#### <a name="the-buffer-tool"></a>緩衝區工具
+在 ArcGIS Maps for Power BI 中，您會透過圖層來處理地理資料。 圖層是地理資料的邏輯集合，可用來建立地圖；它們也是地理分析的基礎。
 
-![用於緩衝區的第四個選取工具](media/power-bi-visualizations-arcgis/power-bi-esri-selection-4.png) 
+若要顯示 [圖層] 清單，請按一下地圖工具中的 [圖層] ![[圖層] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-06.png) 按鈕。
 
-允許使用緩衝區圖層選取資料點。 例如，可以使用此工具來選取行車時間半徑，並繼續與報表的其餘部分互動。 行車時間半徑會保持使用中的狀態，而資訊圖卡片會繼續反映行車時間半徑，但選取地圖上其他資料點會交叉篩選報表頁面上的其他視覺效果。
+[圖層] 清單會顯示組成地圖的每個圖層，而且每個圖層都有自己的一組選項，可協助您自訂及處理地圖。 視選取的圖層類型而定，功能表中會出現不同的選項。例如，您可以針對使用 Power BI 資料所建立的圖層，變更其符號學與位置類型 (例如您為此範例建立的**城市**圖層)，但那些選項無法供參考或行駛時間圖層使用。
 
-![緩衝區選取工具](media/power-bi-visualizations-arcgis/power-bi-buffer.png) 
+![ArcGIS 圖層按鈕](media/power-bi-visualizations-arcgis/arcgis-tutorial-09.png)
 
-#### <a name="the-find-similar-tool"></a>尋找相似項目工具
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[使用圖層](https://doc.arcgis.com/en/maps-for-powerbi/design/work-with-layers.htm)。
 
-![用於相似性的第五個選取工具](media/power-bi-visualizations-arcgis/power-bi-esri-selection-reference5.png) 
+#### <a name="specify-the-location-type"></a>指定位置類型
 
-可讓您尋找具有相似屬性的位置。 您一開始會選取一或多個感興趣的點或參考位置，以定義最多五個您想要在分析中使用的維度。 接著，[尋找相似項目] 會計算地圖上最類似您所定義參考位置的 10 個位置。 然後，您可以使用資訊圖卡片來深入了解每個結果的人口統計資料、建立行車時間範圍來了解每個位置之間的行車距離，或甚至使用 [尋找相似項目] 工具本身來篩選報表，並取得更多見解。 最重要的是，所有計算都是在電腦本機上進行，因此您可以確定機密資料仍受到保護。
+ArcGIS Maps for Power BI 使用其強大的地理技術，正確地將位置資料放在地圖上，並根據資料類型預設自動將項目轉譯為點或界限。 例如，緯度經度座標會轉譯為地圖上的點，而州領域則會轉譯為界限或多邊形。 您可以透過指定位置類型來變更位置的轉譯方式。
 
+使用 [位置類型] 功能可改善地圖上位置的正確性。 若要快速執行此動作，您可以在視覺效果的 [格式] 窗格中選擇國家/地區 (展開 [位置類型] 類別，然後選擇適當的國家/地區)，或使用 [圖層選項] 窗格中的完整 [位置類型] 功能來存取更多選項。
+
+完整 [位置類型] 功能可透過圖層選項功能表來存取，而且除了可讓您指定資料所在的國家/地區之外，還可讓您選擇要以點或界限 (多邊形) 來表示您的資料。 界限通常會定義為標準地理區域，例如國家/地區、省、郵遞區號等等。 如果您為資料位置選擇界限與特定國家/地區，您可以選擇各種不同的標準界限，例如縣/市、人口普查區、學區或行政區。 每個國家/地區都有不同的位置類型可用。
+
+若要修改資料的位置類型，請遵循下列步驟：
+
+1. 在 [圖層] 清單中，選取您要使用的資料圖層。
+2. 按一下 [圖層選項] 按鈕，然後選擇 [位置類型]。
+
+    ![位置類型選項](media/power-bi-visualizations-arcgis/arcgis-tutorial-10.png)
+
+    接受預設值，將位置轉譯為地圖上的點，並指定 [一個國家/地區] > [美國]。
+
+    ![位置類型選擇性值](media/power-bi-visualizations-arcgis/arcgis-tutorial-11.png)
+
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[指定位置類型](https://doc.arcgis.com/en/maps-for-powerbi/design/specify-location-type.htm)。
+
+#### <a name="customize-the-maps-symbology"></a>自訂地圖的符號學
+
+ArcGIS Maps for Power BI 使用 [欄位] 窗格中的值，以智慧方式判斷其應該如何轉譯地圖上的位置。 「符號學」功能可讓您修改預設樣式，以更清楚地訴說您的故事。 您可以選擇不同的地圖佈景主題，並自訂用來代表地圖上位置的符號與色彩。 根據您新增到地圖視覺效果 [欄位] 窗格的值，可以使用不同的地圖佈景主題與樣式選項。
+
+若要變更圖層的符號學，請遵循下列步驟：
+
+1. 在 [圖層] 清單中，選取您要使用的資料圖層。
+
+2. 按一下 [圖層選項] 按鈕，然後選擇 [符號學]。
+
+[符號學] 窗格隨即出現，並展開 [地圖佈景主題] 類別。
+
+##### <a name="change-the-map-theme"></a>變更地圖佈景主題
+
+在此範例中，因為我們已將值新增到 [位置] 與 [大小] 欄位，所以地圖預設會使用 [大小] 佈景主題。
+
+若要變更地圖佈景主題，請遵循下列步驟：
+
+1. 選擇一些其他地圖佈景主題，以查看地圖如何變更。
+
+    ![地圖佈景主題](media/power-bi-visualizations-arcgis/arcgis-tutorial-12.png)
+
+2. 選擇 [大小] 佈景主題。
+
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[變更地圖佈景主題](https://doc.arcgis.com/en/maps-for-powerbi/design/change-the-map-theme.htm)。
+
+##### <a name="layer-transparency"></a>圖層透明度
+
+如果您的地圖包含數個圖層，則其在轉譯具有某種程度透明度的圖層時可能會很有用，以便其他圖層上的項目仍然可見。
+
+若要設定圖層的透明度值，請遵循下列步驟：
+
+1. 在 [符號學] 窗格中，展開 [透明度] 類別。
+
+2. 在文字方塊中輸入百分比，或將滑桿移到左邊 (較不透明) 或右邊 (較透明)。
+
+##### <a name="symbol-style"></a>符號樣式
+
+符號樣式可讓您微調地圖上的資料呈現方式。 預設符號樣式是以選取的位置類型與地圖佈景主題為基礎，而且可用的樣式選項會根據包含值之欄位區與那些值的本質而有所不同。
+
+若要變更符號樣式，請遵循下列步驟：
+
+1. 在 [符號學] 窗格中，展開 [符號樣式] 類別。
+
+2. 視需要變更符號設定。 選擇符號圖形、色彩、透明度與外框色彩、粗細與透明度。 展開 [符號大小] 類別以變更那些選項；視您的資料性質與選取的地圖佈景主題而定，會顯示不同的選項。
+
+    以下範例顯示設為 [大小] 的地圖佈景主題，以及數個調整透明度、樣式與大小的符號樣式。
+
+    ![地圖大小與符號](media/power-bi-visualizations-arcgis/arcgis-tutorial-13.png)
+
+3. 當您完成設定樣式選項時，請關閉 [符號學] 窗格。
+
+### <a name="analyze-your-data"></a>分析您的資料
+
+ArcGIS Maps for Power BI 提供數種工具，可讓您探索資料中的模式，並使用地圖來訴說精彩的故事。
+
+分析功能包括：
+
+- 選取地圖上的位置
+- 搜尋特定的地址、地點或景點
+- 新增參考圖層以提供更多內容
+- 尋找指定半徑或行駛時間區域內的位置
+- 新增卡片，以顯示地圖上顯示之區域的人口統計詳細資料
+
+#### <a name="select-locations"></a>選取位置
+
+ArcGIS Maps for Power BI 提供數種不同的選取工具，可協助您選取地圖上的位置。 視目前在 [圖層] 清單中選取的圖層類型而定，會出現不同的工具。
+
+若要顯示選取工具，請遵循下列步驟：
+
+1. 從地圖工具，按一下 [選取工具] 按鈕 ![選取工具](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-07.png) 以展開工具組。
+
+    有四個可用的選取工具；視目前作用中的圖層類型而定，不同的工具可能會出現在 [選取工具] 功能表中。 因為此範例中的地圖只包含資料層，所以只會顯示 [單一選取] 與 [方塊選取] 工具。
+    
+    | **工具** | **說明** |
+    | --- | --- |
+    | ![單一選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-08.png) | **單一選取**：這是可用於按一下個別位置的單一選取工具；這是預設的選取工具。 按住 Ctrl 並按一下以選取多個位置。按一下地圖上的資料位置，就會加以取並觸發與其他視覺效果的互動。按一下參考圖層上的圖釘或位置以顯示其工具提示。 |
+    | ![方塊選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-09.png)  | **方塊選取**：拖曳矩形選取範圍以選取多個位置，或按一下個別位置加以選取。如同選取工具，按一下參考圖層上的圖釘或位置會顯示其工具提示。當方塊選取工具處於作用中狀態時，您無法移動瀏覽地圖。 |
+    | ![參考圖層選取圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-10.png)  | **參考圖層選取**：如果您已將[參考圖層](https://doc.arcgis.com/en/maps-for-powerbi/design/add-a-reference-layer.htm)新增到地圖，請使用此工具來選取位置，方法是按一下參考圖層上的區域。 參考上分隔區域內的位置會反白顯示；地圖其他區域中的位置無法使用。只有在地圖包含一或多個參考圖層，且參考圖層目前為作用中時，才會顯示此工具。 |
+    | ![行駛時間選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-11.png)  | **行駛時間選取**：如果您已在地圖上新增[行駛時間區域](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm)，請使用行駛時間區域選取工具來選取已定義區域內的資料位置。 |
+    
+2. 選取地圖上的一或多個位置。 您一次最多可選取 250 個資料點。
+
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[選取地圖上的位置](https://doc.arcgis.com/en/maps-for-powerbi/design/select-features-on-the-map.htm)。
+
+#### <a name="pin-a-location"></a>釘選位置
+
+釘選地圖上的特定地址、地點或景點。 針對此範例，您將會搜尋匹茲堡國際機場。
+
+若要釘選位置，請遵循下列步驟：
+
+1. 從地圖工具，按一下 [搜尋] 按鈕 ![[搜尋] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-04.png) 以開啟 [搜尋] 窗格。
+2. 在 [搜尋] 方塊中，輸入**匹茲堡國際**關鍵字。
+
+    關鍵字可以包含地址、地點或景點。 當您輸入時，會出現類似的最近搜尋或以類似關鍵字為基礎的建議。
+
+3. 從結果清單，選擇 [匹茲堡國際機場]，然後按一下 [關閉]。
+
+    地圖上會出現一個符號，而且地圖會自動縮放至該位置。 只有在目前的工作階段期間，才會在地圖上保留圖釘；無法隨著地圖儲存釘選的位置。 釘選的位置也會顯示為 [圖層] 清單中的圖層；您可以重新命名、顯示或隱藏圖層，或將其從地圖上移除，就像處理其他圖層一樣。
+
+4. 若要變更圖釘的色彩，請在地圖視覺效果的 [格式] 窗格中展開 [搜尋] 類別，然後選擇新的色彩。
+
+> [!NOTE]
+> [搜尋] 功能取代了先前在 ArcGIS Maps for Power BI 中提供的釘選功能。
+
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[釘選位置](https://doc.arcgis.com/en/maps-for-powerbi/design/pin-locations.htm)。
+
+#### <a name="add-a-reference-layer"></a>新增參考圖層
+
+參考圖層會針對您已在地圖上顯示的 Power BI 資料提供內容。 參考圖層可以包含人口統計資料，例如家庭收入、年齡或教育程度。 其也可以包含 ArcGIS Online 上的公開共用功能圖層，這些圖層提供有關地圖上位置周圍區域的詳細資訊。
+
+##### <a name="add-a-demographic-layer"></a>新增人口統計圖層
+
+標準 ArcGIS Maps for Power BI 帳戶包括精心設計的美國人口統計圖層選項，有助於將來自 Power BI 的資料與內容保持相關。
+
+若要新增人口統計圖層，請遵循下列步驟：
+
+1. 從地圖工具，按一下 [分析工具] 按鈕 ![[分析工具] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-12.png) 以展開工具組。
+2. 按一下 [參考圖層] 按鈕 ![參考圖層選取](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-13.png)。
+
+    [參考圖層] 窗格隨即出現，並顯示 [人口統計] 索引標籤與其圖層選項。
+
+3. 在資源庫中捲動，然後在您要新增到地圖的圖層縮圖上按一下 [新增]。
+
+    針對此範例，請尋找 [2016 美國平均家庭收入] 圖層，然後按一下 [新增]。
+    
+    地圖會更新以顯示新的圖層。
+    
+    ![人口統計圖層](media/power-bi-visualizations-arcgis/arcgis-tutorial-14.png)
+    
+人口統計參考圖層是互動式的；按一下某區域即可檢視包含更多資訊的工具提示。 您也可以使用 [參考選取] 工具，[在地圖上選取落於參考圖層上之區域內的區域](https://doc.arcgis.com/en/maps-for-powerbi/design/select-features-on-the-map.htm)。
+
+##### <a name="add-a-reference-layer-from-arcgis"></a>從 ArcGIS 新增參考圖層
+
+ArcGIS Maps for Power BI 可讓您在 ArcGIS 上搜尋公開共用的功能層，讓您可以存取數以千計的參考圖層，這些圖層提供有關資料層位置周圍區域的資訊。 當您使用有效的 ArcGIS 帳戶登入 ArcGIS Maps for Power BI 時，您可以搜尋組織中的內容、組織的群組或公開內容。 在此範例中，因為您使用的是標準帳戶，所以只有公開共用的內容會出現在搜尋結果中。
+
+若要新增 ArcGIS 參考圖層，請遵循下列步驟：
+
+1. 在 [參考] 窗格中，按一下 [ArcGIS] 索引標籤。
+
+2. 在 [搜尋] 欄位中，輸入**美國國會地區**，然後按 **Enter**。
+
+    資源庫會填入數個可能的結果。
+
+3. 找出 [美國 116th 國會地區] 圖層，然後按一下 [新增]。
+
+    地圖會更新以顯示新的圖層。
+    
+    ![參考圖層](media/power-bi-visualizations-arcgis/arcgis-tutorial-15.png)
+    
+ArcGIS 參考圖層是互動式的；按一下某區域即可檢視包含更多資訊的工具提示。 您也可以使用 [參考選取] 工具，[在地圖上選取落於參考圖層上之區域內的區域](https://doc.arcgis.com/en/maps-for-powerbi/design/select-features-on-the-map.htm)。
+
+#### <a name="find-nearby-locations"></a>尋找附近位置
+
+您可以使用地圖上的位置 (包括釘選的位置) 作為起點，來尋找並選取地圖上的附近位置。 例如，如果您搜尋特定景點，則可以在地圖上選取該地點之指定行駛時間或距離內的位置。
+
+在此範例中，您將使用先前釘選的匹茲堡國際機場作為起點，來尋找機場 100 英里內的位置。 使用類似的步驟來尋找指定行駛時間內的位置。
+
+若要尋找距離原點指定行駛距離內的位置，請遵循下列步驟：
+
+1. 從地圖工具，按一下 [分析工具] 按鈕 ![[分析工具] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-12.png) 以展開工具組。
+
+2. 按一下 [行駛時間] 按鈕 ![行駛時間圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-14.png)。
+
+    [行駛時間] 窗格隨即出現。
+
+3. 按一下單一選取工具，然後在地圖上選取您稍早釘選的 [匹茲堡國際機場] 位置。
+4. 從 [搜尋區域] 下拉式功能表，選擇 [半徑]，並指定 **100** 英里的距離。
+5. 按一下 [確定]  。
+
+    地圖會顯示圍住已釘選之機場位置的圓圈。 [行駛時間] 窗格會展開以顯示行駛距離區域的樣式選項。
+    
+    ![尋找附近位置](media/power-bi-visualizations-arcgis/arcgis-tutorial-16.png)
+    
+    行駛距離區域也會顯示為 [圖層] 清單中的圖層；您可以重新命名、顯示或隱藏圖層，或將其從地圖上移除，就像處理其他圖層一樣。
+
+6. 在 [圖層] 清單中行駛時間圖層為作用中的情況下，使用行駛時間選取工具來按一下行駛距離區域。
+
+    已選取落在搜尋區域內的位置；地圖上未選取的位置會顯示得比較小或變得更透明。 其他視覺效果也會更新，以反映選取的位置。
+
+如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[尋找附近位置](https://doc.arcgis.com/en/maps-for-powerbi/design/find-nearby-locations.htm)。
+
+#### <a name="add-infographics-cards"></a>新增資訊圖卡片
+
+就像參考圖層一樣，資訊圖卡片提供有關地圖上區域的其他詳細資料。 資訊圖卡會在地圖頂端進行版面配置，而且會顯示有關所選位置周邊區域的特定人口統計資訊，或目前地圖範圍中顯示之一般區域的人口統計資訊。 如需詳細資訊，請參閱 ArcGIS Maps for Power BI 線上說明中的[新增資訊圖卡片](https://doc.arcgis.com/en/maps-for-powerbi/design/add-infographics.htm)。
+
+### <a name="get-help"></a>取得協助
+
+Esri 提供有關 ArcGIS Maps for Power BI 的豐富線上文件。
+
+若要從視覺效果存取 ArcGIS Maps for Power BI 線上說明，請遵循下列步驟：
+
+1. 從地圖工具，按一下 [設定] 按鈕 ![[設定] 圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-15.png)。
+
+2. 在 [設定] 窗格上，按一下 [說明] 按鈕。
+3. 在出現的確認視窗中，按一下 [確定]。
+
+    ArcGIS Maps for Power BI 線上說明會在瀏覽器視窗中開啟。
+    
+    - 在 ArcGIS Maps for Power BI 線上說明中尋找[常見問題集](https://doc.arcgis.com/en/maps-for-powerbi/get-started/pbi-faq.htm#anchor5)的答案。
+    - 您可以在與 [**ArcGIS Maps for Power BI** 相關的 Power BI 社群討論串](https://go.microsoft.com/fwlink/?LinkID=828771)中詢問問題、尋找最新資訊及尋找答案。
+    - 如果您有建議的改進項目，請將其提交到 [Power BI 的集思廣益清單](https://ideas.powerbi.com/)。
+    
+### <a name="manage-the-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>管理組織內的 ArcGIS Maps for Power BI 使用狀況
+
+Power BI 可讓設計人員、Power BI 系統管理員與使用者系統管理員管理 ArcGIS Maps for Power BI 的使用狀況。 下列各節概述每個角色可以採取的動作。
+
+#### <a name="designer-options"></a>設計工具選項
+
+在 Power BI Desktop 中，設計人員可在 [安全性] 索引標籤停用 ArcGIS Maps for Power BI。選取 [檔案]  >  [選項和設定]，然後選取 [選項]  >  [安全性]。 停用時，就不會預設載入 ArcGIS 地圖。
+
+![設計工具選項](media/power-bi-visualizations-arcgis/arcgis-tutorial-17.png)
+
+#### <a name="administrator-options"></a>系統管理員選項
+
+在 Power BI 服務中，系統管理員可以關閉所有使用者的 ArcGIS Maps for Power BI。 選取 [設定] > [系統管理入口網站] > [租用戶設定]。 停用後，Power BI 的 [視覺效果] 窗格中即不再顯示 ArcGIS Maps for Power BI 圖示。
+
+![系統管理員選項](media/power-bi-visualizations-arcgis/arcgis-tutorial-18.png)
+
+#### <a name="user-administrator-options"></a>使用者系統管理員選項
+
+Power BI Desktop 支援使用 [群組原則] 來停用整個組織部署電腦的 ArcGIS Maps for Power BI。
+
+| **Attribute** | **ReplTest1** |
+| --- | --- |
+| Key | Software\Policies\Microsoft\Power BI Desktop |
+| valueName | EnableArcGISMaps |
+
+值為 1 (十進位) 時，表示啟用 ArcGIS Maps for Power BI。
+
+值為 0 (十進位) 時，表示停用 ArcGIS Maps for Power BI。
 
 ## <a name="considerations-and-limitations"></a>考量與限制
+
 ArcGIS Maps for Power BI 可在下列服務和應用程式中使用：
 
-|服務/應用程式  |可用性  |
-|---------|---------|
-|Power BI Desktop     |     是    |
-|Power BI 服務 (app.powerbi.com)     |    是     |
-|Power BI 行動應用程式     |  是      |
-|Power BI 的發佈至網路功能     |  否       |
-|Power BI Embedded     |     否    |
-|Power BI 服務內嵌 (PowerBI.com)  | 否 |
+| 服務/應用程式 | 可用性 |
+| --- | --- |
+| Power BI Desktop | 是 |
+| Power BI 服務 (powerbi.com) | 是 |
+| Power BI 行動應用程式\* | 是 |
+| Power BI 的發佈至網路功能 | 否 |
+| Power BI Embedded | 否 |
+| Power BI 服務內嵌 (powerbi.com) | 否 |
+| Power BI 報表伺服器 | 否 |
 
+\*在行動環境中，您可以檢視使用 Power BI ([標準帳戶](https://doc.arcgis.com/en/maps-for-powerbi/get-started/account-types.htm)) 隨附之 ArcGIS Maps for Power BI 視覺效果所建立的地圖。 在行動環境中，不支援包含來自 ArcGIS 之進階版內容的地圖。
 
-## <a name="how-do-arcgis-maps-for-power-bi-work-together"></a>如何搭配 ArcGIS Maps for Power BI 運作？
-ArcGIS Maps for Power BI 由 Esri (https://www.esri.com) 提供。 因此，您的 ArcGIS Maps for Power BI 使用方式受到 Esri 的[條款](https://go.microsoft.com/fwlink/?LinkID=8263222)及[隱私權原則](https://go.microsoft.com/fwlink/?LinkID=826323)的規範。 如果 Power BI 使用者想要使用 ArcGIS Maps for Power BI 的視覺效果，就必須接受同意對話方塊 (如需詳細資訊，請參閱＜使用者同意＞)。  Esri 的 ArcGIS Maps for Power BI 使用方式受到 Esri 條款及隱私權原則的規範，同意對話方塊也提供相關連結。 每位使用者第一次使用 ArcGIS Maps for Power BI 之前都必須先同意。 一旦使用者接受同意對話方塊，繫結至視覺效果的資料就會傳送至 Esri 服務至少進行地理編碼，這表示會將位置資訊轉換成可在地圖上表示的緯度和經度資訊。 您應該假設任何繫結至資料視覺效果的資料都可能會傳送至 Esri 服務。 Esri 提供基本地圖、空間分析、地理編碼等服務。ArcGIS Maps for Power BI 視覺效果透過受到 Esri 所提供及維護的憑證保護的 SSL 連線與這些服務互動。 您可以從 Esri 的 [ArcGIS Maps for Power BI 產品頁面](https://www.esri.com/powerbi)取得 ArcGIS Maps for Power BI 的其他資訊。
-
-### <a name="power-bi-plus"></a>Power BI Plus
-
-![選取 Plus 圖示以註冊或登入](media/power-bi-visualizations-arcgis/power-bi-plus.png)
-
-當使用者透過 ArcGIS Maps for Power BI 註冊由 Esri 提供的 Plus 訂閱時，即開始與 Esri 的直接關係。 Power BI 不會將使用者的個人資訊傳送至 Esri。 使用者使用自己的 AAD 身分識別登入並信任 Esri 提供的 AAD 應用程式。 如此一來，使用者便可以直接與 Esri 共用其個人資訊。 一旦使用者將 Plus 內容新增至 ArcGIS Maps for Power BI 視覺效果，則想要檢視或編輯該視覺效果的同事也需要 Esri 的 Plus 訂閱。 
-
-如有 Esri 之 ArcGIS Maps for Power BI 運作方式的詳細技術性問題，請透過其支援網站與 Esri 聯繫。
-
-## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-
-**ArcGIS 地圖未顯示**    
 在無法使用 ArcGIS Maps for Power BI 的服務或應用程式中，視覺效果將顯示為帶有 Power BI 標誌的空白視覺效果。
 
-**我在地圖上看不到我所有的資訊**    
-在地圖上對緯度/經度進行地理編碼時，最多可顯示 30,000 個資料點。 對郵遞區號或街道地址等資料點進行地理編碼時，只會對前 15,000 個資料點進行地理編碼。 為位置的名稱或國家/地區進行地理編碼時，不受 1500 個地址的限制。
+下表比較所有 Power BI 使用者可用的標準功能與已登入之 ArcGIS 使用者可用的功能：
 
-**使用 ArcGIS Maps for Power BI 會產生任何費用嗎？**
-
-所有 Power BI 使用者皆可免費使用 ArcGIS Map for Power BI。 它是一個由 **Esri** 所提供的元件，因此，您的使用方式受到 **Esri** 的條款及隱私權原則的規範 (如本文稍早所述)。 如果您有訂閱 ArcGIS **Plus**，則需要付費。
-
-**我收到有關快取將滿的錯誤訊息**
-
-此行為是目前正在解決的 Bug。  在此同時，請選取出現在錯誤訊息中的連結，以取得清除 Power BI 快取的相關指示。
-
-**我可以離線檢視我的 ArcGIS 地圖嗎？**
-
-不能，Power BI 需要網路連線才能顯示地圖。
+| ![已包含圖示](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-17.png) 標準 (Power BI 隨附) | ![ArcGIS 帳戶圖示 1](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-18.png) ![ArcGIS 帳戶圖示 2](media/power-bi-visualizations-arcgis/arcgis-tutorial-icon-19.png) 使用您的 ArcGIS 帳戶 |
+| --- | --- | --- |
+| 底圖 |
+| 4 基本底圖 | 所有 Esri 底圖加上貴組織底圖 (包括自訂底圖) 的存取權 |
+| 地理編碼 |
+| 每個地圖 3,500 個位置 | 每個地圖 10,000 個位置 |
+ | 每個月 10,000 個位置 | 無每月限制 |
+| 參考圖層 |
+| 10 個包含美國人口統計的參考圖層 | 從您的 ArcGIS 組織存取所有 Web 地圖與圖層 |
+ | ArcGIS 中的公開共用功能圖層 | ArcGIS 中的公開共用功能圖層 |
+ | ArcGIS Living Atlas of the World 地圖與圖層 (功能服務) 的存取權 |
+| 資訊圖 |
+| 精心設計的美國人口統計變數圖庫 (7 個類別) | ArcGIS GeoEnrichment 資料瀏覽器 (包括美國與全球人口統計變數) 的完整存取權 |
+|
 
 ## <a name="next-steps"></a>後續步驟
-取得說明：**Esri** 有提供 **ArcGIS Maps for Power BI** 功能集的[完整文件](https://go.microsoft.com/fwlink/?LinkID=828772)。
 
-您可以參與 [**ArcGIS Maps for Power BI** 相關的 Power BI 社群對話](https://go.microsoft.com/fwlink/?LinkID=828771)，提出問題、了解最新資訊、回報問題及尋找解答。
-
-
-[ArcGIS Maps for Power BI 產品頁面](https://www.esri.com/powerbi)
+- [與已和您共用的 ArcGIS 地圖互動](https://doc.arcgis.com/en/maps-for-powerbi/use/explore-maps.htm)
+- [公告 ArcGIS maps for Power BI](https://www.esri.com/arcgis-blog/?s=#ArcGIS%20Maps%20for%20Power%20BI) 更新的部落格文章
+- 有其他問題嗎？ [嘗試在 Power BI 社群提問](https://community.powerbi.com/)

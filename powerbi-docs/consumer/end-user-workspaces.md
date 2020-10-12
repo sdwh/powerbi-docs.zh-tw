@@ -10,12 +10,12 @@ ms.date: 05/20/2020
 ms.author: mihart
 ms.custom: licensing support
 LocalizationGroup: Consumers
-ms.openlocfilehash: ebc402bf317eb99294137260fcd0cd1e9178d9eb
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 5e1da5cc99cbc12b9cbcc41544569f8f0ede9590
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237306"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634013"
 ---
 # <a name="collaborate-in-workspaces"></a>在工作區中共同作業
 
@@ -25,7 +25,7 @@ ms.locfileid: "85237306"
 
  您可從 Power BI 的**首頁**，或從左側功能窗格中選取 [工作區] 或 [我的工作區] 來查看工作區。
 
- ![顯示兩種工作區類型的功能窗格](media/end-user-workspaces/power-bi-home.png)
+ ![螢幕擷取畫面顯示瀏覽窗格，其中顯示兩種工作區類型。](media/end-user-workspaces/power-bi-home.png)
 
 ## <a name="types-of-workspaces"></a>工作區類型
 [我的工作區] 會儲存您擁有並建立的所有內容。 請將它視為您專屬內容的個人沙箱或工作區域。 對於許多 Power BI「取用者」，[我的工作區] 會保持空白，因為您的工作不會牽涉到建立新內容。 根據定義，「取用者」會取用其他人所建立的資料，並使用該資料來制定商務決策。 如果您發現正在建立內容，請考慮改為閱讀[適用於「設計師」的 Power BI 文章](../create-reports/index.yml)。
@@ -34,7 +34,7 @@ ms.locfileid: "85237306"
 
 以下的無花果銷售工作區包含三份報表和一個儀表板。 
 
-![顯示兩種工作區類型的功能窗格](media/end-user-workspaces/power-bi-app-workspace.png)
+![螢幕擷取畫面顯示工作區如何出現在 [工作區] 功能表項目底下，並包含報表和儀表板。](media/end-user-workspaces/power-bi-app-workspace.png)
 
 ## <a name="roles-in-the-workspaces"></a>工作區中的角色
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a3e213107f84f81aef78a52cdb282b70379c7465
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8ee29bcfb85c627ed6e9bb4c33c48b941ded7dd7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237515"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91526807"
 ---
 # <a name="create-card-visualizations"></a>建立卡片視覺效果
 
@@ -102,7 +102,8 @@ ms.locfileid: "85237515"
 5. 繼續探索格式化選項，直到您的卡片完全符合您的喜好。 
 
 ## <a name="considerations-and-troubleshooting"></a>考量與疑難排解
-如果完全看不到問題方塊，請連絡系統或租用戶系統管理員。    
+
+如果完全看不到問題方塊，請連絡您的 Power BI 系統管理員。
 
 ## <a name="next-steps"></a>後續步驟
 [Power BI 中的組合圖](power-bi-visualization-combo-chart.md)

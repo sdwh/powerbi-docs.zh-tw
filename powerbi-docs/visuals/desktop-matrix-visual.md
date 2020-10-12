@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/18/2020
 ms.author: rien
 LocalizationGroup: Visualizations
-ms.openlocfilehash: beb744e1293db077111df8212c0861154aa86242
-ms.sourcegitcommit: caf60154a092f88617eb177bc34fb784f2365962
+ms.openlocfilehash: e96431aaa17b1ae79d940d768a7e160e402c0af3
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "85354700"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635853"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>在 Power BI 中建立矩陣視覺效果
 
@@ -207,7 +207,7 @@ ms.locfileid: "85354700"
 
 如果您有包含網站 URL 的資料行或量值，您可以使用條件式格式設定，將這些 URL 套用到欄位成為作用中連結。 您可在 [格式化] 窗格中的 [設定格式化的條件] 卡片底下找到此選項。
 
-![顯示選取哪些資料列的篩選條件卡片](media/desktop-matrix-visual/power-bi-web-url.png)
+![螢幕擷取畫面顯示與 Web URL 相關聯的格式設定圖示。](media/desktop-matrix-visual/power-bi-web-url.png)
 
 將 [Web URL] 開啟，然後選取某個欄位以作為資料行的 URL 使用。 套用之後，該欄位 (資料行) 中的值將會變成作用中的連結。 將滑鼠暫留在其上方以查看連結，然後選取來跳至該頁面。 
 
