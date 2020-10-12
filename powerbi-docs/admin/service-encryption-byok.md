@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: how-to
 ms.date: 08/13/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 737a8df2f8f7e5d4da50259112ad1afd6ec2ecff
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 404e613f3e30bda3115ec0a9a3b71907b115bbcc
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90856821"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91374882"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi"></a>攜帶您自己的加密金鑰以用於 Power BI
 
@@ -67,7 +67,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 1. 在 [金鑰權限] 下方選取 [解除包裝金鑰] 和 [包裝金鑰]。
 
-    ![PBIX 檔案元件](media/service-encryption-byok/service-principal.png)
+    ![PBIX 檔案選取服務主體和密碼編譯作業](media/service-encryption-byok/service-principal.png)
 
 1. 選取 [確定]****，然後選取 [儲存]****。
 
@@ -80,7 +80,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 1. 選取 RAS 的 [金鑰類型]****，且 [RSA 金鑰大小]**** 為 4096。
 
-    ![PBIX 檔案元件](media/service-encryption-byok/create-rsa-key.png)
+    ![建立金鑰，其中已醒目提示金鑰類型和大小](media/service-encryption-byok/create-rsa-key.png)
 
 1. 選取 [建立]。
 
@@ -90,7 +90,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 1. 確認已選取 [包裝金鑰]**** 和 [解除包裝金鑰]****。 複製 [金鑰識別碼]****，在您啟用 Power BI 中的 BYOK 時使用。
 
-    ![PBIX 檔案元件](media/service-encryption-byok/key-properties.png)
+    ![屬性，其中已醒目提示金鑰識別碼和允許的作業](media/service-encryption-byok/key-properties.png)
 
 ### <a name="soft-delete-option"></a>虛刪除選項
 
@@ -114,7 +114,7 @@ BYOK 僅適用於資料集。 使用者可以上傳至服務的推送資料集�
 
 ### <a name="enable-byok"></a>啟用 BYOK
 
-您必須是 Power BI 服務的租用戶系統管理員，並使用 `Connect-PowerBIServiceAccount` Cmdlet 登入，才能啟用 BYOK。 接著，使用 [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) 來啟用 BYOK，如下列範例所示：
+若要啟用 BYOK，您必須是 Power BI 系統管理員，並使用 `Connect-PowerBIServiceAccount` Cmdlet 登入。 接著，使用 [`Add-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/Add-PowerBIEncryptionKey) 來啟用 BYOK，如下列範例所示：
 
 ```powershell
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: c97a303a5b3241f49e82aac41d9ed7984c3a5af1
-ms.sourcegitcommit: 002c140d0eae3137a137e9a855486af6c55ad957
+ms.openlocfilehash: 521c1cbc60c6d616c06bde6b6826bb270d3ddba0
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89642303"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375296"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>管理您的資料來源 ─ Analysis Services
 
@@ -219,7 +219,9 @@ EffectiveUserName 不能用在未加入網域的 Analysis Services 伺服器上�
 
 您可能不知道您的 UPN 為何，且您可能不是網域系統管理員。 您可以從工作站使用下列命令來查明您帳戶的 UPN。
 
-    whoami /upn
+```dos
+whoami /upn
+```
 
 結果看起來會與電子郵件地址相似，但這是您網域帳戶上的 UPN。 若您使用 Analysis Services 資料來源進行即時連線，且如果這個 UPN 不符合您用來登入 Power BI 的電子郵件地址，建議您查看如何[對應使用者名稱](#map-user-names-for-analysis-services-data-sources)。
 
@@ -235,7 +237,7 @@ EffectiveUserName 不能用在未加入網域的 Analysis Services 伺服器上�
 
 - 您可以使用 [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) 工具，將本機帳戶同步處理至您的 Azure AD 租用戶。
 
-   Azure AD Connect 工具提供目錄同步處理和設定驗證使用的選項。 選項包括密碼雜湊同步處理、傳遞驗證和同盟。 如果您不是租用戶系統管理員或本機網域系統管理員，請連絡 IT 管理員來協助進行這項設定。
+   Azure AD Connect 工具提供目錄同步處理和設定驗證使用的選項。 選項包括密碼雜湊同步處理、傳遞驗證和同盟。 如果您不是系統管理員或本機網域系統管理員，請連絡 IT 管理員來協助進行這項設定。
 
    使用 Azure AD Connect 可確保 UPN 會在 Azure AD 與本機 Active Directory 執行個體之間相符。
 

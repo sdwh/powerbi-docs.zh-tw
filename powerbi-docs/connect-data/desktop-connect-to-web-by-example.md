@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/21/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0e21c4397708b289d7eccfbdbaa839cbf16c1f0b
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 716439417a0e9cc57188c544f984f4936a424a47
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85224059"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632429"
 ---
 # <a name="get-webpage-data-by-providing-examples"></a>提供範例以取得網頁資料
 
@@ -36,7 +36,9 @@ ms.locfileid: "85224059"
 
 如果您想要按照本文操作，可以使用我們在本文中使用的 [Microsoft 市集 URL](https://www.microsoft.com/store/top-paid/games/xbox?category=classics)：
 
-    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```http
+https://www.microsoft.com/store/top-paid/games/xbox?category=classics
+```
 
 ![Web 對話方塊](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 
@@ -48,14 +50,14 @@ ms.locfileid: "85224059"
 
 在此範例中，我們會擷取頁面上每個遊戲的 [名稱]  和 [價格]  。 我們可以為每個資料行指定幾個來自頁面的範例，藉以完成這項工作。 當您輸入範例時，*Power Query* 會使用智慧型資料擷取演算法來擷取符合範例項目模式的資料。
 
-![範例資料](media/desktop-connect-to-web-by-example/web-by-example_06.png)
+![顯示網際網路資料的螢幕擷取畫面。](media/desktop-connect-to-web-by-example/web-by-example_06.png)
 
 > [!NOTE]
 > 值的建議只包含長度小於或等於 128 個字元的值。
 
 當您滿意從網頁擷取的資料時，請選取 [確定]  以移至 Power Query 編輯器。 您可以套用更多轉換或塑造資料，例如將此資料與來源的其他資料合併。
 
-![範例資料](media/desktop-connect-to-web-by-example/web-by-example_07.png)
+![顯示 Power Query 編輯器中從網際網路擷取到資料的螢幕擷取畫面。](media/desktop-connect-to-web-by-example/web-by-example_07.png)
 
 之後，您可以建立視覺效果，或是在建立您的 Power BI Desktop 報表時使用網頁資料。
 

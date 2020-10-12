@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/16/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 59e99bc44b9b438c76b72addf49beee2b69b8623
-ms.sourcegitcommit: 8b8d54d46470a311d8654abe92b5a223b696af28
+ms.openlocfilehash: 5d5647216caee4eae648d0be0ebf3f453cd17d71
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86437234"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632992"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>使用 URL 中的查詢字串參數篩選報表
 
@@ -37,7 +37,7 @@ ms.locfileid: "86437234"
 
 *URL*?filter=*資料表*/*欄位* eq '*值*'
 
-![螢幕擷取畫面，其中顯示具有篩選條件的 URL。](media/service-url-filters/power-bi-filter-urls7b.png)
+![包含篩選條件 URL 的螢幕擷取畫面。](media/service-url-filters/power-bi-filter-urls7b.png)
 
 * **資料表**和**欄位**名稱區分大小寫，**值**則無。
 * 從報表檢視中隱藏的欄位仍可篩選。
@@ -64,7 +64,7 @@ ms.locfileid: "86437234"
 ?filter=Store/Territory eq 'NC'
 ```
 
-![螢幕擷取畫面，其中顯示具有篩選條件的 URL。](media/service-url-filters/power-bi-filter-urls7.png)
+![包含適用於北卡羅來納州篩選條件 URL 的螢幕擷取畫面。](media/service-url-filters/power-bi-filter-urls7.png)
 
 我們的報表現在已篩選出北卡羅來納州；報表上的所有視覺效果都只會顯示北卡羅來納州的資料。
 
@@ -155,10 +155,10 @@ V3 和 V4 之間還有其他差異。 OData V3 不支援日期，只有 DateTime
 |**[Column]**     |  [ 是 0x005B ] 是 0x005D       |  _x005B_Column_x005D_       |
 |**Column+Plus**     | + 是 0x2B        |  Column_x002B_Plus       |
 
-Table_x0020_Name/Column_x002B_Plus eq 3 ![螢幕擷取畫面，其中顯示轉譯特殊字元的資料表視覺效果。](media/service-url-filters/power-bi-special-characters1.png)
+Table_x0020_Name/Column_x002B_Plus eq 3 ![轉譯 Unicode 特殊字元資料表視覺效果的螢幕擷取畫面。](media/service-url-filters/power-bi-special-characters1.png)
 
 
-Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![螢幕擷取畫面，其中顯示轉譯特殊字元的資料表視覺效果。](media/service-url-filters/power-bi-special-characters2.png)
+Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![轉譯 Power BI 編碼特殊字元資料表視覺效果的螢幕擷取畫面。](media/service-url-filters/power-bi-special-characters2.png)
 
 ### <a name="special-characters-in-values"></a>值中的特殊字元
 
@@ -172,11 +172,11 @@ Table_x0020_Special/_x005B_Column_x0020_Brackets_x005D_ eq '[C]' ![螢幕擷取�
 
 - `?filter=Table/Name eq 'Lee''s Summit'` 會變成：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="Lee's Summit":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-lees.png" alt-text="名稱為 O'Brien":::
 
 - `in` 運算子也支援此逸出：`?filter=Table/Name in ('Lee''s Summit', 'O''Brien')` 會變成：
 
-    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="Lee's Summit 或 O'Brien":::
+    :::image type="content" source="media/service-url-filters/power-bi-url-filter-in.png" alt-text="名稱為 O'Brien":::
 
 ## <a name="use-dax-to-filter-on-multiple-values"></a>使用 DAX 篩選多個值
 

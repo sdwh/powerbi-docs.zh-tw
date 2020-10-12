@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 01/13/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f56acb7859b04f77ca403725740cb7ce472ccb7d
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c056a48c78ae2e46ccd6419ad1b9d1e1a6693847
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85223065"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598785"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>從 Power BI Desktop 連線到 Power BI 服務中的資料集
 
@@ -32,7 +32,7 @@ Power BI 的熱門程度帶來一項挑戰，也就是報表、儀表板及其�
 
 假設 Anna 是小組的商務分析師。 Anna 很擅長建立良好的資料模型，通常稱為資料集。 Anna 能夠建立資料集和報表，然後在 Power BI 服務中共用該報表。
 
-![發行至 Power BI 服務](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
+![顯示 Power BI 服務 [發佈] 按鈕的螢幕擷取畫面。](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 
 每個人都熱愛 Anna 的報表和資料集。 但這就是問題所在。 Anna 小組中每個人都嘗試建立「自己的」  資料集版本，然後與小組共用自己的報表。 於是小組在 Power BI 服務中的工作區，一下子就有了大量報表 (來自不同資料集)。 哪一個是最新的？ 資料集內容完全相同，或只是幾乎相同？ 差別在哪裡？ 有了 Power BI 服務即時連線功能，這一切問題都能迎刃而解。 在下一節中，我們會知道其他人可以如何在他們自己的工作區，並在自己的報表使用 Anna 發佈的資料集，以及讓所有人都能使用同一個穩固、通過檢驗且已發佈資料集來打造自己的獨特報表。
 

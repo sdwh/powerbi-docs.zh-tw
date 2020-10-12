@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: b3e661e8581f07ea9e19f295c30f29e5331754e7
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: e1b93b244a040fba1213fbb3b15bca3114e7075a
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83331363"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91528152"
 ---
 # <a name="manage-storage-mode-in-power-bi-desktop"></a>管理 Power BI Desktop 中的儲存模式
 
@@ -78,7 +78,7 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 ![儲存模式的警告視窗](media/desktop-storage-mode/storage-mode-05.png)
 
-您可將維度資料表 (**Customer**、**Geography** 和 **Date**) 設定為 [雙重]  ，以減少資料集中弱關聯性的數目並改善效能。 弱關聯性通常至少涉及一份聯結邏輯無法推送至來源系統的 DirectQuery 資料表。 因為雙重資料表可以作為 DirectQuery 或匯入資料表使用，所以可避免這種情況。
+您可將維度資料表 (**Customer**、**Geography**，以及 **Date**) 設為 [雙重]，以減少資料集中有限關聯性的數量，並改善效能。 有限關聯性通常至少涉及一份聯結邏輯無法推送至來源系統的 DirectQuery 資料表。 因為雙重資料表可以作為 DirectQuery 或匯入資料表使用，所以可避免這種情況。
 
 傳播邏輯是設計來協助包含許多資料表的模型。 假設模型有 50 份資料表，而您只需要快取某些事實 (交易式) 資料表。 Power BI Desktop 的邏輯會計算出必須設定為 [雙重]  之維度資料表的最小組合，因此您無須執行此作業。
 
@@ -118,15 +118,15 @@ Power BI Desktop 中的儲存模式設定是三個相關功能之一：
 
 延續上一個範例，下列查詢只會參考來自**雙重**模式之 **Date** 資料表的資料行。 因此，查詢應會叫用快取：
 
-![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode-06.png)
+![顯示參考 Date 資料表查詢文字的螢幕擷取畫面。](media/desktop-storage-mode/storage-mode-06.png)
 
 下列查詢只會參考 **Sales** 資料表的資料行，此資料表處於 **DirectQuery** 模式。 因此，它應該「不會」  叫用快取：
 
-![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode-07.png)
+![顯示參考 Sales 資料表查詢文字的螢幕擷取畫面。](media/desktop-storage-mode/storage-mode-07.png)
 
 下列查詢的特別之處在於它結合了兩個資料行。 此查詢不會命中快取。 您可能一開始就預期此查詢會從快取中擷取 **CalendarYear** 值，並從來源中擷取 **SalesAmount** 值，然後合併結果，但相較於將 SUM/GROUP BY 作業提交至來源系統，此方法比較沒有效率。 如果將此作業向下推送至來源，則傳回的資料列數目可能會大幅減少： 
 
-![適用於儲存體模式診斷的指令碼](media/desktop-storage-mode/storage-mode-08.png)
+![顯示同時參考 Date 和 Sales 資料表查詢文字的螢幕擷取畫面。](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > 在合併快取及非快取的資料表時，此行為與 [Power BI Desktop 中的多對多關聯性](desktop-many-to-many-relationships.md)不同。

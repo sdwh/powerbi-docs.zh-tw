@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: bf51270a39f2f07518aaa6d83902519e08f7ab45
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c647f376502e2575b9eef46e9e2a72d5d76e8053
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860570"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635163"
 ---
 # <a name="what-are-power-bi-template-apps"></a>什麼是 Power BI 範本應用程式？
 
@@ -29,12 +29,22 @@ ms.locfileid: "90860570"
 
 Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，透過預先封裝的儀表板與報表 (可以連線到即時資料來源) 取得即時見解。 許多 Power BI 應用程式都已經可以在 [Power BI 應用程式市集](https://app.powerbi.com/getdata/services)中取得。
 
-|  |
-|     :---:      |
-| [![Microsoft Project Web 應用程式](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Microsoft 365 使用情況分析 Web 應用程式](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics) [![Dynamic 365 Business Central - 銷售 Web 應用程式](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Microsoft Forms Pro 客戶滿意度 Web 應用程式](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
-|  |
+:::row:::
+    :::column:::
+        [![Microsoft Project Web 應用程式](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp)
+    :::column-end:::
+    :::column:::
+        [![Microsoft 365 使用情況分析 Web 應用程式](./media/service-template-apps-overview/microsoft365-usage-analytics.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    :::column-end:::
+    :::column:::
+        [![Dynamic 365 商務中心 - 銷售 Web 應用程式](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales)
+    :::column-end:::
+    :::column:::
+        [![Microsoft Forms Pro 客戶滿意度 Web 應用程式](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction)
+    :::column-end:::
+:::row-end:::
 
-## <a name="process"></a>程序
+## <a name="process"></a>處理序
 開發並提交範本應用程式的一般程序牽涉到多個步驟。 某些階段可能包含同時進行的多項活動。
 
 
@@ -43,7 +53,7 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 | **One** | 以 .pbix 檔案建置資料模型及報表 |  | 建立工作區。 匯入 .pbix 檔案。 建立互補儀表板  |  | 註冊為合作夥伴 |
 | **Two** |  |  | 建立測試套件並執行內部驗證        |  | |
 | **Three** | |  | 將測試套件升至生產階段前，以在您的 Power BI 租用戶外進行驗證，並提交至 AppSource  |  | 使用您的生產階段前套件，建立 Power BI 範本應用程式供應項目並啟動驗證程序 |
-| **Four** | |  | 將生產階段前套件升至生產階段 |  | 正式運作 |
+| **Four** | |  | 將生產階段前套件升至生產階段 |  | 上線 |
 
 ## <a name="before-you-begin"></a>開始之前
 
@@ -79,9 +89,9 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 若要將範本應用程式發佈至 Power BI 服務及 AppSource，您必須符合[成為合作夥伴中心發行者](/azure/marketplace/become-publisher)的要求。
  > [!NOTE] 
- > 範本應用程式提交在[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中進行管理。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您應該只有一個 AppSource 供應項目的 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
+ > 範本應用程式提交在[合作夥伴中心](/azure/marketplace/partner-center-portal/create-power-bi-app-offer)中進行管理。 使用相同的 Microsoft 開發人員中心註冊帳戶來登入。 您的 AppSource 供應項目應該只會共有一個 Microsoft 帳戶。 帳戶不應該適用於個別服務或供應項目。
 
-## <a name="tips"></a>祕訣 
+## <a name="tips"></a>提示 
 
 - 確認您的應用程式包含範例資料，讓所有人按一下即可開始使用。 
 - 藉由將應用程式安裝在您的租用戶及次要租用戶中，來仔細檢查您的應用程式。 確認客戶只會看到您要他們看到的項目。 
@@ -91,9 +101,9 @@ Power BI 範本應用程式可讓 Power BI Pro 或 Power BI Premium 使用者，
 
 如需更多建議，請參閱[在 Power BI 中撰寫範本應用程式的提示](service-template-apps-tips.md)。
 
-## <a name="known-limitations"></a>已知的限制
+## <a name="known-limitations"></a>已知限制
 
-| 特徵 | 已知的限制 |
+| 功能 | 已知的限制 |
 |---------|---------|
 |內容：資料集   | 只應剛好出現一個資料集。 只允許 Power BI Desktop (.pbix 檔案) 中建置的資料集。 <br>不支援：來自其他範本應用程式的資料集、跨工作區資料集、編頁報表、Excel 活頁簿 |
 |內容：儀表板 | 不允許即時磚 (也就是指不支援推送或串流資料集) |

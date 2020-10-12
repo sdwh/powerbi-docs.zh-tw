@@ -1,6 +1,6 @@
 ---
 title: Power BI 報表中的篩選類型
-description: 將頁面篩選、視覺效果篩選或報表篩選新增至 Power BI 中的報表
+description: 了解 Power BI 中報表的篩選類型，包括頁面篩選、視覺效果篩選，或是報表篩選。
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 05a14f850907dddcbfbb3a2af4dc53806bcfceb8
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 0dfd55a710ed13f9f17ad2f4e1f01ed5101f189a
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83305442"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749383"
 ---
 # <a name="types-of-filters-in-power-bi-reports"></a>Power BI 報表中的篩選類型
 

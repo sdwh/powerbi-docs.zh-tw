@@ -1,21 +1,21 @@
 ---
 title: 適用於美國政府客戶的 Power BI - 概觀
-description: 美國政府客戶可以將 Power BI Pro 訂用帳戶新增至其 Microsoft 365 政府方案。 了解如何在此服務描述中註冊及檢閱功能可用性。
+description: 美國政府客戶可以將 Power BI Pro 訂用帳戶新增至其 Microsoft 365 政府方案。 了解如何在此服務描述中註冊、連線及檢閱功能可用性。
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/02/2020
+ms.date: 09/23/2020
 ms.author: kfollis
 ms.custom: licensing support
 LocalizationGroup: Get started
-ms.openlocfilehash: 948e0260f13aa243a45ba5bdf6fe59c9699d47a0
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eecc36377ab79e4af4ea7882c24f4eb5a6e376c7
+ms.sourcegitcommit: d153cfc0ce559480c53ec48153a7e131b7a31542
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855096"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "91524619"
 ---
 # <a name="power-bi-for-us-government-customers"></a>適用於美國政府客戶的 Power BI
 
@@ -51,7 +51,8 @@ Microsoft 365 為政府機關提供不同環境，以符合不同的合規性需
 
 * [Microsoft 365 DoD 環境](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) (機器翻譯) 是專為美國國防部所設計。
 
-## <a name="connect-to-power-bi-for-us-government"></a>連線到 Power BI for US Government
+
+## <a name="sign-in-to-power-bi-for-us-government"></a>登入 Power BI 美國政府
 
 用來連線到 Power BI 的 URL 會因政府使用者和商業使用者而有所不同。 若要登入 Power BI，請使用下列 URL：
 
@@ -61,6 +62,38 @@ Microsoft 365 為政府機關提供不同環境，以符合不同的合規性需
 
 您的帳戶可能設定於多個雲端中。 如果您的帳戶是以那種方式設定的，則當您在 Power BI Desktop 登入時，可以選擇要連線的雲端。
 
+## <a name="allow-connections-to-power-bi"></a>允許連線到 Power BI
+
+若要使用 Power BI 服務，您必須允許連線到網際網路上的必要端點。 這些目的地必須可以連線，才能允許網路、Power BI 和其他相依服務間進行通訊。
+
+在下表中，我們會列出要新增到允許清單，允許連線到 Power BI 服務進行一般網站用途的必要端點。 這些端點是美國政府雲端的獨有端點。 Power BI 服務只需為列出的端點開啟 TCP 連接埠 443。 用於取得資料、儀表板和報表整合、Power BI 視覺效果及其他選擇性服務其端點則並非美國政府雲端獨有的端點。 若也要將這些 URL 新增到允許清單，請參閱[將 Power BI URL 新增到允許清單](power-bi-whitelist-urls.md)。
+
+Power BI 的驗證、身分識別和管理都相依於對 Microsoft 365 服務的連線能力。 您也必須連線到 Microsoft 365 來檢視稽核記錄。 若要識別這些服務的端點，請參閱下表中的 Microsoft 365 整合。
+
+### <a name="power-bi-urls-for-general-site-usage"></a>一般網站用途的 Power BI URL
+
+|  目的 | Destination |
+| ---- | ----- |
+| 後端 API | **GCC**：api.powerbigov.us |
+| | **GCC-High**：api.high.powerbigov.us |
+| | **DoD**：api.mil.powerbi.gov.us |
+| 後端 API | **GCC**：*analysis.usgovcloudapi.net |
+| | **GCC High**：*.high.analysis.usgovcloudapi.net |
+| | **DoD**：*.mil.analysis.usgovcloudapi.net |
+| 後端 API | **All**：*.pbidedicated.usgovcloudapi.net |
+| 內容傳遞網路 (CDN) | **GCC**：gov.content.powerapps.us |
+| | **GCC High**：high.content.powerapps.us |
+| | **DoD**：mil.content.powerapps.us |
+| Microsoft 365 整合 | **GCC**：[全球端點](https://docs.microsoft.com/microsoft-365/enterprise/urls-and-ip-address-ranges) |
+| | **GCC High**：[美國政府 GCC High 端點](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-gcc-high-endpoints) |
+| | **DoD**：[美國政府 DOD 端點](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-u-s-government-dod-endpoints) |
+| 入口網站 |**GCC**：*.powerbigov.us |
+| | **GCC-High**：*.high.powerbigov.us |
+| | **DoD**：*.mil.powerbigov.us |
+| 服務遙測 | **所有**：dc.services.visualstudio.us |
+| 告知性訊息 (選擇性) | **所有**：dynmsg.modpim.com |
+| NPS 問卷 (選擇性) | **所有**：nps.onyx.azure.net |
+
 ## <a name="connect-government-and-global-azure-cloud-services"></a>連線政府和全球 Azure 雲端服務
 
 Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來開啟與雲端特定執行個體的連線，但是跨雲端網路不同。  若要在公用雲端中的服務與政府社群雲端中的服務之間進行通訊，您必須設定特定防火牆規則。 例如，如果您想要從 Power BI 的政府雲端部署存取 SQL 資料庫的公用雲端執行個體，則在 SQL 資料庫中需要有防火牆規則。 設定適用於 SQL 資料庫的特定防火牆規則，以允許連線到下列資料中心的 Azure Government 雲端：
@@ -69,8 +102,12 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 * USGov 維吉尼亞
 * USGov 德州
 * USGov 亞歷桑那
+* US DoD 東部
+* US DoD 中部
 
-在公用雲端中，有可用的 IP 範圍。 若要取得美國政府雲端 IP 範圍，請下載 [Azure IP 範圍和服務標籤 – 美國政府雲端](https://www.microsoft.com/download/details.aspx?id=57063)檔案。
+若要取得美國政府雲端 IP 範圍，請下載 [Azure IP 範圍和服務標籤 – 美國政府雲端](https://www.microsoft.com/download/details.aspx?id=57063)檔案。 已同時列出 Power BI 和 Power Query 的範圍。
+
+如需 Microsoft Azure Government 雲端服務的詳細資訊，請參閱 [Azure Government 文件](https://docs.microsoft.com/azure/azure-government/)。
 
 若要針對 SQL 資料庫設定防火牆，請參閱[建立和管理 IP 防火牆規則](/azure/sql-database/sql-database-firewall-configure#create-and-manage-ip-firewall-rules) \(部分機器翻譯\)。
 
@@ -78,12 +115,12 @@ Azure 分散於多個雲端。 根據預設，您可以啟用防火牆規則來�
 
 為了符合政府雲端客戶的需求，政府方案與商業方案之間有一些差異。 我們的目標是要在正式運作後 30 天內，讓政府雲端中的所有功能皆可供使用。 在某些情況下，基礎相依性會導致我們無法提供功能。
 
-下列資料表列出特定政府環境中無法使用的功能，以及規劃發行時預估的可用性：
+下表會列出在特定政府環境中無法使用的功能。 我們會包含估計的可用性 (若有規劃發行的話)：
 
 |特徵 |GCC |GCC High |DoD|
 |------|------|------|------|
 |[政府與商業雲端之間的 Azure B2B 共同作業](service-admin-azure-ad-b2b.md) <sup>1</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
-|[使用 Power BI 網頁組件內嵌在 SharePoint Online 中](/esharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可供使用](../media/yes.png)|![可用](../media/yes.png)|![無法使用](../media/no.png)|
+|[使用 Power BI 網頁組件內嵌在 SharePoint Online 中](/sharepoint/dev/spfx/web-parts/overview-client-side-web-parts)|![可供使用](../media/yes.png)|![可用](../media/yes.png)|![無法使用](../media/no.png)|
 |[適用於資料驅動警示的 Power Automate 連線能力](../connect-data/power-bi-data-sources.md)|![可供使用](../media/yes.png)|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|
 |[Teams 中的 Power BI 索引標籤](../collaborate-share/service-collaborate-microsoft-teams.md) <sup>2</sup>|![可供使用](../media/yes.png)|![無法使用](../media/no.png)|![無法使用](../media/no.png)|
 |[容量計量](../admin/service-admin-premium-monitor-portal.md)|2020 年第 3 季 |2020 年第 3 季|2020 年第 3 季|

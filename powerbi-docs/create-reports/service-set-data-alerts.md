@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 04/02/2020
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dab2e4b7bdc3da8278db6765e7233d98d7dba473
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 55d196a9b041f52632300f6e10c00d753ca02a14
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85218715"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635071"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Power BI 服務中的資料警示
 
@@ -46,7 +46,7 @@ ms.locfileid: "85218715"
 
 1. 若要開始，請選取 [+ 新增警示規則]  ，確定已將 [作用中]  滑桿設為 [開啟]  ，並為您的警示提供標題。 磚可幫助您輕鬆地辨識警示。
 
-   ![[管理警示] 視窗](media/service-set-data-alerts/powerbi-alert-title.png)
+   ![顯示 [管理警示] 視窗的螢幕擷取畫面，其中已彈出 [新增警示規則]、[總商店警示]，以及 [警示標題]。](media/service-set-data-alerts/powerbi-alert-title.png)
 
 1. 向下捲動並輸入警示的詳細資料。  在此範例中，您將會建立警示，每天一次在商店數總計超過 100 家時通知您。
 
@@ -93,7 +93,7 @@ ms.locfileid: "85218715"
 
     Power BI 會顯示您為該磚設定的警示。
 
-    ![[管理警示] 視窗](media/service-set-data-alerts/powerbi-see-alerts.png)
+    ![顯示 [管理警示] 視窗的螢幕擷取畫面。](media/service-set-data-alerts/powerbi-see-alerts.png)
 
 1. 若要修改警示，請選取警示名稱左側的箭號。
 

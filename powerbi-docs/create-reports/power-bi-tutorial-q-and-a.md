@@ -8,12 +8,12 @@ ms.topic: how-to
 ms.date: 05/13/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4269ccb5f86a364d2bf4abf89e3184096a368ff3
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c1dc3da67cf6160360833e8702fdc492fa97b803
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234709"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633484"
 ---
 # <a name="use-power-bi-qa-to-explore-your-data-and-create-visuals"></a>使用 Power BI 問與答來探索您的資料及建立視覺效果
 
@@ -33,7 +33,7 @@ ms.locfileid: "85234709"
 
 問與答問題方塊位於儀表板的左上角，這也是您用自然語言輸入問題的地方。 看不到問與答方塊嗎？ 請參閱**取用者問與答**文章中的[考量與疑難排解](../consumer/end-user-q-and-a.md#considerations-and-troubleshooting)。  問與答會辨識您輸入的文字，然後找出哪裡 (哪個資料集) 可尋找解答。 問與答也可以用自動完成、重新描述，和其他文字及視覺輔助工具，協助您建立問題。
 
-![問與答的問題方塊](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
+![顯示 Power BI 儀表板的螢幕擷取畫面，其中包含詢問與資料相關問題的選項。](media/power-bi-tutorial-q-and-a/powerbi-qna.png)
 
 您問題的答案會顯示為互動式的視覺效果，而且每當您修改問題時便會更新。
 
@@ -87,7 +87,7 @@ ms.locfileid: "85234709"
 
 2. 問與答問題方塊會顯示在報表畫布上。 下列範例中，問題方塊顯示在另一個視覺效果之上。 這是正常的，但將空白頁面新增至報表然後才提問，可能會是比較好的做法。
 
-    ![問與答的問題方塊](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
+    ![顯示畫布的螢幕擷取畫面，其中視覺效果上包含了問與答的問題方塊。](media/power-bi-tutorial-q-and-a/power-bi-ask-question.png)
 
 3. 請將游標放在 [問題] 方塊中。 當您輸入時，問與答會顯示可協助您形成問題的建議。
 

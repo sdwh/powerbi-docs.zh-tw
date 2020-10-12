@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 04/02/2020
-ms.openlocfilehash: 2cc37d1296d7f170bf8c6280465e7a3f1aa52e33
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: e0bdb5174c1392e1a2f81a101a62798f82e2b191
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878696"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747704"
 ---
 # <a name="tutorial-build-a-funnel-plot-from-r-script-to-r-visual"></a>教學課程：從 R 指令碼到 R 視覺效果 - 建置漏斗圖
 本文逐步說明如何在 R 視覺效果中使用 R 指令碼來建置漏斗圖。
@@ -66,11 +66,11 @@ ms.locfileid: "87878696"
 
 1. 編輯 *capabilities.json*，並以 `dataset` 取代 `Values` 字串。 這會取代範本中的「角色」名稱，成為像是 R 程式碼中的內容。
 
-   ![前後比較](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
+   ![顯示 JSON 檔案中變更差異比較的螢幕擷取畫面。](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/capabilities-changes.PNG)
 
 1. (選擇性) 編輯 *dependencies.json* 並為 R 指令碼所需的每個 R 套件新增區段。 這會要求 Power BI 在第一次載入視覺效果時自動匯入這些套件。
 
-   ![前後比較](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
+   ![顯示已將內容新增至 cranPackages 項目位置差異比較的螢幕擷取畫面。](./samples/funnel-plot/chapter-3/funnel-r-visual-v01/dependencies-changes.PNG)
 
 1. 使用 `pbiviz package` 命令重新封裝視覺效果，並嘗試將其匯入 Power BI。
 
@@ -119,7 +119,7 @@ ms.locfileid: "87878696"
 
 1. 為使用者新增功能以控制視覺效果元素的色彩和大小，包括 UI 的內部參數。
 
-   ![CV02to03](./media/funnel-plot/diagram-two.PNG)
+   ![顯示兩個工具版本窗格的螢幕擷取畫面，其中已將選項新增到右側的版本。](./media/funnel-plot/diagram-two.PNG)
 
 1. 編輯 *capabilities.json* 並更新 `objects` 區段。 我們會在此定義每個參數的名稱、工具提示和類型，也會決定如何將參數分割成群組 (在此案例中為三個群組)。
 
@@ -274,7 +274,7 @@ ms.locfileid: "87878696"
 
 * 每個 R 視覺效果都會將 `unique` 運算子套用至其輸入資料表。 為了避免移除相同的資料列，請考慮使用唯一識別碼來新增額外的輸入欄位，並在 R 程式碼中予以忽略。   
 
-* 如果您有 Power BI 帳戶，請使用 Power BI 服務來[即時](/power-bi/developer/visuals/custom-visual-develop-tutorial/)開發視覺效果，而不使用 `pbiviz package` 命令將其重新封裝。
+* 如果您有 Power BI 帳戶，請使用 Power BI 服務來[即時](./custom-visual-develop-tutorial.md)開發視覺效果，而不使用 `pbiviz package` 命令將其重新封裝。
 
 ### <a name="html-widgets-gallery"></a>HTML Widget 資源庫
 瀏覽 [HTML Widget 資源庫](http://gallery.htmlwidgets.org/)中的視覺效果，以用於您的下一個視覺效果。 為了方便起見，我們建立了[視覺效果專案存放庫](https://github.com/Microsoft/PowerBI-visuals/tree/master/RVisualTutorial/TutorialFunnelPlot/chapter4_RHTMLCustomVisual/multipleRHTML)，有超過 20 個互動式 HTML 視覺效果可供您選擇！
@@ -291,15 +291,15 @@ ms.locfileid: "87878696"
 1. 變更 *pbiviz.json* 中的中繼資料，其中最重要的是 `guid` 欄位。
 1. 視需要重新封裝並繼續自訂視覺效果。 
 
-![CV02to03](./media/funnel-plot/diagram-four.PNG)
+![顯示本文先前所討論六個小工具的螢幕擷取畫面。](./media/funnel-plot/diagram-four.PNG)
 
-![CV02to03](./media/funnel-plot/diagram-five.PNG)
+![顯示本文先前所討論另外六個小工具的螢幕擷取畫面。](./media/funnel-plot/diagram-five.PNG)
 
 > [!NOTE]
 > 這個專案中的 Widget 並非全部受服務支援。
 
 ## <a name="next-steps"></a>後續步驟
 
-若要深入了解，請參閱 [Power BI 視覺效果](./custom-visual-develop-tutorial.md) 和 [R 視覺效果](/power-bi/visuals/service-r-visuals)的其他教學課程。
+若要深入了解，請參閱 [Power BI 視覺效果](./custom-visual-develop-tutorial.md) 和 [R 視覺效果](../../visuals/service-r-visuals.md)的其他教學課程。
 
 了解如何[開發並提交視覺效果](https://powerbi.microsoft.com/documentation/powerbi-developer-office-store/)至 [Office 市集 (資源庫)](https://store.office.com/appshome.aspx?ui=en-US&rs=en-US&ad=US&clickedfilter=OfficeProductFilter%3aPowerBI&productgroup=PowerBI)。如需進一步的範例，請參閱 [R 指令碼展示](https://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals)

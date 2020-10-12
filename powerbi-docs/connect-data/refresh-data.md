@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 06/16/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ddb5e4d1476025965e6227e9ae443441f2060fcd
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: c5be2a9fa87b55d0a1b98e284ec4b6b7e1dd9c0c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219727"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633369"
 ---
 # <a name="data-refresh-in-power-bi"></a>Power BI 的資料重新整理
 
@@ -284,7 +284,8 @@ in
  
 若要判斷您的動態資料來源是否可以重新整理，請在 [Power Query 編輯器] 中開啟 [資料來源設定] 對話方塊，然後選取 [目前檔案中的資料來源]。 在出現的視窗中，尋找下列警告訊息，如下圖所示：
  
-    Some data sources may not be listed because of hand-authored queries.
+> [!NOTE]
+> 因為手寫查詢，所以可能不會列出部分資料來源。
 
 ![動態資料來源指標](media/refresh-data/dynamic-data-source.png)
 

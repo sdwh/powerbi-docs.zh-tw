@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 18fae9e7bca385ee10fed90649430a8062054b2e
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: f1892af9d943df1f4abf39aa55ae99c5e6ee1b34
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85219566"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633415"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>從報表建立 Power BI 儀表板
 您已閱讀 [Power BI 的儀表板簡介](service-dashboards.md)，現在想要建立自己的儀表板。 建立儀表板的方式有很多種。 例如，您可以建立儀表板：從報表、從頭建立、從資料集、或複製現有的儀表板。  
@@ -27,7 +27,7 @@ ms.locfileid: "85219566"
 - 如何釘選磚 
 - 如何在儀表板與報表之間巡覽 
  
-![儀表板](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![顯示 Power BI 儀表板的螢幕擷取畫面，其中包含數個視覺效果。](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
 > 儀表板是 Power BI 服務的功能，而不是 Power BI Desktop 的功能。 雖然您無法在 Power BI 行動裝置應用程式中建立儀表板，但可以在該處[檢視和共用](../consumer/mobile/mobile-apps-view-dashboard.md)儀表板。
@@ -59,7 +59,7 @@ ms.locfileid: "85219566"
     ![[商務用 OneDrive] 視窗](media/service-dashboard-create/power-bi-import.png)
 8. 出現成功訊息時，選取 **x** 將其關閉。
 
-   ![成功訊息](media/service-dashboard-create/power-bi-view-datasetnew.png)
+   ![顯示成功訊息的螢幕擷取畫面，其中已彈出 X。](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
 > 您知道嗎？ 您可以透過選取頂端具有三條線的圖示 ![導覽窗格顯示或隱藏圖示](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png) 來縮小導覽窗格。 這樣可讓報表本身有更多空間可用。
@@ -77,17 +77,17 @@ ms.locfileid: "85219566"
     ![將游標停留在磚上方](media/service-dashboard-create/power-bi-hover.png)
 4. 因為要建立新的儀表板，所以選取 [新增儀表板]  選項並為其命名。
 
-    ![[釘選到儀表板] 對話方塊](media/service-dashboard-create/power-bi-pin-tile.png)
+    ![顯示 [釘選到儀表板] 視窗的螢幕擷取畫面。](media/service-dashboard-create/power-bi-pin-tile.png)
 5. 當您選取 [釘選]  時，Power BI 會在目前的工作區中建立新的儀表板。 在**已釘選到儀表板**訊息出現後，請選取 [移至儀表板]  。 如果系統提示您儲存報表，請選擇 [儲存]  。
 
-    ![成功訊息](media/service-dashboard-create/power-bi-pin-success.png)
+    ![顯示成功訊息的螢幕擷取畫面，其中已彈出 [前往儀表板] 選項。](media/service-dashboard-create/power-bi-pin-success.png)
 
     Power BI 會開啟新的儀表板。 儀表板具有一個磚：您剛釘選的視覺效果。
 
    ![具有一個磚的儀表板](media/service-dashboard-create/power-bi-pinned.png)
 7. 選取磚以返回報表。 再多釘選幾個磚到新的儀表板上。 當 [釘選至儀表板]  視窗出現時，請選取 [現有儀表板]  。  
 
-   ![[釘選到儀表板] 對話方塊](media/service-dashboard-create/power-bi-existing-dashboard.png)
+   ![顯示 [釘選到儀表板] 視窗的螢幕擷取畫面，其中已彈出 [現有儀表板] 選項。](media/service-dashboard-create/power-bi-existing-dashboard.png)
 
 ## <a name="pin-an-entire-report-page-to-the-dashboard"></a>將整份報表頁面釘選至儀表板
 與其一次釘選一個視覺效果，您可以[將整個報表頁面釘選為動態磚  ](service-dashboard-pin-live-tile-from-report.md)。 讓我們來試試看。
@@ -102,11 +102,11 @@ ms.locfileid: "85219566"
 
 3. 當 [釘選至儀表板]  視窗出現時，請選取 [現有儀表板]  。
 
-   ![[釘選到儀表板] 對話方塊](media/service-dashboard-create/power-bi-pin-live2.png)
+   ![顯示 [釘選到儀表板] 視窗的螢幕擷取畫面，其中已選取 [現有儀表板] 選項及 [動態釘選] 按鈕。](media/service-dashboard-create/power-bi-pin-live2.png)
 
 4. 出現「成功」訊息後，請選取 [移至儀表板]  。 您將能在那裡看見從報表釘選的磚。 在下列範例中，我們從報表的第一頁釘選了兩個磚，並從第二頁釘選了一個動態磚。
 
-   ![儀表板](media/service-dashboard-create/power-bi-dashboard.png)
+   ![顯示 Power BI 儀表板的螢幕擷取畫面，其中包含本文的視覺效果。](media/service-dashboard-create/power-bi-dashboard.png)
 
 ## <a name="next-steps"></a>後續步驟
 恭喜您建立了第一個儀表板！ 現在您有了儀表板，您可以用來做很多事。 遵循下列其中一篇建議的文章，或自行開始探索： 

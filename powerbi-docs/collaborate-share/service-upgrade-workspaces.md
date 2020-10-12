@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: how-to
-ms.date: 05/07/2020
+ms.date: 09/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 432c526479465da5d22e17172582c7f1d2cceb0c
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e2b6c8d916cc3c180ab9adb9b6ea6af8eaefea4
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85225285"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633047"
 ---
 # <a name="upgrade-classic-workspaces-to-the-new-workspaces-in-power-bi"></a>將傳統工作區升級至 Power BI 中的新工作區
 
@@ -27,7 +27,7 @@ ms.locfileid: "85225285"
 
 不過，您的工作區可能會有所變更，您必須注意並進行規劃。 例如，新的工作區體驗中不支援內容套件。 請參閱此文章稍後的[升級考量與限制](#upgrade-considerations-and-limitations)一節。
 
-## <a name="things-to-do-after-upgrading"></a>升級後要做的事
+## <a name="things-to-plan-before-upgrading"></a>升級前要規劃的事項
 
 升級之後，您應該進行幾件事。 升級之前，最好先進行規劃：
 - 請檢閱存取清單，並了解[升級後的權限](#permissions-after-upgrade)。
@@ -52,7 +52,7 @@ ms.locfileid: "85225285"
 
 2. 升級期間，您會看到 [正在升級] 訊息。 升級您的工作區通常需要不到一分鐘的時間。
 
-1. 升級完成後，您會看到 [成功] 對話方塊。 我們建議您閱讀[在 Power BI 的新工作區中組織工作](service-new-workspaces.md)，讓您熟悉新的工作區與傳統工作區有何不同。
+1. 升級完成後，您會看到 [成功] 對話方塊。 您會看到新工作區體驗，且其具備相同的名稱和內容。 我們建議您閱讀[在 Power BI 的新工作區中組織工作](service-new-workspaces.md)，讓您熟悉新的工作區與傳統工作區有何不同。
 
 ### <a name="impact-on-other-workspace-users"></a>對其他工作區使用者的影響
 
@@ -62,6 +62,7 @@ ms.locfileid: "85225285"
 
 ## <a name="upgrade-considerations-and-limitations"></a>升級考量與限制
 
+- 在升級之後，傳統工作區的內容會出現在新工作區中。 其也會列在 [與我共用] 中。
 - 您工作區的 URL 和識別碼、它所包含的內容，以及從工作區發佈的應用程式不會變更。 安裝在工作區中的內容套件內容會分開處理。 如需詳細資訊，請參閱此文章中的[升級期間的內容套件](#content-packs-during-upgrade)。
 - 新的工作區體驗中不支援內容套件。 請閱讀[已發佈的內容套件](#published-content-packs)或[已安裝的內容套件](#installed-content-packs)的相關章節，以了解如何在升級期間處理它們。 我們建議您先刪除工作區中已安裝或已發佈的內容套件，然後再進行升級。
 - Power BI 中工作區升級不會影響到傳統工作區的 Microsoft 365 群組。 任何小組、SharePoint 網站、信箱或由 Microsoft 365 管理的其他資源都不會變更。 升級 Power BI 工作區之後，它們會保持不變。 Microsoft 365 群組會繼續以先前的方式存在。
@@ -111,7 +112,7 @@ ms.locfileid: "85225285"
 
 1. 在工作區內容清單頂端的功能表列中，選取 [設定] 以存取工作區設定。
 
-    ![工作區設定](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
+    ![顯示功能表列中選取 [設定] 的螢幕擷取畫面。](media/service-upgrade-workspaces/power-bi-new-workspace-settings.png)
 
 2. 在 [進階] 下，工作區 [連絡人清單] 已設定為工作區升級來源的 Microsoft 365 群組。 您可以將更多使用者或群組新增至連絡人清單，或將其切換至工作區系統管理員。
 
@@ -119,11 +120,11 @@ ms.locfileid: "85225285"
 
 ### <a name="the-workspace-onedrive"></a>工作區 OneDrive 
 
-升級之後，工作區 **OneDrive** 會連線到 Microsoft 365 群組 SharePoint 文件庫。 此文件庫會在 [取得資料] > [檔案] 體驗中顯示為 [OneDrive] 選項。 請注意，如有工作區使用者不屬於 Microsoft 365 群組，則並非所有工作區使用者都可擁有該文件庫的權限。
+升級之後，工作區 **OneDrive** 會連線到 Microsoft 365 群組 SharePoint 文件庫。 此文件庫會在 [取得資料] > [檔案] 體驗中顯示為 [OneDrive] 選項。 如有工作區使用者不屬於 Microsoft 365 群組，則並非所有工作區使用者都可擁有該文件庫的權限。
 
 ## <a name="content-packs-during-upgrade"></a>升級期間的內容套件
 
-新的工作區體驗不支援內容套件。 相反地，請使用應用程式和共用資料集，在工作區中發佈內容。 建議您在升級之前，先從工作區移除已發佈或已安裝的內容套件。 不過，如果您升級時有已發佈或已安裝的內容套件，升級程序會嘗試保留內容，如下所述。  升級之後，就無法還原內容套件或將內容的關聯還原至內容套件。
+新的工作區體驗不支援內容套件。 相反地，請使用應用程式和共用資料集，在工作區中發佈內容。 建議您在升級之前，先從工作區移除已發佈或已安裝的內容套件。 不過，如果升級時有已發佈或已安裝的內容套件，則升級程序會嘗試保留內容，如本文中稍後所述。  升級之後，就無法還原內容套件或將內容的關聯還原至內容套件。
 
 ### <a name="published-content-packs"></a>已發佈的內容套件
 
@@ -148,7 +149,7 @@ ms.locfileid: "85225285"
 
 1. 在工作區內容清單中，選取 [更多選項 (…)]  > [工作區設定]。
 
-    ![工作區設定](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
+    ![顯示選取 [更多選項 (…)] > [工作區設定] 的螢幕擷取畫面。](media/service-upgrade-workspaces/power-bi-workspace-settings-more-options.png)
 
 1. 展開 [進階]，然後選取 [切換回傳統]。 如果您無法使用此選項，請參閱此文章中的[切換回傳統的考慮](#considerations-for-switching-back-to-classic)。
 
@@ -202,10 +203,10 @@ ms.locfileid: "85225285"
    
 ## <a name="known-issues"></a>已知問題
 
-您可能會遇到幾個已知問題：
-- 升級之後，使用者可能會看到 [無法載入模型] 警告對話方塊。 這則訊息為錯誤地顯示且可以忽略。 
-- 升級之後，部分工作區名稱與升級前不同。 發生這種情況時，工作區名稱會還原為先前的工作區名稱，或工作區名稱會變成空白。 若要解決此問題，請將工作區重新命名為想要的名稱。
-- 升級已安裝內容套件的工作區之後，您可能會在工作區中看到在升級前看不到的其他儀表板。 在某些情況下，如果內容套件最近未更新，就會發生這種情況。 您可以安全地移除這些儀表板。
+您在升級後可能會遇到幾個已知問題：
+- 您可能會看到 [無法載入模型] 警告對話方塊。 這則訊息為錯誤地顯示且可以忽略。 
+- 部分工作區名稱與升級前不同。 在這種情況下，工作區名稱會還原為先前的工作區名稱，或工作區名稱會變成空白。 若要解決此問題，請將工作區重新命名為想要的名稱。
+- 在已安裝內容套件的工作區中，您可能會看到升級前無法看見的其他儀表板。 在此情況下，內容套件最近可能沒有更新。 您可以安全地移除這些儀表板。
 
 ## <a name="next-steps"></a>後續步驟
 

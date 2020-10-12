@@ -9,18 +9,18 @@ ms.topic: how-to
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2864e82d5ddc1eb4a70976375cd4da8e57db7e58
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: d4036bb6a2fdc8db7c251a39f5527c54ae1c578b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90859903"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600576"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>在 Power BI Desktop 中使用自訂格式字串
 
 在 **Power BI Desktop** 中使用自訂格式字串，您可以自訂欄位在視覺效果中的顯示方式，並確保您的報表看起來就像您想要的樣子。
 
-![使用自訂格式字串](media/desktop-custom-format-strings/custom-format-strings-01.png)
+![Power BI Desktop 的螢幕擷取畫面，其中已選取自訂格式。 ](media/desktop-custom-format-strings/custom-format-strings-01.png)
 
 
 ## <a name="how-to-use-custom-format-strings"></a>如何使用自訂格式字串
@@ -31,7 +31,7 @@ ms.locfileid: "90859903"
 
 當您從 [格式]  下拉式清單中選取 [自訂]  之後，就可以從常用格式字串清單中選取。 
 
-![使用自訂格式字串](media/desktop-custom-format-strings/custom-format-strings-03.png)
+![顯示自訂格式詳細資料的螢幕擷取畫面。](media/desktop-custom-format-strings/custom-format-strings-03.png)
 
 
 ## <a name="supported-custom-format-syntax"></a>支援的自訂格式語法

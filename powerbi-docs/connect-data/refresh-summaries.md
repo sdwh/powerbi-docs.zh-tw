@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 08/27/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 44aeb5030008d17a9998e8357f23d47524f11512
-ms.sourcegitcommit: 1aaa742c239a3119cdaad698be5a7553b68801fa
+ms.openlocfilehash: 469e2de86d18b9adeb4a7c8aeabeaae1db2a28de
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "89040216"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600445"
 ---
 # <a name="refresh-summaries-for-power-bi"></a>Power BI 的重新整理摘要
 
@@ -53,11 +53,11 @@ ms.locfileid: "89040216"
 
 您可按一下重新整理摘要中的 [排程] 來選取 [排程] 檢視。 [排程] 檢視會顯示當週的排程資訊，並細分為 30 分鐘的時段。 
 
-![[排程] 檢視](media/refresh-summaries/refresh-summaries-02a.jpg)
+![靠近顯示 [重新整理排程] 頁面 [排程] 索引標籤的螢幕擷取畫面。](media/refresh-summaries/refresh-summaries-02a.jpg)
 
 [排程] 檢視非常適合用來判斷重新整理事件是否具備正確的間距，讓所有重新整理都能在不重疊的情況下完成，或判斷您是否排程了執行時間過長的重新整理事件而造成資源競爭。 若您發現此類資源競爭，則建議您調整重新整理排程來避免衝突或重疊，以讓排程重新整理可成功完成。 
 
-![[排程] 檢視](media/refresh-summaries/refresh-summaries-02.jpg)
+![[重新整理排程] 頁面 [排程] 索引標籤的螢幕擷取畫面。](media/refresh-summaries/refresh-summaries-02.jpg)
 
 [已預約的排程時間 (分鐘)] 資料行是每個相關聯資料集最高 60 筆記錄的平均值。 每 30 分鐘時段此數值是為所有排程在該時段啟動的排程重新整理，「以及」任何設為在「前一個」時段啟動，但是其平均持續時間溢出到所選取時段排程重新整理計算的總和。
 
@@ -67,7 +67,7 @@ ms.locfileid: "89040216"
 
 讓我們看一下範例以了解其運作方式。 下列對話方塊會在選取星期日下午 8:30 時段，並按一下 [詳細資料] 時顯示。
 
-![[排程] 檢視](media/refresh-summaries/refresh-summaries-04.jpg)
+![螢幕擷取畫面，其中顯示重新整理所選時間的詳細資料。](media/refresh-summaries/refresh-summaries-04.jpg)
 
 這個時段內有三個會發生的排程重新整理事件。 
 

@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/05/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 81ba595be7262c81cdb68f2a1ed052c45663d7a7
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 108c7cea815475c98a7529a53b9a177ff5fbf405
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85234375"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600162"
 ---
 # <a name="publish-to-power-bi-from-microsoft-excel"></a>從 Microsoft Excel 發佈至 Power BI
 在 Microsoft Excel 2016 和更新版本中，您可以將 Excel 活頁簿直接發佈至 [Power BI](https://powerbi.microsoft.com) 工作區，並在此根據活頁簿的資料建立互動性極高的報表和儀表板。 然後，您就可以與組織中的其他人分享深入解析。
@@ -44,11 +44,11 @@ Excel 支援發佈本機 Excel 檔案。 您不需要將這些檔案儲存至商
 
 當您選取 [發佈] 時，您可以選取想要發佈的目標工作區。 若您的 Excel 檔案存放在商務用 OneDrive 上，您只能發佈到「我的工作區」。 若您的 Excel 檔案存放在本機磁碟上，您可以發佈至「我的工作區」或有權存取的共用工作區。
 
-![發行至 Power BI](media/service-publish-from-excel/pbi_choose_workspace.png)
+![顯示 [發佈到 Power BI] 的螢幕擷取畫面，其中已選取 [我的工作區]。](media/service-publish-from-excel/pbi_choose_workspace.png)
 
 兩個關於如何將活頁簿放入 Power BI 的選項。
 
-![發行至 Power BI](media/service-publish-from-excel/pbi_uploadexport3.png)
+![顯示 [發佈] 的螢幕擷取畫面，其中已選取 [我的工作區]。](media/service-publish-from-excel/pbi_uploadexport3.png)
 
 發佈之後，您發佈的活頁簿內容會匯入 Power BI，並與本機檔案分開。 如果您想要更新 Power BI 中的檔案，則必須再次發佈更新的版本，或者您可以在活頁簿或 Power BI 的資料集上設定排程的重新整理，重新整理資料。
 

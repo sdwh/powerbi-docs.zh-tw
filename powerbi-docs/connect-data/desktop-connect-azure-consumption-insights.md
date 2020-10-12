@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a8d2284a24bb04b175a00a69339ba9e6ac260c10
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7d036af591ae9c5fc44370085480c9266e328745
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858617"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632587"
 ---
 # <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>在 Power BI Desktop 中連線到 Azure 使用量見解資料
 
@@ -110,9 +110,7 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 1. 在左側的 [查詢] 窗格中以滑鼠右鍵按一下 
 2. 在出現的功能表中選取 [新查詢] > [空白查詢]
 
-在 [公式列] 中，鍵入：
-
-    = MicrosoftAzureConsumptionInsights.Contents
+在 [公式列] 中，鍵入： *= MicrosoftAzureConsumptionInsights.Contents*。
 
 下圖顯示隨即出現的範例集合。
 
@@ -141,12 +139,14 @@ Azure 使用量見解可讓您連線至 Azure Enterprise 合約的帳單帳戶�
 ### <a name="step-2-create-a-query-in-advanced-editor"></a>步驟 2：在進階查詢器中建立查詢
 在 [查詢編輯器] 中，從 [常用] 功能區的 [查詢] 區段選取 [進階編輯器]。 在出現的 [進階編輯器] 視窗中，輸入此查詢：
 
-    let    
-        enrollmentNumber = "100",
-        optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
-        data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
-    in     
-        data
+```console
+let    
+    enrollmentNumber = "100",
+    optionalParameters = [ numberOfMonth = 6, dataType="DetailCharges" ],
+    data = MicrosoftAzureConsumptionInsights.Contents(enrollmentNumber, optionalParameters)   
+in     
+    data
+```
 
 ![在 [進階編輯器] 中建立查詢對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_10.png)
 

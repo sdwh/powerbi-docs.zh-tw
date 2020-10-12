@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/20/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: bf7fad8195f28303ae0ab73fb957db87861755e6
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: bf81ec873b822fbb1604378aa508b3ffeb408511
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85237383"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635830"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>將篩選加入 Power BI 報表
 
@@ -77,7 +77,7 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
    
     視覺效果會依據新的篩選而變更。 如果您將報表與篩選一起儲存，報表讀者一開始會看到視覺效果篩選，並且在 [閱讀檢視] 中透過選取或清除值的方式與篩選互動。
      
-    ![已篩選的視覺效果](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    ![顯示反映了篩選值橫條圖的螢幕擷取畫面。](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
     
     當您在用於視覺效果的欄位上使用篩選時，若欄位已彙總 (例如已加總、平均或計數)，則您將針對每個資料點中的「彙總」  值進行篩選。 因此，要求以**本年度銷售額 > 500000** 篩選上面的視覺效果，表示您只會在結果中看到 **13 - Charleston Fashion Direct** 資料點。 [模型量值](../transform-model/desktop-measures.md)上篩選一律會套用至資料點的彙總值。
 
@@ -95,7 +95,7 @@ Power BI 提供許多不同種類的篩選條件，從手動和自動到鑽研�
 
     而且，現在會篩選視覺效果本身，只顯示那些經理所指定商店的本年度銷售額。
      
-    ![已篩選的視覺效果](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
+    ![顯示根據新欄位反映了篩選值橫條圖的螢幕擷取畫面。](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     如果您將報表與此篩選一起儲存，則報表讀者可以在 [閱讀檢視] 中透過選取或清除值的方式與 [區域經理]  篩選互動。
     

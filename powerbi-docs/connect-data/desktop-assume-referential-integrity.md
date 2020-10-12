@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c0a7ef3ef7ce62ca1939791c3dcf198428f1353c
-ms.sourcegitcommit: 181679a50c9d7f7faebcca3a3fc55461f594d9e7
+ms.openlocfilehash: 698abf814b9b93635ba425b2c9d1d30a292714ab
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86034351"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599894"
 ---
 # <a name="apply-the-assume-referential-integrity-setting-in-power-bi-desktop"></a>在 Power BI Desktop 中套用 [採用參考完整性] 設定
 使用 **DirectQuery** 連接到資料來源時，您可以使用 [採用參考完整性] 選項來允許對資料來源執行更有效率的查詢。 這項功能對於基礎資料有幾項需求，而且只有在使用 **DirectQuery** 時才能存取。
@@ -39,7 +39,7 @@ ms.locfileid: "86034351"
    ![Orders 資料表和 Products 資料表的螢幕擷取畫面。](media/desktop-assume-referential-integrity/assume-referential-integrity_2.png)
 2. 在下圖中，請注意 **Orders[DepotID]** 和 **Depots[DepotID]** 之間不存在參考完整性，因為某些 *Orders* 的 **DepotID** 為 *Null*。 因此，您「不」應該設定 [採用參考完整性]。
    
-   ![Orders 資料表和 Products 資料表的螢幕擷取畫面。](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
+   ![Orders 資料表和 Depots 資料表的螢幕擷取畫面。](media/desktop-assume-referential-integrity/assume-referential-integrity_3.png)
 3. 最後，下列資料表中的 **Orders[CustomerID]** 和 **Customers[CustID]** 之間不存在參考完整性；**CustomerID** 包含 *Customers* 資料表中不存在的某些值 (在本例中為 *CustX*)。 因此，您「不」應該設定 [採用參考完整性]。
    
    ![Orders 資料表和 Customers 資料表的螢幕擷取畫面。](media/desktop-assume-referential-integrity/assume-referential-integrity_4.png)

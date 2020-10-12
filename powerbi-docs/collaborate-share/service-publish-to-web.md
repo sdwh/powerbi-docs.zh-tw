@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: how-to
 ms.date: 09/18/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7009b4b195c89659c032b578ada130e12389b496
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: cea4af4a8c265e5195a8239bd592c8734e332255
+ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858845"
+ms.lasthandoff: 09/26/2020
+ms.locfileid: "91375158"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Power BI 的 [發行至 Web]
 
@@ -161,14 +161,14 @@ ms.locfileid: "90858845"
 
 Power BI 系統管理員入口網站有控制誰可發行至 Web 的設定。 與您組織的 [Power BI 系統管理員](../admin/service-admin-role.md)合作，變更系統管理員入口網站中的[發行至 Web 租用戶設定](../admin/service-admin-portal.md#publish-to-web)。
 
-針對註冊 Power BI 的小型組織或個人，您可能還沒有 Power BI 管理員。 請遵循我們的[租用戶系統管理員接管程序](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)。 在您有 Power BI 管理員之後，他們便能為您啟用建立內嵌程式碼的能力。
+針對註冊 Power BI 的小型組織或個人，您可能還沒有 Power BI 管理員。 請遵循[系統管理員接管程序](/azure/active-directory/users-groups-roles/domains-admin-takeover)。 在您有 Power BI 管理員之後，他們便能為您啟用建立內嵌程式碼的能力。
 
 已建立的組織通常已經有 Power BI 管理員。 擔任下列任一角色的人員都可以作為 Power BI 管理員：
 
 - 全域管理員
 - 在 Azure Active Directory 中具有 Power BI 服務管理員角色的使用者
 
-您要在組織中[找到這群人的其中一員](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，要求其在系統管理員入口網站中更新 [發行至 Web 租用戶設定](../admin/service-admin-portal.md#publish-to-web)。
+您要在組織中[找到這群人的其中一員](/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business)，要求其在系統管理員入口網站中更新 [發行至 Web 租用戶設定](../admin/service-admin-portal.md#publish-to-web)。
 
 ## <a name="limitations"></a>限制
 
@@ -196,5 +196,3 @@ Power BI 服務大部分的資料來源及報表都支援 [發行至 Web]。 不
 - [在安全入口網站或網站中內嵌報告](service-embed-secure.md)
 
 有其他問題嗎？ [試試 Power BI 社群](https://community.powerbi.com/)
-
-

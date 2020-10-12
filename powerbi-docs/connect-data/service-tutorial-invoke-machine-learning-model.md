@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 35c20a11c4b446bd3a2636deaeb4c5ee9c2d797b
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: a5cfbfe52ec8b4e0d9eec07844a3eaa7f9447ded
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90861007"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600395"
 ---
 # <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>教學課程：在 Power BI 中叫用 Machine Learning Studio (傳統) 模型 (預覽)
 
@@ -45,7 +45,7 @@ ms.locfileid: "90861007"
 
 登入 [Azure 入口網站](https://portal.azure.com)，然後瀏覽至 [訂用帳戶]  頁面，您可以使用導覽窗格功能表中的 [所有服務]  清單找到該頁面。
 
-![Azure 入口網站](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
+![顯示 Azure 入口網站的螢幕擷取畫面，其中已選取 [訂用帳戶]。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_01.png)
 
 選取您用於發行模型的 Azure 訂用帳戶，然後選取 [存取控制 (IAM)]  。 接著，依序選取 [新增角色指派]  和 [讀者]  角色，然後選取 Power BI 使用者。 完成時，請選取 [儲存]  。 下圖顯示這些選取項目。
 
@@ -95,7 +95,7 @@ ms.locfileid: "90861007"
 
 Power Query 編輯器會從 CSV 檔案中顯示資料的預覽。 從命令功能區選取 [轉換資料表]  ，然後選取 [使用第一個資料列作為標頭]  。  這會將 [已升階標頭]  查詢步驟新增到右側的 [套用的步驟]  窗格。 您也可以使用右側的窗格，將查詢重新命名為更容易記得的名稱，例如 _Automobile Pricing_。
 
-![Azure 入口網站](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
+![Power Query 編輯器的螢幕擷取畫面，其中顯示了資料預覽。](media/service-tutorial-invoke-machine-learning-model/tutorial-invoke-machine-learning-model_09.png)
 
 我們的來源資料集將未知的值設定為 '?'。  若要清除這種情況，我們可以將 '?' 取代為 '0'，以避免稍後為求簡化而發生的錯誤。  若要這樣做，按一下資料行標頭的名稱，選取 *normalized-losses*、*bore*、*stroke*、*compression-ratio*、*horsepower*、*peak-rpm* 和 *price* 資料行，然後按一下 [轉換資料行]，並選取 [取代值]。  將 '?' 取代為 '0'。
 

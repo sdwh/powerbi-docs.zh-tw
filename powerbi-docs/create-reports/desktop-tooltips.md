@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 78aac3b12abc0e055094078c59f39911a026e797
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 8e794ecc67f7873efb1ee5750f55aefb3d93b40b
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85238493"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600314"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>在 Power BI Desktop 中根據報表頁面建立工具提示
 您可以建立視覺化的豐富**報表工具提示**，它們是您在 **Power BI Desktop** 中根據報表頁面所建立的，當您將滑鼠停留在視覺效果上時就會顯示。 透過建立作為工具提示的報表頁面，您的自訂工具提示可以包含視覺效果、影像和任何其他您在報表頁面中建立的項目集合。 
@@ -46,7 +46,7 @@ ms.locfileid: "85238493"
 
 您可以在這裡建立您希望顯示在工具提示中的任何視覺效果。 在下圖中，工具提示頁面上有兩張卡片和一個群組橫條圖，加上頁面本身的背景色彩以及每個視覺效果的背景，就成了我們想要的外觀。
 
-![Power BI Desktop 的報表工具提示](media/desktop-tooltips/desktop-tooltips_06.png)
+![顯示自訂報表工具提示的螢幕擷取畫面。](media/desktop-tooltips/desktop-tooltips_06.png)
 
 在您的工具提示報表頁面能夠當成工具提示來使用之前，需要完成很多步驟。 您需要用幾種方法設定工具提示頁面，如下節所述。 
 

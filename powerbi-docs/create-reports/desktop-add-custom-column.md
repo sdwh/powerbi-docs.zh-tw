@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 10/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b898b205ef9d85f8c0a4951f147339f8d315db1e
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 2074094f910efa36d449d8f54ada097d253bb2dd
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855395"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91598920"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>在 Power BI Desktop 中新增自訂資料行
 
@@ -22,7 +22,7 @@ ms.locfileid: "90855395"
 
 當您在查詢編輯器中建立自訂資料行時，Power BI Desktop 會在查詢的 [查詢設定]  中，將其新增為 [套用的步驟]  。 您可以隨時進行變更、移動或修改。
 
-![[新增自訂資料行] 頁面](media/desktop-add-custom-column/add-custom-column_01.png)
+![顯示 [新增自訂資料行] 對話方塊的螢幕擷取畫面。](media/desktop-add-custom-column/add-custom-column_01.png)
 
 ## <a name="use-query-editor-to-add-a-custom-column"></a>使用查詢編輯器新增自訂資料行
 
@@ -51,7 +51,7 @@ ms.locfileid: "90855395"
 
 - [PowerQuery M 公式查詢](/powerquery-m/power-query-m-function-reference)，位於 [自訂資料行公式]  方塊中。 您可以建置用來定義新自訂資料行的公式來建立這些查詢。 
 
-   ![[新增自訂資料行] 頁面](media/desktop-add-custom-column/add-custom-column_03.png)
+   ![顯示 [新增自訂資料行] 對話方塊的螢幕擷取畫面，其中包含可加以選擇的可用資料行。](media/desktop-add-custom-column/add-custom-column_03.png)
 
 ## <a name="create-formulas-for-your-custom-column"></a>為您的自訂資料行建立公式
 

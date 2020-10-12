@@ -9,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/06/2020
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 02ffd0881344c8f2bef45301c25e363981d64646
-ms.sourcegitcommit: cff93e604e2c5f24e0f03d6dbdcd10c2332aa487
+ms.openlocfilehash: e8c6ed4476a1bd5236d838610da624f5dde4fb4c
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90965355"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600486"
 ---
 # <a name="tutorial-analyze-facebook-data-by-using-power-bi-desktop"></a>教學課程：使用 Power BI Desktop 來分析 Facebook 資料
 
@@ -128,7 +128,7 @@ ms.locfileid: "90965355"
    
    載入資料之後，資料會在 [報表]  檢視中顯示為 [欄位]  窗格中的新查詢。
    
-   ![新增查詢](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
+   ![螢幕擷取畫面，其中顯示稱為 Query1 的查詢其可用欄位。](media/desktop-tutorial-facebook-analytics/fb-newquery.png)
    
 ## <a name="use-the-data-in-report-visualizations"></a>在報表視覺效果中使用資料 
 
@@ -138,7 +138,7 @@ ms.locfileid: "90965355"
 
 1. 在 Power BI Desktop [報表]  檢視中，從 [欄位]  窗格選取 [訊息]  ，或將其拖曳至報表畫布。 畫布上會出現一個顯示所有貼文訊息的資料表。 
    
-   ![新增查詢](media/desktop-tutorial-facebook-analytics/table-viz.png)
+   ![顯示 [報表] 檢視的螢幕擷取畫面，其中包含訊息清單。](media/desktop-tutorial-facebook-analytics/table-viz.png)
    
 2. 選取該資料表之後，也請選取 [欄位]  窗格中的 [Number of comments] \(留言數目\)  ，或將其拖曳到資料表。 
    

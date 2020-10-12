@@ -5,16 +5,16 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: how-to
 ms.date: 05/11/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: dddc90ee30ff58269c723d247a6c0a9fe3718683
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: ddaafaf175e2cb083e8e8eb494c156f0e9de8e0f
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90855073"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633132"
 ---
 # <a name="power-bi-premium-metrics-app"></a>Power BI Premium 計量應用程式
 
@@ -61,7 +61,7 @@ ms.locfileid: "90855073"
 
 這裡提供兩個案例說明，只要在報表頁面上選取 [案例 1]  或 [案例 2]  ，即可顯示說明。 
 
-![作用中記憶體詳細資料頁面](media/service-premium-metrics-app/premium-metrics-app-03.png)
+![顯示使用中記憶體詳細資料頁面的螢幕擷取畫面。](media/service-premium-metrics-app/premium-metrics-app-03.png)
 
 與每個案例相關聯的疑難排解指南會提供計量所代表意義的詳細說明，因此您可以進一步了解容量的狀態，以及可以執行哪些動作來緩解任何問題。 
 
@@ -116,7 +116,7 @@ ms.locfileid: "90855073"
 
 若要判斷是否有足夠的記憶體可供容量完成工作負載，可以參考位於頁面頂端的 **A：耗用記憶體百分比**視覺效果，它代表目前處理中的資料集所耗用而無法收回的記憶體。 黑色虛線會反白顯示趨勢。 在有記憶體壓力的容量中，相同的視覺效果會清楚地顯示記憶體趨勢線 (黑色虛線)，這表示可能會導致其他資料集無法在該時間點載入到記憶體中。 趨勢線 (黑色虛線) 會根據七天的資料顯示成長趨勢。 
 
-![作用中記憶體詳細資料頁面](media/service-premium-metrics-app/premium-metrics-app-07.png)
+![顯示案例二使用中記憶體詳細資料頁面的螢幕擷取畫面。](media/service-premium-metrics-app/premium-metrics-app-07.png)
 
 #### <a name="diagnosing-scenario-two"></a>診斷案例 2
 
@@ -267,7 +267,7 @@ ms.locfileid: "90855073"
 
 若要診斷案例 1，請先判斷節流是否是因為記憶體不足所致。 判斷步驟如下所示。
 
-1.    從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
+1. 從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
 
     ![資料表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 
@@ -310,7 +310,7 @@ ms.locfileid: "90855073"
 
 若要診斷第 2 個案例，請先判斷是否是因為同時執行的重新整理數達到上限而發生節流。 判斷步驟如下所示。
 
-1.    從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
+1. 從**資料表 A**按一下您想進一步了解的資料集來將它選取： 
 
     ![資料表 A](media/service-premium-metrics-app/premium-metrics-app-22.png)
 

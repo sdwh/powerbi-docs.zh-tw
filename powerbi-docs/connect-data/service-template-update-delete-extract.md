@@ -8,12 +8,12 @@ ms.subservice: powerbi-template-apps
 ms.topic: how-to
 ms.date: 05/04/2020
 ms.author: painbar
-ms.openlocfilehash: d32e1223a335fc6bf2fdf52598f1e1bdf3d7a685
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: c5bed13799824a0222b2961595108536f66133ee
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90860524"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634933"
 ---
 # <a name="update-delete-and-extract-template-app"></a>更新、刪除及擷取範本應用程式
 
@@ -23,11 +23,11 @@ ms.locfileid: "90860524"
 如果您已在 Power BI Desktop 中進行變更，請從步驟 (1) 開始。 如果您未在 Power BI Desktop 中進行變更，請從步驟 (4) 開始。
 
 1. 上傳更新的資料集，並覆寫現有的資料集。 **請務必使用完全相同的資料集名稱**。 使用不同名稱將會為正在更新應用程式的使用者建立新的資料集。
-![覆寫資料集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
+![顯示 Power BI 更新範本應用程式的螢幕擷取畫面，其中已選取資料集。](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset.png)
 1. 從您的電腦匯入 pbix 檔案。
-![覆寫資料集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
+![顯示 [取得資料] 頁面的螢幕擷取畫面，其中已在 [檔案] 下方彈出 [取得]。](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset2.png)
 1. 確認覆寫。
-![覆寫資料集](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
+![顯示確認具備相同名稱資料集已存在的訊息，以及取代該資料集選項的螢幕擷取畫面。](media/service-template-apps-update-extract-delete/power-bi-template-app-upload-dataset3.png)
 
 1. 在 [發行管理]  窗格中，選取 [建立應用程式]  。
 1. 返回再執行應用程式建立程序。
@@ -64,7 +64,8 @@ ms.locfileid: "90860524"
 
 1. 在 [發行管理] 窗格中，按 [(...)]  (更多)，然後按 [擷取]  。
 
-    ![擷取範本應用程式版本](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png) ![擷取範本應用程式版本](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
+    ![顯示 [版本管理] 窗格的螢幕擷取畫面，其中已選取功能表中的 [擷取]。](media/service-template-apps-update-extract-delete/power-bi-template-app-extract.png)
+    ![顯示確認擷取此應用程式訊息的螢幕擷取畫面。](media/service-template-apps-update-extract-delete/power-bi-template-app-extract-dialog.png)
 2. 在對話方塊中，輸入所擷取工作區的名稱。 將會新增新的工作區。
 
 新的工作區版本設定會重設，您可以繼續從新擷取的工作區開發和散發範本應用程式。
@@ -73,9 +74,9 @@ ms.locfileid: "90860524"
 範本工作區是使用中分散式範本應用程式的來源。 為了保護範本應用程式使用者，若未先移除工作區中建立的所有應用程式版本，便無法刪除工作區。
 刪除應用程式版本時，也會刪除無法再運作的應用程式 URL。
 
-1. 在 [發行管理] 窗格中，按下選取省略符號 [(...)]  ，然後按 [刪除]  。
- ![刪除範本應用程式版本](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
- ![刪除範本應用程式版本](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
+1. 在 [發行管理] 窗格中，按下選取省略符號 [(...)]****，然後按 [刪除]****。
+ ![顯示 [版本管理] 窗格的螢幕擷取畫面，其中已選取功能表中的 [刪除]。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete.png)
+ ![顯示確認刪除此應用程式訊息的螢幕擷取畫面。](media/service-template-apps-update-extract-delete/power-bi-template-app-delete-dialog.png)
 
 >[!NOTE]
 >請勿刪除客戶或 **AppSource** 正在使用的應用程式版本，否則它們將無法再運作。

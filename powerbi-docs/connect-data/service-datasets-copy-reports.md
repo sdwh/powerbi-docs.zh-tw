@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 04/30/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b6f5b1250604f435a49fe6310193eeb80da16763
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 86c663e7b9ba035af6592dc10972d868344df7f7
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236813"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633200"
 ---
 # <a name="copy-reports-from-other-workspaces"></a>複製其他工作區的報表
 
@@ -82,7 +82,7 @@ ms.locfileid: "85236813"
 
 1. 在 [報表] 清單檢視中，選取 [檢視相關項目]。
 
-    ![檢視相關項目圖示](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
+    ![顯示 [動作] 下方與 [檢視] 相關圖示的螢幕擷取畫面。](media/service-datasets-copy-reports/power-bi-dataset-view-related.png)
 
 1. [相關內容] 對話方塊會顯示所有相關項目。 在此清單中，資料集彼此看起來都差不多。 您無法分辨它是否位在不同的工作區中。 此為已知問題。
  
@@ -98,7 +98,7 @@ ms.locfileid: "85236813"
 
 2. 在資料集清單中，您會看到共用資料集沒有**刪除**圖示。 請重新整理該頁面，或是移至不同的頁面再返回。 該資料集將會消失。 如果沒有，請檢查 [檢視相關項目]。 它可能與工作區中的另一個資料表相關聯。
 
-    ![檢視相關項目圖示](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
+    ![顯示資料集的螢幕擷取畫面，其中包含用來檢查相關資料表的 [檢視] 相關選項。](media/service-datasets-across-workspaces/power-bi-dataset-view-related-icon.png)
 
     > [!NOTE]
     > 刪除此工作區中的共用資料集並不會實際刪除該資料集。 系統只會刪除對它的參考。

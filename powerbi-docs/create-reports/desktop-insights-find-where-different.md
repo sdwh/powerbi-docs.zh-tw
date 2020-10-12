@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 975a7304e61042e408d732aa1c85bfed184f75f5
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 3db27630da230ee1805386b039916181e993d412
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85239156"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632518"
 ---
 # <a name="apply-insights-in-power-bi-desktop-to-discover-where-distributions-vary-preview"></a>套用 Power BI Desktop 中的見解以找出分佈的不同之處 (預覽)
 
@@ -110,27 +110,29 @@ ms.locfileid: "85239156"
 
 在可用時間內，不一定會查看模型中的所有資料行，因此不保證會顯示最具影響力的資料行和值。 不過，會採用各種不同的啟發學習法，以確保先檢查最可能的資料行。 例如，假設在查看所有資料行之後，判斷下列資料行/值對分佈的影響最大，則從最具影響力到最不具影響力：
 
-    Subcategory = Touring Bikes
-    Channel = Direct
-    Subcategory = Mountain Bikes
-    Subcategory = Road Bikes
-    Subcategory = Kids Bikes
-    Channel = Store
+```console
+Subcategory = Touring Bikes
+Channel = Direct
+Subcategory = Mountain Bikes
+Subcategory = Road Bikes
+Subcategory = Kids Bikes
+Channel = Store
+```
 
 這些會依資料行順序輸出，如下所示：
 
-    Subcategory: Touring Bikes, Mountain Bikes, Road Bikes (only three listed, with the text including “...amongst others” to indicate that more than three have a significant impact) 
+* 子類別：旅行自行車、登山自行車、公路自行車 (只列出三個，其中的文字包含「等等」，指出具有重大影響的超過三個) 
 
-    Channel = Direct (only Direct listed, if it’s level of impact was much greater than Store)
+* [通道] = [直接] (若其影像程度遠大於 [儲存]，則只會列出 [直接])
 
 ## <a name="considerations-and-limitations"></a>考量與限制
-下列清單是目前「深入解析」  不支援的案例集合：
+下列清單是目前「深入解析」**** 不支援的案例集合：
 
 * TopN 篩選
 * 量值篩選
 * 非數字量值
 * 使用「顯示值為」
-* 篩選的量值 - 所篩選量值為已套用特定篩選的視覺效果層級計算 (例如「法國總銷售額」  )，並用於見解功能所建立的其中一些視覺效果
+* 篩選的量值 - 所篩選量值為已套用特定篩選的視覺效果層級計算 (例如「法國總銷售額」)，並用於見解功能所建立的其中一些視覺效果
 
 此外，深入解析目前不支援下列模型類型和資料來源：
 

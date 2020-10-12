@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/01/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 51871e9653a1f3d0d48f25de33d4a72603695cf4
-ms.sourcegitcommit: c18130ea61e67ba111be870ddb971c6413a4b632
+ms.openlocfilehash: 1b0b677e67fa15906492fbaa41fcfd456d77bf01
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86161782"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91633875"
 ---
 # <a name="buttons-in-the-power-bi-service"></a>Power BI 服務中的按鈕
 在從同事收到的報表中，您可能會注意到其中包含按鈕，且會好奇如何使用這些按鈕。 有些按鈕包含單字，有些則包含箭號，其他則包含圖形，甚至有些還有下拉式功能表。 本文會教導您如何辨識按鈕，以及如何釐清這些按鈕的使用方式。
@@ -31,11 +31,11 @@ ms.locfileid: "86161782"
 1. 在橫條圖中選取 **Word**。
 1. 選取 [鑽研]，然後選擇 [購物籃分析]。
 
-    ![[返回] 按鈕的螢幕擷取畫面](media/end-user-buttons/power-bi-drillthrough.png)
+    ![[鑽研] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-drillthrough.png)
 
     透過選擇 [購物籃分析]，Power BI 會開啟 [購物籃分析] 報表頁面，然後使用在來源頁面上選取的項目來篩選在目的地頁面上所顯示內容。
 
-    ![[返回] 按鈕的螢幕擷取畫面](media/end-user-buttons/power-bi-go-back.png)
+    ![[返回] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-go-back.png)
 
     您現在正在 [購物籃分析] 報表頁面，其已針對 Word 進行篩選。 若要返回上一個頁面，請選取 [返回] 按鈕。 
 
@@ -60,15 +60,15 @@ ms.locfileid: "86161782"
 
 以下鑽研按鈕會帶您前往 [商店詳細資料] 頁面。 將滑鼠暫留在按鈕上會顯示工具提示，讓我們知道需要同時選取商店和產品。 直到我們選取各一個項目，按鈕都會維持在非使用中狀態。
 
-![包含暫留工具提示的 [鑽研] 按鈕螢幕擷取畫面](media/end-user-buttons/power-bi-drill-two-selections.png)
+![[鑽研] 按鈕的螢幕擷取畫面，且具有暫留工具提示。](media/end-user-buttons/power-bi-drill-two-selections.png)
 
 現在已選取一項產品 (**Word**)，以及一間商店 (**Leo**)，按鈕會變更色彩，讓我們知道按鈕現在已處於作用中狀態。
 
-![包含暫留工具提示的 [鑽研] 按鈕螢幕擷取畫面](media/end-user-buttons/power-bi-select-both.png)
+![[鑽研至市集詳細資料] 按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-select-both.png)
 
 選取鑽研按鈕會帶我們前往 [商店] 報表頁面。 [報表] 頁面已針對我們選取的 **Word** 和 **Leo** 進行篩選。
 
-![包含暫留工具提示的 [鑽研] 按鈕螢幕擷取畫面](media/end-user-buttons/power-bi-store.png)
+![市集報表頁面的螢幕擷取畫面。](media/end-user-buttons/power-bi-store.png)
 
 鑽研按鈕也包含下拉式功能表，其可供選擇目的地。 當在來源報表頁面上進行選取後，請選取目的地報表頁面進行鑽研。 在以下範例中，我們正在將選取項目變更為鑽研至 [市場詳細資料] 報表頁面。 
 
@@ -78,13 +78,13 @@ ms.locfileid: "86161782"
 
 頁面導覽按鈕會帶您前往相同報表中的不同頁面。 報表設計人員通常會建立導覽按鈕來告知一段故事，或引導您使用報表見解。 在以下範例中，報表設計人員會在每個報表頁面上新增按鈕，其會帶您前往報表中第一個，也就是最上層的摘要頁面。 這個頁面導覽按鈕相當有幫助，因為報表中有許多頁面。
 
-![名為 Team 計分卡頁面導覽按鈕的螢幕擷取畫面](media/end-user-buttons/power-bi-nav-button.png)
+![名為 Team 計分卡頁面導覽按鈕的螢幕擷取畫面。](media/end-user-buttons/power-bi-nav-button.png)
 
 
 ## <a name="qa-buttons"></a>問與答按鈕 
 選取問與答按鈕會開啟 Power BI [問與答] 總管視窗。 [問與答] 視窗會顯示在報表的頂端，且可透過選取 X 來關閉。[了解問與答](end-user-q-and-a.md)
 
-![名為 Team 計分卡頁面導覽按鈕的螢幕擷取畫面](media/end-user-buttons/power-bi-qna.png)
+![Power BI 問與答總管視窗的螢幕擷取畫面，其中包含「詢問您資料相關問題」的文字。](media/end-user-buttons/power-bi-qna.png)
 
 ## <a name="web-url"></a>Web URL
 Web URL 按鈕會開啟新的瀏覽器視窗。 報表設計人員可將這種按鈕類型作為參考來源新增、連結到公司網站，或作為不同報表或儀表板的連結。 在以下範例中，Web URL 按鈕可供下載報表的原始檔。 

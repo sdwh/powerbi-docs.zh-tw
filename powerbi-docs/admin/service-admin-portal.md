@@ -6,16 +6,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: how-to
-ms.date: 09/03/2020
+ms.date: 09/25/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f52993c3876db5c8f0453fb2e6a25ce0b78af017
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 62c463972d4811bac0c5400da96a88264273a873
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90857948"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600258"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>在系統管理入口網站中管理 Power BI
 
@@ -270,7 +270,7 @@ ms.locfileid: "90857948"
 
 ### <a name="publish-to-web"></a>發行至 Web
 
-身為 Power BI 租用戶的系統管理員，[發行至 Web] 設定可讓您選擇可以建立內嵌程式碼，將報表發行至 Web 的使用者。 這個功能可將報表及其資料提供網上所有人使用。 深入了解[發行至 Web](../collaborate-share/service-publish-to-web.md)。
+身為 Power BI 系統管理員，[發佈到 Web] 設定會提供讓使用者建立內嵌程式碼來將報表發佈到 Web 的選項。 這個功能可將報表及其資料提供網上所有人使用。 深入了解[發行至 Web](../collaborate-share/service-publish-to-web.md)。
 
 > [!NOTE]
 > 僅 Power BI 系統管理員可允許建立新的 [發行至 Web] 內嵌程式碼。 組織可能擁有現有的內嵌程式碼。 請參閱系統管理員入口網站的[內嵌程式碼](service-admin-portal.md#embed-codes)一節，以檢閱目前發行的報表。
@@ -319,7 +319,7 @@ ms.locfileid: "90857948"
 ![匯出至 Excel 設定](media/service-admin-portal/powerbi-admin-portal-export-to-excel-setting.png)
 
 >[!IMPORTANT]
-> 在引進 [匯出至 Excel] 設定之前，匯出至 Excel 檔案是由 [匯出資料] 設定所控制。 因此，在引進 [匯出至 Excel] 設定前已存在的租用戶上，當租用戶系統管理員第一次查看 [匯出至 Excel] 設定時，租用戶系統管理員將會看到其具有「未套用的變更」。 租用戶系統管理員必須套用這些變更，才能使新設定生效。 否則，匯出至 Excel 檔案將會繼續由 [匯出資料] 設定控制。
+> 在引進 [匯出至 Excel] 設定之前，匯出至 Excel 檔案是由 [匯出資料] 設定所控制。 因此，在引進 [匯出至 Excel] 設定前已存在的租用戶上，當 Power BI 系統管理員第一次查看 [匯出至 Excel] 設定時，Power BI 系統管理員將會看到其具有「未套用的變更」。 租用戶系統管理員必須套用這些變更，才能使新設定生效。 否則，匯出至 Excel 檔案將會繼續由 [匯出資料] 設定控制。
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>將報表匯出成 PowerPoint 簡報或 PDF 文件
 
@@ -393,7 +393,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ### <a name="use-arcgis-maps-for-power-bi"></a>使用 ArcGIS Maps for Power BI
 
-組織中的使用者可使用由 Esri 所提供的 ArcGIS Maps for Power BI 視覺效果。 [深入了解](../visuals/power-bi-visualization-arcgis.md)
+組織中的使用者可使用由 Esri 所提供的 ArcGIS Maps for Power BI 視覺效果。 [深入了解](../visuals/power-bi-visualizations-arcgis.md)
 
 ### <a name="use-global-search-for-power-bi-preview"></a>為 Power BI 使用全域搜尋 (預覽)
 
@@ -401,11 +401,11 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ## <a name="featured-tables-settings"></a>精選資料表設定
 
-在 [租用戶設定] 下，[允許連線至精選資料表] 租用戶設定可讓 Power BI 系統管理員控制組織中哪些人員可以使用 Excel 資料類型資源庫中的精選資料表。 
+在 [租用戶設定] 下，[允許連線至精選資料表] 設定可讓 Power BI 系統管理員控制組織中哪些人員可使用 Excel 資料類型資源庫中的精選資料表。 
 
 :::image type="content" source="media/service-admin-portal/admin-allow-connections-featured-tables.png" alt-text="建立新的工作區體驗":::
 
-如果 [匯出資料] 租用戶設定設為 [停用]，則也會停用對精選資料表的連線。
+如果 [匯出資料] 設定設為 [停用]，則也會停用對精選資料表的連線。
 
 深入閱讀 [Excel 中的 Power BI 精選資料表](../collaborate-share/service-excel-featured-tables.md)。
 
@@ -586,7 +586,7 @@ Azure AD B2B 來賓使用者可編輯及管理組織中的內容。 [深入了�
 
 ## <a name="manage-featured-content"></a>管理精選內容
 
-身為租用戶系統管理員，您可以管理所有已推廣到組織中 Power BI 首頁精選區段的報表、儀表板和應用程式。
+身為 Power BI 系統管理員，您可管理所有已推廣到組織中 Power BI 首頁精選區段的報表、儀表板和應用程式。
 
 - 在管理入口網站中，選取 [精選內容]。
 

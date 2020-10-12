@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 4ee0db7cae34f9592824e4f315255ff4fcff077b
-ms.sourcegitcommit: 0e9e211082eca7fd939803e0cd9c6b114af2f90a
+ms.openlocfilehash: 3ffa26c0999857df1b249d2866eb5f327e600a82
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "83339781"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91600331"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>在 Power BI Desktop 中使用彙總
 
@@ -53,7 +53,7 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 - Sum
 - 計數表格列
 
-![[管理彙總] 對話方塊](media/desktop-aggregations/aggregations_07.jpg)
+![顯示 [管理彙總] 對話方塊的螢幕擷取畫面。](media/desktop-aggregations/aggregations_07.jpg)
 
 在這個以關聯性為基礎的彙總範例中，GroupBy 項目是選擇性項目。 除了 DISTINCTCOUNT 之外，這些項目不會影響彙總行為，主要是為了方便閱讀。 即使沒有這些 GroupBy 項目，仍會根據關聯性叫用彙總。 這不同於本文稍後的[巨量資料範例](#aggregation-based-on-groupby-columns)，其中的 GroupBy 項目是必要項目。
 
@@ -144,11 +144,11 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 
 如需 [雙重] 儲存模式的詳細資訊，請參閱[管理 Power BI Desktop 中的儲存模式](desktop-storage-mode.md)。
 
-### <a name="strong-vs-weak-relationships"></a>強與弱關聯性
+### <a name="regular-vs-limited-relationships"></a>一般與有限關聯性
 
-根據關聯性叫用彙總需要強關聯性。
+根據關聯性叫用彙總需要一般關聯性。
 
-強關聯性包含下列儲存模式組合，其中兩個資料表都是來自單一來源：
+一般關聯性包含下列儲存模式組合，其中兩個資料表都是來自單一來源：
 
 | 位於「多」  邊的資料表 | 位於單  邊的資料表 |
 | ------------- |----------------------| 
@@ -156,7 +156,7 @@ Power BI 中的「彙總」  可讓您減少資料表大小，以便能夠專注
 | 匯入        | 匯入或雙重       | 
 | DirectQuery   | DirectQuery 或雙重  | 
 
-只有在兩個資料表都設為 [匯入] 的情況下，才會將「跨來源」  關聯性視為強。 多對多關聯性一律視為弱。
+只有在兩個資料表都設為 [匯入] 的情況下，才會將「跨來源」關聯性視為一般關聯性。 多對多關聯性一律會視為有限關聯性。
 
 針對不依靠關聯性的「跨來源」  彙總叫用，請參閱[以 GroupBy 資料行為基礎的彙總](#aggregation-based-on-groupby-columns)。 
 
@@ -244,11 +244,11 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免大型資料
 
 下列查詢不會叫用彙總，因為彙總資料表未涵蓋 **CalendarDay**。
 
-![不會叫用彙總的查詢範例](media/desktop-aggregations/aggregations-code_10.jpg)
+![顯示查詢文字的螢幕擷取畫面，其中包含 CalendarDay。](media/desktop-aggregations/aggregations-code_10.jpg)
 
 下列時間智慧查詢不會叫用彙總，因為 DATESYTD 函式會產生 **CalendarDay** 值的資料表，但彙總資料表並未涵蓋 **CalendarDay**。
 
-![不會叫用彙總的查詢範例](media/desktop-aggregations/aggregations-code_11.jpg)
+![顯示查詢文字的螢幕擷取畫面，其中包含 DATESYTD 函式。](media/desktop-aggregations/aggregations-code_11.jpg)
 
 ## <a name="aggregation-precedence"></a>彙總優先順序
 
@@ -271,7 +271,7 @@ Hadoop 巨量資料模型的特性不同於維度模型。 為避免大型資料
 
 **Detail Table** 資料行中指定的資料表是 **Driver Activity**，而非 **Driver Activity Agg**，因為不允許鏈結彙總。
 
-![[管理彙總] 對話方塊](media/desktop-aggregations/aggregations_14.jpg)
+![顯示 [管理彙總] 對話方塊的螢幕擷取畫面，其中已彈出優先順序。](media/desktop-aggregations/aggregations_14.jpg)
 
 下表顯示 **Driver Activity Agg 2** 資料表的彙總。
 

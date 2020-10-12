@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2020
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe44b183b77cb1e58c89cfd229f3f76d3b06ce39
-ms.sourcegitcommit: 3268a9b630cf599c50592d83c70a87eeecf7838f
+ms.openlocfilehash: f5b930ade7e0ae4e58977ba33dc725c6f1e34695
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88168443"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91635876"
 ---
 # <a name="use-the-analyze-feature-to-explain-fluctuations-in-report-visuals"></a>使用分析功能來說報表視覺效果中的波動
 
@@ -50,7 +50,7 @@ Power BI 接著會對資料執行其機器學習演算法，並於視窗中填�
 
 選取瀑布圖視覺效果底部的小圖示，即可選擇要讓深入解析顯示散佈圖、堆疊直條圖，或功能區圖表。
 
-![三個見解視覺效果](media/end-user-analyze-visuals/power-bi-options.png)
+![顯示視覺效果底部圖示的螢幕擷取畫面。](media/end-user-analyze-visuals/power-bi-options.png)
 
 使用頁面頂端的 [喜歡] 與 [不喜歡] 圖示，來提供視覺效果與功能的意見反應。  
 
@@ -59,7 +59,7 @@ Power BI 接著會對資料執行其機器學習演算法，並於視窗中填�
 
 當報表處於閱讀模式或編輯檢視時，您都可以使用見解，讓分析資料及建立可輕鬆新增至報表之視覺效果的作業更加多元。 如果您在 [編輯] 檢視中開啟報表，您會在拇指圖示旁看到加號圖示。 選取加號圖示，將您的報表見解加入為新的視覺效果。 
 
-![三個見解視覺效果](media/end-user-analyze-visuals/power-bi-add-visual.png)
+![顯示用來新增見解加號圖示的螢幕擷取畫面。](media/end-user-analyze-visuals/power-bi-add-visual.png)
 
 ## <a name="details-of-the-results-returned"></a>所傳回結果的詳細資料
 

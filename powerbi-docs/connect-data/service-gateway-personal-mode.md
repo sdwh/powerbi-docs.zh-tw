@@ -9,12 +9,12 @@ ms.topic: how-to
 ms.date: 07/15/2019
 ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2c65adfaee96eee61e1494f730b752d12020ab4
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 96c7a12e556fde805178bceabfe86f9eff8b9d5c
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85236160"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91632564"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>在 Power BI 中使用個人閘道
 
@@ -31,13 +31,13 @@ ms.locfileid: "85236160"
 
 |   |內部部署的資料閘道 | 內部部署資料閘道 (個人模式) |
 | ---- | ---- | ---- |
-|支援雲端服務 |Power BI、PowerApps、Azure Logic Apps、Power Automate、Azure Analysis Services、資料流程 |Power BI |
-|執行 |如具有閘道存取權的使用者所設定 |如同您用於 Windows 驗證，且如同您為其他驗證類型所設定 |
-|只能以電腦系統管理員身分安裝 |是 |否 |
-|集中式閘道和資料來源管理 |是 |否 |
-|匯入資料並排程重新整理 |是 |是 |
-|DirectQuery 支援 |是 |否 |
-|Analysis Services 的 LiveConnect 支援 |是 |否 |
+|**支援雲端服務** |Power BI、PowerApps、Azure Logic Apps、Power Automate、Azure Analysis Services、資料流程 |Power BI |
+|**執行** |如具有閘道存取權的使用者所設定 |如同您用於 Windows 驗證，且如同您為其他驗證類型所設定 |
+|**只能以電腦系統管理員身分安裝** |是 |否 |
+|**集中式閘道和資料來源管理** |是 |否 |
+|**匯入資料並排程重新整理** |是 |是 |
+|**DirectQuery 支援** |是 |否 |
+|**Analysis Services 的 LiveConnect 支援** |是 |否 |
 
 ## <a name="install-the-on-premises-data-gateway-personal-mode"></a>安裝內部部署資料閘道 (個人模式)
 

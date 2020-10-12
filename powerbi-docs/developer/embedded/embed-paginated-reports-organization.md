@@ -1,6 +1,6 @@
 ---
 title: 為組織在應用程式中內嵌 Power BI 編頁報表
-description: 了解如何使用 Power BI API，將 Power BI 編頁報表整合或內嵌至應用程式。
+description: 在本教學課程中，了解如何使用 Power BI API 將 Power BI 編頁報表整合或內嵌到應用程式。
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.date: 06/25/2020
-ms.openlocfilehash: 1c348cbf74e6bc2999383bc5a5c031576a293ac2
-ms.sourcegitcommit: 0d0ab427bb71b37c9e5170c515a8f274e1f20c17
+ms.openlocfilehash: 0d52dd7df774dd834d0356e6de57b9c80beab801
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "87878748"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91747612"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-organization"></a>教學課程：為組織將 Power BI 編頁報表內嵌至應用程式
 
 在 **Power BI** 中，您可以使用「使用者擁有資料」案例，為組織將編頁報表內嵌至應用程式。
 
 編頁報表是設計用來進行高品質列印的報表。 這些報表通常會包含很多資料，並以可讓其符合列印頁面的方式呈現。
-若要了解 Power BI 支援編頁報表的方式，請參閱[什麼是 Power BI Premium 中的編頁報表？](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
+若要了解 Power BI 支援編頁報表的方式，請參閱[什麼是 Power BI Premium 中的編頁報表？](../../paginated-reports/paginated-reports-report-builder-power-bi.md)
 
 **使用者擁有資料**可讓應用程式延伸 Power BI 服務，使其可用內嵌式分析。 此教學課程示範如何將編頁報表整合至應用程式。
 

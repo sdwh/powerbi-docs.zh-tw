@@ -7,15 +7,15 @@ ms.custom: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: how-to
-ms.date: 10/14/2019
+ms.date: 09/30/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3ae0a9605391ca1230fb0080490e1ef0eadf3d72
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: eae8afc9db44b703ade1a9a4fcc28c24c3d72641
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90858478"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599888"
 ---
 # <a name="create-visuals-and-reports-with-the-azure-cost-management-connector-in-power-bi-desktop"></a>在 Power BI Desktop 中使用 Azure 成本管理連接器建立視覺效果和報表
 
@@ -26,13 +26,17 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 > [!NOTE]
 > 此連接器取代先前可用的 [Azure 使用量見解和 Azure 成本管理搶鮮版 (Beta)](desktop-connect-azure-consumption-insights.md) 連接器。 使用先前連接器建立的任何報表都必須使用此連接器重新建立。
 
+> [!NOTE]
+> 適用於 Power BI Desktop 的 Azure 成本管理連接器不支援連線到政府雲端。 
+
+
 ## <a name="connect-using-azure-cost-management"></a>使用 Azure 成本管理來連線
 
 若要在 Power BI Desktop 中使用 **Azure 成本管理連接器**，請採取下列步驟：
 
-1.  在 [常用]  功能區中，選取 [取得資料]  。
-2.  從資料類別清單選取 [Azure]  。
-3.  選取 [Azure 成本管理]  。
+1.  在 [常用] 功能區中，選取 [取得資料]。
+2.  從資料類別清單選取 [Azure]****。
+3.  選取 [Azure 成本管理]****。
 
     ![取得資料](media/desktop-connect-azure-cost-management/azure-cost-management-00b.png)
 
@@ -43,14 +47,14 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
 若要與 **Microsoft 客戶合約**帳戶連線，您可以從 Azure 入口網站取得您的**帳單設定檔識別碼**：
 
-1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]  。
+1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]。
 2.  選取您的帳單設定檔。 
-3.  在功能表的 [設定]  下，選取側邊欄中的 [屬性]  。
-4.  在 [帳單設定檔]  下，複製**識別碼**。 
-5.  針對 [選擇範圍]  ，請選取 [帳單設定檔識別碼]  並貼上上一個步驟中的帳單設定檔識別碼。 
-6.  輸入月份數，然後選取 [確定]  。
+3.  在功能表的 [設定]**** 下，選取側邊欄中的 [屬性]****。
+4.  在 [帳單設定檔]**** 下，複製**識別碼**。 
+5.  針對 [選擇範圍]****，請選取 [帳單設定檔識別碼]**** 並貼上上一個步驟中的帳單設定檔識別碼。 
+6.  輸入月份數，然後選取 [確定]****。
 
-    ![取得帳單識別碼](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
+    ![顯示 Azure 成本管理屬性的螢幕擷取畫面，其中包含帳單設定檔識別碼的範圍。](media/desktop-connect-azure-cost-management/azure-cost-management-01a.png)
 
 7.  出現提示時，請使用您的 Azure 使用者帳戶與密碼登入。 
 
@@ -59,45 +63,45 @@ Azure 成本管理連接器會使用 OAuth 2.0 來向 Azure 進行驗證，並�
 
 若要與 Enterprise 合約 (EA) 帳戶連線，您可以從 Azure 入口網站取得您的註冊識別碼：
 
-1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]  。
+1.  在 [Azure 入口網站](https://portal.azure.com/)中，瀏覽到 [成本管理 + 計費]。
 2.  選取您的計費帳戶。
-3.  在 [概觀]  功能表上，複製**帳單帳戶識別碼**。
-4.  針對 [選擇範圍]  ，請選取 [註冊號碼]  並貼上上一個步驟中的帳單帳戶識別碼。 
-5.  輸入月份數，然後選取 [確定]  。
+3.  在 [概觀]**** 功能表上，複製**帳單帳戶識別碼**。
+4.  針對 [選擇範圍]****，請選取 [註冊號碼]**** 並貼上上一個步驟中的帳單帳戶識別碼。 
+5.  輸入月份數，然後選取 [確定]****。
 
-    ![取得帳單識別碼](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
+    ![顯示 Azure 成本管理屬性的螢幕擷取畫面，其中包含註冊號碼範圍。](media/desktop-connect-azure-cost-management/azure-cost-management-01b.png)
 
 6.  出現提示時，請使用您的 Azure 使用者帳戶與密碼登入。 
 
 ## <a name="data-available-through-the-connector"></a>透過連接器提供的資料
 
-成功驗證之後，[導覽器]  視窗隨即出現，其中包含下列可用資料表：
+成功驗證之後，[導覽器]**** 視窗隨即出現，其中包含下列可用資料表：
 
 
 
-| **資料表** | **描述** |
+| **Table** | **說明** |
 | --- | --- |
-| **結餘摘要** | Enterprise 合約 (EA) 結餘的摘要。 |
+| **餘額摘要** | Enterprise 合約 (EA) 結餘的摘要。 |
 | **帳單事件** | 新發票、點數購買等的事件記錄檔。僅限 Microsoft 客戶合約。 |
 | **Budgets** | 預算詳細資料，讓您檢視實際成本或現有預算目標的使用情況。 |
-| **費用** | Azure 使用量、市場費用和分別計費費用的月份層級摘要。 僅限 Microsoft 客戶合約。 |
+| **Charges** | Azure 使用量、市場費用和分別計費費用的月份層級摘要。 僅限 Microsoft 客戶合約。 |
 | **整批點數** | 所提供帳單設定檔 Azure 整批購買點數的詳細資料。 僅限 Microsoft 客戶合約。 |
-| **價位表** | 所提供帳單設定檔或 EA 註冊的適用計量費率。 |
+| **價位表** | 所提供帳單設定檔或 EA 註冊適用的計量費率。 |
 | **RI 費用** | 過去 24 個月與您保留執行個體相關聯的費用。 |
 | **RI 建議 (共用)** | 根據您所有訂用帳戶上，過去 7、30 或 60 天使用量趨勢所提供的保留執行個體購買建議。 |
 | **RI 建議 (單一)** | 根據您單一訂用帳戶上，過去 7、30 或 60 天使用量趨勢所提供的保留執行個體購買建議。 |
 | **RI 使用量詳細資料** | 您現有保留執行個體過去一個月的使用詳細資料。 |
-| **RI 使用量摘要** | 每日 Azure 保留使用量百分比。 |
+| **RI 使用量摘要** | 每日 Azure 保留使用量的百分比。 |
 | **使用量詳細資料** | 所指定帳單設定檔 (在 EA 註冊上) 的取用量明細和估計費用。 |
-| **使用量詳細資料攤銷** | 所指定帳單設定檔 (在 EA 註冊上) 的取用量明細和估計攤銷費用。 |
+| **已分攤的使用量詳細資料** | 所指定帳單設定檔 (在 EA 註冊上) 的取用量明細和估計攤銷費用。 |
 
-您可以選取資料表來查看預覽對話方塊。 您可以透過選取資料表名稱旁邊的方塊來選取一或多個資料表，然後選取 [載入]  。
+您可以選取資料表來查看預覽對話方塊。 您可以透過選取資料表名稱旁邊的方塊來選取一或多個資料表，然後選取 [載入]****。
 
-![取得帳單識別碼](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
+![[導覽器] 對話方塊的螢幕擷取畫面。](media/desktop-connect-azure-cost-management/azure-cost-management-01c.png)
 
-當您選取 [載入]  時，資料會載入到 Power BI Desktop。 
+當您選取 [載入] 時，資料會載入到 Power BI Desktop。 
 
-您選取的資料載入後，資料表與欄位會顯示在 [欄位]  窗格中。
+您選取的資料載入後，資料表與欄位會顯示在 [欄位]**** 窗格中。
 
 
 ## <a name="next-steps"></a>後續步驟

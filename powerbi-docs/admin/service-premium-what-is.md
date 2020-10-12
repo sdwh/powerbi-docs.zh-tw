@@ -5,17 +5,17 @@ author: davidiseminger
 ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.subservice: powerbi-premium
 ms.topic: conceptual
 ms.date: 07/28/2020
 ms.custom: licensing support
 LocalizationGroup: Premium
-ms.openlocfilehash: 7f90840284c5b17a118b414db606902789657b7a
-ms.sourcegitcommit: 9350f994b7f18b0a52a2e9f8f8f8e472c342ea42
+ms.openlocfilehash: 7c81f3b624de0692d597cfb6c79f2159a6133593
+ms.sourcegitcommit: 51b965954377884bef7af16ef3031bf10323845f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90854682"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91599000"
 ---
 # <a name="what-is-power-bi-premium"></a>什麼是 Power BI Premium？
 
@@ -30,7 +30,7 @@ ms.locfileid: "90854682"
 > * 無須購買每個使用者的授權，就可與任何人共用資料
 
 
-![管理入口網站](media/service-premium-what-is/premium-admin-portal.png) 
+![Power BI 管理入口網站的螢幕擷取畫面。](media/service-premium-what-is/premium-admin-portal.png) 
 
 本文會介紹 Power BI Premium 中的重要功能。 如有需要，請連結到提供更詳細資訊的其他文章。 如需 Power BI Pro 與 Power BI Premium 的詳細資訊，請參閱 [Power BI 定價](https://powerbi.microsoft.com/pricing/)的「Power BI 功能比較」一節。
 
@@ -139,11 +139,11 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 建立多個容量時，會在[管理入口網站](service-admin-portal.md)中完成大部分的管理工作。
 
-![管理入口網站](media/service-premium-what-is/premium-admin-portal.png)
+![顯示 Power BI 管理入口網站的螢幕擷取畫面，其中已選取 [我的工作區]。](media/service-premium-what-is/premium-admin-portal.png)
 
 容量管理員可以將工作區指派給容量、管理使用者權限，以及指派其他管理員。 容量管理員也可以設定工作負載、調整記憶體配置，並在容量超載時視需要重新啟動容量並重設作業。
 
-![管理入口網站](media/service-premium-what-is/premium-admin-portal-mgmt.png)
+![顯示 Power BI 管理入口網站中容量管理的螢幕擷取畫面。](media/service-premium-what-is/premium-admin-portal-mgmt.png)
 
 容量管理員也可以確定容量順暢執行。 他們可以直接在管理入口網站中或使用 Premium 容量計量應用程式來監視容量狀況。
 
@@ -155,7 +155,7 @@ Power BI Premium 訂閱是由管理員在 Microsoft 365 系統管理中心購買
 
 在入口網站中監視可讓您快速檢視高階計量，指出過去七天內您容量所產生之負載與使用的資源量。 
 
-![管理入口網站](media/service-premium-what-is/premium-admin-portal-health.png)
+![顯示 Power BI 管理入口網站中容量健全狀況的螢幕擷取畫面。](media/service-premium-what-is/premium-admin-portal-health.png)
 
 **Power BI Premium 容量計量**應用程式提供您容量如何執行的最深入資訊。 此應用程式提供高階儀表板和更詳細的報表。
 

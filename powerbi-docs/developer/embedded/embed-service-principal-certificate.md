@@ -9,23 +9,23 @@ ms.subservice: powerbi-developer
 ms.topic: how-to
 ms.custom: ''
 ms.date: 06/01/2020
-ms.openlocfilehash: 7caa39ca6fbf196aaa2be4492ab132ad05983f94
-ms.sourcegitcommit: eef4eee24695570ae3186b4d8d99660df16bf54c
+ms.openlocfilehash: 521c705587c10c76dedb731aeae34221244f3a83
+ms.sourcegitcommit: 6bc66f9c0fac132e004d096cfdcc191a04549683
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85231826"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "91749176"
 ---
 # <a name="embed-power-bi-content-with-service-principal-and-a-certificate"></a>搭配服務主體和憑證內嵌 Power BI 內容
 
 [!INCLUDE[service principal overview](../../includes/service-principal-overview.md)]
 
 >[!NOTE]
->建議您使用憑證來保護您的後端服務，而不是使用祕密金鑰。 [深入了解如何使用祕密金鑰或憑證從 Azure AD 取得存取權杖](https://docs.microsoft.com/azure/architecture/multitenant-identity/client-assertion)。
+>建議您使用憑證來保護您的後端服務，而不是使用祕密金鑰。 [深入了解如何使用祕密金鑰或憑證從 Azure AD 取得存取權杖](/azure/architecture/multitenant-identity/client-assertion)。
 
 ## <a name="certificate-based-authentication"></a>憑證式驗證
 
-憑證式驗證可讓您透過 Windows、Android 或 iOS 裝置上或保留在 [Azure Key Vaule](https://docs.microsoft.com/azure/key-vault/basic-concepts) 中的用戶端憑證，獲得 Azure Active Directory (Azure AD) 的驗證。
+憑證式驗證可讓您透過 Windows、Android 或 iOS 裝置上或保留在 [Azure Key Vaule](/azure/key-vault/basic-concepts) 中的用戶端憑證，獲得 Azure Active Directory (Azure AD) 的驗證。
 
 使用這種驗證方法，您就可從集中位置使用 CA 來管理憑證，以進行輪替或撤銷。
 
@@ -49,7 +49,7 @@ ms.locfileid: "85231826"
 
 您可以向受信任的「憑證授權單位」購買憑證，或自行產生憑證。
 
-本節說明如何使用 [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/create-certificate) 來建立憑證，及如何下載包含公開金鑰的 *.cer* 檔案。
+本節說明如何使用 [Azure Key Vault](/azure/key-vault/create-certificate) 來建立憑證，及如何下載包含公開金鑰的 *.cer* 檔案。
 
 1. 登入 [Microsoft Azure](https://ms.portal.azure.com/#allservices)。
 
@@ -63,11 +63,11 @@ ms.locfileid: "85231826"
 
 4. 按一下 [憑證]。
 
-    ![certificates](media/embed-service-principal-certificate/certificates.png)
+    ![顯示金鑰保存庫頁面的螢幕擷取畫面，其中已彈出憑證。](media/embed-service-principal-certificate/certificates.png)
 
 5. 按一下 [產生/匯入]。
 
-    ![generate](media/embed-service-principal-certificate/generate.png)
+    ![顯示憑證窗格的螢幕擷取畫面，其中已彈出 [產生/匯入]。](media/embed-service-principal-certificate/generate.png)
 
 6. 設定**建立憑證**欄位，如下所示：
 
@@ -107,7 +107,7 @@ ms.locfileid: "85231826"
 
 1. 在 Azure AD 應用程式中，按一下 [憑證和祕密] 索引標籤。
 
-     ![應用程式識別碼](media/embed-service-principal/certificates-and-secrets.png)
+     ![顯示 Azure 入口網站中應用程式 [憑證和祕密] 窗格的螢幕擷取畫面。](media/embed-service-principal/certificates-and-secrets.png)
 
 2. 按一下 [上傳憑證]，然後上傳您在本教學課程[第一個步驟](#step-1---create-a-certificate)中建立及下載的 *.cer* 檔案。 該 *.cer* 檔案包含公開金鑰。
 
@@ -175,7 +175,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 
 ## <a name="configure-visual-studio-to-use-msi"></a>設定 Visual Studio 以使用 MSI
 
-在您建立內嵌解決方案時，將 Visual Studio 設為使用受控服務識別 (MSI) 可能會很實用。 [MSI](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/overview) 是一項可讓您管理 Azure AD 身分識別的功能。 設定後，就會讓 Visual Studio 對您的 Azure Key Vault 進行驗證。
+在您建立內嵌解決方案時，將 Visual Studio 設為使用受控服務識別 (MSI) 可能會很實用。 [MSI](/azure/active-directory/managed-identities-azure-resources/overview) 是一項可讓您管理 Azure AD 身分識別的功能。 設定後，就會讓 Visual Studio 對您的 Azure Key Vault 進行驗證。
 
 1. 在 Visual Studio 中，開啟您的專案。
 
@@ -200,7 +200,7 @@ public async Task<AuthenticationResult> DoAuthentication(){
 >[適用於您客戶的 Power BI Embedded](embed-sample-for-customers.md)
 
 >[!div class="nextstepaction"]
->[Azure Active Directory 中的應用程式和服務主體物件](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+>[Azure Active Directory 中的應用程式和服務主體物件](/azure/active-directory/develop/app-objects-and-service-principals)
 
 >[!div class="nextstepaction"]
 >[搭配服務主體使用內部部署資料閘道的資料列層級安全性](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

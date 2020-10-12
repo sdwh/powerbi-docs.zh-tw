@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.date: 07/28/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fdd08c32277dfaa9a619b024a7fb0ece0517f1cb
-ms.sourcegitcommit: a254f6e2453656f6783690669be8e881934e15ac
+ms.openlocfilehash: ed8d93ef905cca6e934ac2100093475136595c9a
+ms.sourcegitcommit: be424c5b9659c96fc40bfbfbf04332b739063f9c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87364092"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91634726"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>在 Power BI Desktop 中使用報表主題
 
@@ -53,11 +53,11 @@ ms.locfileid: "87364092"
 
 1. 從 [檢視] 功能區中，依序選取 [主題] 下拉箭號按鈕和 [切換主題]。
 
-   ![選取報表主題](media/desktop-report-themes/report-themes-02.png)
+   ![顯示已選取 [檢視] 功能區的螢幕擷取畫面，其提供數個佈景主題。](media/desktop-report-themes/report-themes-02.png)
 
 2. 從隨即顯示的下拉式功能表中，選取其中包含的主題。
 
-   ![選取報表主題](media/desktop-report-themes/report-themes-03.png)
+   ![螢幕擷取畫面，其中顯示可供選取的已展開 Power BI 佈景主題。](media/desktop-report-themes/report-themes-03.png)
 
    您的報表主題此時會套用至報表。
 
@@ -600,7 +600,9 @@ Power BI 會追蹤動態數列的色彩，並針對其他視覺效果中的值�
 
 色彩會使用下列格式，其中，自訂十六進位代碼應取代下列範例中的 "FFFFFF"：
 
-    { "solid": { "color": "#FFFFFF" } }
+```json
+{ "solid": { "color": "#FFFFFF" } }
+```
 
 列舉 (最常用於下拉式清單格式選項) 代表它可以設定為窗格中所顯示的任何選項，例如針對圖例位置使用 "RightCenter"，或是針對圓形資料標籤使用 "Data value, percent of total"。 列舉選項會顯示在屬性清單下方。
 
