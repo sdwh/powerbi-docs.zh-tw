@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/25/2020
 ms.author: kfollis
-ms.openlocfilehash: aa69be7cabae3abeeaf1888272389a791909cae7
-ms.sourcegitcommit: 02b5d031d92ea5d7ffa70d5098ed15e4ef764f2a
+ms.openlocfilehash: 20fb1f117432d5c36bfe0c536bc0803871134c95
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2020
-ms.locfileid: "91374859"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91981519"
 ---
 # <a name="service-interruption-notifications"></a>服務中斷通知
 
@@ -70,7 +70,7 @@ Power BI 管理員可在管理入口網站中啟用通知：
 
 ## <a name="service-health-in-microsoft-365"></a>Microsoft 365 中的服務健康情況
 
-本文描述如何透過 Power BI 接收服務通知。 您也可以透過 Microsoft 365 監視 Power BI 服務健康情況。 加入 Microsoft 365 以接收其服務健康情況電子郵件通知。 如需深入了解，請參閱[如何檢查 Microsoft 365 服務健康情況](https://docs.microsoft.com/microsoft-365/enterprise/view-service-health) (機器翻譯)。
+本文描述如何透過 Power BI 接收服務通知。 您也可以透過 Microsoft 365 監視 Power BI 服務健康情況。 加入 Microsoft 365 以接收其服務健康情況電子郵件通知。 如需深入了解，請參閱[如何檢查 Microsoft 365 服務健康情況](/microsoft-365/enterprise/view-service-health) (機器翻譯)。
 
 ## <a name="next-steps"></a>後續步驟
 
