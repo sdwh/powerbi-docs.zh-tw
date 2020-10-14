@@ -8,12 +8,12 @@ ms.topic: include
 ms.date: 09/04/2020
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: b4b73b71a944fbb34d53be05cacc39c18e4226de
-ms.sourcegitcommit: 2cf8159535c114045e236c076a711638cfd7d2c8
+ms.openlocfilehash: 0bf9f1a6eb918e55ab3811b9c6fde2628bdd91ad
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89512804"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983712"
 ---
 |功能   | 系統管理員  | 成員  | 參與者  | 檢視者 |
 |---|---|---|---|---|
@@ -42,6 +42,6 @@ ms.locfileid: "89512804"
 
 <sup>3</sup> 若要複製報表，並根據此工作區的資料集在另一個工作區中建立報表，則需要有[此資料集的建置權限](../connect-data/service-datasets-build-permissions.md)。 具有系統管理員、成員和參與者角色的使用者要透過其工作區角色自動取得建置權限，才能取得此工作區中的資料集。
 
-<sup>4</sup> 請記住，您也需要有閘道的權限。 這些權限是在其他位置管理，不受工作區角色和權限影響。 如需詳細資料，請參閱[管理內部部署閘道](https://docs.microsoft.com/data-integration/gateway/service-gateway-manage) (機器翻譯)。
+<sup>4</sup> 請記住，您也需要有閘道的權限。 這些權限是在其他位置管理，不受工作區角色和權限影響。 如需詳細資料，請參閱[管理內部部署閘道](/data-integration/gateway/service-gateway-manage) (機器翻譯)。
 
 <sup>5</sup> 如果項目位於 Premium 容量的工作區中，則即使沒有 Power BI Pro 授權，您也可以在 Power BI 服務中檢視項目並與其互動。

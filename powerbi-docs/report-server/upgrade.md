@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: how-to
 ms.custom: ''
 ms.date: 09/22/2020
-ms.openlocfilehash: 9267d6318bd951fdff41cb51786a4a519fa75917
-ms.sourcegitcommit: 701dd80661a63c76d37d1e4f159f90e3fc8c3160
+ms.openlocfilehash: 890b3c8124cc1711e08415cdcfda1f51b548fa63
+ms.sourcegitcommit: 02484b2d7a352e96213353702d60c21e8c07c6c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "91136043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91983060"
 ---
 # <a name="upgrade-power-bi-report-server"></a>升級 Power BI 報表伺服器
 
@@ -30,7 +30,7 @@ ms.locfileid: "91136043"
 
 ### <a name="backing-up-the-encryption-keys"></a>備份加密金鑰
 
-第一次設定報表伺服器安裝時，請備份加密金鑰。 每次變更服務帳戶的身分識別或重新命名電腦時，也請備份金鑰。 如需詳細資訊，請參閱[備份和還原 Reporting Services 加密金鑰](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)。
+第一次設定報表伺服器安裝時，請備份加密金鑰。 每次變更服務帳戶的身分識別或重新命名電腦時，也請備份金鑰。 如需詳細資訊，請參閱[備份和還原 Reporting Services 加密金鑰](/sql/reporting-services/install-windows/ssrs-encryption-keys-back-up-and-restore-encryption-keys)。
 
 ### <a name="backing-up-the-report-server-databases"></a>備份報表伺服器資料庫
 
