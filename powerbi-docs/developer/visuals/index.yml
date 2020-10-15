@@ -12,12 +12,12 @@ metadata:
   author: KesemSharabi
   ms.author: kesharab
   ms.date: 31/03/2020
-  ms.openlocfilehash: d68b08f941ebe04c41e29f1260332e6f2b0d332c
-  ms.sourcegitcommit: 7aa0136f93f88516f97ddd8031ccac5d07863b92
+  ms.openlocfilehash: 92eb2ebc5eaff00c5c83cd32b0fa90b631906237
+  ms.sourcegitcommit: 50b21718a167c2b131313b4135c8034c6f027597
   ms.translationtype: HT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/05/2020
-  ms.locfileid: "80516230"
+  ms.lasthandoff: 10/14/2020
+  ms.locfileid: "92049307"
 landingContent:
 - title: 開始使用
   linkLists:
@@ -34,7 +34,7 @@ landingContent:
   - linkListType: tutorial
     links:
     - text: 教學課程：開發 Power BI 視覺效果
-      url: custom-visual-develop-tutorial.md
+      url: develop-circle-card.md
     - text: 教學課程：將格式設定選項新增到 Power BI 視覺效果
       url: custom-visual-develop-tutorial-format-options.md
   - linkListType: concept
@@ -55,5 +55,5 @@ landingContent:
     links:
     - text: Power BI 視覺效果範例
       url: https://microsoft.github.io/PowerBI-visuals/samples/
-    - text: Git 存放庫
+    - text: Git 儲存機制
       url: https://github.com/Microsoft/PowerBI-visuals
