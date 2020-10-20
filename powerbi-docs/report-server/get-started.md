@@ -26,7 +26,7 @@ Power BI 報表伺服器是具有入口網站的內部部署報表伺服器，�
 「Power BI 報表伺服器」與 SQL Server Reporting Services 和 Power BI 線上服務都類似，但方式不同。 和 Power BI 服務一樣，Power BI 報表伺服器能裝載 Power BI 報表 (.pbix)、Excel 檔案及分頁報表 (.rdl)。 和 Reporting Services 相同，Power BI 報表伺服器位於內部部署環境。 Power BI 報表伺服器功能是 Reporting Services 的超集：所有可以在 Reporting Services 中執行的作業，都能透過 Power BI 報表伺服器來執行，同時它也支援 Power BI 報表。 如需詳細資料，請參閱[比較 Power BI 報表伺服器與 Power BI 服務](compare-report-server-service.md)。
 
 ## <a name="licensing-power-bi-report-server"></a>授權 Power BI 報表伺服器
-Power BI 報表伺服器可透過兩個不同的授權取得：含軟體保證的 [Power BI Premium](../admin/service-premium-what-is.md) 和 SQL Server Enterprise Edition。 如需詳細資料，請參閱 [Microsoft 大量授權](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True)。 使用 Power BI Premium 授權時，您可以建立混合了雲端和內部部署環境的混合式部署。
+Power BI 報表伺服器可透過兩個不同的授權取得：[Power BI Premium](../admin/service-premium-what-is.md) 和 含軟體保證的 SQL Server Enterprise Edition。 如需詳細資料，請參閱 [Microsoft 大量授權](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=1&ShowArchived=True)。 使用 Power BI Premium 授權時，您可以建立混合了雲端和內部部署環境的混合式部署。
 
 若要將 Power BI 報表發佈至 Power BI 報表伺服器，您也需要 Power BI Pro 授權。 若要在 Power BI 報表伺服器上檢視 Power BI 報表並與其互動，則不需要 Power BI Pro 授權。
 
